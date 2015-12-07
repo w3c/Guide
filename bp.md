@@ -2,37 +2,21 @@
 
 ## Status
 
-Last updated on 2015/11/25
+Last updated on 2015/12/08
 
 NO OFFICIAL STATUS! Distributed to the W3C Advisory board for discussion
 
 ## Purpose
-
-This best practices document aims to alleviate a number of problems:
-- Criteria for when to take work to the Rec track are unclear.  Is recognition of a problem enough, or should there be a solution on the table?
-- Whatever the criteria may be, they are not applied consistently across domains. 
-- The process for creating working groups is not transparent.  This is sometimes necessary 
- 
-Historically, the main criterion for creating a working group has been recognition of a *problem* that falls within W3C's area of expertise. 
-All too often that resulted in working groups developing solutions that may have been intended to "lead the Web to its full potential" 
-and did not get objections during W3C reviews,  but still did not get widespread adoption on the actual Web.  Clearly W3C Recommendations should describe technologies that 
-are, or are likely to soon be, used to power the World Wide Web.  It is a best practice to consider the degree of support from those who would need to 
-implement, deploy, and use a specification before putting it on the Recommendation track.
 
 This document lists considerations to take into account when evaluating proposals to move specification work
 to the W3C Recommendation track. It tries to strike a balance between two classes of criteria:
 - "empirical" considerations such as whether drafts of the spec have momentum with implementers and early adopters
 - "aspirational" considerations such as whether the spec addresses an un-met need or expands the potential of the Web
 
-In the past, these considerations have been applied differently in different areas of W3C.  Some WGs are firmly grounded in the Empirical criteria 
-and are reluctant to take up work until it has ["matured through an incubation phase"](http://w3c.github.io/charter-html/group-charter.html#deliverables).  
-Other WGs focus on Aspirational criteria, chartered to provide non-normative advice or to develop charters for future normative work.  This disparity 
-creates problems such as the nearly year-long discussion of charters for the WAI working groups that partly hinged on different understandings of the 
-criteria for chartering a WG.  
-
-Also, discussion at the [October 2015 Advisory Committee meeting](https://www.w3.org/2015/10/27-ac-minutes.html#item02) 
-indicated disparate opinions about whether to insist that all W3C Recommendation Track work start in a Community Group. Points raised against and
-exclusively Empircal approach include:
+Discussion at the [October 2015 Advisory Committee meeting](https://www.w3.org/2015/10/27-ac-minutes.html#item02) 
+indicated disparate opinions about whether to insist that proposed work should meet empirical criteria before being
+put on the Recommendation track.  Arguments against using W3C Community Groups to incubate proposals until they 
+met such criteria included:
 - Incubation isn't a silver bullet to be applied to every situation
 - If a CG incubates a spec that gets implemented in the browsers, it's hard to motivate them to take it to a WG for broad review
 - If the CG did not work by consensus, the de facto standard might be imposed by a single strong editor or cabal of the top browsers
