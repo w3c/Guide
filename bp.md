@@ -1,15 +1,17 @@
-﻿# Best Practices for Bringing Work to the W3C Recommendation Track
+﻿# Recommendation Track Readiness
 
 ## Status
 
-Last updated on 2015/12/09
+Last updated on 2015/12/12
 
 NO OFFICIAL STATUS! Distributed to the W3C Advisory board for discussion
 
 ## Purpose
 
 This document lists considerations to take into account when evaluating proposals to move specification work
-to the W3C Recommendation track. The target audience include the Team and Director when evaluating proposals to create new Working Groups or rechartering
+to the W3C Recommendation track.  If offers *guidelines* that deserve consideration, and is 
+NOT a checklist of required items in every proposal, and meeting all the guidelines does not guarantee approval.
+The target audience includes the Team and Director when evaluating proposals to create new Working Groups or rechartering
 existing Working Groups to put new work in scope, working group Chairs when determining whether to publish First Public Working Drafts of 
 specs that are in a group's chartered scope, and by Advisory Committee representatives when voting on charters and Proposed Recommendations.
 
@@ -19,15 +21,27 @@ It tries to strike a balance between two classes of criteria:
 
 Discussion at the [October 2015 Advisory Committee meeting](https://www.w3.org/2015/10/27-ac-minutes.html#item02) 
 indicated disparate opinions about whether to insist that proposed work should meet empirical criteria before being
-put on the Recommendation track.  Arguments against using W3C Community Groups to incubate proposals until they 
-met such criteria included:
+put on the Recommendation track. 
+
+Arguments in favor of mandatory incubation included:
+- The status quo "aspirational" approach  assumes that whatever a WG produces will be implemented, but WGs without a reality check from implementers 
+tend to create specs that don't get used in the real world.
+- Recommendation track documents that don't get implented or widely used do not advance W3C's mission or enhance its reputation
+- W3C should join the industry trend toward more data-driven decision making
+- It's useful to identify *what* criteria are prerequisites for a Recommendation Track effort, but not to prescribe *how* those 
+criteria are to be met.  So incubation in a CG is just one way to meet the criteria, not the only way.
+
+Arguments against mandating using W3C Community Groups to incubate proposals until they 
+met empirical criteria included:
 - Incubation isn't a silver bullet to be applied to every situation
 - If a CG incubates a spec that gets implemented in the browsers, it's hard to motivate them to take it to a WG for broad review
 - If the CG did not work by consensus, the de facto standard might be imposed by a single strong editor or cabal of the top browsers
-- There may be gaps in the patent commitment if all spec contributors don't join the WG
+- There may be gaps in the patent commitment if all spec contributors to the incubation don't join the WG
 
-This document tries to identify *what* criteria promote the success of a Recommendation Track effort rather than prescribing *how* those 
-criteria are to be met.  
+The readiness criteria below outline the W3C community's sens of the best practices for striking an appropriate balance among these perspectives.
+They encourage all involved in advancing work to the Recommendation track to have more evidence  
+*available* for the decision and to think carefully about how to interpret it.  It does not propose an algorithmic process that uses only
+hard data without a role for human judgment. 
 
 
 ##Readiness Criteria
@@ -64,31 +78,31 @@ by those who need to use it?  Are their critical dependencies, e.g. the spec mus
 or must be supported both in products for producers and consumers of web content, to be really useful?
 
 ### Risks
-The proposal considers whether standrdiing the spec could create more problems than it solves. 
+The proposal considers whether standardizing the spec could create more problems than it solves. 
 What are the potential downsides of having this feature standardized ...could it undermine security, privacy, accessibility, etc. 
 if broadly deployed? Are there scenarios under which we would regret standardizing this feature?
 
 ### Socialized proposal
-*Strongly Recommended*: A draft of the technical specification has been written down and socialized  in a community where website
+*Strongly Recommended*: An initial draft of the technical specification has been written down and socialized  in a community where website
 developer, framework/took developer, and core technology implementers are represented. If that discussion has
 has generated sustained expressions of opposition or  unwillingness to implement / make patent commitments
 from key stakeholders, proposers are well advised to make a persuasive case for how the proposed Recommendation Track work
 can be successful in the face of this opposition.
 
 ### Expressions of interest
-The proposal points to statementss of support from key stakeholders about the value proposition for the feature
+The proposal points to statements of support from key stakeholders about the value proposition for the feature
 it describes. Is there a critical mass of implementers tentatively interested in shipping this feature 
 if standardized? Are there prototype / polyfill implementations that are used in experimental websites that site developers 
 find useful?
 
 ### Evidence
-Proposers SHOULD describe what implementation and user experience is there to back up the points above.
+Proposers describes what implementation and user experience is there to back up the points above.
 What fraction of websites are implementing a similar feature in a non-standardized way?
 How many users would potentially benefit from this feature if standardized? 
 Hard data is preferred, but estimates backed up by detailed explanations are acceptable.
 
 ### Incubation
-The draft SHOULD have matured through an incubation phase  in WICG or another CG, IG, or have been submitted by a member 
+The draft has matured through an incubation phase  in WICG or another CG, IG, or have been submitted by a member 
 organization based on product experience. The language in the
 [Web Platform WG charter](http://w3c.github.io/charter-html/group-charter.html#deliverables)  
 describes a best practice:
@@ -108,17 +122,22 @@ who interact with various levels of trust.  Thus the proposers of Recommendation
 accommodate feedback to make a spec more internationalizeable, accessible, secure, etc. Likewise it should not promote
 the interests of one group of members at the expense of another, e.g. taking sides in a product-driven "standards war." 
 
+### Is the timing right? 
+The optimal timing for a transition to the Recommendation Track can be described as:
+- NO SOONER than the MUST criteria and a reasonable number of the SHOULD criteria above are met.
+- NO LATER THAN a point where the spec is still fluid, and  not frozen into shipping code used on many websites.
+
+If the answer “the ship has sailed”, proposers whould explain how they propose to mitigate the situation without turning back the clock,
+and what a Recommendation Track document could do to improve the situation. For example, clearly documenting what already interoperates,
+and getting broader patent commitments on the interoperable behavior arguably has value.
+
 ##Conclusion
 
-The criteria above boil down to 3 basic questions:
+The criteria above suggest that Recommendation Track work begin when there are satisfactory answers to 3 basic questions:
 - Does the work address a real un-met need or missed opportunity for the Web?
 - Does the work start from a concrete proposal that has been socialized with key stakeholders but doesn't discriminate against others?
 - Does standardizing the proposed spec have clear support from those who would need to implement and use the spec for it to be successful?
 
-Transition to the Recommendation Track should happen  ...
 
-NO SOONER than the MUST criteria and a reasonable number of the SHOULD criteria above are met.
-
-NO LATER THAN a point where the spec is still fluid, and  not frozen into shipping code used on many websites.
 
 
