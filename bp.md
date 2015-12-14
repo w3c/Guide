@@ -47,7 +47,7 @@ hard data without a role for human judgment.
 ##Readiness Criteria
 
 The criteria here are used to evaluate whether a proposal indicates that a particular technical specification development effort is
-ready for the W3C Recommendation Track. No single factor is decisive, and this document avoids [RFC 2118]() "MUST" and "SHOULD" terminology, and should not be a taken
+ready for the W3C Recommendation Track. No single factor is decisive, and this document avoids [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) "MUST" and "SHOULD" terminology, and should not be a taken
 as a checklist of necessary or sufficient criteria.  Nevertheless, some criteria are
 noted as "strongly recommended", and if not met an explanation of why they don't apply in a particular situation would 
 facilitate the Director's decision.  Different cases will involve different combinations of these factors. In determining whether to 
