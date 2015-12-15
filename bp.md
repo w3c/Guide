@@ -9,8 +9,8 @@ NO OFFICIAL STATUS! Distributed to the W3C Advisory board for discussion
 ## Purpose
 
 This document lists criteria to consider when evaluating proposals to move specification work
-to the W3C Recommendation track.  If offers *guidelines* that deserve consideration, and is 
-NOT a checklist of required items in every proposal, and meeting all the guidelines does not guarantee approval.
+to the W3C Recommendation track.  If offers guidelines that deserve consideration, but is 
+not a checklist of required items in every proposal --meeting all the guidelines does not guarantee approval.
 The target audience includes the Team and Director when evaluating proposals to create new Working Groups or rechartering
 existing Working Groups to put new work in scope, working group Chairs when determining whether to publish First Public Working Drafts of 
 specs that are in a group's chartered scope, and by Advisory Committee representatives when voting on charters and Proposed Recommendations.
@@ -136,6 +136,13 @@ The optimal timing for a transition to the Recommendation Track can be described
 If the answer “the ship has sailed”, proposers whould explain how they propose to mitigate the situation without turning back the clock,
 and what a Recommendation Track document could do to improve the situation. For example, clearly documenting what already interoperates,
 and getting broader patent commitments on the interoperable behavior arguably has value.
+
+### Lead the Web to its full potential?
+Assessing work against the W3C mission statement
+is the traditional criterion the Team and Director use to evaluate whether to start a working group or advance a
+a specification.  It remains the bottom line for Recommendation Track decisions. Applying this criterion requires a 
+judgment that balances an aspiration advance the Web with the need for real developers to make the Web work in practice.
+
 
 ##Conclusion
 The criteria above suggest that Recommendation Track work begin when there are satisfactory answers to 3 basic questions:
