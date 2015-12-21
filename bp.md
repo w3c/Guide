@@ -26,7 +26,7 @@ put on the Recommendation track.
 Arguments in favor of mandatory incubation included:
 - The  "aspirational" approach  often assumes that whatever a WG produces will be implemented, but WGs without a reality check from implementers 
 tend to create specs that don't get used in the real world.
-- Recommendation track documents that don't get implented or widely used do not advance W3C's mission or enhance its reputation
+- Recommendation track documents that don't get implemented or widely used do not advance W3C's mission or enhance its reputation
 - W3C should join the industry trend toward more data-driven decision making
 - It's useful to identify *what* criteria are prerequisites for a Recommendation Track effort, but not to prescribe *how* those 
 criteria are to be met.  So incubation in a CG is just one way to meet the criteria, not the only way.
@@ -54,13 +54,18 @@ facilitate the Director's decision.  Different cases will involve different comb
 approve moving work to the Recommendation track, the Director may consider
 other factors not listed in this document as well.
 
-In general, the "aspirational" criteria have been used by the team and Director for some time, and this document seeks to make them
+Assessing proposed work's ability to fulfull the W3C mission to [lead the web to its full potential](http://www.w3.org/Consortium/mission)
+is the traditional criterion the Team and Director use to evaluate whether to start a working group or advance
+a specification.  While this is "aspirational", it requires
+judgment that balances the future potential the Web alongside the need for real developers to make the Web work in practice.
+This document seeks to make the factors that go into this judgment 
 more explicit and generally applicable.  
 
-The "emprical" criteria are inspired largely by the experience of some open source browser projects
+
+The "empirical" criteria are inspired largely by the experience of some open source browser projects
 that use an [intent to implement](https://docs.google.com/document/d/1vlTlsQKThwaX0-lj_iZbVTzyqY7LioqERU8DK3u3XjI/edit#) process 
 to build the case for shipping 
-a new feature.This document refines this approach to apply to Recommendation 
+a new feature. This document refines this approach to apply to Recommendation 
 Track transition decisions. 
 The  [Web Platform Incubator Community Group](https://www.w3.org/community/wicg/)  has adopted 
 something similar to [determine when a spec under incubation is ready to propose to a 
@@ -86,7 +91,7 @@ What are the potential downsides of having this feature standardized ...could it
 if broadly deployed? Are there scenarios under which we would regret standardizing this feature?
 
 ### Socialized proposal
-*Strongly Recommended*: An initial draft of the technical specification has been written down and socialized  in a community where web stite / app
+*Strongly Recommended*: An initial draft of the technical specification has been written down and socialized  in a community where web site / app
 developer, framework/took developer, and core technology implementers are represented. If that discussion has
 generated sustained expressions of opposition or  unwillingness to implement / make patent commitments
 from key stakeholders, proposers are well advised to make a persuasive case for how the proposed Recommendation Track work
@@ -99,7 +104,7 @@ if standardized? Are there prototype / polyfill implementations that are used in
 that developers already find useful?
 
 ### Evidence
-The propsal  describes what implementation and user experience is there to back up the points above.
+The proposal  describes what implementation and user experience is there to back up the points above.
 What fraction of websites are implementing a similar feature in a non-standardized way?
 How many users would potentially benefit from this feature if standardized? 
 Hard data is preferred, but estimates backed up by detailed explanations are acceptable.
@@ -110,6 +115,17 @@ organization based on product experience. The language in the
 [Web Platform WG charter](http://w3c.github.io/charter-html/group-charter.html#deliverables)  
 describes a best practice:
 > The Working Group will not adopt new proposals until they have matured through the Web Platform Incubator Community Group or another similar incubation phase.
+
+
+### Is the timing right? 
+The optimal timing for a transition to the Recommendation Track can be described as:
+- NO SOONER than the bulk of the criteria above are met.
+- NO LATER THAN a point where the spec is still fluid, and  not frozen into shipping code used on many websites.
+
+If the answer “the ship has sailed”, proposers should explain how they propose to mitigate the situation without turning back the clock,
+and what a Recommendation Track document could do to improve the situation. For example, clearly documenting what already interoperates,
+and getting broader patent commitments on the interoperable behavior arguably has value.
+
 
 ## Additional Considerations
 
@@ -125,23 +141,8 @@ royalty-free terms?
 W3C Recommendations signify a broad consensus across the  membership of W3C that a spec both serves a real mainstream need 
 and it is inclusive of a diverse, worldwide community using different languages, with various levels of ability, and 
 who interact with various levels of trust.  Thus the proposers of Recommendation-track work should be prepared to
-accommodate feedback to make a spec more internationalizeable, accessible, secure, etc. Likewise it should not promote
+accommodate feedback to make a spec more internationalizeable, accessible, secure, etc. Likewise,it should not promote
 the interests of one group of members at the expense of another, e.g. taking sides in a product-driven "standards war." 
-
-### Is the timing right? 
-The optimal timing for a transition to the Recommendation Track can be described as:
-- NO SOONER than the bulk of the criteria above are met.
-- NO LATER THAN a point where the spec is still fluid, and  not frozen into shipping code used on many websites.
-
-If the answer “the ship has sailed”, proposers whould explain how they propose to mitigate the situation without turning back the clock,
-and what a Recommendation Track document could do to improve the situation. For example, clearly documenting what already interoperates,
-and getting broader patent commitments on the interoperable behavior arguably has value.
-
-### Lead the Web to its full potential?
-Assessing work against the W3C mission statement
-is the traditional criterion the Team and Director use to evaluate whether to start a working group or advance a
-a specification.  It remains the bottom line for Recommendation Track decisions. Applying this criterion requires a 
-judgment that balances an aspiration advance the Web with the need for real developers to make the Web work in practice.
 
 
 ##Conclusion
