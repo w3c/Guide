@@ -13,7 +13,7 @@ to the W3C Recommendation track.  If offers guidelines that deserve consideratio
 not a checklist of required items in every proposal --meeting all the guidelines does not guarantee approval.
 The target audience includes the Team and Director when evaluating proposals to create new Working Groups or rechartering
 existing Working Groups to put new work in scope, working group Chairs when determining whether to publish First Public Working Drafts of 
-specs that are in a group's chartered scope, and by Advisory Committee representatives when voting on charters and Proposed Recommendations.
+specs that are in a group's chartered scope, and by Advisory Committee representatives when reviewing charters and Proposed Recommendations.
 
 It tries to strike a balance between two classes of criteria:
 - "aspirational" considerations such as whether the spec addresses an un-met need or expands the potential of the Web
@@ -24,10 +24,9 @@ indicated disparate opinions about whether to insist that proposed work should m
 put on the Recommendation track. 
 
 Arguments in favor of mandatory incubation included:
-- The  "aspirational" approach  often assumes that whatever a WG produces will be implemented, but WGs without a reality check from implementers 
-tend to create specs that don't get used in the real world.
+- The  "aspirational" approach  often assumes that whatever a WG produces will be implemented, but WGs without a reality check from implementers tend to create specs that don't get used in the real world.
 - Recommendation track documents that don't get implemented or widely used do not advance W3C's mission or enhance its reputation
-- W3C should join the industry trend toward more data-driven decision making
+- The industry overall is moving toward more data-driven decision making
 - It's useful to identify *what* criteria are prerequisites for a Recommendation Track effort, but not to prescribe *how* those 
 criteria are to be met.  So incubation in a CG is just one way to meet the criteria, not the only way.
 
@@ -54,7 +53,7 @@ facilitate the Director's decision.  Different cases will involve different comb
 approve moving work to the Recommendation track, the Director may consider
 other factors not listed in this document as well.
 
-Assessing proposed work's ability to fulfull the W3C mission to [lead the web to its full potential](http://www.w3.org/Consortium/mission)
+Assessing whether proposed work is likely to fulfull the W3C mission to [lead the web to its full potential](http://www.w3.org/Consortium/mission)
 is the traditional criterion the Team and Director use to evaluate whether to start a working group or advance
 a specification.  While this is "aspirational", it requires
 judgment that balances the future potential the Web alongside the need for real developers to make the Web work in practice.
