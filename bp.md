@@ -2,7 +2,7 @@
 
 ## Status
 
-Last updated on 2015/12/14
+Last updated on 2016/01/04
 
 NO OFFICIAL STATUS! Distributed to the W3C Advisory board for discussion
 
@@ -72,41 +72,33 @@ Working Group](https://wicg.github.io/admin/intent-to-migrate.html).
 
 ### Problem statement
 *Strongly Recommended*:  The proposal identifies the real-world problem this work would address, and why existing solutions are inadequate.  
-What are websites forced to do without this feature being available in a standardized way?
-What fraction of web sites / applications are implementing a similar feature in a non-standardized way?
+What are web developers forced to do without this feature being available in a standardized way?
+What fraction of web sites, hybrid applications, data publishers, etc. are using a similar capability in a non-standardized way?
 How would users benefit from this feature if standardized?
  
 ### Success criteria
-*Strongly Recommended*: The proposal enumerates the types of products (browsers, servers, frameworks,  applications...) would need to support the spec for it to be 
+*Strongly Recommended*: The proposal enumerates the types of products (browsers, servers, frameworks,  applications...) would need to 
+support the spec for it to be 
 successful, and indicate what degree of critical mass would be needed.  
-Is this spec serving a niche market and can be implemented only
-by those who need to use it?  Are their critical dependencies, e.g. the spec must be deployed on both 
+Is this spec serving a specialized community and only that community needs to implement and adopt it for it to be successful?
+by those who need to use it? Or are there critical ecosystem dependencies, e.g. the spec must be deployed on both 
 the cloud/server and browser/client,
 or must be supported both in products for producers and consumers of web content, to be really useful?
 
-### Risks
-The proposal considers whether standardizing the spec could create more problems than it solves. 
-What are the potential downsides of having this feature standardized ...could it undermine security, privacy, accessibility, etc. 
-if broadly deployed? Are there scenarios under which we would regret standardizing this feature?
-
 ### Socialized proposal
-*Strongly Recommended*: An initial draft of the technical specification has been written down and socialized  in a community where web site / app
-developer, framework/took developer, and core technology implementers are represented. If that discussion has
-generated sustained expressions of opposition or  unwillingness to implement / make patent commitments
-from key stakeholders, proposers are well advised to make a persuasive case for how the proposed Recommendation Track work
-can be successful in the face of this opposition.
+*Strongly Recommended*: An initial draft of the technical specification has been written down and socialized  in a community where potential users,  web site / app
+developer, framework/took developer, and core technology implementers are represented. 
+The state of community consensus around the initial draft should be documented: Did potential users and key implementers participate openly 
+in the discussion? Are there any indications that social or economic pressure was applied to suppress dissent?  Did the discussion generate sustained expressions of opposition or  unwillingness to implement / use / make patent 
+commitments from key stakeholders? If there are indications that consensus in a WG will be difficult to achieve, proposers are well advised
+to make a persuasive case for how the proposed Recommendation Track work can be successful.
 
-### Expressions of interest
-The proposal points to statements of support from key stakeholders about the value proposition for the feature
-it describes. Is there a critical mass of implementers tentatively interested in shipping this feature 
-if standardized? Are there prototype / polyfill implementations that are used in experimental apps / sites
-that developers already find useful?
-
-### Evidence
-The proposal  describes what implementation and user experience is there to back up the points above.
-What fraction of websites are implementing a similar feature in a non-standardized way?
-How many users would potentially benefit from this feature if standardized? 
-Hard data is preferred, but estimates backed up by detailed explanations are acceptable.
+### The proposers are not seeking a rubber stamp from W3C
+*Strongly Recommended*: W3C Recommendations signify a broad consensus across the  membership of W3C that a spec both serves a real mainstream need 
+and it is inclusive of a diverse, worldwide community using different languages, with various levels of ability, and 
+who interact with various levels of trust.  Thus the proposers of Recommendation-track work should be prepared to
+accommodate feedback to make a spec more internationalizeable, accessible, secure, etc. Likewise,it should not promote
+the interests of one group of members at the expense of another, e.g. taking sides in a product-driven "standards war." 
 
 ### Incubation
 The draft has matured through an incubation phase  in WICG or another CG, IG, or have been submitted by a member 
@@ -115,6 +107,22 @@ organization based on product experience. The language in the
 describes a best practice:
 > The Working Group will not adopt new proposals until they have matured through the Web Platform Incubator Community Group or another similar incubation phase.
 
+### Expressions of interest
+The proposal points to statements of support from key stakeholders about the value proposition for the feature
+it describes. Is there strong demand from potential users? Is there a critical mass of implementers tentatively interested in shipping this feature 
+if standardized? Are there prototype / polyfill implementations that are used in experimental apps / sites
+that the target audience already finds useful?
+
+### Evidence
+The proposal  describes what implementation and user experience is there to back up the points above.
+What fraction of websites are implementing a similar feature in a non-standardized way?
+How many users would potentially benefit from this feature if standardized? 
+Hard data is preferred, but estimates backed up by detailed explanations are acceptable.
+
+### Risks
+The proposal considers whether standardizing the spec could create more problems than it solves. 
+What are the potential downsides of having this feature standardized ...could it undermine security, privacy, accessibility, etc. 
+if broadly deployed? Are there scenarios under which we would regret standardizing this feature?
 
 ### Is the timing right? 
 The optimal timing for a transition to the Recommendation Track can be described as:
@@ -126,23 +134,18 @@ and what a Recommendation Track document could do to improve the situation. For 
 and getting broader patent commitments on the interoperable behavior arguably has value.
 
 
-## Additional Considerations
-
 ### Clear RF Licensing Commitments
-W3C seeks to issue Recommendations that can be implemented on a [Royalty-Free](http://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Requiremenst) basis.
+
+W3C seeks to issue Recommendations that can be implemented and used on a [Royalty-Free](http://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Requiremenst) basis.
 1. Are the technologies in the initial available under terms that are compatible with the 
 [W3C Royalty-Free licensing requirements](http://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Requirements)?
 2. Have those who seem most likely to have relevant patents made commitments to license them on 
 royalty-free terms?
 3. Is the provenance of substantive contributions to the draft reasonably clear?  
 
-### The proposers are not seeking a rubber stamp from W3C
-W3C Recommendations signify a broad consensus across the  membership of W3C that a spec both serves a real mainstream need 
-and it is inclusive of a diverse, worldwide community using different languages, with various levels of ability, and 
-who interact with various levels of trust.  Thus the proposers of Recommendation-track work should be prepared to
-accommodate feedback to make a spec more internationalizeable, accessible, secure, etc. Likewise,it should not promote
-the interests of one group of members at the expense of another, e.g. taking sides in a product-driven "standards war." 
-
+### Team Engagement
+It is advisable for groups considering Recommendation Track work to consult with the W3C
+Team early enough in the process for them to advise about potential problems and workarounds, and help draft a formal proposal.  Working Groups and Interest Groups have Team Contacts they can use for this purpose.  Community Groups do not, but they are encouraged to reach out to the W3C staff in advance.
 
 ##Conclusion
 The criteria above suggest that Recommendation Track work begin when there are satisfactory answers to 3 basic questions:
