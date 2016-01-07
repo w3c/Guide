@@ -38,14 +38,13 @@ met empirical criteria included:
 - There may be gaps in the patent commitment if all spec contributors to the incubation don't join the WG
 
 The readiness criteria below outline the W3C community's sense of the best practices for striking an appropriate balance among these perspectives.
-They encourage all involved in advancing work to the Recommendation track to have more evidence  
-*available* for the decision and to think carefully about how to interpret it.  It does not propose an algorithmic process that uses only
+They encourage all involved in advancing work to the Recommendation track to have more evidence available for the decision and to think carefully about how to interpret it.  It does not propose an algorithmic process that uses only
 hard data without a role for human judgment. 
 
 
 ##Readiness Criteria
 
-The criteria here are used to evaluate whether a proposal indicates that a particular technical specification development effort is
+The criteria here are used to evaluate whether a technical specification development effort is
 ready for the W3C Recommendation Track. No single factor is decisive, and this document avoids [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) "MUST" and "SHOULD" terminology, and should not be a taken
 as a checklist of necessary or sufficient criteria.  Nevertheless, some criteria are
 noted as "strongly recommended", and if not met an explanation of why they don't apply in a particular situation would 
@@ -81,30 +80,30 @@ How would users benefit from this feature if standardized?
 support the spec for it to be 
 successful, and indicate what degree of critical mass would be needed.  
 Is this spec serving a specialized community and only that community needs to implement and adopt it for it to be successful?
-by those who need to use it? Or are there critical ecosystem dependencies, e.g. the spec must be deployed on both 
+Or are there critical ecosystem dependencies, e.g. the spec must be deployed on both 
 the cloud/server and browser/client,
 or must be supported both in products for producers and consumers of web content, to be really useful?
 
 ### Socialized proposal
-*Strongly Recommended*: An initial draft of the technical specification has been written down and socialized  in a community where potential users,  web site / app
+*Strongly Recommended*: An initial draft of the technical specification has been written down and socialized in a community where potential users,  web site / app
 developer, framework/took developer, and core technology implementers are represented. 
-The state of community consensus around the initial draft should be documented: Did potential users and key implementers participate openly 
+The state of community consensus around the initial draft should be documented: Did potential users and key implementers actively participate 
 in the discussion? Are there any indications that social or economic pressure was applied to suppress dissent?  Did the discussion generate sustained expressions of opposition or  unwillingness to implement / use / make patent 
 commitments from key stakeholders? If there are indications that consensus in a WG will be difficult to achieve, proposers are well advised
 to make a persuasive case for how the proposed Recommendation Track work can be successful.
 
 ### The proposers are not seeking a rubber stamp from W3C
-*Strongly Recommended*: W3C Recommendations signify a broad consensus across the  membership of W3C that a spec both serves a real mainstream need 
-and it is inclusive of a diverse, worldwide community using different languages, with various levels of ability, and 
-who interact with various levels of trust.  Thus the proposers of Recommendation-track work should be prepared to
-accommodate feedback to make a spec more internationalizeable, accessible, secure, etc. Likewise,it should not promote
+*Strongly Recommended*: Proposers of Recommendation-track work should be prepared for the Working Group to
+make substantive changes to the initial draft in response to feedback.  A W3C Recommendation sigfifies that a specification has broad consensus across the  membership of W3C.  It is particularly important to ensure that a spec both serves a real mainstream need
+*and*  is inclusive of a diverse, worldwide community using different languages, with various levels of ability, and 
+who interact with various levels of trust.   Likewise, proposed Recommendation-track work should not promote
 the interests of one group of members at the expense of another, e.g. taking sides in a product-driven "standards war." 
 
 ### Incubation
 The draft has matured through an incubation phase  in WICG or another CG, IG, or have been submitted by a member 
 organization based on product experience. The language in the
 [Web Platform WG charter](http://w3c.github.io/charter-html/group-charter.html#deliverables)  
-describes a best practice:
+describes a good practice:
 > The Working Group will not adopt new proposals until they have matured through the Web Platform Incubator Community Group or another similar incubation phase.
 
 ### Expressions of interest
