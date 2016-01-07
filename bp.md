@@ -2,7 +2,7 @@
 
 ## Status
 
-Last updated on 2016/01/04
+Last updated on 2016/01/06
 
 NO OFFICIAL STATUS! Distributed to the W3C Advisory board for discussion
 
@@ -102,8 +102,7 @@ the interests of one group of members at the expense of another, e.g. taking sid
 ### Incubation
 The draft has matured through an incubation phase  in WICG or another CG, IG, or have been submitted by a member 
 organization based on product experience. The language in the
-[Web Platform WG charter](http://w3c.github.io/charter-html/group-charter.html#deliverables)  
-describes a good practice:
+[Web Platform WG charter](http://w3c.github.io/charter-html/group-charter.html#deliverables) describes a good practice:
 > The Working Group will not adopt new proposals until they have matured through the Web Platform Incubator Community Group or another similar incubation phase.
 
 ### Expressions of interest
@@ -144,7 +143,7 @@ royalty-free terms?
 
 ### Team Engagement
 It is advisable for groups considering Recommendation Track work to consult with the W3C
-Team early enough in the process for them to advise about potential problems and workarounds, and help draft a formal proposal.  Working Groups and Interest Groups have Team Contacts they can use for this purpose.  Community Groups do not, but they are encouraged to reach out to the W3C staff in advance.
+Team early enough in the process for them to advise about potential problems and workarounds, and help draft a formal proposal.  Working Groups and Interest Groups have Team Contacts they can use for this purpose.  Community Groups do not, but they are encouraged to reach out to the W3C staff well in advance of proposing a transition to the Recommendation Track.
 
 ##Conclusion
 The criteria above suggest that Recommendation Track work begin when there are satisfactory answers to 3 basic questions:
