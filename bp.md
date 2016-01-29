@@ -36,6 +36,7 @@ met empirical criteria included:
 - If a CG incubates a spec that gets implemented in the browsers, it's hard to motivate them to take it to a WG for broad review
 - If the CG did not work by consensus, the de facto standard might be imposed by a single strong editor or cabal of the top browsers
 - There may be gaps in the patent commitment if all spec contributors to the incubation don't join the WG
+- It may be valuable for W3C team to help develop one or more proposals in the incubation stage
 
 The readiness criteria below outline the W3C community's sense of the best practices for striking an appropriate balance among these perspectives.
 They encourage all involved in advancing work to the Recommendation track to have more evidence available for the decision and to think carefully about how to interpret it.  It does not propose an algorithmic process that uses only
