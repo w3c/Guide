@@ -62,6 +62,7 @@ met empirical criteria included:
  could lead to key technical decisions being made in forums dominated by a few, 
  with "level playing field" discussion beginning only when implementation momentum makes change difficult.
 - There may be gaps in the patent commitment if all spec contributors to the incubation don't join the WG
+- It may be valuable for W3C team to help develop one or more proposals in the incubation stage
 
 The readiness criteria below outline best practices for finding an appropriate balance among these perspectives.
 They encourage all involved in advancing work to the Recommendation track to gather more evidence to drive the decision and to think carefully 
