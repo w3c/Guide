@@ -3,26 +3,27 @@
 ## Status
 Updated draft based on AC, AB, and GitHub comments
 
-Last updated on 2016/01/31
+Last updated on 2016/02/01
 
 ## Problem Statement
 The practices proposed in this document are intended to address some specific problems:
 
-1.  W3C wastes resources by working on standardization efforts that end up going nowhere
+1.  W3C wastes resources when it invests in standardization efforts that end up going nowhere
 
-2.  W3C tarnishes its credibility as a standards organization when publishing technical reports that have little relevance to 
-the Web as it actually exists.
+2.  W3C tarnishes its credibility as a standards organization when publishing draft standards that have little relevance to 
+the Web as it actually exists. 
+
+3. W3C sometimes confers unwarranted legitimacy to proposals that do not have buy-in from key stakeholders yet are published 
+as formal working drafts. 
 
 3. The  Working Groups Process is not well suited to innovation of new ideas; the formal consensus process is most effective at "polishing" solid
 proposals to make them more clear, specific, and useful across users with different languages, cultures, and abilities.
 
-4. The REC track sometimes confers unwarranted legitimacy to proposals that do not have buy-in from the stakeholders needed 
-get it to Recommendation and deployed on the real Web.
 
 
 ## Overview of a Solution
 
-To address these problems, W3C should and encourage specifications to be incubated outside the formal process, and more tightly focus its 
+To address these problems, W3C should  more tightly focus its 
 formal standardization effors on specifications that are most likely to get consensus within the consortium
 and be used on the real Web. This document proposes to do that by offering a short list of criteria to consider when evaluating proposals to move specification work
 to the Recommendation track. That includes drafting the Deliverables section of a WG charter, but especially when publishing a FPWD. 
@@ -206,25 +207,19 @@ to get into a WG Charter or are is the expectation that WGs would re-charter to 
 Or is the best practice to make the *scope* of charters broad enough to encompass work that may be incubated during
 the charter's lifetime, and the WG would only take up an actual deliverable once it is incubated?
 
- 
 ###Community Groups and the W3C Process
 How can we ensure that concerns raised at the TPAC 2015 AC meeting and the AC Forum thread on Mandatory Incubation are addressed
 in the process or practice of W3C? 
 
+Should the Process Document describe a role for CGs in getting specifications ready to be standardized?  Should the Community
+and Business Group Process say more about the importance of working by consensus, at least for specifications that
+are to be proposed for the Recommendation Track? 
+
 ###What to do when there is interest from users but not implementers?  
 Raised in the [AC discussions](https://lists.w3.org/Archives/Member/w3c-ac-forum/2016JanMar/0013.html).  
-Arguably this is what interest groups are for -- to build interest in new use cases. Creating WGs to standardize 
-solutions that are more expensive to implement than they return in value is part of the problem the readiness critia 
-exercise is trying to solve.
-
-###Should we revise the Process Document to talk about the role of CGs, IGs, and WGs in getting specs ready for the standards track?
-There is little consistency across W3 subcommunities on domains on how CGs, IGs, and WGs relate to one another. 
-Is this appropriate flexibility or a prescription for confusion and contention?  One could imagine adding some
-more structure here, perhaps:
-- IGs are focused on *users*, and primarily develop use cases for new Recommendations and guidelines for how to apply existing Recommendations.
-- CGs are focused on *implementers*, and primarily develop spec proposals and prototypes.
-- WGs are focused on building consensus across users and implementers to produce technical Recommendations that have demonstrable
-value and interoperability.
+Should the Process Document do more to describe a role for Interest Groups in developing use cases for new Recommendations,
+and perhaps working in tandem with one or more Community Groups to develop credible technical proposals to address those
+use cases?
 
 
 ##Conclusion
