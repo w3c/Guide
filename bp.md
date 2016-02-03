@@ -16,7 +16,7 @@ the Web as it actually exists.
 3. W3C sometimes confers unwarranted legitimacy to proposals that do not have buy-in from key stakeholders yet are published 
 as formal working drafts. 
 
-3. The  Working Groups Process is not well suited to innovation of new ideas; the formal consensus process is most effective at "polishing" solid
+3. The  Working Groups Process is not well suited to innovation of new ideas; the formal consensus process is most effective at determining key use cases and requirements, choosing between alternative approaches to standardization, and "polishing" solid
 proposals to make them more clear, specific, and useful across users with different languages, cultures, and abilities.
 
 
