@@ -74,7 +74,7 @@ about how to interpret it.  They do not mandate any one mode of gathering that e
 The criteria here are used to evaluate whether a technical specification development effort is
 ready for the W3C Recommendation Track. No single factor is decisive, and this document avoids [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) "MUST" and "SHOULD" terminology, and should not be a taken
 as a checklist of necessary or sufficient criteria.  Nevertheless, some criteria are
-noted as "strongly recommended", and if not met an explanation of why they don't apply in a particular situation would 
+noted as "strongly recommended", and, if not met, an explanation of why they don't apply in a particular situation would 
 facilitate the Director's decision.  Different cases will involve different combinations of these factors. In determining whether to 
 approve moving work to the Recommendation track, the Director may consider
 other factors not listed in this document as well.
@@ -82,7 +82,7 @@ other factors not listed in this document as well.
 Assessing whether proposed work is likely to fulfull the W3C mission to [lead the web to its full potential](http://www.w3.org/Consortium/mission)
 is the traditional criterion the Team and Director use to evaluate whether to start a working group or advance
 a specification.  While this is "aspirational", it requires
-judgment that balances the future potential the Web alongside the need for real developers to make the Web work in practice.
+judgment that balances the future potential of the Web alongside the need for real developers to make the Web work in practice.
 This document seeks to make the factors that go into this judgment 
 more explicit and generally applicable.  
 
@@ -142,7 +142,7 @@ or developing a charter,this document strongly recommends that only "mature" spe
 
 ### Is it clear the proposers are not seeking a rubber stamp from W3C?
 *Strongly Recommended*: Proposers of Recommendation-track work should be prepared for the Working Group to
-make substantive changes to the initial draft in response to feedback.  A W3C Recommendation sigfifies that a specification has broad consensus across the  membership of W3C.  It is particularly important to ensure that a spec both serves a real mainstream need
+make substantive changes to the initial draft in response to feedback.  A W3C Recommendation signifies that a specification has broad consensus across the  membership of W3C.  It is particularly important to ensure that a spec both serves a real mainstream need
 *and*  is inclusive of a diverse, worldwide community using different languages, with various levels of ability, and 
 who interact with various levels of trust.   Likewise, proposed Recommendation-track work should not promote
 the interests of one group of members at the expense of another, e.g. taking sides in a product-driven "standards war." 
