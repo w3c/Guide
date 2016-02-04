@@ -34,11 +34,9 @@ of this effort is to add more structure and predictability to Rec track decision
 WGs and judgment by the Director.*
 
 The target audience  for this document includes:
-- the Team and Director when evaluating proposals to create new Working Groups or rechartering
-existing Working Groups to put new work in scope;
+- the Team and Director and Advisory Committee when evaluating proposals to create new Working Groups or rechartering existing Working Groups to put new work in scope (e.g. how specs reach maturation before FPWD), and in reviewing Proposed Recommendations;
 - working group Chairs  determining whether to publish First Public Working Drafts of 
 specs that are in a group's chartered scope, 
-- Advisory Committee representatives reviewing charters and Proposed Recommendations.
 
 This document attempts to strike a balance between two classes of criteria:
 - "aspirational" considerations such as whether the spec addresses an un-met need or expands the potential of the Web
