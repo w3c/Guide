@@ -130,7 +130,7 @@ Group or another similar incubation phase.
 
 If work is incubated in a CG, it is important to assess the degree of consensus behind a spec as well as its maturity. 
 While CG's are not required to work by consensus, those proposing work for the Recommendation track should favor proposals that
-did get strong and broad consensus during the incubation phase, and make W3C staff aware of points of contention, rival proposals, etc.
+did get strong and broad consensus during the incubation phase, and make W3C staff aware of points of contention, rival proposals, etc. An optional [W3C Community Group Charter Template](https://www.w3.org/community/council/wiki/Templates/CG_Charter) contains provisions designed to promote fairness in CGs.  CGs are encouraged to consider using the template as a starting point.
 
 The key word is "matured", and  the key milestone is First Public Working Draft (FPWD). It may be inefficient to charter WGs that start with
 a "blank sheet of paper" or multiple proposals with different use cases, but it hurts W3C's credibility to
