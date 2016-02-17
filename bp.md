@@ -8,22 +8,12 @@ Last updated on 2016/02/01
 ## Problem Statement
 The practices proposed in this document are intended to address some specific problems:
 
-1.  W3C wastes resources when it invests in standardization efforts that end up going nowhere
-
-2.  W3C tarnishes its credibility as a standards organization when publishing draft standards that have little relevance to 
-the Web as it actually exists. 
-
-3. W3C sometimes confers unwarranted legitimacy to proposals that do not have buy-in from key stakeholders yet are published 
-as formal working drafts. 
-
-3. The  Working Groups Process is not well suited to innovation of new ideas; the formal consensus process is most effective at determining key use cases and requirements, choosing between alternative approaches to standardization, and "polishing" solid
-proposals to make them more clear, specific, and useful across users with different languages, cultures, and abilities.
+W3C wastes resources, and at worst tarnishes its credibility, when it invests in standardization efforts that end up going nowhere
 
 
+## Overview of a Proposed Solution
 
-## Overview of a Solution
-
-To address these problems, W3C should  more tightly focus its 
+W3C should  more tightly focus its 
 formal standardization effors on specifications that are most likely to get consensus within the consortium
 and be used on the real Web. This document proposes to do that by offering a short list of criteria to consider when evaluating proposals to move specification work
 to the Recommendation track. That includes drafting the Deliverables section of a WG charter, but especially when publishing a FPWD. 
@@ -46,12 +36,14 @@ Discussion at the [October 2015 Advisory Committee meeting](https://www.w3.org/2
 indicated disparate opinions about whether to insist that proposed work should meet empirical criteria before being
 put on the Recommendation track. 
 
-Arguments in favor of mandatory incubation included:
+Arguments raised in favor of mandatory incubation included:
 - The  "aspirational" approach  often assumes that whatever a WG produces will be implemented, but WGs without a reality check from implementers tend to create specs that don't get used in the real world.
 - Recommendation track documents that don't get implemented or widely used do not advance W3C's mission or enhance its reputation
 - The industry overall is moving toward more data-driven decision making
 - It's useful to identify *what* criteria are prerequisites for a Recommendation Track effort, but not to prescribe *how* those 
 criteria are to be met.  So incubation in a CG is just one way to meet the criteria, not the only way.
+ - The  Working Groups Process is not well suited to innovation of new ideas; the formal consensus process is most effective at "polishing" solid proposals to make them more clear, specific, and useful across users with different languages, cultures, and abilities.
+ - The REC track sometimes confers unwarranted legitimacy to proposals that do not have buy-in from the stakeholders needed get it to Recommendation and deployed on the real Web.
 
 Arguments against focused on mandating using W3C Community Groups to incubate proposals until they 
 met empirical criteria included:
