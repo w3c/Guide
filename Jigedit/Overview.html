@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Publishing with edit.w3.org for W3C Collaborators -- Art of
+  Consensus</title>
+  <link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type="text/css"
+  />
+  <link rel="stylesheet" type="text/css" href="/Guide/guide2006.css" />
+  <link rel="shortcut icon" href="/Icons/WWW/Literature.gif" />
+</head>
+
+<body>
+
+<div id="header">
+<span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb" alt="W3C"
+height="48" width="72" /></a></span> 
+
+<div class="breadcrumb">
+<a href="/Member/">Member</a> → <a href="/Guide/">The Art of Consensus</a>
+→  
+
+<h1>Publishing with edit.w3.org</h1>
+</div>
+
+<p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of
+the W3C Group Chairs and other collaborators.</p>
+</div>
+
+<div class="toc">
+<h4>Also On This Page → </h4>
+<ul>
+  <li><a href="#Description">Description</a> • </li>
+  <li><a href="#ACL">ACL'd space</a> • </li>
+  <li><a href="#Requirements">How to use edit.w3.org</a> • </li>
+  <li><a href="#editor">Setting up you authoring tool</a> • </li>
+  <li><a href="#use">How to publish in W3C's web space</a> • </li>
+  <li><a href="Webdav">Using edit.w3.org through WebDAV</a> • </li>
+  <li><a href="#expert">edit.w3.org and CVS</a> • </li>
+  <li><a href="#trouble">Troubleshooting</a></li>
+</ul>
+</div>
+
+<h2><a name="Description" id="Description">Description</a></h2>
+
+<p>edit.w3.org is another way of editing W3C web space. It is a special purpose
+HTTP server that allows authenticated users to perform an HTTP/PUT on our
+servers.<br />
+edit.w3.org is a <a href="http://jigsaw.w3.org/">Jigsaw</a> server enhanced
+with <a href="#expert">CVS functionalities</a>. With this tool you can use the
+CVS system through a form interface and therefore edit the W3C web space in a
+safe way.</p>
+
+<p>Anyone with a W3C account can publish to W3C web space depending on the
+access control (<a href="#ACL">ACL</a>) of that web space. To check the ACL of
+a http://www.w3.org URI append ,access to it. <br />
+Note not all of www.w3.org web space is open to ACLs and ,access will indicate
+so.</p>
+
+<h2><a name="ACL" id="ACL"><acronym title="Access Control List">ACL</acronym>'d
+space</a></h2>
+
+<p>Access Control Lists (aka ACL) allow to define flexible and modifiable
+access control on a given resource (document or directory). Most of the
+directories in our web site are under ACL, especially the directories in the
+form of <em>http://www.w3.org/YYYY/</em> (where <em>YYYY</em> is a 4 digit
+year).</p>
+
+<h3>What does it imply for the publication?</h3>
+
+<p>You can edit an ACL'd resource if you have write permission on it, or if you
+belong to a group that has write permission.<br />
+If you are an editor of an ACL'd space, you will be able to update pages. But
+if you want to create a new resource in this space, you'll have to ask your
+Team contact to change the ACLs for your new resource otherwise nobody (even
+yourself) will be able to access it.</p>
+
+<p>The tool ,access (,access appended to an URI) indicates if you can access
+that URI. In any cases, ask your Team contact if you have troubles with
+permissions. </p>
+
+<h2><a name="Requirements" id="Requirements"></a>How to use edit.w3.org</h2>
+
+<p>There are two ways to use edit.w3.org</p>
+<ul>
+  <li>Through a tool that does HTTP PUT and that supports SSL: 
+    <ul>
+      <li>HTML authoring tools such as <a
+        href="http://bluegriffon.org/">BlueGriffon</a>, <a
+        href="/Amaya/">Amaya</a>, <a
+        href="http://jigsaw.w3.org/Winie/">Winie</a>.<br />
+        Other authoring tools as <a
+        href="http://www.seamonkey-project.org/">SeaMonkey</a>, <a
+        href="http://www.kompozer.net/">Kompozer</a>, <a
+        href="http://www.ptc.com/product/arbortext/editor">Arbortext Editor</a>
+        or <a href="http://www.oxygenxml.com/">Oxygen XML</a> for instance
+        also implement HTTP PUT but have not been yet tested with
+        edit.w3.org.<br />
+        Note that previous versions of Adobe Dreamweawer didn't implement this
+        method, recent versions may use it, please verify the available
+        features. </li>
+      <li>Transfer data tools such as <a href="http://curl.haxx.se/">curl</a>
+        or the <a href="http://www.w3.org/WinCom/">libwww PUT tool</a> (no
+        longer maintained). </li>
+    </ul>
+  </li>
+  <li>Through <a href="#webdav">Webdav</a></li>
+</ul>
+
+<h2><a name="editor" id="editor"></a>Setting up your Authoring tool</h2>
+
+<p>Among the authoring tools that support HTTP PUT, we recommend using <a
+href="http://bluegriffon.org/">BlueGriffon</a> or <a
+href="/Amaya/">Amaya</a></p>
+<ul>
+  <li><a href="http://bluegriffon.org/">BlueGriffon</a> is a WYSIWYG web editor
+    that supports HTML5, it is powered by Gecko, the rendering engine of
+    Firefox. In order to use the HTTP PUT method, you have to get and install
+    the <a href="http://www.bluegriffon.com/index.php?pages/PUTter2">PUTter</a>
+    add-on.</li>
+  <li><a href="http://www.w3.org/Amaya/">Amaya</a> is a WYSIWYG web editor that
+    natively implements the PUT method but doesn't support HTML5. Note that
+    only the latest version of Amaya (<a
+    href="/Amaya/User/BinDist.html">version 11.4.4</a>) supports SSL.</li>
+</ul>
+
+<p>However, if you want to use another authoring tool, you should read this
+section. Most authoring tools come with default settings that do not apply to
+edit.w3.org.<br />
+One of the important things to check for is how the authoring tool handles
+images and links.<br />
+</p>
+<ul>
+  <li><b>Links:</b> the general policy on our web site is to always use
+    relative links when pointing to resources within W3C's site. Verify that
+    relative links are not transformed into absolute ones when you load a
+    edit.w3.org document. Also check that inserted links into W3C's site are
+    related to document location (verify for instance that the checkbox 'Make
+    URL relative to page location' is checked when you edit a link with
+    BlueGriffon). </li>
+  <li><b>Images:</b> when creating a document that links to images, the images
+    should be available from our web site, links to them should be made
+    relative to document location and the authoring tool should not try to save
+    them. If new images need to go with the document, verify that the authoring
+    tool proposes to upload them when you publish it, or upload them separately
+    with <a href="http://curl.haxx.se/">curl</a> for instance. </li>
+</ul>
+
+<h2><a name="use" id="use"></a>How to publish in W3C's web space</h2>
+
+<h3>Where do I PUT my file ?</h3>
+
+<p>It is simply a matter of mapping the actual URI of the resource into a
+edit.w3.org-based URI.<br />
+Our www.w3.org servers are set to redirect PUT requests to the corresponding
+edit.w3.org URI but if your client cannot handle redirect simply change www to
+edit in the URI. </p>
+
+<h3>How do I put HTML files?</h3>
+
+<p>There are basically two methods, depending on what tool you use:</p>
+<ul>
+  <li>With an authoring tool that have HTTP PUT implemented (which is mandatory
+    to use edit.w3.org, see <a href="#Requirements">How to use
+    edit.w3.org</a>):<br />
+    When the document is ready to be published, hit <b>Save As</b> or its
+    equivalent (it might be <b>Publish)</b> then, enter the correct edit.w3.org
+    location for the document.</li>
+  <li>Using <a href="http://curl.haxx.se/">curl</a> to transfer a local file to
+    a remote URI is quite simple, you have to use the options '--upload-file'
+    (or '-T') and '--user' as follow:<br />
+    <i>curl <b>--user</b> name:password <b>--upload-file</b> source_file
+    remote_uri</i></li>
+</ul>
+
+<h3>What about other types of files ?</h3>
+
+<p>To PUT any type of file (expect php files), you can use <a
+href="http://curl.haxx.se/">curl</a>. As explained above, it takes a source
+file and a destination URI, and performs a PUT.<br />
+Team members (and only them for the moment) can also use <a
+href="#webdav">webdav</a>.</p>
+
+<p>Any type of document whose <a href="#trouble">mime-type is recognized by
+edit.w3.org</a> can be transferred on edit.w3.org.</p>
+
+<h3>What about directories ?</h3>
+
+<p>Directories are automatically created and added to our CVS repository when
+needed.</p>
+
+<h2><a name="webdav" id="webdav"></a>Using edit.w3.org through WebDAV</h2>
+
+<p><a href="http://en.wikipedia.org/wiki/WebDAV">WebDAV</a> is an HTTP-based
+protocol that allows accessing the content of an HTTP server as a networked
+filesystems; to put it simply, it allows to edit directly a web site as if it
+were an additional disk on your computer.</p>
+
+<p>See <a href="Webdav">How to publish with webdav on edit.w3.org</a><br />
+(<em>note that webdav is restricted to Team members for the moment).</em></p>
+
+<h2><a name="expert" id="expert"></a>edit.w3.org and CVS</h2>
+
+<p>edit.w3.org is more than an HTTP server with per-user authentication on PUT.
+It relies on CVS to provide a history of all the changes. New changes are
+automatically committed to our CVS repository upon saving.<br />
+edit.w3.org is actually a web-based interface to CVS with PUT capabilities. It
+uses forms to perform the most common CVS commands, and all you need is just a
+browser.</p>
+
+<p>Basic commands of <a
+href="http://web.mit.edu/macdev/Development/Documentation/www/CVS%20Documentation/Working%20with%20CVS.html">CVS</a></p>
+
+<p>You can perform most CVS commands through your browser by calling upon the
+CVS form within the directory you wish to maintain. Note that this view also
+allows you to bypass the normal Overview page and see the directory contents.
+This is convenient for other purposes too!</p>
+
+<p>To access the CVS form in the directory you wish to maintain, simply append
+"CVS" to the edit.w3.org URI for the directory. Referring to "<a
+href="http://www.w3.org/Guide/Jigedit/#use">Where do I PUT my file?</a>"
+above:</p>
+
+<blockquote>
+  <p><strong>http://edit.w3.org/Guide/CVS</strong></p>
+</blockquote>
+
+<h2><a name="trouble" id="trouble"></a>Troubleshooting</h2>
+<ul>
+  <li><i>I get a <em>'415: Unsupported media type'</em> error when trying to
+    PUT a document.</i> 
+    <p>You were probably trying to PUT a document with an unknown extension.
+    Although lot of mime-types are registered in edit.w3.org (html and htm for
+    <i>text/html</i>, jpg and jpeg for <i>image/jpeg</i>, png for
+    <i>image/png</i>), the extension of the faulty document could be different
+    from the one associated with its mime-type in edit.w3.org, or it could be
+    an unknown mime-type. In this case, contact &lt;<a
+    href="mailto:webreq@w3.org">webreq@w3.org</a>&gt; to ask for the mime-type
+    to be added.</p>
+  </li>
+  <li><i>Something went wrong (it hangs, it stopped, it crashed...), what
+    should I do ?</i> 
+    <p>The first thing to do is to look at the <b>CVS form</b> of the directory
+    where you just tried to PUT. It will show you the status of this directory,
+    and the <b>CVS</b> status of the files in there, including the file you
+    just tried to PUT.</p>
+    <p>To access the CVS form for
+    <b>http://www.w3.org/Groups/MyGroup/Draft/my_draft.html</b>, just go to
+    <b>http://edit.w3.org/Groups/MyGroup/Draft/CVS</b><br />
+    There you can see the status of the file you just tried to PUT. If it says
+    <em>'Conflict'</em>, contact &lt;<a
+    href="mailto:webreq@w3.org">webreq@w3.org</a>&gt;. If it says <em>'Needs
+    patch'</em>, select <b>Update</b> then <b>commit</b>.</p>
+  </li>
+  <li><i>I've put a new document on edit.w3.org, but when I try to access it on
+    the main server, I get a 401 Forbidden. What's the matter?</i> 
+    <p>You must be editing in ACL'd space. See the <a href="#ACL">section about
+    it</a> and contact &lt;<a href="mailto:webreq@w3.org">webreq@w3.org</a>&gt;
+    if it doesn't help.</p>
+  </li>
+</ul>
+<hr />
+<address>
+  <a href="/Help/Webmaster">Webmaster</a> &lt;<a
+  href="mailto:webreq@w3.org">webreq@w3.org</a>&gt;<br />
+  Last modified: $Date: 2012/09/12 10:31:31 $ by $Author: carcone $ 
+</address>
+</body>
+</html>
