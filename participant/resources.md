@@ -14,12 +14,10 @@
 
 # Emails
 * Email archives:
-    <ul>
   * [Public lists https://lists.w3.org/]
   * [Member lists https://lists.w3.org/Archives/Member/]
 * How to use W3C mailinglists:
-  *
-  [Mailing list guide https://www.w3.org/Mail/]
+  * [Mailing list guide https://www.w3.org/Mail/]
   * [Mailinglist subscription https://www.w3.org/Mail/Request]
 
 # Teleconfs
