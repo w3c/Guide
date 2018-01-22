@@ -1,22 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta name="generator"
-content="HTML Tidy for Linux/x86 (vers 1st August 2002), see www.w3.org" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" >
 <title>How to Create a Working Group or Interest Group</title>
 <link rel="stylesheet" href="/StyleSheets/generic-base-1.css"
-type="text/css"/>
-<link rel="stylesheet" type="text/css" href="../assets/main.css"/>
-<link rel="shortcut icon" href="/Icons/WWW/Literature.gif"/>
-<link rel="start" href="Overview.html" />
+type="text/css">
+<link rel="stylesheet" type="text/css" href="../assets/main.css">
+<link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
+<link rel="start" href="../" >
 </head>
 <body>
 
 <div id="header">
 <span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb"
-alt="W3C" height="48" width="72"/></a></span>
+alt="W3C" height="48" width="72"></a></span>
     <div class="breadcrumb">
     <a href="/Member/">Member</a> &#x2192; <a href="/Guide/">The Art of
 Consensus</a> &#x2192;
@@ -266,7 +263,7 @@ under <a
 href="http://www.w3.org/Consortium/Process/#WGCharter">Section 5.2.6, 8th bullet, of the W3C Process</a>.</p>
 
 <p>There are key characteristics that are typically required (in
-different measure) of all specifications and they are therefore called
+different measure, and per section <a href="http://www.w3.org/Consortium/Process/#wide-review">6.2.3.1 Wide Review of the Process Document</a>) of all specifications and they are therefore called
 “horizontal” characteristics.  As of today, the identified horizontal
 characteristics are: accessibility, internationalization, mobility,
 device independence, privacy, security, and technical architecture
@@ -393,46 +390,38 @@ changes."</p>
 Working Group participants are aware of the review.</p>
 
 <p>The Team Contact:</p>
-
 <ul>
-<li><a href="/Systems/Mail/Request/">Creates a Team-only mailing list for the Advisory Committee review (or
-reuses an existing one).</a>
-<ul>
-<li>If new, the mailing list should be named team-xxx-review@w3.org
-(in accordance with the
-<a href="/Systems/Mail/#listnames">list name policy</a>).
-</li>
-
-<li>The mailing list must be Team-only.</li>
-
-<li>The mailing list must be archived.</li>
-
-<li>The mailing list must have at least one subscriber to monitor
-mail: the Team Contact.</li>
-
-<li>The mailing list must accept posts from the
-address <a href="mailto:webmaster@w3.org">webmaster@w3.org</a> to
-receive questionnaire responses.  After the list is created, use
-the <a href="/services/list-admin">list administration tool</a> to add
-this address to the accept2 file.</li>
-</ul>
-</li>
-
-<li>Sends a request to the Communications Team (w3t-comm)
-asking that a Call for Review be sent to the AC. The request should
-be sent <strong>at least three business days before</strong> the anticipated start
-date of the review. The request must include:
-
-<ul>
-<li>A URI to the proposed charter; this charter is public during the AC review.</li>
-<li>The list of significant changes to a revised charter
-(per <a href="http://www.w3.org/Consortium/Process/#CharterReview">section "Advisory Committee Review of a Working Group or Interest Group Charter"</a> of the Process Document.). In particular, are there
-any new deliverables with licensing obligations under the W3C Patent
-Policy? You may wish to use the <a href="http://www.w3.org/2007/10/htmldiff">html diff tool</a></li>
-<li>A recommended review start date and duration (at least 4 weeks according to <a href="http://www.w3.org/Consortium/Process/#Activities">the process document</a>)</li>
-<li>The name of the Team-only mailing list for comments</li>
-</ul>
-</li>
+  <li>Reuses an existing Team-only mailing list (e.g. <a href="mailto:w3t-archive@w3.org">w3t-archive@w3.org</a>) for the Advisory Committee review (or <a href="/Systems/Mail/Request/">creates a new Team-only mailing list</a>.)
+    <ul>
+      <li>If new, the mailing list should be named team-xxx-review@w3.org
+	(in accordance with the
+	<a href="https://www.w3.org/Systems/Mail/Request/#doc-listname">list name policy</a>).
+      </li>
+      <li>The mailing list must be Team-only.</li>
+      <li>The mailing list must be archived.</li>
+      <li>The mailing list must have at least one subscriber to monitor
+	mail: the Team Contact.</li>
+      <li>The mailing list must accept posts from the
+	address <a href="mailto:sysbot+wbs@w3.org">sysbot+wbs@w3.org</a> to
+	receive questionnaire responses. After the list is created, use
+	the <a href="/services/list-admin">list administration tool</a> to add
+	this address to the accept2 file.</li>
+    </ul>
+  </li>
+  <li>Sends a request to the Communications Team (w3t-comm)
+    asking that a Call for Review be sent to the AC. The request should
+    be sent <strong>at least three business days before</strong> the anticipated start
+    date of the review. The request must include:
+    <ul>
+      <li>A URI to the proposed charter; this charter is public during the AC review.</li>
+      <li>The list of significant changes to a revised charter
+	(per <a href="http://www.w3.org/Consortium/Process/#CharterReview">section "Advisory Committee Review of a Working Group or Interest Group Charter"</a> of the Process Document.). In particular, are there
+	any new deliverables with licensing obligations under the W3C Patent
+	Policy? You may wish to use the <a href="http://www.w3.org/2007/10/htmldiff">html diff tool</a></li>
+      <li>A recommended review start date and duration (at least 4 weeks according to <a href="http://www.w3.org/Consortium/Process/#Activities">the process document</a>)</li>
+      <li>The name of the Team-only mailing list for comments</li>
+    </ul>
+  </li>
 </ul>
 
 <p>The Communications Team encourages the Team Contact to include in
@@ -445,8 +434,9 @@ exist).</p>
 <p>The Communications Team (or the motivated Team Contact) builds a <a
 href="http://www.w3.org/2002/09/wbs/33280/apCFRFactory">Call for
 Review questionnaire</a>. The URI for the questionnaire is added to
-the Call for Review. <strong>Note:</strong>
+the Call for Review. 
 <!--
+<strong>Note:</strong>
 The questionnaire builder
 produces questionnaires for groups under the W3C Patent Policy. Here
 is a <a href="http://www.w3.org/2002/09/wbs/33280/EOWG03/">sample of
@@ -461,23 +451,23 @@ delegated approval of) the Call for Review and the questionnaire, the
 Communications Team:</p>
 
 <ol>
-<li>Sends the Call for Review to w3c-ac-members@w3.org.</li>
-<li>Sends a version of the announcement to public-new-work@w3.org
-(<a href="http://lists.w3.org/Archives/Public/public-new-work/">archive</a>).
-Use this <a href="http://www.w3.org/new-doc-from-template?location=%2FTeam%2FTemplates&amp;template=%2Fafs%2Fw3.org%2Fpub%2FWWW%2FTeam%2FTemplates%2Fpublic-charter.html&amp;submit=Continue...">template</a> (and see the
-<a href="http://lists.w3.org/Archives/Public/public-new-work/2007Jan/0001.html">example</a>). The announcement must include:
-<ul>
-<li>The URI of the (public) charter.</li>
-<li>The end date of the Member review.</li>
-<li>That W3C invites public feedback on public-new-work@w3.org
-(<a href="http://lists.w3.org/Archives/Public/public-new-work/">archive</a>).
-</li>
-<li>That we make no guarantees of replying to feedback. </li>
-<li>That people who work for a Member organization should
-    coordinate their comments through their Advisory Committee Representative.</li>
-</ul>
-</li>
-<li>Send the same email <a href="https://www1.ietf.org/mailman/listinfo/new-work">new-work@ietf.org</a>. <strong>Note:</strong> public-new-work@w3.org used to cc new-work@ietf.org but due to mailing list configuration issues, we stopped that practice.</li>
+  <li>Sends the Call for Review to w3c-ac-members@w3.org.</li>
+  <li>Sends a version of the announcement to public-new-work@w3.org
+    (<a href="http://lists.w3.org/Archives/Public/public-new-work/">archive</a>).
+    Use this <a href="http://www.w3.org/new-doc-from-template?location=%2FTeam%2FTemplates&amp;template=%2Fafs%2Fw3.org%2Fpub%2FWWW%2FTeam%2FTemplates%2Fpublic-charter.html&amp;submit=Continue...">template</a> (and see the
+    <a href="http://lists.w3.org/Archives/Public/public-new-work/2007Jan/0001.html">example</a>). The announcement must include:
+    <ul>
+      <li>The URI of the (public) charter.</li>
+      <li>The end date of the Member review.</li>
+      <li>That W3C invites public feedback on public-new-work@w3.org
+	(<a href="http://lists.w3.org/Archives/Public/public-new-work/">archive</a>).
+      </li>
+      <li>That we make no guarantees of replying to feedback. </li>
+      <li>That people who work for a Member organization should
+	coordinate their comments through their Advisory Committee Representative.</li>
+    </ul>
+  </li>
+  <li>Send the same email <a href="https://www1.ietf.org/mailman/listinfo/new-work">new-work@ietf.org</a>. <strong>Note:</strong> public-new-work@w3.org used to cc new-work@ietf.org but due to mailing list configuration issues, we stopped that practice.</li>
 </ol>
 
 <p><strong>Note:</strong> Starting in January 2007, W3C makes
@@ -532,7 +522,7 @@ Announcement of Director's Decision, Call for Participation</a></h2>
 <li>W3M has approved the group, whether or not preceded by an Advisory Committee Review</li>
 <li>There is a public home page for the group</li>
 <li>The group exists in IPP. If the group does not exist in IPP then
-contact sysreq@w3.org and cc: w3t-comm@w3.org to <a href="/groups/new">create the group</a>. Note that this requires: 
+contact w3t-comm@w3.org to <a href="/groups/new">create the group</a>. Note that this requires: 
   <ul>
     <li>group name,</li>
     <li>charter URI,</li>
@@ -553,10 +543,10 @@ href="http://www.w3.org/new-doc-from-template?location=%2FTeam%2FTemplates&amp;t
 
 <h3>6.1 Organizing the Director's Decision</h3>
 
-<p>The Team contact sends a draft Director's Decision and Call for Participation to the Head of
-W3C Communications cc'ing w3t-comm (<a
-href="https://lists.w3.org/Archives/Member/w3c-ac-members/2015OctDec/0043.html">sample
-announcement of group approval</a>).  The announcement must
+<p>The Team contact sends a draft Director's Decision and Call for
+Participation to the Head of W3C Communications cc'ing w3t-comm
+(<a href="https://lists.w3.org/Archives/Member/w3c-ac-members/2015OctDec/0043.html">sample
+announcement of group approval</a>). The announcement must
 indicate:</p>
 
 <ul>
@@ -574,9 +564,22 @@ The Communications Team SHOULD announce the Director's decision within
 review (or send an email setting new expectations). An announcement is
 made if the proposal is approved <em>or</em> rejected.</p>
 
-<p>Is is a best practice that the Communications Team also forwards the Call for Participation to
-the Working Group's primarily public mailing list (to notify the group,
-including Invited Experts). The Results of the Call for Review should be elided.</p>
+<p><strong>If the group is <em>approved</em></strong>, it is a good
+practice that the Communications Team also:</p>
+<ul>
+  <li>forwards the Call for Participation to the Working Group's
+primarily public mailing list (to notify the group, including Invited
+Experts). The Results of the Call for Review and any member-only
+information should be
+elided. See <a href="https://lists.w3.org/Archives/Public/public-webassembly/2017Aug/0001.html">example</a>.</li>
+  <li>follows-up on the Advance Notice in public-new-work with a
+  pointer to that
+  announcement. See <a href="https://lists.w3.org/Archives/Public/public-new-work/2017Aug/0001.html">example</a>.</li>
+</ul>
+
+<p><strong>If the group is <em>rejected</em></strong>, it is a good
+practice that the Communications Team follows-up on the Advance
+Notice in public-new-work to close the loop for the public record.</p>
 
 <h3><a name="join-form">6.2 Creating a Mechanism
 for People to Join the Group</a></h3>
@@ -732,9 +735,8 @@ working groups</a> and discussion within the Team and Advisory Board.</li>
 <li><strong>2016-02</strong>: Updated mostly to reflect that the Groups DB interfaces with IPP and that systeam creates new WGs/IGs; pointed to most recent sample announcement for Director's Decision and Call for Participation; updated workflows to match current practice; further removed or clarified that "Activities" are no longer in Process..</li>
 </ul>
 
-<hr />
+<hr >
 
-<address><a href="http://www.w3.org/People/CMercier/">Coralie Mercier</a><br />
- last revised $Date: 2017/02/15 19:03:03 $ by $Author: plehegar $</address>
+<address><a href="http://www.w3.org/People/CMercier/">Coralie Mercier</a></address>
 </body>
 </html>
