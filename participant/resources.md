@@ -1,4 +1,4 @@
-# Onboarding information for group participants
+# Onboarding Information for Group Participants
 
 # Group Specific Information
 * Your group's Email list and its archive
