@@ -26,3 +26,5 @@ Documentation on how to participate in W3C WGs is split between multiple wikipag
   * Guidance on where to go to receive regional support (e.g. Keio office for Japanese assistance)
 * /participate/teamcontact
   * Guidance on the role of the team contact, and what to expect from them.
+* [/participant/resources](tree/master/participant)
+  * Onboarding Information for Group Participants
