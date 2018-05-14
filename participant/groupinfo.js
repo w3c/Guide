@@ -118,88 +118,13 @@
   var callAPIsBasedOnRequiredPlaceholders = function() {
     getGrName();
     getGrDescription();
+    getGrHomepage();
+    getGrCharter();
 
     if (MODE_DEBUG === mode)
       console.debug(`placeholders:\n${JSON.stringify(placeholders)}`);
   };
 
-
-/* formatEntity */
-  var formatEntity = function(entity, expression) {
-    var result;
-
-    // @TODO: get rid of these special checks when there's a smarter algorithm for hyperlinks.
-    if (expression) {
-      result = '<li>';
-      result += interpolateString.call(entity, expression);
-/*      result += ':L230:'; */
-      result += '</li>';
-
-    } else if (entity.hasOwnProperty('_links') && entity._links.hasOwnProperty('homepage') &&
-      entity._links.homepage.hasOwnProperty('href') && entity.hasOwnProperty('name')) {
-
-      // It's a group.
-      result = '<li>';
-      result += '<a href="';
-      result += entity._links.homepage.href;
-      result += '">';
-      result += entity.name;
-/*      result += ':L241:'; */
-      reslt += '</a></li>';
-
-    } else if (entity.hasOwnProperty('discr') && 'user' === entity.discr &&
-      entity.hasOwnProperty('gid') && entity.hasOwnProperty('name')) {
-
-      // It's a user.
-      result = '<li>';
-      result += '<a href="';
-      result += USER_PROFILE_URL;
-      result += entity.gid;
-      result += '">';
-      result += (entity['work-title'] ? entity['work-title'] + ' ' : '');
-      result += entity.name;
-/*      result += ':L255:'; */
-      result += '</a></li>';
-
-    } else if (entity.hasOwnProperty('shortlink') && entity.hasOwnProperty('title')) {
-      // Spec:
-      result = '<li><a href="' + entity.shortlink;
-      result += (entity.description ? '" title="' + escapeHTML(entity.description) : '');
-      result += '">' + entity.title;
-      result += (entity.shortname ? ' (<code>' + entity.shortname + '</code>)' : '');
-/*      result += ':L264:'; */
-      result += '</a></li>';
-
-    } else if (entity.hasOwnProperty('name')) {
-      result = '<li>';
-      result += entity.name;
-/*      result += ':L272:'; */
-      result += '</li>';
-
-    } else if (entity.hasOwnProperty('title')) {
-      result = '<li>';
-      result += entity.title;
-/*      result += ':L278:'; */
-      result += '</li>';
-
-    } else if (entity.hasOwnProperty('href') && entity.hasOwnProperty('title')) {
-      result = '<li><a href="';
-      result += entity.href;
-      result += '">';
-      result += entity.title;
-/*      result += ':L286:'; */
-      result += '</a></li>';
-
-    } else if (entity.hasOwnProperty('href') && entity.hasOwnProperty('name')) {
-      result = '<a href="';
-      result += entity.href;
-      result += '">';
-      result += entity.name;
-/*      result += ':L294:'; */
-      result += '</a>';
-    }
-    return result;
-  };
 
 /* getGrName */
   var getGrName = function() {
@@ -225,23 +150,10 @@
       console.log('getGrName:\n' + xhr.responseText);
 
       var result = JSON.parse(xhr.response);
-      var i, j;
+      console.log('getGrName:\n' + 'name:' + result.name);
 
-      for (i of ['_links', '_embedded']) {
-        if (result.hasOwnProperty(i)) {
-          for (j in result[i]) {
-            if (result[i].hasOwnProperty(j)) {
-              result[j] = result[i][j];
-            }
-          }
-          delete result[i];
-        }
-      }
-      cache[gid] = result;
-      console.log('getGrName:\n' + JSON.stringify(cache[gid]));
-      console.log('getGrName:\n' + cache[gid].name);
-
-      document.getElementById("gname").innerHTML = cache[gid].name;
+      var name = result.name;
+      document.getElementById("gname").innerHTML = name;
     });
     xhr.send();
 
@@ -271,20 +183,10 @@
       console.log('getGrName:\n' + xhr.responseText);
 
       var result = JSON.parse(xhr.response);
-      var i, j;
+      console.log('getGrDescription:\n' + 'description:' + result.description);
 
-      for (i of ['_links', '_embedded']) {
-        if (result.hasOwnProperty(i)) {
-          for (j in result[i]) {
-            if (result[i].hasOwnProperty(j)) {
-              result[j] = result[i][j];
-            }
-          }
-          delete result[i];
-        }
-      }
-      cache[gid] = result;
-      document.getElementById("gdescription").innerHTML = cache[gid].description;
+      var description = result.description;
+      document.getElementById("gdescription").innerHTML = description;
     });
     xhr.send();
 
@@ -306,29 +208,57 @@
       url += '&apikey=' + apiKey;
     }
 
+    console.log('getGrHomepage:\n' + url);
+
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url);
     xhr.addEventListener('loadend', function(event) {
+      console.log('getGrHomepage:\n' + xhr.responseText);
 
       var result = JSON.parse(xhr.response);
-      var i, j;
+      console.log('getGrHomepage:\n' + 'homepage:' + result._links.homepage.href);
 
-      for (i of ['_links', '_embedded']) {
-        if (result.hasOwnProperty(i)) {
-          for (j in result[i]) {
-            if (result[i].hasOwnProperty(j)) {
-              result[j] = result[i][j];
-            }
-          }
-          delete result[i];
-        }
-      }
-      cache[gid] = result;
-      document.getElementById("ghomepage").innerHTML = cache[gid]._links.homepage;
+      url = result._links.homepage.href;
+      var content = '<a href="' + url + '">' + url + '</a>';
+      document.getElementById("ghomepage").innerHTML = content;
     });
     xhr.send();
 
   };
+
+/* getGrCharter */
+  var getGrCharter = function() {
+
+    var url;
+
+    /* active-charter */
+    url = BASE_URL + 'groups/' + gid + '/charters/333';
+
+    if (-1 === url.indexOf('?')) {
+      /* url += '?apikey=' + apiKey + '&embed=true'; */
+      url += '?apikey=' + apiKey;
+
+    } else {
+      /* url += '&apikey=' + apiKey + '&embed=true'; */
+      url += '&apikey=' + apiKey;
+    }
+
+    console.log('getGrCharter:\n' + url);
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url);
+    xhr.addEventListener('loadend', function(event) {
+      var result = JSON.parse(xhr.response);
+      console.log('getGrCharter:\n' + 'charter:' + result.uri);
+
+      url = result.uri;
+      var content = '<a href="' + url + '">' + url + '</a>';
+      document.getElementById("gcharter").innerHTML = content;
+    });
+    xhr.send();
+
+  };
+
 
 
   // Process stuff!
