@@ -360,7 +360,7 @@
       for (var i = 0; i < groups.length; i++) { 
         href = groups[i].href;
         id = href.replace(/https:\/\/api.w3.org\/groups\//, "");
-      console.log('getGrList:\n' + ggid);
+      console.log('getGrList:\n' + gid);
         content += '<option value="' + id + '">' + groups[i].title + '</option>';
       }
       content += '</select></form>';
@@ -373,8 +373,8 @@
 
   var getGrId = function(obj) {
     var num = obj.value;
-    var ggid = obj.options[num].value;
-    console.log('getGrList:\n' + ggid);
+    var gid = obj.options[num].value;
+    console.log('getGrList:\n' + gid);
   }
 
 
