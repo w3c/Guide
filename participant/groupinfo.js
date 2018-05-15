@@ -91,6 +91,9 @@
     if (1 === document.querySelectorAll('html[data-apiary-key]').length) {
       apiKey = document.querySelectorAll('html[data-apiary-key]')[0].getAttribute('data-apiary-key');
     }
+
+    getGrList();
+
     if (document.querySelectorAll('[data-apiary-group]').length > 0) {
       type = TYPE_GROUP_PAGE;
       gid = document.querySelectorAll('[data-apiary-group]')[0].getAttribute('data-apiary-group');
@@ -116,10 +119,13 @@
 
 /* callAPIsBasedOnRequiredPlaceholders */
   var callAPIsBasedOnRequiredPlaceholders = function() {
+/*    gid = document.grlist.gid.selectedIndex; */
     getGrName();
     getGrDescription();
     getGrHomepage();
     getGrCharter();
+    getGrChairs();
+    getGrTeamcontacts();
 
     if (MODE_DEBUG === mode)
       console.debug(`placeholders:\n${JSON.stringify(placeholders)}`);
@@ -258,6 +264,118 @@
     xhr.send();
 
   };
+
+/* getGrChairs */
+  var getGrChairs = function() {
+
+    var url;
+
+    url = BASE_URL + 'groups/' + gid + '/chairs';
+
+    if (-1 === url.indexOf('?')) {
+      /* url += '?apikey=' + apiKey + '&embed=true'; */
+      url += '?apikey=' + apiKey;
+
+    } else {
+      /* url += '&apikey=' + apiKey + '&embed=true'; */
+      url += '&apikey=' + apiKey;
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url);
+    xhr.addEventListener('loadend', function(event) {
+      var result = JSON.parse(xhr.response);
+      var chairs = result._links.chairs;
+      var content = '<ul>';
+      for (var i = 0; i < chairs.length; i++) { 
+        content += '<li>' + chairs[i].title + '</li>';
+      }
+      content += '</ul>';
+
+      document.getElementById("gchairs").innerHTML = content;
+    });
+    xhr.send();
+
+  };
+
+/* getGrTeamcontacts */
+  var getGrTeamcontacts = function() {
+
+    var url;
+
+    url = BASE_URL + 'groups/' + gid + '/teamcontacts';
+
+    if (-1 === url.indexOf('?')) {
+      /* url += '?apikey=' + apiKey + '&embed=true'; */
+      url += '?apikey=' + apiKey;
+
+    } else {
+      /* url += '&apikey=' + apiKey + '&embed=true'; */
+      url += '&apikey=' + apiKey;
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url);
+    xhr.addEventListener('loadend', function(event) {
+      var result = JSON.parse(xhr.response);
+      var teamcontacts = result._links['team-contacts'];
+      var content = '<ul>';
+      for (var i = 0; i < teamcontacts.length; i++) { 
+        content += '<li>' + teamcontacts[i].title + '</li>';
+      }
+      content += '</ul>';
+
+      document.getElementById("gteamcontacts").innerHTML = content;
+    });
+    xhr.send();
+
+  };
+
+/* getGrList */
+  var getGrList = function() {
+
+    var url;
+
+    url = BASE_URL + 'groups';
+
+    if (-1 === url.indexOf('?')) {
+      /* url += '?apikey=' + apiKey + '&embed=true'; */
+      url += '?apikey=' + apiKey;
+
+    } else {
+      /* url += '&apikey=' + apiKey + '&embed=true'; */
+      url += '&apikey=' + apiKey;
+    }
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url);
+    xhr.addEventListener('loadend', function(event) {
+      var result = JSON.parse(xhr.response);
+
+      var groups = result._links.groups;
+      /*var content = '<form name="grlist"><select name ="ggid" onchange="callAPIsBasedOnRequiredPlaceholders()">';*/
+      var content = '<form name="grlist"><select onchange="getGrId(this)">';
+      var href;
+      var id;
+      for (var i = 0; i < groups.length; i++) { 
+        href = groups[i].href;
+        id = href.replace(/https:\/\/api.w3.org\/groups\//, "");
+      console.log('getGrList:\n' + ggid);
+        content += '<option value="' + id + '">' + groups[i].title + '</option>';
+      }
+      content += '</select></form>';
+
+      document.getElementById("groups").innerHTML = content;
+    });
+    xhr.send();
+
+  };
+
+  var getGrId = function(obj) {
+    var num = obj.value;
+    var ggid = obj.options[num].value;
+    console.log('getGrList:\n' + ggid);
+  }
 
 
 
