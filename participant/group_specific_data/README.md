@@ -5,7 +5,7 @@
 Generate `group.map` based on W3C API and /Member/Groups.
 
 1. Generate the mapping table of gid and group name (`group.map.by_api`) using W3C API, etc.
-- I created a mapping table using `group.html` and `groupinfo.js`
+  - I created a mapping table using `group.html` and `groupinfo.js`
 
 1. Generate supplementary mapping table (`group.map.by_Member_Group`) from /Member/Groups using `extract_gropus.pl`
 
