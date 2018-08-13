@@ -21,7 +21,7 @@ Generate `group.map` based on W3C API and /Member/Groups.
 
 1. visit http://localhost:3000/projects and copy the results to `w3c_github.json`
 
-## Step3: Classify repos based on their groups based on the above resources
+## Step3: Classify repos based on their groups using the above resources
 
 - Run `classify_repos_based_on_groups.pl` and generate `classified-results.txt`
 
