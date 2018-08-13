@@ -25,7 +25,3 @@ Generate `group.map` based on W3C API and /Member/Groups.
 
 - Run `classify_repos_based_on_groups.pl` and generate `classified-results.txt`
 
-## Step4: Compare the original results (`report-crawl.txt`) and the new results (`classified-results.txt`)
-
-- Get the difference using `diff report-crawl.txt classified-results.txt`
-
