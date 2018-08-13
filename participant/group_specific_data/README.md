@@ -1,4 +1,4 @@
-# Group-specific information for customized /Guide for group participants
+# Group-specific information to generate a customized /Guide page for group participants
 
 ## Step1: Generate the group mapping table
 
