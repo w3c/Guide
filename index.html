@@ -40,7 +40,7 @@ Publication Rules</a>.</p>
 </section>
 
 <section id="sotd">
-  
+
 </section>
 <section  id="Introduction">
 <h2>Introduction</h2>
@@ -72,7 +72,8 @@ and 4 cover <a href="#Accessibility">accessibility</a> and <a href=
 "#Parts">parts</a> of a W3C technical report. Chapters 6, 7, and 8
 cover <a href="#Errata">errata</a>, <a href=
 "#References">references</a> and <a href="#Revisions">revisions</a>.
-Chapter 9 introduces <a href="#Production">editing tools</a>. Chapter 10 addresses <a href=
+Chapter 9 introduces <a href="#Production">editing tools</a>.
+Chapter 10 addresses Normative and Informative requirements, in particular  <a href=
 "#RFC"><abbr title="Request for Comments">RFC</abbr> 2119 key
 words</a>. Chapter 11 presents <a href="#Editorial">editorial
 guidelines</a>, and, finally, chapter 12 documents commonly <a href=
@@ -599,7 +600,7 @@ href="https://www.w3.org/TR/2016/REC-html51-20161101/"&gt;http://www.w3.org/TR/1
 </ul>
 </section>
 <section id="normative">
-  
+
   <h3>Normative and Informative
 References</h3>
 
@@ -640,13 +641,38 @@ the experts on the public mailing list spec-prod@w3.org [<cite><a href=
 "#ref-SPEC-PROD">SPEC-PROD</a></cite>].</p>
 
 </section>
+<section id="Normative">
+  <h2>Normative material</h2>
+  <section id="N-I-sections">
+      <h3>Normative &amp; Informative sections</h3>
+
+  <p>It is important that informative (non-normative) material
+    is clearly distinguished from normative material. To this end:</p>
+    <ul>
+      <li>If the entire document is informative, say so at the top and
+        do not reference RFC 2119 or use <a href="#RFC">RFC 2119 keywords</a>
+      </li>
+      <li>If some sections are informative, say so at the
+        start of each section, and do not
+        use <a href="#RFC">RFC 2119 keywords</a> in those sections
+      </li>
+      <li>Figures, examples and notes are assumed to always be informative.
+        To avoid repetition, each figure, example or note does not say this.
+        <span id="consistent-expectations">Thus,
+          to avoid breaking user expectations,
+          document editors <em class="rfc2119">MUST NOT</em> make any
+          figure, example or note normative.</span>
+      </li>
+    </ul>
+  </section>
+
 <section id="RFC">
-  <h2><abbr title=
-"Request for Comments">RFC</abbr> 2119 Key Words</h2>
+  <h3><abbr title=
+"Request for Comments">RFC</abbr> 2119 Key Words</h3>
 
 <div class="issue" data-number="3" title="RFC2119 keywords are not in uppercase">
   <p>Recent changes to ReSpec mean this is not the case in this document (which is based upon ReSpec), nor in other ReSpec generated documents.</p>
-</div>  
+</div>
 
 <p>Adhere to and credit <cite><abbr title=
 "Request for Comments">RFC</abbr> 2119 Key words for use in
@@ -682,6 +708,8 @@ to impose a particular method on implementors where the method is not
 required for interoperability.</q></em></p>
 
 </section>
+</section>
+
 <section id="Editorial">
   <h2>Editorial Guidelines</h2>
 
