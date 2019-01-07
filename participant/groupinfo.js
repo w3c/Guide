@@ -94,10 +94,12 @@
 
     getGrList();
 
+    /* gid = 95969; */
     if (document.querySelectorAll('[data-apiary-group]').length > 0) {
       type = TYPE_GROUP_PAGE;
       gid = document.querySelectorAll('[data-apiary-group]')[0].getAttribute('data-apiary-group');
     }
+
 
     if (apiKey && type && gid) {
       console.log('process:\n' + gid);
@@ -338,13 +340,14 @@
 
     url = BASE_URL + 'groups';
 
+    /* get the list of all the groups using the W3C API */
     if (-1 === url.indexOf('?')) {
       /* url += '?apikey=' + apiKey + '&embed=true'; */
-      url += '?apikey=' + apiKey;
+      url += '?apikey=' + apiKey + '&items=1000';
 
     } else {
       /* url += '&apikey=' + apiKey + '&embed=true'; */
-      url += '&apikey=' + apiKey;
+      url += '&apikey=' + apiKey + '&items=1000';
     }
 
     var xhr = new XMLHttpRequest();
@@ -354,16 +357,21 @@
 
       var groups = result._links.groups;
       /*var content = '<form name="grlist"><select name ="ggid" onchange="callAPIsBasedOnRequiredPlaceholders()">';*/
-      var content = '<form name="grlist"><select onchange="getGrId(this)">';
+      /* var content = '<form name="grlist"><select onchange="getGrId(this)">'; */
+      var content = '<form><select id="grlist>';
       var href;
       var id;
       for (var i = 0; i < groups.length; i++) { 
         href = groups[i].href;
         id = href.replace(/https:\/\/api.w3.org\/groups\//, "");
-      console.log('getGrList:\n' + gid);
-        content += '<option value="' + id + '">' + groups[i].title + '</option>';
+	  /* extract only the WGs */
+          if (groups[i].title.match(/Working Group/)) {
+            content += '<option value="' + id + '">' + groups[i].title + '</option>';
+          }
       }
-      content += '</select></form>';
+      content += '</select>';
+      content += '<input type="button" value="Get Your Group\'s Info" onclick="getGrId(\'grlist\');" />';
+      content += '</form>';
 
       document.getElementById("groups").innerHTML = content;
     });
@@ -371,11 +379,17 @@
 
   };
 
+  var getGrId = function(idname) {
+  /*
   var getGrId = function(obj) {
     var num = obj.value;
     var gid = obj.options[num].value;
     console.log('getGrList:\n' + gid);
-  }
+    */
+      var obj = document.getElemntById(idname);
+      var result = obj.value;
+      console('value:' + result);
+  };
 
 
 
