@@ -3,7 +3,6 @@
 * [For Editors](https://github.com/nrooney/Guide/blob/master/mock/editors/index.md)
 * [For Members and Group Participants](#)
 * [Staff Portal](#)
-
 * [Meetings and IRC](#)
 * [W3C Groups](#)
 * [Rec Track](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md)
