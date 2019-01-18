@@ -75,12 +75,28 @@
     xhr.send();
   };
 
+/*
+  window.onpopstate = function(e) {
+    if (!e.state) return;
+    console.log(JSON.stringify(e.state));
+    putGrInfo(gid);
+  }
+*/
+  window.addEventListener('onpopstate', function(e) {
+    if (!e.state) return;
+    console.log(JSON.stringify(e.state));
+    putGrInfo(gid);
+  });
+
   /************************************
    * Global function to get selectd ID
    ************************************/
   window.putGrInfo = function(idname) {
     var obj = window.document.getElementById(idname);
     var gid = obj.value;
+
+    /* add gid to the URL display of the browser */
+    history.pushState(null, null, "?gid=" + gid);
 
     /* putGrName */
     var putGrName = function() {
