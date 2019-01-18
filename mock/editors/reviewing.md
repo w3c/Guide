@@ -1,12 +1,6 @@
 # Menu
 * [Group Reviews](#)
 * [Horizontal Reviews](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
 
 # Content
 ## Reviewing
