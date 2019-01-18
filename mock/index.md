@@ -1,5 +1,5 @@
 # Menu
-* [For Chairs](#)
+* [For Chairs](https://github.com/nrooney/Guide/blob/master/mock/chairs/index.md)
 * [For Editors](#)
 * [For Members and Group Participants](#)
 * [Meetings and IRC](#)
@@ -23,8 +23,3 @@ Welcome to the W3C Guide! Here you'll find information on how to participate in 
 * [Process Doc](#)
 * [/TR](#)
 
-## Information for Chairs
-* [Setting up Teleconferences](#)
-* [Quick start guide for setting up tools for managing an agenda, generating minutes, and updating issues lists](#)
-* [Host a face-to-face meeting ](#)
-* [Using IRC & Scribing (own section)](#)
