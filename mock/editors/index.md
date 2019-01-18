@@ -1,7 +1,7 @@
 # Menu
 * [Document Creation and Tools](https://github.com/nrooney/Guide/blob/master/mock/editors/tools.md)
-* [Rec Track](#) (separate section)
-* [Reviewing Documents](#)
+* [Rec Track](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md) (separate section)
+* [Reviewing Documents](https://github.com/nrooney/Guide/blob/master/mock/editors/reviewing.md)
 
 # Content
 ## Information For Editors
