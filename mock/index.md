@@ -1,6 +1,6 @@
 # Menu
 * [For Chairs](https://github.com/nrooney/Guide/blob/master/mock/chairs/index.md)
-* [For Editors](#)
+* [For Editors](https://github.com/nrooney/Guide/blob/master/mock/editors/index.md)
 * [For Members and Group Participants](#)
 * [Meetings and IRC](#)
 * [W3C Groups](#)
