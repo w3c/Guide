@@ -2,6 +2,8 @@
 * [For Chairs](https://github.com/nrooney/Guide/blob/master/mock/chairs/index.md)
 * [For Editors](https://github.com/nrooney/Guide/blob/master/mock/editors/index.md)
 * [For Members and Group Participants](#)
+* [Staff Portal](#)
+
 * [Meetings and IRC](#)
 * [W3C Groups](#)
 * [Rec Track](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md)
@@ -9,7 +11,6 @@
 * [Events](#)
 * [Legal](#)
 * [Code of Conduct](#)
-* [Staff Portal](#)
 
 # Content
 ## Welcome
