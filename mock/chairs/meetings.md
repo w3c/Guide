@@ -3,10 +3,6 @@
 * [Setting Up Teleconfs](#)
 * [Face-to-Face Meetings](#)
 * [IRC / Scribing](#) (link to other section)
-* [Chair Buddy System](#)
-* [](#)
-* [](#)
-* [](#)
 
 # Content
 ## Meetings
