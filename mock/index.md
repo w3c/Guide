@@ -4,7 +4,7 @@
 * [For Members and Group Participants](#)
 * [Meetings and IRC](#)
 * [W3C Groups](#)
-* [Rec Track](#)
+* [Rec Track](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md)
 * [Github](#)
 * [Events](#)
 * [Legal](#)
