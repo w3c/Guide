@@ -10,8 +10,8 @@
 ## Information For Chairs
 Here find all the information you need on being a chair of a W3C Working or Business Group.
 
-## Chair Buddy System
+### Chair Buddy System
 Take and modify content from <https://www.w3.org/Guide/chair/buddy.html>
 
-## Hot Links
+### Hot Links
 
