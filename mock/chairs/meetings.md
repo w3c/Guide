@@ -9,11 +9,11 @@
 Information on managing and running meetings.
 
 ## Sections
-### Setting up Teleconferences
-Take and modify content from <https://www.w3.org/Guide/1998/08/TeleconferenceHowTo>
-
 ### Quick start guide for setting up tools for managing an agenda, generating minutes, and updating issues lists
 Take and modify content from <http://dev.w3.org/2002/scribe/scribedoc.htm#Quick_Start_Guide>
+
+### Setting up Teleconferences
+Take and modify content from <https://www.w3.org/Guide/1998/08/TeleconferenceHowTo>
 
 ### Host a face-to-face meeting 
 Take and modify content from  <https://www.w3.org/participate/eventscal>, 
