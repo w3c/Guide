@@ -2,7 +2,7 @@
 * [For Chairs](#)
 * [For Editors](#)
 * [For Members and Group Participants](#)
-# [Meetings and IRC](#)
+* [Meetings and IRC](#)
 * [W3C Groups](#)
 * [Rec Track](#)
 * [Github](#)
