@@ -13,5 +13,7 @@ Here find all the information you need on being a chair of a W3C Working or Busi
 ### Chair Buddy System
 Take and modify content from <https://www.w3.org/Guide/chair/buddy.html>
 
+REDIRECT NEEDED: <https://www.w3.org/Guide/chair/buddy.html> will redirect here.
+
 ### Hot Links
 
