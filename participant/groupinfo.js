@@ -24,7 +24,7 @@
   // “Global” variables (within this function):
   var apiKey;
   var type;
-  var gid;
+  /* var gid; */
   var URL;
 
   /************************************
@@ -75,18 +75,36 @@
     xhr.send();
   };
 
-/*
+  /*************************************************
+   * Global function to handle browser back/forward
+   *************************************************/
   window.onpopstate = function(e) {
-    if (!e.state) return;
-    console.log(JSON.stringify(e.state));
-    putGrInfo(gid);
+    var url = window.location.href;
+    var str;
+    var gid;
+    var options;
+    var i;
+
+    str = url.match(/\?gid=(\d+)$/);
+    gid = str[1];
+
+    /*if (!e.state) return;*/
+
+    /* put group information based on Group ID */
+    putGrInfoBasedOnId(gid);
+
+    /* update selection within the pulldown menu as well */
+    options = document.getElementById("grlist").getElementsByTagName('option');
+    for (i=0; i<options.length;i++){
+      if (options[i].value == gid) {
+        options[i].selected = true;
+        break;
+      }
+    }
+    /* console.log("url: " + url); */
+    /* console.log("str: " + str); */
+    /* console.log("gid: " + gid); */
   }
-*/
-  window.addEventListener('onpopstate', function(e) {
-    if (!e.state) return;
-    console.log(JSON.stringify(e.state));
-    putGrInfo(gid);
-  });
 
   /************************************
    * Global function to get selectd ID
@@ -95,8 +113,19 @@
     var obj = window.document.getElementById(idname);
     var gid = obj.value;
 
+    /* console.log("gid=" +gid); */
+
     /* add gid to the URL display of the browser */
     history.pushState(null, null, "?gid=" + gid);
+
+    putGrInfoBasedOnId(gid);
+  };
+
+  /***************************************************************************************
+   * common function to put Group info to be called by the above onpopstate and putGrInfo
+   ***************************************************************************************/
+  function putGrInfoBasedOnId(gid) {
+    /* console.log("gid=" +gid); */
 
     /* putGrName */
     var putGrName = function() {
@@ -315,10 +344,8 @@
     putGrChairs();
     putGrTeamcontacts();
   };
-    
+
   putGrMenu();
 
-
 })(window);
-
 
