@@ -20,6 +20,7 @@
     thumbnail: 1,
     tiny:      0
   };
+  var GITHUB_REPORT      = 'https://w3c.github.io/validate-repos/report.json'
 
   // “Global” variables (within this function):
   var apiKey;
@@ -336,11 +337,36 @@
 
     };
 
+    /* putGrRepos */
+    var putGrRepos = function() {
+
+      var url;
+
+      url = GITHUB_REPORT;
+      console.log('putGrTeamcontacts:\n' + url);
+
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', url);
+      xhr.addEventListener('loadend', function(event) {
+        var result = JSON.parse(xhr.response);
+        var repos = result.groups[gid].repos;
+        var content = '<ul>';
+        for (var i = 0; i < repos.length; i++) { 
+          content += '<li><a href="https://github.com/' + repos[i].fullName + '">' + repos[i].name + '</a></li>';
+        }
+        content += '</ul>';
+
+        document.getElementById("grepos").innerHTML = content;
+      });
+      xhr.send();
+
+    };
     /* put Group Info */
     putGrName();
     putGrDescription();
     putGrHomepage();
     putGrCharter();
+    putGrRepos();
     putGrChairs();
     putGrTeamcontacts();
   };
