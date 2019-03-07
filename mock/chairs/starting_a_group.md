@@ -3,7 +3,10 @@
 * [Is starting a group the right course of action?]() (below)
 * [Incubation and WICG](#) (below)
 * [Community Groups](#) (below)
+* [Starting a Business Group](#) (below)
+* [Starting a Working Group](#) (below)
 * [Creating a Charter](#) (below)
+* [Amending a Charter](#) (below)
 * [<- Back to **Chairs**](index.md#)
 
 ## Content
