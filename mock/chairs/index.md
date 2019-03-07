@@ -1,13 +1,15 @@
-# Menu
+# Information For Chairs
+
+## Menu
 * [Meetings](meetings.md)
 * [Tools For Running a WG / IG](tools.md)
 * [Guidelines and Advice for Running a Group](advice.md)
 * [Starting a Group](#)
 * [Chair Buddy System](#)
 * [Rec Track](#) (external link)
+* [<- Back to **Home**](../index.md#)
 
-# Content
-## Information For Chairs
+## Content
 Here find all the information you need on being a chair of a W3C Working or Business Group.
 
 ### Chair Buddy System
