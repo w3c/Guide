@@ -1,7 +1,7 @@
 # Menu
 * [Advice](#advice)
 * [CSI](#csi)
-* [CSI](#csi)
+* [Getting help from the Team](#getting-help-from-the-team)
 * [Back to Chairs](../index.md#)
 
 # Content
