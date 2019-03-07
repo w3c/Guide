@@ -4,6 +4,7 @@
 * [Invited Experts](invited_experts.md)
 * [Attending Teleconferences](teleconfs.md)
 * [Using Github](#) (separate section)
+* [Making Contribution](#) (needs page)
 * [Using IRC & Scribing](#) (separate section)
 * [Mailing Lists](mailing_lists.md)
 * [Using W3C Wiki](#) (separate section)
