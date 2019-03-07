@@ -1,33 +1,32 @@
-# Menu
-* [Join a group](#)
+# Informations for Members and Participants
+## Menu
+* [Join a group](#) (below)
 * [Invited Experts](#)
 * [Attending Teleconferences](#)
-* [Using Github (own section)](#)
-* [Using IRC & Scribing (own section)](#)
+* [Using Github](#) (separate section)
+* [Using IRC & Scribing](#) (separate section)
 * [Mailing Lists](#)
-* [Using W3C Wiki (own section)](#)
+* [Using W3C Wiki](#) (separate section)
+* [<- Back to **Home**](index.md#)
 
-# Content
-## Informations for Members and Participants
-
-### Sections
-#### Join a group 
+## Content
+### Join a group 
 AC member to add to group, see also Invited Expert Policy
 
-#### Invited Experts
+### Invited Experts
 Becoming an invited expert, invited expert mailing list.
 
-#### Attending Teleconferences
+### Attending Teleconferences
 Webex, link to IRC guide.
 
-#### Using Github
+### Using Github
 Separate Section. Link direct to Github guide.
 
-#### Using IRC & Scribing
+### Using IRC & Scribing
 Separate Section. Link direct to IRC guide.
 
-#### Mailing Lists
+### Mailing Lists
 Discovering the mailing lists. Decorum, top posting, good mail clients, archive.
 
-#### Using W3C Wiki
-[Chairs section](https://github.com/nrooney/Guide/blob/master/mock/chairs/tools.md#) also has this - split out into own section?
+### Using W3C Wiki
+[Chairs section](../chairs/tools.md#) also has this - split out into own section?
