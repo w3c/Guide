@@ -1,8 +1,9 @@
 # Teleconferences
 ## Menu
 * [Webex and Other Services](#) (below)
-* [](#) (below)
-* [](#) (link to another section of /guide)
+* [IRC](#irc) (below)
+* [Speaking and Adding Items to an Agenda](#irc) (below)
+* [Calendar Invites](#calendar-invites) (below)
 * [<- Back to **Members and Participants**](index.md)
 
 ## Content
@@ -21,3 +22,6 @@ Sometimes a group will opt to use another teleconference system. This may be bec
 To speak in a W3C teleconference add yourself to the queue by typing "q+" in IRC. The chair will see that you have been added to the speaking queue, and when it is your turn to speak the chair will call on you to speak.
 
 If you wish to have an item added to the agenda please email your group mailing list previously, or let yuor chair know at the beginning of the meeting. Different chairs run meetings in different ways, so chairs may encourage you to take your item to the mailing list or wait till a later meeting. If you have any issues with these decisions feel free to speak to your team contact.
+
+### Calendar Invites
+Calendar invites are rarely sent for W3C meetings. It is up to the participant to add the invite using their calendar tool when they receive an email from their chair / team contact regarding the next group meeting. If you have issues with the process please email your group team contact.
