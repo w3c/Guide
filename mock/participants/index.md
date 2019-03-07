@@ -7,7 +7,7 @@
 * [Using IRC & Scribing](#) (separate section)
 * [Mailing Lists](mailing_lists.md)
 * [Using W3C Wiki](#) (separate section)
-* [<- Back to **Home**](index.md#)
+* [<- Back to **Home**](../index.md#)
 
 ## Content
 ### Join a group 
