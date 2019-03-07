@@ -2,7 +2,7 @@
 ## Menu
 * [Rec Track Explained](#) (below)
 * [Recommendation Track Readiness Best Practices](#) (below)
-* [<- Back to **Home**](home.md#)
+* [<- Back to **Home**](../index.md)
 
 ## Content
 This page gives an understanding of the W3C "RecTrack" or Recommendations Track.
