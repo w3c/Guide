@@ -1,11 +1,11 @@
-# Menu
-* [Mailing List](#)
-* [W3C Wiki](#)
-* [Blog](#)
+# Tools For Running a WG / IG
+## Menu
+* [Mailing List](#) (below)
+* [W3C Wiki](#) (below)
+* [Blog](#) (below)
 * [Group Website](#)
 
-# Content
-## Tools For Running a WG / IG
+## Content
 Here find all the information on the tools available for running your WG / IG and how to use them
 
 ### Sections
