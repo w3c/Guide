@@ -1,11 +1,17 @@
 # Reviewing Documents
 ## Menu
+* [Explainers](#) (below)
 * [Group Reviews](#) (below)
 * [Horizontal Reviews](#) (below)
 * [<- Back to **Editors**](index.md#)
 
 ## Content
 All W3C [RecTrack](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md) Documents need to be reviewed. This page explains the review process, and how to reach out to the groups in charge of the reviewing for particular topics.
+
+## Explainers
+"Explainers" as a useful precursor to all forms of review, helping people orient themselves to the problem being solved and the proposed solution approach; useful in general, required for TAG review anyway. Good practice to do it sooner rather than later.
+
+Add Content.
 
 ### Group Reviews
 Group reviews occur throughout a RecTrack Document's time on the Recommendations Track. Please see the [RecTrack](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md) pages to view when and how to hold RecTrack Reviews.
