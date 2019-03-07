@@ -1,10 +1,10 @@
-# Menu
-* [Document Creation and Tools](https://github.com/nrooney/Guide/blob/master/mock/editors/tools.md)
-* [Rec Track](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md) (separate section)
-* [Reviewing Documents](https://github.com/nrooney/Guide/blob/master/mock/editors/reviewing.md)
+# Information For Editors
+## Menu
+* [Document Creation and Tools](tools.md)
+* [Rec Track](index.md) (separate section)
+* [Reviewing Documents](reviewing.md)
 
-# Content
-## Information For Editors
+## Content
 One of the main accomplishments at W3C is to write specifications and create standards out of them. While the Working Groups at large are responsible for building consensus on the technical decisions, the editors have the heavy responsibility of transforming these decisions into actual specifications.
 
 This page tries to gather resources that can help editors do their job: documentation, tools, tutorials, etc. If you know other resources that would benefit editors by being listed here, please inform the W3C Communication Team at w3t-comm@w3.org.
