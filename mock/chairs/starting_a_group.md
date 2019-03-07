@@ -27,3 +27,6 @@ Text. Link to "Creating a Charter".
 ### Creating a Charter
 Add content.
 
+### Amending a Charter
+Add Content.
+
