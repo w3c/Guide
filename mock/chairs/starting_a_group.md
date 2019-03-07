@@ -18,6 +18,12 @@ Add content.
 ### Community Groups
 Add content.
 
+### Starting a Business Group
+Text. Link to "Creating a Charter".
+
+### Starting a Working Group
+Text. Link to "Creating a Charter".
+
 ### Creating a Charter
 Add content.
 
