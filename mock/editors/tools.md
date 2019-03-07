@@ -24,6 +24,8 @@ Take and modify content from <https://tabatkins.github.io/bikeshed/>, <https://g
 
 Take and modify content from <https://www.w3.org/pubrules/>, <https://www.w3.org/2005/07/13-nsuri>, <https://www.w3.org/2002/06/registering-mediatype2014>, <https://www.w3.org/2005/05/tr-versions>, <https://www.w3.org/2003/01/republishing/>, <https://www.w3.org/Guide/pubrules> and <https://github.com/w3c/specberus/issues>
 
+Add pubrules checker and other validation tools e.g. html validation, link checker etc.
+
 ### Legacy Tools
 e.g. for xmlspec
 
