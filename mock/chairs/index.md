@@ -1,6 +1,6 @@
 # Menu
-* [Meetings](https://github.com/nrooney/Guide/blob/master/mock/chairs/meetings.md)
-* [Tools For Running a WG / IG](https://github.com/nrooney/Guide/blob/master/mock/chairs/tools.md)
+* [Meetings](meetings.md)
+* [Tools For Running a WG / IG](tools.md)
 * [Guidelines and Advice for Running a Group](advice.md)
 * [Starting a Group](#)
 * [Chair Buddy System](#)
