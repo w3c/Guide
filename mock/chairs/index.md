@@ -6,7 +6,7 @@
 * [Guidelines and Advice for Running a Group](advice.md)
 * [Starting a Group](starting_a_group.md)
 * [Chair Buddy System](buddysystem.md)
-* [Rec Track](#) (external link)
+* [Rec Track](#) (link to another section of /guide)
 * [<- Back to **Home**](../index.md#)
 
 ## Content
