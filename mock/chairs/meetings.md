@@ -1,11 +1,12 @@
-# Menu
+## Meetings
+## Menu
 * [Quick start guide](#)
 * [Setting Up Teleconfs](#)
 * [Face-to-Face Meetings](#)
 * [IRC / Scribing](#) (link to other section)
+* [<- Back to **Chairs**](index.md#)
 
-# Content
-## Meetings
+## Content
 Information on managing and running meetings.
 
 ### Sections
