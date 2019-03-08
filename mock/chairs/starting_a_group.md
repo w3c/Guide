@@ -1,7 +1,7 @@
 # Starting a Group
 ## Menu
 * [Is starting a group the right course of action?]() (below)
-* [Incubation and WICG](#) (below)
+* [Incubation and WICG](../editors/incubation.md) (link to Incubation in editors section)
 * [Community Groups](#) (below)
 * [Starting a Business Group](#) (below)
 * [Starting a Working Group](#) (below)
@@ -15,8 +15,7 @@ Find out whether starting a new group is the right course of action and how to s
 ### Is starting a group the right course of action?
 Add content.
 
-### Incubation and WICG
-Add content.
+See [Incubation and WICG](../editors/incubation.md) also.
 
 ### Community Groups
 Add content.
