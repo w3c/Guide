@@ -4,6 +4,7 @@
 * [Document Creation and Tools](tools.md)
 * [Rec Track](index.md) (separate section)
 * [Using Github](#) (separate section)
+* [Testing](testing.md)
 * [Reviewing Documents](reviewing.md)
 * [List of Mailing Lists](#) (separate section)
 * [<- Back to **Home**](../index.md#)
