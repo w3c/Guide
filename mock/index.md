@@ -10,7 +10,7 @@
 * [W3C Groups](https://www.w3.org/Consortium/activities) (link to main site)
 * [Rec Track](rectrack/index.md)
 * [Github](github/index.md)
-* [Events](https://www.w3.org/participate/eventscal) (link to main site)
+* [Events](events.md)
 * [Legal](#) (link to main site)
 * [Code of Conduct](#) (PWE Task Force to add)
 
