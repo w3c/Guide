@@ -1,5 +1,6 @@
 # Information For Editors
 ## Menu
+* [Incubation](incubation.md)
 * [Document Creation and Tools](tools.md)
 * [Rec Track](index.md) (separate section)
 * [Using Github](#) (separate section)
