@@ -9,6 +9,7 @@
 * [Using IRC & Scribing](../irc_meetings.md) (separate section)
 * [Mailing Lists](mailing_lists.md)
 * [Using W3C Wiki](#) (separate section)
+* [Edit your contact information or affiliation](#) (below)
 * [<- Back to **Home**](../index.md#)
 
 ## Content
@@ -17,3 +18,6 @@ AC member to add to group, see also [Invited Experts](invited_experts.md)
 
 ### Using W3C Wiki
 [Chairs section](../chairs/tools.md#) also has this - split out into own section?
+
+### Edit your contact information or affiliation
+Add Content.
