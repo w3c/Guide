@@ -7,6 +7,7 @@
 * [Starting a Group](starting_a_group.md)
 * [Chair Buddy System](buddysystem.md)
 * [Rec Track](#) (link to another section of /guide)
+* [Milestones](milestones.md)
 * [<- Back to **Home**](../index.md#)
 
 ## Content
