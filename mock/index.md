@@ -11,7 +11,7 @@
 * [Rec Track](rectrack/index.md)
 * [Github](github/index.md)
 * [Events](events.md)
-* [Legal](#) (link to main site)
+* [Legal](legal.md) (link to main site)
 * [Code of Conduct](#) (PWE Task Force to add)
 
 ## Content
