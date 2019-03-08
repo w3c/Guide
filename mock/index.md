@@ -1,5 +1,6 @@
 # /Guide Homepage
 ## Menu
+* [Code of Conduct](code_of_conduct.md)
 * [For Chairs](chairs/index.md)
 * [For Editors](editors/index.md)
 * [For Members and Group Participants](participants/index.md)
@@ -12,7 +13,6 @@
 * [Github](github/index.md)
 * [Events](events.md)
 * [Legal](legal.md) (link to main site)
-* [Code of Conduct](code_of_conduct.md)
 
 ## Content
 ### Welcome
