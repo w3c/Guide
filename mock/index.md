@@ -6,7 +6,7 @@
 * [Staff Portal](#)
 
 ### Generic Info
-* [Meetings and IRC](#)
+* [IRC and Meetings](#)
 * [W3C Groups](#)
 * [Rec Track](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md)
 * [Github](#)
