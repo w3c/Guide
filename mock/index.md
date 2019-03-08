@@ -9,7 +9,7 @@
 * [IRC and Meetings](irc_meetings.md)
 * [W3C Groups](https://www.w3.org/Consortium/activities) (link to main site)
 * [Rec Track](rectrack/index.md)
-* [Github](#)
+* [Github](github/index.md)
 * [Events](https://www.w3.org/participate/eventscal) (link to main site)
 * [Legal](#) (link to main site)
 * [Code of Conduct](#) (PWE Task Force to add)
