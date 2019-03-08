@@ -4,6 +4,7 @@
 * [W3C Wiki](#) (below)
 * [Blog](#) (below)
 * [Group Website](#) (below)
+* [Github](../github/index.md) (separate section)
 * [<- Back to **Chairs**](index.md#)
 
 ## Content
