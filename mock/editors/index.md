@@ -1,6 +1,7 @@
 # Information For Editors
 ## Menu
 * [Incubation](incubation.md)
+* [Spec Terminology](terminology.md)
 * [Explainer Documents](explainer.md)
 * [Document Creation and Tools](tools.md)
 * [Rec Track](index.md) (separate section)
