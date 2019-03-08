@@ -12,7 +12,7 @@
 * [Github](github/index.md)
 * [Events](events.md)
 * [Legal](legal.md) (link to main site)
-* [Code of Conduct](#) (PWE Task Force to add)
+* [Code of Conduct](code_of_conduct.md)
 
 ## Content
 ### Welcome
