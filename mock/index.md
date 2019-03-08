@@ -1,14 +1,14 @@
 # /Guide Homepage
 ## Menu
-* [For Chairs](https://github.com/nrooney/Guide/blob/master/mock/chairs/index.md)
-* [For Editors](https://github.com/nrooney/Guide/blob/master/mock/editors/index.md)
-* [For Members and Group Participants](https://github.com/nrooney/Guide/blob/master/mock/participants/index.md)
+* [For Chairs](chairs/index.md)
+* [For Editors](editors/index.md)
+* [For Members and Group Participants](participants/index.md)
 * [Staff Portal](#) (not created yet)
 
 ### Generic Info
 * [IRC and Meetings](irc_meetings.md)
 * [W3C Groups](https://www.w3.org/Consortium/activities) (link to main site)
-* [Rec Track](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md)
+* [Rec Track](rectrack/index.md)
 * [Github](#)
 * [Events](https://www.w3.org/participate/eventscal) (link to main site)
 * [Legal](#) (link to main site)
