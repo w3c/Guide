@@ -3,16 +3,16 @@
 * [For Chairs](https://github.com/nrooney/Guide/blob/master/mock/chairs/index.md)
 * [For Editors](https://github.com/nrooney/Guide/blob/master/mock/editors/index.md)
 * [For Members and Group Participants](https://github.com/nrooney/Guide/blob/master/mock/participants/index.md)
-* [Staff Portal](#)
+* [Staff Portal](#) (not created yet)
 
 ### Generic Info
 * [IRC and Meetings](irc_meetings.md)
-* [W3C Groups](#)
+* [W3C Groups](https://www.w3.org/Consortium/activities) (link to main site)
 * [Rec Track](https://github.com/nrooney/Guide/blob/master/mock/rectrack/index.md)
 * [Github](#)
-* [Events](#)
-* [Legal](#)
-* [Code of Conduct](#)
+* [Events](https://www.w3.org/participate/eventscal) (link to main site)
+* [Legal](#) (link to main site)
+* [Code of Conduct](#) (PWE Task Force to add)
 
 ## Content
 ### Welcome
