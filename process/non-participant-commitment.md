@@ -20,6 +20,7 @@ b. Are they independent?
   
   
  =====DRAFT===
+ 
 "I [name], [organization], commit to license all my Essential Claims
 both in the contribution [pull request # on spec], and that become
 Essential Claims as a result of incorporating the contribution into the
@@ -49,5 +50,6 @@ This Agreement shall be deemed to have been entered into and shall be
 interpreted and governed in all respects by the laws of The Commonwealth
 of Massachusetts and the United States of America.
 
-[click to agree]
+click to agree
+
  =====
