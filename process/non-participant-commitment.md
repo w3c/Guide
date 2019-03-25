@@ -1,8 +1,10 @@
-[Process 2019](https://www.w3.org/2019/Process-20190301/#contributor-license) introduces new text on contribution licensing. Here is Team guidance for implementation of [Process 6.2.6](https://www.w3.org/Consortium/Process/#contributor-license). If you have any IPR questions, please contact [team-legal](mailto:team-legal @ w3.org). 
+[Process 2019](https://www.w3.org/2019/Process-20190301/#contributor-license) introduces new text on contribution licensing. Here is Team guidance for implementation of [Process 6.2.6](https://www.w3.org/Consortium/Process/#contributor-license). If you have any IPR questions, and for substantial contributions, please contact [team-legal](mailto:team-legal @ w3.org). 
 
 When a non-member (or not-yet-identified member) makes a pull request contribution to a W3C Working Group repository, the repository manager tool flags it for review and sends them an email with [this text](https://github.com/w3c/ash-nazg/blob/master/templates/affiliation-mail.txt) to the contributor, chairs, and team contacts.
 
-1. If the contributor is a member, link the github account to the W3C member-affiliated account and re-validate.
+1. If the contributor is a member participating in the WG, link the github account to the W3C member-affiliated account and re-validate.
+
+1.5 If the contributor is a member not participating in the WG, first encourage them to join the WG. If they won't, and this is a one-off contribution, follow the flow below. 
 
 If the contribution is non-substantive, e.g. fixing a typo, mark it as non-substantive (which clears the IPR flag). 
 
@@ -12,18 +14,18 @@ If the contribution is non-substantive, e.g. fixing a typo, mark it as non-subst
 
   a1. try to recruit them to membership
    
-  a2. get a non-member license commitment 
+  a2. get a *non-participant license commitment* 
 
 b. Are they independent?
 
   b1. Should we invite them as an [Invited Expert](https://www.w3.org/participate/invited-experts/)?
   
-  b2. get a non-member license commitment
+  b2. get a *non-participant license commitment* 
   
-  The text of the non-participant license commitment is being finalized and will be implemented as a click-through. 
+  The text of the non-participant license commitment is being finalized and will be implemented as a click-through. Note that this form is designed for occasional, one-off contributions. To make multiple substantive contributions, a person must join the group as a Member or IE participant.
   
   
- =====DRAFT===
+ ==DRAFT *non-participant license commitment*  ==
  
 "I [name], [organization], commit to license all my Essential Claims
 both in the contribution [pull request # on spec], and that become
