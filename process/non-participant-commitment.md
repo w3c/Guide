@@ -1,3 +1,5 @@
+[Process 2019](https://www.w3.org/2019/Process-20190301/#contributor-license) introduces new text on contribution licensing. Here is Team guidance for implementation of [Process 6.2.6]((https://www.w3.org/Consortium/Process/#contributor-license). 
+
 When a non-member (or not-yet-identified member) makes a pull request contribution to a W3C Working Group repository, the repository manager tool flags it for review and sends them an email with [this text](https://github.com/w3c/ash-nazg/blob/master/templates/affiliation-mail.txt) to the contributor, chairs, and team contacts.
 
 1. If the contributor is a member, link the github account to the W3C member-affiliated account and re-validate.
