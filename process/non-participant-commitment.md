@@ -1,6 +1,8 @@
 When a non-member (or not-yet-identified member) makes a pull request contribution to a W3C Working Group repository, the repository manager tool flags it for review and sends them an email with [this text](https://github.com/w3c/ash-nazg/blob/master/templates/affiliation-mail.txt) to the contributor, chairs, and team contacts.
 
-1. If the contributor is a member, link the github account to the W3C member-affiliated account
+1. If the contributor is a member, link the github account to the W3C member-affiliated account and re-validate.
+
+If the contribution is non-substantive, e.g. fixing a typo, mark it as non-substantive (which clears the IPR flag). 
 
 2. If the contributor is not an affiliate of a current W3C member, the team follows up with them to see:
 
