@@ -11,6 +11,13 @@
   <meta name="viewport"    content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="//www.w3.org/favicon.ico">
   <link rel="stylesheet" href="https://www.w3.org/2005/09/table.css">
+  <script src="./groupinfo.js"></script>
+  <script>
+    let query = getGroups().then(groups => {
+      console.log(`Fetched ${groups.length} groups`);
+      return groups;
+    });
+</script>
 </head>
 
 <body>
@@ -21,36 +28,56 @@
 <p id="groups">[Loading...]</p>
 <hr/>
 
-<h2 id="gname">[Loading…]</h2>
+<h2 data-value="name">[Loading…]</h2>
 
-<p id="gdescription">[Loading…]</p>
+<p data-value="description">[Loading…]</p>
 
 <table>
 <tr>
 <th>Homepage</th>
-<td id="ghomepage">[Loading…]</td>
+<td data-value="homepage">[Loading…]</td>
 </tr>
 
 <tr>
 <th>Charter</th>
-<td id="gcharter">[Loading…]</td>
+<td><a data-value="active-charter">[Loading…]</a> (<span data-value='status'>Loading</span>)</td>
 </tr>
-
-<tr>
-<th>GitHub repo(s)</th>
-<td id="grepos">[Loading…]</td>
-</tr>
-
 
 <tr>
 <th>Chair(s)</th>
-<td id="gchairs">[Loading…]</td>
+<td data-value="chairs">[Loading…]</td>
 </tr>
 
 <tr>
 <th>Team contact(s)</th>
-<td id="gteamcontacts">[Loading…]</td>
+<td data-value="team-contacts">[Loading…]</td>
 </tr>
+<tr>
+    <th>Service(s)</th>
+    <td data-value="services">[Loading…]</td>
+    </tr>
+
+<tr>
+    <th>Participating organization(s)</th>
+    <td data-value="participations">[Loading…]</td>
+</tr>
+
+<tr>
+  <th>Individual(s)</th>
+  <td data-value="users">[Loading…]</td>
+</tr>
+
+<tr>
+    <th>GitHub repo(s)</th>
+    <td><dl data-value='repositories'>
+      </dl></td>
+    </tr>
+
+<tr>
+  <th>Specification(s)</th>
+  <td><dl data-value="specifications"></dl></td>
+</tr>
+
 
 </table>
 
@@ -153,7 +180,150 @@
   <li><a href="https://www.w3.org/Guide/">/Guide</a></li>
 </ul>
 
-    <script src="./groupinfo.js"></script>
-  </body>
+    <script>
+    function getComponents(query) {
+      let elts = document.querySelectorAll(query);
+      if ((!elts || !elts.length) && query.indexOf('#') === 0) {
+        elts = document.querySelectorAll(`*[data-value="${query.substring(1)}"]`);
+      }
+      if (!elts || !elts.length) {
+        console.warn(`Element ${query} doesn't exist`);
+        return [];
+      }
+      return elts;
+    }
+    function map(query, data) {
+        let elts = getComponents(query);
+        if (typeof data === "string") {
+          if (data.indexOf('http') === 0) {
+            elts.forEach(e => e.href = data);
+          } else if (data.indexOf('<') === 0) {
+            elts.forEach(e => e.innerHTML = data);
+          } else {
+            elts.forEach(e => e.textContent = data);
+          }
+        }
+    }
+    function renderGroup(group) {
+        const format = (ac, c, idx, src) => (ac)? ac + ((idx === src.length-1)? ", and " : ", ") + c : c;
+        const individual = (contact) => {
+          const cas = contact["connected-accounts"];
+          if (cas && cas.length > 0) {
+            let gh = cas.filter((ca => ca.service === "github"));
+            if (gh.length > 0) {
+              return `<a href='${gh[0].href}'>${contact.name}</a>`;
+            }
+          }
+          return `<span>${contact.name}</span>`;
+        };
+        map("#name", group.name);
+        map("#homepage", `<a href="${group.homepage}">${group.homepage}</a>`);
+        map("#description", group.description);
+        map("#join", group.join);
+        map("#details", group.details);
+        map("#pp-status", group["pp-status"]);
+        group.chairs.then(data => map("#chairs", data.map(c => individual(c)).reduce(format)));
+        group["team-contacts"].then(data => map("#team-contacts", data.map(c => individual(c)).reduce(format)));
+        group["active-charter"].then(data => {
+          map("#active-charter", data.uri);
+          map("#active-charter", `from ${data.start} to ${data.end}`);
+        });
+        map("#status", (group["is-closed"])? "closed" : "open" );
+        group.participations.then(data => map("#participations", data.filter(c => !c.individual).map(c => c.title).reduce(format)));
+        group["users"].then(data => map("#users", data.map(c => individual(c)).reduce(format)));
+        group["specifications"]
+        .then(data => data.forEach(spec => {
+          const dl = getComponents("#specifications")[0];
+          dl.innerHTML = "";
+          spec["latest-version"].then(latest => {
+            if (latest.status !== "Retired") {
+              let dt = document.createElement("dt");
+              let dd = document.createElement("dd");
+              dt.innerHTML = `<a href='${spec.shortlink}'>${spec.title}</a>`;
+              let text = `Status: ${latest.status}`;
+              text += `<br>Last update: ${latest.date}`;
+              if (spec.milestones) {
+                let stones = Object.entries(spec.milestones).map(s => s[0] + " " + s[1]);
+                if (stones.length > 0) {
+                  text += `<br>Milestones: <a href="${group["dashboard"].href}">`;
+                  text += stones.reduce(format);
+                  text += "</a>"
+                }
+              }
+              dd.innerHTML = text;
+              dl.appendChild(dt);
+              dl.appendChild(dd);
+            }});
+          }));
+
+        group["services"].then (data => {
+          const services = getComponents("#services")[0];
+          services.innerHTML = "";
+          let html = "<dl>";
+          data.forEach(service => {
+            let linkDesc = service.type;
+            if (linkDesc === "other") linkDesc = service.shortdesc;
+            html += `<dt><a href="${service.link}">${linkDesc}</a></dt>`;
+            if (service.longdesc) {
+              html += `<dd>${service.longdesc}</dd>`;
+            }
+          });
+          services.innerHTML = html + "</dl>";
+        });
+        group["repositories"].then(repos => {
+         const dl = getComponents("#repositories")[0];
+         dl.innerHTML = "";
+         repos.forEach(repo => {
+          let dt = document.createElement("dt");
+          let dd = document.createElement("dd");
+          let link = (repo.homepageUrl)? repo.homepageUrl : `https://${repo.owner.login}.github.io/${repo.name}/`;
+          let desc = (repo.description)? repo.description : repo.fullName;
+          dt.innerHTML = `<a href="https://github.com/${repo.owner.login}/${repo.name}/"'>${desc}</a> (${repo.w3c["repo-type"]})`;
+          let text = "";
+          if (repo.homepageUrl) {
+            text += `See <a href="${repo.homepageUrl}">homepage</a>`;
+          }
+          if (repo.issues) {
+            let openIssues = repo.issues.filter(i => i.state === "open" && !i.isPullRequest);
+            let openPRs = repo.issues.filter(i => i.state === "open" && i.isPullRequest);
+            if (text.length > 0) text += "<br>";
+            text += `<a href="https://github.com/${repo.owner.login}/${repo.name}/issues">`
+                + `${openIssues.length} `
+                + `issues</a>, <a href="https://github.com/${repo.owner.login}/${repo.name}/pull">`
+                + `${openPRs.length} `
+                + "PRs</a>"
+
+          }
+          dd.innerHTML = text;
+          dl.appendChild(dt);
+          dl.appendChild(dd);
+         });
+        });
+      }
+      // groupInfo(GROUPID).then(_renderGroup).catch(console.error)
+      putGrInfo = function(idname) {
+        let obj = document.getElementById(idname);
+        let gid = obj.value;
+
+        /* add gid to the URL display of the browser */
+        history.pushState(null, null, "?gid=" + gid);
+
+        groupInfo(gid).then(renderGroup).catch(console.error);
+      };
+
+      getGroups().then(groups => {
+        let content = '<form><select id="grlist">';
+        content +=
+         groups.filter(g => g.type === "working group")
+               .map(g => `<option value="${g.id}">${g.name}</option>`).join('');
+        content += '</select>';
+        content += '<input type="button" value="Get Your Group\'s Info" onclick="putGrInfo(\'grlist\');" />';
+        content += '</form>';
+        document.getElementById("groups").innerHTML = content;
+        return groups;
+      }).catch(console.error);
+      </script>
+
+      </body>
 
 </html>

@@ -1,377 +1,178 @@
-'use strict';
+// used by getW3CData and groupInfo
+const W3C_APIURL = "https://api.w3.org/";
 
-/**
- * Simple JavaScript library to leverage the W3C API.
- *
- * @namespace Apiary
- */
-(function(window) {
+// Fetch any JSON data and cache it
+// this is low level since it doesn't cache pagination results
+let JSON_CACHE = {};
+function getJSON(url) {
+  const ENTRY = url.toString();
+  if (JSON_CACHE[ENTRY]) return JSON_CACHE[ENTRY];
+  return JSON_CACHE[ENTRY] = fetch(url).then(r => r.json());
+}
 
-  // Pseudo-constants:
-  var VERSION            = '2.0.2';
-  var BASE_URL           = 'https://api.w3.org/';
-  var USER_PROFILE_URL   = 'https://www.w3.org/users/';
-  var APIARY_ATTRIBUTE   = 'data-apiary';
-  var APIARY_SELECTOR    = `[${APIARY_ATTRIBUTE}]`;
-  var TYPE_GROUP_PAGE    = 1;
-  var TYPE_USER_PAGE     = 2;
-  var PHOTO_VALUE        = {
-    large:     2,
-    thumbnail: 1,
-    tiny:      0
-  };
-  var GITHUB_REPORT      = 'https://w3c.github.io/validate-repos/report.json'
-
-  // “Global” variables (within this function):
-  var apiKey;
-  var type;
-  /* var gid; */
-  var URL;
-
-  /************************************
-   * putGrMenu
-   ************************************/
-  var putGrMenu = function() {
-
-    var url;
-
-    url = BASE_URL + 'groups';
-    console.log("url:" + url);
-
-    if (1 === document.querySelectorAll('html[data-apiary-key]').length) {
-      apiKey = document.querySelectorAll('html[data-apiary-key]')[0].getAttribute('data-apiary-key');
+// Fetch any JSON data from W3C API
+// Note: those queries will get cached, thanks to getData
+function getW3CData(queryPath) {
+  const apiURL = new URL(queryPath, W3C_APIURL);
+  apiURL.searchParams.set("apikey", "esj1ar4rl3scks04kg8kkwo4kwc8ow4");
+  apiURL.searchParams.set("embed", "1"); // grab everything
+  return getJSON(apiURL).then(data => {
+    if (data.pages && data.pages > 1 && data.page < data.pages) {
+       return getW3CData(data._links.next.href).then(nextData => {
+         let key = Object.keys(data._embedded)[0];
+         return data._embedded[key].concat(nextData);
+       });
     }
-    console.log("apiKey:" + apiKey);
-
-    /* get the list of all the groups using the W3C API */
-    if (-1 === url.indexOf('?')) {
-      url += '?apikey=' + apiKey + '&items=1000';
-    } else {
-      url += '&apikey=' + apiKey + '&items=1000';
+    if (data._embedded) {
+      let key = Object.keys(data._embedded)[0];
+      return data._embedded[key]; // assume withLinks is already covered
     }
+    return data;
+  });
+}
+// W3C API follows a HAL model. This function creates promises to resolve the links
+// going deeper into the API.
+function resolveW3CLinks(set) {
+  function iter(data) {
+    if (data._links) {
+      Object.entries(data._links).forEach(e => {
+        const key = e[0];
+        const href = e[1].href;
+        if (key === "self") {
+          // skip
+        } else if (href.indexOf(W3C_APIURL) === 0) {
+          data[key] = getW3CData(href);
+        } else {
+          data[key] = href;
+        }
+      });
+    }
+  }
+  if (Array.isArray(set))
+   set.map(iter);
+  else
+   iter(set);
+  return set;
+}
 
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url);
-    xhr.addEventListener('loadend', function(event) {
-      var result = JSON.parse(xhr.response);
+// the main function. Just retrieve as much as possible for a given group id
+// string groupId -- the group id, e.g.  "109735"
+async function groupInfo(groupId) {
+  const group = await getW3CData(`/groups/${groupId}`, true).then(resolveW3CLinks);
+  // dive deeper into specifications
+  group["specifications"] = group["specifications"].then(resolveW3CLinks);
+  // simplify participations a bit
+  group["participations"] = group["participations"].then(data => {data.forEach(p => {
+          p.title = p._links[(p.individual)? "user": "organization"].title;
+    }); return data.sort(sortParticipants);});
 
-      var groups = result._links.groups;
-      var content = '<form><select id="grlist">';
-      var href;
-      var id;
-      for (var i = 0; i < groups.length; i++) { 
-        href = groups[i].href;
-        id = href.replace(/https:\/\/api.w3.org\/groups\//, "");
-	  /* extract only the WGs */
-          if (groups[i].title.match(/Working Group/)) {
-            content += '<option value="' + id + '">' + groups[i].title + '</option>';
-          }
-      }
-      content += '</select>';
-      content += '<input type="button" value="Get Your Group\'s Info" onclick="putGrInfo(\'grlist\');" />';
-      content += '</form>';
+    // Some additional useful links
+  group["details"] = `https://www.w3.org/2000/09/dbwg/details?group=${groupId}&order=org&public=1`;
+  group["edit"] = `https://www.w3.org/2011/04/dbwg/group-services?gid=${groupId}`;
 
-      document.getElementById("groups").innerHTML = content;
+  // the dashboard knows about spec milestones and a subset of GH repositories issues
+  group["dashboard"] = {
+    href: `https://w3c.github.io/spec-dashboard/?${groupId}`,
+    repositories: getJSON(`https://w3c.github.io/spec-dashboard/pergroup/${groupId}-repo.json`),
+    milestones: getJSON(`https://w3c.github.io/spec-dashboard/pergroup/${groupId}-milestones.json`),
+    // publications: getData(`https://w3c.github.io/spec-dashboard/pergroup/${groupId}.json`),
+  }
+  // the repo validator is gathering a lot of useful data on GitHub repositories, so let's add it
+  const report = "https://w3c.github.io/validate-repos/report.json";
+  group["repositories"] = getJSON(report).then(data => {
+      return data.groups[groupId].repos.map(repo => {
+        let GH = data.repos.filter(r => (r.name === repo.name && r.owner.login === repo.fullName.split('/')[0]))[0];
+        GH.fullName = repo.fullName;
+        GH.hasRecTrack = GH.w3c["repo-type"].includes("rec-track");
+        GH.hasNote = GH.w3c["repo-type"].includes("note");
+        return GH;
+    }).sort(sortRepo);
+  });
+
+  // code below is pure convenience. We grabbed all of the data in the group object and we're
+  // just decorating specification milestones, repository issues, and
+  // specification statuses.
+  // This will make it easier to find information when using the group object
+
+  // associate issues with their repositories
+  group["repositories"] = group["repositories"].then(data => {
+    return group["dashboard"].repositories.then(dash => {
+      data.forEach(repo => {
+        let dashrepo = repo.issues = Object.entries(dash)
+          .map(r => r[1])
+          .filter(r => (r.repo.name === repo.name && r.repo.owner === repo.owner.login))[0];
+        if (dashrepo) repo.issues = dashrepo.issues;
+      });
+      return data;
     });
-    xhr.send();
-  };
+  });
 
-  /*************************************************
-   * Global function to handle browser back/forward
-   *************************************************/
-  window.onpopstate = function(e) {
-    var url = window.location.href;
-    var str;
-    var gid;
-    var options;
-    var i;
+  // associate milestones and repositories with their publications
+  group["specifications"] = group["specifications"].then(specs => {
+    return group["dashboard"].milestones.then(stones => {
+      Object.entries(stones).forEach(s => {
+        let spec = specs.filter(sp => sp.shortlink === s[0]);
+        if (spec.length === 1) {
+          spec[0].milestones = s[1];
+        }
+      })
+      return specs;
+    })
+  });
 
-    str = url.match(/\?gid=(\d+)$/);
-    gid = str[1];
+  // annotate with latest status with specification
+  group["specifications"] = group["specifications"].then(specs => {
+    specs.forEach(spec => {
+      spec["latest-version"].then(latest => {spec.status = latest.status});
+    })
+    return specs;
+  });
 
-    /*if (!e.state) return;*/
 
-    /* put group information based on Group ID */
-    putGrInfoBasedOnId(gid);
+  return group;
+}
 
-    /* update selection within the pulldown menu as well */
-    options = document.getElementById("grlist").getElementsByTagName('option');
-    for (i=0; i<options.length;i++){
-      if (options[i].value == gid) {
-        options[i].selected = true;
-        break;
-      }
-    }
-    /* console.log("url: " + url); */
-    /* console.log("str: " + str); */
-    /* console.log("gid: " + gid); */
+async function getGroups() {
+  return getW3CData("/groups");
+}
+
+// compare functions utils
+
+// first orgs, then individuals
+function sortParticipants(a, b) {
+  function criteria(v) {
+    return ((!v.individual)? "A":"Z")
+      + v.title;
+  }
+  let vA = criteria(a);
+  let vB = criteria(b);
+  if (vA < vB) {
+    return -1;
+  }
+  if (vA > vB) {
+    return 1;
   }
 
-  /************************************
-   * Global function to get selectd ID
-   ************************************/
-  window.putGrInfo = function(idname) {
-    var obj = window.document.getElementById(idname);
-    var gid = obj.value;
-
-    /* console.log("gid=" +gid); */
-
-    /* add gid to the URL display of the browser */
-    history.pushState(null, null, "?gid=" + gid);
-
-    putGrInfoBasedOnId(gid);
-  };
-
-  /***************************************************************************************
-   * common function to put Group info to be called by the above onpopstate and putGrInfo
-   ***************************************************************************************/
-  function putGrInfoBasedOnId(gid) {
-    /* console.log("gid=" +gid); */
-
-    /* putGrName */
-    var putGrName = function() {
-
-      var url;
-
-      url = BASE_URL + 'groups/' + gid;
-
-      if (-1 === url.indexOf('?')) {
-        url += '?apikey=' + apiKey;
-      } else {
-        url += '&apikey=' + apiKey;
-      }
-
-      console.log('putGrName:\n' + url);
-
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', url);
-      xhr.addEventListener('loadend', function(event) {
-        console.log('putGrName:\n' + xhr.responseText);
-
-        var result = JSON.parse(xhr.response);
-        console.log('putGrName:\n' + 'name:' + result.name);
-
-        var name = result.name;
-        document.getElementById("gname").innerHTML = name;
-      });
-      xhr.send();
-
-    };
-
-    /* putGrDescription */
-    var putGrDescription = function() {
-
-      var url;
-
-      url = BASE_URL + 'groups/' + gid;
-
-      if (-1 === url.indexOf('?')) {
-        url += '?apikey=' + apiKey;
-      } else {
-        url += '&apikey=' + apiKey;
-      }
-
-      console.log('putGrDescription:\n' + url);
-
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', url);
-      xhr.addEventListener('loadend', function(event) {
-        console.log('putGrDescription:\n' + xhr.responseText);
-
-        var result = JSON.parse(xhr.response);
-        console.log('putGrDescription:\n' + 'description:' + result.description);
-
-        var description = result.description;
-        document.getElementById("gdescription").innerHTML = description;
-      });
-      xhr.send();
-
-    };
-
-    /* putGrHomepage */
-    var putGrHomepage = function() {
-
-      var url;
-
-      url = BASE_URL + 'groups/' + gid;
-
-      if (-1 === url.indexOf('?')) {
-        url += '?apikey=' + apiKey;
-      } else {
-        url += '&apikey=' + apiKey;
-      }
-      console.log('putGrHomepage:\n' + url);
-
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', url);
-      xhr.addEventListener('loadend', function(event) {
-        console.log('putGrHomepage:\n' + xhr.responseText);
-  
-        var result = JSON.parse(xhr.response);
-        console.log('putGrHomepage:\n' + 'homepage:' + result._links.homepage.href);
-
-        url = result._links.homepage.href;
-        var content = '<a href="' + url + '">' + url + '</a>';
-        document.getElementById("ghomepage").innerHTML = content;
-      });
-      xhr.send();
-
-    };
-
-    /* getGrCharter */
-    var getGrCharter = function() {
-
-      var url;
-
-      url = BASE_URL + 'groups/' + gid;
-
-      if (-1 === url.indexOf('?')) {
-        url += '?apikey=' + apiKey;
-      } else {
-        url += '&apikey=' + apiKey;
-      }
-      console.log('getGrCharter:\n' + url);
-
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', url, false);
-      xhr.send();
-      return xhr.responseText;
-
-    };
-
-
-    /* putGrCharter */
-    var putGrCharter = function() {
-
-      var response;
-      var result;
-      var url;
-
-      response = getGrCharter();
-      result = JSON.parse(response);
-
-      url = result._links['active-charter'].href;
-      console.log('putGrCharter:\n' + result.id);
-
-      /* use 'url' updated by getGrCharter() */
-      if (-1 === url.indexOf('?')) {
-        url += '?apikey=' + apiKey;
-      } else {
-        url += '&apikey=' + apiKey;
-      }
-      console.log('putGrCharter:\n' + url);
-
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', url);
-      xhr.addEventListener('loadend', function(event) {
-        var result = JSON.parse(xhr.response);
-        url = result.uri;
-        console.log('putGrCharter:\n' + url);
-
-        var content = '<a href="' + url + '">' + url + '</a>';
-        document.getElementById("gcharter").innerHTML = content;
-      });
-      xhr.send();
-    };
-
-
-    /* putGrChairs */
-    var putGrChairs = function() {
-
-      var url;
-
-      url = BASE_URL + 'groups/' + gid + '/chairs';
-
-      if (-1 === url.indexOf('?')) {
-        url += '?apikey=' + apiKey;
-      } else {
-        url += '&apikey=' + apiKey;
-      }
-
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', url);
-      xhr.addEventListener('loadend', function(event) {
-        var result = JSON.parse(xhr.response);
-        var chairs = result._links.chairs;
-        var content = '<ul>';
-        for (var i = 0; i < chairs.length; i++) { 
-          content += '<li>' + chairs[i].title + '</li>';
-        }
-        content += '</ul>';
-
-        document.getElementById("gchairs").innerHTML = content;
-      });
-      xhr.send();
-
-    };
-
-    /* putGrTeamcontacts */
-    var putGrTeamcontacts = function() {
-
-      var url;
-
-      url = BASE_URL + 'groups/' + gid + '/teamcontacts';
-      console.log('putGrTeamcontacts:\n' + url);
-      console.log('putGrTeamcontacts:\n' + URL);
-
-      if (-1 === url.indexOf('?')) {
-        url += '?apikey=' + apiKey;
-      } else {
-        url += '&apikey=' + apiKey;
-      }
-
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', url);
-      xhr.addEventListener('loadend', function(event) {
-        var result = JSON.parse(xhr.response);
-        var teamcontacts = result._links['team-contacts'];
-        var content = '<ul>';
-        for (var i = 0; i < teamcontacts.length; i++) { 
-          content += '<li>' + teamcontacts[i].title + '</li>';
-        }
-        content += '</ul>';
-
-        document.getElementById("gteamcontacts").innerHTML = content;
-      });
-      xhr.send();
-
-    };
-
-    /* putGrRepos */
-    var putGrRepos = function() {
-
-      var url;
-
-      url = GITHUB_REPORT;
-      console.log('putGrTeamcontacts:\n' + url);
-
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', url);
-      xhr.addEventListener('loadend', function(event) {
-        var result = JSON.parse(xhr.response);
-        var repos = result.groups[gid].repos;
-        var content = '<ul>';
-        for (var i = 0; i < repos.length; i++) { 
-          content += '<li><a href="https://github.com/' + repos[i].fullName + '">' + repos[i].name + '</a></li>';
-        }
-        content += '</ul>';
-
-        document.getElementById("grepos").innerHTML = content;
-      });
-      xhr.send();
-
-    };
-    /* put Group Info */
-    putGrName();
-    putGrDescription();
-    putGrHomepage();
-    putGrCharter();
-    putGrRepos();
-    putGrChairs();
-    putGrTeamcontacts();
-  };
-
-  putGrMenu();
-
-})(window);
-
+  // must be equal
+  return 0;
+}
+
+// first rec track, then note, then alphabetical order
+function sortRepo(a, b) {
+  function criteria(v) {
+    return ((v.hasRecTrack)? "A":"Z")
+      + ((v.hasNote)? "A" : "Z")
+      + v.name;
+  }
+  let vA = criteria(a);
+  let vB = criteria(b);
+  if (vA < vB) {
+    return -1;
+  }
+  if (vA > vB) {
+    return 1;
+  }
+
+  // must be equal
+  return 0;
+}
