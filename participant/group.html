@@ -12,12 +12,6 @@
   <link rel="icon" type="image/x-icon" href="//www.w3.org/favicon.ico">
   <link rel="stylesheet" href="https://www.w3.org/2005/09/table.css">
   <script src="./groupinfo.js"></script>
-  <script>
-    let query = getGroups().then(groups => {
-      console.log(`Fetched ${groups.length} groups`);
-      return groups;
-    });
-</script>
 </head>
 
 <body>
@@ -300,13 +294,16 @@
          });
         });
       }
+
+      let config = {};
+
       // groupInfo(GROUPID).then(_renderGroup).catch(console.error)
       putGrInfo = function(idname) {
         let obj = document.getElementById(idname);
         let gid = obj.value;
-
+        config.gid = gid;
         /* add gid to the URL display of the browser */
-        history.pushState(null, null, "?gid=" + gid);
+        history.pushState(config, gid, "?gid=" + gid);
 
         groupInfo(gid).then(renderGroup).catch(console.error);
       };
@@ -322,7 +319,24 @@
         document.getElementById("groups").innerHTML = content;
         return groups;
       }).catch(console.error);
-      </script>
+
+      (function () {
+        let gid = (new URL(document.location)).searchParams.get("gid");
+        if (gid) {
+          config.gid = gid;
+          groupInfo(gid).then(renderGroup).catch(console.error);
+        }
+      })();
+      // browser back and forward buttons
+      window.onpopstate = function (e) {
+        if (!e.state) return; // #fragid navigation
+        config = e.state;
+        if (config.gid) {
+          groupInfo(config.gid).then(renderGroup).catch(console.error);
+        }
+      }
+
+</script>
 
       </body>
 

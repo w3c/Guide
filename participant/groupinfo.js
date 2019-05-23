@@ -85,8 +85,10 @@ async function groupInfo(groupId) {
       return data.groups[groupId].repos.map(repo => {
         let GH = data.repos.filter(r => (r.name === repo.name && r.owner.login === repo.fullName.split('/')[0]))[0];
         GH.fullName = repo.fullName;
-        GH.hasRecTrack = GH.w3c["repo-type"].includes("rec-track");
-        GH.hasNote = GH.w3c["repo-type"].includes("note");
+        if (GH.w3c && GH.w3c["repo-type"]) {
+          GH.hasRecTrack = GH.w3c["repo-type"].includes("rec-track");
+          GH.hasNote = GH.w3c["repo-type"].includes("note");
+        }
         return GH;
     }).sort(sortRepo);
   });
