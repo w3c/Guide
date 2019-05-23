@@ -222,14 +222,14 @@
         map("#join", group.join);
         map("#details", group.details);
         map("#pp-status", group["pp-status"]);
-        group.chairs.then(data => map("#chairs", data.map(c => individual(c)).reduce(format)));
-        group["team-contacts"].then(data => map("#team-contacts", data.map(c => individual(c)).reduce(format)));
+        group.chairs.then(data => map("#chairs", data.map(c => individual(c)).reduce(format, null)));
+        group["team-contacts"].then(data => map("#team-contacts", data.map(c => individual(c)).reduce(format, null)));
         group["active-charter"].then(data => {
           map("#active-charter", data.uri);
           map("#active-charter", `from ${data.start} to ${data.end}`);
         });
         map("#status", (group["is-closed"])? "closed" : "open" );
-        group.participations.then(data => map("#participations", data.filter(c => !c.individual).map(c => c.title).reduce(format)));
+        group.participations.then(data => map("#participations", data.filter(c => !c.individual).map(c => c.title).reduce(format, null)));
         group["users"].then(data => map("#users", data.map(c => individual(c)).reduce(format)));
         group["specifications"]
         .then(data => data.forEach(spec => {

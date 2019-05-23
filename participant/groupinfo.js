@@ -73,13 +73,15 @@ async function groupInfo(groupId) {
   // the dashboard knows about spec milestones and a subset of GH repositories issues
   group["dashboard"] = {
     href: `https://w3c.github.io/spec-dashboard/?${groupId}`,
-    repositories: getJSON(`https://w3c.github.io/spec-dashboard/pergroup/${groupId}-repo.json`),
-    milestones: getJSON(`https://w3c.github.io/spec-dashboard/pergroup/${groupId}-milestones.json`),
+    repositories: getJSON(`https://w3c.github.io/spec-dashboard/pergroup/${groupId}-repo.json`).catch(e => {}),
+    milestones: getJSON(`https://w3c.github.io/spec-dashboard/pergroup/${groupId}-milestones.json`).catch(e => {}),
     // publications: getData(`https://w3c.github.io/spec-dashboard/pergroup/${groupId}.json`),
   }
   // the repo validator is gathering a lot of useful data on GitHub repositories, so let's add it
   const report = "https://w3c.github.io/validate-repos/report.json";
   group["repositories"] = getJSON(report).then(data => {
+      let group_report = data.groups[groupId];
+      if (!group_report) return [];
       return data.groups[groupId].repos.map(repo => {
         let GH = data.repos.filter(r => (r.name === repo.name && r.owner.login === repo.fullName.split('/')[0]))[0];
         GH.fullName = repo.fullName;
@@ -97,6 +99,7 @@ async function groupInfo(groupId) {
   // associate issues with their repositories
   group["repositories"] = group["repositories"].then(data => {
     return group["dashboard"].repositories.then(dash => {
+      if (!dash) return data;
       data.forEach(repo => {
         let dashrepo = repo.issues = Object.entries(dash)
           .map(r => r[1])
@@ -110,6 +113,7 @@ async function groupInfo(groupId) {
   // associate milestones and repositories with their publications
   group["specifications"] = group["specifications"].then(specs => {
     return group["dashboard"].milestones.then(stones => {
+      if (!stones) return specs;
       Object.entries(stones).forEach(s => {
         let spec = specs.filter(sp => sp.shortlink === s[0]);
         if (spec.length === 1) {
