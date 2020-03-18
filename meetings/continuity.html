@@ -17,6 +17,13 @@
 	font-weight: bold;
 	content: "Issue:";
 	}
+
+	.subtopic {
+	font-weight: bold;
+	}
+	.subtopic::after {
+	content: " - ";
+	}
       </style>
 </head>
 
@@ -121,7 +128,7 @@
       </dl>
       <p>
             For all types of sessions, the Chairs should also allow asynchronous feedback and discussions,
-            using GitHub issues, emails, or other forms of input before and after a virtual presence meeting.
+            using GitHub issues, emails, or other forms of input before and after a virtual presence meeting, or between days in the case of a multi-day meeting.
       </p>
 
       <h2 id='virtualPresence'>Arrangements for Virtual Presence</h2>
@@ -130,7 +137,8 @@
             Virtual presence meetings occurs when all or some of the participants are attending remotely.
       </p>
 
-      <p>Groups should plan to make extensive use of video conferencing services
+      <p id='videoconferencing'><span class='subtopic'>Video Conferencing</span>
+	    Groups should plan to make extensive use of video conferencing services
             for those unable to travel.&nbsp; In the case of travel restrictions
 	    for some but not all participants, some participants may wish to gather
 	    in hubs.  When such gatherings occur, a local facilitator at each hub
@@ -141,29 +149,39 @@
           however acceptable to continue to have social hub gatherings outside of
           the meeting.
       </p>
-      <p>Groups should give consideration to scheduling their meeting(s) in a
+      <p id='scheduling'><span class='subtopic'>Scheduling</span>
+	    Groups should give consideration to scheduling their meeting(s) in a
             timezone that works for the majority of the attendees.&nbsp; As
             participants will be working in their local timezones, what is "workable"
             will vary with individual circumstances, including sensitivity to
             work-from-home environments and non-participant colleagues who may not be
             aware that the participant is "away" even if they are physically in their
             office.</p>
-      <p>Presenters are even more strongly encouraged to distribute (post to the
-            Web) presentation materials in advance of the meeting to allow
-            participants to avoid using extra download bandwidth during the meeting.</p>
-      <p>Video cameras are <strong>strongly</strong> encouraged; this improves the sense of being
-            together.&nbsp; Groups may prefer to use teleconferencing services that
-            allow each participant to choose not to receive video streams if their
-            network becomes saturated.
-	    However, any discussion content that is shared via video, including
-	    screen sharing, must be made accessible by some means to those who cannot
-	    -- or choose not to -- use the video feed.</p>
-      <p>Participants should be offered testing opportunities to assure their
-            local equipment is operational and their bandwidth adequate.</p>
+
       <p>Meeting duration should be limited to 4 hours per day; consider two
             90-minute segments with an hour break between them.&nbsp; That break can
             be used by the participants for "hallway" conversations, arranged on
             separate conference channels.</p>
+
+      <p id='materials'><span class='subtopic'>Materials</span>
+	    Presenters are even more strongly encouraged to distribute (post to the
+            Web) presentation materials in advance of the meeting to allow
+            participants to avoid using extra download bandwidth during the meeting.</p>
+      <p id='video'><span class='subtopic'>Video</span>
+	    Video cameras are <strong>strongly</strong> encouraged; this improves the sense of being
+            together.&nbsp; Groups may prefer to use teleconferencing services that
+            allow each participant to choose not to receive video streams if their
+            network becomes saturated.
+	    However, any discussion content that is shared via video, including
+	    screen sharing, must be made <a href='https://www.w3.org/WAI/'>accessible</a> by some means to those who cannot
+	    -- or choose not to -- use the video feed.</p>
+      <p id='accessibility'><span class='subtopic'>Accessibility</span>
+	    Ensure that virtual presence meetings are 
+	    <a href='https://www.w3.org/WAI/'>accessible</a> for all 
+	    participants.</p>
+      <p id='testing'><span class='subtopic'>Testing</span> 
+	    Participants should be offered testing opportunities to assure their
+            local equipment is operational and their bandwidth adequate.</p>
 
       <h2 id='workshops'>W3C Workshops</h2>
 
