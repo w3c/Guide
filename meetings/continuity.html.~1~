@@ -134,15 +134,7 @@
       <h2 id='virtualPresence'>Arrangements for Virtual Presence</h2>
 
       <p>
-        Virtual presence meetings occur when all or some of the
-        participants are attending remotely. In all cases W3C wants to
-        make sure that we can talk with people with accessibility
-        needs.  Meeting organizers must consider how best to
-        accomplish that with what is currently available; e.g. is
-        captioning needed?  is interpretation needed? All participants
-        should realize that when people pivot to new environments new
-        issues can arise; the meeting chairs should leave space for
-        the participants to talk about this.
+            Virtual presence meetings occur when all or some of the participants are attending remotely.
       </p>
 
       <p id='videoconferencing'><span class='subtopic'>Video Conferencing</span>
