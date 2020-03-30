@@ -1,5 +1,5 @@
 # Guide
-The repository for the /Guide guideline.
+The repository for "[The Art of Consensus](https://www.w3.org/Guide/)", W3C's Chair's Guidebook.
 
 HTML rendered version is available at: https://w3c.github.io/Guide/
 
