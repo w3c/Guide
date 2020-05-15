@@ -22,7 +22,7 @@ b. Are they independent?
   
   b2. get a *non-participant license commitment* 
   
-  The text of the non-participant license commitment is being finalized and will be implemented as a click-through. Note that this form is designed for occasional, one-off contributions. To make multiple substantive contributions, a person must join the group as a Member or IE participant.
+  The text of the non-participant license commitment is implemented as a click-through. Note that this form is designed for occasional, one-off contributions. To make multiple substantive contributions, a person must join the group as a Member or IE participant.
   
   
  ==DRAFT *non-participant license commitment*  ==
