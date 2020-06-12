@@ -68,7 +68,7 @@ async function groupInfo(groupId) {
 
     // Some additional useful links
   group["details"] = `https://www.w3.org/2000/09/dbwg/details?group=${groupId}&order=org&public=1`;
-  group["edit"] = `https://www.w3.org/2011/04/dbwg/group-services?gid=${groupId}`;
+  group["edit"] = `https://www.w3.org/admin/groups/${groupId}/show`;
 
   // the dashboard knows about spec milestones and a subset of GH repositories issues
   group["dashboard"] = {
