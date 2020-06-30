@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset=utf-8">
+    <title>Using a shared W3C calendar</title>
+      <link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type="text/css">
+      <link rel="stylesheet" type="text/css" href="../../assets/main.css">
+      <link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
+      <style type="text/css">
+	.issue {
+	outline: solid red;
+	margin-left: 2em;
+	margin-right: 4em;
+	}
+	.issue::before {
+	font-weight: bold;
+	content: "Issue:";
+	}
+
+	.subtopic {
+	font-weight: bold;
+	}
+	.subtopic::after {
+	content: " - ";
+	}
+      </style>
+</head>
+<body>
+      <div id="header">
+            <span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb" alt="W3C" height="48"
+                              width="72" /></a></span>
+            <div class="breadcrumb">
+                  <a href="/Member/">Member</a> &rarr;&nbsp;<a href="/Guide/">The Art of Consensus</a> &rarr;&nbsp;
+        <h1>Shared calendars for W3C groups</h1>
+</div>
+            <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and
+                  other collaborators.</p>
+    </div>
+    <p>This document describes the way to use the CalDAV-based calendar server
+      for sharing calendars with groups. Chairs and Team contacts can access the
+      service at <a href="https://cloud.w3.org/">to create and share calendars.</a></p>
+    <p>Chairs and W3C Staff can use the service and create one or more calendars for their groups and share them publicly. Editing rights should be shared with other Chair persons and Staff. The calendar tool itself is not accessible to the public, so make sure that you "publish" a calendar to make it available.</p>
+
+    <p> First, log into the service using your W3C account credentials. In the
+      main screen, click on the icon at the top-right corner and choose
+      Settings. Adjust the security settings to setup 2FA as you wish, for
+      example using TOTP.</p>
+    <p><img src="UserSecurity.png" alt="user security settings" title="user security settings"
+        longdesc="setting up 2FA option" height="300px"></p>
+    <p><i>Note that if you use an external application to connect to the server,
+        you need to generate an "app password" (at the bottom of the same
+        security settings page) that you will providing to the external
+        application.</i></p>
+    <p>You can now start using the calendar app by clicking the calendar icon in
+      the top bar. Create a calendar with the 'new calendar' item, make sure you
+      choose an explicit naming (including the name of the group is generally a good idea). Share it with other chairs or team contacts,
+      giving them the right to edit the calendar. You may search for users or groups by typing their names, email address or group id and find them in the drop-down list.</p>
+    <img src="calendar-share-example.png" alt="showing the calendar shares" title="calendar share screenshot"
+      longdesc="showing an example of the calendar shares" height="300px"><img src="calendar-share-example-step2.png"
+      alt="showing the calendar shares" title="calendar share screenshot, shared"
+      longdesc="showing an example of the calendar shares, search for user to share with"
+      height="300px"><img src="calendar-share-example-step3.png" alt="showing the calendar shares"
+      title="calendar share screenshot, shared rights" longdesc="showing an example of the calendar shares, giving the right to edit"
+      height="300px">
+    <p> To give access to the calendar information to the rest of the W3C
+      community (in particular your group) you have to publish it. Use the "publish" button with a '+' sign. Once it is
+      published, you can copy the public link to the clipboard, or send it by
+      email, copy the subscription link (DAV uri) or the embed code (iframe
+      code, e.g. to add it to a group webpage). </p>
+    <img src="calendar-publish.png" alt="publish the calendar" title="calendar publication"
+      longdesc="showing an example of the calendar publication" height="300px">
+    <img src="calendar-published.png" alt="calendar is published" title="calendar published"
+      longdesc="showing the ways to get to the published calendar" height="300px">
+    <p> You can start creating events using this online tool, or in your own CalDAV client if you prefer. The "Settings and import" menu in the bottom left corner also
+      gives you the CalDAV uris to be used when setting up client applications (i.e.
+      "server address" in a CalDAV account). 
+    <img src="calendar-settings.png" alt="calendar settings and DAV uris" title="calendar settings"
+      longdesc="Detailed settings for the calendar and DAV uris for external clients" height="300px">
+More information on using calendars
+      and setting up clients can be found in <a href="https://docs.nextcloud.com/server/latest/user_manual/pim/calendar.html">the
+        nextcloud server documentation</a>. </p>
+    <p>If you encounter difficulties, please send an email to <a href="mailto:sysreq@w3.org">sysreq@w3.org</a>.
+      We will gather more information in this document thanks to your feedback.
+    </p>
+    <hr>
+    <address>Last Modified: $Date: 2020/06/17 19:53:50 $</address>
+  </body>
+</html>
