@@ -42,6 +42,7 @@
       service at <a href="https://cloud.w3.org/">https://cloud.w3.org/</a> to create and share calendars.</a></p>
     <p>Chairs and W3C Staff can use the service and create one or more calendars for their groups and share them publicly. Editing rights should be shared with other Chair persons and Staff. The calendar tool itself is not accessible to the public, so make sure that you "publish" a calendar to make it available.</p>
 
+<h2 id="securing">Account and Security settings</h2>
     <p> First, log into the service using your W3C account credentials. In the
       main screen, click on the icon at the top-right corner and choose
       Settings. Adjust the security settings to set up Two-Factor Authentication (2FA) as you wish, for
@@ -51,10 +52,13 @@
     <p><i>Note that if you set up 2FA and want to use your own calendar client to connect to the server,
         you will need to generate an "app password" (at the bottom of the same
         security settings page) that you will using in the configuration of your calDAV application or device.</i></p>
+<h2 id="create">Create and share a calendar for a group</h2>						   
     <p>You can now start using the calendar app by clicking the calendar icon in
       the top bar. Create a calendar with the 'new calendar' item, make sure you
-      choose an explicit naming (including the name of the group is generally a good idea). Share it with other chairs or team contacts,
-      giving them the right to edit the calendar. You may search for users or groups by typing their names, email address or group id and find them in the drop-down list.</p>
+      choose an explicit naming (including the (short)name of the group is generally a good idea). Share it with other chairs or team contacts,
+      giving them the right to edit the calendar. You may search for users or groups by typing their names, email address or group id and find 
+	       them in the drop-down list (Note: searching a group using a word in the group name is less efficient: you need to type in the exact first word 
+	       of the group name).</p>
     <img src="calendar-share-example.png" alt="showing the calendar shares" title="calendar share screenshot"
       longdesc="showing an example of the calendar shares" height="300px"><img src="calendar-share-example-step2.png"
       alt="showing the calendar shares" title="calendar share screenshot, shared"
@@ -71,7 +75,10 @@
       longdesc="showing an example of the calendar publication" height="300px">
     <img src="calendar-published.png" alt="calendar is published" title="calendar published"
       longdesc="showing the ways to get to the published calendar" height="300px">
-    <p> You can start creating events using this online tool, or in your own CalDAV client if you prefer. The "Settings and import" menu in the bottom left corner also
+<h2 id="events">Managing events</h2>
+    <p>Events can be created by clicking in the area when the event is scheduled. In the day- and week-view of the calendar you just click, pull and left your 
+	       cursor over the area when the event is taking place. Click on "More" to set up recurring meetings and various options like attendance.</p>	       
+    <p> You can create your events using this online tool, or in your own CalDAV client if you prefer. The "Settings and import" menu in the bottom left corner also
       gives you the CalDAV uris to be used when setting up client applications (i.e.
       "server address" in a CalDAV account).</p>
     <img src="calendar-settings.png" alt="calendar settings and DAV uris" title="calendar settings"
@@ -80,18 +87,16 @@
       and setting up clients can be found in <a href="https://docs.nextcloud.com/server/stable/user_manual/pim/calendar.html">the
         nextcloud server documentation</a>.</strong> </p>
 
-     <h1>FAQ</h1>												     
-        <div class='faq'>
-           <dl>
-		<dt>I reserved a slot on SuperTelConPlatform and got an .ics with this event, how do I import this into a calendar?</dt>
-                <dd>You may use the "import calendar" upload-like button, under the Settings &amp; Import menu (bottom left of the calendar app). You select the .ics file from your system and then you get a choice of calendars to import it into.</dd>
-               
-            
-         </dl>
+   <h2 id='faq'>FAQ</h2>					     
+           <ul>
+		<li><em>I reserved a slot on SuperTelConPlatform and got an .ics with this event, how do I import this into a calendar?</em><br>
+                You may use the "import calendar" upload-like button, under the Settings &amp; Import menu (bottom left of the calendar app). You select 
+		the .ics file from your system and then you get a choice of calendars to import it into.</li>
+         </ul>
        </div>										     
 		     
-    <p>If you encounter difficulties, please send an email to <a href="mailto:sysreq@w3.org">sysreq@w3.org</a>.
-      We will gather more information in this document thanks to your feedback.
+    <p>If you encounter difficulties or have other questions, please send them as <a href="https://github.com/w3c/calendar/issues">GH issues</a> or 
+    by email to <a href="mailto:sysreq@w3.org">sysreq@w3.org</a>. We will add more information to this documentation thanks to your feedback.
     </p>
     <hr>
     <address><a href="mailto:carine@w3.org">carine@w3.org</a></address>
