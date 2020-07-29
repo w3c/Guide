@@ -975,6 +975,35 @@ included in the archive.</li>
 </ul>
 
 </section>
+<section id="inclusive">
+  <h3>Inclusive terminology</h3>
+
+<p>Following the <a 
+  href="https://www.w3.org/Consortium/cepc/#expected-behavior">W3C Code of Conduct</a>,
+<abbr title="World Wide Web Consortium">W3C</abbr> specifications are expected to be
+inclusive and facilitate diversity. As such, editors and authors are strongly encouraged
+to use a neutral and inclusive language to ensure the best environment possible for the
+whole <abbr title="World Wide Web Consortium">W3C</abbr> community.</p>
+
+<p>Here are proposed alternatives for some terms that <a 
+  href="https://www.w3.org/pubrules/">PubRules</a> shows a warning 
+about:</p>
+
+<table id="neutrallanguage" class="data">
+  <thead>
+    <tr>
+      <th>Terms to avoid</th>
+      <th>Possible alternatives</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+</ul>
+
+</section>
+
 </section>
 <section id="MediaTypes">
   <h2>Internet Media Types</h2>
@@ -1505,5 +1534,21 @@ https://www.w3.org/TR/2006/REC-xml-20060816/#sec-comments.</dd>
 </dl>
 </section>
 
+<script>
+// get list of bad terms
+fetch("https://www.w3.org/pubrules/badterms.json").then(res => res.json()).then(terms => {
+  let tbody = document.querySelector("#neutrallanguage > tbody")
+  terms.forEach(t => {
+    let row = document.createElement('tr');
+    let termCell = document.createElement('td');
+    termCell.innerText = t.term.join('/');
+    let altCell = document.createElement('td');
+    altCell.innerText = t.alternatives.join('/');
+    row.appendChild(termCell);
+    row.appendChild(altCell);
+    tbody.appendChild(row);
+  });
+});
+</script>
 </body>
 </html>
