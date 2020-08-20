@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" >
+<title>Process to suspend or remove participants from groups</title>
+<link rel="stylesheet" href="/StyleSheets/generic-base-1.css"
+type="text/css">
+<link rel="stylesheet" type="text/css" href="../assets/main.css">
+<link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
+<link rel="start" href="../" >
+<style>
+  .IssueLabel-big {
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 3px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+
+<div id="header">
+<span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb"
+alt="W3C" height="48" width="72"></a></span>
+    <div class="breadcrumb">
+    <a href="/Member/">Member</a> &#x2192; <a href="/Guide/">The Art of
+Consensus</a> &#x2192;
+<h1>Process to suspend or remove participants from groups</h1>
+</div>
+<p class="baseline">This <strong>Guidebook</strong> is the collected
+wisdom of the W3C Group Chairs and other collaborators.</p>
+</div>
+
+    <div class="toolbox box">
+      <h4>Nearby</h4>
+      <ul>
+        <li>
+          <a href="/Consortium/Process/">W3C Process Document</a>
+        </li>
+        <li>
+          <a href="/Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a>
+        </li>
+      </ul>
+    </div>
+    
+    <div id="Content">
+
+<p>The W3C process document empowers the Director to <a href="https://www.w3.org/Consortium/Process/#ParticipationCriteria">suspend or remove participants from groups</a>. This document provides details about implementation and delegation.</p>
+
+<p>1. Consistent with the practices below, the Director delegates authority to suspend or remove participants:</p>
+<ul>
+<li>from a single group, to the CEO;</li>
+<li>from a single group, where the participant is not formally a member of the group, to the chair(s) of the group; and</li>
+<li>from all W3C groups, to the CEO and COO.</li>
+</ul>
+
+<p>2. Following violation of the <a href="Consortium/cepc/">W3C Code of Ethics and Professional Conduct</a>, at least one warning by the chair(s), and at least one subsequent violation of the CEPC, chairs may temporarily or permanently suspend participation by a person who is not formally a member of the group.</p>
+
+<p>3. A W3C group chair and team contact may propose to suspend or remove a participant from a single group - typically for egregious and repetitive CEPC violations - by making a request to the CEO.</p>
+<p>If the group chair and team contact are not in agreement, each should explain their reasons.</p>
+<p>If the participant is a W3C member representative, the CEO will coordinate the response with the member's Advisory Committee representative.</p>
+
+<p>4. In extreme cases (such as death threats, or physical threats in general), the CEO and COO, acting together, may suspend or remove someone from participation in all groups. The CEO and COO must announce the action to W3C Management along with the rationale.</p>
+
+<p>5. Typically a suspension will encompass participation in all forms, including meetings, email, IRC, Github posting, etc. In no case may a person be blocked from seeing public information (e.g. mailing list or Github posts, public minutes).</p>
+
+<p>6. No individual may be banned from sending email to the W3C Ombuds team. (Bots may be banned.)</p>
+
+<p>7. The W3C Systems team may block spammers and others who abuse our systems.</p>
+
+<p>8. The W3C Systems team will provide technical support to implement suspensions.</p>
+
+<h3>Revision History</h3>
+<ul>
+<li><strong>2020-08</strong>: Document created.</li>
+</ul>
+
+</div>
+<hr >
+
+<address><a href="https://www.w3.org/People/CMercier/">Coralie Mercier</a> for
+<a href="https://www.w3.org/People/LeHegaret/">Philippe Le Hégaret</a>, guidebook editor<br>
+             <a href="mailto:plh@w3.org">plh@w3.org</a><br>
+      <a href="https://github.com/w3c/Guide">Yep, it's on GitHub</a>.
+</address>
+</body>
+</html>
