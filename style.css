@@ -1,4 +1,24 @@
-body { font-family: raleway; line-height: 1.6; } /* remove this after initial devt */
+@font-face {
+    font-family: 'RalewayWF';
+    src: url('https://www.w3.org/International/style/fonts/raleway-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'RalewayWF';
+    src: url('https://www.w3.org/International/style/fonts/raleway-bold-webfont.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'RalewayWF';
+    src: url('https://www.w3.org/International/style/fonts/raleway-italic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    }
+	
+
+body { font-family: RalewayWF; line-height: 1.6; } /* remove this after initial devt */
 body { padding: 2em 4em; }
 h2 { margin-top: 3em; }
 h3 { margin-top: 2em; }
