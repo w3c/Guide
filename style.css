@@ -18,10 +18,36 @@
     }
 	
 
-body { font-family: RalewayWF; line-height: 1.6; } /* remove this after initial devt */
-body { padding: 2em 4em; }
-h2 { margin-top: 3em; }
-h3 { margin-top: 2em; }
-summary { font-style: italic; cursor: pointer; }
-dt { font-weight: bold; }
-#versionInfo { margin-top: 4em; }
+body { 
+	font-family: RalewayWF;
+	line-height: 1.6;
+	padding: 2em 4em; 
+	}
+h2 { 
+	margin-top: 3em;
+	}
+h3 {
+	margin-top: 2em;
+	}
+#toc ol {
+	list-style-type: none;
+	line-height: 1.7;
+	}
+summary {
+	font-style: italic;
+	cursor: pointer;
+	}
+dt {
+	font-weight: bold;
+	}
+#versionInfo {
+	margin-top: 4em;
+	}
+h2 a {
+    text-decoration: none;
+    color: #005a9c;
+	}
+#toc a {
+	text-decoration: none;
+	}
+
