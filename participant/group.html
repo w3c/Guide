@@ -18,14 +18,6 @@
 
 <h1>Onboarding Information for Group Participants</h1>
 
-<p>Choose your group from the pull-down menu below and push the "Get Your Group's Info" button:</p>
-<p id="groups">[Loading...]</p>
-<hr/>
-
-<h2 data-value="name">[Loading…]</h2>
-
-<p data-value="description">[Loading…]</p>
-
 <table>
 <tr>
 <th>Homepage</th>
@@ -79,6 +71,7 @@
 
 
 <hr/>
+
 
 <h2>General Information on W3C groups</h2>
 
@@ -174,7 +167,17 @@
   <li><a href="https://www.w3.org/Guide/">/Guide</a></li>
 </ul>
 
-    <script>
+<p>Choose your group from the pull-down menu below and push the "Get Your Group's Info" button:</p>
+<p id="groups">[Loading...]</p>
+<hr/>
+
+<h2 data-value="name">[Loading…]</h2>
+
+<p data-value="description">[Loading…]</p>
+
+
+
+<script>
     function getComponents(query) {
       let elts = document.querySelectorAll(query);
       if ((!elts || !elts.length) && query.indexOf('#') === 0) {
