@@ -1,102 +1,237 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8" >
-<title>How to transition work from a Community Group to a Working Group</title>
-<link rel="stylesheet" href="/StyleSheets/generic-base-1.css"
-type="text/css">
-<link rel="stylesheet" type="text/css" href="../assets/main.css">
-<link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-<link rel="start" href="../" >
-<style>
-  .IssueLabel-big {
+  <head>
+    <meta charset="utf-8">
+    <title>
+      How to transition work from a Community Group to a Working Group
+    </title>
+    <link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type=
+    "text/css">
+    <link rel="stylesheet" type="text/css" href="../assets/main.css">
+    <link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
+    <link rel="start" href="../">
+    <style>
+    .IssueLabel-big {
     font-weight: 600;
     padding: 4px 8px;
     border-radius: 3px;
     line-height: 1.5;
     box-sizing: border-box;
     text-decoration: none;
-  }
-</style>
-</head>
-<body>
-
-<div id="header">
-<span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb"
-alt="W3C" height="48" width="72"></a></span>
-    <div class="breadcrumb">
-    <a href="/Member/">Member</a> &#x2192; <a href="/Guide/">The Art of
-Consensus</a> &#x2192;
-<h1>How to transition work from a Community Group to a Working Group</h1>
-</div>
-<p class="baseline">This <strong>Guidebook</strong> is the collected
-wisdom of the W3C Group Chairs and other collaborators.</p>
-</div>
-
-<nav class="toc">
- <h4>Also On This Page &#x2192;</h4>
- <ul>
- </ul>
-</nav>
-
-<p>This page concerns itself only with generically applicable requirements when transitioning work from a Community Group to a Working Group. Specific Community Groups and Working Groups may have additional specific requirements.</p>
-
-<p>To assess whether a given work is ready to transition to a Working Group, please refer to <a href="https://www.w3.org/Guide/standards-track/">W3C Recommendation Track Readiness Best Practices</a>.</p>
-
-<h2>Figuring out how the Community Group/Working Group will collaborate</h2>
-<p>When work transitions from a Community Group to a Working Group, it is often the case that the Community Group will want to be in a position to be involved in the discussions subsequent to the transition, for the said specific work or for some related work.</p>
-
-<p>Several patterns of collaboration have emerged in how a Community Group might relate to a Working Group:</p>
-<p>@@@TODO import patterns from <a href="https://github.com/w3c/charter-drafts/issues/262">charter template discussion</a></p>
-
-<p>Independently of which of these patterns (or a different pattern) is adopted, the expectation is that once the Working Group has adopted the work, the IPR commitments on the work will be sought based on the <a href="https://www.w3.org/Consortium/Patent-Policy">Patent Policy applicable to the Recommendation track</a>.</p>
-
-<h2>Getting approval to transition</h2>
-<ul>
-  <li>Has the Community Group agreed to the transition in a manner consistent with its practices? Is there clarity on how the Community Group will collaborate with the Working Group in the future (if at all)?</li>
-  <li>Does the Working Group that would take over the work exists? If not, a <a href="https://www.w3.org/Guide/process/charter.html">charter needs to be written and approved</a> for the new Working Group to be created.</li>
-  <li>If the Working Group exists, is the work being transitioned in the scope of its existing charter? If not, the target Working Group needs to be <a href="https://www.w3.org/Guide/process/charter.html">rechartered to accommodate the new work</a>.</li>
-</ul>
-
-<h2>Operationalizing the transition</h2>
-<p>IPR considerations:</p>
-<ul>
-  <li>Have all contributions incorporated in the work being transitioned been associated with a <a href="https://www.w3.org/community/about/process/cla/">Community Group Contribution Licensing Agreeement</a>?</li>
-  <li>Has there been a call for <a href="https://www.w3.org/community/about/process/final/">Final Specification Agreement</a> been made on the proposed work?</li>
-  <li>Are major contributors to the work in the Community Group expecting to join the relevant Working Group?</li>
-</ul>
-
-<p>Participation:</p>
-<ul>
-  <li>Make sure to keep the Community Group participants aware of the progress on the transition roadmap, in particular if it involves chartering or re-chartering a Working Group</li>
-  <li>If Community Group participants want to join the Working Group, but are not affiliated with a W3C Member organization, please invite them to contact <a href="mailto:abird@w3.org">Alan Bird</a> to explore <a href="https://www.w3.org/Consortium/membership">W3C Membership</a> - during that exploration, <a href="https://www.w3.org/community/about/faq/#how-do-community-groups-make-it-easier-to-move-to-the-standards-track">Community Group participants may continue participating in the Working Group as Invited Experts</a></li>
-</ul>
-
-<p>Assuming the work has been developed in a github repository:</p>
-<ul>
-  <li>If the repository is hosted in a Github organization not yet used by W3C to host Recommendation work:<ul>
-      <li>Will the repository itself be transitioned to the W3C GitHub organization?</li>
-      <li>If not, is the repository owner willing to grant admin rights to @w3cbot (which is used to help with managing operational matters on W3C work, incl for horizontal review and IPR management)?</li>
-  </ul></li>
-  <li>Is the repository already being monitored by <a href="https://labs.w3.org/repo-manager/">W3C's IPR Repo Manager</a>?<ul>
-      <li>If not, evaluate even more carefully the IPR considerations set above.</li>
-      <li>If yes, once the transition is enacted (e.g. when the new Working Group is launched), the IPR manager will need to be updated to reflect the new IPR status of the work (contact <a href="mailto:dom@w3.org">dom@w3.org</a> or <a href="mailto:plh@w3.org">plh@w3.org</a>); if the repo is being moved or renamed at the time of transition, please coordinate specifically with <a href="mailto:dom@w3.org">dom@w3.org</a> as this operation requires special handling at the moment.</li>
-  </ul></li>
-  <li>Other repository administrativia:<ul>
-      <li>If not already set up, ask <a href="mailto:plh@w3.org">plh@w3.org</a> to configure the repository with the <a href="https://www.w3.org/Guide/documentreview/#working_with_horizontal_review_labels">labels used for tracking horizontal reviews</a></li>
-      <li>If not already set up, make sure members of the <code>horizontal-admin</code> team have triage access to the repo; if unsure, ask <a href="mailto:plh@w3.org">plh@w3.org</a></li>
-      <li>Update or add LICENSE.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md to reflect the new contribution framework</li>
-      <li>If not already set up that way, consider <a href="https://lists.w3.org/Archives/Public/spec-prod/2021JanMar/0017.html">moving away from using <code>master</code> as the name of the default branch</a></li>
-  </ul></li>
-
-</ul>
-
-<hr >
-
-<address><a href="https://www.w3.org/People/Dom/">Dominique Hazael-Massieux</a> for
-<a href="https://www.w3.org/People/LeHegaret/">Philippe Le Hégaret</a>, guidebook editor<br>
-             <a href="mailto:plh@w3.org">plh@w3.org</a><br>
+    }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb" alt=
+      "W3C" height="48" width="72"></a></span>
+      <div class="breadcrumb">
+        <a href="/Member/">Member</a> → <a href="/Guide/">The Art of
+        Consensus</a> →
+        <h1>
+          How to transition work from a Community Group to a Working Group
+        </h1>
+      </div>
+      <p class="baseline">
+        This <strong>Guidebook</strong> is the collected wisdom of the W3C
+        Group Chairs and other collaborators.
+      </p>
+    </div>
+    <nav class="toc">
+      <h4>
+        Also On This Page →
+      </h4>
+    </nav>
+    <p>
+      From time to time a Community Group that has been incubating a technology
+      seeks to advance it to the W3C Recommendation track in a Working Group.
+      Our goal through this document is to ease that transition.
+    </p>
+    <h2>
+      Preparation
+    </h2>
+    <p>
+      The following questions can help a Community Group to prepare for the
+      transition of work to a Working Group.
+    </p>
+    <h3>
+      Is the work ready for standardization?
+    </h3>
+    <p>
+      Please see elsewhere in the Guide: <a href=
+      "https://www.w3.org/Guide/standards-track/">W3C Recommendation Track
+      Readiness Best Practices</a>.
+    </p>
+    <h3>
+      What is the target Working Group and the relation to the CG?
+    </h3>
+    <p>
+      If the Working Group does not yet exist, the Community Group can prepare
+      by <a href="https://www.w3.org/Guide/process/charter.html">drafting a
+      Working Group charter</a>. Otherwise, if the group exists but the new
+      work is not within its scope W3C needs to <a href=
+      "https://www.w3.org/Guide/process/charter.html">recharter the group</a>
+      to accommodate the new work.
+    </p>
+    <p>
+      The charter of the target Working Group should address two topics:
+    </p>
+    <ul>
+      <li>The list of any deliverables transferred from a Community Group.
+      </li>
+      <li>The nature of the working relationship between the Working Group and
+      the Community Group (if any) for any deliverable originated by the
+      Community Group.
+      </li>
+    </ul>
+    <p>
+      @@@TODO extract more from <a href=
+      "https://github.com/w3c/charter-drafts/issues/262">charter template
+      discussion</a>
+    </p>
+    <p>
+      Community Group chairs should keep the Community Group participants aware
+      of the progress on the transition roadmap, in particular if it involves
+      chartering or re-chartering a Working Group.
+    </p>
+    <h3>
+      Is there a record of Community Group consensus for the transition?
+    </h3>
+    <p>
+      It is useful to record whether and how the Community Group reached
+      consensus on the transition (in a manner consistent with its practices).
+      The consensus should include expectations about the working relationship
+      with the Working Group moving forward.
+    </p>
+    <h3>
+      Are IPR commitments in place?
+    </h3>
+    <p>
+      Community Groups have a "two-step IPR policy" so that people make
+      lightweight commitments when work starts and more comprehensive
+      commitments once work is mature.
+    </p>
+    <ul>
+      <li>Initially, a participant makes certain commitments regarding their
+      own Contribution under the <a href=
+      "https://www.w3.org/community/about/process/cla/">W3C Community
+      Contributor Licensing Agreeement (CLA)</a>.
+      </li>
+      <li>Later, a participant can make a voluntary commitment regarding the
+      entire specification under the <a href=
+      "https://www.w3.org/community/about/agreements/final/">W3C Community
+      Final Specification Agreement (FSA)</a>.
+      </li>
+    </ul>
+    <p>
+      Prior to the transition of work to a Working Group, a Community Group
+      should allow some time for participants to make their "Final Spec"
+      commitments; the Community Group Web site includes <a href=
+      "https://www.w3.org/community/about/faq/#fsa-mechanics">tools</a> for
+      announcing the opportunity to make commitments to the group and
+      collecting these commitments.
+    </p>
+    <p>
+      Once the work transitions to a Working Group, that Working Group's patent
+      policy becomes the "primary" patent policy. Contributions to the work are
+      henceforth made under the W3C Patent Policy. The easiest way for the
+      principal contributors to make these commitments is to join the Working
+      Group. When a contributor cannot join the Working Group, W3C will provide
+      tools so that Working Groups can ensure that substantive contributions
+      are made under the terms of the W3C Patent Policy.
+    </p>
+    <h3>
+      How can Community Group Participants remain involved in the work after
+      the transition?
+    </h3>
+    <p>
+      In many cases, Community Group participants will want to continue their
+      involvement in discussions about a work after it has been transferred to
+      a Working Group.
+    </p>
+    <ul>
+      <li>If a Community Group participant works for a <a href=
+      "https://www.w3.org/Consortium/Member/list">W3C Member</a>, the
+      participant can ask their Advisory Committee Representative to join the
+      Working Group.
+      </li>
+      <li>Otherwise, please contact <a href="mailto:abird@w3.org">Alan Bird</a>
+      to explore <a href="https://www.w3.org/Consortium/membership">W3C
+      Membership</a>. During that exploration, <a href=
+      "https://www.w3.org/community/about/faq/#how-do-community-groups-make-it-easier-to-move-to-the-standards-track">
+        Community Group participants may continue participating in the Working
+        Group as Invited Experts</a>.
+      </li>
+    </ul>
+    <h2>
+      Operations
+    </h2>
+    <h3>
+      GitHub Repository Management
+    </h3>
+    <p>
+      W3C has a number of GitHub mechanisms in place for specification
+      development and to help manage IPR commitments for contributions.
+    </p>
+    <p>
+      If a Community Group repository is hosted in a Github organization not
+      yet used by W3C to host Recommendation work:
+    </p>
+    <ul>
+      <li>Will the repository itself be transitioned to the W3C GitHub
+      organization?
+      </li>
+      <li>If not, is the repository owner willing to grant admin rights to
+      @w3cbot (which is used to help with managing operational matters on W3C
+      work, incl for horizontal review and IPR management)?
+      </li>
+    </ul>
+    <p>
+      Is the repository already being monitored by <a href=
+      "https://labs.w3.org/repo-manager/">W3C's IPR Repo Manager</a>
+    </p>
+    <ul>
+      <li>If not, evaluate even more carefully the IPR considerations set
+      above.
+      </li>
+      <li>If yes, once the transition is enacted (e.g. when the new Working
+      Group is launched), the IPR manager will need to be updated to reflect
+      the new IPR status of the work (contact <a href=
+      "mailto:dom@w3.org">dom@w3.org</a> or <a href=
+      "mailto:plh@w3.org">plh@w3.org</a>); if the repo is being moved or
+      renamed at the time of transition, please coordinate specifically with
+      <a href="mailto:dom@w3.org">dom@w3.org</a> as this operation requires
+      special handling at the moment.
+      </li>
+    </ul>
+    <p>
+      Other repository administrativia:
+    </p>
+    <ul>
+      <li>If not already set up, ask <a href="mailto:plh@w3.org">plh@w3.org</a>
+      to configure the repository with the <a href=
+      "https://www.w3.org/Guide/documentreview/#working_with_horizontal_review_labels">
+        labels used for tracking horizontal reviews</a>
+      </li>
+      <li>If not already set up, make sure members of the
+      <code>horizontal-admin</code> team have triage access to the repo; if
+      unsure, ask <a href="mailto:plh@w3.org">plh@w3.org</a>
+      </li>
+      <li>Update or add LICENSE.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md to
+      reflect the new contribution framework
+      </li>
+      <li>If not already set up that way, consider <a href=
+      "https://lists.w3.org/Archives/Public/spec-prod/2021JanMar/0017.html">moving
+      away from using <code>master</code> as the name of the default branch</a>
+      </li>
+    </ul>
+    <hr>
+    <address>
+      <a href="https://www.w3.org/People/Dom/">Dominique Hazael-Massieux</a>
+      for <a href="https://www.w3.org/People/LeHegaret/">Philippe Le
+      Hégaret</a>, guidebook editor<br>
+      <a href="mailto:plh@w3.org">plh@w3.org</a><br>
       <a href="https://github.com/w3c/Guide">Yep, it's on GitHub</a>.
-</address>
-</body>
+    </address>
+  </body>
 </html>
