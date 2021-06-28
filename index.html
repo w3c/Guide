@@ -4,51 +4,25 @@
 <head>
 <meta charset="utf-8">
 <title>Document Review</title>
-<link rel="stylesheet" type="text/css" href="https://www.w3.org/Guide/assets/main.css">
+<script src="toc.js"> </script>
+<link rel="stylesheet" href="https://www.w3.org/Guide/assets/main.css">
 <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 <h1>How to do Wide Review</h1>
 <p>Getting <i class="term">early</i> and <i class="term">wide</i> review of a document is very important, yet in practice it can be challenging.  This document provides some best practices for getting document review; it does not define explicit mandatory steps.</p>
-<p>This page is linked to from <a rel="nofollow" class="external text" href="https://www.w3.org/Guide/">The Guide</a>.</p>
+<p>This page is linked to from <a rel="nofollow" class="external text" href="https://www.w3.org/Guide/">The Guide</a>. See also the <a href="https://www.w3.org/2020/Process-20200915/#wide-review">Wide Review</a> section in the W3C Process document.</p>
 <p><strong>Feedback on this document is welcome, preferably by <a href="https://github.com/w3c/documentreview/issues">raising an issue</a> or a pull request.</strong></p>
 <div id="toc">
-<h2>Contents</h2>
-<ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#how_to_get_horizontal_review">How to get horizontal review</a>
-</li>
-<li><a href="#considerations_and_best_practices">Considerations and Best Practices</a>
-<ol>
-<li><a href="#who_to_ask_for_review">Who to ask for review?</a></li>
-<li><a href="#when_should_review_be_requested">When should review be requested?</a></li>
-</ol>
-</li>
-<li><a href="#rfc_template">Request for Comments (RfC) Template</a>
-<ol>
-<li><a href="#what_to_include">What to include</a></li>
-<li><a href="#Example_Request_for_Comments">Example Request for Comments</a></li>
-</ol>
-</li>
-<li><a href="#working_with_horizontal_review_labels">Working with Horizontal Review Labels</a>
-<ol>
-<li><a href="#day-to-day_use_of_labels"><span class="toctext">Day-to-day use of labels</span></a></li>
-<li><a href="#What_happens_to_unresolved_issues_marked_needs-resolution">What happens to unresolved issues marked *-needs-resolution?</a></li>
-</ol>
-</li>
-<li><a href="#horizontal_review_boards">Horizontal Review Boards</a></li>
-<li><a href="#faq">FAQ</a></li>
-<li><a href="#terminology_and_abbreviations">Terminology  and Abbreviations</a></li>
-<li><a href="#enhancement_requests">Enhancement Requests</a></li>
-<li><a href="#resources">Resources</a></li>
-</ol>
+<h2 class="notoc">Contents</h2>
+<div id="toc_placeholder"></div>
 </div>
 
 
 
 <section id="introduction">
-<h2><a href="#introduction">Introduction</a></h2>
+<h2>Introduction</h2>
 
 <p>Getting early review and feedback is important, especially reviews from those groups that have identified a document as a dependency and the <i class="term">horizontal groups</i>. It is also important to get review from other stakeholders including Web developers, technology providers and implementers not active in the Working Group, external groups and standards organizations working on related areas, etc.</p>
 <p>In Process-2019, the focus is on getting evidence that wide review has occurred.</p>
@@ -57,8 +31,25 @@
 
 
 
+
+<section id="who_to_ask_for_review">
+<h2>Who to ask for review?</h2>
+ 
+<ul>
+<li> Groups listed in the WG's charter, especially those who manage dependencies.</li>
+<li> Groups jointly responsible for a particular document (if any)  (duh!).</li>
+<li> All horizontal groups listed below.  If it appears that one of those is not relevant (and is not listed in your charter), talk to them informally to confirm that.</li>
+<li> Other groups, at your discretion, even if not in the WG charter: including other W3C groups, external organizations and SSOs, implementers, application developers, etc.</li>
+</ul>
+<p>Use <a rel="nofollow" class="external text" href="mailto:public-review-announce@w3.org">public-review-announce@w3.org</a> for general announcements regarding wide and horizontal reviews. <em>However, note that sending an email to this list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described below.</em></p>
+</section>
+
+
+
+
+
 <section id="how_to_get_horizontal_review">
-<h2><a href="#how_to_get_horizontal_review">How to get horizontal review</a></h2>
+<h2>How to get horizontal review</h2>
 <p>When you have published a First Public Working Draft, you should work through available "self-review" materials and request review of your results in at least the following areas. <em>Long enough</em> before you request a transition to CR, you should do the same again, identifying substantive specification changes since the first review. </p><p>The meaning of "Long enough" depends on how many changes there are, how clearly you have explained them, and how much discussion is needed to resolve issues. Pointing to 14 concise points for a small spec means a short time if they are simple fixes, pointing to 900 diffs from commits and hoping people understand them in a 300 page spec means it will take a <strong>long</strong> time to get review, and potentially a long time to also discuss and agree on how to solve the issues. If you have effectively identified issues for review during development and received feedback on them, the review time will probably be shorter. Horizontal review groups sometimes get bogged down; planning in advance is useful.</p>
 <dl>
 <dt>Accessibility</dt>
@@ -152,17 +143,6 @@
 <li> <a rel="nofollow" class="external text" href="https://tools.ietf.org/html/rfc3552">Guidelines for Writing RFC Text on Security Considerations (RFC3552)</a>, particularly <a rel="nofollow" class="external text" href="https://tools.ietf.org/html/rfc3552#section-5">Section 5</a></li></ul></li></ul>
 </details>
 </dd>
-
-
-
-
-<dt>Groups listed in your charter</dt>
-<dd><span class="step">If there are groups listed in your charter as depending on some specification, you should ask them too</span>.</dd>
-
-
-
-<dt> General announcement</dt>
-<dd><span class="step">Use <a rel="nofollow" class="external text" href="mailto:public-review-announce@w3.org">public-review-announce@w3.org</a> for general announcements regarding wide and horizontal reviews. (Sending an email to this list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described above.)</span></dd>
 </dl>
 
 <details id="githubissue" hidden>
@@ -177,30 +157,15 @@
 </details>
 
 <p>You should familiarize yourself with the rest of this document. This section is just a quick reminder for when you are in the middle of doing the work.</p>
+<p>Recognize that horizontal review groups may be resource limited and may only be able to do one review or may have difficulty scheduling your review quickly.  Give them as much time as you can, consistent with asking for review while it is still reasonable to change the technology to accommodate the issues they find.</p>
 </section>
 
 
 
-
-
-<section id="considerations_and_best_practices">
-<h2><a href="#considerations_and_best_practices">Considerations and best practices</a></h2>
-<p>Among the considerations and best practices, regardless of the <em>type of review</em> (early, thorough wide review, etc.) are:
-</p>
-
- <section id="who_to_ask_for_review">
- <h3>Who to ask for review?</h3>
-<ul>
-<li> Groups listed in the WG's charter</li>
-<li> Groups jointly responsible for a particular document (if any)  (duh!)</li>
-<li> All horizontal groups listed above.  If it appears that one of those is not relevant (and is not listed in your charter), talk to them informally to confirm that.</li>
-<li> Other groups in your discretion, even if not in the WG charter: other W3C groups, external organizations and SSOs, implementers, application developers, etc.</li>
-</ul>
-</section>
 
 
 <section id="when_should_review_be_requested">
-<h3>When should review be requested?</h3>
+<h2>When should review be requested?</h2>
 <ul>
 <li>For most documents, after a <em>First Public Working Draft</em> is published</li>
 <li> Process-2019 requires wide review before a document is published at CR (Candidate Recommendation)</li>
@@ -209,45 +174,6 @@
 </ul>
 </section>
 
-<p>Recognize that horizontal review groups may be resource limited and may only be able to do one review or may have difficulty scheduling your review quickly.  Give them as much time as you can, consistent with asking for review while it is still reasonable to change the technology to accommodate the issues they find.</p>
-</section>
-
-
-
-
-
-<section id="rfc_template">
-<h2><a href="#rfc_template">Request for Comments (RfC) Template</a></h2>
-
-<p>The Internationalization WG has a <a rel="nofollow" class="external text" href="https://github.com/w3c/i18n-request/issues/new/choose">series of issue templates</a> that guide you through the information you need to provide when requesting a review.  The information that follows is for other HR groups that don't use that approach.
-</p>
-
-<section id="what_to_include">
-<h3>What to include</h3>
-
-<ul>
-<li>Name of the group seeking comments</li>
-<li>Preferred timeline for comments</li>
-<li>Preferred forum for comments (e.g. a github link or the group's mailing list)</li>
-<li>Suggested: Set the <code>Reply-to:</code> header to the group's mailing list</li>
-<li>Document title(s)</li>
-<li>Document URL(s)</li>
-<li>Maturity Level</li>
-<li>Scope of the requested review: this can be the entire document, specific sections, specific issues, etc.  </li>
-<li>If a review was previously requested, include a human-authored summary of the changes as well as a link to a diff
-<ul><li> <a rel="nofollow" class="external text" href="https://services.w3.org/htmldiff">W3C's HTML Diff service</a> might be useful</li></ul></li>
-</ul>
-</section>
-
-
-
-<section id="Example_Request_for_Comments">
-<h3>Example Request for Comments</h3>
-<p>Here are some example RfCs:</p>
-<ul><li> <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/public-html/2014Sep/0099.html">TTML Text and Imaging ... preCR</a></li>
-<li> <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/public-review-announce/2014Nov/0002.html">Pointer Events LCWD</a></li></ul>
-</section>
-</section>
 
 
 
@@ -351,14 +277,12 @@
 
 
 
-<section id="resources">
-<h2><a href="#resources">Resources</a></h2>
-<ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/Consortium/Process/">Process Document</a></li></ul>
-</section>
 
+<div id="versionInfo"><small>Last updated 18 Jun 2021. See the <a href="https://github.com/w3c/documentreview/commits/gh-pages/index.html">commit history</a>.</small></div>
 
-<div id="versionInfo"><small>Last updated 31 Jul 2020. See the <a href="https://github.com/w3c/documentreview/commits/gh-pages/index.html">commit history</a>.</small></div>
-
+<script>
+createtoc(3)
+</script>
 <script type="text/javascript" src="createGitHubIssue.js"></script>
-
-</body></html>
+</body>
+</html>
