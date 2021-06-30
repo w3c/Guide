@@ -12,7 +12,7 @@
 <body>
 <h1>How to do Wide Review</h1>
 <p>Getting <i class="term">early</i> and <i class="term">wide</i> review of a document is very important, yet in practice it can be challenging.  This document provides some best practices for getting document review; it does not define explicit mandatory steps.</p>
-<p>This page is linked to from <a rel="nofollow" class="external text" href="https://www.w3.org/Guide/">The Guide</a>. See also the <a href="https://www.w3.org/2020/Process-20200915/#wide-review">Wide Review</a> section in the W3C Process document.</p>
+<p>This page is linked to from <a rel="nofollow" class="external text" href="https://www.w3.org/Guide/">The Guide</a>. See also the <a href="https://www.w3.org/Consortium/Process/#wide-review">Wide Review</a> section in the W3C Process document.</p>
 <p><strong>Feedback on this document is welcome, preferably by <a href="https://github.com/w3c/documentreview/issues">raising an issue</a> or a pull request.</strong></p>
 <div id="toc">
 <h2 class="notoc">Contents</h2>
@@ -21,26 +21,97 @@
 
 
 
+<section id="when_should_review_be_requested">
+  <h2>When should wide review be requested?</h2>
+  <p>A document is available for review from the moment it is first <a
+  href='https://www.w3.org/Consortium/Process/#publishing'>published</a>.
+  Working Groups should <a
+  href='https://www.w3.org/Consortium/Process/#formally-addressed'>formally
+  address</a> any substantive review comment about a technical report in a
+  timely manner.</p>
+  <p>Wide review should or must be requested when:</p>
+  <ul>
+  <li>after a <a href="https://www.w3.org/Consortium/Process/#first-wd">First
+  Public Working Draft</a> is published for most documents.
+  <p>Working Groups are often reluctant to make substantive changes to a mature
+  document, so reviewers should get a chance to send substantive technical
+  reviews as early as possible. This is especially important for <a
+  href="#how_to_get_horizontal_review">horizontal reviews</a>.</p>
+  </li>
+  <li>Before a document gets advanced to <a
+  href="https://www.w3.org/Consortium/Process/#transition-cr">Candidate
+  Recommendation</a> or gets updated as a <a
+  href="https://www.w3.org/Consortium/Process/#update-requests">Candidate
+  Recommendation Snapshot</a>.
+  <p>For those, the <a href="https://www.w3.org/Consortium/Process/">W3C
+  Process</a> requires a Group to show that the specification has received wide
+  review.</p>
+  </li>
+  <li>When a document is both reasonably stable and still flexible enough to
+  allow changes where issues are identified</li>
+  <li>When new features are added after a document has already gotten wide
+  review (perhaps requesting a review limited to the new features)</li>
+  </ul>
+  </section>
 
 
 
 <section id="who_to_ask_for_review">
-<h2>Who to ask for review?</h2>
- 
-<p>Much of this document focuses on how and when to conduct horizontal reviews, but they are only a subset of a full wide review, which must also include other stakeholders including Web developers, technology providers and implementers not active in the Working Group, external groups and standards organizations working on related areas, etc. Here is a list of suggestions:</p>
+<h2>Who to ask for wide review?</h2>
+
+<p>The objective is to ensure that the entire set of stakeholders of the Web
+community, including the general public, have had adequate notice of the
+progress of the Working Group and were able to actually perform reviews of and
+provide comments on the specification. When considering <a
+href='https://www.w3.org/Guide/transitions'>requests to advance the maturity
+level of document</a>, the Director will consider who has been explicitly
+offered a reasonable opportunity to review the document.</p>
+
+<p>In order to include other stakeholders including Web developers, technology
+  providers and implementers not active in the Working Group, external groups and
+  standards organizations working on related areas, etc. you must:</p>
 <ul>
-<li> Groups listed in the WG's charter, especially those who manage dependencies.</li>
-<li> Groups jointly responsible for a particular document (if any)  (duh!).</li>
-<li> All horizontal groups (listed below).  If it appears that one of those is not relevant (and is not listed in your charter), talk to them informally to confirm that.</li>
-<li> Other groups, at your discretion, even if not in the WG charter, including other W3C groups, external organizations and SSOs, implementers, application developers, etc.</li>
-<li>The general public. Consider using blog posts, social media, or other ways of alerting the public to your document and requesting feedback.</li>
+  <li>Publish an updated technical report, with the Status of the Document indicating clearly
+  that you're looking for <em>wide review</em>.
+   <p>Our <a
+    href='https://github.com/w3c/transition-notifier/blob/main/notify.js'>tooling</a>
+    do pick up on publications and propagate to <a
+    href="mailto:public-review-announce@w3.org">public-review-announce@w3.org</a>
+    automatically (for example, <a
+    href='https://lists.w3.org/Archives/Public/public-review-announce/2021Jun/0008.html'>Candidate
+    Recommendation Snapshot: Payment Request API (Call for Wide Review)</a>).</p>
+  </li>
+  <li>Reach out to the Groups listed in the WG's charter, especially those who
+  manage dependencies.</li>
+  <li>Reach out to the Groups jointly responsible for a particular document (if any).</li>
+  <li>Get reviews from the <a
+    href="#how_to_get_horizontal_review">horizontal groups</a>.</li>
+  <li>Reach out to the general public. Beyond the publication, you do so by:
+    <ol>
+      <li>Sending a dedicated announcement to <a
+      href="mailto:public-review-announce@w3.org">public-review-announce@w3.org</a>
+      if needed (in case the default notice sent to that list is
+      not enough).
+      </li>
+      <li>Considering using blog posts, social media, or other ways
+    of alerting the public to your document and requesting feedback.</li>
 </ul>
-<p>Use <a rel="nofollow" class="external text" href="mailto:public-review-announce@w3.org">public-review-announce@w3.org</a> for general announcements regarding wide and horizontal reviews. <em>However, note that sending an email to this list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described below.</em></p>
+
+<p>In addition, you should consider reaching out to other groups, at your
+discretion, even if not in the WG charter, including other W3C groups, external
+organizations and SSOs, implementers, application developers, etc.</p>
+
+<p><strong>Tip:</strong> consider tracking your wide review progress using a
+GitHub issue, such as <a href="https://github.com/w3c/sensors/issues/299">issue
+#299 of th Sensors API</a>. You can then simply point the Director to the issue.</p>
+
+
+<p>The reviews provided by the <a
+href="https://www.w3.org/Guide/process/charter.html#horizontal-review">horizontal
+groups</a>, a subset of a full wide review, do receive special attention and
+much of the rest of this document focuses on how and when to conduct horizontal reviews.</p>
+
 </section>
-
-
-
-
 
 <section id="how_to_get_horizontal_review">
 <h2>How to get horizontal review</h2>
@@ -99,8 +170,6 @@
 </details>
 </dd>
 
-
-
 <dt>Privacy</dt>
 <dd>
   <span class="step">Write a "Privacy Considerations" section for your document, taking into account the <a rel="nofollow" class="external text" href="https://w3ctag.github.io/security-questionnaire/">Self-Review Questionnaire: Security and Privacy</a>, <a rel="nofollow" class="external text" href="https://w3c.github.io/fingerprinting-guidance/">Mitigating Browser Fingerprinting in Web Specifications</a>, and <a rel="nofollow" class="external text" href="https://tools.ietf.org/html/rfc6973">RFC6973</a></span> then
@@ -153,24 +222,6 @@
 <p>You should familiarize yourself with the rest of this document. This section is just a quick reminder for when you are in the middle of doing the work.</p>
 <p>Recognize that horizontal review groups may be resource limited and may only be able to do one review or may have difficulty scheduling your review quickly.  Give them as much time as you can, consistent with asking for review while it is still reasonable to change the technology to accommodate the issues they find.</p>
 </section>
-
-
-
-
-
-<section id="when_should_review_be_requested">
-<h2>When should review be requested?</h2>
-<ul>
-<li>For most documents, after a <em>First Public Working Draft</em> is published</li>
-<li> Process-2019 requires wide review before a document is published at CR (Candidate Recommendation)</li>
-<li> When a document is both reasonably stable and still flexible enough to allow changes where issues are identified</li>
-<li> When new features are added after a document has already gotten wide review (perhaps requesting a review limited to the new features)</li>
-</ul>
-</section>
-
-
-
-
 
 <section id="working_with_horizontal_review_labels">
 <h2><a href="#working_with_horizontal_review_labels">Working with Horizontal Review labels</a></h2>
