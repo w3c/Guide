@@ -88,3 +88,15 @@ h2:hover > a.selflink, h3 > a.selflink, h4 > a.selflink, h5 > a.selflink, h6 > a
     display: block;
     }
 
+#githubissue {
+	width: 70%;
+	margin: auto;
+	border-bottom: 3px solid #005A9C;
+	padding: 1em 1em;
+	background: #e2edfe;
+}
+
+#githubissue input[type=text] {
+	width: 70%;
+	margin-bottom: 0.5em;
+}
