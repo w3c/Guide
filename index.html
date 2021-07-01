@@ -105,11 +105,23 @@ etc.</li>
 
 </ul>
 
+<aside id='using_github_issue'>
 <p><strong>Tip:</strong> consider tracking your wide review progress using a
 GitHub issue, such as <a href="https://github.com/w3c/sensors/issues/299">issue
 #299 of the Sensors API</a>. You can then simply point the Director to the
 issue.</p>
 
+<details id="githubissue" hidden>
+  <summary>Generate a meta-issue to track wide review steps in a GitHub repository</summary>
+  <p>You may find it useful to create an issue in the GitHub repository of your spec to track your progress. Add the name of your GitHub repository to the field below and hit the "Create GitHub issue" button. This opens the "new issue" form in your repository, and pre-fills the body with review steps as a list of checkboxes.</p>
+  <p>
+    <label for="repository">GitHub repository where issue should be created (format: <code>owner/repo</code>):</label>
+    <br/><input type="text" name="repository" id="repository" placeholder="Repo name, e.g. w3c/documentreview">
+    <br/><button>Create GitHub issue</button>
+  </p>
+  <p>Note: You will be able to edit the issue's title and body before it gets created.</p>
+</details>
+</aside>
 
 <p>The reviews provided by the <a
 href="https://www.w3.org/Guide/process/charter.html#horizontal-review">horizontal
@@ -213,17 +225,6 @@ reviews.</p>
 </details>
 </dd>
 </dl>
-
-<details id="githubissue" hidden>
-  <summary>Generate a meta-issue to track horizontal review steps in a GitHub repository</summary>
-  <p>You may find it useful to create an issue in the GitHub repository of your spec to track your progress. Add the name of your GitHub repository to the field below and hit the "Create GitHub issue" button. This opens the "new issue" form in your repository, and pre-fills the body with horizontal review steps as a list of checkboxes.</p>
-  <p>
-    <label for="repository">GitHub repository where issue should be created (format: <code>owner/repo</code>):</label>
-    <br/><input type="text" name="repository" id="repository" placeholder="Repo name, e.g. w3c/documentreview">
-    <br/><button>Create GitHub issue</button>
-  </p>
-  <p>Note: You will be able to edit the issue's title and body before it gets created.</p>
-</details>
 
 <p>You should familiarize yourself with the rest of this document. This section is just a quick reminder for when you are in the middle of doing the work.</p>
 <p>Recognize that horizontal review groups may be resource limited and may only be able to do one review or may have difficulty scheduling your review quickly.  Give them as much time as you can, consistent with asking for review while it is still reasonable to change the technology to accommodate the issues they find.</p>

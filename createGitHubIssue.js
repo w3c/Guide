@@ -17,7 +17,7 @@ function createGitHubIssue() {
     return;
   }
 
-  const title = encodeURIComponent('Seek horizontal reviews');
+  const title = encodeURIComponent('Seek wide review');
   const body = encodeURIComponent(generateGitHubIssueBody());
   window.open(`https://github.com/${repo}/issues/new?title=${title}&body=${body}`);
 }
@@ -36,14 +36,18 @@ function generateGitHubIssueBody() {
       return;
     }
 
-    const subContents = [...dd.querySelectorAll('.step')].map(el => `    - [ ] ${el.innerHTML}`);
+    const subContents = [...dd.querySelectorAll('.step')].map(el => `      - [ ] ${el.innerHTML}`);
 
-    return `- ${dt.textContent}\n${subContents.join('\n')}`;
+    return `  - ${dt.textContent}\n${subContents.join('\n')}`;
   });
 
-  return `This is a meta issue to track horizontal review steps for the specification.
-See [How to do wide review](https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review) for details.
+  return `This is a meta issue to track wide review steps for the specification.
+See [How to do wide review](https://www.w3.org/Guide/documentreview/#who_to_ask_for_review) for details.
 
+- [ ] the groups listed in the WG's charter, especially those who manage dependencies
+- [ ] the groups jointly responsible for a particular document (if any).
+- the horizontal groups:
 ${bullets.join('\n')}
+- Other outreach (if applicable)
 `;
 }
