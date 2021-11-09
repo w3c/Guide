@@ -1,6 +1,6 @@
 # Mixed-Mode (Hybrid) Group Meetings
 
-ASSUMPTION: Sometime in ~~2021~~2022 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
+ASSUMPTION: Sometime in 202~~1~~2 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
 
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
@@ -41,7 +41,7 @@ Challenges of Hybrid meetings:
   * people who are virtual can’t be expected to be online for 8 hours straight, especially when they are in another timezone
   * everyone needs to feel that they are equal participants (or it’s actually a f2f meeting with best-effort call-in)
 
-MPEG is struggling with designing this. There, we’re thinking of confining meetings that make or confirm decisions to the usual virtual short slots, and have the opportunity for extended discussion and yes, proposed decisions, on a best-effort basis. So you split the sessions into two classes.
+  MPEG is struggling with designing this. There, we’re thinking of confining meetings that make or confirm decisions to the usual virtual short slots, and have the opportunity for extended discussion and yes, proposed decisions, on a best-effort basis. So you split the sessions into two classes.
     
 * getting relevant & clear info about participants' needs in advance, including accommodation, travel logistics, dietary, allergies
   * plan for fallbacks for every critical item, including a backup venue
@@ -91,7 +91,7 @@ Organize the timing around your agenda items and smaller groups
 * remind people of CEPC requirements including always bearing in mind that some different participants have different levels of high risk(?), and to respect people's requests for care on social distancing
 * Clearly document the venue requirements for COVID tests.  Consider what additional requirements W3C can and should add.
 
-> [JB: recommend W3C establish some baseline requirements that are cognizant of the global situation.]
+> [JB -- recommend W3C establish some baseline requirements that are cognizant of the global situation.]
 
 * Patent policy?
   if you are recording the meeting, you MUST get explicit consent from participants
@@ -104,18 +104,18 @@ Organize the timing around your agenda items and smaller groups
    
    What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
 
-> [JB] Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available]
+> [JB -- Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available]
 
  
 ## Managing the queue
  
 Chairs, please make sure to manage the queue,
 
-> [JB] including in-room as well as remote queuing, and don't use your Chair hat to insert your own opinions (queue like everyone else to do so)
+> [JB -- including in-room as well as remote queuing, and don't use your Chair hat to insert your own opinions (queue like everyone else to do so)
 
-> [JB note technical bug in some platforms such as Zoom where host cannot queue themselves to express an opinion with their chair hat off -- we should get zoom to fix this]
+> [JB -- note technical bug in some platforms such as Zoom where host cannot queue themselves to express an opinion with their chair hat off -- we should get zoom to fix this]
 
-> [RRS also note that some platforms don't indicate the order in which participants raised their hands]
+> [RRS: also note that some platforms don't indicate the order in which participants raised their hands]
 
 > [RRS: a big opportunity exists here to integrate queue-management across platforms]
 
@@ -126,7 +126,7 @@ Prevent queue interruptions. The conversation moves forward based on
 
 Ask participants to mute unless they have the floor.
 
-> [JB] For large groups, it can be helpful to use mute-by-default, with Chair, or queue-manager-assistant, unmuting those who come up in queue -- but this can slow things down. If not mute-by-default, essential that Chair or someone has abilility to mute remote participants.]
+> [JB -- For large groups, it can be helpful to use mute-by-default, with Chair, or queue-manager-assistant, unmuting those who come up in queue -- but this can slow things down. If not mute-by-default, essential that Chair or someone has abilility to mute remote participants.]
  
 Split the queue into sub-topic if needed, to facilitate follow-ups on individual comments.
  
