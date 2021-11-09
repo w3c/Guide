@@ -8,13 +8,17 @@ ASSUMPTION: Sometime in ~~2021~~2022 we will need to field requests from groups 
 
 **Status**: this document is for discussion purposes.  PLH, Judy, and Ralph have were working outside of GitHub until Nov'21.
 
-~~2021-07-30: Ralph will turn this pad into a GH pull request 2021-11-09 done~~
- 
- TODO: Do a training session on chairing a virtual meeting
- TODO: Establish a repository to collect lessons learned during 2020 (TPAC breakouts, etc.)
- TODO: Figure out the structure to integrate in /Guide (given overlap with continuity page, workshops, etc.)
- TODO: Consider whether W3C should create hardware kits to loan to a meeting host
- TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workforce/ for ideas
+~~TODO: 2021-07-30: Ralph will turn this pad into a GH pull request 2021-11-09 done~~
+<br>
+TODO: Do a training session on chairing a virtual meeting
+<br>
+TODO: Establish a repository to collect lessons learned during 2020 (TPAC breakouts, etc.)
+<br>
+TODO: Figure out the structure to integrate in /Guide (given overlap with continuity page, workshops, etc.)
+<br>
+TODO: Consider whether W3C should create hardware kits to loan to a meeting host
+<br>
+TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workforce/ for ideas
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
