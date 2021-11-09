@@ -1,8 +1,10 @@
 # Mixed-Mode (Hybrid) Group Meetings
 
-ASSUMPTION: Sometime in 2021 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
-[JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
-[JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
+ASSUMPTION: Sometime in ~~2021~~2022 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
+
+> [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
+
+> [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
 
 **Status**: this document is for discussion purposes.  PLH, Judy, and Ralph have were working outside of GitHub until Nov'21.
 
@@ -60,7 +62,9 @@ MPEG is struggling with designing this. There, we’re thinking of confining mee
  
 ## Prepare your agenda
 
-[JB -- an intro high-level statement would help, for instance.] Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute.
+> [JB -- an intro high-level statement would help, for instance.]
+
+Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute.
  
 Don't expect to cover everything within one or two days: not all items
 may make it to a face-to-face meeting. Favor items that require a non-remote
@@ -76,48 +80,70 @@ Organize the timing around your agenda items and smaller groups
  
  State the policies of engagement; Process, CEPC, PPE, venue precautions, emergency contacts
  
-   [JB -- I suggest moving this to up, and including comments related to Covid logistics, for instance...] 
+> [JB -- I suggest moving this to up, and including comments related to Covid logistics, for instance...] 
 
 * remind the participant of the rules of engagement at the start of each meeting
 * review for all participants any Covid-safety requirements and agreements
 * remind people of CEPC requirements including always bearing in mind that some different participants have different levels of high risk(?), and to respect people's requests for care on social distancing
-* Clearly document the venue requirements for COVID tests.  Consider what additional requirements W3C can and should add. [JB: recommend W3C establish some baseline requirements that are cognizant of the global situation.]
+* Clearly document the venue requirements for COVID tests.  Consider what additional requirements W3C can and should add.
+
+> [JB: recommend W3C establish some baseline requirements that are cognizant of the global situation.]
+
 * Patent policy?
   if you are recording the meeting, you MUST get explicit consent from participants
 
 ## Managing breaks/social activity
 
    Allow for breaks by providing a variety of social environments for remote participants, relevant to the size of the group, and interest. Consider doing a social gatherings that are inclusive of remote participants
-   [JB -- let's consider having a central list of ideas of events that are easy to put together, easy to make inclusive/accessible, and easy to do in hybrid mode]
+
+> [JB -- let's consider having a central list of ideas of events that are easy to put together, easy to make inclusive/accessible, and easy to do in hybrid mode]
    
    What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
-[JB] Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available
+
+> [JB] Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available]
 
  
 ## Managing the queue
  
-Chairs, please make sure to manage the queue, [JB] including in-room as well as remote queuing, and don't use your Chair hat to insert your own opinions (queue like everyone else to do so) [JB note technical bug in some platforms such as Zoom where host cannot queue themselves to express an opinion with their chair hat off -- we should get zoom to fix this][RRS also note that some platforms don't indicate the order in which participants raised their hands] [RRS: a big opportunity exists here to integrate queue-management across platforms]
+Chairs, please make sure to manage the queue,
+
+> [JB] including in-room as well as remote queuing, and don't use your Chair hat to insert your own opinions (queue like everyone else to do so)
+
+> [JB note technical bug in some platforms such as Zoom where host cannot queue themselves to express an opinion with their chair hat off -- we should get zoom to fix this]
+
+> [RRS also note that some platforms don't indicate the order in which participants raised their hands]
+
+> [RRS: a big opportunity exists here to integrate queue-management across platforms]
 
 Prevent queue interruptions. The conversation moves forward based on
-    the queue, not on the loudest participant in the room. [JB -- let's discuss -- this strikes me as rigid guidance, and in some cases Chair needs to be managing queue according to a flow of relevant topics. Another technical problem here is that some video-conference queueing doesn't allow indication of topic.]
+    the queue, not on the loudest participant in the room.
 
-Ask participants to mute unless they have the floor. [JB] For large groups, it can be helpful to use mute-by-default, with Chair, or queue-manager-assistant, unmuting those who come up in queue -- but this can slow things down. If not mute-by-default, essential that Chair or someone has abilility to mute remote participants.]
+> [JB -- let's discuss -- this strikes me as rigid guidance, and in some cases Chair needs to be managing queue according to a flow of relevant topics. Another technical problem here is that some video-conference queueing doesn't allow indication of topic.]
+
+Ask participants to mute unless they have the floor.
+
+> [JB] For large groups, it can be helpful to use mute-by-default, with Chair, or queue-manager-assistant, unmuting those who come up in queue -- but this can slow things down. If not mute-by-default, essential that Chair or someone has abilility to mute remote participants.]
  
 Split the queue into sub-topic if needed, to facilitate follow-ups on individual comments.
  
 @@how to manage zakim+zoom queue
    
-[JB thinks that there are so many variables regarding what works in different settings with different people for queue management, that the most important bottom line is to be flexible -- but with suggestions.] [Acknowledge that something that was suggested/recommended practice last month may have been overtaken by subsequent changes.]
+> [JB thinks that there are so many variables regarding what works in different settings with different people for queue management, that the most important bottom line is to be flexible -- but with suggestions.]
+> [Acknowledge that something that was suggested/recommended practice last month may have been overtaken by subsequent changes.]
 
 ## Equipment: 
 
-Plan from scratch what equipment we need to really do hybrid well, e.g., large screen(s) and good tech crew at the hub(s); and reliable set-ups for the remote folks... [jb and rs brainstorming, 20211015]
+Plan from scratch what equipment we need to really do hybrid well, e.g., large screen(s) and good tech crew at the hub(s); and reliable set-ups for the remote folks...
+
+> [JB and RS brainstorming, 20211015]
     
 ## Get your audio/video right
 
 Consider unfortunate contingencies like the tech doesn't work as expected or the physical meeting room(s) getting disconnected from the net or having a fire alarm -- and all of these things and more have indeed happened, so think carefully about contingency planning. Will (should?) those in the room continue to meet while they're disconnected from the net?  Will the (other) remote participants continue to meet while those in the meeting room are milling about in a parking lot waiting for the fire department? Will remote participants already have fall-back channel info?  How will the partiioned meeting know that it has been partitioned?
 
-[JB:  ;) -- discuss emergency logistics more generally, and the fact that most of them will eventually happen.] Essential to have a fall-back video conference option that can be activitied.
+> [JB:  ;) -- discuss emergency logistics more generally, and the fact that most of them will eventually happen.]
+
+Essential to have a fall-back video conference option that can be activitied.
 
 * Put your remote participants on a large display in the meeting room
 * Give your remote participants a "gist" camera view of the whole room. [High value addition that Pluto arranged in Seattle IDIW Workshop]
