@@ -185,3 +185,14 @@ Essential to have a fall-back video conference option that can be activitied.
 ?Should we attempt to provide equipment to be able to use a meeting room that has insufficient built-in conferencing equipment
  
 ?If we provide equipment, how much setup time should we expect to require
+
+## References
+
+Frish & Greene, [What It Takes to Run a Great Hybrid Meeting](https://hbr.org/2021/06/what-it-takes-to-run-a-great-hybrid-meeting), Harvard Business Review, June 3, 2021
+https://hbr.org/2021/06/what-it-takes-to-run-a-great-hybrid-meeting
+
+Hooijberg & Watkins, [When Does It Make Sense to Have Mixed-Mode Meetings?](https://sloanreview.mit.edu/article/when-does-it-make-sense-to-have-mixed-mode-meetings/), MIT Sloan Management Review, August 25, 2021<br>
+https://sloanreview.mit.edu/article/when-does-it-make-sense-to-have-mixed-mode-meetings/
+
+Rintel et al, [Hybrid meetings guide](https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles/hybrid-meetings-guide/), The New Future of Work, Microsoft Research, September 9, 2021<br>
+https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles/hybrid-meetings-guide/
