@@ -45,7 +45,8 @@ Next steps:
 
 Mixed mode meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are in a room(s) together.
  
-Challenges of Hybrid meetings:
+## Challenges of Hybrid meetings
+
 * Comments from David Singer, to be integrated:
   They are really hard, as you know.
 
