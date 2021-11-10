@@ -1,16 +1,9 @@
 # Mixed-Mode (Hybrid) Group Meetings
 
-## Introduction
-
-> [Add a few sentences to set the context for this document]
+## Sticky notes (to be removed)
 
 ASSUMPTION: Sometime in 202~~1~~2 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
-
-> [JB: Let's add a paragraph before assumptions, that starts by briefly acknowledging the unique challenges of "Hybrid."]
-
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
-
-> [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
 
 **Status**: this document is for discussion purposes.  PLH, Judy, and Ralph have were working outside of GitHub until Nov'21.
 
@@ -35,7 +28,18 @@ Next steps:
 * ~~plh to bring to Global on August 13~~
 * plh to share the content of this document (somehow) with Chairs on ~~August 20 or August 27~~ (depending on feedback from Global)
 * Integrate this document in /Guide by ~~mid-September~~ [updated time-goal, asap or otherwise?]
- 
+
+
+## Introduction
+
+> [Add a few sentences to set the context for this document]
+> 
+> [JB: Let's add a paragraph before assumptions, that starts by briefly acknowledging the unique challenges of "Hybrid."]
+
+> [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
+
+> [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
+
 Mixed mode meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are in a room(s) together.
  
 Challenges of Hybrid meetings:
