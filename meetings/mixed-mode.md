@@ -77,6 +77,10 @@ Mixed mode meetings are different from all-virtual meetings, and it is challengi
   * equipment not working as promised and not having been tested in advance
   * bandwidth / latency insufficiencies for all the groups meeting simultaneously
 * Will there be multiple hubs that need to be interconnected?
+* Accessibility
+  * meeting hosts need to follow how to do accessible meetings, linked
+  * hosts also need to follow accessibility of remote meetings, linked
+  * this section needs to highlight unique intersecting issues between these two, and to leave space for details, somewhere...
  
 ## Prepare your agenda
 
