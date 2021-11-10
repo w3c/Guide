@@ -18,6 +18,9 @@ TODO: Figure out the structure to integrate in /Guide (given overlap with contin
 TODO: Consider whether W3C should create hardware kits to loan to a meeting host
 <br>
 TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workforce/ for ideas
+<br>
+TODO: Throughout the document, consider what advice we need to offer with regard to the human dimension, aka social considerations, training of meeting hosts, etc.
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
