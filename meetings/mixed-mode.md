@@ -211,6 +211,12 @@ Essential to have a fall-back video conference option that can be activitied.
 Frish & Greene, [What It Takes to Run a Great Hybrid Meeting](https://hbr.org/2021/06/what-it-takes-to-run-a-great-hybrid-meeting), Harvard Business Review, June 3, 2021
 https://hbr.org/2021/06/what-it-takes-to-run-a-great-hybrid-meeting
 
+Henry et al, [How to Make Your Presentations Accessible to All](https://www.w3.org/WAI/teach-advocate/accessible-presentations/), W3C Web Accessibility Initiative<br>
+https://www.w3.org/WAI/teach-advocate/accessible-presentations/
+
+Hollier et al, [Accessibility of Remote Meetings](https://w3c.github.io/apa/remote-meetings/), W3C Working Group Editor's Draft<br>
+https://w3c.github.io/apa/remote-meetings/
+
 Hooijberg & Watkins, [When Does It Make Sense to Have Mixed-Mode Meetings?](https://sloanreview.mit.edu/article/when-does-it-make-sense-to-have-mixed-mode-meetings/), MIT Sloan Management Review, August 25, 2021<br>
 https://sloanreview.mit.edu/article/when-does-it-make-sense-to-have-mixed-mode-meetings/
 
