@@ -1,6 +1,12 @@
 # Mixed-Mode (Hybrid) Group Meetings
 
-ASSUMPTION: Sometime in 202~~1~~2 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals. [JB: Let's add a paragraph before assumptions, that starts by briefly acknowledging the unique challenges of "Hybrid."]
+## Introduction
+
+> [Add a few sentences to set the context for this document]
+
+ASSUMPTION: Sometime in 202~~1~~2 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
+
+> [JB: Let's add a paragraph before assumptions, that starts by briefly acknowledging the unique challenges of "Hybrid."]
 
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
