@@ -1,12 +1,16 @@
 # Mixed-Mode (Hybrid) Group Meetings
 
+## Introduction
+
+> [add a few sentences about the nature of the challenge]
+
 ASSUMPTION: Sometime in 202~~1~~2 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
 
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
 > [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
 
-**Status**: this document is for discussion purposes.  PLH, Judy, and Ralph have were working outside of GitHub until Nov'21.
+**Status**: this document is for discussion purposes.  PLH, Judy, and Ralph were working outside of GitHub until Nov'21.
 
 ~~TODO: 2021-07-30: Ralph will turn this pad into a GH pull request 2021-11-09 done~~
 <br>
