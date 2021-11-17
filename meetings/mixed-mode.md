@@ -23,6 +23,8 @@ TODO: Throughout the document, consider what advice we need to offer with regard
 <br>
 TODO: Succinctly motivate why hybrid will be important going forward (and JB, contribute text on this)
 <br>
+TODO: Add a section on "asking for help," complementary to up-front training, and written information resources
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
