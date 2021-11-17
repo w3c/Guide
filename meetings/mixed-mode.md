@@ -21,6 +21,10 @@ TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workf
 <br>
 TODO: Throughout the document, consider what advice we need to offer with regard to the human dimension, aka social considerations, training of meeting hosts, etc.
 <br>
+TODO: Succinctly motivate why hybrid will be important going forward (and JB, contribute text on this)
+<br>
+TODO: Add a section on "asking for help," complementary to up-front training, and written information resources
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
@@ -188,7 +192,7 @@ Essential to have a fall-back video conference option that can be activitied.
    video for remote participants to have a direct view of them. (note this will dramatically increase bandwidth consumption)
 * Remember that not all presenters or participants, regardless of whether in room or remote, can see who is in the room or what is being projected.
 * Take your minutes online, for everyone to see in realtime
-* If slides are presented, everyone MUST be able to read them -- particularly discourage screen sharing unless the document(s) are also available on the web; screen sharing should only be used as a way to keep everyone in sync as to what material you are discussing. Make sure the slides meet WCAG 2.1 AA and "How to Make your Presentations Accessible."
+* If slides are presented, everyone MUST [be able to read them](https://www.w3.org/WAI/teach-advocate/accessible-presentations/) -- particularly discourage screen sharing unless the document(s) are also available on the web; screen sharing should only be used as a way to keep everyone in sync as to what material you are discussing. Make sure the slides meet WCAG 2.1 AA and "How to Make your Presentations Accessible."
 * If a whiteboard is used, the view must not be blocked from any participant in the room, and must be available to all remote participants.
 * Consider training for your participants on to use the realtime collaboration tools (such as unmuting quickly)
 * When the platform supports it, pin key windows in place -- speaker, content, interpreter, captions -- etc.... 
