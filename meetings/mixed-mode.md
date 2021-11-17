@@ -83,6 +83,13 @@ Mixed mode meetings are different from all-virtual meetings, and it is challengi
   * this section needs to highlight unique intersecting issues between these two, and to leave space for details, somewhere...
 * International
   * will there be translators?
+
+## Meeting organizers training
+
+Special attention needs to be given to train the meeting Chairs and other organizers to ensure a smooth hybrid meeting.
+
+In particular, the importace of managing the queue, the meeting softwares, and the equipment (such as microphones). The Chairs may considerate delegating those
+roles to some of the participants, especially if they are involved in the topic.
  
 ## Prepare your agenda
 
