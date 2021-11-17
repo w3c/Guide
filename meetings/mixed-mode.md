@@ -21,6 +21,8 @@ TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workf
 <br>
 TODO: Throughout the document, consider what advice we need to offer with regard to the human dimension, aka social considerations, training of meeting hosts, etc.
 <br>
+TODO: Succinctly motivate why hybrid will be important going forward (and JB, contribute text on this)
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
