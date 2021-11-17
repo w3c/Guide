@@ -81,6 +81,7 @@ Mixed mode meetings are different from all-virtual meetings, and it is challengi
   * meeting hosts need to follow how to do accessible meetings, linked
   * hosts also need to follow accessibility of remote meetings, linked
   * this section needs to highlight unique intersecting issues between these two, and to leave space for details, somewhere...
+  * this section should remind people that some accomodations require additional detail; e.g. multiple sign languages
 * International
   * will there be translators?
 
@@ -88,7 +89,7 @@ Mixed mode meetings are different from all-virtual meetings, and it is challengi
 
 Special attention needs to be given to train the meeting Chairs and other organizers to ensure a smooth hybrid meeting.
 
-In particular, the importace of managing the queue, the meeting softwares, and the equipment (such as microphones). The Chairs may delegate those
+In particular, the importance of managing the queue, the meeting softwares, and the equipment (such as microphones). The Chairs may delegate those
 roles to some of the participants, especially if they are involved in the topic.
  
 ## Prepare your agenda
