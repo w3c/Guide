@@ -25,6 +25,8 @@ TODO: Succinctly motivate why hybrid will be important going forward (and JB, co
 <br>
 TODO: Add a section on "asking for help," complementary to up-front training, and written information resources
 <br>
+TODO: Add a section on "dealing with opposition to hybrid" to directly address anticipated blocked 
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
