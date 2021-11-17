@@ -220,6 +220,9 @@ Essential to have a fall-back video conference option that can be activitied.
 
 ## References
 
+W3C, [Tooling for Discussions and Publications](https://www.w3.org/2021/Process-20211102/#tooling), W3C Process Document, November 2, 2021
+https://www.w3.org/2021/Process-20211102/#tooling
+
 Frish & Greene, [What It Takes to Run a Great Hybrid Meeting](https://hbr.org/2021/06/what-it-takes-to-run-a-great-hybrid-meeting), Harvard Business Review, June 3, 2021
 https://hbr.org/2021/06/what-it-takes-to-run-a-great-hybrid-meeting
 
