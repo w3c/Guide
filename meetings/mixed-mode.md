@@ -27,6 +27,10 @@ TODO: Add a section on "asking for help," complementary to up-front training, an
 <br>
 TODO: Add a section on "dealing with opposition to hybrid" to directly address anticipated blocked 
 <br>
+TODO: Consider adding a "baseline principles" section
+<br>
+TODO: Consider how tooling may be able to support time-flexible hybrid, for instance by supporting granular agenda-presence preferences
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
