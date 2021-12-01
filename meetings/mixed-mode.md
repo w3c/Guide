@@ -29,6 +29,8 @@ TODO: Consider adding a "baseline principles" section
 <br>
 TODO: Consider how tooling may be able to support time-flexible hybrid, for instance by supporting granular agenda-presence preferences
 <br>
+TODO: Examine [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings) page (last updated in 2014) for further inspiration.
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
