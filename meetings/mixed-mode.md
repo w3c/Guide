@@ -1,8 +1,9 @@
-# Mixed-Mode (Hybrid) Group Meetings
+# Hybrid Group Meetings
 
 ## Sticky notes (to be removed)
 
 ASSUMPTION: Sometime in 2022 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
+
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
 **Status**: this document is for discussion purposes.  PLH, Judy, and Ralph were working outside of GitHub until Nov'21.
@@ -47,13 +48,15 @@ Next steps:
 
 Though the pandemic circumstances that halted in-person meetings in 2020 and 2021 are tragic, this global event also forces us to adapt to new ways of meeting "together" and in doing so we can fulfill another objective to enable broader global participation in our work.  Those who have never had the means to travel to meetings will benefit from our anticipated success in conducting hybrid meetings where some participants may be co-located yet interact on an equal basis with other participants in different locations.
 
+The term "hybrid meeting" refers here to a meeting where some participants are together in a physical room while others are located elsewhere; perhaps in individual [home] workspaces or with another group of participants in another physical room.
+
 > [JB: Let's add a paragraph before assumptions, that starts by briefly acknowledging the unique challenges of "Hybrid."]
 
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
 > [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
 
-Mixed mode meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are in a room(s) together.
+Hybrid meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are in a room(s) together.
  
 ## Challenges of Hybrid meetings
 
