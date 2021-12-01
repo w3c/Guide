@@ -88,6 +88,8 @@ Mixed mode meetings are different from all-virtual meetings, and it is challengi
 * socializing
   * breaks
   * group dinners
+  * consider in advance whether some socializing can integrate in-person and remote
+  * be aware of the continued need for inclusive practices during socialization
 * technical
   * equipment not working as promised and not having been tested in advance
   * bandwidth / latency insufficiencies for all the groups meeting simultaneously
