@@ -2,13 +2,11 @@
 
 ## Sticky notes (to be removed)
 
-ASSUMPTION: Sometime in 202~~1~~2 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
+ASSUMPTION: Sometime in 2022 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
-**Status**: this document is for discussion purposes.  PLH, Judy, and Ralph have were working outside of GitHub until Nov'21.
+**Status**: this document is for discussion purposes.  PLH, Judy, and Ralph were working outside of GitHub until Nov'21.
 
-~~TODO: 2021-07-30: Ralph will turn this pad into a GH pull request 2021-11-09 done~~
-<br>
 TODO: Do a training session on chairing a virtual meeting
 <br>
 TODO: Establish a repository to collect lessons learned during 2020 (TPAC breakouts, etc.)
@@ -37,16 +35,16 @@ W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  Continuity page: https://www.w3.org/Guide/meetings/continuity.html
  
 Next steps:
-* ~~plh to share this pad with others who met on 16 Apr~~
-* ~~plh to bring to Global on August 13~~
-* plh to share the content of this document (somehow) with Chairs on ~~August 20 or August 27~~ (depending on feedback from Global)
-* Integrate this document in /Guide by ~~mid-September~~ [updated time-goal, asap or otherwise?]
+* plh to share the content of this document (somehow) with Chairs
+* Integrate this document in /Guide
 
 
 ## Introduction
 
 > [Add a few sentences to set the context for this document]
-> 
+
+Though the pandemic circumstances that halted in-person meetings in 2020 and 2021 are tragic, this global event also forces us to adapt to new ways of meeting "together" and in doing so we can fulfill another objective to enable broader global participation in our work.  Those who have never had the means to travel to meetings will benefit from our anticipated success in conducting hybrid meetings where some participants may be co-located yet interact on an equal basis with other participants in different locations.
+
 > [JB: Let's add a paragraph before assumptions, that starts by briefly acknowledging the unique challenges of "Hybrid."]
 
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
