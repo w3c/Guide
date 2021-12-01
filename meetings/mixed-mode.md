@@ -202,7 +202,7 @@ Essential to have a fall-back video conference option that can be activitied.
 * If your agenda includes parallel breakout sessions, make plans in advance for supporting those for remote participants.
  
 * Make sure everyone can be seen. Room participants should consider using their own laptop
-   video for remote participants to have a direct view of them. (note this will dramatically increase bandwidth consumption)
+   video for remote participants to have a direct view of them. (note this will dramatically increase bandwidth consumption).  Encourage all participants to turn on their video, at a minimum when they are speaking, to allow for non-verbal queues
 * Remember that not all presenters or participants, regardless of whether in room or remote, can see who is in the room or what is being projected.
 * Take your minutes online, for everyone to see in realtime
 * If slides are presented, everyone MUST [be able to read them](https://www.w3.org/WAI/teach-advocate/accessible-presentations/) -- particularly discourage screen sharing unless the document(s) are also available on the web; screen sharing should only be used as a way to keep everyone in sync as to what material you are discussing. Make sure the slides meet WCAG 2.1 AA and "How to Make your Presentations Accessible."
