@@ -76,10 +76,14 @@ Mixed mode meetings are different from all-virtual meetings, and it is challengi
   * whiteboarding / flipcharting
   * camera placement in meeting room
   * screen(s) large enough and placed well enough to show remote participants equivalently
+  * awareness that some remote or in-person participants may not be able to see well
 * hearing and being heard
   * queuing (floor control) 
   * microphone quality in room
   * echo and background noise from remote participants
+  * attention to how proximity to in-room microphone affects sound for remote participants
+  * awareness that some remote or in-person participants may not be able to hear well
+  * awareness that some participants may not be able to speak loudly 
 * socializing
   * breaks
   * group dinners
