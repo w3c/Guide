@@ -82,6 +82,7 @@ Mixed mode meetings are different from all-virtual meetings, and it is challengi
   * microphone quality in room
   * echo and background noise from remote participants
   * attention to how proximity to in-room microphone affects sound for remote participants
+  * arrange in advance for a "microphone runner" in case needed
   * awareness that some remote or in-person participants may not be able to hear well
   * awareness that some participants may not be able to speak loudly 
 * socializing
