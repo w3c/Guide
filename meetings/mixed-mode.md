@@ -8,33 +8,29 @@ ASSUMPTION: Sometime in 2022 we will need to field requests from groups to have 
 
 **Status**: this document is for discussion purposes.  PLH, Judy, and Ralph were working outside of GitHub until Nov'21.
 
-TODO: Do a training session on chairing a virtual meeting
+TODO: placeholder: Establish a repository to collect lessons learned during 2020 (TPAC breakouts, etc.)
 <br>
-TODO: Establish a repository to collect lessons learned during 2020 (TPAC breakouts, etc.)
+TODO: (deferred) Figure out the structure to integrate in /Guide (given overlap with continuity page, workshops, etc.)
 <br>
-TODO: Figure out the structure to integrate in /Guide (given overlap with continuity page, workshops, etc.)
+TODO: Consider whether W3C should create hardware kits to loan to a meeting host (Ralph)
 <br>
-TODO: Consider whether W3C should create hardware kits to loan to a meeting host
+TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workforce/ for ideas (PLH)
 <br>
-TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workforce/ for ideas
+TODO: Throughout the document, consider what advice we need to offer with regard to the human dimension, aka social considerations, training of meeting hosts, etc. (judy)
 <br>
-TODO: Throughout the document, consider what advice we need to offer with regard to the human dimension, aka social considerations, training of meeting hosts, etc.
+TODO: Add a section on "asking for help," complementary to up-front training, and written information resources (Judy)
 <br>
-TODO: Succinctly motivate why hybrid will be important going forward (and JB, contribute text on this)
+TODO: Add a section on "dealing with opposition to hybrid" to directly address anticipated blocked (Judy)
 <br>
-TODO: Add a section on "asking for help," complementary to up-front training, and written information resources
+TODO: Consider adding a "baseline principles" section (Ralph)
 <br>
-TODO: Add a section on "dealing with opposition to hybrid" to directly address anticipated blocked 
+TODO: Consider how tooling may be able to support time-flexible hybrid, for instance by supporting granular agenda-presence preferences (PLH)
 <br>
-TODO: Consider adding a "baseline principles" section
+TODO: Examine [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings) page (last updated in 2014) for further inspiration. (PLH - add to working references)
 <br>
-TODO: Consider how tooling may be able to support time-flexible hybrid, for instance by supporting granular agenda-presence preferences
+TODO: Add advice to "be prepared for all eventualities," including checking regularly on changes in Covid situation, and communicating clearly with participants. Acknowledge that it takes extra time to prepare for all eventualities. (Judy)
 <br>
-TODO: Examine [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings) page (last updated in 2014) for further inspiration.
-<br>
-TODO: Add advice to "be prepared for all eventualities," including checking regularly on changes in Covid situation, and communicating clearly with participants. Acknowledge that it takes extra time to prepare for all eventualities.
-<br>
-TODO: Remove Dom from assignment and add Judy?
+TODO: Remove Dom from assignment and add Judy? (PLH)
 <br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
@@ -42,11 +38,12 @@ W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  Continuity page: https://www.w3.org/Guide/meetings/continuity.html
  
 Next steps:
-* plh to share the content of this document (somehow) with Chairs
+* Present to W3M on December 15
+* Continue to refine as needed
 * Integrate this document in /Guide
 
 
-## Introduction
+## Introduction (Judy)
 
 > [Add a few sentences to set the context for this document]
 
@@ -62,7 +59,7 @@ The term "hybrid meeting" refers here to a meeting where some participants are t
 
 Hybrid meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are in a room(s) together.
  
-## Challenges of Hybrid meetings
+## Challenges of Hybrid meetings (Ralph)
 
 * Comments from David Singer, to be integrated:
   They are really hard, as you know.
@@ -109,14 +106,14 @@ Hybrid meetings are different from all-virtual meetings, and it is challenging t
 * International
   * will there be translators?
 
-## Meeting organizer and facilitator training
+## Meeting organizer and facilitator training (Judy)
 
 Special attention needs to be given to train the meeting Chairs and other organizers to ensure a smooth hybrid meeting.
 
 In particular, the importance of managing the queue, controlling side conversations, managing the meeting software and equipment (such as microphones). The Chairs may delegate those
 roles to some of the participants, especially if they are involved in the topic.
  
-## Prepare your agenda
+## Prepare your agenda (PLH)
 
 > [JB -- an intro high-level statement would help, for instance.]
 
@@ -132,7 +129,7 @@ Organize the timing around your agenda items and smaller groups
 * Smaller groups/breakouts means better timezone management
 * Require reports from the smaller groups
 
-## Convening the meeting
+## Convening the meeting (Judy)
  
  State the policies of engagement; Process, CEPC, PPE, venue precautions, emergency contacts
  
@@ -148,7 +145,7 @@ Organize the timing around your agenda items and smaller groups
 * Patent policy?
   if you are recording the meeting, you MUST get explicit consent from participants
 
-## Managing breaks/social activity
+## Managing breaks/social activity (Judy)
 
    Allow for breaks by providing a variety of social environments for remote participants, relevant to the size of the group, and interest. Consider doing a social gatherings that are inclusive of remote participants
 
@@ -159,7 +156,7 @@ Organize the timing around your agenda items and smaller groups
 > [JB -- Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available]
 
  
-## Managing the queue
+## Managing the queue (Ralph)
  
 Chairs, please make sure to manage the queue,
 
@@ -187,13 +184,13 @@ Split the queue into sub-topic if needed, to facilitate follow-ups on individual
 > [JB thinks that there are so many variables regarding what works in different settings with different people for queue management, that the most important bottom line is to be flexible -- but with suggestions.]
 > [Acknowledge that something that was suggested/recommended practice last month may have been overtaken by subsequent changes.]
 
-## Equipment: 
+## Equipment (Ralph)
 
 Plan from scratch what equipment we need to really do hybrid well, e.g., large screen(s) and good tech crew at the hub(s); and reliable set-ups for the remote folks...
 
 > [JB and RS brainstorming, 20211015]
     
-## Get your audio/video right
+## Get your audio/video right (Ralph)
 
 Sharing of accessible content via the web should be strongly preferred over screen sharing.  This allows all participants to adjust their view of the shared content according to their own needs; the number of windows on their screen, the font size, even the location in the content that they are viewing.  When it is necessary to use a presenter's screen to convey information to the meeting it is essential that the remote meeting platform seamlessly capture the presenter's screen content, whether that is accomplished by running a meeting client on the presenter's device or by connecting a video feed from the presenter's device into the meeting platform via an external means.
 
@@ -228,13 +225,13 @@ Essential to have a fall-back video conference option that can be activitied.
 
 @@how do one get the explicit consent if the individual joined late and missed the disclaimer before the start of the recording? A: ensure that the video tool is clearing indicating that it is recording, and add a reminder with agendas. A' provide an agenda template that includes a boilerplate notice.
       
-## Tooling & Support
+## Tooling & Support (PLH)
 
 [provide some tooling recommendation. See also https://github.com/w3c/w3process/issues/435 for ongoing Process CG discussion, https://github.com/w3c/Guide/issues/78 in the Continuity conversation, and https://github.com/w3c/AB-memberonly/issues/30 in the AB rules/best-practices for tools discussion.
  
  ?Are there any unique requirements or desiderata for the new group calendar system to support hybrid meetings?
  
-## Room Setup Expectations
+## Room Setup Expectations (Ralph)
  
 ?Should we attempt to provide equipment to be able to use a meeting room that has insufficient built-in conferencing equipment
  
