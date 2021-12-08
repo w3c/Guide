@@ -32,7 +32,7 @@ TODO: Consider how tooling may be able to support time-flexible hybrid, for inst
 <br>
 TODO: Examine [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings) page (last updated in 2014) for further inspiration.
 <br>
-TODO: Build in steps to regularly check Covid situation, and communicate clearly and as frequently as needed with participants
+TODO: Add advice to "be prepared for all eventualities," including checking regularly on changes in Covid situation, and communicating clearly with participants. Acknowledge that it takes extra time to prepare for all eventualities.
 <br>
 TODO: Remove Dom from assignment and add Judy?
 <br>
