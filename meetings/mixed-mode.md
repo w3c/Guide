@@ -113,21 +113,21 @@ Special attention needs to be given to train the meeting Chairs and other organi
 In particular, the importance of managing the queue, controlling side conversations, managing the meeting software and equipment (such as microphones). The Chairs may delegate those
 roles to some of the participants, especially if they are involved in the topic.
  
-## Prepare your agenda (PLH)
+## Prepare your agenda
 
-> [JB -- an intro high-level statement would help, for instance.]
+Getting your agenda right is the most effective way to have a smooth meeting. It allows participants to prepare in advance, focus on a limited set of topics, ensure progress, and accommodate timezone constraints for required remote participants. The Group Chairs are expected to provide an agenda of the meeting in advance.
 
-Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute.
- 
-Don't expect to cover everything within one or two days: not all items
-may make it to a face-to-face meeting. Favor items that require a non-remote
-meeting (eg whiteboard), based on in-room participation.
- Otherwise organize dedicating remote meetings for the other agenda items.
- 
-Organize the timing around your agenda items and smaller groups
+Organize the timing around your agenda items and consider working in smaller groups:
 * Not all agenda items require everyone to be there
 * Smaller groups/breakouts means better timezone management
 * Require reports from the smaller groups
+
+Don't expect to cover everything within one or two days: not all items may make it to a face-to-face meeting. Favor items that require a non-remote
+meeting (eg whiteboard), based on in-room participation. Otherwise organize dedicated remote meetings for the other agenda items.
+
+Allow participants to easily raise potential agenda items (using GitHub labels "agenda+", markdown file, or wiki pages). Gather participant attendance expectation for each agenda item (who must be there to discuss an item?) and organize based on in-room and remote timezones.
+
+Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute. 
 
 ## Convening the meeting (Judy)
  
