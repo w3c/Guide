@@ -171,13 +171,24 @@ Plan and prepare your agenda to be flexible to potentially changing logistics, f
    What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
 
 > [JB -- Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available]
-
  
-## Managing the queue (Ralph)
+## Managing the queue
  
-Chairs, please make sure to manage the queue,
+Chairs, please make sure to actively manage the queue, preferably using the tools the group has
+been accustomed to using for virtual meetings.  Be explicit about which tools will be used and
+how, especially if more than one tool is necessary simultaneously (e.g. irc and video conference
+hand-raising).
 
-> [JB -- including in-room as well as remote queuing, and don't use your Chair hat to insert your own opinions (queue like everyone else to do so)
+* Be fastidious about requiring the in-person participants to use and respect the queue.
+
+* Prevent queue interruptions. The conversation moves forward based on
+    the queue, not on the loudest participant in the room.
+
+* The chairs should use the queue themselves for comments that are not directly about the chair function.
+
+* Ask participants to mute unless they have the floor.
+
+* Split the queue into sub-topics if needed, to facilitate follow-ups on individual comments.
 
 > [JB -- note technical bug in some platforms such as Zoom where host cannot queue themselves to express an opinion with their chair hat off -- we should get zoom to fix this]
 
@@ -185,16 +196,9 @@ Chairs, please make sure to manage the queue,
 
 > [RRS: a big opportunity exists here to integrate queue-management across platforms]
 
-Prevent queue interruptions. The conversation moves forward based on
-    the queue, not on the loudest participant in the room.
-
 > [JB -- let's discuss -- this strikes me as rigid guidance, and in some cases Chair needs to be managing queue according to a flow of relevant topics. Another technical problem here is that some video-conference queueing doesn't allow indication of topic.]
 
-Ask participants to mute unless they have the floor.
-
 > [JB -- For large groups, it can be helpful to use mute-by-default, with Chair, or queue-manager-assistant, unmuting those who come up in queue -- but this can slow things down. If not mute-by-default, essential that Chair or someone has abilility to mute remote participants.]
- 
-Split the queue into sub-topic if needed, to facilitate follow-ups on individual comments.
  
 @@how to manage zakim+zoom queue
    
