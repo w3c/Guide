@@ -47,7 +47,7 @@ Next steps:
 
 > [Add a few sentences to set the context for this document]
 
-Though the pandemic circumstances that halted in-person meetings in 2020 and 2021 are tragic, this global event also forces us to adapt to new ways of meeting "together" and in doing so we can fulfill another objective to enable broader global participation in our work.  Those who have never had the means to travel to meetings will benefit from our anticipated success in conducting hybrid meetings where some participants may be co-located yet interact on an equal basis with other participants in different locations.
+Though the pandemic circumstances that halted in-person meetings in 2020 and 2021 are tragic, this global pandemic event also forces us to adapt to new ways of meeting "together" and in doing so we can fulfill another objective to enable broader global participation in our work.  Those who have never had the means to travel to meetings will benefit from our anticipated success in conducting hybrid meetings where some participants may be co-located yet interact on an equal basis with other participants in different locations.
 
 The term "hybrid meeting" refers here to a meeting where some participants are together in a physical room while others are located elsewhere; perhaps in individual [home] workspaces or with another group of participants in another physical room.
 
@@ -56,48 +56,62 @@ The term "hybrid meeting" refers here to a meeting where some participants are t
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
 > [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
-
-Hybrid meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are in a room(s) together.
  
-## Challenges of Hybrid meetings (Ralph)
+## Challenges of Hybrid meetings
 
-* Comments from David Singer, to be integrated:
-  They are really hard, as you know.
+Hybrid meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are together in one or more rooms.  To have a successful hybrid meeting we must first attend to making our virtual meetings as functional as possible.  If participants have "put up with" inadequate support for virtual meetings with the expectation that periodic (or return to) in-person meetings would fill the gaps these barriers to effective virtual meetings must be addressed.  Infrastructure (software, hardware, social practices) for virtual meetings is the foundation for productive hybrid meetings.
 
-  Somehow, you have to respect the contradictions:
-  * people who have traveled expect to use the time fully, with all the opportunities for debate and so on.
+Hybrid meeting planning faces some fundamental contradictions:
+
+  * people who have traveled expect to use the time together fully, with all the opportunities for debate and so on.
   * people who are virtual can’t be expected to be online for 8 hours straight, especially when they are in another timezone
-  * everyone needs to feel that they are equal participants (or it’s actually a f2f meeting with best-effort call-in)
+  * everyone needs to feel that they are equal participants otherwise it’s actually a f2f meeting with best-effort call-in
+  * See "agenda planning" below for recommendations on dealing with these contradictions
 
-  MPEG is struggling with designing this. There, we’re thinking of confining meetings that make or confirm decisions to the usual virtual short slots, and have the opportunity for extended discussion and yes, proposed decisions, on a best-effort basis. So you split the sessions into two classes.
+### Planning the in-person side(s) of a hybrid meeting 
     
-* getting relevant & clear info about participants' needs in advance, including accommodation, travel logistics, dietary, allergies
-  * plan for fallbacks for every critical item, including a backup venue
-  * supplies of PPE must be available
-* duration
-* timezone
-* seeing and being seen
-  * whiteboarding / flipcharting
-  * camera placement in meeting room
-  * screen(s) large enough and placed well enough to show remote participants equivalently
-  * awareness that some remote or in-person participants may not be able to see well
-* hearing and being heard
-  * queuing (floor control) 
-  * microphone quality in room
-  * echo and background noise from remote participants
-  * attention to how proximity to in-room microphone affects sound for remote participants
-  * arrange in advance for a "microphone runner" in case needed
-  * awareness that some remote or in-person participants may not be able to hear well
-  * awareness that some participants may not be able to speak loudly 
-* socializing
-  * breaks
+* Do all the [work necessary for any in-person W3C meeting](https://w3.org/Guide/meetings/hosting)
+  * Room capacities will be much lower than pre-COVID to allow for necessary distancing
+  * Stable high-speed Internet access is essential
+  * Plan for fallbacks for every critical item, including a backup venue
+  * Supplies of PPE must be available
+  * Buffet food is likely not to be allowed
+  * Room layout must allow for placement of one or more cameras that enable remote participants
+  to see the face each person in the room
+  * If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for
+  remote participants to view
+  * Microphone placement must be planned and tested in advance.  If a sufficient quantity of fixed
+  microphones cannot be provided then two or more "pass-around" microphones can be used.  One pass-around microphone is not sufficient as there will be times when two discussants are engaged with each other and passing a mic back and forth consumes too much time
+  * Microphone placement must account for participants who cannot themselves speak loudly; having to
+  repeatedly ask someone to raise their volume is both wasteful of time and disrespectful to those
+  who may e unable to do so
+  * Screen(s) of sufficient size and placement must be provided to enable all in-room participants
+  to see the face of each remote person
+  * Will there be more than one separate group of people in-person (multiple hubs)?  If so, all of the
+  above must be addressed for each
+
+### Planning the remote side of a hybrid meeting
+  * Choose a video conference system that all -- or a substantial majority of all -- group participants
+  have used in regular group virtual meetings
+  * Will there be multiple hubs that need to be interconnected?  If so, how -- and who -- will do
+  the "host" management at each hub and within the video conference system?
+  * Encourage and support remote users to use high-quality microphones and cameras
+
+### Facilitating the hybrid meeting
+  * Be explicit about how hand-raising (floor control) is to be done and be scrupulous about following it,
+  especially for those in the room
+  * Be explicit about how echo and background noise from remote participants will be identified and corrected (e.g. the Host muting a remote participant -- and informing them they have been muted)
+  * Consider how to accomodate socializing, by those who are not in the room as well as those who are
+  * Consider in advance whether some socializing can integrate in-person and remote
+  * Plan breaks and be explicit about how the video conferencing facilities will be handled during breaks;
+  i.e. be clear that the in-room cameras, microphones, and screens for remote participants will remain live
   * group dinners
-  * consider in advance whether some socializing can integrate in-person and remote
+
   * be aware of the continued need for inclusive practices during socialization
 * technical
-  * equipment not working as promised and not having been tested in advance
+  * Plan contingencies for equipment not working as promised and not having been tested in advance
   * bandwidth / latency insufficiencies for all the groups meeting simultaneously
-  * Will there be multiple hubs that need to be interconnected?
+
 * Accessibility
   * meeting hosts need to follow how to do accessible meetings, linked
   * hosts also need to follow accessibility of remote meetings, linked
@@ -112,6 +126,9 @@ Special attention needs to be given to train the meeting Chairs and other organi
 
 In particular, the importance of managing the queue, controlling side conversations, managing the meeting software and equipment (such as microphones). The Chairs may delegate those
 roles to some of the participants, especially if they are involved in the topic.
+
+The facilitator should take into account anything about the room setup that causes any participant to
+not be able to see or hear other participants well, or to not be heard by other participants -- those in the same room as well as those who are remote.
  
 ## Prepare your agenda
 
