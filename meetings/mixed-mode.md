@@ -1,10 +1,6 @@
 # Hybrid Group Meetings
 
-## Sticky notes (to be removed)
-
-ASSUMPTION: Sometime in 2022 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
-
-> [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
+## Sticky notes (to be removed) 
 
 **Status**: this document is for discussion purposes.  PLH, Judy, and Ralph were working outside of GitHub until Nov'21.
 
@@ -38,6 +34,8 @@ TODO: (from W3M) Emphasize the need for microphone/speakerphone quality
 <br>
 TODO: (from W3M) Consider whether we can add recommendations for agility in decisions of hybrid vs virtual
 <br>
+TODO: Decide whether to leave this in its raw state, or do some clean-up and copy-editing so that it can at least be a useful reference.
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
@@ -57,35 +55,36 @@ Though the pandemic circumstances that halted in-person meetings in 2020 and 202
 
 The term "hybrid meeting" refers here to a meeting where some participants are together in a physical room while others are located elsewhere; perhaps in individual [home] workspaces or with another group of participants in another physical room.
 
-> [JB: Let's add a paragraph before assumptions, that starts by briefly acknowledging the unique challenges of "Hybrid."]
-
 > [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
 > [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
  
 ## Challenges of Hybrid meetings
 
-Hybrid meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are together in one or more rooms.  To have a successful hybrid meeting we must first attend to making our virtual meetings as functional as possible.  If participants have "put up with" inadequate support for virtual meetings with the expectation that periodic (or return to) in-person meetings would fill the gaps these barriers to effective virtual meetings must be addressed.  Infrastructure (software, hardware, social practices) for virtual meetings is the foundation for productive hybrid meetings.
+Hybrid meetings are occurring intermittently according to circumstances in some world regions, as vaccines, tests, and therapeutics become available. We expect the pace of hybrid meetings to increase, though unpredictably in response to the spread of different variants, and different regional responses to these.
+
+Hybrid meetings add another dimension of complexity beyond a virtual meeting or an in-person meeting, so these may seem difficult to undertake. It can be challenging to include in-person and remote participants on an equal basis, and to navigate the technical and social aspects of hybrid meetings. This document collects considerations for helping hybrid meetings run smoothly.
+
+To have a successful hybrid meeting we must first attend to making our virtual meetings as functional as possible.  If participants have "put up with" inadequate support for virtual meetings with the expectation that periodic (or return to) in-person meetings would fill the gaps these barriers to effective virtual meetings must be addressed.  Infrastructure (software, hardware, social practices) for virtual meetings is the foundation for productive hybrid meetings, and training is helpful in implementing this well.
 
 Hybrid meeting planning faces some fundamental contradictions:
 
   * people who have traveled expect to use the time together fully, with all the opportunities for debate and so on.
-  * people who are virtual can’t be expected to be online for 8 hours straight, especially when they are in another timezone
+  * people who participating remotely can’t be expected to be online for 8 hours straight, especially when they are in another timezone
   * everyone needs to feel that they are equal participants otherwise it’s actually a f2f meeting with best-effort call-in
-  * See "agenda planning" below for recommendations on dealing with these contradictions
+  * 'See "agenda planning" below for recommendations on dealing with these contradictions'
 
 ### Planning the in-person side(s) of a hybrid meeting 
     
 * Do all the [work necessary for any in-person W3C meeting](https://w3.org/Guide/meetings/hosting)
-  * Room capacities will be much lower than pre-COVID to allow for necessary distancing
+  * Room capacities may be lower than pre-COVID to allow for necessary distancing
   * Stable high-speed Internet access is essential
   * Plan for fallbacks for every critical item, including a backup venue
   * Supplies of <abbr title="personal protective equipment">PPE</abbr> must be available
-  * Buffet food is likely not to be allowed
+  * Buffet food may not be allowed because of health considerations
   * Room layout must allow for placement of one or more cameras that enable remote participants
   to see the face each person in the room
-  * If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for
-  remote participants to view
+  * If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for remote participants to view
   * Microphone placement must be planned and tested in advance.  If a sufficient quantity of fixed
   microphones cannot be provided then two or more "pass-around" microphones can be used.  One pass-around microphone is not sufficient as there will be times when two discussants are engaged with each other and passing a mic back and forth consumes too much time
   * Microphone placement must account for participants who cannot themselves speak loudly; having to
