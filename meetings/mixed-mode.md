@@ -29,8 +29,6 @@ TODO: Examine [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings) page (l
 <br>
 TODO: Add advice to "be prepared for all eventualities," including checking regularly on changes in Covid situation, and communicating clearly with participants. Acknowledge that it takes extra time to prepare for all eventualities. (Judy)
 <br>
-TODO: Remove Dom from assignment and add Judy? (PLH)
-<br>
 TODO: (from W3M) Add checklists for meeting prep, potentially also for threshold considerations
 <br>
 TODO: (from W3M) Emphasize the need for microphone/speakerphone quality
