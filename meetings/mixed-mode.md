@@ -34,7 +34,7 @@ TODO: (from W3M) Emphasize the need for microphone/speakerphone quality
 <br>
 TODO: (from W3M) Consider whether we can add recommendations for agility in decisions of hybrid vs virtual
 <br>
-TODO: Decide whether to leave this in its raw state, or do some clean-up and copy-editing so that it can at least be a useful reference.
+TODO: Decide whether to leave this in its raw state, or do some clean-up and copy-editing so that it can at least be a useful reference. Types of copy-editing needed: tersifying to increase readability (reduce discussion and reflection, instead focus on practical bits, remove redundancies; make terminology and tone more consistent; update mentions of Covid status and precautions, and make it more time-agnostic; adjust flow; double-check absolute statements.
 <br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
@@ -54,8 +54,6 @@ Next steps:
 Though the pandemic circumstances that halted in-person meetings in 2020 and 2021 are tragic, this global pandemic event also forces us to adapt to new ways of meeting "together" and in doing so we can fulfill another objective to enable broader global participation in our work.  Those who have never had the means to travel to meetings will benefit from our anticipated success in conducting hybrid meetings where some participants may be co-located yet interact on an equal basis with other participants in different locations.
 
 The term "hybrid meeting" refers here to a meeting where some participants are together in a physical room while others are located elsewhere; perhaps in individual [home] workspaces or with another group of participants in another physical room.
-
-> [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
 
 > [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
  
