@@ -11,6 +11,7 @@ TODO: (deferred) Figure out the structure to integrate in /Guide (given overlap 
 TODO: Consider whether W3C should create hardware kits to loan to a meeting host (Ralph)
 <br>
 TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workforce/ for ideas (PLH)
+  * virtual whiteboard?
 <br>
 TODO: Throughout the document, consider what advice we need to offer with regard to the human dimension, aka social considerations, training of meeting hosts, etc. (judy)
 <br>
@@ -23,6 +24,8 @@ TODO: Consider adding a "baseline principles" section (Ralph)
 TODO: Consider how tooling may be able to support time-flexible hybrid, for instance by supporting granular agenda-presence preferences (PLH)
 <br>
 TODO: Examine [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings) page (last updated in 2014) for further inspiration. (PLH - add to working references)
+ * the meeting and queue management sections contain some good stuff
+ * home settings: find a quiet room, hardware, etc.
 <br>
 TODO: Add advice to "be prepared for all eventualities," including checking regularly on changes in Covid situation, and communicating clearly with participants. Acknowledge that it takes extra time to prepare for all eventualities. (Judy)
 <br>
