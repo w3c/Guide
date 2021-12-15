@@ -32,6 +32,12 @@ TODO: Add advice to "be prepared for all eventualities," including checking regu
 <br>
 TODO: Remove Dom from assignment and add Judy? (PLH)
 <br>
+TODO: (from W3M) Add checklists for meeting prep, potentially also for threshold considerations
+<br>
+TODO: (from W3M) Emphasize the need for microphone/speakerphone quality
+<br>
+TODO: (from W3M) Consider whether we can add recommendations for agility in decisions of hybrid vs virtual
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
