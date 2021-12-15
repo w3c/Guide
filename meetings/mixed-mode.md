@@ -74,7 +74,7 @@ Hybrid meeting planning faces some fundamental contradictions:
   * Room capacities will be much lower than pre-COVID to allow for necessary distancing
   * Stable high-speed Internet access is essential
   * Plan for fallbacks for every critical item, including a backup venue
-  * Supplies of PPE must be available
+  * Supplies of <abbr title="personal protective equipment">PPE</abbr> must be available
   * Buffet food is likely not to be allowed
   * Room layout must allow for placement of one or more cameras that enable remote participants
   to see the face each person in the room
