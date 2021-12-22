@@ -282,6 +282,9 @@ https://sloanreview.mit.edu/article/when-does-it-make-sense-to-have-mixed-mode-m
 Rintel et al, [Hybrid meetings guide](https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles/hybrid-meetings-guide/), The New Future of Work, Microsoft Research, September 9, 2021<br>
 https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles/hybrid-meetings-guide/
 
+W3C (various), [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings), W3C public wiki, 2013-2014<br>
+https://www.w3.org/wiki/Remote_Meetings
+
 ## Appendices
 
 ### TPAC
