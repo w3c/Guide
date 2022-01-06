@@ -1,37 +1,41 @@
-# Mixed-Mode (Hybrid) Group Meetings
+# Hybrid Group Meetings
 
-## Sticky notes (to be removed)
+## Sticky notes (to be removed) 
 
-ASSUMPTION: Sometime in 202~~1~~2 we will need to field requests from groups to have in-person meetings.  This will start with a subset of the group being willing to meet f2f while others are unable or unwilling to travel.  We may also have multiple subgroups gathered in different places in addition to scattered individuals.
-> [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
+**Status**: this document is for discussion purposes.  PLH, Judy, and Ralph were working outside of GitHub until Nov'21.
 
-**Status**: this document is for discussion purposes.  PLH, Judy, and Ralph have were working outside of GitHub until Nov'21.
-
-~~TODO: 2021-07-30: Ralph will turn this pad into a GH pull request 2021-11-09 done~~
+TODO: placeholder: Establish a repository to collect lessons learned during 2020 (TPAC breakouts, etc.)
 <br>
-TODO: Do a training session on chairing a virtual meeting
+TODO: (deferred) Figure out the structure to integrate in /Guide (given overlap with continuity page, workshops, etc.)
 <br>
-TODO: Establish a repository to collect lessons learned during 2020 (TPAC breakouts, etc.)
+TODO: Consider whether W3C should create hardware kits to loan to a meeting host (Ralph)
 <br>
-TODO: Figure out the structure to integrate in /Guide (given overlap with continuity page, workshops, etc.)
+TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workforce/ for ideas (PLH)
+  * virtual whiteboard?
 <br>
-TODO: Consider whether W3C should create hardware kits to loan to a meeting host
+TODO: Throughout the document, consider what advice we need to offer with regard to the human dimension, aka social considerations, training of meeting hosts, etc. (judy)
 <br>
-TODO: Look at https://blog.zoom.us/zoom-rooms-reentering-the-office-hybrid-workforce/ for ideas
+TODO: Add a section on "asking for help," complementary to up-front training, and written information resources (Judy)
 <br>
-TODO: Throughout the document, consider what advice we need to offer with regard to the human dimension, aka social considerations, training of meeting hosts, etc.
+TODO: Add a section on "dealing with opposition to hybrid" to directly address anticipated blocked (Judy)
 <br>
-TODO: Succinctly motivate why hybrid will be important going forward (and JB, contribute text on this)
+TODO: Consider adding a "baseline principles" section (Ralph)
 <br>
-TODO: Add a section on "asking for help," complementary to up-front training, and written information resources
+TODO: Consider how tooling may be able to support time-flexible hybrid, for instance by supporting granular agenda-presence preferences (PLH)
 <br>
-TODO: Add a section on "dealing with opposition to hybrid" to directly address anticipated blocked 
+TODO: Examine [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings) page (last updated in 2014) for further inspiration. (PLH - add to working references)
+ * the meeting and queue management sections contain some good stuff
+ * home settings: find a quiet room, hardware, etc.
 <br>
-TODO: Consider adding a "baseline principles" section
+TODO: Add advice to "be prepared for all eventualities," including checking regularly on changes in Covid situation, and communicating clearly with participants. Acknowledge that it takes extra time to prepare for all eventualities. (Judy)
 <br>
-TODO: Consider how tooling may be able to support time-flexible hybrid, for instance by supporting granular agenda-presence preferences
+TODO: (from W3M) Add checklists for meeting prep, potentially also for threshold considerations
 <br>
-TODO: Examine [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings) page (last updated in 2014) for further inspiration.
+TODO: (from W3M) Emphasize the need for microphone/speakerphone quality
+<br>
+TODO: (from W3M) Consider whether we can add recommendations for agility in decisions of hybrid vs virtual
+<br>
+TODO: Decide whether to leave this in its raw state, or do some clean-up and copy-editing so that it can at least be a useful reference. Types of copy-editing needed: tersifying to increase readability (reduce discussion and reflection, instead focus on practical bits, remove redundancies; make terminology and tone more consistent; update mentions of Covid status and precautions, and make it more time-agnostic; adjust flow; double-check absolute statements.
 <br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
@@ -39,56 +43,79 @@ W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  Continuity page: https://www.w3.org/Guide/meetings/continuity.html
  
 Next steps:
-* ~~plh to share this pad with others who met on 16 Apr~~
-* ~~plh to bring to Global on August 13~~
-* plh to share the content of this document (somehow) with Chairs on ~~August 20 or August 27~~ (depending on feedback from Global)
-* Integrate this document in /Guide by ~~mid-September~~ [updated time-goal, asap or otherwise?]
+* Present to W3M on December 15
+* Continue to refine as needed
+* Integrate this document in /Guide
 
 
-## Introduction
+## Introduction (Judy)
 
 > [Add a few sentences to set the context for this document]
-> 
-> [JB: Let's add a paragraph before assumptions, that starts by briefly acknowledging the unique challenges of "Hybrid."]
 
-> [JB suggests that Hybrid is already happening, and it open and close unpredictable, and we indicate our cognizance of that]
+Though the pandemic circumstances that halted in-person meetings in 2020 and 2021 are tragic, this global pandemic event also forces us to adapt to new ways of meeting "together" and in doing so we can fulfill another objective to enable broader global participation in our work.  Those who have never had the means to travel to meetings will benefit from our anticipated success in conducting hybrid meetings where some participants may be co-located yet interact on an equal basis with other participants in different locations.
+
+The term "hybrid meeting" refers here to a meeting where some participants are together in a physical room while others are located elsewhere; perhaps in individual [home] workspaces or with another group of participants in another physical room.
 
 > [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
-
-Mixed mode meetings are different from all-virtual meetings, and it is challenging to fully include remote participants when some people are in a room(s) together.
  
 ## Challenges of Hybrid meetings
 
-* Comments from David Singer, to be integrated:
-  They are really hard, as you know.
+Hybrid meetings are occurring intermittently according to circumstances in some world regions, as vaccines, tests, and therapeutics become available. We expect the pace of hybrid meetings to increase, though unpredictably in response to the spread of different variants, and different regional responses to these.
 
-  Somehow, you have to respect the contradictions:
-  * people who have traveled expect to use the time fully, with all the opportunities for debate and so on.
-  * people who are virtual can’t be expected to be online for 8 hours straight, especially when they are in another timezone
-  * everyone needs to feel that they are equal participants (or it’s actually a f2f meeting with best-effort call-in)
+Hybrid meetings add another dimension of complexity beyond a virtual meeting or an in-person meeting, so these may seem difficult to undertake. It can be challenging to include in-person and remote participants on an equal basis, and to navigate the technical and social aspects of hybrid meetings. This document collects considerations for helping hybrid meetings run smoothly.
 
-  MPEG is struggling with designing this. There, we’re thinking of confining meetings that make or confirm decisions to the usual virtual short slots, and have the opportunity for extended discussion and yes, proposed decisions, on a best-effort basis. So you split the sessions into two classes.
+To have a successful hybrid meeting we must first attend to making our virtual meetings as functional as possible.  If participants have "put up with" inadequate support for virtual meetings with the expectation that periodic (or return to) in-person meetings would fill the gaps these barriers to effective virtual meetings must be addressed.  Infrastructure (software, hardware, social practices) for virtual meetings is the foundation for productive hybrid meetings, and training is helpful in implementing this well.
+
+Hybrid meeting planning faces some fundamental contradictions:
+
+  * people who have traveled expect to use the time together fully, with all the opportunities for debate and so on.
+  * people who participating remotely can’t be expected to be online for 8 hours straight, especially when they are in another timezone
+  * everyone needs to feel that they are equal participants otherwise it’s actually a f2f meeting with best-effort call-in
+  * 'See "agenda planning" below for recommendations on dealing with these contradictions'
+
+### Planning the in-person side(s) of a hybrid meeting 
     
-* getting relevant & clear info about participants' needs in advance, including accommodation, travel logistics, dietary, allergies
-  * plan for fallbacks for every critical item, including a backup venue
-  * supplies of PPE must be available
-* duration
-* timezone
-* seeing and being seen
-  * whiteboarding / flipcharting
-  * camera placement in meeting room
-  * screen(s) large enough and placed well enough to show remote participants equivalently
-* hearing and being heard
-  * queuing (floor control) 
-  * microphone quality in room
-  * echo and background noise from remote participants
-* socializing
-  * breaks
+* Do all the [work necessary for any in-person W3C meeting](https://w3.org/Guide/meetings/hosting)
+  * Room capacities may be lower than pre-COVID to allow for necessary distancing
+  * Stable high-speed Internet access is essential
+  * Plan for fallbacks for every critical item, including a backup venue
+  * Supplies of <abbr title="personal protective equipment">PPE</abbr> must be available
+  * Buffet food may not be allowed because of health considerations
+  * Room layout must allow for placement of one or more cameras that enable remote participants
+  to see the face each person in the room
+  * If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for remote participants to view
+  * Microphone placement must be planned and tested in advance.  If a sufficient quantity of fixed
+  microphones cannot be provided then two or more "pass-around" microphones can be used.  One pass-around microphone is not sufficient as there will be times when two discussants are engaged with each other and passing a mic back and forth consumes too much time
+  * Microphone placement must account for participants who cannot themselves speak loudly; having to
+  repeatedly ask someone to raise their volume is both wasteful of time and disrespectful to those
+  who may e unable to do so
+  * Screen(s) of sufficient size and placement must be provided to enable all in-room participants
+  to see the face of each remote person
+  * Will there be more than one separate group of people in-person (multiple hubs)?  If so, all of the
+  above must be addressed for each
+
+### Planning the remote side of a hybrid meeting
+  * Choose a video conference system that all -- or a substantial majority of all -- group participants
+  have used in regular group virtual meetings
+  * Will there be multiple hubs that need to be interconnected?  If so, how -- and who -- will do
+  the "host" management at each hub and within the video conference system?
+  * Encourage and support remote users to use high-quality microphones and cameras
+
+### Facilitating the hybrid meeting
+  * Be explicit about how hand-raising (floor control) is to be done and be scrupulous about following it,
+  especially for those in the room
+  * Be explicit about how echo and background noise from remote participants will be identified and corrected (e.g. the Host muting a remote participant -- and informing them they have been muted)
+  * Consider how to accomodate socializing, by those who are not in the room as well as those who are
+  * Consider in advance whether some socializing can integrate in-person and remote
+  * Plan breaks and be explicit about how the video conferencing facilities will be handled during breaks;
+  i.e. be clear that the in-room cameras, microphones, and screens for remote participants will remain live
   * group dinners
+
+  * be aware of the continued need for inclusive practices during socialization
 * technical
-  * equipment not working as promised and not having been tested in advance
+  * Plan contingencies for equipment not working as promised and not having been tested in advance
   * bandwidth / latency insufficiencies for all the groups meeting simultaneously
-  * Will there be multiple hubs that need to be interconnected?
+
 * Accessibility
   * meeting hosts need to follow how to do accessible meetings, linked
   * hosts also need to follow accessibility of remote meetings, linked
@@ -97,30 +124,33 @@ Mixed mode meetings are different from all-virtual meetings, and it is challengi
 * International
   * will there be translators?
 
-## Meeting organizer and facilitator training
+## Meeting organizer and facilitator training (Judy)
 
 Special attention needs to be given to train the meeting Chairs and other organizers to ensure a smooth hybrid meeting.
 
-In particular, the importance of managing the queue, the meeting softwares, and the equipment (such as microphones). The Chairs may delegate those
+In particular, the importance of managing the queue, controlling side conversations, managing the meeting software and equipment (such as microphones). The Chairs may delegate those
 roles to some of the participants, especially if they are involved in the topic.
+
+The facilitator should take into account anything about the room setup that causes any participant to
+not be able to see or hear other participants well, or to not be heard by other participants -- those in the same room as well as those who are remote.
  
 ## Prepare your agenda
 
-> [JB -- an intro high-level statement would help, for instance.]
+Getting your agenda right is the most effective way to have a smooth meeting. It allows participants to prepare in advance, focus on a limited set of topics, ensure progress, and accommodate timezone constraints for required remote participants. The Group Chairs are expected to provide an agenda of the meeting in advance.
 
-Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute.
- 
-Don't expect to cover everything within one or two days: not all items
-may make it to a face-to-face meeting. Favor items that require a non-remote
-meeting (eg whiteboard), based on in-room participation.
- Otherwise organize dedicating remote meetings for the other agenda items.
- 
-Organize the timing around your agenda items and smaller groups
+Organize the timing around your agenda items and consider working in smaller groups:
 * Not all agenda items require everyone to be there
 * Smaller groups/breakouts means better timezone management
 * Require reports from the smaller groups
 
-## Convening the meeting
+Don't expect to cover everything within one or two days: not all items may make it to a face-to-face meeting. Favor items that require a non-remote
+meeting (eg whiteboard), based on in-room participation. Otherwise organize dedicated remote meetings for the other agenda items.
+
+Allow participants to easily raise potential agenda items (using GitHub labels "agenda+", markdown file, or wiki pages). Gather participant attendance expectation for each agenda item (who must be there to discuss an item?) and organize based on in-room and remote timezones.
+
+Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute. 
+
+## Convening the meeting (Judy)
  
  State the policies of engagement; Process, CEPC, PPE, venue precautions, emergency contacts
  
@@ -136,7 +166,7 @@ Organize the timing around your agenda items and smaller groups
 * Patent policy?
   if you are recording the meeting, you MUST get explicit consent from participants
 
-## Managing breaks/social activity
+## Managing breaks/social activity (Judy)
 
    Allow for breaks by providing a variety of social environments for remote participants, relevant to the size of the group, and interest. Consider doing a social gatherings that are inclusive of remote participants
 
@@ -145,13 +175,24 @@ Organize the timing around your agenda items and smaller groups
    What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
 
 > [JB -- Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available]
-
  
 ## Managing the queue
  
-Chairs, please make sure to manage the queue,
+Chairs, please make sure to actively manage the queue, preferably using the tools the group has
+been accustomed to using for virtual meetings.  Be explicit about which tools will be used and
+how, especially if more than one tool is necessary simultaneously (e.g. irc and video conference
+hand-raising).
 
-> [JB -- including in-room as well as remote queuing, and don't use your Chair hat to insert your own opinions (queue like everyone else to do so)
+* Be fastidious about requiring the in-person participants to use and respect the queue.
+
+* Prevent queue interruptions. The conversation moves forward based on
+    the queue, not on the loudest participant in the room.
+
+* The chairs should use the queue themselves for comments that are not directly about the chair function.
+
+* Ask participants to mute unless they have the floor.
+
+* Split the queue into sub-topics if needed, to facilitate follow-ups on individual comments.
 
 > [JB -- note technical bug in some platforms such as Zoom where host cannot queue themselves to express an opinion with their chair hat off -- we should get zoom to fix this]
 
@@ -159,31 +200,26 @@ Chairs, please make sure to manage the queue,
 
 > [RRS: a big opportunity exists here to integrate queue-management across platforms]
 
-Prevent queue interruptions. The conversation moves forward based on
-    the queue, not on the loudest participant in the room.
-
 > [JB -- let's discuss -- this strikes me as rigid guidance, and in some cases Chair needs to be managing queue according to a flow of relevant topics. Another technical problem here is that some video-conference queueing doesn't allow indication of topic.]
 
-Ask participants to mute unless they have the floor.
-
 > [JB -- For large groups, it can be helpful to use mute-by-default, with Chair, or queue-manager-assistant, unmuting those who come up in queue -- but this can slow things down. If not mute-by-default, essential that Chair or someone has abilility to mute remote participants.]
- 
-Split the queue into sub-topic if needed, to facilitate follow-ups on individual comments.
  
 @@how to manage zakim+zoom queue
    
 > [JB thinks that there are so many variables regarding what works in different settings with different people for queue management, that the most important bottom line is to be flexible -- but with suggestions.]
 > [Acknowledge that something that was suggested/recommended practice last month may have been overtaken by subsequent changes.]
 
-## Equipment: 
+## Equipment (Ralph)
 
 Plan from scratch what equipment we need to really do hybrid well, e.g., large screen(s) and good tech crew at the hub(s); and reliable set-ups for the remote folks...
 
 > [JB and RS brainstorming, 20211015]
     
-## Get your audio/video right
+## Get your audio/video right (Ralph)
 
-Consider unfortunate contingencies like the tech doesn't work as expected or the physical meeting room(s) getting disconnected from the net or having a fire alarm -- and all of these things and more have indeed happened, so think carefully about contingency planning. Will (should?) those in the room continue to meet while they're disconnected from the net?  Will the (other) remote participants continue to meet while those in the meeting room are milling about in a parking lot waiting for the fire department? Will remote participants already have fall-back channel info?  How will the partiioned meeting know that it has been partitioned?
+Sharing of accessible content via the web should be strongly preferred over screen sharing.  This allows all participants to adjust their view of the shared content according to their own needs; the number of windows on their screen, the font size, even the location in the content that they are viewing.  When it is necessary to use a presenter's screen to convey information to the meeting it is essential that the remote meeting platform seamlessly capture the presenter's screen content, whether that is accomplished by running a meeting client on the presenter's device or by connecting a video feed from the presenter's device into the meeting platform via an external means.
+
+Consider unfortunate contingencies like the tech doesn't work as expected or the physical meeting room(s) getting disconnected from the net or having a fire alarm -- and all of these things and more have indeed happened, so think carefully about contingency planning. Will (should?) those in the room continue to meet while they're disconnected from the net?  Will the (other) remote participants continue to meet while those in the meeting room are milling about in a parking lot waiting for the fire department? Will remote participants already have fall-back channel info?  How will the partitioned meeting know that it has been partitioned?
 
 > [JB:  ;) -- discuss emergency logistics more generally, and the fact that most of them will eventually happen.]
 
@@ -197,7 +233,7 @@ Essential to have a fall-back video conference option that can be activitied.
 * If your agenda includes parallel breakout sessions, make plans in advance for supporting those for remote participants.
  
 * Make sure everyone can be seen. Room participants should consider using their own laptop
-   video for remote participants to have a direct view of them. (note this will dramatically increase bandwidth consumption)
+   video for remote participants to have a direct view of them. (note this will dramatically increase bandwidth consumption).  Encourage all participants to turn on their video, at a minimum when they are speaking, to allow for non-verbal queues
 * Remember that not all presenters or participants, regardless of whether in room or remote, can see who is in the room or what is being projected.
 * Take your minutes online, for everyone to see in realtime
 * If slides are presented, everyone MUST [be able to read them](https://www.w3.org/WAI/teach-advocate/accessible-presentations/) -- particularly discourage screen sharing unless the document(s) are also available on the web; screen sharing should only be used as a way to keep everyone in sync as to what material you are discussing. Make sure the slides meet WCAG 2.1 AA and "How to Make your Presentations Accessible."
@@ -214,13 +250,13 @@ Essential to have a fall-back video conference option that can be activitied.
 
 @@how do one get the explicit consent if the individual joined late and missed the disclaimer before the start of the recording? A: ensure that the video tool is clearing indicating that it is recording, and add a reminder with agendas. A' provide an agenda template that includes a boilerplate notice.
       
-## Tooling & Support
+## Tooling & Support (PLH)
 
 [provide some tooling recommendation. See also https://github.com/w3c/w3process/issues/435 for ongoing Process CG discussion, https://github.com/w3c/Guide/issues/78 in the Continuity conversation, and https://github.com/w3c/AB-memberonly/issues/30 in the AB rules/best-practices for tools discussion.
  
  ?Are there any unique requirements or desiderata for the new group calendar system to support hybrid meetings?
  
-## Room Setup Expectations
+## Room Setup Expectations (Ralph)
  
 ?Should we attempt to provide equipment to be able to use a meeting room that has insufficient built-in conferencing equipment
  
@@ -245,6 +281,9 @@ https://sloanreview.mit.edu/article/when-does-it-make-sense-to-have-mixed-mode-m
 
 Rintel et al, [Hybrid meetings guide](https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles/hybrid-meetings-guide/), The New Future of Work, Microsoft Research, September 9, 2021<br>
 https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles/hybrid-meetings-guide/
+
+W3C (various), [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings), W3C public wiki, 2013-2014<br>
+https://www.w3.org/wiki/Remote_Meetings
 
 ## Appendices
 
