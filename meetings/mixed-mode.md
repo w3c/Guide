@@ -146,6 +146,8 @@ Organize the timing around your agenda items and consider working in smaller gro
 Don't expect to cover everything within one or two days: not all items may make it to a face-to-face meeting. Favor items that require a non-remote
 meeting (eg whiteboard), based on in-room participation. Otherwise organize dedicated remote meetings for the other agenda items.
 
+Consider video pre-recordings for agenda items that need to present background. You'll save meetings time and make it easier for remote participants. Short videos increase the chances of the videos being viewed.
+
 Allow participants to easily raise potential agenda items (using GitHub labels "agenda+", markdown file, or wiki pages). Gather participant attendance expectation for each agenda item (who must be there to discuss an item?) and organize based on in-room and remote timezones.
 
 Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute. 
