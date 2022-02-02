@@ -82,7 +82,7 @@ Hybrid meeting planning faces some fundamental contradictions:
   * Supplies of <abbr title="personal protective equipment">PPE</abbr> must be available
   * Buffet food may not be allowed because of health considerations
   * Room layout must allow for placement of one or more cameras that enable remote participants
-  to see the face each person in the room
+  to see the face of each person in the room
   * If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for remote participants to view
   * Microphone placement must be planned and tested in advance.  If a sufficient quantity of fixed
   microphones cannot be provided then two or more "pass-around" microphones can be used.  One pass-around microphone is not sufficient as there will be times when two discussants are engaged with each other and passing a mic back and forth consumes too much time
@@ -91,6 +91,7 @@ Hybrid meeting planning faces some fundamental contradictions:
   who may e unable to do so
   * Screen(s) of sufficient size and placement must be provided to enable all in-room participants
   to see the face of each remote person
+  * Provide two sets of screens: one displays the gallery view of as many participants as possible and the other displays only the current speaker
   * Will there be more than one separate group of people in-person (multiple hubs)?  If so, all of the
   above must be addressed for each
 
