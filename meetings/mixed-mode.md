@@ -297,6 +297,8 @@ TODO: (from W3M) Consider whether we can add recommendations for agility in deci
 <br>
 TODO: Decide whether to leave this in its raw state, or do some clean-up and copy-editing so that it can at least be a useful reference. Types of copy-editing needed: tersifying to increase readability (reduce discussion and reflection, instead focus on practical bits, remove redundancies; make terminology and tone more consistent; update mentions of Covid status and precautions, and make it more time-agnostic; adjust flow; double-check absolute statements.
 <br>
+TODO: Make sure that the conferencing tools you use can be used on a standalone basis without interfering with other accounts or software that speakers or participants may need to rely on, including for accessibility support.
+<br>
  
 W3M action: https://www.w3.org/Team/w3m/tracker/actions/2061
  First TF meeting: https://www.w3.org/2020/04/16-mixed-minutes.html
