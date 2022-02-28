@@ -209,6 +209,8 @@ Essential to have a fall-back video conference option that can be activitied.
  
  ?Are there any unique requirements or desiderata for the new group calendar system to support hybrid meetings?
  
+(for training) For subgroups, Chairs should create multiple events
+
 ## Room Setup Expectations (Ralph)
  
 ?Should we attempt to provide equipment to be able to use a meeting room that has insufficient built-in conferencing equipment
