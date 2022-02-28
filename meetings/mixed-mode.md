@@ -1,14 +1,12 @@
 # Hybrid Group Meetings
 
-## Introduction (Judy)
+## Introduction
 
-> [Add a few sentences to set the context for this document]
+This document describes approaches for W3C "hybrid" meetings. The term "hybrid meeting" here refers to a meeting where some participants are together in a physical room, while others are located elsewhere; for instance in individual [home] workspaces or with another group of participants in another physical room.
 
-Though the pandemic circumstances that halted in-person meetings in 2020 and 2021 are tragic, this global pandemic event also forces us to adapt to new ways of meeting "together" and in doing so we can fulfill another objective to enable broader global participation in our work.  Those who have never had the means to travel to meetings will benefit from our anticipated success in conducting hybrid meetings where some participants may be co-located yet interact on an equal basis with other participants in different locations.
+Though the circumstances of of the pandemic, which halted in-person meetings in 2020 and 2021, have been difficult for all, this global pandemic event has also forced us to adapt to new ways of gathering. It has also provided us the tools to broaden global participation in our work. Those with limited means to travel to meetings have benefitted from our increased ability to gather in virtual or remote modes. 
 
-The term "hybrid meeting" refers here to a meeting where some participants are together in a physical room while others are located elsewhere; perhaps in individual [home] workspaces or with another group of participants in another physical room.
-
-> [JB: when we distribute this, include introductory text to frame it in a positive, optimistic way]
+We now seek to establish effective hybrid meeting modes, where some participants may be co-located, yet interact on an equal basis with other participants in different locations; and where those who are located remotely can have equal access to participating as well.
  
 ## Challenges of Hybrid meetings
 
