@@ -45,6 +45,8 @@ Hybrid meeting planning faces some fundamental contradictions:
   * Will there be more than one separate group of people in-person (multiple hubs)?  If so, all of the
   above must be addressed for each
 
+Make sure you identify the local host (if it's not the Group Chair or Team Contact), responsible for the on-site part of the meeting.
+
 ### Planning the remote side of a hybrid meeting
   * Choose a video conference system that all -- or a substantial majority of all -- group participants
   have used in regular group virtual meetings
