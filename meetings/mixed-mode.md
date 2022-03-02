@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document describes approaches for W3C "hybrid" meetings. The term hybrid meeting here refers to a meeting where some participants are together in a physical room, while others are located elsewhere; for instance in individual [home] workspaces or with another group of participants in another physical room.
+This document describes approaches for W3C "hybrid" meetings. The term hybrid here refers to a meeting where some participants are together in a physical room, while others are located elsewhere; for instance in individual [home] workspaces or with another group of participants in another physical room.
 
 Though the circumstances of the pandemic, which halted in-person meetings in 2020 and 2021, have been difficult for all, this global pandemic event has also forced us to adapt to new ways of gathering. It has also provided us the tools to broaden global participation in our work. Those with limited means to travel to meetings have benefitted from our increased ability to gather in virtual or remote modes. 
 
@@ -10,18 +10,19 @@ We now seek to establish effective hybrid meeting modes, where some participants
  
 ## Challenges of Hybrid meetings
 
-Hybrid meetings are occurring intermittently according to circumstances in some world regions, as vaccines, tests, and therapeutics become available. We expect the pace of hybrid meetings to increase, though unpredictably in response to the spread of different variants, and different regional responses to these.
+Hybrid meetings are already widespread in some world regions, as vaccines, tests, and therapeutics become available. We expect the pace of hybrid meetings to increase, though unpredictably in response to the spread of different variants and different regional responses to these.
 
-Hybrid meetings add another dimension of complexity beyond a virtual meeting or an in-person meeting, so these may seem difficult to undertake. It can be challenging to include in-person and remote participants on an equal basis, and to navigate the technical and social aspects of hybrid meetings. This document collects considerations for helping hybrid meetings run smoothly.
+Hybrid meetings add another dimension of complexity beyond a virtual meeting or an in-person meeting, so these may seem difficult to undertake. It can be challenging to include in-person and remote participants on an equal basis, and to navigate the technical and social aspects of hybrid meetings. This document presents considerations for helping hybrid meetings run smoothly.
 
-To have a successful hybrid meeting we must first attend to making our virtual meetings as functional as possible.  If participants have "put up with" inadequate support for virtual meetings with the expectation that periodic (or return to) in-person meetings would fill the gaps these barriers to effective virtual meetings must be addressed.  Infrastructure (software, hardware, social practices) for virtual meetings is the foundation for productive hybrid meetings, and training is helpful in implementing this well.
+To have a successful hybrid meeting, we must first attend to making our virtual meetings as functional as possible.  If participants have "put up with" inadequate support for virtual meetings, with the expectation that a return to in-person meetings would leave these problems behind, barriers to effective virtual meetings must be addressed. Infrastructure -- software, hardware, and also social practices -- for virtual meetings is the foundation for productive hybrid meetings. Training is important to implementing this effectively.
 
-Hybrid meeting planning faces some fundamental contradictions:
+Planning for effective hybrid meetings requires addressing challenges, including: 
 
-  * people who have traveled expect to use the time together fully, with all the opportunities for debate and so on.
-  * people who participating remotely can’t be expected to be online for 8 hours straight, especially when they are in another timezone
-  * everyone needs to feel that they are equal participants otherwise it’s actually a f2f meeting with best-effort call-in
-  * 'See "agenda planning" below for recommendations on dealing with these contradictions'
+  * people who have traveled to a conference venue expect to fully use the time together, with all the opportunities for debate and so on.
+  * people who participate remotely can’t be expected to be online for 8 hours straight, especially when they are in another timezone.
+  * everyone needs to feel that they are equal participants, otherwise it’s actually a f2f meeting with best-effort call-in
+
+Following are recommendations for addressing these challenges and holding successful hybrid meetings.
 
 ### Planning the in-person side(s) of a hybrid meeting 
     
