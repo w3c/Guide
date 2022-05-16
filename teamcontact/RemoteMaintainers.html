@@ -57,6 +57,8 @@ through to the list using your mail client's "bounce", "resend", or
 the message will appear to come from the original sender (and not from
 you). Some custom headers may be added to indicate you forwarded the mail,
 for example <code>Resent-From:</code>.</p>
+  
+  <p>If a message was sent to multiple mailing lists, the easiest way to figure out which list(s) caused the moderator action, is to display / view the <code>X-Envelope-To</code> header.</p>
 
 <p>Here are some notes on how to handle these messages in various mail
 clients:</p>
@@ -67,6 +69,7 @@ clients:</p>
     extension</a>. Although it doesn't allow you to edit the subject line, so
     it will still say [Moderator Action] on the outward-going mail, as
     pointed out above the W3C servers strip it off.</li>
+  <li>For Mac Mail, hit shift+cmd+e, or use the "Redirect" button that you can add to your Toolbar</li>
   <li><a
     href="http://web.archive.org/web/20030720050852/spamassassin.taint.org/faq/index.cgi?req=show&amp;file=faq03.003.htp">Outlook
     2000</a></li>
@@ -76,6 +79,38 @@ clients:</p>
   <li>For mutt, type 'b' to bounce then enter the list's address.
 </ul>
 
+<h2>Handling [Moderator Action (size limit exceeded)] messages</h2>
+
+<p>You can find the size limit in the "configuration" information of a mailing list, available from the right-hand side after 
+  searching it via the <a href="https://lists.w3.org/admin/manage">List admin tool</a>.</p>
+  
+<p>A message may be stuck because of an attachment that is too large, and the list moderator may not bypass a list's size limit. Here's how to proceed in this case:</p>
+  
+  <ol>
+    <li>Forward to an archive mailing list (see below for guidance)</li>
+    <li>Find the link of the attachment(s) in the list web archive</li>
+    <li>Go back to your mailer:
+      <ol>
+        <li>strip the attachment(s) from the mail to moderate</li>
+        <li>type somewhere e.g., at the top, that the attachment(s) is/are archived elsewhere and paste the link</li>
+        <li>redirect</li>
+      </ol>
+    </li>
+  </ol>
+  
+<p>Guidance for which archive mailing list to choose depending on the confidentiality-level of the target list:</p>
+
+  <dl>
+    <dt>member-visible: w3c-archive@w3.org (indicative size limit: 25971520 bytes)</dt>
+    <dd>cf. <a href="https://lists.w3.org/Archives/Member/w3c-archive/">https://lists.w3.org/Archives/Member/w3c-archive/</a></dd>
+
+    <dt>team-only: w3t-archive@w3.org (indicative size limit: 41943040 bytes)</dt>
+    <dd>cf. <a href="https://lists.w3.org/Archives/Team/w3t-archive/">https://lists.w3.org/Archives/Team/w3t-archive/</a></dd>
+
+    <dt>public: www-archive@w3.org (indicative size limit: 41943040 bytes)</dt>
+    <dd>cf. <a href="https://lists.w3.org/Archives/Public/www-archive/">https://lists.w3.org/Archives/Public/www-archive/</a></dd>
+   <dl> 
+     
 <p>If you have useful info not listed above, please contribute it by <a
 href="https://github.com/w3c/Guide/blob/master/teamcontact/RemoteMaintainers.html">editing
 this page</a> or by sending email to <a
