@@ -104,7 +104,9 @@ Consider video pre-recordings for agenda items that need to present background. 
 
 Allow participants to easily raise potential agenda items (using GitHub labels "agenda+", markdown file, or wiki pages). Gather participant attendance expectation for each agenda item (who must be there to discuss an item?) and organize based on in-room and remote timezones.
 
-Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute. 
+Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute.
+
+Publish your detailed agenda with times and include both local (to the in-person participants) time and UTC.
 
 ## Convening the meeting (Judy)
  
