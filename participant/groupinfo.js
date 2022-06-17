@@ -59,6 +59,10 @@ function resolveW3CLinks(set) {
 // string groupId -- the group id, e.g.  "109735"
 async function groupInfo(groupId) {
   const group = await getW3CData(`/groups/${groupId}`, true).then(resolveW3CLinks);
+
+  groupId = group.id; // sanitize the input
+  group.identifier = group._links.self.href.replace('https://api.w3.org/groups/','');
+
   // dive deeper into specifications
   group["specifications"] = group["specifications"].then(resolveW3CLinks);
   // simplify participations a bit
@@ -67,8 +71,9 @@ async function groupInfo(groupId) {
     }); return data.sort(sortParticipants);});
 
     // Some additional useful links
-  group["details"] = `https://www.w3.org/2000/09/dbwg/details?group=${groupId}&order=org&public=1`;
+  group["details"] = `https://www.w3.org/groups/${group.identifier}`;
   group["edit"] = `https://www.w3.org/admin/groups/${groupId}/show`;
+
 
   // the dashboard knows about spec milestones and a subset of GH repositories issues
   group["dashboard"] = {

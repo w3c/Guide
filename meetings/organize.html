@@ -95,9 +95,15 @@
 
       <h2 id='calendars'>Group calendars</h2>
 
-      <p>The calendaring system is <a
-            href='https://www.w3.org/blog/2021/03/group-calendaring-service-enters-beta-test/'>currently in beta</a>.
-      </p>
+      <p>Group calendars are available from <a href='https://www.w3.org/groups/'>lists of Groups</a>. For each Group, there
+      is a '<em>Calendar</em>' tab.</p>
+
+      <ul>
+        <li>Group and Task Force Chairs and Team contacts can schedule meetings, recurring or not.</li>
+        <li>Events and calendars can be exported as iCal files and subscribed to from third-party calendaring clients.</li>
+        <li>Group participants and other invited people are notified by email of new meetings and scheduling changes. This can be opted out from your <a href='https://www.w3.org/users/myprofile/edit'>profile</a>.</li>
+        <li>All users have a <a href='https://www.w3.org/users/myprofile/calendar'>personal calendar</a> listing all meetings they are invited to.</li>
+      </ul>
 
       <h3 id='create_event'>Creating an event</h3>
 
@@ -105,16 +111,26 @@
         Things to keep in mind:
       </p>
       <ol>
-            <li>Keep the event status as 'Draft' until you're ready to get an announcement out to the
-                  participants and your Group mailing list.</li>
-            <li>Announcements are only sent out for 'Tentative' and 'Confirmed' present and future events and when important
-                  changes are made (dates, status, recurrence rule, invitees, joining instructions, location)</li>
-            <li>Assume a newcomer will look at your event, so use standalone information as much as possible and use
-                  links in the event description, agenda, and joining instructions fields, so a new participant can
-                  follow links and find out the additional information.
+            <li>Create the event as '<em>Draft</em>' and keep it as such until you're ready to get your event listed
+                  on the Group calendar.
+                  <p>Draft events are found through your <a href='https://www.w3.org/users/myprofile/calendar'>personal
+                        calendar</a> 'My Drafts', so only 'Tentative' and 'Confirmed' events will appear on the Group
+                        calendar page.</p>
             </li>
-            <li>Joining link and instructions can only be seen by W3C members, participants in the invited groups
-              and additional invitees, so it's safe to put passcodes in the joining instructions.</li>
+            <li>Assume a newcomer will look at your event, so use standalone information as much as possible and use
+                links in the event description, agenda, and joining instructions fields, so a new participant can
+                follow links and find out the additional information.
+            </li>
+            <li>Joining link and instructions are <strong>restricted</strong>. The information will NOT be part
+                        of public email ntofications and can only be seen by W3C members, participants in the invited groups
+                    and additional invitees, so it's safe to put passcodes in the joining instructions.</li>
+            <li>Avoid sending multiple email notifications:
+                <ol>
+                    <li>When updating, select "<em>Update but don't send notifications</em>"</li>
+                    <li>Check your information on the resulted event page</li>
+                    <li>If satisfied, go back into "<em>Edit</em>" mode and use "<em>Update</em>" to send the notifications out.</li>
+                </ol>
+            </li>
       </ol>
 
       <p>
@@ -128,9 +144,6 @@
         to the minutes so that it's easy to find them later in the 'Past Events' tab of your Group calendar.
       </p>
 
-      <p>Draft events are found through your <a href='https://www.w3.org/users/myprofile/calendar'>personal
-        calendar</a> 'My Drafts', so only 'Tentative' and 'Confirmed' events will appear on the Group
-        calendar page.</p>
 
       <p>The tooling requirements to manage time zones are still being developed and is not be
             part of the initial release of the W3C Calendar system. The W3C Calendar system does support timezones but
@@ -138,6 +151,8 @@
       online resources, such as <a href="https://www.timeanddate.com/worldclock/meetingtime.html?p1=43&p2=195&p3=224&p4=33&p5=248&p6=136&p7=64&p8=216&p9=152">the World Clock Meeting Planner</a>
       and <a href="https://doodle.com/">doodle</a>.
       </p>
+
+      <p><a href="https://github.com/w3c/calendar/issues">Report issues</a> on GitHub if you find any.</p>
 
       <hr>
     	<address> <a href="https://www.w3.org/People/LeHegaret/">Philippe Le Hégaret</a>, guidebook editor<br>
