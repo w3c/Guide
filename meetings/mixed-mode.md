@@ -8,7 +8,7 @@ Though the circumstances of the pandemic, which halted in-person meetings in 202
 
 We now seek to establish effective hybrid meeting modes, where some participants may be co-located, yet interact on an equal basis with other participants in different locations; and where those who are located remotely can have equal access to participating as well.
  
-## Challenges of Hybrid meetings
+### Challenges of Hybrid meetings
 
 Hybrid meetings are already widespread in some world regions, as vaccines, tests, and therapeutics become available. We expect the pace of hybrid meetings to increase, though unpredictably in response to the spread of different variants and different regional responses to these.
 
@@ -24,7 +24,8 @@ Planning for effective hybrid meetings requires addressing challenges, including
 
 Following are recommendations for addressing these challenges and holding successful hybrid meetings.
 
-### Planning the in-person side(s) of a hybrid meeting 
+## Planning the meeting
+### Planning the in-person side of a hybrid meeting 
     
 * Do all the [work necessary for any in-person W3C meeting](https://w3.org/Guide/meetings/hosting)
   * Room capacities may be lower than pre-COVID to allow for necessary distancing
@@ -55,6 +56,7 @@ Make sure you identify the local host (if it's not the Group Chair or Team Conta
   the "host" management at each hub and within the video conference system?
   * Encourage and support remote users to use high-quality microphones and cameras
 
+## Convening the meeting
 ### Facilitating the hybrid meeting
   * Be explicit about how hand-raising (floor control) is to be done and be scrupulous about following it,
   especially for those in the room
@@ -62,23 +64,21 @@ Make sure you identify the local host (if it's not the Group Chair or Team Conta
   * Consider how to accomodate socializing, by those who are not in the room as well as those who are
   * Consider in advance whether some socializing can integrate in-person and remote
   * Plan breaks and be explicit about how the video conferencing facilities will be handled during breaks;
-  i.e. be clear that the in-room cameras, microphones, and screens for remote participants will remain live
-  * group dinners
-
-  * be aware of the continued need for inclusive practices during socialization
-* technical
-  * Plan contingencies for equipment not working as promised and not having been tested in advance
+    * be clear that the in-room cameras, microphones, and screens for remote participants will remain live
+    * check in advance what the group wishes to do about group dinners
+    * be aware of the continued need for inclusive practices during socialization
+* Technical
+  * plan contingencies for equipment not working as promised and not having been tested in advance
   * bandwidth / latency insufficiencies for all the groups meeting simultaneously
 
 * Accessibility
   * meeting hosts need to follow how to do accessible meetings, linked
   * hosts also need to follow accessibility of remote meetings, linked
-  * this section needs to highlight unique intersecting issues between these two, and to leave space for details, somewhere...
-  * this section should remind people that some accomodations require additional detail; e.g. multiple sign languages
+  * pay attention to how the remote and in-person accessibility intersects; for example on the position of sign language interpreters
 * International
-  * will there be translators?
+  * will there be spoken language interpreters?
 
-## Meeting organizer and facilitator training (Judy)
+## Meeting organizer and facilitator training
 
 Special attention needs to be given to train the meeting Chairs and other organizers to ensure a smooth hybrid meeting.
 
@@ -93,9 +93,9 @@ not be able to see or hear other participants well, or to not be heard by other 
 Getting your agenda right is the most effective way to have a smooth meeting. It allows participants to prepare in advance, focus on a limited set of topics, ensure progress, and accommodate timezone constraints for required remote participants. The Group Chairs are expected to provide an agenda of the meeting in advance.
 
 Organize the timing around your agenda items and consider working in smaller groups:
-* Not all agenda items require everyone to be there
-* Smaller groups/breakouts means better timezone management
-* Require reports from the smaller groups
+* not all agenda items require everyone to be there
+* smaller groups/breakouts means better timezone management
+* require reports from the smaller groups
 
 Don't expect to cover everything within one or two days: not all items may make it to a face-to-face meeting. Favor items that require a non-remote
 meeting (eg whiteboard), based on in-room participation. Otherwise organize dedicated remote meetings for the other agenda items.
@@ -108,18 +108,14 @@ Plan and prepare your agenda to be flexible to potentially changing logistics, f
 
 Publish your detailed agenda with times and include both local (to the in-person participants) time and UTC.
 
-## Convening the meeting (Judy)
+## Convening the meeting
  
  State the policies of engagement; Process, CEPC, PPE, venue precautions, emergency contacts
  
-> [JB -- I suggest moving this to up, and including comments related to Covid logistics, for instance...] 
-
 * remind the participant of the rules of engagement at the start of each meeting
 * review for all participants any Covid-safety requirements and agreements
 * remind people of CEPC requirements including always bearing in mind that some different participants have different levels of high risk(?), and to respect people's requests for care on social distancing
-* Clearly document the venue requirements for COVID tests.  Consider what additional requirements W3C can and should add.
-
-> [JB -- recommend W3C establish some baseline requirements that are cognizant of the global situation.]
+* remind people of requirements for COVID tests and related precautions
 
 * Patent policy?
   if you are recording the meeting, you MUST get explicit consent from participants
@@ -128,11 +124,11 @@ Publish your detailed agenda with times and include both local (to the in-person
 
    Allow for breaks by providing a variety of social environments for remote participants, relevant to the size of the group, and interest. Consider doing a social gatherings that are inclusive of remote participants
 
-> [JB -- let's consider having a central list of ideas of events that are easy to put together, easy to make inclusive/accessible, and easy to do in hybrid mode]
+  * Consider having a central list of ideas of events that are easy to put together, easy to make inclusive/accessible, and easy to do in hybrid mode
    
-   What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
+  * What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
 
-> [JB -- Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available]
+Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available
  
 ## Managing the queue
  
