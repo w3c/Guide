@@ -72,18 +72,21 @@ Make sure you identify the local host (if it's not the Group Chair or Team Conta
   * bandwidth / latency insufficiencies for all the groups meeting simultaneously
 
 * Accessibility
-  * meeting hosts need to follow how to do accessible meetings, linked
-  * hosts also need to follow accessibility of remote meetings, linked
-  * pay attention to how the remote and in-person accessibility intersects; for example on the position of sign language interpreters
+  * presenters should read and follow “[How to Make Your Presentations Accessible to All](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)”
+  * participants should read and follow "[Accessibility of Remote Meetings](https://www.w3.org/TR/remote-meetings/)"
+  * hosts also need to follow "[Hosting accessibile remote meetings](https://www.w3.org/TR/remote-meetings/#hosting-accessible-remote-meetings)"
+  * pay attention to how remote and in-person accessibility intersects; for example, on positioning of sign language interpreters
 * International
   * will there be spoken language interpreters?
 
 ## Meeting organizer and facilitator training
 
-Special attention needs to be given to train the meeting Chairs and other organizers to ensure a smooth hybrid meeting.
+See "[TPAC 2022 Chair Training](https://www.w3.org/2022/Talks/TPAC/hybrid-training/)"
 
 In particular, the importance of managing the queue, controlling side conversations, managing the meeting software and equipment (such as microphones). The Chairs may delegate those
 roles to some of the participants, especially if they are involved in the topic.
+
+When adjusting agendas ensure the required participants can adjust to new times and be mindful of the impacts on remote participants.
 
 The facilitator should take into account anything about the room setup that causes any participant to
 not be able to see or hear other participants well, or to not be heard by other participants -- those in the same room as well as those who are remote.
