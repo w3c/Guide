@@ -57,6 +57,17 @@ Make sure you identify the local host (if it's not the Group Chair or Team Conta
   * Encourage and support remote users to use high-quality microphones and cameras
 
 ## Convening the meeting
+
+ State the policies of engagement; Process, CEPC, PPE, venue precautions, emergency contacts
+ 
+* remind the participant of the rules of engagement at the start of each meeting
+* review for all participants any Covid-safety requirements and agreements
+* remind people of CEPC requirements including always bearing in mind that some different participants have different levels of high risk(?), and to respect people's requests for care on social distancing
+* remind people of requirements for COVID tests and related precautions
+
+* Patent policy?
+* if you are recording the meeting, you MUST get explicit consent from participants
+
 ### Facilitating the hybrid meeting
   * Be explicit about how hand-raising (floor control) is to be done and be scrupulous about following it,
   especially for those in the room
@@ -110,18 +121,6 @@ Allow participants to easily raise potential agenda items (using GitHub labels "
 Plan and prepare your agenda to be flexible to potentially changing logistics, for instance, presenters or participants to plan to attend in person but get a positive Covid test on pre-check and need to switch to remote participation, or planned venues that become unavailable at the last minute.
 
 Publish your detailed agenda with times and include both local (to the in-person participants) time and UTC.
-
-## Convening the meeting
- 
- State the policies of engagement; Process, CEPC, PPE, venue precautions, emergency contacts
- 
-* remind the participant of the rules of engagement at the start of each meeting
-* review for all participants any Covid-safety requirements and agreements
-* remind people of CEPC requirements including always bearing in mind that some different participants have different levels of high risk(?), and to respect people's requests for care on social distancing
-* remind people of requirements for COVID tests and related precautions
-
-* Patent policy?
-  if you are recording the meeting, you MUST get explicit consent from participants
 
 ## Managing breaks/social activity (Judy)
 
