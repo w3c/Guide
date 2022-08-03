@@ -165,13 +165,15 @@ hand-raising).
 > [JB thinks that there are so many variables regarding what works in different settings with different people for queue management, that the most important bottom line is to be flexible -- but with suggestions.]
 > [Acknowledge that something that was suggested/recommended practice last month may have been overtaken by subsequent changes.]
 
-## Equipment (Ralph)
+## Equipment
 
-Plan from scratch what equipment we need to really do hybrid well, e.g., large screen(s) and good tech crew at the hub(s); and reliable set-ups for the remote folks...
+Plan from scratch what equipment you need to really do hybrid well, e.g., large screen(s) and good tech crew at the hub(s); and reliable set-ups for the remote folks.
 
-> [JB and RS brainstorming, 20211015]
+Have a short set of instructions on how to operate the equipment.
+
+Know who your on-site support folk are.
     
-## Get your audio/video right (Ralph)
+## Get your audio/video right
 
 Sharing of accessible content via the web should be strongly preferred over screen sharing.  This allows all participants to adjust their view of the shared content according to their own needs; the number of windows on their screen, the font size, even the location in the content that they are viewing.  When it is necessary to use a presenter's screen to convey information to the meeting it is essential that the remote meeting platform seamlessly capture the presenter's screen content, whether that is accomplished by running a meeting client on the presenter's device or by connecting a video feed from the presenter's device into the meeting platform via an external means.
 
@@ -213,12 +215,6 @@ Essential to have a fall-back video conference option that can be activitied.
  ?Are there any unique requirements or desiderata for the new group calendar system to support hybrid meetings?
  
 (for training) For subgroups, Chairs should create multiple events
-
-## Room Setup Expectations (Ralph)
- 
-?Should we attempt to provide equipment to be able to use a meeting room that has insufficient built-in conferencing equipment
- 
-?If we provide equipment, how much setup time should we expect to require
 
 ## References
 
