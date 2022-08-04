@@ -122,7 +122,7 @@ Plan and prepare your agenda to be flexible to potentially changing logistics, f
 
 Publish your detailed agenda with times and include both local (to the in-person participants) time and UTC.
 
-## Managing breaks/social activity (Judy)
+## Managing breaks/social activity
 
    Allow for breaks by providing a variety of social environments for remote participants, relevant to the size of the group, and interest. Consider doing a social gatherings that are inclusive of remote participants
 
@@ -208,7 +208,7 @@ Essential to have a fall-back video conference option that can be activitied.
 
 @@how do one get the explicit consent if the individual joined late and missed the disclaimer before the start of the recording? A: ensure that the video tool is clearing indicating that it is recording, and add a reminder with agendas. A' provide an agenda template that includes a boilerplate notice.
       
-## Tooling & Support (PLH)
+## Tooling & Support
 
 [provide some tooling recommendation. See also https://github.com/w3c/w3process/issues/435 for ongoing Process CG discussion, https://github.com/w3c/Guide/issues/78 in the Continuity conversation, and https://github.com/w3c/AB-memberonly/issues/30 in the AB rules/best-practices for tools discussion.
  
