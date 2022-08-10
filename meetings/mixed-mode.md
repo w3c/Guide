@@ -224,27 +224,9 @@ https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles
 W3C (various), [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings), W3C public wiki, 2013-2014<br>
 https://www.w3.org/wiki/Remote_Meetings
 
-## Appendices
-
-### TPAC
-
-@@tbd
-
-### AC
-
-@@tbd
-
-### Working/Interest Group
-
-@@tbd
-
-### Workshop
-
-@@tbd
-
 ---
 
-## Sticky notes (to be removed) 
+## Sticky notes (to be removed)
 
 **Status**: this document is for discussion purposes.  PLH, Judy, and Ralph were working outside of GitHub until Nov'21.
 
