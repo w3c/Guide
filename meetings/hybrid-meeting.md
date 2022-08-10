@@ -102,6 +102,8 @@ When adjusting agendas ensure the required participants can adjust to new times 
 The facilitator should take into account anything about the room setup that causes any participant to
 not be able to see or hear other participants well, or to not be heard by other participants -- those in the same room as well as those who are remote.
 
+The meeting organizer should ensure meeting facilitators know how to escalate if issues arise (venue, health rules, accessibility, CEPC, etc.).
+
 ## Prepare your agenda
 
 Getting your agenda right is the most effective way to have a smooth meeting. It allows participants to prepare in advance, focus on a limited set of topics, ensure progress, and accommodate timezone constraints for required remote participants. The Group Chairs are expected to provide an agenda of the meeting in advance.
