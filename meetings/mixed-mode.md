@@ -127,19 +127,19 @@ Publish your detailed agenda with times and include both local (to the in-person
    Allow for breaks by providing a variety of social environments for remote participants, relevant to the size of the group, and interest. Consider doing a social gatherings that are inclusive of remote participants
 
   * Consider having a central list of ideas of events that are easy to put together, easy to make inclusive/accessible, and easy to do in hybrid mode
-   
+
   * What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
 
 Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available
- 
+
 ## Managing the queue
- 
+
 Chairs, please make sure to actively manage the queue, preferably using the tools the group has
 been accustomed to using for virtual meetings.  Be explicit about which tools will be used and
 how, especially if more than one tool is necessary simultaneously (e.g. irc and video conference
 hand-raising).
 
-* Be fastidious about requiring the in-person participants to use and respect the queue.
+* Pay careful attention to requiring the in-person participants to use and respect the queue.
 
 * Prevent queue interruptions. The conversation moves forward based on
     the queue, not on the loudest participant in the room.
@@ -149,21 +149,6 @@ hand-raising).
 * Ask participants to mute unless they have the floor.
 
 * Split the queue into sub-topics if needed, to facilitate follow-ups on individual comments.
-
-> [JB -- note technical bug in some platforms such as Zoom where host cannot queue themselves to express an opinion with their chair hat off -- we should get zoom to fix this]
-
-> [RRS: also note that some platforms don't indicate the order in which participants raised their hands]
-
-> [RRS: a big opportunity exists here to integrate queue-management across platforms]
-
-> [JB -- let's discuss -- this strikes me as rigid guidance, and in some cases Chair needs to be managing queue according to a flow of relevant topics. Another technical problem here is that some video-conference queueing doesn't allow indication of topic.]
-
-> [JB -- For large groups, it can be helpful to use mute-by-default, with Chair, or queue-manager-assistant, unmuting those who come up in queue -- but this can slow things down. If not mute-by-default, essential that Chair or someone has abilility to mute remote participants.]
- 
-@@how to manage zakim+zoom queue
-   
-> [JB thinks that there are so many variables regarding what works in different settings with different people for queue management, that the most important bottom line is to be flexible -- but with suggestions.]
-> [Acknowledge that something that was suggested/recommended practice last month may have been overtaken by subsequent changes.]
 
 ## Equipment
 
