@@ -34,7 +34,7 @@ TODO: (from W3M) Add checklists for meeting prep, potentially also for threshold
 <br>
 TODO: (from W3M) Emphasize the need for microphone/speakerphone quality DONE, REMOVE
 <br>
-TODO: (from W3M) Consider whether we can add recommendations for agility in decisions of hybrid vs virtual MAY NEED A QUICK CHAT
+TODO: (from W3M) Consider whether we can add recommendations for agility in decisions of hybrid vs virtual MAY NEED A QUICK CHAT [Ralph did some archaeology on this comment and believes it came from "encourage more definition of minimum standards for meeting conditions, as a threshold for cancellation of in-person (e.g. local health requirements)" in the 2021-12-15 W3M discussion]
 <br>
 TODO: Decide whether to leave this in its raw state, or do some clean-up and copy-editing so that it can at least be a useful reference. Types of copy-editing needed: tersifying to increase readability (reduce discussion and reflection, instead focus on practical bits, remove redundancies; make terminology and tone more consistent; update mentions of Covid status and precautions, and make it more time-agnostic; adjust flow; double-check absolute statements. -- REMOVE THIS META-COMMENT
 <br>

@@ -8,6 +8,8 @@ Though the circumstances of the pandemic, which halted in-person meetings in 202
 
 We now seek to establish effective hybrid meeting modes, where some participants may be co-located, yet interact on an equal basis with other participants in different locations; and where those who are located remotely can have equal access to participating as well.
 
+Lessons learned and suggestions for this document are welcome in [GitHub issues](https://github.com/w3c/Guide/issues).
+
 ### Challenges of Hybrid meetings
 
 Hybrid meetings are already widespread in some world regions, as vaccines, tests, and therapeutics become available. We expect the pace of hybrid meetings to increase, though unpredictably in response to the spread of different variants and different regional responses to these.
@@ -227,3 +229,5 @@ https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles
 W3C (various), [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings), W3C public wiki, 2013-2014<br>
 https://www.w3.org/wiki/Remote_Meetings
 
+----
+[maintained on GitHub](https://github.com/w3c/Guide); comment there in [issues](https://github.com/w3c/Guide/issues).
