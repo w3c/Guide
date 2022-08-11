@@ -35,7 +35,7 @@ Following are recommendations for addressing these challenges and holding succes
   * Buffet food may not be allowed because of health considerations
   * Room layout must allow for placement of one or more cameras that enable remote participants
   to see the face of each person in the room
-  * If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for remote participants to view
+  * Make sure any tools you use, such as virtual whiteboards, are accessible to all participants. If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for remote participants to view
   * Microphone placement must be planned and tested in advance.  If a sufficient quantity of fixed
   microphones cannot be provided then two or more "pass-around" microphones can be used.  One pass-around microphone is not sufficient as there will be times when two discussants are engaged with each other and passing a mic back and forth consumes too much time
   * Microphone placement must account for participants who cannot themselves speak loudly; having to
@@ -179,10 +179,11 @@ Essential to have a fall-back video conference option that can be activitied.
 
 * Make sure everyone can be seen. Room participants should consider using their own laptop
    video for remote participants to have a direct view of them. (note this will dramatically increase bandwidth consumption).  Encourage all participants to turn on their video, at a minimum when they are speaking, to allow for non-verbal queues
-* Remember that not all presenters or participants, regardless of whether in room or remote, can see who is in the room or what is being projected.
+* Remember that not all presenters or participants, regardless of whether in room or remote, can see who is in the room or what is being projected
+* Be cautious about adding tools that may not be familiar to all participants, especially if interoperability with key tools such as assistive technologies might be a problem.
 * Take your minutes online, for everyone to see in realtime
 * If slides are presented, everyone MUST [be able to read them](https://www.w3.org/WAI/teach-advocate/accessible-presentations/) -- particularly discourage screen sharing unless the document(s) are also available on the web; screen sharing should only be used as a way to keep everyone in sync as to what material you are discussing. Make sure the slides meet WCAG 2.1 AA and "How to Make your Presentations Accessible."
-* If a whiteboard is used, the view must not be blocked from any participant in the room, and must be available to all remote participants.
+* Make sure any tools you use, such as virtual whiteboards, are accessible to all participants. If a whiteboard is used, the view must not be blocked from any participant in the room, and must be available to all remote participants.
 * Consider training for your participants on to use the realtime collaboration tools (such as unmuting quickly)
 * When the platform supports it, pin key windows in place -- speaker, content, interpreter, captions -- etc....
 
