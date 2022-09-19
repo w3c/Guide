@@ -64,6 +64,10 @@
   <td><dl data-value="specifications"></dl></td>
 </tr>
 
+<tr>
+  <th>Calendar</th>
+  <td data-value="calendar"></td>
+</tr>
 
 </table>
 
@@ -252,6 +256,7 @@
               dl.appendChild(dd);
             }});
           }));
+        map("#calendar", `<a href="${group.homepage}/calendar">${group.homepage}/calendar</a>`);
 
         group["services"].then (data => {
           const services = getComponents("#services")[0];
