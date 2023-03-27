@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>W3C Manual of Style</title>
-  <script src='https://www.w3.org/Tools/respec/respec-w3c-common' async class='remove'>
+  <script src='https://www.w3.org/Tools/respec/respec-w3c' async class='remove'>
   </script>
     <script class='remove'>
   var respecConfig = {
@@ -24,7 +24,8 @@
         value: 'spec-prod@w3.org',
         href: 'https://lists.w3.org/Archives/Public/spec-prod/'
       }]
-    }]
+    }],
+    xref: [ "i18n-glossary" ]
   };
   </script>
 
@@ -132,41 +133,113 @@ content? See also <a href="https://www.w3.org/WAI/eval/Overview.html">evaluation
 <section id="I18n">
 <h2>Internationalization</h2>
 
-<p>Follow the <cite>Character Model for the World Wide Web 1.0:
-Fundamentals</cite> W3C work in progress [<cite><a href=
-"#ref-CHARMOD">CHARMOD</a></cite>]. Does your specification define
-protocols or format elements? If it does, define when conversion to
-legal <abbr title="Uniform Resource Identifier">URI</abbr> reference
-characters takes place, and do so as late as possible.</p>
+<p>Follow the guidelines in <cite>Internationalization Best Practices for Spec Developers</cite> [[INTERNATIONAL-SPECS]] when producing your specification. You might also find it helpful to complete a <a href="https://www.w3.org/International/i18n-drafts/techniques/shortchecklist">self-review</a> early in the development process. If your specification touches on more complex issues, you can also reach out to the Internationalization Working Group for guidance.</p>
+
+<p>Internationalization terminology, particularly terms related to Unicode, can be rather precise. To help avoid problems with the need to define these, import the [[Infra]] standard and [[I18N-GLOSSARY]]. Use the terms found in these documents instead of creating your own and link your use of these terms to the definitions found in these documents. Instructions on how to do this can be found in an appendix of the [[I18N-GLOSSARY]].</p>
+
+<section id="general-i18n">
+	<h3>Write for a global audience</h3>
+	
+	<p>Keep in mind that W3C documents serve a global audience.</p>
+	
+	<ul>
+		<li>Avoid idioms that are U.S.- or English-specific in favor of more neutral language.</li>
+		<li>Choose examples that reflect a global audience. For example:
+		<ul>
+			<li>When creating user stories or other examples that feature people, choose example names that come from different cultures and regions. You can find suggestions <a href="https://www.w3.org/TR/international-specs#personal_name_examples">here</a> in [[INTERNATIONAL-SPECS]].</li>
+			<li>Choose more generic terms for field names, such as "postal code" instead of (U.S.-specific) "ZIP code" or "given name" instead of "first name".</li>
+		</ul>
+		<li>In general, use [=locale-neutral=] representations of data values, such as dates, numbers, currency values, and so forth.</li>
+		<!-- EDNOTE: A previous edition had a section with the id of `Dates`. The id is preserved here to avoid problems
+		     with any links to the older edition.
+		  -->
+		<li id="Dates">For time and date values, choose an unambiguous representation:
+		<ul>
+			<li>For date values that appear in prose, spell out the month (for example, <kbd>6 May 2003</kbd> or <kbd>September 23, 2016</kbd>). All numeric dates such as <kbd translate="no">5/6/03</kbd> or <kbd translate="no">6/5/03</kbd> are ambiguous. Some cultures will read the first example as "June 5" while other cultures will read the second example as that date.</li>
+			<li>For date values that appear in data, use a format derived from ISO8601, such as those found in [[RFC3339]] or those found in <cite><a href="http://www.w3.org/TR/2001/REC-xmlschema-2-20010502/#date" title="Section 3.2.9 of the XML Schema Datatypes">XML Schema Part 2: Datatypes</a></cite> ([[XMLSchema-2]].</li>
+		</ul></li>
+	</ul>
+</section>
 
 <section id="Unicode">
 <h3>Unicode</h3>
 
-<p>When specifying characters, refer to <cite>The Unicode
-Standard</cite>; see <a href=
-"http://www.w3.org/TR/charmod/#sec-RefUnicode" title=
-"Section 8 of the Character Model">section 8</a> of the <cite>Character
-Model for the World Wide Web 1.0: Fundamentals</cite> [<cite><a href=
-"#ref-CHARMOD">CHARMOD</a></cite>]. The Unicode Consortium gives
-guidelines for how to cite their standards; see [<cite><a href=
-"#ref-UNICODE">UNICODE</a></cite>]. Refer to individual characters in
-any of three ways; see the email thread <cite>"Unicode character
-names"</cite> [<cite><a href=
-"#ref-CHARNAMES">CHARNAMES</a></cite>]:</p>
+<p>Use <code translate="no">U+XXXX</code> syntax to represent [=Unicode code points=] in the specification. These are space separated when appearing in a sequence. No additional decoration is needed. Note that a [=code point=] may contain four, five, or six hexadecimal digits. When fewer than four digits are needed, the code point number is zero filled.</p>
 
-<ol>
-<li>by codepoint (<span class="not-en">e.g.</span>,
-<code>U+002E</code>)</li>
+<aside class="example" title="Code point examples">
+	<table>
+		<thead>
+			<tr>
+				<th>Character</th>
+				<th>Name</th>
+				<th>U+XXXX syntax</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td style="text-align:center">&#xa0;</td>
+				<td class="uname">SPACE</td>
+				<td>U+0020</td>
+			</tr>
+			<tr>
+				<td style="text-align:center">&#xe9;</td>
+				<td class="uname">LATIN SMALL LETTER E WITH ACUTE</td>
+				<td>U+00E9</td>
+			</tr>
+			<tr>
+				<td style="text-align:center">&#xa8a;</td>
+				<td class="uname">GUJURATI LETTER UU</td>
+				<td>U+0A8A</td>
+			</tr>
+			<tr>
+				<td style="text-align:center">&#xfffd;</td>
+				<td class="uname">REPLACEMENT CHARACTER</td>
+				<td>U+FFFD</td>
+			</tr>
+			<tr>
+				<td style="text-align:center">&#x1f62e;</td>
+				<td class="uname">FACE WITH OPEN MOUTH</td>
+				<td>U+1F62E</td>
+			</tr>
+		</tbody>
+	</table>
+</aside>
 
-<li>by formal Unicode name (<span class="not-en">e.g.</span>,
-<span class="UnicodeName">full stop</span>); see [<cite><a href=
-"#ref-CHARTS">CHARTS</a></cite>]</li>
+<p>Use the Unicode character name to describe specific code points. Use of the <a href="#char_ref_template">character naming template</a> is recommended.</p>
 
-<li>by Unicode alias (<span class="not-en">e.g.</span>, <span class=
-"UnicodeAlias">dot</span>, or <span class="UnicodeAlias">decimal
-point</span>, or <span class="UnicodeAlias">period</span>); see
-[<cite><a href="#ref-CHARTS">CHARTS</a></cite>]</li>
-</ol>
+<p>Unicode assigns unique, immutable names to each assigned [=Unicode code point=]. Using these names in your specification when referring to specific characters (along with the code point in <code class="uname" translate="no">U+XXXX</code> notation) will help make your specification unambiguous.</p>
+
+<p>There are cases where doing this is overly pedantic and detracts from usability, but be cautious about being so informal as to impair meaning.</p>
+
+<section id="char_ref_template">
+<h5>Character naming template</h5>
+
+	<div class="xref"><span class="seealso">See also</span>
+	<p>[<a href="https://www.w3.org/International/i18n-activity/guidelines/editing#codepoints">I18N Editing Guidelines</a>].</p>
+	</div>
+	
+<p>Internationalization specifications use (and we recommend the use of) this template for character references:</p>
+
+<pre>
+&lt;span class="codepoint" translate="no">&lt;bdi lang="??">&#xXXXX;&lt;/bdi> 
+[&lt;span class="uname">U+XXXX Unicode_character_name&lt;/span>]&lt;/span>
+</pre>
+
+<aside class="example" title="Example of a character reference">
+<p>Filling in the above template like this:</p>
+
+<pre>
+&lt;span class="codepoint" translate="no">&lt;bdi lang="fr">&#x00E9;&lt;/bdi> 
+[&lt;span class="uname">U+00E9 LATIN SMALL LETTER E WITH ACUTE&lt;/span>]&lt;/span>
+</pre>
+
+<p>Produces output in the page like this: <span class="codepoint" translate="no"><bdi lang="fr">é</bdi> [<span class="uname">U+00E9 LATIN SMALL LETTER E WITH ACUTE</span>]</span>.</p>
+</aside>
+
+<p>Some notes about the markup used. The <code translate=no>bdi</code> element is used to ensure that example characters that are [=right-to-left=] do not interfere with the layout of the page. The <code translate=no>lang</code> attribute should be filled in with the most appropriate [[BCP47]] [=language tag=] to get the correct font selection (and other processing) for a given context. Examples in East Asian languages (such as Chinese, Japanese, or Korean) or in the Arabic script can sometimes require greater care in choosing a language tag.</p>
+
+</section>
+
 </section>
 <section id="Translations">
 <h3>Translations</h3>
@@ -190,43 +263,21 @@ create the "official" translation?</a></cite> ([<cite><a href=
 "#ref-IPRFAQ">IPRFAQ</a></cite>] sections 5.6 and 5.7).</li>
 </ul>
 
-<p>Although technical reports are written in U.S. English, examples and
-wording should not rely on conventions and idioms used only in the
-United States (<span class="not-en">e.g.</span>, "<abbr title=
-"U.S. Postal Service abbr for Zone Improvement Plan">ZIP</abbr>
-code"). Use international examples (<span class="not-en">e.g.</span>,
-"postal code") wherever possible.</p>
 
-<p>Make your specification more readable by adding markup to
-distinguish common words from keywords in your language. Mark up every
-occurrence. For example:</p>
-<pre>
-The title attribute of these elements
-may be used to provide the full
-or expanded form of the expression.
+<p>Make your specification more readable by adding markup to distinguish common words from keywords in your language. Mark up every occurrence. Use <code>translate="no"</code> as an attribute to communicate to translators that the keyword is part of the [=vocabulary=] of a formal language rather than part of the [=natural language=] text of the document. For example:</p>
+<pre class="html">
+&lt;p&gt;The title attribute of these elements may be used 
+to provide the full or expanded form of the expression.
 </pre>
 
 <p>becomes:</p>
 <pre>
-The &lt;code&gt;title&lt;/code&gt; attribute of these elements
-may be used to provide the full
-or expanded form of the expression.
+&lt;p&gt;The &lt;code translate="no"&gt;title&lt;/code&gt; attribute of these elements may be used 
+to provide the full or expanded form of the expression.
 </pre>
 
 <p>A French translator would then know not to translate <em>title</em>
-to <em xml:lang="fr" lang="fr">titre</em>.</p>
-
-<p>First person pronouns ("I," "we") which are hard to translate should
-not be used in the text of examples. See the email message
-<cite>"Personal pronouns in specifications"</cite> [<cite><a href=
-"#ref-PRONOUNS">PRONOUNS</a></cite>]. Avoid "my" and "me" in examples
-(<span class="not-en">e.g.</span>, use "userResource" and not
-"myResource").</p>
-
-<p>Specifications should not directly address the reader as well.
-Translating second person singular pronouns is a hard task if the
-language distinguishes between various forms like formal and informal
-of "you," hence avoid "you."</p>
+to <em lang="fr">titre</em>.</p>
 
 <p>Do not invent elements to replace natural language. For example, do
 not use <code>&lt;must/&gt;</code> and a stylesheet to render MUST.
@@ -236,20 +287,9 @@ subject, <span class="not-en">e.g.</span>, in French, MUST will become
 <em xml:lang="fr" lang="fr">DOIVENT</em> if it is plural. Use standard
 markup instead.</p>
 </section>
-<section id="Dates">
-<h3>Style for Dates</h3>
 
-<p>5/6/03 to denote a date is ambiguous in the international context
-(the example could mean 6 May or 5 June). Either spell out the month (6
-May 2003) or use an ISO-8601-derived form (2003-05-06). <cite><a href=
-"http://www.w3.org/TR/2001/REC-xmlschema-2-20010502/#date" title=
-"Section 3.2.9 of the XML Schema Datatypes">XML Schema Part 2:
-Datatypes</a></cite> ([<cite><a href=
-"#ref-SCHEMA-DATATYPES">SCHEMA-DATATYPES</a></cite>], sections 3.2.9
-through 3.2.14.1) formally explains how to write dates in XML
-documents.</p>
 </section>
-</section>
+
 <section id="Parts">
 <h2>The Parts of a Technical Report</h2>
 
@@ -313,7 +353,7 @@ before at ThisCompany, and at ThatCompany)</dd>
 <section id="tAbstract">
   <h3>Abstract</h3>
 
-<p><dfn id="must-abstract">Give each document an
+<p><dfn id="must-abstract" class="lint-ignore">Give each document an
 Abstract</dfn> (a few paragraphs at most) that summarizes what the
 document is about. The Communications Team may use the Abstract as a
 whole or in part to publicize your work. Write it for a non-technical
@@ -542,7 +582,7 @@ to <kbd>http://www.w3.org/TR/html4/</kbd>. For more information on
 using versioned and unversioned identifiers, refer to the
 <cite><a href="https://www.w3.org/TR/charmod/#sec-RefUnicode">Character
 Model for the World Wide Web 1.0: Fundamentals</a></cite>
-([<cite><a href="#ref-CHARMOD">CHARMOD</a></cite>] section 8).</li>
+([[CHARMOD]] section 8).</li>
 
 <li>An entry in a references section takes this form:
 
@@ -1267,13 +1307,25 @@ Joseph Reagle, Tim Berners-Lee, Karen MacArthur, and Håkon Wium Lie
 wrote the majority of this guide in various incarnations since it
 started in 1995.</li>
 
-<li>Charles McCathieNevile (W3C), Bob Hopgood (Oxford Brookes
-University), Björn Höhrmann, Paul Grosso (Arbortext), Daniel Dardailler
-(W3C), Steven Pemberton (W3C), Richard Ishida (Xerox), Martin Dürst
-(W3C), Mark Davis, Hugo Haas (W3C), Dominique Hazaël-Massieux (W3C),
-Max Froumentin (W3C), Judy Brewer (W3C), Stuart Williams
-(Hewlett-Packard), François Yergeau (Alis Technologies), and David
-Carlisle contributed valuable comments.</li>
+<li><!-- alphabetized by Romanized family name -->
+Judy Brewer (W3C), 
+David Carlisle,
+Mark Davis, 
+Martin Dürst (W3C), 
+Max Froumentin (W3C), 
+Hugo Haas (W3C), 
+Dominique Hazaël-Massieux (W3C),
+Björn Höhrmann, 
+Bob Hopgood (Oxford Brookes University), 
+Paul Grosso (Arbortext), 
+Daniel Dardailler (W3C), 
+Richard Ishida (W3C), 
+Charles McCathieNevile (W3C), 
+Steven Pemberton (W3C), 
+Addison Phillips (Invited Expert),
+Stuart Williams (Hewlett-Packard), 
+and François Yergeau (Alis Technologies)
+all contributed valuable comments.</li>
 </ul>
 </section>
 <section id="REF">
@@ -1294,6 +1346,7 @@ Bibliography Extractor</a>, Dominique Hazaël-Massieux, 2003. This tool
 is on-line at
 https://www.w3.org/2002/01/tr-automation/tr-biblio-ui.</dd>
 
+<!--
 <dt id="ref-CHARMOD">[CHARMOD]</dt>
 
 <dd><cite><a href=
@@ -1304,6 +1357,7 @@ This version of the Character Model Fundamentals is
 https://www.w3.org/TR/2004/WD-charmod-20040225/. The <a href=
 "https://www.w3.org/TR/charmod/">latest version of the Character Model
 Fundamentals</a> is available at https://www.w3.org/TR/charmod.</dd>
+-->
 
 <dt id="ref-CHARNAMES">[CHARNAMES]</dt>
 
@@ -1470,6 +1524,7 @@ https://www.w3.org/TR.</dd>
 W3C</a>, W3C, 1997-2003. This Web page is on-line at
 https://www.w3.org/Consortium/Translation.</dd>
 
+<!--
 <dt id="ref-UNICODE">[UNICODE]</dt>
 
 <dd><a href=
@@ -1477,6 +1532,7 @@ https://www.w3.org/Consortium/Translation.</dd>
 References</a>, The Unicode Consortium, 2001. These instructions for
 citing Unicode are on-line at
 http://www.unicode.org/unicode/standard/versions/.</dd>
+-->
 
 <dt id="ref-VALIDATE">[VALIDATE]</dt>
 
