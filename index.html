@@ -32,7 +32,7 @@
 <ul>
 <li> Groups listed in the WG's charter, especially those who manage dependencies.</li>
 <li> Groups jointly responsible for a particular document (if any)  (duh!).</li>
-<li> All horizontal groups (listed below).  If it appears that one of those is not relevant (and is not listed in your charter), talk to them informally to confirm that.</li>
+<li> All horizontal groups (listed below).  If it appears that one of those is not relevant (and is not listed in your charter), you must still file the request so that there is a record of the horizontal group's decision not to review.</li>
 <li> Other groups, at your discretion, even if not in the WG charter, including other W3C groups, external organizations and SSOs, implementers, application developers, etc.</li>
 <li>The general public. Consider using blog posts, social media, or other ways of alerting the public to your document and requesting feedback.</li>
 </ul>
@@ -82,7 +82,7 @@
 
 
 
-<dt>Internationalisation</dt>
+<dt>Internationalization</dt>
 <dd>
   <span class="step">Read the <a rel="nofollow" class="external text" href="https://www.w3.org/International/review-request">Request a review</a> page</span>, then
   <span class="step">work through the <a rel="nofollow" class="external text" href="https://www.w3.org/International/i18n-drafts/techniques/shortchecklist">Short Checklist</a></span>, then
@@ -190,10 +190,17 @@
  <p>Note that the label may be applied by setting it directly on the issue if you have proper rights, or by appending it preceded with a PLUS sign (+) in the issue description, +<i class="term">*-tracker</i> or +<i class="term">*-needs-resolution</i>.</p>
 </section>
 
+<section id="horizontal-needs-resolution-transitions">
+	<h3>What happens with *-needs-resolution issues at transition?</h3>
+	
+	<p>When a Working Group requests a new Maturity level, the transition <strong>will not be approved</strong> if a horizontal group has an open *-needs-resolution issue showing on the <a rel="nofollow" class="external text" href="https://w3c.github.io/horizontal-issue-tracker/index">tracker boards</a>. Note that the tracker monitors the horizontal group's <em>copy</em> of the issue. Before requesting a new Maturity level, the Working Group is advised to review the tracker and contact the horizontal group to close any lingering issues.</p>
+	
+</section>
 
 
 <section id="What_happens_to_unresolved_issues_marked_needs-resolution">
 <h3>What happens to unresolved issues marked *-needs-resolution?</h3>
+
 <p>As lead technical architect, the W3C Director is tasked (among many things) to assess consensus within W3C for architectural issues and to decide on the outcome of <a rel="nofollow" class="external text" href="https://www.w3.org/2019/Process-20190301/#FormalObjection">Formal Objections</a>. When a horizontal issue gets flagged as *-needs-resolution and a Group chooses to request a new Maturity level despite the lack of consensus with the horizontal group, it is the task of the Director to assess the issue and the outcome of the request. A horizontal group MAY choose to elevate an horizontal issue as a Formal Objection to elevate further the importance of an issue per the W3C Process.
 </p><p>In the case where an horizontal issue hasn’t been addressed and the document was allowed to move forward, it is recommended that the issue remains open in the horizontal group repository (it MAY get closed in the specification repository unless the Director requests otherwise). Some issues may take years to get resolved, but that doesn’t mean those should be forgotten.</p>
 </section>
