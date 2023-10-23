@@ -9,7 +9,7 @@ Documentation on how to participate in W3C WGs is split between multiple wikipag
 * /participate/process
   * Explanation as to how the standards process works
 * /participate/chair
-  * Intructions on how to chair WGs including managing meetings, setting up the homepage, maintaining the wiki
+  * Instructions on how to chair WGs including managing meetings, setting up the homepage, maintaining the wiki
 * /participate/scribe
   * Instructions on how to scribe
 * /participate/meetings
