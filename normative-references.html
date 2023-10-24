@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <!-- 
+        imported to GitHub Guide from
+        https://www.w3.org/2013/09/normative-references
+     -->
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Normative References</title>
+    <meta name=viewport content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+
+    <style>
+      img { border: 0; }
+      table { border-collapse: collapse;border-spacing: 0;}
+      th, td { border: 1px solid black; padding: 0.5ex; }
+      .note { background-color: lightgreen }
+
+body { counter-reset: h2; }
+
+h2.nocount:before { content: "" }
+
+h2:before {
+      content: counter(h2) ". ";
+      display: inline;
+    }
+
+h2.nocount {
+      counter-increment: none;
+      counter-reset: none
+    }
+
+h2 {
+      counter-increment: h2;
+      counter-reset: h3;
+    }
+
+h3:before {
+      content: counter(h2) "." counter(h3) " ";
+      display: inline;
+    }
+
+h3 { counter-increment: h3; }
+
+h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.example {
+   font-style: italic;
+}
+    </style>
+
+<style>
+    .example {
+        font-style: italic;
+        margin: 0.5em;
+        margin-left: 2em;
+        padding: 0em 0.7em;
+    }
+</style>
+
+</head>
+<body>
+  <div id="header"> <span class="logo"><a href="https://www.w3.org/"><img src="https://www.w3.org/Icons/WWW/w3c_home_nb"
+          alt="W3C"
+          border="0"
+          height="48"
+          width="72"></a>
+    </span>
+    <div class="breadcrumb"> <a href="https://www.w3.org/participate/">Participate</a> →
+        <a href="https://www.w3.org/Guide/">The Art of Consensus</a> →
+      <h1>Normative References</h1>
+    </div>
+    <p class="baseline">This <strong>Guidebook</strong> is the collected
+      wisdom of the W3C Group Chairs, team contacts and other contributors.</p>
+  </div>
+  <p style="float: right; margin-bottom: 0"><em>This page is Public</em></p>
+
+
+<section>
+<h2 id="toc" class="nocount">Contents</h2>
+<ul>
+<li><a href="#Purpose">Purpose</a></li>
+<li><a href="#stability">Stability</a>
+<ul><li><a href="#orgs">External organizations</a></li>
+<li><a href="#whole">Stability of the referenced document</a></li>
+<li><a href="#parts">Stability of the referenced part(s)</a></li>
+<li><a href="#nature">Nature of the dependency</a></li>
+<li><a href="#impls">Status of implementations</a></li>
+</ul>
+</li>
+<li><a href="#schedule">Schedule</a></li>
+<li><a href="#licensing">Licensing</a></li>
+<li><a href="#AppendixI">Appendix: HTML and DOM Living Standards</a></li>
+
+</ul>
+</section>
+
+<section>
+<h2 id="Purpose">Purpose</h2>
+<p>Normative references between specifications are typically references to established standards previously published by recognized groups or to work in parallel in W3C.  As a W3C specification progresses toward Recommendation such normative references rarely raise concern provided the referenced specification is stable and has licensing terms that are consistent with royalty-free implementation of W3C Recommendations, or the parallel W3C work is proceeding on a similar schedule.  Borderline cases arise when a specification contains a normative reference to another specification that is not yet an established standard or that has licensing restrictions that may interfere with the intended use of a W3C Recommendation.
+</p>
+
+<p>This document explains considerations the Team take into account when evaluating normative references from W3C documents at transitions on the
+ <a href="https://www.w3.org/Consortium/Process/#Reports">W3C Recommendation track</a>.
+ These considerations may be used by the Working Group while evaluating the risk associated with specific design choices during the group’s deliberations.  The Team may refer to this document when a transition request is being decided.
+</p>
+
+<p>At a high level, when a W3C specification has normative
+references to other documents the Team considers 3 factors:
+stability, schedule and licensing. Any of the factors described in
+this document are fodder for Team consideration.  No single factor
+is decisive.  Different cases will involve different combinations of
+these factors. The Team may consider other factors not listed in
+this document as well; e.g. the likelihood that W3C may wish to submit
+the Recommendation to ISO and the PAS criteria for normative references.</p>
+</section>
+
+<section>
+<h2 id="stability">Stability</h2>
+
+<p>The Team considers the stability of the referenced documents by
+evaluating the probability that the referenced documents will change
+and in which timeframe. In the event that the referenced document will
+change in a way that is not backward compatible, the risks to deployed
+resources(deployed
+markup, other standards, documents, code, products, applications, …)
+will be considered as well as associated recovery strategies.</p>
+
+<p>There are several factors that the Team needs to consider as part of a stability assessment.</p>
+
+<h3 id="orgs">External organizations</h3>
+
+<p> Who produced the document?</p>
+<ol><li> Is it produced by a group that the Team believes follows the <a href="http://open-stand.org/principles/">OpenStand principles</a>?
+</li><li> Is the normative version of the referenced document available in English? If not, is there an English translation?
+</li><li> Is the referenced document available on the Web at no cost and without limitation?
+</li></ol>
+
+<h3 id="whole">Stability of the referenced document</h3>
+
+<p> What is the stability of the referenced document as a whole?</p>
+<ol><li> What stability claims do the organization and group who published the referenced document make about that document?
+  <div class="example">
+   <p>For example, in the case of a reference to a W3C document, is that document not yet a Proposed Recommendation?</p>
+  </div>
+  <div class="example">
+    <p>For example, does the document have an explicit and clear
+      stability statement readily apparent to its readers and near to
+      the start of the document?</p>
+  </div>
+</li><li> Is the referenced document subject to change, how often, and to what degree?  Are there specific dated and/or versioned references?
+    <div class="example">
+      <p>For example, in the case of a document that has both stable
+	and unstable sections, is each section clearly labeled as
+	"stable" vs.  "in progress" vs "proposal".</p>
+  </div>
+</li><li> What is the change control policy for the referenced document?
+</li></ol>
+
+<h3 id="parts">Stability of the referenced part(s)</h3>
+
+<p> What is the stability of the referenced part(s)?</p>
+
+<ol><li> How specific is the reference? Finer grained precise references are easier to evaluate.
+    <div class="example">
+      <p>For example, in the case of a document that has clearly
+	identified stable and unstable sections, do the stable
+	sections have fragment identifiers such that a normative
+	reference could choose to refer only to those stable
+	sections?</p>
+   </div>
+</li><li> Was the referenced part previously published in a W3C Recommendation or other standard?
+   <div class="example">
+     <p>For example, the name of the <code>Document</code> interface in DOM4 is also in the DOM Level 3 Core Recommendation.</p>
+   </div>
+</li><li> Have the organization and group who published the referenced document reviewed and approved the way the referenced part is used and referenced?
+</li></ol>
+
+<h3 id="nature">Nature of the dependency</h3>
+
+<p> What is the nature of the dependency on the referenced part(s)?</p>
+
+<ol><li> How is the referenced part used?
+<ol><li> Is the reference to the name of a interface or to a definition without relying on details? (so that any changes would have no impact on the source of the reference)
+</li></ol>
+<li> Who is impacted by the referenced part?
+
+<ol><li> Is the reference to something that is normative to implementors of the specification or normative to users of implementations of the specification?
+   <div class="example">
+<p>For example, if the referenced document changes:</p>
+<ol type="A"><li>Will implementers of the W3C specification need to change an implementation of an algorithm specified in the referenced document?  Users may be affected as a result of changes in the implementation. (eg an encryption algorithm)
+</li><li>Will the text of the W3C specification need to be revised to follow a new grammar from a referenced document?  Implementers and users may be affected if the grammar is exposed (eg change in lexical representations of XML Schema datatypes).
+</li><li>How will implementors and users be impacted if a term used in a W3C specification is defined in a referenced document and the definition changes?  The W3C specification may be independent of the details of the definition; however, implementers and users may be impacted by the change. (eg URL, well-formed XML)
+</li></ol>
+</div>
+</li></ol>
+</li>
+<li>If a change impacts deployed resources, what will be the recovery strategy?</li>
+</ol>
+
+<h3 id="impls">Status of implementations</h3>
+
+<p> What is the status of the implementation of the referenced part(s)?</p>
+<ol><li> What is the deployment of the referenced part(s)?
+</li><li> Are there tests and test results for the referenced part(s)?
+</li></ol>
+</section>
+
+<section>
+<h2 id="schedule">Schedule</h2>
+
+<p>What are the agreed milestones for the W3C specification?</p>
+
+<ol><li> What opportunities will be missed if the transition must be postponed due to questions about a normative reference?
+</li><li> What would be the costs of delaying the transition?
+</li></ol>
+
+</section>
+
+<section>
+<h2 id="licensing">Licensing</h2>
+
+<p>
+W3C seeks to issue Recommendations that can be implemented on
+ a <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Requirements">Royalty-Free</a>
+ basis.
+</p>
+
+<p>What are the licensing terms of the referenced documents?
+</p>
+
+<ol><li> Are the technologies in the referenced parts available under terms that are compatible with the <a href="https://www.w3.org/Consortium/Patent-Policy/#sec-Requirements">W3C Royalty-Free licensing requirements</a>?
+</li><li> What are the risks that the referenced part(s) may be encumbered by patent(s)?
+</li><li>What are the policies identifying the rights and obligations of implementors of the referenced document that apply to implementors of the W3C specification?
+</li><li>Does the reference conform to the normative referencing policy of the organization who published the referenced document?
+</li><li>What normative references are made by the referenced document and are the licensing terms of those technologies compatible with 1&#8210;3 above?
+</li><li> In the case of W3C documents, is there an open exclusion opportunity on the referenced document?
+</li></ol>
+
+</section>
+
+
+<p class="note">
+  <em>Note:</em> The experimental <a href="https://labs.w3.org/normative-references/">normative references checker</a> can be used to identify which references are or should be normative in your document.
+</p>
+
+<section>
+<h2 id="AppendixI" class="nocount">Appendix I : Stability Evaluation of HTML and DOM Living Standards</h2>
+
+  <p>The guidelines in 
+  <a href="#stability"
+     >section 2</a> are evaluated for references from W3C
+  specifications to the WHATWG HTML and DOM Living Standards as follows:
+  </p>
+
+  <ul>
+    <li>
+      The factors listed in sections 2.1 and 2.2 are deemed to have
+      been met.
+    </li>
+    <li>
+      The factors in sections 2.3, 2.4, and 2.5 will be deemed to have
+      been met for specific features when implementation experience
+      has been demonstrated per 
+      <a href="https://www.w3.org/Consortium/Process/#implementation-experience"
+	 >W3C Process section 6.2.4</a> for each referenced feature.
+    </li>
+  </ul>
+
+  <p>For HTML Recommendations produced jointly by WHATWG and W3C,
+  the DOM Living Standard is normatively referenceable.</p>
+
+  <p>For DOM Recommendations produced jointly by WHATWG and W3C,
+  the HTML Living Standard is normatively referenceable.</p>
+</section>
+
+<hr />
+
+<table>
+  <caption>Change History</caption>
+  <thead>
+    <tr>
+      <th style="width:6em">Date</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2023-10-23</td>
+      <td>Move document to GitHub.
+        Update to current, 2023 Process.</td>
+    </tr>
+    <tr>
+      <td>2020-10-30</td>
+      <td>Update W3C Recommendation track citation to the current W3C Process.  Update Patent Policy reference to the current version and correct a fragment id. Clarify the intent regarding backwards compatibility in the Stability section introduction.</td>
+    </tr>
+    <tr>
+      <td>2019-06-14</td>
+      <td>Correct a mailto: reference. Update W3C Recommendation track citation to the 2019 version. Add Appendix I.</td>
+    </tr>
+    <tr>
+      <td>2018-04-17</td>
+      <td>Update W3C Recommendation track citation to the 2018 version, note that the checker is experimental</td>
+    </tr>
+    <tr>
+      <td>2018-02-07</td>
+      <td>Added a note about the normative reference checker</td>
+    </tr>
+    <tr>
+      <td>2014-09-11</td>
+      <td>Update W3C Recommendation track citation to the 2014 version</td>
+    </tr>
+    <tr>
+      <td>2015-04-06</td>
+      <td>Added a second example in 2.2.1, and an example in 2.2.2 and in 2.3.1</td>
+    </tr>
+    <tr>
+        <td>2013-10-18</td>
+        <td>Distributed to the W3C Advisory Committee and Chairs for comment on 18 October 2013. 
+        </td>
+    </tr>
+  </tbody>
+</table>
+
+  </body>
+</html>
