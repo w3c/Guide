@@ -36,7 +36,7 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
 
 * [w3c/transitions](https://github.com/w3c/transitions)
   * Organize a Technical Report Transition
-  * Managed by [@w3c/tilt](https://github.com/orgs/w3c/teams/tilt)
+  * Managed by [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions)
 * [w3c/documentreview](https://github.com/w3c/documentreview)
   * How to do wide review
 * [w3c/standards-track](https://github.com/w3c/standards-track)
