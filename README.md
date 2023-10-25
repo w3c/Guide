@@ -2,7 +2,8 @@
 
 The repository for "[The Art of Consensus](https://www.w3.org/Guide/)", W3C's Chair's Guidebook.
 
-Documentation on how to participate in W3C WGs is split between multiple wikipages, github repos and emails. This means new members find difficulty in finding information as to how to participate and maybe give up trying. This proposal is a simple extension to one of the W3C sites (w3.org?) where all attendees can discover simple (and easily translated) documentation on how to be an affective W3C attendee.
+Documentation on how to participate in W3C WGs is split between multiple wikipages, github repos and emails. This means new members find difficulty in finding information as to how to participate and maybe give up trying. This repository is the place to pull all of those
+together.
 
 ### How to edit
 
