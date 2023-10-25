@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html lang="en-US" data-apiary-key="oq0abw4w2bkwcs0k0kws44sok4cg48w" data-apiary-mode="debug">
-
 <head>
   <meta charset="utf-8">
   <title>Onboarding Information for Group Participants</title>
@@ -64,6 +62,10 @@
   <td><dl data-value="specifications"></dl></td>
 </tr>
 
+<tr>
+  <th>Calendar</th>
+  <td data-value="calendar"></td>
+</tr>
 
 </table>
 
@@ -84,12 +86,7 @@
 <h3 id="join_leave_group">How to join/leave the group</h3>
 <ul>
   <li><a href="https://www.w3.org/accounts/request">Create your W3C account first</a></li>
-  <li>Join W3C groups:
-    <ul>
-      <li><a href="https://www.w3.org/2004/01/pp-impl/">Working Groups/Interest Groups</a></li>
-      <li><a href="https://www.w3.org/community/groups/">Business Groups/Community Groups</a></li>
-    </ul>
-  </li>
+  <li data-value='join'>W3C groups</li>
 </ul>
 
 <h3 id="emails">Emails</h3>
@@ -216,9 +213,7 @@
         map("#name", group.name);
         map("#homepage", `<a href="${group.homepage}">${group.homepage}</a>`);
         map("#description", group.description);
-        map("#join", group.join);
-        map("#details", group.details);
-        map("#pp-status", group["pp-status"]);
+        map("#join", `<a href="${group.join}">Join the Group</a>`);
         group.chairs.then(data => map("#chairs", data.map(c => individual(c)).reduce(format, null)));
         group["team-contacts"].then(data => map("#team-contacts", data.map(c => individual(c)).reduce(format, null)));
         group["active-charter"].then(data => {
@@ -252,6 +247,7 @@
               dl.appendChild(dd);
             }});
           }));
+        map("#calendar", `<a href="${group.homepage}/calendar">${group.homepage}/calendar</a>`);
 
         group["services"].then (data => {
           const services = getComponents("#services")[0];
