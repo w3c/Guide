@@ -4,6 +4,6 @@
 [submodule "transitions"]
 	path = transitions
 	url = https://github.com/w3c/transitions
-[submodule "process/documentreview"]
-	path = process/documentreview
+[submodule "documentreview"]
+	path = documentreview
 	url = https://github.com/w3c/documentreview
