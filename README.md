@@ -42,6 +42,8 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
   * How to do wide review
 * [w3c/standards-track](https://github.com/w3c/standards-track)
   * Best Practices for Bringing Work to the W3C Recommendation Track
+* [w3c/manual-of-style](https://github.com/w3c/manual-of-style)
+  * The W3C Manual of Style for editors
 * [w3c/w3c.github.io](https://github.com/w3c/w3c.github.io)
   * How to use Git and GitHub at W3C
 
