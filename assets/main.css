@@ -62,6 +62,7 @@ div#header .baseline {
 .toolbox {
 	background: #e2edfe; 
 	border: thin black solid;
+	margin: 1em;
 }
 
 .toolbox h4 {color: white;
@@ -179,4 +180,12 @@ var, code {
 .rfc2119 {
   text-transform: lowercase;
   font-weight: bold
+}
+.warning {
+  background: hsla(40,100%,50%,0.95);
+  color: black;
+  padding: .75em 1em;
+  border: red solid 1px;
+  box-shadow: 0 2px 8px black;
+  text-align: center;
 }
