@@ -27,25 +27,27 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
   * Anything related to additional guidelines when following the process
   * You may involve [@w3c/w3process-editors](https://github.com/orgs/w3c/teams/w3process-editors)
 * [/process/tilt](https://github.com/w3c/Guide/tree/main/process/tilt)
-  * Anything related to technical Team decision and verification
+  * Anything related to technical Team decision and verification, except for transitions
   * Managed by [@w3c/tilt](https://github.com/orgs/w3c/teams/tilt)
 * [/teamcontact/](https://github.com/w3c/Guide/tree/main/teamcontact)
   * Guidance on the role of the team contact, and what to expect from them.
-
+* [/other/](https://github.com/w3c/Guide/tree/main/other)
+  * Related to [permanent groups](https://www.w3.org/groups/).
 
 # Related repositories
 
-* [w3c/transitions](https://github.com/w3c/transitions)
+* [/transitions/](https://github.com/w3c/transitions)
   * Organize a Technical Report Transition
   * Managed by [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions)
-* [w3c/documentreview](https://github.com/w3c/documentreview)
+* [/documentreview/](https://github.com/w3c/documentreview)
   * How to do wide review
-* [w3c/standards-track](https://github.com/w3c/standards-track)
+* [/standards-track/](https://github.com/w3c/standards-track)
   * Best Practices for Bringing Work to the W3C Recommendation Track
-* [w3c/manual-of-style](https://github.com/w3c/manual-of-style)
+* [/manual-of-style/](https://github.com/w3c/manual-of-style)
   * The W3C Manual of Style for editors
-* [w3c/w3c.github.io](https://github.com/w3c/w3c.github.io)
+* [//w3c.github.io](https://github.com/w3c/w3c.github.io)
   * How to use Git and GitHub at W3C
+  * This repository is not exposed through [the Guidebook](https://www.w3.org/Guide)
 
 Note: now that we have a repository for the guidebook, simply add your documentation into it rather than creating new repositories.
 
