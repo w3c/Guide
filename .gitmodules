@@ -1,3 +1,9 @@
 [submodule "manual-of-style"]
 	path = manual-of-style
 	url = https://github.com/w3c/manual-of-style
+[submodule "transitions"]
+	path = transitions
+	url = https://github.com/w3c/transitions
+[submodule "process/documentreview"]
+	path = process/documentreview
+	url = https://github.com/w3c/documentreview
