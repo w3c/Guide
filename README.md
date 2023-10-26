@@ -15,15 +15,21 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
 
 If it's the first time you check-out the repo you need to use --init first:
 
+```
 git submodule update --init --recursive
+```
 
 After that, you can update to latest tips of remote branches:
 
+```
 git submodule update --recursive --remote
+```
 
 then commit your updates
 
+```
 git commit -a -m "[chore] submodules update"
+```
 
 ## In this repository
 
