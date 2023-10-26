@@ -181,12 +181,12 @@
 
 <section id="day-to-day_use_of_labels">
 <h3>Day-to-day use of labels</h3>
-<p>Apply the <span style="font-weight: bold; border:1px solid gray; border-radius:.5em; padding:2px 5px;">*-tracker</span> label in your own repository to draw a horizontal review group’s attention to an issue in one of your own repositories. Horizontal review groups may also apply the label if they are interested in tracking a particular issue.  Tooling will automatically notify the horizontal group that you attached the label.
+<p>Apply the <span class="githublabel">*-tracker</span> label in your own repository to draw a horizontal review group’s attention to an issue in one of your own repositories. Horizontal review groups may also apply the label if they are interested in tracking a particular issue.  Tooling will automatically notify the horizontal group that you attached the label.
 </p><p>If you want some specific advice from the horizontal group, describe that request in the issue thread.
-</p><p>Horizontal review groups may apply the <span style="font-weight: bold; border:1px solid gray; border-radius:.5em; padding:2px 5px;">*-needs-resolution</span> label to issues they expect to be resolved before the specification moves to a new maturity level. Working Groups must not remove or add this label (not even when you close your issue).
-</p><p>If the horizontal group believes that an issue with a <i class="term">*-tracker</i> label needs to be resolved before a transition, they may apply a <i class="term">*-needs-resolution</i> label to the issue. Automatic tooling will later remove the <i class="term">*-tracker</i> label.</p>
- <p>If you close an issue with a <i class="term">*-tracker</i> or <i class="term">*-needs-resolution</i> label attached, do not remove the label.  Keeping the label maintains the tracking if the issue is reopened, but also provides potentially useful information about what was tracked. (Closed issues in your repository have no effect on tools that check for unresolved issues.)</p>
- <p>At the end of a review, and before attempting to transition the spec, you should clarify that a resolution is described for all of the issues with a <i class="term">*-needs-resolution</i> label, and check that the horizontal group is aware of those resolutions. You don't have to do this for issues with the <i class="term">*-tracker</i> label. (The horizontal group was only tracking those issues, not expecting a particular resolution.)</p>
+</p><p>Horizontal review groups may apply the <span class="githublabel">*-needs-resolution</span> label to issues they expect to be resolved before the specification moves to a new maturity level. Working Groups must not remove or add this label (not even when you close your issue).
+</p><p>If the horizontal group believes that an issue with a <span class="githublabel">*-tracker</span> label needs to be resolved before a transition, they may apply a <span class="githublabel">*-needs-resolution</span> label to the issue. Automatic tooling will later remove the <span class="githublabel">*-tracker</span> label.</p>
+ <p>If you close an issue with a <span class="githublabel">*-tracker</span> or <span class="githublabel">*-needs-resolution</span> label attached, do not remove the label.  Keeping the label maintains the tracking if the issue is reopened, but also provides potentially useful information about what was tracked. (Closed issues in your repository have no effect on tools that check for unresolved issues.)</p>
+ <p>At the end of a review, and before attempting to transition the spec, you should clarify that a resolution is described for all of the issues with a <span class="githublabel">*-needs-resolution</span> label, and check that the horizontal group is aware of those resolutions. You don't have to do this for issues with the <span class="githublabel">*-tracker</span> label. (The horizontal group was only tracking those issues, not expecting a particular resolution.)</p>
  <p>Note that the label may be applied by setting it directly on the issue if you have proper rights, or by appending it preceded with a PLUS sign (+) in the issue description, +<i class="term">*-tracker</i> or +<i class="term">*-needs-resolution</i>.</p>
 </section>
 
@@ -199,7 +199,8 @@
 
 
 <section id="What_happens_to_unresolved_issues_marked_needs-resolution">
-<h3>What happens to unresolved issues marked *-needs-resolution?</h3>
+
+<h3>What happens to unresolved issues marked <span class="githublabel">*-needs-resolution</span>?</h3>
 
 <p>As lead technical architect, the W3C Council is tasked (among many things) to assess consensus within W3C for architectural issues and to decide on the outcome of <a rel="nofollow" class="external text" href="https://www.w3.org/2019/Process-20190301/#FormalObjection">Formal Objections</a>. When a horizontal issue gets flagged as *-needs-resolution and a Group chooses to request a new Maturity level despite the lack of consensus with the horizontal group, it is the task of the W3C Team to assess the issue and the outcome of the request. A horizontal group MAY choose to elevate an horizontal issue as a Formal Objection to elevate further the importance of an issue per the W3C Process.
 </p><p>In the case where an horizontal issue hasn’t been addressed and the document was allowed to move forward, it is recommended that the issue remains open in the horizontal group repository (it MAY get closed in the specification repository unless the W3C Team requests otherwise). Some issues may take years to get resolved, but that doesn’t mean those should be forgotten.</p>
@@ -268,7 +269,7 @@
     than the Team missing the fact you made an unreviewed substantive change in your editor's draft.</p>
   </li>
   <li><p>Don't flag your issues with one of those 
-    <span style="font-weight: bold; border:1px solid gray; border-radius:.5em; padding:2px 5px;">*-needs-resolution</span> labels,
+    <span class="githublabel">*-needs-resolution</span> labels,
    and don't remove one which has been applied (you <em>can</em> close the issue though, if it is resolved).</p>
    <p>Those are intended solely to be used by horizontal groups to 
     <a href="https://www.w3.org/Guide/documentreview/#What_happens_to_unresolved_issues_marked_needs-resolution">bring special attention</a>.</p>

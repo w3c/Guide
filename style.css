@@ -112,3 +112,10 @@ h2:hover > a.selflink, h3 > a.selflink, h4 > a.selflink, h5 > a.selflink, h6 > a
 	width: 70%;
 	margin-bottom: 0.5em;
 }
+
+.githublabel {
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: .5em;
+    padding: 2px 5px;
+}
