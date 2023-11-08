@@ -229,7 +229,7 @@ work. The reviews typically happen in this order:</p>
 
 <h3 id="baseline-support">Sufficient Member support for a charter</h3>
 
-<p>
+<p id="review_threshold">
 Generally, the Team will expect to receive reviews for Charter
 proposals from at least 5% of the <a href="/membership/list/">Membership</a>. If the 5% threshold is
 not met, the Charter may still be approved, but additional scrutiny is
@@ -379,7 +379,7 @@ following status sentence at the top:
 
 <ol>
 <li>TiLT has approved the group, whether or not preceded by an AC Review</li>
-<li>The group exists in the Groups DB.
+<li>The group exists in the <a href="/admin/dashboard">Groups DB</a>.
 <ul>
   <li>If the group does not exist:<br>
   Contact the W3C Communications Team to <a href="/admin/dashboard">create the group</a> by sending a mail to <a href="mailto:w3t-comm@w3.org">w3t-comm@w3.org</a>. Note that this requires:
@@ -430,7 +430,9 @@ message is clear. In general, the W3C Communications Team sends one email combin
   <li>A link to a page with information about the mechanism used to join the group (e.g., a URI to an IPP "join" form for a group under the W3C Patent Policy).</li>
   <li>Name and contact information for the Team Contact(s).</li>
   <li>AC review results of the proposed charter.</li>
-  <li>If applicable, the rationale for approving the group despite objections.</li>
+  <li>If applicable, the rationale for approving the group despite objections,
+    or despite the fact it did not receice reviews <a href='#review_threshold'>from
+      at least 5% of the Membership.</li>
 </ul>
 
 <p>It is useful to include notice that a 45-day grace period is granted to existing participants of the Group under the previous charter, who need to re-join the group because a charter has new deliverables in-scope.</p>
@@ -479,7 +481,7 @@ the charter. (Rationale: we need to record that bit in the charter admin interfa
 		<li>2022-07-19 update: For recharters, deactivate the previous charter when a new charter is valid:
 			<ol>
 			<li>add a note to the previous charter indicating "This charter has been replaced by &lt;a&gt;[a newer version]&lt/a&gt";</li>
-			<li>if the previous charter hasn't expired when a new charter is installed, deactivate the previous charter by changing its end date via the <a href="/admin/dashboard">Groups DB/a> interface<.</li>
+			<li>if the previous charter hasn't expired when a new charter is installed, deactivate the previous charter by changing its end date via the <a href="/admin/dashboard">Groups DB</a> interface<.</li>
 			</ol>
 		</li>
 	</ul>
@@ -492,14 +494,14 @@ record that a Call for Participation was sent (so that all links via the Groups 
 <li>Team Contact marks the chair(s) as such in the Group's admin view (this automatically adds the chair(s) to the
 <a href="/admin/othergroups/31972/show">Chairs' group</a>).</li>
 <li>Function Lead or Team Contact(s) update the Team's <a href="/2005/09/manage/">effort tables</a>.</li>
+<li>For existing groups, Team Contact(s) ensures that Invited Expert statuses are being
+  <a href="/invited-experts/#review">reviewed in coordination with the Group chairs</a>. Team
+  Contacts with questions about how an Invited Expert joins a group should consult the <a
+  href="https://www.w3.org/2004/02/invited_expert">Team Policy for
+  Invited Experts</a>.</li>
 </ul>
 
 <p><strong>Note:</strong> When we recharter a work Group and the charter scope has changed, we enter the CFP into the Group DB, which triggers messages to the group participants that they must rejoin. If the new charter doesn't have new deliverables involving new patent commitment, do not register the new CFP.</p>
-
-<p><strong>Note:</strong> Team Contacts with questions about how an
-Invited Expert joins a group should consult the <a
-href="https://www.w3.org/2004/02/invited_expert">Team Policy for
-Invited Experts</a>.</p>
 
 <h3 id="announce-extension">Announcement of extension</h3>
 
