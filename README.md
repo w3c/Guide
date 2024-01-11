@@ -7,7 +7,7 @@ together.
 
 ## Got a question?
 
-Feel free to join #general in [irc](https://irc.w3.org/?channels=general) or [slack](https://w3ccommunity.slack.com/).
+Feel free to join #general in [irc](https://irc.w3.org/?channels=general) or [slack](https://w3ccommunity.slack.com/) ([invite](https://www.w3.org/slack-w3ccommunity-invite)).
 
 ### How to edit
 
