@@ -5,6 +5,10 @@ The repository for "[The Art of Consensus](https://www.w3.org/Guide/)", W3C's Ch
 Documentation on how to participate in W3C WGs is split between multiple wikipages, github repos and emails. This means new members find difficulty in finding information as to how to participate and maybe give up trying. This repository is the place to pull all of those
 together.
 
+## Got a question?
+
+Feel free to join #general in [irc](https://irc.w3.org/?channels=general) or [slack](https://w3ccommunity.slack.com/) ([invite](https://www.w3.org/slack-w3ccommunity-invite)).
+
 ### How to edit
 
 Pull requests are welcome from the Community. This Guide is for you after all.
