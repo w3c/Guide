@@ -1,4 +1,4 @@
-This is Team guidance for implementation of [Process 6.2.6](https://www.w3.org/Consortium/Process/#contributor-license). If you have any IPR questions, and for substantial contributions, please contact [team-legal](mailto:team-legal @ w3.org).
+This is Team guidance for implementation of [Process 6.2.6](/policies/process/#contributor-license). If you have any IPR questions, and for substantial contributions, please contact [team-legal](mailto:team-legal @ w3.org).
 
 When a non-member (or not-yet-identified member) makes a pull request contribution to a W3C Working Group repository, the repository manager tool flags it for review and sends them an email with [this text](https://github.com/w3c/ash-nazg/blob/master/templates/affiliation-mail.txt) to the contributor, chairs, and team contacts.
 
