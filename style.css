@@ -166,8 +166,8 @@ var, code {
 }
 
 .rfc2119 {
-	text-transform: lowercase;
-	font-weight: bold
+	font-style: normal;
+	font-size: 0.875em;
 }
 
 #maintoc li {
