@@ -1,0 +1,44 @@
+Change log 1/26/2016
+
+Based on AB and other feedback, I've tried to explain the rationale for drafting this document.
+
+###Comment #1 Purpose first paragraph - "This document lists criteria to consider when evaluating proposals to move specification work to the W3C Recommendation track."
+
+In the text that follows it isn't clear whether this is about not allowing a deliverable to be listed in a proposed Charter or whether it means not allowing a deliverable to be published as a FPWD.  "evaluating proposals to create new Working Groups or rechartering existing Working Groups to put new work in scope" implies the former while "Chairs when determining whether to publish First Public Working Drafts" implies the latter. 
+
+Is this about restricting what types of specs are permitted by the Charter or is it about what has to happen before a WG is permitted to undertake work on a spec that is permitted?
+
+"when reviewing charters and Proposed Recommendations" is at the end of the REC track, so doesn't seem to be related to decisions on moving to the REC track – it’s already on the REC track – maybe this also includes criteria for more than what is in the first sentence..
+
+
+###Comment #1 Purpose first paragraph - "This document lists criteria to consider when evaluating proposals to move specification work to the W3C Recommendation track."
+
+In the text that follows it isn't clear whether this is about not allowing a deliverable to be listed in a proposed Charter or whether it means not allowing a deliverable to be published as a FPWD.  "evaluating proposals to create new Working Groups or rechartering existing Working Groups to put new work in scope" implies the former while "Chairs when determining whether to publish First Public Working Drafts" implies the latter. 
+
+Is this about restricting what types of specs are permitted by the Charter or is it about what has to happen before a WG is permitted to undertake work on a spec that is permitted?
+
+"when reviewing charters and Proposed Recommendations" is at the end of the REC track, so doesn't seem to be related to decisions on moving to the REC track – it’s already on the REC track – maybe this also includes criteria for more than what is in the first sentence..
+
+
+
+#P1  - how is this applied to the many features in a proposed Charter?
+
+It is clear how this set of criteria apply in the WICG.  Someone has a very specific proposal for one particular (often small) feature and they provide a bunch of evidence arguing it should transition to a WG.  Is the idea that this to be done separately for every spec or every feature in the charter for a WG, like every feature or modification of a feature that the CSS WG will be permitted to work on?  So if they have 15 new features in a recharter, they have 15 supplementary documents on how they meet the criteria?
+ 
+#P2 – what about hot topic WGs like Web Payments, IoT and W3C membership
+ 
+It seems fairly clear a WG like Web Payments wouldn’t come close to meeting these.  I assume the same will be true for the upcoming IoT WG.  Sometimes W3C seems to want a WG on a hot topic where the actual work could be done in an Interest Group.  But an IG is viewed as not acceptable because potential members would not join just W3C for an IG.  
+ 
+Should there be a new type of W3C WG for that?  EWG – exploratory WG – nothing is REC track.  It has an associated CG where it does incubator specs.  You don’t get ultimate votes unless in the WG for whether to follow up in WG.  
+ 
+#P3 – constant recharter churn?
+ 
+This increases the difficulty in getting specs into Charters.  Charters are for 2 or 3 years.  This would ban anything except work that has an incubator spec.  Do incubator specs wait 2 years to the next recharter?  Do the supergroups go into constant recharter mode?
+ 
+(the upcoming Hardware Security WG takes an approach to this problem where it has a “Restricted Scope” that it is allowed to produce specs on, but also may not – so it can add deliverables in that carefully described restricted scope) http://w3c.github.io/websec/hasec-charter
+ 
+ 
+#P4 – long term impact on W3C – cg specs widely implemented get status
+ 
+
+
