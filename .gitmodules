@@ -1,0 +1,12 @@
+[submodule "manual-of-style"]
+	path = manual-of-style
+	url = https://github.com/w3c/manual-of-style
+[submodule "transitions"]
+	path = transitions
+	url = https://github.com/w3c/transitions
+[submodule "documentreview"]
+	path = documentreview
+	url = https://github.com/w3c/documentreview
+[submodule "standards-track"]
+	path = standards-track
+	url = https://github.com/w3c/standards-track
