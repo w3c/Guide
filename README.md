@@ -7,7 +7,7 @@ together.
 
 ## Got a question?
 
-Feel free to join #general in [irc](https://irc.w3.org/?channels=general) or [slack](https://w3ccommunity.slack.com/) ([invite](https://www.w3.org/slack-w3ccommunity-invite)).
+Feel free to join #general in [irc](https://webirc.w3.org/?channels=general) or [slack](https://w3ccommunity.slack.com/) ([invite](https://www.w3.org/slack-w3ccommunity-invite)).
 
 ### How to edit
 
@@ -15,43 +15,40 @@ Pull requests are welcome from the Community. This Guide is for you after all.
 
 The general edition of the Guidebook is managed by [@w3c/guidebook](https://github.com/orgs/w3c/teams/guidebook) but many areas are maintained by separate individuals or teams (check out the commits history of a file to see who).
 
-See also [HOWTO-EDIT](https://github.com/w3c/Guide/blob/main/HOWTO-EDIT.md).
-
 ## In this repository
 
 * [/chair/](https://github.com/w3c/Guide/tree/main/chair)
-  * Instructions on how to chair WGs and IGs including managing meetings, setting up the homepage, maintaining the calendar
+  * Instructions on how to chair WGs and IGs including managing meetings, setting up the homepage, maintaining the calendar.
 * [/council](https://github.com/w3c/Guide/tree/main/council)
-  * Anything related to councils
+  * Anything related to councils.
+* [/documentreview/](https://github.com/w3c/Guide/tree/main/documentreview)
+  * How to do wide review.
 * [/editor/](https://github.com/w3c/Guide/tree/main/editor)
-  * Guide on how to author a specification, including ReSpec or other spec making programs
+  * How to author a specification, including ReSpec or other spec making programs.
 * [/meetings/](https://github.com/w3c/Guide/tree/main/meetings)
-  * Anything related to organizing meetings, including events
+  * Anything related to organizing meetings, including events.
 * [/process/](https://github.com/w3c/Guide/tree/main/process)
-  * Anything related to additional guidelines when following the process
-  * You may involve [@w3c/w3process-editors](https://github.com/orgs/w3c/teams/w3process-editors)
+  * Anything related to additional guidelines when following the process.
+  * You may involve [@w3c/w3process-editors](https://github.com/orgs/w3c/teams/w3process-editors).
 * [/process/tilt](https://github.com/w3c/Guide/tree/main/process/tilt)
-  * Anything related to technical Team decision and verification, except for transitions
+  * Anything related to technical Team decision and verification, except for transitions.
   * Managed by [@w3c/tilt](https://github.com/orgs/w3c/teams/tilt)
+* [/standards-track/](https://github.com/w3c/Guide/tree/main/standards-track).
+  * Best Practices for Bringing Work to the W3C Recommendation Track.
 * [/teamcontact/](https://github.com/w3c/Guide/tree/main/teamcontact)
   * Guidance on the role of the team contact, and what to expect from them.
+* [/transitions/](https://github.com/w3c/Guide/tree/main/transitions)
+  * Organize a Technical Report Transition.
+  * Managed by [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions).
 * [/other/](https://github.com/w3c/Guide/tree/main/other)
   * Related to [permanent groups](https://www.w3.org/groups/).
 
 # Related repositories
-
-* [/transitions/](https://github.com/w3c/transitions)
-  * Organize a Technical Report Transition
-  * Managed by [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions)
-* [/documentreview/](https://github.com/w3c/documentreview)
-  * How to do wide review
-* [/standards-track/](https://github.com/w3c/standards-track)
-  * Best Practices for Bringing Work to the W3C Recommendation Track
 * [/manual-of-style/](https://github.com/w3c/manual-of-style)
-  * The W3C Manual of Style for editors
+  * The W3C Manual of Style for editors.
 * [//w3c.github.io](https://github.com/w3c/w3c.github.io)
-  * How to use Git and GitHub at W3C
-  * This repository is not exposed through [the Guidebook](https://www.w3.org/Guide)
+  * How to use Git and GitHub at W3C.
+  * This repository is not exposed through [the Guidebook](https://www.w3.org/Guide/).
 
 Note: now that we have a repository for the guidebook, simply add your documentation into it rather than creating new repositories.
 
