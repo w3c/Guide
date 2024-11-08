@@ -51,8 +51,3 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
   * This repository is not exposed through [the Guidebook](https://www.w3.org/Guide/).
 
 Note: now that we have a repository for the guidebook, simply add your documentation into it rather than creating new repositories.
-
-# Others
-
-* /participant/ (deprecated)
-  * Onboarding Information for Group Participants
