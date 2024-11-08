@@ -25,6 +25,8 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
   * How to do wide review.
 * [/editor/](https://github.com/w3c/Guide/tree/main/editor)
   * How to author a specification, including ReSpec or other spec making programs.
+* [/manual-of-style/](https://github.com/w3c/Guide/tree/main/manual-of-style)
+  * The W3C Manual of Style for editors.
 * [/meetings/](https://github.com/w3c/Guide/tree/main/meetings)
   * Anything related to organizing meetings, including events.
 * [/process/](https://github.com/w3c/Guide/tree/main/process)
@@ -44,8 +46,6 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
   * Related to [permanent groups](https://www.w3.org/groups/).
 
 # Related repositories
-* [/manual-of-style/](https://github.com/w3c/manual-of-style)
-  * The W3C Manual of Style for editors.
 * [//w3c.github.io](https://github.com/w3c/w3c.github.io)
   * How to use Git and GitHub at W3C.
   * This repository is not exposed through [the Guidebook](https://www.w3.org/Guide/).
