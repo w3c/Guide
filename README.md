@@ -19,7 +19,7 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
 
 * [/chair/](https://github.com/w3c/Guide/tree/main/chair)
   * Instructions on how to chair WGs and IGs including managing meetings, setting up the homepage, maintaining the calendar.
-* [/council](https://github.com/w3c/Guide/tree/main/council)
+* [/council/](https://github.com/w3c/Guide/tree/main/council)
   * Anything related to councils.
 * [/documentreview/](https://github.com/w3c/Guide/tree/main/documentreview)
   * How to do wide review.
@@ -30,7 +30,7 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
 * [/process/](https://github.com/w3c/Guide/tree/main/process)
   * Anything related to additional guidelines when following the process.
   * You may involve [@w3c/w3process-editors](https://github.com/orgs/w3c/teams/w3process-editors).
-* [/process/tilt](https://github.com/w3c/Guide/tree/main/process/tilt)
+* [/process/tilt/](https://github.com/w3c/Guide/tree/main/process/tilt)
   * Anything related to technical Team decision and verification, except for transitions.
   * Managed by [@w3c/tilt](https://github.com/orgs/w3c/teams/tilt)
 * [/standards-track/](https://github.com/w3c/Guide/tree/main/standards-track).
