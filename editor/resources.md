@@ -53,8 +53,8 @@
 ## For Editor's role
 * Tools for spec editing:
   * [Markdown](https://github.github.com/gfm/)
-  * [Respec](https://github.com/w3c/respec/wiki/format)
-  * [Bikeshed](https://tabatkins.github.io/bikeshed/)
+  * [Respec](https://github.com/speced/respec/wiki/format)
+  * [Bikeshed](https://speced.github.io/bikeshed/)
   * [Repository Manager (ash-nazg)](https://github.com/w3c/ash-nazg/), [Kaz's slides on Repository Manager](https://www.w3.org/2017/Talks/0608-ash-nazg-ka/)
 * Tools for publication:
   * [Pubrules](https://www.w3.org/pubrules/)
