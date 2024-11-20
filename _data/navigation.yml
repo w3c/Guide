@@ -1,0 +1,21 @@
+pages:
+
+- title: W3C Guidebook
+  url: /guide/
+  html: /
+
+- title: Buddy System
+  url: /guide/chair/buddy.html
+  html: /chair/buddy.html
+
+- title: Document Review
+  url: /guide/documentreview/
+  html: /documentreview/
+
+- title: Manual of style
+  url: /guide/manual-of-style/
+  html: /manual-of-style/
+
+- title: Meetings
+  url: /guide/meetings/
+  html: /meetings/
