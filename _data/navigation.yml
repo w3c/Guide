@@ -19,3 +19,7 @@ pages:
 - title: Meetings
   url: /guide/meetings/
   html: /meetings/
+
+- title: Standards track
+  url: /guide/standards-track/
+  html: /standards-track/
