@@ -7,7 +7,8 @@ function addGitHubIssueButton() {
 }
 
 
-function createGitHubIssue() {
+function createGitHubIssue(event) {
+  event.preventDefault();
   const value = document.getElementById('repository').value.trim();
   const match = value.match(/github\.com\/(.*?)\/?$/);
   const repo = match ? match[1] : value;
@@ -24,7 +25,7 @@ function createGitHubIssue() {
 
 
 function generateGitHubIssueBody() {
-  const dl = document.querySelector('#how_to_get_horizontal_review dl');
+  const dl = document.querySelector('#how-to-get-horizontal-review ~ dl');
   if (!dl) {
     console.error('Could not find right anchor in "How to get horizontal review" section');
   }
