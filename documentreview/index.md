@@ -275,4 +275,4 @@ See the [Document Review Dashboard](https://www.w3.org/wiki/Dashboard#Document_R
 
 <div id="versionInfo"><small>See the [commit history](https://github.com/w3c/Guide/tree/main/documentreview).</small></div>
 
-<script src="createGitHubIssue.js"></script>
+<script src="create-github-issue.js"></script>
