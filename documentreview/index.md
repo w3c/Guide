@@ -273,4 +273,4 @@ See the [Document Review Dashboard](https://www.w3.org/wiki/Dashboard#Document_R
 
 <div id="versionInfo"><small>Last updated 18 Jun 2021. See the [commit history](https://github.com/w3c/documentreview/commits/gh-pages/index.html).</small></div>
 
-<script src="createGitHubIssue.js"></script>
+<script src="create-github-issue.js"></script>
