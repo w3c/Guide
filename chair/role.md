@@ -1,151 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Chair roles</title>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/generic-base-1.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="../assets/main.css">
-<link rel="shortcut icon" href="https://www.w3.org/Icons/WWW/Literature.gif">
-</head>
-<body>
-  <div id="header">
-    <span class="logo">
-      <a href="/">
-        <img src="https://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" height="48" width="72">
-      </a>
-    </span>
-    <div class="breadcrumb"><a href="https://www.w3.org/get-involved/">Get involved</a> → <a href="https://www.w3.org/Guide/">The Art of Consensus</a> →
-<h1>W3C Working/Interest Group Chair</h1></div>
-    <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and other collaborators.</p>
-  </div>
+---
+title: W3C Working/Interest Group Chair
+toc: true
+---
 
-  <div class="toolbox box" style="margin-bottom: 1em">
-    <h4>Related Resources</h4>
-    <ul>
-      <li><a href="buddy.html">W3C Chair Buddy System</a></li>
-    </ul>
-  </div>
+The [W3C Team](https://www.w3.org/Process#ref-for-team%E2%91%A2%E2%91%A6) appoints (or re-appoints) a Chair (or more than one co-Chair) for every Working Group and Interest Group ("Group"). The Chair's primary role is to facilitate [consensus](/policies/process/#Consensus)-building among Group members. The Chair works together with the W3C [Staff Contact](../teamcontact/role.html). Key roles of the Group Chair are listed below. Additional information on the role of the Group Chair is in the [W3C Process Document](/policies/process/#general-requirements).
 
-<p>
-The <a href="https://www.w3.org/Process#ref-for-team%E2%91%A2%E2%91%A6">W3C Team</a> appoints (or re-appoints) a Chair (or more than one co-Chair) for every Working
-Group and Interest Group ("Group"). The Chair's primary role is to
-facilitate <a href="/policies/process/#Consensus">consensus</a>-building among Group members. The Chair works together with
- the W3C <a href=
-"../teamcontact/role.html">Staff Contact</a>. Key roles of the Group
-Chair are listed below. Additional information on the role of the
-Group Chair is in the <a href="/policies/process/#general-requirements">W3C Process
-Document</a>.
-  <h2>Chair Buddy System</h2>
-  <p>The <a href="https://github.com/w3c/wg-effectiveness">Working Group effectiveness Task Force</a> helped establish a Chair Buddy System by which experienced buddy-mentors help buddy-mentees.</p>
-  <p>Interested parties should subscribe to <a href="mailto:chairbuddies@w3.org">chairbuddies@w3.org</a> (<a href="https://lists.w3.org/Archives/Member/member-chairbuddies/">Member-only archive</a>) and visit the dedicated <a href="buddy.html">Chair Buddy System page</a>.</p>
-  <h2>Role of the Group Chair</h2>
-<h3>Creates Group charter and convenes Group</h3>
-<ul>
-<li><a href="/policies/process/#WGCharterDevelopment">Develops Group charter</a> together with the Staff
-Contact.</li>
-<li>Is familiar with the <a href="/policies/process/">W3C
-Process</a>, the <a href="/policies/code-of-conduct/">W3C Code of Conduct</a>,
- the <a href="/policies/antitrust/">Antitrust and competition policy</a>,
-and <a href="/Guide">Guidebook</a>.</li>
-<li>Convenes Group and ensures Group members oriented to <a href=
-"/policies/process/">W3C Process</a> <i>with assistance of Staff
-Contact.</i></li>
-<li>Schedules deliverables and sets milestones towards completion
-of deliverables.</li>
-  <li>Appoints document editors. (NOTE: <a href="https://www.w3.org/2003/Editors/">Editors</a> are responsible for
-ensuring that Group decisions are correctly reflected in Group
-documents, and for maintaining an issue list.)</li>
-<li>Proposes invited experts <i>with assistance of Staff Contact</i> (W3C
-staff must be involved in decisions regarding inclusion/exclusion
-of participants).&nbsp; Makes sure that all participants have
-filled out a call for participation and have disclosed their IPR in
-accordance with W3C process.</li>
-<li>(If there is a Co-chair) Establishes clear and close
-coordination with Co-chair.</li>
-</ul>
-<h3>Coordinates with W3C Team and other W3C Working Groups as
-needed</h3>
-<ul>
-<li>Maintains close coordination with W3C Staff
-Contact<i>.</i></li>
-<li>Maintains coordination with assigned liaisons from other W3C
-working groups.</li>
-<li>Participates in the Chairs mailing list (<a href="https://lists.w3.org/Archives/Member/chairs/">archive</a>) and attends Chairs
-meetings.<br>
-<em>the team contact should make sure the chair is in the</em>
-<a href="/admin/othergroups/31972/show"><em>chairs group</em></a> (should be managed automatically)</li>
-<li>Works with the Communications Team and Staff Contact in preparing press release.</li>
-<li>Communicates with the press, when necessary and appropriate,
-and with prior coordination with the communication team, on behalf
-of the group.</li>
-<li><i>Ensures</i> all participants have proper access to Group
-data <i>with assistance from Staff Contact.</i></li>
-</ul>
-<h3>Maintains Group Process &amp; Organization</h3>
-<ul>
-<li>Solicits drafts, encourages participation.</li>
-<li>Judges items in or out of scope for the Group.</li>
-<li>Generally stays neutral in discussion but can participate in
-technical discussions if announces in advance that will remove their
-chair "hat" at that time.</li>
-<li>Keeps Group's charter compliant with W3C Process, and initiates
-charter update as needed.</li>
-<li>Ensures participants abide by the terms and spirit of the
-  <a href="/policies/code-of-conduct/">W3C Code of Conduct</a></li>
-<li>Find suitable time slots for distributed meeting where most of the attendees are expected to participate from remote locations (e.g., by telephone, video conferencing, or IRC). (see
-  also <a href="../meetings/organize.html">Organizing a distributed meeting</a> ) and revisit those time slots
-  on a regular basis.
-</li>
-<li>Announces calls, meetings, events with appropriate advance time
-and through proper channels.</li>
-<li>Ensures minutes are taken and posted in due time.</li>
-<li>Defines meeting agendas.</li>
-<li>Maintains home page of Group using W3C authoring guidelines
-(receives access privileges for doing that).</li>
-<li>If it is necessary to take a vote, supervises voting and announces results, <i>with
-assistance of Staff Contact.</i></li>
-<li>Resolve issues that motivated "No" votes (facilitate reaching
-consensus).</li>
-<li>Revises deliverables timeline as needed.</li>
-</ul>
-<h3>What to look for when choosing a chair</h3>
-<p><em>The following bullets based on suggestions from <a href="https://www.w3.org/People/Reagle/">Joseph
-  Reagle</a></em></p>
-<ul>
-<li>Experience in chairing similar groups, committees, and/or
-conferences;</li>
-<li>Previous participation or technical contributions in related
-communities;</li>
-<li>Ability to satisfy the time commitment (from you and/or your
-organization/management);</li>
-<li>Familiarity or willingness to learn W3C Process and
-document formatting rules;</li>
-<li>Familiarity with the <a href="/policies/code-of-conduct/">W3C
-  Code of Conduct</a>;</li>
-<li>Ability to keep the Working Group "in Charter", both for
-technical and IPR issues;</li>
-<li>Ability (both actual and perceived by the Working Group --
-including potential competitors) to forge consensus fairly and
-without bias from your affiliation/employer and, sometimes, even
-your own technical positions.</li>
-</ul>
-<hr style="width:100%">
-  <p>The team contact should
-arrange for the Chair and the <a href="https://www.w3.org/Process#ref-for-team%E2%91%A2%E2%91%A6">W3C Team</a> to meet (by phone if necessary) to make sure
-they're on the same wavelength about things like:</p>
-<ul>
-<li>where the group's work fits into <a href="/TR/webarch/">Web Architecture</a></li>
-<li>where does it fit with other groups</li>
-<li>testing, test suites ... generating tests as you come to
-each</li>
-<li>responsibility not just to the group -- working toward consensus
-of the whole community</li>
-<li>cost of delaying wider consensus - negotiating your reviews and
-really getting in touch with people - versus time to market and specification relevance</li>
-<li>formal objections, i.e. the tricky bits of W3C process</li>
-  </ul>
-  <hr>
-  <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-   and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
-</html>
+## Chair Buddy System
+
+The [Working Group effectiveness Task Force](https://github.com/w3c/wg-effectiveness) helped establish a Chair Buddy System by which experienced buddy-mentors help buddy-mentees.
+
+Interested parties should subscribe to [chairbuddies@w3.org](mailto:chairbuddies@w3.org) ([Member-only archive](https://lists.w3.org/Archives/Member/member-chairbuddies/)) and visit the dedicated [Chair Buddy System page](buddy.html).
+
+## Role of the Group Chair
+
+### Creates Group charter and convenes Group
+
+- [Develops Group charter](/policies/process/#WGCharterDevelopment) together with the Staff Contact.
+- Is familiar with the [W3C Process](/policies/process/), the [W3C Code of Conduct](/policies/code-of-conduct/), the [Antitrust and competition policy](/policies/antitrust/), and [Guidebook](/Guide).
+- Convenes Group and ensures Group members oriented to [W3C Process](/policies/process/) *with assistance of Staff Contact.*
+- Schedules deliverables and sets milestones towards completion of deliverables.
+- Appoints document editors. (NOTE: [Editors](https://www.w3.org/2003/Editors/) are responsible for ensuring that Group decisions are correctly reflected in Group documents, and for maintaining an issue list.)
+- Proposes invited experts *with assistance of Staff Contact* (W3C staff must be involved in decisions regarding inclusion/exclusion of participants).  Makes sure that all participants have filled out a call for participation and have disclosed their IPR in accordance with W3C process.
+- (If there is a Co-chair) Establishes clear and close coordination with Co-chair.
+
+### Coordinates with W3C Team and other W3C Working Groups as needed
+
+- Maintains close coordination with W3C Staff Contact*.*
+- Maintains coordination with assigned liaisons from other W3C working groups.
+- Participates in the Chairs mailing list ([archive](https://lists.w3.org/Archives/Member/chairs/)) and attends Chairs meetings.
+  
+  *the team contact should make sure the chair is in the* [*chairs group*](/admin/othergroups/31972/show) (should be managed automatically)
+- Works with the Communications Team and Staff Contact in preparing press release.
+- Communicates with the press, when necessary and appropriate, and with prior coordination with the communication team, on behalf of the group.
+- *Ensures* all participants have proper access to Group data *with assistance from Staff Contact.*
+
+### Maintains Group Process &amp; Organization
+
+- Solicits drafts, encourages participation.
+- Judges items in or out of scope for the Group.
+- Generally stays neutral in discussion but can participate in technical discussions if announces in advance that will remove their chair "hat" at that time.
+- Keeps Group's charter compliant with W3C Process, and initiates charter update as needed.
+- Ensures participants abide by the terms and spirit of the [W3C Code of Conduct](/policies/code-of-conduct/)
+- Find suitable time slots for distributed meeting where most of the attendees are expected to participate from remote locations (e.g., by telephone, video conferencing, or IRC). (see also [Organizing a distributed meeting](../meetings/organize.html) ) and revisit those time slots on a regular basis.
+- Announces calls, meetings, events with appropriate advance time and through proper channels.
+- Ensures minutes are taken and posted in due time.
+- Defines meeting agendas.
+- Maintains home page of Group using W3C authoring guidelines (receives access privileges for doing that).
+- If it is necessary to take a vote, supervises voting and announces results, *with assistance of Staff Contact.*
+- Resolve issues that motivated "No" votes (facilitate reaching consensus).
+- Revises deliverables timeline as needed.
+
+### What to look for when choosing a chair
+
+*The following bullets based on suggestions from [Joseph Reagle](https://www.w3.org/People/Reagle/)*
+
+- Experience in chairing similar groups, committees, and/or conferences;
+- Previous participation or technical contributions in related communities;
+- Ability to satisfy the time commitment (from you and/or your organization/management);
+- Familiarity or willingness to learn W3C Process and document formatting rules;
+- Familiarity with the [W3C Code of Conduct](/policies/code-of-conduct/);
+- Ability to keep the Working Group "in Charter", both for technical and IPR issues;
+- Ability (both actual and perceived by the Working Group -- including potential competitors) to forge consensus fairly and without bias from your affiliation/employer and, sometimes, even your own technical positions.
+
+* * *
+
+The team contact should arrange for the Chair and the [W3C Team](https://www.w3.org/Process#ref-for-team%E2%91%A2%E2%91%A6) to meet (by phone if necessary) to make sure they're on the same wavelength about things like:
+
+- where the group's work fits into [Web Architecture](/TR/webarch/)
+- where does it fit with other groups
+- testing, test suites ... generating tests as you come to each
+- responsibility not just to the group -- working toward consensus of the whole community
+- cost of delaying wider consensus - negotiating your reviews and really getting in touch with people - versus time to market and specification relevance
+- formal objections, i.e. the tricky bits of W3C process
