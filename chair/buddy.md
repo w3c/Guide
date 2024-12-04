@@ -1,85 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>W3C Chair Buddy System</title>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/generic-base-1.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="../assets/main.css">
-<link rel="shortcut icon" href="https://www.w3.org/Icons/WWW/Literature.gif">
-</head>
-<body>
-  <div id="header">
-    <span class="logo">
-      <a href="/">
-        <img src="https://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" height="48" width="72">
-      </a>
-    </span>
-    <div class="breadcrumb"><a href="https://www.w3.org/get-involved/">Get involved</a> → <a href="https://www.w3.org/Guide/">The Art of Consensus</a> →
-<h1>W3C Chair Buddy System</h1></div>
-    <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and other collaborators.</p>
-  </div>
+---
+title: W3C Chair Buddy System
+toc: true
+---
 
-  <div class="toolbox box" style="margin-bottom: 1em">
-    <h4>Related Resources</h4>
-    <ul>
-      <li><a href="role.html">Roles of the Chair</a></li>
-    </ul>
-  </div>
+The [Working Group effectiveness Task Force](https://github.com/w3c/wg-effectiveness) helped establish a Chair Buddy System by which experienced Chairs can volunteer as buddy-mentors to help buddy-mentees Chairs.
 
-  <p>The <a href="https://github.com/w3c/wg-effectiveness">Working Group effectiveness Task Force</a> helped establish a Chair Buddy System by which experienced Chairs can volunteer as buddy-mentors to help buddy-mentees Chairs.</p>
-  <p>Interested parties should subscribe to <a href="mailto:chairbuddies@w3.org">chairbuddies@w3.org</a> (<a href="https://lists.w3.org/Archives/Member/member-chairbuddies/">Member-only archive<a/>). Chairs have access to their contact information via the <a href="https://www.w3.org/2000/09/dbwg/details?group=31972">Chairs group</a>.</p>
-  <h2>Principles</h2>
-  <ul>
-<li>This program is under the responsibility of the <a href="https://www.w3.org/staff/project/">W3C Project Lead</a>.</li>
-<li>W3C Chairs self-declare as Mentors or Mentees by writing to <a href="mailto:chairbuddies@w3.org">chairbuddies@w3.org</a>.
-  <ul>
-    <li>Ideally, they add their names to this page by
-      <a rel="edit-form" href="https://github.com/w3c/Guide/edit/main/chair/buddy.html">editing it on GitHub</a>.</li>
-  </ul>
-  </li>
-<li>The W3C Project Lead proceeds to  pairing those who request to have a buddy, with those who volunteer to be a buddy.</li>
-  </ul>
-  <h2>Buddy-Mentors</h2>
- <p>Thank-you for agreeing to be a W3C Chair Buddy! You should have been assigned your buddy-mentee and received their details from the W3C Team. If not, please ask the W3C Project Lead. Here are some resources and guidelines for helping you get started with being a buddy-mentor. </p>
-<ul>
-<li>Email your buddy-mentee and introduce yourself! It helps if you give some details on your chair experience, some general W3C experience, and what groups you have interests in.</li>
-<li>Arrange an initial meeting with your buddy-mentee. This can be a teleconference, or face-to-face if you're lucky to live in the same area or are participating in the same meeting.</li>
-<li>Buddy meetings can be managed however you wish, some guidelines are given below:
-<ul>
-<li>Ask questions such as "how long have you been chairing?", "what is the size of your group?", "how many chairs are there?", "what are you group working practices?", "how do you manage and conduct meetings?", "how many documents and editors do you have?", "what are your document timelines?", "tell me about your editors / participants", "where are your participants based?".</li>
-<li>Finding out as much as you can about your buddy-mentee will allow you to give the best advice!</li>
-</ul>
-</li>
-<li>Try to speak to your buddy-mentee every quarter. The job of arranging meetings should be with the buddy-mentee, but it doesn't hurt to send them a quick email every so often!</li>
-  </ul>
-  <p>Self-declared Buddy-Mentors:</p>
-  <ul>
-    <li><a href="https://github.com/anssiko">Anssi Kostiainen</a></li>
-    <li><a href="https://github.com/ljwatson">Léonie Watson</a></li>
-    <li><a href="https://github.com/chaals">Charles Nevile</a></li>
-    <li><a href="https://github.com/nigelmegitt">Nigel Megitt</a></li>
-  </ul>
-  <h2>Buddy-Mentees</h2>
-<p>Thank-you for joining the W3C Chair Buddy system! As a buddy-mentee you should have received details of your buddy. If you have not please ask the W3C Project Lead. Here are some guidelines for being a buddy-mentee.</p>
-<ul>
-<li>Email your buddy-mentor and introduce yourself! Give details on the group you chair, whether you have a co-chair, and some quick details on the specs you're working on and the size of your group.</li>
-<li>Arrange an initial meeting with your buddy-mentor. This can be a teleconference, or face-to-face if you're lucky to live in the same area or are participating in the same meeting.</li>
-<li>Buddy meetings can be managed however you wish, some guidelines are given below:
-<ul>
-<li>You should be giving your buddy-mentor as much information as possible about your current chairing situation, this will help them give you the best advice!</li>
-<li>You should also bring with you a list of your own questions, here are some examples: "how do you manage consensus when one or few people are blocking?", "how do you manage meetings when participants are so distributed?", "how can I help my editors get to work?", etc.</li>
-</ul>
-</li>
-<li>Try to speak to your buddy-mentor every quarter, but you may speak to them more infrequently or frequently depending on what works for you and your buddy-mentor. In yuor initial meeting try to discuss a schedule for meetings (even if you decide to do ad-hoc meetings) then arrange the meetings by sending calendar invites (or another method of your choosing).</li>
-<li>It's up to you to arrange these meetings (buddy-mentors may have a few mentees, so it's best for buddy-mentees to arrange meetings).</li>
-</ul>
- <p>Self-declared Buddy-Mentees:</p>
-  <ul>
-    <li>Karen Coyle (now associated with Léonie Watson)</li>
-    <li>Wendy Reid</li>
-  </ul>
-  <hr>
-  <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-   and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
-</html>
+Interested parties should subscribe to [chairbuddies@w3.org](mailto:chairbuddies@w3.org) ([Member-only archive](https://lists.w3.org/Archives/Member/member-chairbuddies/)[). Chairs have access to their contact information via the]() [Chairs group](https://www.w3.org/2000/09/dbwg/details?group=31972).
+
+## Principles
+
+- This program is under the responsibility of the [W3C Project Lead](https://www.w3.org/staff/project/).
+- W3C Chairs self-declare as Mentors or Mentees by writing to [chairbuddies@w3.org](mailto:chairbuddies@w3.org).
+  
+  - Ideally, they add their names to this page by [editing it on GitHub](https://github.com/w3c/Guide/edit/main/chair/buddy.md).
+- The W3C Project Lead proceeds to pairing those who request to have a buddy, with those who volunteer to be a buddy.
+
+## Buddy-Mentors
+
+Thank-you for agreeing to be a W3C Chair Buddy! You should have been assigned your buddy-mentee and received their details from the W3C Team. If not, please ask the W3C Project Lead. Here are some resources and guidelines for helping you get started with being a buddy-mentor.
+
+- Email your buddy-mentee and introduce yourself! It helps if you give some details on your chair experience, some general W3C experience, and what groups you have interests in.
+- Arrange an initial meeting with your buddy-mentee. This can be a teleconference, or face-to-face if you're lucky to live in the same area or are participating in the same meeting.
+- Buddy meetings can be managed however you wish, some guidelines are given below:
+  
+  - Ask questions such as "how long have you been chairing?", "what is the size of your group?", "how many chairs are there?", "what are you group working practices?", "how do you manage and conduct meetings?", "how many documents and editors do you have?", "what are your document timelines?", "tell me about your editors / participants", "where are your participants based?".
+  - Finding out as much as you can about your buddy-mentee will allow you to give the best advice!
+- Try to speak to your buddy-mentee every quarter. The job of arranging meetings should be with the buddy-mentee, but it doesn't hurt to send them a quick email every so often!
+
+Self-declared Buddy-Mentors:
+
+- [Anssi Kostiainen](https://github.com/anssiko)
+- [Léonie Watson](https://github.com/ljwatson)
+- [Charles Nevile](https://github.com/chaals)
+- [Nigel Megitt](https://github.com/nigelmegitt)
+
+## Buddy-Mentees
+
+Thank-you for joining the W3C Chair Buddy system! As a buddy-mentee you should have received details of your buddy. If you have not please ask the W3C Project Lead. Here are some guidelines for being a buddy-mentee.
+
+- Email your buddy-mentor and introduce yourself! Give details on the group you chair, whether you have a co-chair, and some quick details on the specs you're working on and the size of your group.
+- Arrange an initial meeting with your buddy-mentor. This can be a teleconference, or face-to-face if you're lucky to live in the same area or are participating in the same meeting.
+- Buddy meetings can be managed however you wish, some guidelines are given below:
+  
+  - You should be giving your buddy-mentor as much information as possible about your current chairing situation, this will help them give you the best advice!
+  - You should also bring with you a list of your own questions, here are some examples: "how do you manage consensus when one or few people are blocking?", "how do you manage meetings when participants are so distributed?", "how can I help my editors get to work?", etc.
+- Try to speak to your buddy-mentor every quarter, but you may speak to them more infrequently or frequently depending on what works for you and your buddy-mentor. In yuor initial meeting try to discuss a schedule for meetings (even if you decide to do ad-hoc meetings) then arrange the meetings by sending calendar invites (or another method of your choosing).
+- It's up to you to arrange these meetings (buddy-mentors may have a few mentees, so it's best for buddy-mentees to arrange meetings).
+
+Self-declared Buddy-Mentees:
+
+- Karen Coyle (now associated with Léonie Watson)
+- Wendy Reid
