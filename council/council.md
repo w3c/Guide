@@ -1,359 +1,164 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" >
-<title>Formal Objections &amp; W3C Council</title>
-<link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="../assets/main.css">
-<link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-<link rel="start" href="../" >
-<style>
-  .IssueLabel-big {
-    font-weight: 600;
-    padding: 4px 8px;
-    border-radius: 3px;
-    line-height: 1.5;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-</style>
-</head>
-<body>
+---
+title: Formal Objections &amp; W3C Council
+toc: true
+---
 
-<div id="header">
-<span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb"
-alt="W3C" height="48" width="72"></a></span>
-    <div class="breadcrumb">
-    <a href="/Member/">Member</a> &#x2192; <a href="/Guide/">The Art of
-Consensus</a> &#x2192;
-<h1>Formal Objections &amp; W3C Council</h1>
-</div>
-<p class="baseline">This <strong>Guidebook</strong> is the collected
-wisdom of the W3C Group Chairs and other collaborators.</p>
-</div>
+This document supplements the Process Document by providing best practices to resolve and decide Formal Objections.</p>
 
-    <div class="toolbox box">
-      <h4>Nearby</h4>
-      <ul>
-        <li>
-          <a href="https://www.w3.org/Member/wiki/DirectorFOdashboard">Formal Objection dashboard</a> (Member-only link)
-        </li>
-        <li>
-          <a href="/policies/process/">W3C Process Document</a>
-        </li>
-        <li>
-          <a href="https://lists.w3.org/Archives/Public/public-new-work/">Archives of new work advance notices</a>
-        </li>
-        <li>
-          <a href="https://lists.w3.org/Archives/Public/public-review-comments/">Archives of public comments and formal objections</a>
-        </li>
-        <li>
-          <a href="/policies/code-of-conduct/">W3C Code of Conduct</a>
-        </li>
-      </ul>
-    </div>
-    
-    <div id="Content">
-      <p>This document supplements the Process Document by providing best practices to resolve and decide Formal Objections.</p>
-
-      <p>In this document, <dfn id="resolving">resolving</dfn> a Formal Objection means finding a solution that has no objections. <dfn id="deciding">Deciding</dfn> means 
+<p>In this document, <dfn id="resolving">resolving</dfn> a Formal Objection means finding a solution that has no objections. <dfn id="deciding">Deciding</dfn> means 
         giving a yes/no answer to the question of whether an objection should be <dfn id="overrule">overruled</dfn> (i.e., no) or <dfn id="sustained">sustained</dfn> (i.e., yes).
-      </p>
-
-<h2 id="council"><a href="#council">Cases that warrant a W3C Council</a></h2>
-
-  <p>W3C aims to make decisions by consensus. If there are differences of opinions, groups work to understand different points of view and reach agreement, 
-    either by compromise, or by the force of some argument. When that is working well, Formal Objections are rare.
-  </p>
-
-  <p>W3C has substantial formal and informal processes to achieve consensus. The technical development process that results in W3C Recommendations requires that
-    raised issues be addressed by Working Groups. It is a rare event that an issue gets to the W3C Council's desk, and this only occurs after the relevant Working Group has thoroughly assessed all points of view.
-  </p>
-  
-  <p>Similarly, most Working Group Charters are openly developed in Github. Advance Notices inform the community when there is a new Charter to look at,
-    the Charter development process is open for people to raise issues and there is a fair effort to resolve issues prior to raising a Formal Objection.
-  </p>
-
-  <p>The fact that Formal Objections should be rare does not de-legitimize them. On some issues there are legitimate differences of opinion
-    that require higher review. Some topics do not lend themselves to compromise, they are inherently yes/no decisions. It could be hard to find common ground.
-  </p>
-  
-  <p>Nonetheless, the fact that the process is oriented towards consensus implies that before an objection gets higher review there already has been significant work on the issue. There is generally clarity on what the W3C decision was (that is being objected to). 
-    The objector, in trying to reverse the decision, has generally pulled together their best arguments and brought them to the group. 
-    The fact that so much work should be accomplished prior to higher review should make it easier to decide a Formal Objection.
-  </p>
-
-<h2 id="objection-types"><a href="#objection-types">The Team, the W3C Council, and different types of objections</a></h2>
-  <p>The Team has the responsibility to try to resolve a Formal Objection, or to come up with an analysis that might be used by the W3C Council
-   in deciding a Formal Objection. The Team takes the early steps in processing Formal Objections.
-  </p>
-  <p>There are different types of Formal Objections and W3C needs to make sure they are all handled properly.
-    Here are some interesting cases:
-  </p>
-  <ol>
-    <li id="case-1"><p>There is a Formal Objection to a decision in a Working Group.
-      The Team as a neutral bystander attempts to resolve the objection.
-      If it succeeds, W3C takes the path recommended by the Team.
-      If it fails, the Team prepares a report for the W3C Council.
-      The W3C Council decides.</p></li>
-    <li id="case-2"><p>The Team proposes a Charter to the W3C Advisory Committee and there are objections.
-      The Team attempts to resolve the objection even though they are not a neutral bystander.
-      If it succeeds, W3C takes the recommended path.
-      If it fails, the Team prepares a report for the W3C Council.
-      The W3C Council decides.</p></li>
-    <li id="case-3"><p>The Advisory Board (AB) or Technical Architecture Group (TAG) make a decision (e.g., on a process issue, or in a Statement emanating from a TAG finding) and there are objections.</p></li>
-  </ol>
-
-  <p>It is important that even though the Team is an interested party in <a href="#case-2">case 2</a>, and the AB or TAG could be interested parties in <a hred="#case-3">case 3</a>,
-    the overall process must provide the objectivity and transparency to give the W3C Community the confidence that such cases are handled fairly.</p>
-
-
-<h2 id="processing-of-formal-objections"><a href="#processing-of-formal-objections">Processing of Formal Objections</a></h2>
-  <p>All Formal Objections are made in response to a decision. Decisions are typically made by a Working Group as part of the Technical Report Development Process or
-    by the Team as part of chartering a new group.
-  </p>
-
-  <p>Since W3C operates by consensus, it is always better if there can be a consensus between the group that made the original decision and the objector.
-    The first step in processing a formal objection is for the Team to see if it can find a consensus.
-    Even though that presumably has happened already in the Working Group, a new set of eyes might find new paths to resolution.
-    If resolution succeeds, then that resolution becomes the new decision.
-    If that is not successful, the Team prepares a detailed report with an analysis of the decision, objection, and its attempt to find a consensus.
-    That report may also contain a recommendation to favor either the decision or the objection.
-  </p>
-  
-  <p>This report is then sent to the W3C Council, to the deciders, and to the objectors.
-    The W3C Council, like the Team before it, may try to find a consensus path forward.
-    Otherwise, the W3C Council uses input from the report, the deciders, and objectors to either overrule the objection (in which case the original decision is in force), or
-    to sustain the objection (in which case the original decision is vacated).
-    The W3C Council also writes a report explaining their decision, which may be based on the Team's report.
-  </p>
-
-<h3 id="team-fo"><a href="#team-fo">Team attempts to resolve Formal Objections</a></h3>
-  <p>When a Formal Objection is raised, the Team assigns someone to attempt to resolve the Formal Objection. 
-    That assignee is expected to follow the best practices below.
-  </p>
-
-  <p>Within the bounds set by the Process, the Team decides how long the assignee has to attempt resolution and to write the report before the decision will be brought to a W3C Council.
-    It is important that not too much time is spent in trying to resolve irreconcilable differences.
-    Appropriate timing will depend on the complexity of the issue, and on the cooperation of the objector(s) and decider(s).
-  </p>
-  
-  <p>The assignee should be well versed in the topic at hand. The assignee could be the Team Contact for the relevant Working Group, the person that drafted the Charter
-    that is being objected to, or another member of the Team who has familiarity with the situation.
-    It is important that the assignee be perceived as unbiased with respect to the decision under review, and it is extremely important that they execute this task in a way that is
-    as neutral and transparent as possible.
-  </p>
-  
-  <p>The assignee works with all parties to explore whether there is a way to resolve the Formal Objection.
-    If the assignee believes that they have succeeded then the assignee needs ample documentation that the objection is resolved.
-    Resolution requires both the satisfaction of the objectors and ensuring that the proposed resolution does not itself have objectors. Here are some examples:</p>
-
-  <ul>
-    <li><p>If the objectors no longer object to the original decision, then there must be written documentation that they are withdrawing their objection.</p></li>
-    <li><p>If the resolution causes a change in a technical document, then there must be a Working Group call for consensus on the revised document to which there are no objections.</p></li>
-    <li><p>If the resolution causes a change in a proposed charter, then all participants in the <abbr title="Advisory Committee">AC</abbr> review of that charter must have had an opportunity to review the revised proposed charter, and not objected.</p></li>
-  </ul>
-
-  <p>See also: <a href="https://www.w3.org/Member/wiki/DirectorFOdashboard#Team_is_attempting_to_find_consensus_or_not_ready_to_ask_a_Council">Ongoing Team Attempts</a></p>
-
-  <h3 id="publishing-fos"><a href="#publishing-fos">Publishing formal objections</a></h2>
-
-  <p>
-    Formal objections must be made public using <a
-    href='https://lists.w3.org/Archives/Public/public-review-comments/'>public-review-comments</a>, no later than when the
-    relevant council is initiated. The team should publish formal objections as soon as
-    reasonable within the 90 days investigation and mediation period, with some
-    considerations including:
-  </p>
-  <ul>
-    <li>all Formal Objections must be published, even those that are expected to
-      be — or have already been — withdrawn.
-    </li>
-    <li>the Formal Objection ought to be made public as soon as it is
-      received if it needs to be discussed by a <a
-      href='https://www.w3.org/groups/'>W3C Group</a>.
-    </li>
-    <li>
-      to avoid unproductive attention on members who file formal objections
-      on easily resolved matters such as charter durations and the like, the Team should
-      anonymize such formal objections as a matter of routine.
-    </li>
-    <li>
-      If there are multiple Formal Objections to the same decision or to the same AC Review,
-      the Team should make them all public at the same time, to avoid attracting unwarranted
-      unbalanced media attention to a single objector among several. For the same reason, if
-      some formal objections are already public — for instance, if the objector made it
-      public themselves — the Team should make any other formal objection to the same decision or
-      to the same AC Review public without delay.
-    </li>
-  </ul>
-
-  <p>
-    To avoid leaving people wondering what happened, the Team should post a response to the
-    announcement of the formal objection, indicating the resolution of the formal objection,
-    such as overruled or withdrawn, and giving a quick summary as to why.
-  </p>
-
-<h2 id="referral"><a href="#referral">Referral to W3C Council</a></h2>
-
-<p>If resolution is not possible in the allocated time frame, the assignee must refer the Formal Objection to the W3C Council for decision. The steps for that are as follows:</p>
-<ul>
-  <li>
-    <p>The assignee writes a report for the W3C Council summarizing the decision and the objection.</p>
-    <ul>
-      <li><p>The document is typically public.</p></li>
-      <li><p>If there are limited portions of the document which are confidential, there may be pointers to a separate confidential document.
-        These may be summarized in the main document without compromising confidential information.</p></li>
-      <li><p>The document should have a section in which both points of view are fairly expressed.</p></li>
-      <li><p>The document should include a list of who the objectors are. If that list is confidential, it may be in the separate document.</p></li>
-      <li><p>The document should list attempts to resolve the objection and why they failed.</p></li>
-      <li><p>The document may include the assignee's recommendations and rationale whether to sustain or overrule the objection.</p></li>
-    </ul>
-  </li>
-  <li>
-    <p>The report should be available for review by the relevant groups and objectors.</p>
-    <ul>
-      <li><p>If any participant feels that their viewpoint is not fairly represented, a limited time effort should be made to get all relevant information into the document.</p></li>
-      <li><p>If at the end of the allocated time the Team determines that it is not possible to get agreement on the summary document, then the Team publishes
-        their summary and notes which participants believe that it is not a fair summary. Those participants may write up their own viewpoints.</p></li>
-        <li><p>The assignee should indicate an explicit team contact (which can be the assignee) for comments on the draft document.</p></li>
-    </ul>
-  </li>
-  <li>
-    <p>The W3C Council determines who will rule on this objection and who will chair the Council.</p>
-    <ul>
-      <li><p>See <a href="/policies/process/#council-participation">Council Participation, Dismissal, and Renunciation</a> and
-        <a href="/policies/process/#council-chairing">Council Chairing</a>.</p></li>
-      <li><p>Every person serving on the W3C Council is expected to be sufficiently knowledgeable that they feel comfortable with the decision of the W3C Council.
-        The breadth of the W3C Council membership, and therefore the participation of each of its members, is key to the Council’s ability to provide an appropriate
-        balance of viewpoints.</p></li>
-    </ul>
-  </li>
-  <li>
-    <p>In extraordinary circumstances, the W3C Council may vote to <a href="/policies/process/#council-delegation">delegate</a> or
-      <a href="/policies/process/#council-short-circuit">short-circuit</a> its decision.</p>
-  </li>
-  <li>
-    <p>The W3C Council <a href="/policies/process/#council-deliberations">deliberates and reaches a decision</a> to sustain or overrule the original decision.</p>
-    <ul>
-      <li><p>If the W3C Council members deem that the written summaries are sufficient, they are not required to discuss with participants further, although they may
-        do so if they wish. They may consult with deciders and objectors if they wish. See thoroughness and fairness below.</p></li>
-      <li><p>Once consultations are completed, the Chair of the W3C Council assesses the consensus of the Council, or if consensus cannot be found,
-        calls for a vote of the W3C Council to sustain or overrule the Formal Objection.</p></li>
-      <li><p>If there is disagreement within the Council
-            about the meaning of those sections of the Process
-            that govern the Council itself,
-            in a way that interferes with its ability to discuss the substance of the case,
-            the Chair should try to resolve this by consensus,
-            and should seek advice from the Team contact on how to interpret the Process.
-            If consensus cannot be found,
-            the chair should make a determination,
-            possibly through a vote,
-            to allow the deliberations to move on.
-            Any such point of procedural contention should be covered
-            in the Council Report.</p></li>
-      <li><p>The W3C Council <a href="/policies/process/#council-decision">publishes its decision and its rationale</a>.</p></li>
-      <li><p>Whether the decision is to sustain or overrule, the W3C Council may include additional guidance for any of the participants involved.</p></li>
-      <li><p>If the objection is sustained, the relevant group (i.e., Working Group, or Team developing a charter) may resume work to develop a different proposal for their document.</p></li>
-    </ul>
-  </li>
-</ul>
-<p>See also: <a href="https://www.w3.org/Guide/council/council#referral">Ongoing Referrals to W3C Council</a></p>
-
-<h2 id="nature-of-council-deliberations"><a href="#nature-of-council-deliberations">The Nature of W3C Council deliberations</a></h2>
-
-<h3 id="considerations"><a href="#considerations">I. Considerations</a></h3>
-
-<p>Each Formal Objection referred to the W3C Council has unique aspects, and the W3C Council needs the flexibility to choose how it reaches a decision.
-  In studying a particular Formal Objection, the W3C Council should always balance several factors:</p>
-<ul>
-  <li><p>Making the correct decision for the Web.</p></li>
-  <li><p>Speed of decision making: that W3C does not get mired in objection processing.</p></li>
-  <li><p>Understanding and empathy for the objector(s).</p></li>
-  <li><p>Assuring that objection processing does not become a means for all decisions to be centralized at W3C.</p></li>
-  <li><p>Avoiding micromanagement.</p></li>
-  <li><p>Treating all objectors consistently irrespective of who the objector might be.</p></li>
-  <li><p>Workload. If processing each Formal Objection results in significant work for a very large Council, then
-    the Council will not have time to process the workload and the W3C Council design will not scale.</p></li>
-</ul>
-
-<h3 id="convincing-the-council"><a href="#convincing-the-council">II. Convincing the W3C Council</a></h3>
-
-<p>The nature of a Formal Objection is that a Decision has been made and someone has raised a Formal Objection to that Decision.
-  The W3C Council is required by the Process to review the Decision, and choose whether to overrule the objection or sustain the objection.
-  This section addresses what information the Council has to consider.</p>
-
-<p>In any individual objection, the W3C Council is empowered to find any resolution to the objection. In addition, finding a consensus that is
-  supported by all is always preferred. Nothing in this discussion precludes such an approach or forces an adversarial judicial proceeding.
-  Nonetheless, there should be a clear expectation about the starting point for Council deliberations.</p>
-
-<p>Objectors should not be looking at the W3C Council to come up with new arguments to support their point of view.
-  For example, if objectors have vague arguments of the form ”this is bad for privacy” or “this is bad for business”,
-  they should not expect the Council to do the research to demonstrate whether their vague arguments are correct.
-  Rather, they need to bring forward arguments which explain why something is bad for privacy and/or business—and then the Council evaluates their claims.
-  The objector is responsible for making a compelling case to help the Council understand their concerns, and should provide evidence and references to that end.</p>
-
-<p>An important role for the Team assignee is to anticipate questions the W3C Council is likely to have during its
-  deliberations about the Decision and the Objection, and to work with the objector(s) and deciders to provide that information in the Team Report.</p>
-
-<p>Nevertheless, the W3C Council should not dismiss an Objection merely because the objector or the Team did not provide incontrovertible proof.
-  The objectors need to <em>convince
-  the Council that, in the best interests of the Web, their objection should overturn the decision</em>.
-  Still, it is imprudent for objectors or deciders to count on the Council doing their homework for them, as insufficient documentation can lead
-  to the Council failing to see the point.</p>
-
-<p>The W3C Council is responsible for fully understanding all sides of the argument and making an informed decision.
-  If the Council sees potential merit in the claims made on either side, but needs more information to be sure, it may investigate
-  (or ask the Team to investigate) until its members know enough to responsibly decide. During this thorough analysis, the Council may learn
-  new information, which might bear on the decision.
-  But that new information should be incidental to the analysis—the responsibility to make a convincing objection remains on the objectors.</p>
-
-<p>Placing the burden of convincing on the objectors is supported by several considerations:</p>
-
-<ul>
-  <li><p>Speed. If the W3C Council begins to look for additional new arguments, they are likely to take longer in their assessment.</p></li>
-  <li><p>Avoiding centralization. If every objection results in the Council accepting the burden of convincing on themselves, inevitably
-    it will cause more stakeholders to bring topics to the Council and ultimately begin to centralize decisions.</p></li>
-  <li><p>Treating objectors consistently. If the Council begins to accept the burden of convincing on themselves for some Objections,
-    then to be consistent, they will need to accept the burden for all objectors.
-    That would be a tremendous expansion of scope for Formal Objections.</p></li>
-  <li><p>Workload. If the W3C Council begins to accept the burden of convincing on themselves, that would considerably add workload to the Council.</p></li>
-</ul>
-
-<h3 id="council-report"><a href="#council-report">III. W3C Council Reports</a></h3>
-<p>The W3C Council Decision Report section of the Process covers what information the Council is expected to provide in its report. Fundamentally, the Council needs to either:</p>
-<ul>
-  <li><p>Cleanly overrule the Objection and allow the Decision to stand.</p></li>
-  <li><p>Clearly sustain the Objection and require the responsible parties to address the Objection.</p></li>
-</ul>
-
-<p>
-  Overruling a Formal Objection does not imply that there is zero validity to the Objection, only that the claims are insufficient to overturn this decision.
-  To the extent that there is some validity to the claims of the objectors, a W3C Council decision to overrule the Objection does not give the deciders authority to
-  ignore these claims further in the development. It is therefore useful for the Council to distinguish between claims of the objector that they find to be
-  without merit, and those that are merely insufficient to justify overturning the decision but are nonetheless legitimate concerns that should be investigated
-  and potentially addressed later in the process.
 </p>
 
-<p>
-  When an Objection is sustained, the W3C Council can suggest an approach that it believes could repair the Objection, but cannot make any dictates.
-  The W3C Council is not expected to write charters or technical reports; sustaining an Objection leaves the design of a new way forward to the responsible parties.
-</p>
+## [Cases that warrant a W3C Council](#council)
 
-<p>
-  While providing guidance beyond a simple sustain/overrule decision increases the workload of the W3C Council for an individual Objection,
-  helping the community avoid predictable pitfalls reduces the amount of wasted effort both for the community and for future W3C Councils.
-</p>
+W3C aims to make decisions by consensus. If there are differences of opinions, groups work to understand different points of view and reach agreement, either by compromise, or by the force of some argument. When that is working well, Formal Objections are rare.
 
-<h2 id="best-practices"><a href="#best-practices"></a></h2>
+W3C has substantial formal and informal processes to achieve consensus. The technical development process that results in W3C Recommendations requires that raised issues be addressed by Working Groups. It is a rare event that an issue gets to the W3C Council's desk, and this only occurs after the relevant Working Group has thoroughly assessed all points of view.
 
-<p>
-  Above we described, qualitatively, how the W3C Council should deal with Objections. A useful Best Practices checklist may be arranged in categories.
-</p>
+Similarly, most Working Group Charters are openly developed in Github. Advance Notices inform the community when there is a new Charter to look at, the Charter development process is open for people to raise issues and there is a fair effort to resolve issues prior to raising a Formal Objection.
 
-<h3 id="thoroughness"><a href="#thoroughness">I. Thoroughness</a></h3>
+The fact that Formal Objections should be rare does not de-legitimize them. On some issues there are legitimate differences of opinion that require higher review. Some topics do not lend themselves to compromise, they are inherently yes/no decisions. It could be hard to find common ground.
 
-<p>This includes:</p>
+Nonetheless, the fact that the process is oriented towards consensus implies that before an objection gets higher review there already has been significant work on the issue. There is generally clarity on what the W3C decision was (that is being objected to). The objector, in trying to reverse the decision, has generally pulled together their best arguments and brought them to the group. The fact that so much work should be accomplished prior to higher review should make it easier to decide a Formal Objection.
+
+## [The Team, the W3C Council, and different types of objections](#objection-types)
+
+The Team has the responsibility to try to resolve a Formal Objection, or to come up with an analysis that might be used by the W3C Council in deciding a Formal Objection. The Team takes the early steps in processing Formal Objections.
+
+There are different types of Formal Objections and W3C needs to make sure they are all handled properly. Here are some interesting cases:
+
+1. There is a Formal Objection to a decision in a Working Group. The Team as a neutral bystander attempts to resolve the objection. If it succeeds, W3C takes the path recommended by the Team. If it fails, the Team prepares a report for the W3C Council. The W3C Council decides.
+2. The Team proposes a Charter to the W3C Advisory Committee and there are objections. The Team attempts to resolve the objection even though they are not a neutral bystander. If it succeeds, W3C takes the recommended path. If it fails, the Team prepares a report for the W3C Council. The W3C Council decides.
+3. The Advisory Board (AB) or Technical Architecture Group (TAG) make a decision (e.g., on a process issue, or in a Statement emanating from a TAG finding) and there are objections.
+
+It is important that even though the Team is an interested party in [case 2](#case-2), and the AB or TAG could be interested parties in [case 3](), the overall process must provide the objectivity and transparency to give the W3C Community the confidence that such cases are handled fairly.
+
+## [Processing of Formal Objections](#processing-of-formal-objections)
+
+All Formal Objections are made in response to a decision. Decisions are typically made by a Working Group as part of the Technical Report Development Process or by the Team as part of chartering a new group.
+
+Since W3C operates by consensus, it is always better if there can be a consensus between the group that made the original decision and the objector. The first step in processing a formal objection is for the Team to see if it can find a consensus. Even though that presumably has happened already in the Working Group, a new set of eyes might find new paths to resolution. If resolution succeeds, then that resolution becomes the new decision. If that is not successful, the Team prepares a detailed report with an analysis of the decision, objection, and its attempt to find a consensus. That report may also contain a recommendation to favor either the decision or the objection.
+
+This report is then sent to the W3C Council, to the deciders, and to the objectors. The W3C Council, like the Team before it, may try to find a consensus path forward. Otherwise, the W3C Council uses input from the report, the deciders, and objectors to either overrule the objection (in which case the original decision is in force), or to sustain the objection (in which case the original decision is vacated). The W3C Council also writes a report explaining their decision, which may be based on the Team's report.
+
+### [Team attempts to resolve Formal Objections](#team-fo)
+
+When a Formal Objection is raised, the Team assigns someone to attempt to resolve the Formal Objection. That assignee is expected to follow the best practices below.
+
+Within the bounds set by the Process, the Team decides how long the assignee has to attempt resolution and to write the report before the decision will be brought to a W3C Council. It is important that not too much time is spent in trying to resolve irreconcilable differences. Appropriate timing will depend on the complexity of the issue, and on the cooperation of the objector(s) and decider(s).
+
+The assignee should be well versed in the topic at hand. The assignee could be the Team Contact for the relevant Working Group, the person that drafted the Charter that is being objected to, or another member of the Team who has familiarity with the situation. It is important that the assignee be perceived as unbiased with respect to the decision under review, and it is extremely important that they execute this task in a way that is as neutral and transparent as possible.
+
+The assignee works with all parties to explore whether there is a way to resolve the Formal Objection. If the assignee believes that they have succeeded then the assignee needs ample documentation that the objection is resolved. Resolution requires both the satisfaction of the objectors and ensuring that the proposed resolution does not itself have objectors. Here are some examples:
+
+- If the objectors no longer object to the original decision, then there must be written documentation that they are withdrawing their objection.
+- If the resolution causes a change in a technical document, then there must be a Working Group call for consensus on the revised document to which there are no objections.
+- If the resolution causes a change in a proposed charter, then all participants in the AC review of that charter must have had an opportunity to review the revised proposed charter, and not objected.
+
+See also: [Ongoing Team Attempts](https://www.w3.org/Member/wiki/DirectorFOdashboard#Team_is_attempting_to_find_consensus_or_not_ready_to_ask_a_Council)
+
+### [Publishing formal objections](#publishing-fos)
+
+Formal objections must be made public using [public-review-comments](https://lists.w3.org/Archives/Public/public-review-comments/), no later than when the relevant council is initiated. The team should publish formal objections as soon as reasonable within the 90 days investigation and mediation period, with some considerations including:
+
+- all Formal Objections must be published, even those that are expected to be — or have already been — withdrawn.
+- the Formal Objection ought to be made public as soon as it is received if it needs to be discussed by a [W3C Group](https://www.w3.org/groups/).
+- to avoid unproductive attention on members who file formal objections on easily resolved matters such as charter durations and the like, the Team should anonymize such formal objections as a matter of routine.
+- If there are multiple Formal Objections to the same decision or to the same AC Review, the Team should make them all public at the same time, to avoid attracting unwarranted unbalanced media attention to a single objector among several. For the same reason, if some formal objections are already public — for instance, if the objector made it public themselves — the Team should make any other formal objection to the same decision or to the same AC Review public without delay.
+
+To avoid leaving people wondering what happened, the Team should post a response to the announcement of the formal objection, indicating the resolution of the formal objection, such as overruled or withdrawn, and giving a quick summary as to why.
+
+## [Referral to W3C Council](#referral)
+
+If resolution is not possible in the allocated time frame, the assignee must refer the Formal Objection to the W3C Council for decision. The steps for that are as follows:
+
+- The assignee writes a report for the W3C Council summarizing the decision and the objection.
+  
+  - The document is typically public.
+  - If there are limited portions of the document which are confidential, there may be pointers to a separate confidential document. These may be summarized in the main document without compromising confidential information.
+  - The document should have a section in which both points of view are fairly expressed.
+  - The document should include a list of who the objectors are. If that list is confidential, it may be in the separate document.
+  - The document should list attempts to resolve the objection and why they failed.
+  - The document may include the assignee's recommendations and rationale whether to sustain or overrule the objection.
+- The report should be available for review by the relevant groups and objectors.
+  
+  - If any participant feels that their viewpoint is not fairly represented, a limited time effort should be made to get all relevant information into the document.
+  - If at the end of the allocated time the Team determines that it is not possible to get agreement on the summary document, then the Team publishes their summary and notes which participants believe that it is not a fair summary. Those participants may write up their own viewpoints.
+  - The assignee should indicate an explicit team contact (which can be the assignee) for comments on the draft document.
+- The W3C Council determines who will rule on this objection and who will chair the Council.
+  
+  - See [Council Participation, Dismissal, and Renunciation](/policies/process/#council-participation) and [Council Chairing](/policies/process/#council-chairing).
+  - Every person serving on the W3C Council is expected to be sufficiently knowledgeable that they feel comfortable with the decision of the W3C Council. The breadth of the W3C Council membership, and therefore the participation of each of its members, is key to the Council’s ability to provide an appropriate balance of viewpoints.
+- In extraordinary circumstances, the W3C Council may vote to [delegate](/policies/process/#council-delegation) or [short-circuit](/policies/process/#council-short-circuit) its decision.
+- The W3C Council [deliberates and reaches a decision](/policies/process/#council-deliberations) to sustain or overrule the original decision.
+  
+  - If the W3C Council members deem that the written summaries are sufficient, they are not required to discuss with participants further, although they may do so if they wish. They may consult with deciders and objectors if they wish. See thoroughness and fairness below.
+  - Once consultations are completed, the Chair of the W3C Council assesses the consensus of the Council, or if consensus cannot be found, calls for a vote of the W3C Council to sustain or overrule the Formal Objection.
+  - If there is disagreement within the Council about the meaning of those sections of the Process that govern the Council itself, in a way that interferes with its ability to discuss the substance of the case, the Chair should try to resolve this by consensus, and should seek advice from the Team contact on how to interpret the Process. If consensus cannot be found, the chair should make a determination, possibly through a vote, to allow the deliberations to move on. Any such point of procedural contention should be covered in the Council Report.
+  - The W3C Council [publishes its decision and its rationale](/policies/process/#council-decision).
+  - Whether the decision is to sustain or overrule, the W3C Council may include additional guidance for any of the participants involved.
+  - If the objection is sustained, the relevant group (i.e., Working Group, or Team developing a charter) may resume work to develop a different proposal for their document.
+
+See also: [Ongoing Referrals to W3C Council](https://www.w3.org/Guide/council/council#referral)
+
+## [The Nature of W3C Council deliberations](#nature-of-council-deliberations)
+
+### [I. Considerations](#considerations)
+
+Each Formal Objection referred to the W3C Council has unique aspects, and the W3C Council needs the flexibility to choose how it reaches a decision. In studying a particular Formal Objection, the W3C Council should always balance several factors:
+
+- Making the correct decision for the Web.
+- Speed of decision making: that W3C does not get mired in objection processing.
+- Understanding and empathy for the objector(s).
+- Assuring that objection processing does not become a means for all decisions to be centralized at W3C.
+- Avoiding micromanagement.
+- Treating all objectors consistently irrespective of who the objector might be.
+- Workload. If processing each Formal Objection results in significant work for a very large Council, then the Council will not have time to process the workload and the W3C Council design will not scale.
+
+### [II. Convincing the W3C Council](#convincing-the-council)
+
+The nature of a Formal Objection is that a Decision has been made and someone has raised a Formal Objection to that Decision. The W3C Council is required by the Process to review the Decision, and choose whether to overrule the objection or sustain the objection. This section addresses what information the Council has to consider.
+
+In any individual objection, the W3C Council is empowered to find any resolution to the objection. In addition, finding a consensus that is supported by all is always preferred. Nothing in this discussion precludes such an approach or forces an adversarial judicial proceeding. Nonetheless, there should be a clear expectation about the starting point for Council deliberations.
+
+Objectors should not be looking at the W3C Council to come up with new arguments to support their point of view. For example, if objectors have vague arguments of the form ”this is bad for privacy” or “this is bad for business”, they should not expect the Council to do the research to demonstrate whether their vague arguments are correct. Rather, they need to bring forward arguments which explain why something is bad for privacy and/or business—and then the Council evaluates their claims. The objector is responsible for making a compelling case to help the Council understand their concerns, and should provide evidence and references to that end.
+
+An important role for the Team assignee is to anticipate questions the W3C Council is likely to have during its deliberations about the Decision and the Objection, and to work with the objector(s) and deciders to provide that information in the Team Report.
+
+Nevertheless, the W3C Council should not dismiss an Objection merely because the objector or the Team did not provide incontrovertible proof. The objectors need to *convince the Council that, in the best interests of the Web, their objection should overturn the decision*. Still, it is imprudent for objectors or deciders to count on the Council doing their homework for them, as insufficient documentation can lead to the Council failing to see the point.
+
+The W3C Council is responsible for fully understanding all sides of the argument and making an informed decision. If the Council sees potential merit in the claims made on either side, but needs more information to be sure, it may investigate (or ask the Team to investigate) until its members know enough to responsibly decide. During this thorough analysis, the Council may learn new information, which might bear on the decision. But that new information should be incidental to the analysis—the responsibility to make a convincing objection remains on the objectors.
+
+Placing the burden of convincing on the objectors is supported by several considerations:
+
+- Speed. If the W3C Council begins to look for additional new arguments, they are likely to take longer in their assessment.
+- Avoiding centralization. If every objection results in the Council accepting the burden of convincing on themselves, inevitably it will cause more stakeholders to bring topics to the Council and ultimately begin to centralize decisions.
+- Treating objectors consistently. If the Council begins to accept the burden of convincing on themselves for some Objections, then to be consistent, they will need to accept the burden for all objectors. That would be a tremendous expansion of scope for Formal Objections.
+- Workload. If the W3C Council begins to accept the burden of convincing on themselves, that would considerably add workload to the Council.
+
+### [III. W3C Council Reports](#council-report)
+
+The W3C Council Decision Report section of the Process covers what information the Council is expected to provide in its report. Fundamentally, the Council needs to either:
+
+- Cleanly overrule the Objection and allow the Decision to stand.
+- Clearly sustain the Objection and require the responsible parties to address the Objection.
+
+Overruling a Formal Objection does not imply that there is zero validity to the Objection, only that the claims are insufficient to overturn this decision. To the extent that there is some validity to the claims of the objectors, a W3C Council decision to overrule the Objection does not give the deciders authority to ignore these claims further in the development. It is therefore useful for the Council to distinguish between claims of the objector that they find to be without merit, and those that are merely insufficient to justify overturning the decision but are nonetheless legitimate concerns that should be investigated and potentially addressed later in the process.
+
+When an Objection is sustained, the W3C Council can suggest an approach that it believes could repair the Objection, but cannot make any dictates. The W3C Council is not expected to write charters or technical reports; sustaining an Objection leaves the design of a new way forward to the responsible parties.
+
+While providing guidance beyond a simple sustain/overrule decision increases the workload of the W3C Council for an individual Objection, helping the community avoid predictable pitfalls reduces the amount of wasted effort both for the community and for future W3C Councils.
+
+
+Above we described, qualitatively, how the W3C Council should deal with Objections. A useful Best Practices checklist may be arranged in categories.
+
+## [Best Practices](#best-practices)
+
+Above we described, qualitatively, how the W3C Council should deal with Objections. A useful Best Practices checklist may be arranged in categories.
+
+### [I. Thoroughness](#thoroughness)
+
+This includes:
 
 <dl>
   <dt>Understanding all sides of the argument</dt>
@@ -373,8 +178,9 @@ wisdom of the W3C Group Chairs and other collaborators.</p>
     legitimate points raised by the party that is not favored in the ruling, but explain why they are not decisive.</p></dd>
 </dl>
 
-<h3 id="fairness"><a href="#fairness">II. Fairness</a></h3>
-<p>This includes:</p>
+### [II. Fairness](#fairness)
+
+This includes:
 
 <dl>
   <dt>Balance and depth</dt>
@@ -405,9 +211,9 @@ wisdom of the W3C Group Chairs and other collaborators.</p>
     into consideration in terms of the best solution for the Web.</p></dd>
 </dl>
 
-<h3 id="communications"><a href="#communications">III. Communications</a></h3>
+### [III. Communications](#communications)
 
-<p>This includes:</p>
+This includes:
 
 <dl>
   <dt>Publication of W3C Council decisions</dt>
@@ -428,17 +234,6 @@ wisdom of the W3C Group Chairs and other collaborators.</p>
     such communications take place and the process continues to move forward.</p></dd>
 </dl>
 
+### Revision History
 
-<h3>Revision History</h3>
-<ul>
-<li>2023-03-30: Document created based on a draft by the <a href="https://www.w3.org/2002/ab/"><abbr title="Advisory Board">AB</abbr></a>.</li>
-</ul>
-
-</div>
-
-<hr>
-<p>Owned by <a href="https://github.com/orgs/w3c/teams/tilt">@w3c/tilt</a>
- and feedback is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</address>
-</body>
-</html>
+- 2023-03-30: Document created based on a draft by the [AB](https://www.w3.org/2002/ab/).
