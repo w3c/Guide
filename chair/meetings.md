@@ -1,35 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-  <meta charset="utf-8" />
-  <title>Chairs Meetings, Historical</title>
-  <link rel="stylesheet" href="https://www.w3.org/StyleSheets/generic-base-1.css" type="text/css">
-  <link rel="stylesheet" type="text/css" href="../assets/main.css">
-  <link rel="shortcut icon" href="https://www.w3.org/Icons/WWW/Literature.gif">
-  <style type="text/css">
-    .abstract { margin-left: 3em; font-size: smaller }
-  </style>
-</head>
-<body>
-  <div id="header">
-    <span class="logo">
-      <a href="/">
-        <img src="https://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" height="48" width="72">
-      </a>
-    </span>
-    <div class="breadcrumb"><a href="https://www.w3.org/get-involved/">Get involved</a> → <a href="https://www.w3.org/Guide/">The Art of Consensus</a> →
-<h1>Chairs Meetings</h1></div>
-    <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and other collaborators.</p>
-  </div>
+---
+title: Chairs Meetings
+toc: false
+---
 
-  <div class="toolbox box" style="margin-bottom: 1em">
-    <h4>Related Resources</h4>
-    <ul>
-      <li><a href="buddy.html">W3C Chair Buddy System</a></li>
-    </ul>
-  </div>
-
-<blockquote style="margin-top: 5em;">
+<blockquote>
   <p>I am overwhelmed by the level of talent and dedication in this group.</p>
   <address>
     -- <a href="https://www.w3.org/People/Berners-Lee">Tim Berners-Lee</a>, at
@@ -37,12 +11,10 @@
   </address>
 </blockquote>
 
-<p>We met originally in November 1997 to facilitate shared context among the
-W3C Working Group Chairs and the W3C Team. We did a few more face-to-face
-meetings and several teleconferences.</p>
+We met originally in November 1997 to facilitate shared context among the W3C Working Group Chairs and the W3C Team. We did a few more face-to-face meetings and several teleconferences.
 
-<p>See also the <a href="../2002/09/TPOverview.html">technical plenary
-history</a></p>
+See also the [technical plenary history](../2002/09/TPOverview.html)
+
 <dl>
   <dt><a name="9711chairs" id="_9711chairs"></a>20 Nov 1997</dt>
     <dd><a href="../Member/9711/wg-chairs.html">1st Working Group Chairs
@@ -157,9 +129,4 @@ history</a></p>
   <dd><a href="https://lists.w3.org/Archives/Member/chairs/2022JanMar/0051.html">agenda</a>, <a href="https://www.w3.org/2022/03/01-chairs-minutes.html">minutes</a></dd>
   <dt>15 September 2022: TPAC 2022</dt>
   <dd><a href="https://www.w3.org/2022/09/15-chairs-minutes.html">minutes</a></dd>
-  </dl>
-  <hr>
-  <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-   and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
-</html>
+</dl>
