@@ -1,45 +1,11 @@
-<!DOCTYPE html>
-<html  lang="en">
-<head>
-<meta charset="utf-8">
-<title>W3C Specification Editor</title>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/generic-base-1.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="../assets/main.css">
-<link rel="shortcut icon" href="https://www.w3.org/Icons/WWW/Literature.gif">
-</head>
-<body>
-    <div id="header">
-        <span class="logo">
-          <a href="/">
-            <img src="https://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" height="48" width="72">
-          </a>
-        </span>
-        <div class="breadcrumb"><a href="https://www.w3.org/participate/">Participate</a> → <a href="https://www.w3.org/Guide/">The Art of Consensus</a> → 
-  <h1>W3C Specification Editor</h1></div>
-        <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and other collaborators.</p>
-      </div>
+---
+title: W3C Specification Editor
+toc: false
+---
 
-      <div class="toolbox box" style="margin-bottom: 1em">
-        <h4>Related Resources</h4>
-        <ul>
-            <li><a
-                href="../chair/role.html">W3C Working/Interest Group Chair</a></li>
-            <li><a href="https://w3c.github.io/">W3C on GitHub</a></li>
-            <li><a href="https://www.w3.org/Guide/transitions">Organize a Technical Report Transition</a></li>
-            <li><a href="https://labs.w3.org/normative-references/">Normative references checker</a></li>
-        </ul>
-      </div>
+The role of the editor is not that of author. They maintain the text of a current draft that the Group has agreed to and possibly to suggest concrete wording when none is forthcoming from the group.
 
-
-<p>
-  The role of the editor is not that of author. They maintain the text of a current draft
-  that the Group has agreed to and possibly to suggest concrete wording when none is
-  forthcoming from the group.
-</p>
-<p>
-  Specification editors are <a href="https://www.w3.org/Guide/chair/role.html">appointed
-  by the Group Chair</a>.
-</p>
+Specification editors are [appointed by the Group Chair](https://www.w3.org/Guide/chair/role.html).
 
 <section>
 <h2>Role of the editor</h2>
@@ -109,9 +75,3 @@ change to a draft, before the proposed change is discussed.</p>
 </dd>
 </dl>
 </section>
-
-  <hr>
-  <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-   and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-  </body>
-</html>
