@@ -249,11 +249,15 @@ Is it possible to make too many requests for review?
    
    They may not even be able to find someone with availability to do the review in that time, and then they need a week or two to discuss their response after the review, and then they'll send you comments that may require you to make substantive changes.
 
-## Terminology  and abbreviations
+## Terminology and abbreviations
 
-* <strong>pre-CR</strong> - This is a version of a Working Draft that is created to get wide review.
-  * note that this is a bad way to get review. In general, features should be reviewed as they are developed. Waiting for a "Last Call" for most review means that when reviews suggest changes it is far harder to make them, due to a commonly observed and logical reluctance to break deployed systems or content. [Charles McCathie Nevile](https://www.w3.org/wiki/User:Charles" title="User:Charles) 11:18, 13 October 2014 (UTC)
-* <strong>requesting group</strong> - a group that is requesting a review
+pre-CR
+: This is a version of a Working Draft that is created to get wide review.
+
+  > Note that this is a bad way to get review. In general, features should be reviewed as they are developed. Waiting for a "Last Call" for most review means that when reviews suggest changes it is far harder to make them, due to a commonly observed and logical reluctance to break deployed systems or content. -- [Charles McCathie Nevile](https://www.w3.org/wiki/User:Charles) 11:18, 13 October 2014 (UTC)
+
+requesting group
+: a group that is requesting a review
 
 Abbreviations:
 * BP = Best Practices
