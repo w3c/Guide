@@ -237,15 +237,15 @@ Is it possible to make too many requests for review?
 ## Common mistakes when making a transition request
 
 1. If you make substantive changes, you'll need to do a wide review for those  before you move forward to the [next maturity stage](https://www.w3.org/Guide/documentreview/#who_to_ask_for_review).
-2. Never ever exclude some [horizontal groups](/Guide/process/horizontal-groups.html) from your review requests because you concluded it was irrelevant for them or they haven't responded to your last request.
+1. Never ever exclude some [horizontal groups](/Guide/process/horizontal-groups.html) from your review requests because you concluded it was irrelevant for them or they haven't responded to your last request.
    
    Let them make the decision that something is irrelevant to their field of expertise instead. You're welcome to time out if you don't hear back, and request to move forward anyway.
-3. Publish a Working Draft or a Candidate Recommendation Draft when asking for reviews.
+1. Publish a Working Draft or a Candidate Recommendation Draft when asking for reviews.
    It's better for a Group to miss the fact that you fixed an issue in your editor's draft than the Team missing the fact you made an unreviewed substantive change in your editor's draft.
-4. Don't flag your issues with one of those <span class="githublabel">\*-needs-resolution</span> labels, and don't remove one which has been applied (you <em>can</em> close the issue though, if it is resolved).
+1. Don't flag your issues with one of those <span class="githublabel">\*-needs-resolution</span> labels, and don't remove one which has been applied (you <em>can</em> close the issue though, if it is resolved).
 
    Those are intended solely to be used by [horizontal groups](/Guide/process/horizontal-groups.html) to [bring special attention](https://www.w3.org/Guide/documentreview/#What_happens_to_unresolved_issues_marked_needs-resolution).
-5. Don't assume that the horizontal group will be able to schedule and complete a review within 2 weeks so that you can proceed to CR.
+1. Don't assume that the horizontal group will be able to schedule and complete a review within 2 weeks so that you can proceed to CR.
    
    They may not even be able to find someone with availability to do the review in that time, and then they need a week or two to discuss their response after the review, and then they'll send you comments that may require you to make substantive changes.
 
@@ -270,9 +270,4 @@ Abbreviations:
 
 See the [Document Review Dashboard](https://www.w3.org/wiki/Dashboard#Document_Review_Dashboard) document for information about creating a dashboard type service to facilitate document reviews.
 
-<<<<<<< HEAD
-<div id="versionInfo"><small>See the [commit history](https://github.com/w3c/Guide/tree/main/documentreview).</small></div>
-
-=======
->>>>>>> 1885fa3 (Fix headings levels)
 <script src="create-github-issue.js"></script>
