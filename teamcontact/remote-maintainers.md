@@ -49,14 +49,15 @@ A message may be stuck because of an attachment that is too large, and the list 
 
 Guidance for which archive mailing list to choose depending on the confidentiality-level of the target list:
 
-<dl>
-    <dt>member-visible: w3c-archive@w3.org (indicative size limit: 25971520 bytes)</dt>
-    <dd>cf. <a href="https://lists.w3.org/Archives/Member/w3c-archive/">https://lists.w3.org/Archives/Member/w3c-archive/</a></dd>
-    <dt>team-only: w3t-archive@w3.org (indicative size limit: 41943040 bytes)</dt>
-    <dd>cf. <a href="https://lists.w3.org/Archives/Team/w3t-archive/">https://lists.w3.org/Archives/Team/w3t-archive/</a></dd>
-    <dt>public: www-archive@w3.org (indicative size limit: 41943040 bytes)</dt>
-    <dd>cf. <a href="https://lists.w3.org/Archives/Public/www-archive/">https://lists.w3.org/Archives/Public/www-archive/</a></dd>
-</dl> 
+
+member-visible: w3c-archive@w3.org (indicative size limit: 25971520 bytes)
+: cf. [https://lists.w3.org/Archives/Member/w3c-archive/](https://lists.w3.org/Archives/Member/w3c-archive/)
+
+team-only: w3t-archive@w3.org (indicative size limit: 41943040 bytes)
+: cf. [https://lists.w3.org/Archives/Team/w3t-archive/](https://lists.w3.org/Archives/Team/w3t-archive/)
+
+public: www-archive@w3.org (indicative size limit: 41943040 bytes)
+: cf. [https://lists.w3.org/Archives/Public/www-archive/](https://lists.w3.org/Archives/Public/www-archive/)
 
 If you have useful info not listed above, please contribute it by [editing this page](https://github.com/w3c/Guide/blob/master/teamcontact/RemoteMaintainers.html) or by sending email to [sysreq@w3.org](mailto:sysreq@w3.org).
 
