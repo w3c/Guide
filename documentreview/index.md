@@ -22,9 +22,9 @@ toc: true
 
 ## How to do Wide Review
 
-Getting <i class="term">early</i> and <i class="term">wide</i> review of a document is very important, yet in practice it can be challenging.  This document provides some best practices for getting document review; it does not define explicit mandatory steps.
+Getting *early* and *wide* review of a document is very important, yet in practice it can be challenging.  This document provides some best practices for getting document review; it does not define explicit mandatory steps.
 
-This page is linked to from [The Guide](https://www.w3.org/Guide/). See also the [Wide Review](https://www.w3.org/policies/process/#wide-review) section in the W3C Process document.
+See also the [Wide Review](https://www.w3.org/policies/process/#wide-review) section in the W3C Process document.
 
 ## When should wide review be requested?
 
@@ -35,8 +35,7 @@ Wide review should or must be requested:
   
   Working Groups are often reluctant to make substantive changes to a mature
   document, so reviewers should get a chance to send substantive technical
-  reviews as early as possible. This is especially important for <a
-  href="#how_to_get_horizontal_review">horizontal reviews</a>.
+  reviews as early as possible. This is especially important for [horizontal reviews](#how-to-get-horizontal-review).
 * Before a document gets advanced to [Candidate Recommendation](https://www.w3.org/policies/process/#transition-cr), gets updated as a [Candidate Recommendation Snapshot](https://www.w3.org/policies/process/#update-requests) or gets updated as a [Recommendation](https://www.w3.org/policies/process/20231103/#change-review).
   
   For those, the [W3C Process](https://www.w3.org/policies/process/) requires a Group to show that the specification has received wide review.
@@ -47,21 +46,21 @@ Wide review should or must be requested:
 
 The objective is to ensure that the entire set of stakeholders of the Web community, including the general public, have  adequate notice of the progress of the Working Group and are genuinely able to perform reviews of and provide comments on the specification. When considering [requests to advance the maturity level of the document](https://www.w3.org/Guide/transitions), the Team will consider who has been explicitly offered a reasonable opportunity to review the document.
 
-You <strong>must</strong> publish an updated technical report, with the Status of the Document indicating clearly that you're looking for <em>wide review</em>, before inviting review from other stakeholders. Our <a href='https://github.com/w3c/transition-notifier/blob/main/notify.js'>tooling</a> monitors publications and propagates notifications to [public-review-announce@w3.org](mailto:public-review-announce@w3.org) automatically (for example, <a href='https://lists.w3.org/Archives/Public/public-review-announce/2021Jun/0008.html'>Candidate Recommendation Snapshot: Payment Request API (Call for Wide Review)</a>).
+You **must** publish an updated technical report, with the Status of the Document indicating clearly that you're looking for *wide review*, before inviting review from other stakeholders. Our [tooling](https://github.com/w3c/transition-notifier/blob/main/notify.js) monitors publications and propagates notifications to [public-review-announce@w3.org](mailto:public-review-announce@w3.org) automatically (for example, [Candidate Recommendation Snapshot: Payment Request API (Call for Wide Review)](https://lists.w3.org/Archives/Public/public-review-announce/2021Jun/0008.html)).
 
 You should then inform, and request reviews from:
 
 * the groups listed in the WG's charter, especially those who manage
 dependencies.
 * the groups jointly responsible for a particular document (if any).
-* the [horizontal groups](/Guide/process/horizontal-groups.html) using the [method described below](#how_to_get_horizontal_review). <em>Note that sending an email to the public-review-announce list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described below</em>
+* the [horizontal groups](/Guide/process/horizontal-groups.html) using the [method described below](#how_to_get_horizontal_review). *Note that sending an email to the public-review-announce list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described below*
 * the general public,  including Web developers, technology providers and implementers, application developers, etc. Consider:
   * sending a dedicated announcement to [public-review-announce@w3.org](mailto:public-review-announce@w3.org) if needed (in case the default notice sent to that list is not enough).
   * using blog posts, social media, or other ways of alerting the public to your document and requesting feedback.
 * other groups, at your discretion, even if not in the WG charter, such as other W3C groups, external organizations and SSOs  working on related areas, etc.
 
 
-<strong>Tip:</strong> consider tracking your wide review progress using a GitHub issue, such as [issue #299 of the Sensors API](https://github.com/w3c/sensors/issues/299). You can then simply point the Team to the issue.
+**Tip:** consider tracking your wide review progress using a GitHub issue, such as [issue #299 of the Sensors API](https://github.com/w3c/sensors/issues/299). You can then simply point the Team to the issue.
 
 <details id="githubissue" hidden>
   <summary>Generate a meta-issue to track wide review steps in a GitHub repository</summary>
@@ -69,22 +68,21 @@ dependencies.
   <p>
     <form>
     <label for="repository">GitHub repository where issue should be created (format: <code>owner/repo</code>):</label>
-    <div><input type="text" name="repository" id="repository" placeholder="Repo name, e.g. w3c/documentreview"></div>
+    <div><input type="text" name="repository" id="repository" placeholder="Repo name, e.g. w3c/foobar"></div>
     <div><button>Create GitHub issue</button></div>
     </form>
   </p>
   <p>Note: You will be able to edit the issue's title and body before it gets created.</p>
 </details>
-</aside>
 
 The reviews provided by the [horizontal groups](/Guide/process/horizontal-groups.html), a subset of a full wide review, do receive special attention and much of the rest of this document focuses on how and when to conduct horizontal reviews.
 
 ## How to get horizontal review
 When you have published a First Public Working Draft, you should work through available "self-review" materials and request review of your results in at least the following areas.
 
-<em>Long enough</em> before you request a transition to CR, you should do the same again, identifying substantive specification changes since the first review. During the [Last Call for Review of Proposed Amendment](https://www.w3.org/policies/process/#change-review), you should also do the same.
+*Long enough* before you request a transition to CR, you should do the same again, identifying substantive specification changes since the first review. During the [Last Call for Review of Proposed Amendment](https://www.w3.org/policies/process/#change-review), you should also do the same.
 
-The meaning of "Long enough" depends on how many changes there are, how clearly you have explained them, and how much discussion is needed to resolve issues. Pointing to 14 concise points for a small spec means a short time if they are simple fixes, pointing to 900 diffs from commits and hoping people understand them in a 300 page spec means it will take a <strong>long</strong> time to get review, and potentially a long time to also discuss and agree on how to solve the issues. If you have effectively identified issues for review during development and received feedback on them, the review time will probably be shorter. Horizontal review groups sometimes get bogged down; planning in advance is useful.
+The meaning of "Long enough" depends on how many changes there are, how clearly you have explained them, and how much discussion is needed to resolve issues. Pointing to 14 concise points for a small spec means a short time if they are simple fixes, pointing to 900 diffs from commits and hoping people understand them in a 300 page spec means it will take a **long** time to get review, and potentially a long time to also discuss and agree on how to solve the issues. If you have effectively identified issues for review during development and received feedback on them, the review time will probably be shorter. Horizontal review groups sometimes get bogged down; planning in advance is useful.
 
 <dl>
 <dt>Accessibility</dt>
@@ -177,7 +175,7 @@ Recognize that horizontal review groups may be resource limited and may only be 
 
 ## Working with Horizontal Review labels
 
-Applying these labels doesn't replace the need to schedule a review of your spec at an appropriate time. (See [How to Get Horizontal Review](https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review) above.) Horizontal groups participants can find [detailed process information here](https://w3c.github.io/horizontal-issue-tracker/HOWTO).
+Applying these labels doesn't replace the need to schedule a review of your spec at an appropriate time. (See [How to Get Horizontal Review](#how-to-get-horizontal-review) above.) Horizontal groups participants can find [detailed process information here](https://w3c.github.io/horizontal-issue-tracker/HOWTO).
 
 ### Day-to-day use of labels
 
@@ -193,17 +191,17 @@ If you close an issue with a <span class="githublabel">\*-tracker</span> or <spa
  
 At the end of a review, and before attempting to transition the spec, you should clarify that a resolution is described for all of the issues with a <span class="githublabel">\*-needs-resolution</span> label, and check that the horizontal group is aware of those resolutions. You don't have to do this for issues with the <span class="githublabel">\*-tracker</span> label. (The horizontal group was only tracking those issues, not expecting a particular resolution.)
  
-Note that the label may be applied by setting it directly on the issue if you have proper rights, or by appending it preceded with a PLUS sign (+) in the issue description, +<i class="term">\*-tracker</i> or +<i class="term">\*-needs-resolution</i>.
+Note that the label may be applied by setting it directly on the issue if you have proper rights, or by appending it preceded with a PLUS sign (`+`) in the issue description, `+*-tracker` or `+*-needs-resolution`.
 
-### What happens with *-needs-resolution issues at transition?
+### What happens with `*-needs-resolution` issues at transition?
 
-When a Working Group requests a new Maturity level, the transition <strong>will not be approved</strong> if a horizontal group has an open *-needs-resolution issue showing on the [tracker boards](https://www.w3.org/PM/horizontal/). Note that the tracker monitors the horizontal group's <em>copy</em> of the issue. Before requesting a new Maturity level, the Working Group is advised to review the tracker and contact the horizontal group to close any lingering issues.
+When a Working Group requests a new Maturity level, the transition **will not be approved** if a horizontal group has an open `*-needs-resolution` issue showing on the [tracker boards](https://www.w3.org/PM/horizontal/). Note that the tracker monitors the horizontal group's *copy* of the issue. Before requesting a new Maturity level, the Working Group is advised to review the tracker and contact the horizontal group to close any lingering issues.
 
-### What happens to unresolved issues marked <span class="githublabel">\*-needs-resolution</span>?
+### What happens to unresolved issues marked `*-needs-resolution`?
 
-As lead technical architect, the W3C Council is tasked (among many things) to assess consensus within W3C for architectural issues and to decide on the outcome of [Formal Objections](https://www.w3.org/2019/Process-20190301/#FormalObjection). When a horizontal issue gets flagged as *-needs-resolution and a Group chooses to request a new Maturity level despite the lack of consensus with the horizontal group, it is the task of the W3C Team to assess the issue and the outcome of the request. A horizontal group MAY choose to elevate an horizontal issue as a Formal Objection to elevate further the importance of an issue per the W3C Process.
+As lead technical architect, the W3C Council is tasked (among many things) to assess consensus within W3C for architectural issues and to decide on the outcome of [Formal Objections](https://www.w3.org/policies/process/#FormalObjection). When a horizontal issue gets flagged as `*-needs-resolution` and a Group chooses to request a new Maturity level despite the lack of consensus with the horizontal group, it is the task of the W3C Team to assess the issue and the outcome of the request. A horizontal group MAY choose to elevate an horizontal issue as a Formal Objection to elevate further the importance of an issue per the W3C Process.
 
-In the case where an horizontal issue hasn’t been addressed and the document was allowed to move forward, it is recommended that the issue remains open in the horizontal group repository (it MAY get closed in the specification repository unless the W3C Team requests otherwise). Some issues may take years to get resolved, but that doesn’t mean those should be forgotten.</p>
+In the case where an horizontal issue hasn’t been addressed and the document was allowed to move forward, it is recommended that the issue remains open in the horizontal group repository (it MAY get closed in the specification repository unless the W3C Team requests otherwise). Some issues may take years to get resolved, but that doesn’t mean those should be forgotten.
 
 ## Issue trackers
 
@@ -242,7 +240,7 @@ Is it possible to make too many requests for review?
    Let them make the decision that something is irrelevant to their field of expertise instead. You're welcome to time out if you don't hear back, and request to move forward anyway.
 1. Publish a Working Draft or a Candidate Recommendation Draft when asking for reviews.
    It's better for a Group to miss the fact that you fixed an issue in your editor's draft than the Team missing the fact you made an unreviewed substantive change in your editor's draft.
-1. Don't flag your issues with one of those <span class="githublabel">\*-needs-resolution</span> labels, and don't remove one which has been applied (you <em>can</em> close the issue though, if it is resolved).
+1. Don't flag your issues with one of those <span class="githublabel">\*-needs-resolution</span> labels, and don't remove one which has been applied (you *can* close the issue though, if it is resolved).
 
    Those are intended solely to be used by [horizontal groups](/Guide/process/horizontal-groups.html) to [bring special attention](https://www.w3.org/Guide/documentreview/#What_happens_to_unresolved_issues_marked_needs-resolution).
 1. Don't assume that the horizontal group will be able to schedule and complete a review within 2 weeks so that you can proceed to CR.
