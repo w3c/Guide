@@ -21,13 +21,13 @@ toc: true
 </style>
 
 ## How to do Wide Review
+
 Getting <i class="term">early</i> and <i class="term">wide</i> review of a document is very important, yet in practice it can be challenging.  This document provides some best practices for getting document review; it does not define explicit mandatory steps.
 
 This page is linked to from [The Guide](https://www.w3.org/Guide/). See also the [Wide Review](https://www.w3.org/policies/process/#wide-review) section in the W3C Process document.
 
-<strong>Feedback on this document is welcome, preferably by [raising an issue](https://github.com/w3c/documentreview/issues) or a pull request.</strong>
+## When should wide review be requested?
 
-### When should wide review be requested?
 A document is available for review from the moment it is first [published](https://www.w3.org/policies/process/#publishing). Working Groups should [formally address](https://www.w3.org/policies/process/#formally-addressed) any substantive review comment about a technical report in a timely manner.
 
 Wide review should or must be requested:
@@ -43,7 +43,7 @@ Wide review should or must be requested:
 * When a document is both reasonably stable and still flexible enough to allow changes where issues are identified.
 * When new features are added after a document has already received wide review (perhaps requesting a review limited to the new features).
 
-### Who to ask for wide review?
+## Who to ask for wide review?
 
 The objective is to ensure that the entire set of stakeholders of the Web community, including the general public, have  adequate notice of the progress of the Working Group and are genuinely able to perform reviews of and provide comments on the specification. When considering [requests to advance the maturity level of the document](https://www.w3.org/Guide/transitions), the Team will consider who has been explicitly offered a reasonable opportunity to review the document.
 
@@ -79,7 +79,7 @@ dependencies.
 
 The reviews provided by the [horizontal groups](/Guide/process/horizontal-groups.html), a subset of a full wide review, do receive special attention and much of the rest of this document focuses on how and when to conduct horizontal reviews.
 
-### How to get horizontal review
+## How to get horizontal review
 When you have published a First Public Working Draft, you should work through available "self-review" materials and request review of your results in at least the following areas.
 
 <em>Long enough</em> before you request a transition to CR, you should do the same again, identifying substantive specification changes since the first review. During the [Last Call for Review of Proposed Amendment](https://www.w3.org/policies/process/#change-review), you should also do the same.
@@ -100,8 +100,6 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
 <ul><li> <a rel="nofollow" class="external text" href="https://w3c.github.io/apa/fast/checklist.html">Framework for Accessibility in the Specification of Technologies Checklist; APA WG</a></li>
 <li> <a rel="nofollow" class="external text" href="https://www.w3.org/TR/media-accessibility-reqs/">Media Accessibility User Requirements; PFWG</a></li></ul></li></ul>
 </details></dd>
-
-
 
 <dt>Architecture</dt>
 <dd>
@@ -177,11 +175,12 @@ You should familiarize yourself with the rest of this document. This section is 
 
 Recognize that horizontal review groups may be resource limited and may only be able to do one review or may have difficulty scheduling your review quickly.  Give them as much time as you can, consistent with asking for review while it is still reasonable to change the technology to accommodate the issues they find.
 
-### Working with Horizontal Review labels
+## Working with Horizontal Review labels
 
 Applying these labels doesn't replace the need to schedule a review of your spec at an appropriate time. (See [How to Get Horizontal Review](https://www.w3.org/Guide/documentreview/#how_to_get_horizontal_review) above.) Horizontal groups participants can find [detailed process information here](https://w3c.github.io/horizontal-issue-tracker/HOWTO).
 
-#### Day-to-day use of labels
+### Day-to-day use of labels
+
 Apply the <span class="githublabel">*-tracker</span> label in your own repository to draw a horizontal review group’s attention to an issue in one of your own repositories. Horizontal review groups may also apply the label if they are interested in tracking a particular issue.  Tooling will automatically notify the horizontal group that you attached the label.
 
 If you want some specific advice from the horizontal group, describe that request in the issue thread.
@@ -190,28 +189,29 @@ Horizontal review groups may apply the <span class="githublabel">\*-needs-resolu
 
 If the [horizontal group](/Guide/process/horizontal-groups.html) believes that an issue with a <span class="githublabel">\*-tracker</span> label needs to be resolved before a transition, they may apply a <span class="githublabel">\*-needs-resolution</span> label to the issue. Automatic tooling will later remove the <span class="githublabel">\*-tracker</span> label.
  
- If you close an issue with a <span class="githublabel">\*-tracker</span> or <span class="githublabel">\*-needs-resolution</span> label attached, do not remove the label.  Keeping the label maintains the tracking if the issue is reopened, but also provides potentially useful information about what was tracked. (Closed issues in your repository have no effect on tools that check for unresolved issues.)
+If you close an issue with a <span class="githublabel">\*-tracker</span> or <span class="githublabel">\*-needs-resolution</span> label attached, do not remove the label.  Keeping the label maintains the tracking if the issue is reopened, but also provides potentially useful information about what was tracked. (Closed issues in your repository have no effect on tools that check for unresolved issues.)
  
- At the end of a review, and before attempting to transition the spec, you should clarify that a resolution is described for all of the issues with a <span class="githublabel">\*-needs-resolution</span> label, and check that the horizontal group is aware of those resolutions. You don't have to do this for issues with the <span class="githublabel">\*-tracker</span> label. (The horizontal group was only tracking those issues, not expecting a particular resolution.)
+At the end of a review, and before attempting to transition the spec, you should clarify that a resolution is described for all of the issues with a <span class="githublabel">\*-needs-resolution</span> label, and check that the horizontal group is aware of those resolutions. You don't have to do this for issues with the <span class="githublabel">\*-tracker</span> label. (The horizontal group was only tracking those issues, not expecting a particular resolution.)
  
- Note that the label may be applied by setting it directly on the issue if you have proper rights, or by appending it preceded with a PLUS sign (+) in the issue description, +<i class="term">\*-tracker</i> or +<i class="term">\*-needs-resolution</i>.
+Note that the label may be applied by setting it directly on the issue if you have proper rights, or by appending it preceded with a PLUS sign (+) in the issue description, +<i class="term">\*-tracker</i> or +<i class="term">\*-needs-resolution</i>.
 
-#### What happens with *-needs-resolution issues at transition?
+### What happens with *-needs-resolution issues at transition?
 
 When a Working Group requests a new Maturity level, the transition <strong>will not be approved</strong> if a horizontal group has an open *-needs-resolution issue showing on the [tracker boards](https://www.w3.org/PM/horizontal/). Note that the tracker monitors the horizontal group's <em>copy</em> of the issue. Before requesting a new Maturity level, the Working Group is advised to review the tracker and contact the horizontal group to close any lingering issues.
 
-#### What happens to unresolved issues marked <span class="githublabel">\*-needs-resolution</span>?
+### What happens to unresolved issues marked <span class="githublabel">\*-needs-resolution</span>?
 
 As lead technical architect, the W3C Council is tasked (among many things) to assess consensus within W3C for architectural issues and to decide on the outcome of [Formal Objections](https://www.w3.org/2019/Process-20190301/#FormalObjection). When a horizontal issue gets flagged as *-needs-resolution and a Group chooses to request a new Maturity level despite the lack of consensus with the horizontal group, it is the task of the W3C Team to assess the issue and the outcome of the request. A horizontal group MAY choose to elevate an horizontal issue as a Formal Objection to elevate further the importance of an issue per the W3C Process.
 
 In the case where an horizontal issue hasn’t been addressed and the document was allowed to move forward, it is recommended that the issue remains open in the horizontal group repository (it MAY get closed in the specification repository unless the W3C Team requests otherwise). Some issues may take years to get resolved, but that doesn’t mean those should be forgotten.</p>
 
-### Issue trackers
+## Issue trackers
+
 The horizontal groups maintain repositories containing issues that track those raised in the WG repos. You can see a list of tracked issues on the [tracker boards](https://w3c.github.io/horizontal-issue-tracker/index), one per horizontal area.
 
 Horizontal groups participants can find [detailed process information here](https://w3c.github.io/horizontal-issue-tracker/HOWTO).
 
-### FAQ
+## FAQ
 
 <dl>
 <dt>Q: Is <i class="term">security</i> and/or <i class="term">privacy</i> review mandatory before a <i class="term">First Public Working Draft</i> is published?</dt>
@@ -241,7 +241,7 @@ Horizontal groups participants can find [detailed process information here](http
 <li> A: TR Working Drafts are also useful for reviews since they provide a dated snapshot which can be recovered when the review comments are being discussed. Trying to discuss review comments against a document which has changed out of all recognition can be a frustrating and inefficient experience.</li></ul></dd>
 </dl>
 
-### Common mistakes when making a transition request
+## Common mistakes when making a transition request
 
 1. If you make substantive changes, you'll need to do a wide review for those  before you move forward to the [next maturity stage](https://www.w3.org/Guide/documentreview/#who_to_ask_for_review).
 2. Never ever exclude some [horizontal groups](/Guide/process/horizontal-groups.html) from your review requests because you concluded it was irrelevant for them or they haven't responded to your last request.
@@ -256,8 +256,8 @@ Horizontal groups participants can find [detailed process information here](http
    
    They may not even be able to find someone with availability to do the review in that time, and then they need a week or two to discuss their response after the review, and then they'll send you comments that may require you to make substantive changes.
 
+## Terminology  and abbreviations
 
-### Terminology  and abbreviations
 * <strong>pre-CR</strong> - This is a version of a Working Draft that is created to get wide review.
   * note that this is a bad way to get review. In general, features should be reviewed as they are developed. Waiting for a "Last Call" for most review means that when reviews suggest changes it is far harder to make them, due to a commonly observed and logical reluctance to break deployed systems or content. [Charles McCathie Nevile](https://www.w3.org/wiki/User:Charles" title="User:Charles) 11:18, 13 October 2014 (UTC)
 * <strong>requesting group</strong> - a group that is requesting a review
@@ -269,10 +269,13 @@ Abbreviations:
 * [TR](https://www.w3.org/TR/) = Technical Report, i.e. a formal W3C publication.
 * WD = Working Draft
 
+## Enhancement Requests
 
-### Enhancement Requests
 See the [Document Review Dashboard](https://www.w3.org/wiki/Dashboard#Document_Review_Dashboard) document for information about creating a dashboard type service to facilitate document reviews.
 
+<<<<<<< HEAD
 <div id="versionInfo"><small>See the [commit history](https://github.com/w3c/Guide/tree/main/documentreview).</small></div>
 
+=======
+>>>>>>> 1885fa3 (Fix headings levels)
 <script src="create-github-issue.js"></script>
