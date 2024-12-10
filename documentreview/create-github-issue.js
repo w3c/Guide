@@ -14,7 +14,7 @@ function createGitHubIssue(event) {
   const repo = match ? match[1] : value;
   if (!repo.match(/^[^\s\/]+\/[^\s\/]+$/)) {
     console.warn('Invalid repository name entered', value);
-    window.alert(`Invalid repository name: "${value}".\nExpected format: "owner/repo", e.g. "w3c/documentreview".`);
+    window.alert(`Invalid repository name: "${value}".\nExpected format: "owner/repo", e.g. "w3c/foobar".`);
     return;
   }
 
@@ -43,7 +43,7 @@ function generateGitHubIssueBody() {
   });
 
   return `This is a meta issue to track wide review steps for the specification.
-See [How to do wide review](https://www.w3.org/Guide/documentreview/#who_to_ask_for_review) for details.
+See [How to do wide review](https://www.w3.org/Guide/documentreview/#who-to-ask-for-wide-review) for details.
 
 - [ ] the groups listed in the WG's charter, especially those who manage dependencies
 - [ ] the groups jointly responsible for a particular document (if any).
