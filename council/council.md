@@ -158,80 +158,84 @@ Above we described, qualitatively, how the W3C Council should deal with Objectio
 
 This includes:
 
-<dl>
-  <dt>Understanding all sides of the argument</dt>
-  <dd><p>The Team assignee and W3C Council members should be fully comfortable that they understand all sides of the argument.
+Understanding all sides of the argument
+: The Team assignee and W3C Council members should be fully comfortable that they understand all sides of the argument.
     In particular, the Team assignee should not begin their resolution efforts before hearing and understanding
     the Objections (whether or not they agree with them).
-    The W3C Council should not decide on the Objection until each participant feels they understand all sides of the argument.</p></dd>
-  <dt>Consultation</dt>
-  <dd><p>The assignee and W3C Council have at their disposal any stakeholder who could reasonably inform the issue.
+    The W3C Council should not decide on the Objection until each participant feels they understand all sides of the argument.
+
+Consultation
+: The assignee and W3C Council have at their disposal any stakeholder who could reasonably inform the issue.
     This includes Working Groups, Chairs, Members, Team, and the general public.
-    On technical issues the TAG might be particularly useful.</p></dd>
-  <dt>Attempt to find a consensus position</dt>
-  <dd><p>The assignee and W3C Council should explore any potential paths to consensus that seem to have been overlooked.
-    When consensus is not possible (at all, or in a reasonable amount of time), the assignee should at least understand and clearly document why.</p></dd>
-  <dt>Analysis of all arguments raised</dt>
-  <dd><p>Although the W3C Council's published decision should be clear, well explained, and unambiguous, it should nonetheless acknowledge
-    legitimate points raised by the party that is not favored in the ruling, but explain why they are not decisive.</p></dd>
-</dl>
+    On technical issues the TAG might be particularly useful.
+
+Attempt to find a consensus position
+: The assignee and W3C Council should explore any potential paths to consensus that seem to have been overlooked.
+    When consensus is not possible (at all, or in a reasonable amount of time), the assignee should at least understand and clearly document why.
+
+Analysis of all arguments raised
+: Although the W3C Council's published decision should be clear, well explained, and unambiguous, it should nonetheless acknowledge
+    legitimate points raised by the party that is not favored in the ruling, but explain why they are not decisive.
 
 ### II. Fairness
 
 This includes:
 
-<dl>
-  <dt>Balance and depth</dt>
-  <dd><p>The W3C Council will be fair to all parties not by attempting to excise all preconcieved opinions, but by bringing diverse, expert viewpoints
+Balance and depth
+: The W3C Council will be fair to all parties not by attempting to excise all preconcieved opinions, but by bringing diverse, expert viewpoints
     to the debate and weighing them responsibly.
     The design of the W3C Council therefore optimizes for the broadest engaged participation of its members, who represent the breadth and variety
-    of expertise in the W3C community.</p></dd>
-  <dt>Transparency</dt>
-  <dd><p>The assignee should inform all parties that potential resolution has been delegated to the assignee.
+    of expertise in the W3C community.
+
+Transparency
+: The assignee should inform all parties that potential resolution has been delegated to the assignee.
     In this same spirit, if the issue is referred to the W3C Council for decision, all parties must be notified.
-    The report with the W3C Council's decision should include the names of the subset of the Council that participated in that decision.</p></dd>
-  <dt>Adequate access</dt>
-  <dd><p>It is important for the assignee to offer all parties the opportunity to elaborate on their point of view.
+    The report with the W3C Council's decision should include the names of the subset of the Council that participated in that decision.
+
+Adequate access
+: It is important for the assignee to offer all parties the opportunity to elaborate on their point of view.
     For example, although the Objection is already available in written form, the assignee should at least offer an opportunity
     to the objector to have a 1:1 conversation.
     All parties should be invited to key meetings where the assignee assesses whether a possible resolution proposal can gain consensus.
-    If a decision goes to the W3C Council, all participants should see the assignee's report before it goes to the W3C Council.</p></dd>
-  <dt>Consideration of under-represented views</dt>
-  <dd><p>The assignee and W3C Council should recognize that often Objections come from Web stakeholders whose views might be
-    under-represented where the decision is taken. Accordingly, the assignee and the W3C Council must consider all views.</p></dd>
-  <dt>Gravitas</dt>
-  <dd><p>Notwithstanding “Consideration of under-represented views”, the assignee and W3C Council should assign appropriate gravitas
-    to a Working Group decision that was made by the consensus of the group and consistent with the W3C Process.</p></dd>
-  <dt>Adherence to the W3C Process</dt>
-  <dd><p>Occasionally Formal Objections arise when a decision was made which did not follow the “letter” of the W3C Process.
+    If a decision goes to the W3C Council, all participants should see the assignee's report before it goes to the W3C Council.
+
+Consideration of under-represented views
+: The assignee and W3C Council should recognize that often Objections come from Web stakeholders whose views might be
+    under-represented where the decision is taken. Accordingly, the assignee and the W3C Council must consider all views.
+
+Gravitas
+: Notwithstanding “Consideration of under-represented views”, the assignee and W3C Council should assign appropriate gravitas
+    to a Working Group decision that was made by the consensus of the group and consistent with the W3C Process.
+
+Adherence to the W3C Process
+: Occasionally Formal Objections arise when a decision was made which did not follow the “letter” of the W3C Process.
     Such violations are quite serious and indeed could form a valid basis for a Formal Objection.
     However, the W3C Council is not required to always sustain such an objection—they need to take all factors
-    into consideration in terms of the best solution for the Web.</p></dd>
-</dl>
+    into consideration in terms of the best solution for the Web.
 
 ### III. Communications
 
 This includes:
 
-<dl>
-  <dt>Publication of W3C Council decisions</dt>
-  <dd><p>W3C Council decisions form an important part of the public record; especially since they represent the most difficult areas in which
+Publication of W3C Council decisions
+: W3C Council decisions form an important part of the public record; especially since they represent the most difficult areas in which
     stakeholders could not reach consensus and the Team could not resolve the impasse.
     Accordingly, it is important that W3C make available for the public record: the Team report, the W3C Council decision, and supporting
     documentation which explain the rationale of the W3C Council decision.
-    (See <a href="https://www.w3.org/about/council/">W3C Council public records</a>.)</p></dd>
-  <dt>Perception</dt>
-  <dd><p>The W3C Council should clearly exhibit the qualities of fairness, transparency, and thoroughness described above.
+    (See <a href="https://www.w3.org/about/council/">W3C Council public records</a>.)
+
+Perception
+: The W3C Council should clearly exhibit the qualities of fairness, transparency, and thoroughness described above.
     Depending on the nature, publicity, and degree of controversy of the Formal Objection, special effort may
-    need to be made to explain how these best practices were achieved, e.g., to the public.</p></dd>
-  <dt>Ongoing communications</dt>
-  <dd><p>As the Formal Objection resolution process unfolds, all parties should be apprised of the status.
+    need to be made to explain how these best practices were achieved, e.g., to the public.
+
+Ongoing communications
+: As the Formal Objection resolution process unfolds, all parties should be apprised of the status.
     There should be no ambiguity about who is responsible for the current step or what that next step is
     (e.g., the Team is writing a report, the Team is waiting for the Objector or deciders to respond to some question,
     the W3C Council is being convened, the W3C Council is in deliberations, etc.). The W3C Council Team Contact should ensure that
-    such communications take place and the process continues to move forward.</p></dd>
-</dl>
+    such communications take place and the process continues to move forward.
 
-### Revision History
+## Revision History
 
 - 2023-03-30: Document created based on a draft by the [AB](https://www.w3.org/2002/ab/).
