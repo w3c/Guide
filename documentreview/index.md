@@ -213,33 +213,26 @@ Horizontal groups participants can find [detailed process information here](http
 
 ## FAQ
 
-<dl>
-<dt>Q: Is <i class="term">security</i> and/or <i class="term">privacy</i> review mandatory before a <i class="term">First Public Working Draft</i> is published?</dt>
-<dd>
-<ul>
- <li>A: It is <strong>strongly encouraged</strong> but not required.  Resolving security and privacy issues can require significant changes in specs, so it helps to identify them early.</li>
-</ul>
-</dd>
+Is *security* and/or *privacy* review mandatory before a *First Public Working Draft* is published?
+: It is **strongly encouraged** but not required. Resolving security and privacy issues can require significant changes in specs, so it helps to identify them early.
 
-<dt>Q: Does a group need to prove its documents have had wide review before proceeding to CR?</dt>
-<dd>
-<ul>
-<li>A: Yes, since Process-2019.</li>
-</ul>
-</dd>
+Does a group need to prove its documents have had wide review before proceeding to CR?
+: Yes, since Process-2019.
 
-<dt>Q: How does a group prove its documents have had wide review before proceeding to CR?</dt>
-<dd><ul><li>A: Requests to the horizontal review groups will appear in Github, as above. </li>
-<li>A: Keep a Disposition of Comments (DoC) Document showing comments received and a summary of their resolution.</li></ul></dd>
+How does a group prove its documents have had wide review before proceeding to CR?
+: Requests to the horizontal review groups will appear in Github, as above.
 
-<dt>Q: Is there such a thing as too many reviews?</dt>
-<dd><ul><li>A: Not really</li></ul></dd>
+  Keep a Disposition of Comments (DoC) Document showing comments received and a summary of their resolution.
 
-<dt>Q: Is it possible to make too many requests for review?</dt>
-<dd><ul><li> A: Yes.  To help the review groups, only request updated reviews when substantive changes have been made, and clearly identify the changes since the last review.</li>
-<li> A: This is also the reason that the Process clearly suggests there should be (TR) Working Drafts published when there are "significant changes that would benefit from review beyond the Working Group", rather than every day or only twice in the life of a spec…</li>
-<li> A: TR Working Drafts are also useful for reviews since they provide a dated snapshot which can be recovered when the review comments are being discussed. Trying to discuss review comments against a document which has changed out of all recognition can be a frustrating and inefficient experience.</li></ul></dd>
-</dl>
+Is there such a thing as too many reviews?
+: Not really
+
+Is it possible to make too many requests for review?
+: Yes. To help the review groups, only request updated reviews when substantive changes have been made, and clearly identify the changes since the last review.
+
+  This is also the reason that the Process clearly suggests there should be (TR) Working Drafts published when there are "significant changes that would benefit from review beyond the Working Group", rather than every day or only twice in the life of a spec…
+
+  TR Working Drafts are also useful for reviews since they provide a dated snapshot which can be recovered when the review comments are being discussed. Trying to discuss review comments against a document which has changed out of all recognition can be a frustrating and inefficient experience.
 
 ## Common mistakes when making a transition request
 
