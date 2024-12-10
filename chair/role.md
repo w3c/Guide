@@ -25,14 +25,13 @@ Interested parties should subscribe to [chairbuddies@w3.org](mailto:chairbuddies
 
 ### Coordinates with W3C Team and other W3C Working Groups as needed
 
-- Maintains close coordination with W3C Staff Contact*.*
+- Maintains close coordination with W3C *Staff Contact.*
 - Maintains coordination with assigned liaisons from other W3C working groups.
 - Participates in the Chairs mailing list ([archive](https://lists.w3.org/Archives/Member/chairs/)) and attends Chairs meetings.
-  
-  *the team contact should make sure the chair is in the* [*chairs group*](/admin/othergroups/31972/show) (should be managed automatically)
-- Works with the Communications Team and Staff Contact in preparing press release.
+  *the Team Contact should make sure the Chair is in the [Chairs group](/admin/othergroups/31972/show)* (should be managed automatically)
+- Works with the Communications Team and Team Contact in preparing press release.
 - Communicates with the press, when necessary and appropriate, and with prior coordination with the communication team, on behalf of the group.
-- *Ensures* all participants have proper access to Group data *with assistance from Staff Contact.*
+- *Ensures all participants have proper access to Group data with assistance from Staff Contact.*
 
 ### Maintains Group Process & Organization
 
