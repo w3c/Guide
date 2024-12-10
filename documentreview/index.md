@@ -2,17 +2,6 @@
 title: Document Review
 toc: true
 ---
-
-<style>
-#githubissue {
-  width: 70%;
-  margin: auto;
-  border-bottom: 3px solid #005A9C;
-  padding: 1em 1em;
-  background: #e2edfe;
-}
-</style>
-
 ## How to do Wide Review
 
 Getting *early* and *wide* review of a document is very important, yet in practice it can be challenging.  This document provides some best practices for getting document review; it does not define explicit mandatory steps.
@@ -261,4 +250,13 @@ requesting group
 
 See the [Document Review Dashboard](https://www.w3.org/wiki/Dashboard#Document_Review_Dashboard) document for information about creating a dashboard type service to facilitate document reviews.
 
+<style>
+#githubissue {
+  width: 70%;
+  margin: auto;
+  border-bottom: 3px solid #005A9C;
+  padding: 1em 1em;
+  background: #e2edfe;
+}
+</style>
 <script src="create-github-issue.js"></script>
