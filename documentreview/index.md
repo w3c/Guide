@@ -49,8 +49,13 @@ dependencies.
   <p>You may find it useful to create an issue in the GitHub repository of your spec to track your progress. Add the name of your GitHub repository to the field below and hit the "Create GitHub issue" button. This opens the "new issue" form in your repository, and pre-fills the body with review steps as a list of checkboxes.</p>
   <p>
     <form>
-    <label for="repository">GitHub repository where issue should be created (format: <code>owner/repo</code>):</label>
-    <div><input type="text" name="repository" id="repository" placeholder="Repo name, e.g. w3c/foobar"></div>
+    <div class="field">
+      <label for="repository">
+        <span class="field-label">GitHub repository where issue should be created <span class="required">(Required)</span></span>
+      </label>
+      <div class="field-hint" id="hint-repository">Repository name format: <code>owner/repo</code> e.g. <code>w3c/foobar</code></div>
+      <input type="text" name="repository" id="repository" aria-describedby="hint-repository">
+    </div>
     <div><button>Create GitHub issue</button></div>
     </form>
   </p>
