@@ -65,7 +65,7 @@ dependencies.
     <div><button>Create GitHub issue</button></div>
     </form>
   </p>
-  <p>Note: You will be able to edit the issue's title and body before it gets created.</p>
+  <p><em>Note: You will be able to edit the issue's title and body before it gets created.</em></p>
 </details>
 
 The reviews provided by the [horizontal groups](/Guide/process/horizontal-groups.html), a subset of a full wide review, do receive special attention and much of the rest of this document focuses on how and when to conduct horizontal reviews.
@@ -250,7 +250,7 @@ pre-CR
 requesting group
 : a group that is requesting a review
 
-Abbreviations:
+**Abbreviations:**
 * BP = Best Practices
 * CR = Candidate Recommendation
 * RfC = Request for Comments (aka Review Request)
