@@ -18,7 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-readme-index"
   gem "jekyll-titles-from-headings"
   gem "jekyll-relative-links"
-  gem 'jekyll-commonmark-ghpages'
+  gem 'jekyll-commonmark'
   gem 'jekyll-remote-theme'
   gem 'jekyll-toc'
   gem 'webrick'
