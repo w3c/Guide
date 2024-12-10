@@ -15,118 +15,117 @@ We met originally in November 1997 to facilitate shared context among the W3C Wo
 
 See also the [technical plenary history](../2002/09/TPOverview.html)
 
-<dl>
-  <dt><a name="9711chairs" id="_9711chairs"></a>20 Nov 1997</dt>
-    <dd><a href="../Member/9711/wg-chairs.html">1st Working Group Chairs
-      Meeting</a>
-      <ul>
-	<li><a href="../Member/Talks/971120Press">Press and Communications</a>
-	-- Sally's presentation</li>
-      <li><a href="../meetings/hosting.html">Organizing a W3C Meeting</a> -- Susan's
-      presentation</li>
-      <li><a href="/Member/9711/wg-chairs-intro.html">Tim Berners-Lee's
-        Perspective</a></li>
-      <li><a href="WebSharing.html">The Web: Sharing, Group Memory, and
-        Communication</a> -- Dan's presentation</li>
-      </ul>
-    </dd>
-  <dt>13 Jul 1998</dt>
-    <dd><a href="/1998/07/chairs.html">The Art of Consensus II</a></dd>
-  <dt>24 Sep 1998</dt>
-    <dd><a href="/1998/09/24-chairs.html">3rd meeting record</a></dd>
-  <dt>1 Dec 1998</dt>
-    <dd><a href="/1998/12/01-chairs.html">4th meeting record</a></dd>
-  <dt>2 Feb 1999</dt>
-    <dd><a href="/1999/02/02-chairs.html">5th meeting record</a></dd>
-  <dt>6 Apr 1999</dt>
-    <dd><a href="/1999/04/06-chairs.html">6th meeting record</a></dd>
-  <dt>8 June 1999</dt>
-    <dd><a href="/1999/06/08-chairs.html">7th meeting record</a></dd>
-  <dt>7 Sep 1999</dt>
-    <dd><a href="/1999/09/chairs56.html">8th meeting record</a></dd>
-  <dt>16 Nov 1999</dt>
-    <dd><a href="/1999/11/chairs298.html">9th meeting record</a></dd>
-  <dt>15 Sep 2000</dt>
-    <dd><a href="/2000/09/ch53">10th meeting record</a><br />
-    </dd>
-  <dt>20 Nov 2000</dt>
-    <dd><a href="/2000/11/ch64.html">11th meeting</a></dd>
-  <dt>29 Jan 2001</dt>
-    <dd>12th meeting <br />
-      <a
-      href="https://lists.w3.org/Archives/Member/chairs/2001JanMar/0041.html">agenda</a>
-      <a href="/2001/01/29-chairs-irc">log</a> @@summary</dd>
-  <dt>28 February 2001</dt>
-    <dd><a href="/2001/02/allgroupoverview.html#Agenda1">Technical
-      Plenary</a> (<a href="/2001/02/Plenary/Agenda.html">plenary day
-      agenda</a>)</dd>
-  <dt>Feb 2002</dt>
-    <dd><a href="https://www.w3.org/2001/07/allgroupoverview">Tech Plenary Feb
-      25-March 1 2002</a><br />
-      (<a
-      href="https://lists.w3.org/Archives/Member/chairs/2001JulSep/0034.html">announcement</a>)</dd>
-  <dt>23 Apr 2002</dt>
-    <dd>Steve Bratt re-starts chairs meetings. <a
-      href="/2002/04/23-chairs-irc">IRC log</a>.</dd>
-    <dd><a href="/2000/04/mem-news/chairs2002Apr.n3">formalized
-    record</a></dd>
-  <dt>25 Jul 2002</dt>
-    <dd><a
-      href="https://lists.w3.org/Archives/Member/chairs/2002JulSep/0047.html">meeting
-      record</a>. (50+ participants!)</dd>
-  <dt>21 Jan 2003</dt>
-    <dd><a href="../2003/01/21-chairs-notes.html">meeting record</a> (<a
-      href="https://lists.w3.org/Archives/Member/chairs/2003JanMar/0032.html">6
-      Feb from C. M. Sperberg-McQueen</a>)</dd>
-  <dt>3-7 March 2003 in Cambridge, MA, USA</dt>
-    <dd><a href="/2002/10/allgroupoverview.html">Tech Plenary</a></dd>
-  <dt>6 May 2003 Chairs meeting</dt>
-    <dd><a
-    href="https://www.w3.org/2003/05/06-chair-notes.html">minutes</a></dd>
-  <dt>30 October 2003 Chairs meeting</dt>
-  <dt style="text-indent: 30pt"><a
-  href="https://www.w3.org/2003/10/31-chair-notes.html">minutes</a>, <a
-  href="https://www.w3.org/2003/10/30-chair-irc">IRC log</a></dt>
-  <dt>3 March 2004</dt>
-    <dd><a href="/2003/08/allgroupoverview.html">Technical Plenary</a> (<a
-      href="/2004/03/plenary-minutes">plenary day minutes</a>, <a
-      href="https://lists.w3.org/Archives/Member/chairs/2004JanMar/0075">Chairs
-      Breakfast announcement</a>)</dd>
-  <dt>2 September 2004</dt>
-    <dd><a href="/2004/09/02-chair-minutes.html">minutes</a></dd>
-  <dt>2 March 2005</dt>
-  <dd><a href="../2004/12/allgroupoverview.html">Technical Plenary Week
-    2005</a> in Boston (<a href="https://www.w3.org/2005/03/plenary-minutes">minutes</a>)</dd>
-  <dt>2 March 2005</dt>
-  <dd><a href="/2005/12/allgroupoverview.html">Technical Plenary 2006</a>
- in Cannes-Mandelieu (<a href="/2006/03/TP-minutes.html">minutes</a>)</dd>
-  <dt>13 March 2007</dt>
-  <dd>Chairs Call Teleconference (<a href="https://lists.w3.org/Archives/Member/chairs/2007JanMar/0128">minutes</a>)</dd>
-  <dt>20 September 2007</dt>
-  <dd>Chairs Call Teleconference (<a href="https://www.w3.org/2007/09/20-chairs-minutes.html">minutes</a>)</dd>
-  <dt>7 November 2007</dt>
-  <dd><a href="https://www.w3.org/2007/11/07-TechPlenAgenda.html">TPAC 2007 in Boston</a> (<a href="https://www.w3.org/2007/11/07-tp-minutes.html">minutes</a>)</dd>
-  <dt>17 April 2008</dt>
-  <dd><a href="https://lists.w3.org/Archives/Member/chairs/2008AprJun/0022.html">Agenda</a>, 
-  <a href="/2008/04/17-chairs-minutes.html">Minutes</a></dd>
-  <dt>1 October 2008</dt>
-  <dd><a href="https://www.w3.org/2008/10/01-chairs-minutes.html">Agenda</a>, 
-  <a href="https://www.w3.org/2008/10/01-chairs-minutes.html">Minutes</a></dd>
-  <dt>22 October 2008: TPAC 2008</dt>
-  <dd><a href="https://www.w3.org/2008/10/TPAC/TPDay-Agenda.html">Agenda</a>,  <a href="/2008/10/22-tp-minutes.html">Minutes</a></dd>
-  <dt>15 September 2009: Chairs teleconference</dt>
-  <dd><a href="https://lists.w3.org/Archives/Member/chairs/2009JulSep/0044.html">Agenda</a>,  <a href="/2009/09/15-chairs-minutes">Minutes</a></dd>
-  <dt>3 November 2010: TPAC 2010</dt>
-  <dd><a href="https://www.w3.org/2010/11/TPAC/PlenaryAgenda#details">agenda</a>, <a href="https://www.w3.org/2010/11/03-tpac-minutes">minutes</a></dd>
-  <dt>2 November 2011: TPAC 2011</dt>
-  <dd><a href="https://www.w3.org/wiki/TPAC2011">agenda</a>, <a href="https://www.w3.org/2011/11/02-tpac-minutes">minutes</a> and <a href="https://www.w3.org/wiki/TPAC2011#Session_Grid">breakout minutes</a></dd>
-  <dt>7 November 2017: TPAC 2017</dt>
-  <dd><a href="https://www.w3.org/2017/11/07-chairs-minutes.html">minutes</a></dd>
-  <dt>22 October 2020: TPAC 2020</dt>
-  <dd><a href="https://www.w3.org/2020/10/22-chairs-minutes.html">minutes</a></dd>
-  <dd><a href="https://www.w3.org/wiki/TPAC2011">agenda</a>, <a href="https://www.w3.org/2011/11/02-tpac-minutes">minutes</a> and <a href="https://www.w3.org/wiki/TPAC2011#Session_Grid">breakout minutes</a></dd>
-  <dt>1 March 2022: TPAC 2022 Preparation</dt>
-  <dd><a href="https://lists.w3.org/Archives/Member/chairs/2022JanMar/0051.html">agenda</a>, <a href="https://www.w3.org/2022/03/01-chairs-minutes.html">minutes</a></dd>
-  <dt>15 September 2022: TPAC 2022</dt>
-  <dd><a href="https://www.w3.org/2022/09/15-chairs-minutes.html">minutes</a></dd>
-</dl>
+20 Nov 1997
+: [1st Working Group Chairs Meeting](../Member/9711/wg-chairs.html)
+- [Press and Communications](../Member/Talks/971120Press) -- Sally's presentation
+- [Organizing a W3C Meeting](../meetings/hosting.html) -- Susan's presentation
+- [Tim Berners-Lee's Perspective](/Member/9711/wg-chairs-intro.html)
+- [The Web: Sharing, Group Memory, and Communication](WebSharing.html) -- Dan's presentation
+
+13 Jul 1998
+: [The Art of Consensus II](/1998/07/chairs.html)
+
+24 Sep 1998
+: [3rd meeting record](/1998/09/24-chairs.html)
+
+1 Dec 1998
+: [4th meeting record](/1998/12/01-chairs.html)
+
+2 Feb 1999
+: [5th meeting record](/1999/02/02-chairs.html)
+
+6 Apr 1999
+: [6th meeting record](/1999/04/06-chairs.html)
+
+8 June 1999
+: [7th meeting record](/1999/06/08-chairs.html)
+
+7 Sep 1999
+: [8th meeting record](/1999/09/chairs56.html)
+
+16 Nov 1999
+: [9th meeting record](/1999/11/chairs298.html)
+
+15 Sep 2000
+: [10th meeting record](/2000/09/ch53)
+
+20 Nov 2000
+: [11th meeting](/2000/11/ch64.html)
+
+29 Jan 2001
+: 12th meeting [agenda](https://lists.w3.org/Archives/Member/chairs/2001JanMar/0041.html), [IRC log](/2001/01/29-chairs-irc)
+
+28 February 2001
+: [Technical Plenary](/2001/02/allgroupoverview.html#Agenda1) ([plenary day agenda](/2001/02/Plenary/Agenda.html))
+
+Feb 2002
+: [Tech Plenary Feb 25-March 1 2002](https://www.w3.org/2001/07/allgroupoverview) ([announcement](https://lists.w3.org/Archives/Member/chairs/2001JulSep/0034.html))
+
+23 Apr 2002
+: Steve Bratt re-starts chairs meetings. [IRC log](/2002/04/23-chairs-irc)
+
+25 Jul 2002
+: [meeting record](https://lists.w3.org/Archives/Member/chairs/2002JulSep/0047.html). (50+ participants!)
+
+21 Jan 2003
+: [meeting record](../2003/01/21-chairs-notes.html) ([6 Feb from C. M. Sperberg-McQueen](https://lists.w3.org/Archives/Member/chairs/2003JanMar/0032.html))
+
+3-7 March 2003 in Cambridge, MA, USA
+: [Tech Plenary](/2002/10/allgroupoverview.html)
+
+6 May 2003 Chairs meeting
+: [minutes](https://www.w3.org/2003/05/06-chair-notes.html)
+
+30 October 2003 Chairs meeting
+: [minutes](https://www.w3.org/2003/10/31-chair-notes.html), [IRC log](https://www.w3.org/2003/10/30-chair-irc)
+
+3 March 2004
+: [Technical Plenary](/2003/08/allgroupoverview.html) ([plenary day minutes](/2004/03/plenary-minutes), [Chairs Breakfast announcement](https://lists.w3.org/Archives/Member/chairs/2004JanMar/0075))
+
+2 September 2004
+: [minutes](/2004/09/02-chair-minutes.html)
+
+2 March 2005
+: [Technical Plenary Week 2005](../2004/12/allgroupoverview.html) in Boston ([minutes](https://www.w3.org/2005/03/plenary-minutes))
+
+2 March 2005
+: [Technical Plenary 2006](/2005/12/allgroupoverview.html) in Cannes-Mandelieu ([minutes](/2006/03/TP-minutes.html))
+
+13 March 2007
+: Chairs Call Teleconference ([minutes](https://lists.w3.org/Archives/Member/chairs/2007JanMar/0128))
+
+20 September 2007
+: Chairs Call Teleconference ([minutes](https://www.w3.org/2007/09/20-chairs-minutes.html))
+
+7 November 2007
+: [TPAC 2007 in Boston](https://www.w3.org/2007/11/07-TechPlenAgenda.html) ([minutes](https://www.w3.org/2007/11/07-tp-minutes.html))
+
+17 April 2008
+: [agenda](https://lists.w3.org/Archives/Member/chairs/2008AprJun/0022.html), [minutes](/2008/04/17-chairs-minutes.html)
+
+1 October 2008
+: [agenda](https://www.w3.org/2008/10/01-chairs-minutes.html), [minutes](https://www.w3.org/2008/10/01-chairs-minutes.html)
+
+22 October 2008: TPAC 2008
+: [agenda](https://www.w3.org/2008/10/TPAC/TPDay-Agenda.html), [minutes](/2008/10/22-tp-minutes.html)
+
+15 September 2009: Chairs teleconference
+: [agenda](https://lists.w3.org/Archives/Member/chairs/2009JulSep/0044.html), [minutes](/2009/09/15-chairs-minutes)
+
+3 November 2010: TPAC 2010
+: [agenda](https://www.w3.org/2010/11/TPAC/PlenaryAgenda#details), [minutes](https://www.w3.org/2010/11/03-tpac-minutes)
+
+2 November 2011: TPAC 2011
+: [agenda](https://www.w3.org/wiki/TPAC2011), [minutes](https://www.w3.org/2011/11/02-tpac-minutes) and [breakout minutes](https://www.w3.org/wiki/TPAC2011#Session_Grid)
+
+7 November 2017: TPAC 2017
+: [minutes](https://www.w3.org/2017/11/07-chairs-minutes.html)
+
+22 October 2020: TPAC 2020
+: [minutes](https://www.w3.org/2020/10/22-chairs-minutes.html)
+
+1 March 2022: TPAC 2022 Preparation
+: [agenda](https://lists.w3.org/Archives/Member/chairs/2022JanMar/0051.html), [minutes](https://www.w3.org/2022/03/01-chairs-minutes.html)
+
+15 September 2022: TPAC 2022
+: [minutes](https://www.w3.org/2022/09/15-chairs-minutes.html)
