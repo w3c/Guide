@@ -34,7 +34,7 @@ Interested parties should subscribe to [chairbuddies@w3.org](mailto:chairbuddies
 - Communicates with the press, when necessary and appropriate, and with prior coordination with the communication team, on behalf of the group.
 - *Ensures* all participants have proper access to Group data *with assistance from Staff Contact.*
 
-### Maintains Group Process &amp; Organization
+### Maintains Group Process & Organization
 
 - Solicits drafts, encourages participation.
 - Judges items in or out of scope for the Group.
