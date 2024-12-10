@@ -3,13 +3,7 @@ title: Chairs Meetings
 toc: false
 ---
 
-<blockquote>
-  <p>I am overwhelmed by the level of talent and dedication in this group.</p>
-  <address>
-    -- <a href="https://www.w3.org/People/Berners-Lee">Tim Berners-Lee</a>, at
-    the <a href="../Member/9711/wg-chairs.html">Nov 97 WG chairs' meeting</a>
-  </address>
-</blockquote>
+{% include quote.html content="I am overwhelmed by the level of talent and dedication in this group." footer="[Tim Berners-Lee](https://www.w3.org/People/Berners-Lee), at the [Nov 97 WG chairs' meeting](../Member/9711/wg-chairs.html)" %}
 
 We met originally in November 1997 to facilitate shared context among the W3C Working Group Chairs and the W3C Team. We did a few more face-to-face meetings and several teleconferences.
 
