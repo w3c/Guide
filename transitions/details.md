@@ -17,35 +17,20 @@ The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **
 
 ## Roles
 
-<dl>
-  <dt id="Webmaster">Webmaster</a>
-  <dd>The <em>Webmaster</em> publishes documents.</dd>
+Webmaster
+: The _Webmaster_ publishes documents.
 
-  <dt id="teamVerification">@w3c/transitions</dt>
-  <dd>Transition approvals are given by <a href="https://github.com/orgs/w3c/teams/transitions">@w3c/transitions</a>,
-  under the delegation from <a href="/Guide/process/tilt/">Technical issues Lead Team</a>.</dd>
+@w3c/transitions
+: Transition approvals are given by [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions), under the delegation from [Technical issues Lead Team](/Guide/process/tilt/).
 
-  <dt id="Chair">Chair</dt>
-  <dd>Group Chair responsibilities may be carried out by either the Chair
-or Team Contact.</dd>
+Chair
+: Group Chair responsibilities may be carried out by either the Chair or Team Contact.
 
-  <dt id="DocContact">Document Contact</dt>
-  <dd>The <em>Document Contact</em> is
-either the Team Contact, the Chair, or the
-document editor of the Working Group or Interest Group requesting publication. If there is no Working Group nor Interest Group,
-the <a href="#MaintainerContact">Maintainer Contact</a> becomes the <em>Document Contact</em>. Consult the <a href="mailto:team-project@w3.org">W3C
-Project Management Lead</a> if you're not sure who is the relevant
-Document Contact.</dd>
+Document Contact
+: The _Document Contact_ is either the Team Contact, the Chair, or the document editor of the Working Group or Interest Group requesting publication. If there is no Working Group nor Interest Group, the [Maintainer Contact](#MaintainerContact) becomes the _Document Contact_. Consult the [W3C Project Management Lead](mailto:team-project@w3.org) if you're not sure who is the relevant Document Contact.
 
-  <dt id="MaintainerContact">Maintainer Contact</dt>
-  <dd>The <em>Maintainer
-  Contact</em> is a designated individual tasked with requesting
-  Team's approval in order to publish a 
-  Recommendation without a Working Group. Consult the <a href="mailto:team-project@w3.org">W3C
-  Project Management Lead</a> if you're not sure who is the relevant
-  Maintainer Contact. (Note: as of January 2018, the maintainer
-  contact is <a href="mailto:plh@w3.org">plh</a>)</dd>
-</dl>
+Maintainer Contact
+: The _Maintainer Contact_ is a designated individual tasked with requesting Team's approval in order to publish a Recommendation without a Working Group. Consult the [W3C Project Management Lead](mailto:team-project@w3.org) if you're not sure who is the relevant Maintainer Contact. (Note: as of January 2018, the maintainer contact is [plh](mailto:plh@w3.org))
 
 See also the [W3C Editor's Home Page](/Guide/editor/) and Guidebook documentation of [roles of W3C participants](#roles), including the [Chair's role](/Guide/chair/role) and the [Team Contact's role](/Guide/teamcontact/role).
 
