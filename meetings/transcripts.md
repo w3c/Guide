@@ -1,105 +1,27 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Automated Meeting Transcripts</title>
-    <link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type="text/css">
-    <link rel="stylesheet" type="text/css" href="../assets/main.css">
-    <link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-    <style type="text/css">
-	.issue {
-	outline: solid red;
-	margin-left: 2em;
-	margin-right: 4em;
-	}
-	.issue::before {
-	font-weight: bold;
-	content: "Issue:";
-	}
+---
+title: Automated Transcripts
+toc: true
+---
 
-	.subtopic {
-	font-weight: bold;
-	}
-	.subtopic::after {
-	content: " - ";
-	}
-      </style>
-  </head>
-  <body>
-    <div id="header"> <span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb"
-            alt="W3C" height="48" width="72"></a></span>
-      <div class="breadcrumb">
-        <!-- <a href="/Member/">Member</a> &rarr;&nbsp;<a href="/Guide/">The Art of Consensus</a> &rarr;&nbsp; -->
-        <h1>Automated Transcripts</h1>
-      </div>
-      <p class="baseline">This <a href="https://www.w3.org/Guide/"><strong>Guidebook</strong></a>
-        is the collected wisdom of the W3C Group Chairs and other collaborators.</p>
-    </div>
-    <div class="toc">
-      <h4>On This Page&nbsp;→&nbsp;</h4>
-      <ul>
-        <li style="display: none"><a href="#background">On Saving Automated
-            Transcripts</a>&nbsp;•&nbsp;</li>
-        <li><a href="#zoom">Zoom-Specific</a>&nbsp;•&nbsp;</li>
-      </ul>
-    </div>
-    <article>
-      <section>
-        <h2 id="background">On Saving Automated Meeting Transcripts</h2>
-        <p> Many teleconferencing systems are offering automated speech-to-text
-          facilities to provide captioning and transcription of meetings. W3C has
-          <em>some</em> Zoom licenses to offer this feature by default.</p>
-        <p> W3C fosters a community where conversations among those present in a
-          meeting may be conducted freely and openly. It has proven advantageous
-          for meeting participants to be able to ask permission to “go off the
-          record” to explain some background for a position or to provide some
-          other detail that may be misunderstood if quoted out of context.
-          Moreover, some participants have expressed concerns of personal
-          harassment that could be exacerbated by a recorded transcript of their
-          comments. </p>
-        <p> Captioning and transcription can be helpful to meeting participants,
-          including those who have difficulty hearing, or for whom spoken
-          English is more difficult to understand. With regard to minuting
-          practices, automated speech-to-text technology is improving but is not
-          yet sufficiently accurate to be relied upon as the sole record of the
-          meeting, and its use for minutes is therefore discouraged. </p>
-        <p> In consideration of the real-time value to meeting participants of
-          automated captions and transcription while respecting the utility of
-          allowing not-for-the-record remarks, W3C’s policy is that automated
-          transcriptions of W3C meetings are solely for the use of those present
-          in the meeting and <strong>must not</strong> be saved or shared with
-          anyone not present in the meeting. Before enabling automatic
-          transcriptions, the meeting chair <strong>must</strong> ask those
-          present for consent to enabling transcription and <strong>must not</strong>
-          permit the meeting host to enable transcription if any participant
-          withholds consent. The chair’s announcement must cover who will have
-          access to the transcript, the purpose/use of it, and for how long it
-          will be retained. </p>
-      </section>
-      <section>
-        <h2> Zoom-specific instructions</h2>
-        <p> In the Host’s account, the ‘Save Captions’ setting must be turned
-          off. This setting is in the “In Meeting (Advanced)” section of the
-          Settings &gt; Meeting tab. See the <a href="https://support.zoom.us/hc/en-us/articles/360034675592-Changing-your-meeting-recording-and-telephone-settings">Zoom
-            Help Center article</a>. </p>
-      </section>
-      <section>
-        <h2> Webex-specific instructions</h2>
-        <p> The Webex Host should make sure Webex Assistant is turned
-	  off at the start of a meeting. See
-	  <a href="https://help.webex.com/en-us/q1y8ig/Webex-Assistant-for-Meetings-Considerations">Webex Assistant for Meetings Considerations</a>.</p>
-      </section>
-      <section id="status">
-        <h2>Changelog</h2>
-        <ul>
-          <li>See <a href="https://github.com/w3c/Guide/commits/main/meetings/transcripts.html">commits history</a></a></li>
-          <li>See also <a href="https://github.com/w3c/process/issues/334">w3process
-            #334</a></li>
-        </ul>
-      </section>
-  </article>
-    <hr>
-    <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-     and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-  </body>
-</html>
+## On Saving Automated Meeting Transcripts
+
+Many teleconferencing systems are offering automated speech-to-text facilities to provide captioning and transcription of meetings. W3C has *some* Zoom licenses to offer this feature by default.
+
+W3C fosters a community where conversations among those present in a meeting may be conducted freely and openly. It has proven advantageous for meeting participants to be able to ask permission to “go off the record” to explain some background for a position or to provide some other detail that may be misunderstood if quoted out of context. Moreover, some participants have expressed concerns of personal harassment that could be exacerbated by a recorded transcript of their comments.
+
+Captioning and transcription can be helpful to meeting participants, including those who have difficulty hearing, or for whom spoken English is more difficult to understand. With regard to minuting practices, automated speech-to-text technology is improving but is not yet sufficiently accurate to be relied upon as the sole record of the meeting, and its use for minutes is therefore discouraged.
+
+In consideration of the real-time value to meeting participants of automated captions and transcription while respecting the utility of allowing not-for-the-record remarks, W3C’s policy is that automated transcriptions of W3C meetings are solely for the use of those present in the meeting and **must not** be saved or shared with anyone not present in the meeting. Before enabling automatic transcriptions, the meeting chair **must** ask those present for consent to enabling transcription and **must not** permit the meeting host to enable transcription if any participant withholds consent. The chair’s announcement must cover who will have access to the transcript, the purpose/use of it, and for how long it will be retained.
+
+## Zoom-specific instructions
+
+In the Host’s account, the ‘Save Captions’ setting must be turned off. This setting is in the “In Meeting (Advanced)” section of the Settings &gt; Meeting tab. See the [Zoom Help Center article](https://support.zoom.us/hc/en-us/articles/360034675592-Changing-your-meeting-recording-and-telephone-settings).
+
+## Webex-specific instructions
+
+The Webex Host should make sure Webex Assistant is turned off at the start of a meeting. See [Webex Assistant for Meetings Considerations](https://help.webex.com/en-us/q1y8ig/Webex-Assistant-for-Meetings-Considerations).
+
+## Changelog
+
+- See [commits history](https://github.com/w3c/Guide/commits/main/meetings/transcripts.html)
+- See also [w3process #334](https://github.com/w3c/process/issues/334)
