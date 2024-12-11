@@ -1,151 +1,67 @@
-<!DOCTYPE html>
-<html>
+---
+title: On TPAC Group and Joint-Group Meetings
+toc: true
+---
 
-<head>
-      <meta charset=utf-8">
-      <title>On TPAC Group and Joint-Group Meetings</title>
-      <link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type="text/css">
-      <link rel="stylesheet" type="text/css" href="../assets/main.css">
-      <link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-      <style type="text/css">
-	.issue {
-	outline: solid red;
-	margin-left: 2em;
-	margin-right: 4em;
-	}
-	.issue::before {
-	font-weight: bold;
-	content: "Issue:";
-	}
+The goal of Group meetings during a W3C TPAC is to gather the community together, to create momentum and collective brainstorming around challenges faced by the Web. The technical plenary is a set of collaborative meetings, bringing together W3C technical groups, the Advisory Board, the TAG and the Advisory Committee for exciting, coordinated work. The benefit of assembling the community for thought-provoking discussions is invaluable.
 
-	.subtopic {
-	font-weight: bold;
-	}
-	.subtopic::after {
-	content: " - ";
-	}
-      </style>
-</head>
+While W3C Groups meet throughout the year in a variety of ways (teleconference, Zoom, F2F), the annual TPAC plays a unique and special role in the annual calendar of a Group. What sets these meetings apart is that by having the Group together for 2 days (and also adjacent to many other groups), the Group can get done that which it cannot normally do - specifically (see below).
 
-<body>
-      <div id="header">
-            <span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb" alt="W3C" height="48"
-                              width="72" /></a></span>
-            <div class="breadcrumb">
-                  <a href="/Member/">Member</a> &rarr;&nbsp;<a href="/Guide/">The Art of Consensus</a> &rarr;&nbsp;
-                  <h1>On TPAC Group and Joint-Group Meetings</h1>
-            </div>
-            <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and
-                  other collaborators.</p>
-      </div>
-      <div class="toc">
-            <h4>On This Page&nbsp;&rarr;&nbsp;</h4>
-            <ul>
-                  <li><a href="#group">Group meeting</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#joint">Joint meeting</a>&nbsp;&bull;&nbsp;</li>
-            </ul>
-      </div>
+## TPAC 2021
 
-      <p>
-        The goal of Group meetings during a W3C TPAC is to gather the community together, to
-        create momentum and collective brainstorming around challenges faced by the Web. The
-        technical plenary is a set of collaborative meetings, bringing together W3C technical
-        groups, the Advisory Board, the TAG and the Advisory Committee for exciting, coordinated
-        work. The benefit of assembling the community for thought-provoking discussions is invaluable.
-      </p>
-      <p>
-        While W3C Groups meet throughout the year in a variety of ways (teleconference, Zoom, F2F), the annual TPAC plays a unique and special role in the annual
-        calendar of a Group.  What sets these meetings apart is that by having the Group together
-        for 2 days (and also adjacent to many other groups), the Group can get done that which it
-        cannot normally do - specifically (see below).
-      </p>
+With the pandemic, many Groups did not meet for TPAC 2020, and other groups met briefly and did not fully achieve the full goals of a TPAC meeting. That has caused a deficit in meeting the special objectives that we previously have only been able to achieve through TPAC Group meetings.
 
-      <h2 id=tpac2021>TPAC 2021</h2>
+In TPAC 2021, since we are still virtual, it will still be challenging to achieve all of the benefits of a physical meeting. But two years into virtual meetings, it is recommended that Groups try to get together to achieve some of these benefits. At a minimum they should consider doing an overview of the state of the Working Group and its deliverables, looking at big challenges ahead, where the priorities should be, and use a different agenda from your regular recurring meetings.
 
-      <p>
-        With the pandemic, many Groups did not meet for TPAC 2020, and other groups met briefly
-        and did not fully achieve the full goals of a TPAC meeting. That has caused a deficit
-        in meeting the special objectives that we previously have only been able to achieve through
-        TPAC Group meetings.
-      </p>
-      <p>
-        In TPAC 2021, since we are still virtual, it will still be challenging to achieve all of
-        the benefits of a physical meeting. But two years into virtual meetings, it is recommended
-        that Groups try to get together to achieve  some of these benefits. At a minimum they
-        should consider doing an overview of the state of the Working Group and its deliverables,
-        looking at big challenges ahead, where the priorities should be, and use a different agenda
-        from your regular recurring meetings.
-      </p>
-      <p>Since we'll be virtual, a few reminders:</p>
-      <ol>
-        <li>Make sure it's easy for outsiders to discover your meeting. Add your meeting to:
-              <ol>
-              <li>the <a href='https://www.w3.org/wiki/TPAC/2021/GroupMeetings'>TPAC 2021 page</a>.</li>
-              <li>the <a href='https://www.w3.org/blog/2021/03/group-calendaring-service-enters-beta-test/'>W3C Calendar of the Group</a>.</li>
-            </ol>
-        </li>
-        <li>A distributed meeting is one where most of the attendees are expected to participate from remote locations (see <a href='organize.html'>dealing with timezones</a>).</li>
-        <li>See our <a href='zoom.html'>considerations regarding zoom</a>, including recordings and automated meeting transcripts.</li>
-        <li>If you plan to make a presentation, we recommend you to record them in advance.
-           Ask the events team for assistance if needed but they require 2 weeks lead time (deadline is October 11). See also
-           our <a href="https://www.w3.org/wiki/Virtual_Presentations">recording tips</a>.</li>
-        <li>Consider if a breakout session might be useful.</li>
-      </ol>
+Since we'll be virtual, a few reminders:
 
-      <h2 id='group'>TPAC Group meeting</h2>
+1. Make sure it's easy for outsiders to discover your meeting. Add your meeting to:
+   
+   1. the [TPAC 2021 page](https://www.w3.org/wiki/TPAC/2021/GroupMeetings).
+   2. the [W3C Calendar of the Group](https://www.w3.org/blog/2021/03/group-calendaring-service-enters-beta-test/).
+2. A distributed meeting is one where most of the attendees are expected to participate from remote locations (see [dealing with timezones](organize.html)).
+3. See our [considerations regarding zoom](zoom.html), including recordings and automated meeting transcripts.
+4. If you plan to make a presentation, we recommend you to record them in advance. Ask the events team for assistance if needed but they require 2 weeks lead time (deadline is October 11). See also our [recording tips](https://www.w3.org/wiki/Virtual_Presentations).
+5. Consider if a breakout session might be useful.
 
-      <p>TPAC meeting is an opportunity for a Working or Interest Group :</p>
-      <ol>
-      <li>look on the progress and goals of the Group as well as the deliverables;</li>
-      <li>look at related work (e.g in Community Groups) and what's new out there within the scope or related to the Group's mission;</li>
-      <li>welcome new participants, understand their interests, get their questions/feedback on the Group, and potentially mentor them on how to contribute;</li>
-      <li>welcome observers, understand their interests in the Group, and get them interested in joining the Group and helping;</li>
-      </ol>
+## TPAC Group meeting
 
-      <p>On the deliverables:</p>
+TPAC meeting is an opportunity for a Working or Interest Group :
 
-      <ul>
-        <li>State of the Working Group and its deliverables (past, present and future)
-        <ul>
-          <li>high level view of the Working Group (success/challenges, goals, how close is the group to meet
-                its charter goals?, etc.)
-        <li>Reports on deliverables. Make sure to go through each, even if nothing changed and it gets brief, since some might
-        in needs in any case.
-           <ul>
-           <li>state of issues/pull requests
-           <li>state of tests
-           <li>state of implementation
-           <li>last 12 months progress
-           <li>expectations/hopes for next 12 months (eg important milestones coming up)
-           <li>what contributions would be welcome from other/new participants
-           </ul>
-      </ul></li>
-      <li>Blocking issues that are difficult to progress in weekly calls. Some indicators of such issue:
-      <ul>
-      <li>Does the issue need more than 25% of the Group to be present to be moved forward? if you only need to talk to 2 or 3 individuals, take those on the side unless asked otherwise
-      <li>Does an issue require participants from outsiders (participants from other groups, etc.)</li>
-      <li>Does the issue need a whiteboard in the room to be discussed?
-      <li>Do you need guidance or help, such as choosing between several designs/solutions?
-      <li>Ask participants which issue they would like to dive in? (limit of [2? 3?] per participant?)
-      </ul>
-   </ul>
-      <h2 id='joint'>TPAC Joint Meetings</h2>
-      <ul>
-      <li>TPAC is an opportunity for joint meetings between Groups:
-      <ol>
-      <li>issues (blocking or otherwise) that you'd be able to advance if you can schedule a joint meeting with another Group, or with representatives from that Group
-      <li>horizontal issues raised during wide reviews that have been queued
-      <li>requests sent to other Groups that did not progress in there
-      </ol>
-      </ul>
-      <h2 id='breakout'>TPAC Breakouts</h2>
+1. look on the progress and goals of the Group as well as the deliverables;
+2. look at related work (e.g in Community Groups) and what's new out there within the scope or related to the Group's mission;
+3. welcome new participants, understand their interests, get their questions/feedback on the Group, and potentially mentor them on how to contribute;
+4. welcome observers, understand their interests in the Group, and get them interested in joining the Group and helping;
 
-      <p>
-         If your Group has topic(s) of general interest, consider organizing a breakout session to attract a wider audience.
-      </p>
-      <hr>
-      <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-       and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
+On the deliverables:
 
-</html>
+- State of the Working Group and its deliverables (past, present and future)
+  
+  - high level view of the Working Group (success/challenges, goals, how close is the group to meet its charter goals?, etc.)
+  - Reports on deliverables. Make sure to go through each, even if nothing changed and it gets brief, since some might in needs in any case.
+    
+    - state of issues/pull requests
+    - state of tests
+    - state of implementation
+    - last 12 months progress
+    - expectations/hopes for next 12 months (eg important milestones coming up)
+    - what contributions would be welcome from other/new participants
+- Blocking issues that are difficult to progress in weekly calls. Some indicators of such issue:
+  
+  - Does the issue need more than 25% of the Group to be present to be moved forward? if you only need to talk to 2 or 3 individuals, take those on the side unless asked otherwise
+  - Does an issue require participants from outsiders (participants from other groups, etc.)
+  - Does the issue need a whiteboard in the room to be discussed?
+  - Do you need guidance or help, such as choosing between several designs/solutions?
+  - Ask participants which issue they would like to dive in? (limit of \[2? 3?] per participant?)
+
+## TPAC Joint Meetings
+
+- TPAC is an opportunity for joint meetings between Groups:
+  
+  1. issues (blocking or otherwise) that you'd be able to advance if you can schedule a joint meeting with another Group, or with representatives from that Group
+  2. horizontal issues raised during wide reviews that have been queued
+  3. requests sent to other Groups that did not progress in there
+
+## TPAC Breakouts
+
+If your Group has topic(s) of general interest, consider organizing a breakout session to attract a wider audience.
