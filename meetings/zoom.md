@@ -1,194 +1,73 @@
-<!DOCTYPE html>
-<html>
+---
+title: Zoom
+toc: true
+---
 
-<head>
-      <meta charset=utf-8">
-      <title>Zoom</title>
-      <link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type="text/css">
-      <link rel="stylesheet" type="text/css" href="../assets/main.css">
-      <link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-      <style type="text/css">
-	.issue {
-	outline: solid red;
-	margin-left: 2em;
-	margin-right: 4em;
-	}
-	.issue::before {
-	font-weight: bold;
-	content: "Issue:";
-	}
+W3C has a Zoom account and W3C Groups may use those with assistance from the W3C Team (for Community Groups, see the separate [Tools and Infrastructure](https://www.w3.org/community/about/tool/)). We are aware of questions about Zoom's security and privacy practices and recommend [mitigations](#settings) and usage guidelines.
 
-	.subtopic {
-	font-weight: bold;
-	}
-	.subtopic::after {
-	content: " - ";
-	}
-      </style>
-</head>
+## Scheduling a Zoom Conference
 
-<body>
-      <div id="header">
-            <span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb" alt="W3C" height="48"
-                              width="72" /></a></span>
-            <div class="breadcrumb">
-                  <a href="/Member/">Member</a> &rarr;&nbsp;<a href="/Guide/">The Art of Consensus</a> &rarr;&nbsp;
-                  <h1>Zoom</h1>
-            </div>
-            <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and
-                  other collaborators.</p>
-      </div>
-      <div class="toc">
-            <h4>On This Page&nbsp;&rarr;&nbsp;</h4>
-            <ul>
-                  <li style="display: none"><a href="#purpose">Purpose</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#scheduling">Scheduling</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#settings">Suggested Settings</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#testing">Testing</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#recordings">Recordings</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#ending">Ending a meeting</a>&nbsp;&bull;&nbsp;</li>
-            </ul>
-      </div>
+W3C's groups typically meet weekly and therefore schedule recurring meetings for the duration of their charters. The Zoom scheduler limits how far into the future a recurring meeting may be scheduled. However, you can extend the end date after some time has passed.
 
-      <p>
-        W3C has a Zoom account and
-        W3C Groups may use those with assistance from the W3C Team (for Community Groups, see
-        the separate <a href="https://www.w3.org/community/about/tool/">Tools and Infrastructure</a>).
-        We are aware of questions about Zoom's security and privacy
-	practices and recommend <a href="#settings">mitigations</a>
-	and usage guidelines.
-      </p>
+We have found that recurring meetings can be used at any time and are not limited to the scheduled period. Thus, ad-hoc sessions and regular meetings that are scheduled for different times to use the same meeting number/URI.
 
-      <h2 id='scheduling'>Scheduling a Zoom Conference</h2>
+To avoid interference from non-invitees, meeting coordinates should not be posted publicly. The meeting information, including password, should be posted to a Member-only mailing list and only the URI of the list archive message used in public meeting agendas or other public group pages.
 
-      <p>
-	W3C's groups typically meet weekly and therefore schedule recurring
-	meetings for the duration of their charters.
-        The Zoom scheduler limits how far into the future a recurring meeting may be scheduled. However, you can
-        extend the end date after some time has passed.
-      </p>
-      <p>
-        We have found that recurring meetings can be used at any time and are not limited to the scheduled period. Thus, ad-hoc sessions and regular
-        meetings that are scheduled for different times to use the same meeting number/URI.
-      </p>
+## Suggested Settings
 
-      <p>
-	To avoid interference from non-invitees, meeting coordinates
-	should not be posted publicly.  The meeting information,
-	including password, should be posted to a Member-only mailing
-	list and only the URI of the list archive message used in
-	public meeting agendas or other public group pages.
-      </p>
+W3C Team account owners should set [account default settings](https://w3c.zoom.us/profile/setting) as follows:
 
-      <h2 id='settings'>Suggested Settings</h2>
+- Join before host \[on]
+- Waiting room \[off] (off is the default; if turned on for a meeting, "Join before host" is disabled for that meeting
+- Feedback to Zoom \[off]
+- Display end-of-meeting experience feedback survey \[off]
+- Whiteboard \[on]
+- Show a "Join from your browser" link \[on]
+- When attendees join meeting before host \[off]
+- [Save Captions](transcipts.html) \[off].
+- Attention tracking \[off] ([Zoom says they have removed attention tracking as of 1 April 2020](https://blog.zoom.us/wordpress/2020/04/01/a-message-to-our-users/))
 
-      <p>
-        W3C Team account owners should set <a href='https://w3c.zoom.us/profile/setting'>account default settings</a> as follows:
-      </p>
+These settings will allow the group to meet even if the Team Host is not present. If an actual Host is required, the Team Host can join the call momentarily and assign co-Host privileges to one or more of the other attendees.
 
-      <ul>
-        <li>Join before host [on]</li>
-	<li>Waiting room [off] (off is the default; if turned on for a meeting, "Join before host" is disabled for that meeting</li>
-        <li>Feedback to Zoom [off]</li>
-        <li>Display end-of-meeting experience feedback survey [off]</li>
-        <li>Whiteboard [on]</li>
-        <li>Show a "Join from your browser" link [on]</li>
-        <li>When attendees join meeting before host [off]</li>
-        <li><a href='transcipts.html'>Save Captions</a> [off].</li>
-	<li>Attention tracking [off] (<a href="https://blog.zoom.us/wordpress/2020/04/01/a-message-to-our-users/">Zoom says they have removed attention tracking as of 1 April 2020</a>)</li>
-      </ul>
+## Testing Your Connection
 
-      <p>
-	These settings will allow the group to meet even if the Team
-	Host is not present.  If an actual Host is required, the Team
-	Host can join the call momentarily and assign co-Host privileges
-	to one or more of the other attendees.
-      </p>
+Zoom offers a [test meeting service](https://zoom.us/test) for anyone to use to test their connection. You should use it to hear how your own audio is working. This service may only work for Internet (not phone) connections. See also [Zoom's article on testing](https://support.zoom.us/hc/en-us/articles/115002262083-Joining-a-test-meeting).
 
-      <h2 id='testing'>Testing Your Connection</h2>
+## Recordings
 
-      <p>
-        Zoom offers a <a href='https://zoom.us/test'>test meeting service</a> for anyone to use to test their connection.
-        You should use it to hear how your
-        own audio is working. This service may only work for Internet (not phone) connections. See also <a
-        href='https://support.zoom.us/hc/en-us/articles/115002262083-Joining-a-test-meeting'>Zoom's
-        article on testing</a>.
-      </p>
+Zoom provides the ability to make recordings. If this feature is used, it must be with the consent of the meeting participants. Chairs have the responsibility to ensure that participants are aware that they are being recorded whenever this feature is used. Recordings are made available after the end (could take a few hours) using an email notification to the meeting host, and can only be shared by default to individuals with a W3C Zoom account. We're looking into providing additional recommendations to make those videos available through other means.
 
-      <h2 id='recordings'>Recordings</h2>
+Check also the special guidance on [automated meeting transcripts](transcripts.html).
 
-      <p>
-        Zoom provides the ability to make recordings.  If this
-	feature is used, it must be with the consent of the meeting
-	participants. Chairs have the responsibility to ensure that
-	participants are aware that they are being recorded whenever
-	this feature is used.
-	Recordings are made available after the end (could take a
-	few hours) using an email notification to the meeting host,
-	and can only be shared by default to individuals with a W3C Zoom
-	account. We're looking into providing additional
-	recommendations to make those videos available through other
-      means.
-      </p>
-      <p>
-        Check also the special guidance on <a href="transcripts.html">automated meeting transcripts</a>.
-      </p>
+## Ending a Meeting
 
-      <h2 id='ending'>Ending a Meeting</h2>
+Participants sometimes wander off and forget to disconnect at the end of a meeting. To avoid later embarrassment it is recommended that someone with Host privileges explicitly end each Zoom meeting once it has adjourned.
 
-      <p>
-	Participants sometimes wander off and forget to disconnect
-	at the end of a meeting.  To avoid later embarrassment it
-	is recommended that someone with Host privileges explicitly
-	end each Zoom meeting once it has adjourned.
-      </p>
+## Considerations
 
+### Security and Privacy
 
-      <h2 id='considerations'>Considerations</h2>
+The standard precautions apply for meeting participants to mute your audio except when you mean to talk to the meeting to avoid interference and accidentally sharing private communications (e.g. yelling at your pets), and also to pay attention to what is visible in your video feed.
 
-      <h3 id="sec_privacy">Security and Privacy</h3>
+Besides the [suggested settings for the W3C team accounts](#suggested-settings), we understand that concerns have been raised regarding the security/privacy of the Zoom clients. Several of the issues reported were based on native application hacks with computers already infected (such as modifying the installation script). The best and most cost-effective way to prevent those issues is to use the Web application for Zoom but it is more CPU intensive. Using an alternative device helps in isolating the native applications or the impact on CPU usage from the Web application. It's the perfect opportunity to repurpose an old device.
 
-      <p>
-            The
-            standard precautions apply for meeting participants to mute
-            your audio except when you mean to talk to the meeting to
-            avoid interference and accidentally sharing private
-            communications (e.g. yelling at your pets), and also to pay
-            attention to what is visible in your video feed.
-      </p>
-      <p>
-        Besides the <a href='#settings'>suggested settings for the W3C team accounts</a>, we understand that
-        concerns have been raised regarding the security/privacy of the Zoom clients. Several of the issues reported
-        were based on native application hacks with computers already infected (such as modifying the installation script).
-        The best and most cost-effective way to prevent those issues is to use the Web application for Zoom but it is
-        more CPU intensive. Using an alternative device helps in isolating the native applications
-        or the impact on CPU usage from the Web application. It's the perfect opportunity to repurpose an old device.
-      </p>
+### Zoom documentation
 
-      <h3 id='zoomdoc'>Zoom documentation</h3>
+This section provides links to the Zoom documentation.
 
-      <p>This section provides links to the Zoom documentation.</p>
-      <ul>
-            <li>ability for a participant to turn off incoming video (see network bandwidth)</li>
-            <li><a href='https://zoom.us/accessibility'>accessibility</a> (<a href="https://zoom.us/accessibility/faq">FAQ</a>)</li>
-            <li>audio quality and settings</li>
-            <li>cost</li>
-            <li><a href='https://zoom.us/zoomconference'>dial-in capability</a></li>
-            <li>internationalization</li>
-            <li>interoperable browser support</li>
-            <li>network bandwidth</li>
-            <li>Native platform independence (a native app that works on Linux, Mac, Windows, …)</li>
-            <li><a href='https://zoom.us/privacy?zcid=1231&_ga=2.98581528.769047269.1585831637-830468457.1584135532'>privacy</a></li>
-            <li>queue management</li>
-            <li>reliability</li>
-            <li>scalability</li>
-            <li><a href='https://support.zoom.us/hc/en-us/categories/201137166'>screen and application sharing</a> (share only one app, not only entire screen)</li>
-            <li><a href='https://zoom.us/security'>security</a></li>
-            <li>video quality and settings</li>
-      </ul>
-      <hr>
-      <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-       and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
-
-</html>
+- ability for a participant to turn off incoming video (see network bandwidth)
+- [accessibility](https://zoom.us/accessibility) ([FAQ](https://zoom.us/accessibility/faq))
+- audio quality and settings
+- cost
+- [dial-in capability](https://zoom.us/zoomconference)
+- internationalization
+- interoperable browser support
+- network bandwidth
+- Native platform independence (a native app that works on Linux, Mac, Windows, …)
+- [privacy](https://zoom.us/privacy?zcid=1231&_ga=2.98581528.769047269.1585831637-830468457.1584135532)
+- queue management
+- reliability
+- scalability
+- [screen and application sharing](https://support.zoom.us/hc/en-us/categories/201137166) (share only one app, not only entire screen)
+- [security](https://zoom.us/security)
+- video quality and settings
