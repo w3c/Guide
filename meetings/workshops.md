@@ -1,144 +1,30 @@
-<!DOCTYPE html>
-<html>
+---
+title: Workshops
+toc: true
+---
 
-<head>
-      <meta charset=utf-8">
-      <title>Workshops</title>
-      <link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type="text/css">
-      <link rel="stylesheet" type="text/css" href="../assets/main.css">
-      <link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-      <style type="text/css">
-	.issue {
-	outline: solid red;
-	margin-left: 2em;
-	margin-right: 4em;
-	}
-	.issue::before {
-	font-weight: bold;
-	content: "Issue:";
-	}
+## Purpose
 
-	.subtopic {
-	font-weight: bold;
-	}
-	.subtopic::after {
-	content: " - ";
-	}
-      </style>
-</head>
+A W3C Workshop is a one-off event which W3C holds when a need is felt to advance some aspect of the Open Web Platform and the correct way forward is unclear or would benefit from a wide variety of informed points of view before Standards-track work commences.
 
-<body>
-      <div id="header">
-            <span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb" alt="W3C" height="48"
-                              width="72" /></a></span>
-            <div class="breadcrumb">
-                  <!-- <a href="/Member/">Member</a> &rarr;&nbsp;<a href="/Guide/">The Art of Consensus</a> &rarr;&nbsp; -->
-                  <h1>Workshops</h1>
-            </div>
-            <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and
-                  other collaborators.</p>
-      </div>
-      <div class="toc">
-            <h4>On This Page&nbsp;&rarr;&nbsp;</h4>
-            <ul>
-                  <li style="display: none"><a href="#purpose">Purpose</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#proposing">Proposing</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#planning">Planning</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#attendance">Attendance</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#"></a>&nbsp;&bull;&nbsp;</li>
-            </ul>
-      </div>
+The result of a W3C Workshop is a report, made publicly available, which summarizes the workshop discusions and recommends next steps which may be the establishment of a W3C Working Group, or a W3C Community Group, establishment of a liaison with some other body, or on occasion the conclusion that no Standards-track work should be done in the area.
 
-<article>
-    <section>
-        <h1 id="purpose">Purpose</h1>
-        <p>A W3C Workshop is a one-off event
-            which W3C holds
-            when a need is felt
-            to advance some aspect of the Open Web Platform
-            and the correct way forward is unclear
-            or would benefit from a wide variety of informed points of view
-            before Standards-track work commences.
-        </p>
-        <p>
-            The result of a W3C Workshop is a report,
-            made publicly available,
-            which summarizes the workshop discusions
-            and recommends next steps which may be
-            the establishment of a W3C Working Group,
-            or a W3C Community Group,
-            establishment of a liaison with some other body,
-            or on occasion the conclusion that
-            no Standards-track work should be done in the area.
-        </p>
-        <p class="note">
-            To date, most W3C Workshops have been face-to-face meetings.
-            Going forward, more workshops are expected to be virtual.
-            As W3C gains experience with virtual workshops,
-            this Guide is likely to be updated.
-        </p>
-    </section>
-    <section>
-        <h1 id="Proposing">Proposing a Workshop</h1>
-        <p>Most workshops to date
-            have been proposed by the W3C Technical Staff,
-            in particular, members of the W3C Strategy Team.
-            Workshops being planned are publicly visible
-            on the <a href="https://github.com/w3c/strategy/projects/2">W3C Strategy Funnel</a>.
-        </p>
-        <p>
-            In the planning phase,
-            each workshop is maintained
-            as an issue on GitHub. For example, here is the issue for
-            the <a href="https://github.com/w3c/strategy/issues/175">Inclusive XR workshop</a>.</p>
+To date, most W3C Workshops have been face-to-face meetings. Going forward, more workshops are expected to be virtual. As W3C gains experience with virtual workshops, this Guide is likely to be updated.
 
-        <p class="command">
-            <a href="https://github.com/w3c/strategy/issues/new?assignees=&labels=Exploration%3A+untriaged&template=00-Exploration.md&title=">Propose a W3C Workshop</a>
-        </p>
-    </section>
-    <section>
-        <h1 id="Planning">Planning a Workshop</h1>
-    </section>
-        <p>
-            Each workshop proposal is discussed,
-            undergoes a round of <em>horizontal review</em>
-            (checking for Accessibility, Internationalization, Privacy and such like aspects)
-            before it is approved by the W3C Management
-            and a Call for Participation is issued.
-            Here is an <a href="https://www.w3.org/2019/08/inclusive-xr-workshop/">example
-                workshop call</a>.
-            <!-- due dates and timeline for a new workshop -->
-        </p>
-        <p>
-            W3C has a requirement that no a Call for Participation is issued
-            no later than eight weeks prior to the meeting's scheduled start date.
-            This helps ensure that speakers and authors
-            have adequate time to prepare position papers and talks.
-            Once a workshop is proposed and accepted,
-            a planning period of typically 12 weeks before the event
-            allows meeting planners time to prepare logistics
-            and business development time to organize any sponsorship.
-        </p>
-        <p></p>
-    </section>
-    <section>
-        <h1 id="attendance">Attendance</h1>
-        <p>
-            In contrast to a conference workshop,
-            which is typically a tutorial attended by those who paye a fee,
-            W3C Workshop attendance is by submission of a Position Paper,
-            which is evaluated by a Program Committee.
-            Not all papers are accepted,
-            and not all accepted papers are presented in person,
-            although all accepted papers are made available
-            to the public after the event
-            and (ideally)
-            to participants before the event,
-            to encourage early discussion.
-        </p>
-    </section>
-    <hr>
-    <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-     and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
+## Proposing a Workshop
 
-</article>
+Most workshops to date have been proposed by the W3C Technical Staff, in particular, members of the W3C Strategy Team. Workshops being planned are publicly visible on the [W3C Strategy Funnel](https://github.com/w3c/strategy/projects/2).
+
+In the planning phase, each workshop is maintained as an issue on GitHub. For example, here is the issue for the [Inclusive XR workshop](https://github.com/w3c/strategy/issues/175).
+
+[Propose a W3C Workshop](https://github.com/w3c/strategy/issues/new?assignees=&labels=Exploration%3A%20untriaged&template=00-Exploration.md&title=)
+
+## Planning a Workshop
+
+Each workshop proposal is discussed, undergoes a round of *horizontal review* (checking for Accessibility, Internationalization, Privacy and such like aspects) before it is approved by the W3C Management and a Call for Participation is issued. Here is an [example workshop call](https://www.w3.org/2019/08/inclusive-xr-workshop/).
+
+W3C has a requirement that no a Call for Participation is issued no later than eight weeks prior to the meeting's scheduled start date. This helps ensure that speakers and authors have adequate time to prepare position papers and talks. Once a workshop is proposed and accepted, a planning period of typically 12 weeks before the event allows meeting planners time to prepare logistics and business development time to organize any sponsorship.
+
+## Attendance
+
+In contrast to a conference workshop, which is typically a tutorial attended by those who paye a fee, W3C Workshop attendance is by submission of a Position Paper, which is evaluated by a Program Committee. Not all papers are accepted, and not all accepted papers are presented in person, although all accepted papers are made available to the public after the event and (ideally) to participants before the event, to encourage early discussion.
