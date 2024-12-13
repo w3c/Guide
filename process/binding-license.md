@@ -1,61 +1,12 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-  <meta charset="utf-8">
-  <title>How to license definitions and bindings</title>
-  <link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-  <link rel="stylesheet" type="text/css" href="../assets/main.css">
-</head>
+---
+title: How to license definitions and bindings
+toc: no
+---
 
-<body>
+Some Working Groups define API definitions, with examples and are still using the [W3C document license](https://www.w3.org/copyright/document-license-2023/).
 
-<div id="header">
-<span class="logo"><a href="../"><img src="/Icons/WWW/w3c_home_nb" alt="W3C"
-border="0" height="48" width="72"></a> </span> 
+If you include WebIDL definitions, examples, code samples, the [document license](https://www.w3.org/copyright/document-license-2023/) states (as of January 1st, 2023):
 
-<div class="breadcrumb">
-<a href="/Member/">Member</a> &rarr; <a href="/Guide/">The Art of Consensus</a>
-&rarr; 
+{% include quote.html content="In addition, 'Code Components' — Web IDL in sections clearly marked as Web IDL; and W3C-defined markup (HTML, CSS, etc.) and computer programming language code clearly marked as code examples— are licensed under the [W3C Software License](https://www.w3.org/copyright/software-license/)."%}
 
-<h1>How to license definitions and bindings</h1>
-</div>
-
-<p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of
-the W3C Group Chairs and other collaborators.</p>
-</div>
-
-<p style="float: right; margin-bottom: 0"><em>This page is Public</em></p>
-<!--
-<div class="toc">
-<h4>Also On This Page&nbsp;&rarr;&nbsp;</h4>
-<ul>
-  <li style="display: none"><a href="#start">Start</a>&nbsp;&bull;&nbsp;</li>
-  <li><a href="#ref">Reference</a>&nbsp;&bull;&nbsp;</li>
-  <li><a href="#sa34">Advice</a>&nbsp;&bull;&nbsp;</li>
-  <li><a href="#care-and-feeding">About the Guide</a></li>
-</ul>
-</div>
--->
-
-<section class="left" style="margin-top: 2em">
-<p>Some Working Groups define API definitions, with examples and are still using the <a
-href="https://www.w3.org/copyright/document-license-2023/">W3C document
-license</a>.</p>
-
-<p>If you include WebIDL definitions, examples, code samples, the <a
-href="https://www.w3.org/copyright/document-license-2023/">document
-license</a> states (as of January 1st, 2023): </p>
-
-<blockquote
-cite="https://www.w3.org/copyright/document-license-2023/">
-  <p>In addition, "Code Components" &mdash; Web IDL in sections clearly marked as Web IDL; and W3C-defined markup (HTML, CSS, etc.) and computer programming language code clearly marked as code examples&mdash; are licensed under the <a href="https://www.w3.org/copyright/software-license/">W3C Software License</a>.</p>
-</blockquote>
-</section>
-
-<p>The <a href="https://www.w3.org/copyright/software-license-2023/">W3C Software License</a> is listed at the <a href="https://opensource.org/licenses/W3C">Open Source Initiative</a>.</p>
-
-<hr>
-<p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-  and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
-</html>
+The [W3C Software License](https://www.w3.org/copyright/software-license-2023/) is listed at the [Open Source Initiative](https://opensource.org/licenses/W3C).
