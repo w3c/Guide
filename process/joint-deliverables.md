@@ -1,50 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" >
-<title>Joint deliverables between Groups</title>
-<link rel="stylesheet" href="/StyleSheets/generic-base-1.css"
-type="text/css">
-<link rel="stylesheet" type="text/css" href="../assets/main.css">
-<link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-<link rel="start" href="../" >
-<style>
-  .IssueLabel-big {
-    font-weight: 600;
-    padding: 4px 8px;
-    border-radius: 3px;
-    line-height: 1.5;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-</style>
-</head>
-<body>
-
-<div id="header">
-<span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb"
-alt="W3C" height="48" width="72"></a></span>
-    <div class="breadcrumb"><a href="/Guide/">The Art of
-Consensus</a> &#x2192;
-<h1>Joint deliverables<hh1>
-</div>
-<p class="baseline">This <strong>Guidebook</strong> is the collected
-wisdom of the W3C Group Chairs and other collaborators.</p>
-</div>
-
-<div class="toolbox box">
-  <h4>Nearby</h4>
-  <ul>
-    <li>
-      <a href="/policies/process/#WGCharter">W3C Process Document</a>
-    </li>
-    <li>
-      <a href="charter.html#creation">Charter Creation</a>
-    </li>
-  </ul>
-</div>
-
-    <div id="Content">
+---
+title: Joint deliverables
+toc: yes
+---
 
 <p>This document provides details about joint deliverables between W3C Groups.</p>
 
@@ -99,14 +56,7 @@ wisdom of the W3C Group Chairs and other collaborators.</p>
 </li>
 </ol>
 
-<h3>Revision History</h3>
+<h2>Revision History</h2>
 <ul>
   <li>2023-09-14: Document created from <a href="https://github.com/w3c/process/issues/754#issuecomment-1719014704">#754</a>.</li>
 </ul>
-
-</div>
-<hr>
-<p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
-  and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
-</html>
