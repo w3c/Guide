@@ -32,18 +32,14 @@ It is useful to record whether and how the Community Group reached consensus on 
 
 ### Are IPR commitments in place?
 
-When a Working Group plans to take up a Community Group specification, it is important that there be "IPR safety" around the specification managed by the Working Group. Relevant questions are:
+When a Working Group plans to take up a Community Group specification, it is important that there be "IPR safety" around the resulting Working Group specification.
 
-- Who has made significant contributions to the Community Group specification? See below for information about a tool to identify significant contributors](#contributor-list)
-- Have those contributors (or the organizations they represent) joined the Working Group or do they plan to do so?
+If significant contributors (see [tool](#contributor-list)) below) have not joined the Working Group or don't plan to, then steps should be taken to secure IPR commitments from them. There are three ways for CG contributors to make patent licensing commitments for the specification managed by the Working Group:
+{:#ipr-commitments}
 
-If significant contributors have not joined the Working Group or don't plan to, then steps should be taken to secure IPR commitments from them. There are three ways for CG contributors to make commitments for the specification managed by the Working Group:
-
-1. They can join (or already participate in) the Working Group.
+1. They can join the Working Group(if they haven't already).
 1. They can sign the non-participant licensing agreement for the Working Group.
-1. They can make a commitment (via [tools](https://www.w3.org/community/about/faq/#fsa-mechanics)) to the Community Group specification under the [>W3C Community Final Specification Agreement (FSA)](https://www.w3.org/community/about/agreements/final/). Note that the main difference between the FSA and the [W3C Community Contributor Licensing Agreement (CLA)](https://www.w3.org/community/about/process/cla/) is that patent licensing commitments under the CLA are for one's own contributions, while commitments under the FSA are for the full text of the specification.
-
-**Note:** FSA commitments may still have some value for situations where a Working Group ultimately does not advance the specification on the Recommendation Track. Each Community Group should make a determination whether to launch the process of gathering Final Specification commitments, based on (anticipated or actual) Contributor participation in the Working Group.
+1. They can make a commitment (via [tools](https://www.w3.org/community/about/faq/#fsa-mechanics)) to the Community Group specification under the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/community/about/agreements/final/). Note that the main difference between the FSA and the [W3C Community Contributor Licensing Agreement (CLA)](https://www.w3.org/community/about/process/cla/) is that patent licensing commitments under the CLA are for one's own contributions, while commitments under the FSA are for the full text of the specification.
 
 Once the work transitions to a Working Group, that Working Group's patent policy becomes the "primary" patent policy. Contributions to the work are henceforth made under the W3C Patent Policy. When a contributor cannot join the Working Group, W3C will provide tools so that Working Groups can ensure that substantive contributions from non-participants are made under the terms of the W3C Patent Policy.
 
@@ -70,6 +66,7 @@ Is the repository already being monitored by [W3C's IPR Repo Manager](https://la
 - If not, evaluate even more carefully the IPR considerations described above.
 - If yes:
     - Use the list of substantive contributors tracked by the tool for the repository (linked from the [repository list](https://labs.w3.org/repo-manager/repos)) to ensure all such contributors have made the expected [IPR commitments](#ipr-commitments).
+    {:#contributor-list}
     - once the transition is enacted (e.g., when the new Working Group is launched), the IPR manager will need to be updated to reflect the new IPR status of the work (contact [dom@w3.org](mailto:dom@w3.org) or [plh@w3.org](mailto:plh@w3.org)); if the repo is being moved or renamed at the time of transition, please coordinate specifically with [dom@w3.org](mailto:dom@w3.org) as this operation requires special handling at the moment.
 
 Other repository admin for the target Working Group:
