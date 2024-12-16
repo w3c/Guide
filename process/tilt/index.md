@@ -1,205 +1,123 @@
-<!DOCTYPE html>
-<html  lang="en">
-<head>
-<meta charset="utf-8">
-<title>Technical issues Lead Team</title>
-<link rel="stylesheet" href="https://www.w3.org/StyleSheets/generic-base-1.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="https://www.w3.org/Guide/guide2006.css">
-<link rel="shortcut icon" href="https://www.w3.org/Icons/WWW/Literature.gif">
-<link rel="start" title="Guidebook for W3C Collaborators" href="https://www.w3.org/Guide/">
-<link rel="copyright" title="Copyright" href="https://www.w3.org/Consortium/Legal/2002/ipr-notice-20021231#Copyright">
-</head>
-<body>
-    <div id="header">
-        <span class="logo">
-          <a href="/">
-            <img src="https://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" height="48" width="72">
-          </a>
-        </span>
-        <div class="breadcrumb"><a href="https://www.w3.org/participate/">Participate</a> → <a href="https://www.w3.org/Guide/">The Art of Consensus</a> → 
-  <h1>Technical issues Lead Team</h1></div>
-        <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and other collaborators.</p>
-      </div>
-      <div class="toc">
-        <h4>Also On This Page → </h4>
-        <ul>
-          <li><a href="#scope">Scope</a> • </li>
-          <li><a href="#composition">Composition</a> • </li>
-          <li><a href="#request">Requesting approvals</a> • </li>
-          <li><a href="#responses">Response to requests</a> • </li>
-          <li><a href="#communication">Communication</a></li>
-        </ul>
-      </div>
+---
+title: Technical issues Lead Team
+toc: yes
+---
+The mission of the TiLT is to make technical team decisions described in the W3C Process.
 
-      <div class="toolbox box" style="margin-bottom: 1em">
-        <h4>Related Resources</h4>
-        <ul>
-            <li><a
-                href="../charter.html">How to Create a Working Group or Interest Group</a></li>
-            <li><a
-                href="post-ac-review.html">TilT Evaluation of the AC Review Results</a></li>
-            </ul>
-        </div>
-<p>The mission of the TiLT is to make technical team decisions described in the W3C Process.</p>
+TiLT authority comes from [delegation by the CEO](https://www.w3.org/Consortium/Process/#Team).
 
-<p>TiLT authority comes from <a href="https://www.w3.org/Consortium/Process/#Team">delegation
-by the CEO</a>.</p>
+## Scope {#scope}
 
-<h2 id="scope">Scope</h2>
+The Technical issues Lead Team is meant to handle all verifications requests for:
 
-<p>The Technical issues Lead Team is meant to handle all verifications requests for:</p>
+1. Group charters approvals, before and after AC review
+2. Chairs appointments
+3. Group extensions
+4. Member submissions
+5. Workshops([1](#note1))
+6. Patent Advisory Groups (PAGs)
+7. Start of Councils
+8. Transition requests([2](#note2))
+9. Anything related to the operational management of developing W3C specs
 
-<ol>
-<li>Group charters approvals, before and after AC review</li>
-<li>Chairs appointments</li>
-<li>Group extensions</li>
-<li>Member submissions</li>
-<li>Workshops(<a href='#note1'>1</a>)</li>
-<li>Patent Advisory Groups (PAGs)</li>
-<li>Start of Councils</li>
-<li>Transition requests(<a href='#note2'>2</a>)</li>
-<li>Anything related to the operational management of developing W3C specs</li>
-</ol>
+(1) Those requests still need W3C Management approval in parallel.
+{:#note1}
 
-<p id='note1'>(1) Those requests still need W3C Management approval in
-    parallel.</p>
+(2) TiLT delegates its authority for transition requests
+{:#note2}
 
-<p id="note2">(2) TiLT delegates its authority for transition requests</p>
+### Out of Scope {#out}
 
-<h3 id="out">Out of Scope</h3>
+1. The TiLT is “internal to the Team”; it does not have Membership- or community-facing activities. Generally speaking, project management and strategy roles carry out these Membership-and community-facing activities. However, asking approval from TiLT is a signal that can be exposed to the outside.
+2. TiLT does not replace the Strategy Function (e.g., what Workshops W3C should organize). Note, however, that the TiLT does play a role for related decisions (e.g., Workshop approval).
+3. TiLT does not replace Board of Directors nor W3C Management functions. For example, the TiLT does not establish a budget, but through its decisions (e.g., Workshop approval), there are likely to be budgetary impacts (e.g., Workshop costs, human resources for Team Contacts, etc.). Thus, TiLT may be asked to provide input to budget discussions.
 
-<ol>
-    <li>The TiLT is “internal to the Team”; it does not have Membership- or community-facing activities. Generally speaking, project management and strategy roles carry out these Membership-and community-facing activities. However, asking approval from TiLT is a signal that can be exposed to the outside.</li>
-<li>TiLT does not replace the Strategy Function (e.g., what Workshops W3C should organize). Note, however, that the TiLT does play a role for related decisions (e.g., Workshop approval).</li>
-<li>TiLT does not replace Board of Directors nor W3C Management functions. For example, the TiLT does not establish a budget, but through its decisions (e.g., Workshop approval), there are likely to be budgetary impacts (e.g., Workshop costs, human resources for Team Contacts, etc.). Thus, TiLT may be asked to provide input to budget discussions.</li>
-</ol>
+## Composition {#composition}
 
-<h2 id='composition'>Composition</h2>
+Composition goals:
 
-<p>Composition goals:</p>
-<ul>
-<li>Manageable size</li>
-<li>Decision-making continuity</li>
-<li>Viewpoint freshness</li>
-<li>Staff development</li>
+- Manageable size
+- Decision-making continuity
+- Viewpoint freshness
+- Staff development
 
-</ul>
+The TiLT is staffed as follows:
 
-<p>The TiLT is staffed as follows:</p>
+- 2 seats are 2-year terms, with staggered renewals every year, acting as co-chairs (“co-chair seat”). May need to change at different times.
+- 3 seats are 1-year terms, with staggered renewals every 8 months (“regular seat”)
 
-<ul>
-<li>2 seats are 2-year terms, with staggered renewals every year,
-    acting as co-chairs (“co-chair seat”). May need to change at
-    different times.</li>
-<li>3 seats are 1-year terms, with staggered renewals every 8
-    months (“regular seat”)</li>
-</ul>
+Eligibility:
 
+- By default, all Team Contacts are eligible for either co-chair or regular seats. Individuals from this group are expected to participate but may opt-out. Other W3C Team may opt-in.
+- To fill an open seat, assemble the [randomized list of individuals](https://www.w3.org/2023/08/noncom-random-selection.html) interested in the position, with the outgoing TiLT member at the bottom of the list, go down the list until you fill the seat.
 
-<p>Eligibility:</p>
-<ul>
-    <li>By default, all Team Contacts are eligible for either co-chair or regular seats. Individuals from this group are expected to participate but may opt-out.
-Other W3C Team may opt-in.</li>
-<li>To fill an open seat, assemble the <a href='https://www.w3.org/2023/08/noncom-random-selection.html'>randomized list of individuals</a> interested in the position, with the outgoing TiLT member at the bottom of the list, go down the list until you fill the seat.</li>
-</ul>
+### Current members {#current}
 
+- [Atsushi Shimono](https://www.w3.org/staff/#himorin) (September 1, 2023)
+- [Chris Lilley](https://www.w3.org/staff/#chris) (May 24, 2023)
+- [Carine Bournez](https://www.w3.org/staff/#carine) (December 4, 2024) (co-chair)
+- [Dominique Hazaël-Massieux](https://www.w3.org/staff/#dom) (December 4, 2024)
+- [Philippe Le Hegaret](https://www.w3.org/staff/#plehegar) (May 24, 2023) (co-chair)
 
-<h3 id='current'>Current members</h3>
+This composition is reflected in the Github team [@w3c/tilt](https://github.com/orgs/w3c/teams/tilt).
 
-<ul>
-<li><a href="https://www.w3.org/staff/#himorin">Atsushi Shimono</a> (September 1, 2023)</li>
-<li><a href="https://www.w3.org/staff/#chris">Chris Lilley</a> (May 24, 2023)</li>
-<li><a href="https://www.w3.org/staff/#carine">Carine Bournez</a> (December 4, 2024) (co-chair)</li>
-<li><a href="https://www.w3.org/staff/#dom">Dominique Hazaël-Massieux</a> (December 4, 2024)</li>
-<li><a href="https://www.w3.org/staff/#plehegar">Philippe Le Hegaret</a> (May 24, 2023) (co-chair)</li>
-</ul>
+## Meetings {#meetings}
 
-<p>This composition is reflected in the Github team <a href="https://github.com/orgs/w3c/teams/tilt">@w3c/tilt</a>.</p>
+The W3C Technical Lead Team (TiLT) decides whether to meet synchronously. Currently, TiLT meets every Monday, at 9am Boston time (IRC: &amp;tilt).
 
-<h2 id='meetings'>Meetings</h2>
+The entire W3C team has an open invitation to observe the discussion, including attending calls. (contact plh for that)
 
-<p>The W3C Technical Lead Team (TiLT) decides whether to meet synchronously. Currently, TiLT meets every Monday, at 9am Boston time (IRC: &tilt).</p>
+## Requesting approval from TiLT {#request}
 
-<p>The entire W3C team has an open invitation to observe the discussion, including attending calls. (contact plh for that)</p>
+For transition requests, TiLT delegates its authority to [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions). Follow [Organize a Technical Report Transition](https://www.w3.org/Guide/transitions).
 
-<h2 id='request'>Requesting approval from TiLT</h2>
+Other requests for approvals MUST be sent as an [open issue](https://github.com/w3c/tilt-private/issues/new/choose) to tilt-private. There are templates for each type of decision request. Each request receives the label “agenda” and remains open until a decision has been reached.
 
-<p>For transition requests, TiLT delegates its authority to
-  <a href="https://github.com/orgs/w3c/teams/transitions">@w3c/transitions</a>.
-  Follow <a href="https://www.w3.org/Guide/transitions">Organize a Technical Report Transition</a>.
+For sensitive announcement, a draft of the message going to the AC may be needed. If so, use the "Anything else we should think before ..." to include or link to those information.
 
-<p>Other requests for approvals MUST be sent as an <a href='https://github.com/w3c/tilt-private/issues/new/choose'>open issue</a> to tilt-private. There are templates for each type of decision request. Each request receives the label “agenda” and remains open until a decision has been reached.
+For requests also requiring W3M approval (such as workshop budget), the label [“w3m”](https://github.com/w3c/tilt-private/labels/w3m) label is also added.
 
-<p>For sensitive announcement, a draft of the message going to the AC may
-be needed. If so, use the "Anything else we should think before ..."
-to include or link to those information.</p>
+The [list of pending](https://github.com/w3c/tilt-private/labels/agenda) requests is available.
 
-<p>For requests also requiring W3M approval (such as workshop budget), the label
-    <a href="https://github.com/w3c/tilt-private/labels/w3m">“w3m”</a> label is also added.
+## How TiLT responds to requests {#responses}
 
-<p>The <a href='https://github.com/w3c/tilt-private/labels/agenda'>list
-of pending</a> requests is available.
+### Expressions of support {#support}
 
-<h2 id='responses'>How TiLT responds to requests</h2>
+TiLT will only approve requests where there are:
 
-<h3 id='support'>Expressions of support</h3>
+- At least three expressions of support, and
+- No objections from TiLT participants. Participants may abstain.
 
-<p>TiLT will only approve requests where there are:
-<ul>
-    <li>At least three expressions of support, and</li>
-<li>No objections from TiLT participants. Participants may abstain.</li>
-</ul>
+TiLT participants use +1, -1, and 0 respectively to mean support, do not support, abstain. TiLT participants register their responses as a comment in the tilt-private Github issue (last comment takes precedence).
 
-<p>TiLT participants use +1, -1, and 0 respectively to mean support, do not support, abstain. TiLT participants register their responses as a comment in the tilt-private Github issue (last comment takes precedence).
+**Note:** Comments about charter, workshop proposals, etc. (e.g., a link is broken) should be made directly in the relevant repository (e.g., strategy) unless the comment is Team-only, in which case the TiLT repo is appropriate.
 
-<p><strong>Note:</strong> Comments about charter, workshop proposals, etc. (e.g., a link is broken) should be made directly in the relevant repository (e.g., strategy) unless the comment is Team-only, in which case the TiLT repo is appropriate.
+### Timing of responses {#timing}
 
-<h3 id='timing'>Timing of responses</h3>
+TiLT responses can be expected on this schedule:
 
-<p>TiLT responses can be expected on this schedule:
-<p>Within 2 business days: approval is only possible if every TiLT
-    participant has responded. During this period, TiLT participants
-    may request additional time to evaluate the request.
-<p>After 2 business days: approval is possible as soon as there are at
-    least three expressions of support and no objections or requests for
-    additional time.
+Within 2 business days: approval is only possible if every TiLT participant has responded. During this period, TiLT participants may request additional time to evaluate the request.
 
-<p>In cases where there are objections or requests for additional time,
-    TiLT will use its weekly call to resolve differences.
+After 2 business days: approval is possible as soon as there are at least three expressions of support and no objections or requests for additional time.
 
-<h3 id='decision'>Once TiLT has reached a decision</h3>
+In cases where there are objections or requests for additional time, TiLT will use its weekly call to resolve differences.
 
-<p>Once the threshold for a decision has been reached, any TiLT participant may record the decision and close the GitHub issue. If approved, the issue will be “Close as completed”. If rejected, the issue will be “Closed as not planned”.
+### Once TiLT has reached a decision {#decision}
 
-<p>If a request is approved, the requestor should consult the Guidebook on Charters for next steps.
+Once the threshold for a decision has been reached, any TiLT participant may record the decision and close the GitHub issue. If approved, the issue will be “Close as completed”. If rejected, the issue will be “Closed as not planned”.
 
-<p>If a request is rejected, it gets sent back to the originating function.
+If a request is approved, the requestor should consult the Guidebook on Charters for next steps.
 
-<h2 id='communication'>Communication</h2>
+If a request is rejected, it gets sent back to the originating function.
 
+## Communication {#communication}
 
+As part of the W3C Team, the recommended way to communicate with TiLT is through the tilt-private Github repository (by raising an issue or responding to one), or use [@w3c/tilt](https://github.com/orgs/w3c/teams/tilt).
 
-<p>As part of the W3C Team, the recommended way to communicate with TiLT is through the
-tilt-private Github repository (by raising an issue or responding to one), or use <a
-href="https://github.com/orgs/w3c/teams/tilt">@w3c/tilt</a>.</p>
+If you're not part of the W3C Team, the recommended way to communicate with TiLT is [@w3c/tilt](https://github.com/orgs/w3c/teams/tilt).
 
-<p>If you're not part of the W3C Team, the recommended way to communicate with
-TiLT is <a href="https://github.com/orgs/w3c/teams/tilt">@w3c/tilt</a>.</p>
+For any request sent to TiLT, Team input is welcome in the Strategy repository. Keep in mind the Team etiquette when posting publicly. For Team confidential discussion, input is welcome in the tilt-private Github repository. Note that any +1/-1/other from non-TiLT is NOT counted to reach TiLT approval but any TiLT member may put a hold on a decision based on non-TiLT opinions.
 
-<p>For any request sent to TiLT, Team input is welcome in the Strategy repository.
-Keep in mind the Team etiquette when posting publicly. For Team confidential discussion,
-input is welcome in the tilt-private Github repository. Note that any +1/-1/other from
-non-TiLT is NOT counted to reach TiLT approval but any TiLT member may put a
-hold on a decision based on non-TiLT opinions.</p>
+TiLT MUST provide a weekly digest of its activities to W3M.
 
-<p>TiLT MUST provide a weekly digest of its activities to W3M.
-
-<p>
- TiLT was approved by W3M on <a href='https://www.w3.org/2023/05/24-w3m-minutes.html#t04'>May 24, 2023</a>.
-</p>
-
-<hr>
-<p>Feedback is to <a href="https://github.com/orgs/w3c/teams/tilt">@w3c/tilt</a>
-    is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
-</html>
+TiLT was approved by W3M on [May 24, 2023](https://www.w3.org/2023/05/24-w3m-minutes.html#t04).
