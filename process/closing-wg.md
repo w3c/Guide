@@ -1,127 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8" >
-<title>How to close a work Group</title>
-<link rel="stylesheet" href="/StyleSheets/generic-base-1.css"
-type="text/css">
-<link rel="stylesheet" type="text/css" href="../assets/main.css">
-<link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-<link rel="start" href="../" >
-<style>
-  dt {font-weight: bold; }
-  .timing { font-style: italic }
-   body {counter-reset:section;}
-    h2 {counter-reset:subsection;}
-    h2:before
-    {
-    counter-increment:section;
-    content: counter(section) ". "}
-    h3:before
-    {
-    counter-increment:subsection;
-    content:counter(section) "." counter(subsection) " ";
-    }
-    h4:before
-    {
-    counter-increment:subsubsection;
-  content:counter(section) "." counter(subsection) "." counter(subsubsection) " ";
-    }
-    h4.notoc:before {
-    content: "";
-    }
-</style>
-</head>
-<body>
+---
+title: How to close a work Group
+toc: yes
+---
 
-<div id="header"> <span class="logo"><a href="https://www.w3.org/"><img src="https://www.w3.org/Icons/WWW/w3c_home_nb"
-        alt="W3C"
-        height="48"
-        width="72"></a>
-</span>
-  <div class="breadcrumb"> <a href="https://www.w3.org/participate/">Participate</a> →
-    <h1>How to close a work Group</h1>
-  </div>
-  <p class="baseline">This <strong>Guidebook</strong> is the collected
-    wisdom of the W3C Group Chairs, team contacts and other contributors.</p>
-</div>
+## 1. Introduction {#intro}
 
-<h2 id="intro">Introduction</h2>
+The W3C Process describes the [lifecycle of chartered groups](/policies/process/#group-lifecyle). At a high level, W3C closes a work Group once it has completed its work.
 
-<p>The W3C Process describes
-the <a href="/policies/process/#group-lifecyle">lifecycle
-of chartered groups</a>. 
-At a high level, W3C closes a work Group
-once it has completed its work.
-</p>
+## 2. Normal closure {#normal}
 
-<h2 id="normal">Normal closure</h2>
+Sometimes, after successful completion, the Group is left open to perform **maintenance**; other times, it is closed and a Community Group performs this function.
 
-<p>
-    Sometimes, after successful completion,
-    the Group is left open to perform <strong>maintenance</strong>;
-    other times, it is closed and a Community Group performs this function.
-</p>
+## 3. Early closure {#early}
 
-<h2 id="early">Early closure</h2>
+Exceptionally, a group may be closed before it has completed its work:
 
-<p>Exceptionally, a group may be closed before it has completed its work:</p>
+Insufficient resources
+: There is insufficient developer or implementer interest to sustain the group, and the Team proposes to close it.
 
-<dl>
-    <dt>Insufficient resources</dt>
-    <dd>There is insufficient developer or implementer interest
-        to sustain the group, and the Team proposes to close it.
-    </dd>
+PAG outcome
+: A [Patent Advisory Group](/policies/patent-policy/#sec-Exception) has determined that essential claims exist which cannot be circumvented; so it will not be possible to create a Recommendation which can be freely implemented under the W3C Royalty-Free Patent Policy; thus, it is proposed that the group should be closed.
 
-    <dt>PAG outcome</dt>
-    <dd>A <a href="/policies/patent-policy/#sec-Exception">Patent Advisory Group</a> has determined
-        that essential claims exist which cannot be circumvented;
-        so it will not be possible to create a Recommendation
-        which can be freely implemented under the
-        W3C Royalty-Free Patent Policy;
-        thus, it is proposed that the group should be closed.
-    </dd>
+Considered detrimental
+: The AB or the TAG has determined that continued operation of the group would be harmful to the Web or to W3C; thus, it is proposed that the group should be closed.
 
-    <dt>Considered detrimental</dt>
-    <dd>The AB or the TAG has determined that
-        continued operation of the group
-        would be harmful to the Web or to W3C;
-        thus, it is proposed that the group should be closed.
-    </dd>
+Finished early
+: All the Recommendation-track deliverables have been completed early, and no other work in scope of the current charter remains to be done. The options are to just let the charter run until it expires, or to formally close the group early.
 
-    <dt>Finished early</dt>
-    <dd>All the Recommendation-track deliverables
-        have been completed early,
-        and no other work in scope of the current charter
-        remains to be done.
-        The options are to just let the charter run until it expires,
-        or to formally close the group early.
-    </dd>
-</dl>
+A proposal to close a Group before the end of its chartered term must be explained. An Advisory Committee review takes place and, if that confirms that the group should be closed, a [W3C Decision](/policies/process/#def-w3c-decision) announces closure of the group.
 
-<p>
-    A proposal to close a Group before the end of its chartered term
-    must be explained. An Advisory Committee review takes place
-    and, if that confirms that the group should be closed,
-    a <a href="/policies/process/#def-w3c-decision">W3C Decision</a> announces closure of the group.
-</p>
+Note that, if the Group has Recommendation-track specifications in development, and they have not yet reached W3C Recommendation status, closing the group [terminates Disclosure Obligations](/policies/patent-policy/#sec-disclosure-termination) for those specifications.
 
-<p>
-    Note that, if the Group has Recommendation-track specifications in development,
-    and they have not yet reached W3C Recommendation status,
-    closing the group 
-    <a href="/policies/patent-policy/#sec-disclosure-termination">
-    terminates Disclosure Obligations</a> for those specifications.
-</p>
-
-<p>
-    There is <em>Team-only</em> documentation of the 
-    <a href="https://www.w3.org/2003/04/closing-group.html">detailed steps for closing a group.</a>
-</p>
-
-<hr>
-
-  <p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a> and
-      is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
-</body>
-</html>
+There is *Team-only* documentation of the [detailed steps for closing a group.](https://www.w3.org/2003/04/closing-group.html)
