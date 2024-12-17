@@ -7,7 +7,7 @@ The goal of Group meetings during a W3C TPAC is to gather the community together
 
 While W3C Groups meet throughout the year in a variety of ways (teleconference, Zoom, F2F), the annual TPAC plays a unique and special role in the annual calendar of a Group. What sets these meetings apart is that by having the Group together for 2 days (and also adjacent to many other groups), the Group can get done that which it cannot normally do - specifically (see below).
 
-## TPAC 2021
+## TPAC 2021 {#tpac2021}
 
 With the pandemic, many Groups did not meet for TPAC 2020, and other groups met briefly and did not fully achieve the full goals of a TPAC meeting. That has caused a deficit in meeting the special objectives that we previously have only been able to achieve through TPAC Group meetings.
 
@@ -24,7 +24,7 @@ Since we'll be virtual, a few reminders:
 4. If you plan to make a presentation, we recommend you to record them in advance. Ask the events team for assistance if needed but they require 2 weeks lead time (deadline is October 11). See also our [recording tips](https://www.w3.org/wiki/Virtual_Presentations).
 5. Consider if a breakout session might be useful.
 
-## TPAC Group meeting
+## TPAC Group meeting {#group}
 
 TPAC meeting is an opportunity for a Working or Interest Group :
 
@@ -54,7 +54,7 @@ On the deliverables:
   - Do you need guidance or help, such as choosing between several designs/solutions?
   - Ask participants which issue they would like to dive in? (limit of \[2? 3?] per participant?)
 
-## TPAC Joint Meetings
+## TPAC Joint Meetings {#joint}
 
 - TPAC is an opportunity for joint meetings between Groups:
   
@@ -62,6 +62,6 @@ On the deliverables:
   2. horizontal issues raised during wide reviews that have been queued
   3. requests sent to other Groups that did not progress in there
 
-## TPAC Breakouts
+## TPAC Breakouts {#breakout}
 
 If your Group has topic(s) of general interest, consider organizing a breakout session to attract a wider audience.
