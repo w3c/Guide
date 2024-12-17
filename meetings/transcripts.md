@@ -3,7 +3,7 @@ title: Automated Transcripts
 toc: true
 ---
 
-## On Saving Automated Meeting Transcripts
+## On Saving Automated Meeting Transcripts {#background}
 
 Many teleconferencing systems are offering automated speech-to-text facilities to provide captioning and transcription of meetings. W3C has *some* Zoom licenses to offer this feature by default.
 
@@ -21,7 +21,7 @@ In the Host’s account, the ‘Save Captions’ setting must be turned off. Thi
 
 The Webex Host should make sure Webex Assistant is turned off at the start of a meeting. See [Webex Assistant for Meetings Considerations](https://help.webex.com/en-us/q1y8ig/Webex-Assistant-for-Meetings-Considerations).
 
-## Changelog
+## Changelog {#status}
 
 - See [commits history](https://github.com/w3c/Guide/commits/main/meetings/transcripts.html)
 - See also [w3process #334](https://github.com/w3c/process/issues/334)
