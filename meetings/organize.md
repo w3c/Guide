@@ -5,7 +5,7 @@ toc: true
 
 W3C benefits from diverse, inclusive, and worldwide participation. This document provides guidance to those organizing distributed meetings.
 
-## Dealing with timezones
+## Dealing with timezones {#timezones}
 
 {% include quote.html content="A distributed meeting is one where most
 of the attendees are expected to participate from remote locations
@@ -31,7 +31,7 @@ A Chair should consider the following when judging the group's consensus:
 
 The [W3C Process](/policies/process/#GeneralMeetings) provides rules about the timing of meeting announcements and agenda publication.
 
-## Group calendars
+## Group calendars {#calendars}
 
 Group calendars are available from [lists of Groups](https://www.w3.org/groups/). For each Group, there is a '*Calendar*' tab.
 
@@ -40,7 +40,7 @@ Group calendars are available from [lists of Groups](https://www.w3.org/groups/)
 - Group participants and other invited people are notified by email of new meetings and scheduling changes. This can be opted out from your [profile](https://www.w3.org/users/myprofile/edit).
 - All users have a [personal calendar](https://www.w3.org/users/myprofile/calendar) listing all meetings they are invited to.
 
-### Creating an event
+### Creating an event {#create_event}
 
 Things to keep in mind:
 
