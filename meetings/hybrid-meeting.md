@@ -1,4 +1,7 @@
-# Hybrid Group Meetings
+---
+title: Hybrid Group Meetings
+toc: yes
+---
 
 ## Introduction
 
@@ -168,7 +171,7 @@ Sharing of accessible content via the web should be strongly preferred over scre
 
 Consider unfortunate contingencies like the tech doesn't work as expected or the physical meeting room(s) getting disconnected from the net or having a fire alarm -- and all of these things and more have indeed happened, so think carefully about contingency planning. Will (should?) those in the room continue to meet while they're disconnected from the net?  Will the (other) remote participants continue to meet while those in the meeting room are milling about in a parking lot waiting for the fire department? Will remote participants already have fall-back channel info?  How will the partitioned meeting know that it has been partitioned?
 
-> [JB:  ;) -- discuss emergency logistics more generally, and the fact that most of them will eventually happen.]
+{% include quote.html content="discuss emergency logistics more generally, and the fact that most of them will eventually happen."  footer="JB:  ;)" %}
 
 Essential to have a fall-back video conference option that can be activitied.
 
@@ -228,6 +231,3 @@ https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles
 
 W3C (various), [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings), W3C public wiki, 2013-2014<br>
 https://www.w3.org/wiki/Remote_Meetings
-
-----
-[maintained on GitHub](https://github.com/w3c/Guide); comment there in [issues](https://github.com/w3c/Guide/issues).
