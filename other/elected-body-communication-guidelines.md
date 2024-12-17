@@ -5,19 +5,17 @@ toc: true
 
 This document provides guidance for members of the W3C elected bodies: the Advisory Board (AB) and Technical Architecture Group (TAG).
 
-## W3C elected bodies
+## W3C elected bodies {#intro}
 
 The [AB](/policies/process/#AB) and the [TAG](/policies/process/#TAG) are defined in the W3C Process, as are the [rules of participation](/policies/process/#AB-TAG-participation) for both groups.
 
-## W3C values and behaviours
+## W3C values and behaviours {#values}
 
 Like all W3C participants, members of elected bodies are required to follow the [W3C Code of Conduct](/policies/code-of-conduct/). As leaders, members of elected bodies should also consider the ways in which they can demonstrate the Code of Conduct's [expected behavior](/policies/code-of-conduct/#expected-behavior), and proactively respond to instances of [unacceptable behavior](/policies/code-of-conduct/#unacceptablebehavior).
 
-## Communication guidelines
+## Communication guidelines {#guidelines}
 
-As the W3C process says:
-
-> Advisory Board and TAG participants have a special role within W3C. They are elected by the membership and [appointed by the Team](/policies/process/#TAG-appointments) with the expectation that they will use their best judgement to find the best solutions for the web, not just for any network, technology, vendor, or user.
+{% include quote.html content="Advisory Board and TAG participants have a special role within W3C. They are elected by the membership and [appointed by the Team](/policies/process/#TAG-appointments) with the expectation that they will use their best judgement to find the best solutions for the web, not just for any network, technology, vendor, or user."  footer=" W3C process " %}
 
 As leaders within the W3C community, the opinions of members of elected bodies carry particular weight, whether they are expressed within our community or elsewhere.
 
@@ -34,7 +32,7 @@ As a member of an elected body:
   - If your comment is influenced by your participation in the elected body, you may want to mention it, for example "In my experience of being on the AB...".
 - You will be held to a higher standard as a result of your elected status and in recognition of your leadership within the W3C community.
 
-## Representing formal decisions
+## Representing formal decisions {#decisions}
 
 When communicating a formal decision by the elected body you are a member of:
 
@@ -53,7 +51,7 @@ When discussing a matter that has not reached a conclusion:
 - Make it clear when feedback and comments are wanted, and let people know how to do so.
 - Share the intended message with the rest of the elected body you are a member of before you send it.
 
-### Revision History
+## Revision History
 
 - 2020-09-03: Document becomes operational.
 - 2020-09-02: Document created.
