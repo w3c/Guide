@@ -1,4 +1,7 @@
-# The Fu to edit the transition requirements 
+---
+title: The Fu to edit the transition requirements 
+toc: false
+---
 
 HTML elements are displayed (or not) based on the user selection.
 
@@ -43,7 +46,7 @@ If the user selected an updated Candidate Recommendation Snapshot (the URL conta
 
 To find the possible values for each data attribute, look at the HTML option and input HTML elements in [the document](https://github.com/w3c/transitions/blob/main/index.html#L269). Or, if you're looking for a particular document transition, use the form to select and see the values of the URL parameters.
 
-# New W3C Process
+## New W3C Process
 
 To add or remove a document status, one must:
 
@@ -56,14 +59,14 @@ If HTML input elements were added or removed:
 1. update the config object near the top of the script
 1. update the JS functions onpushstate (URL) and titleMatch (attribute matching)
 
-# New Echidna updates
+## New Echidna updates
 
 For echidna updates:
 1. Update data-profile on the ul element with id='echidna-selection"
 2. Update the data-echidna as needed (you're likely to add data-echidna="false"')
 3. Update the JS function hasEchidna()
 
-# History
+## History
 
 The transition requirements document is originally based on
  https://services.w3.org/xslt?xmlfile=https://www.w3.org/2005/08/01-transitions2017.html&xslfile=https://www.w3.org/2005/08/transitions2017.xsl
