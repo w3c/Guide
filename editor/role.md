@@ -2,6 +2,7 @@
 title: W3C Specification Editor
 toc: false
 ---
+
 The role of the editor is not that of author. They maintain the text of a current draft that the Group has agreed to and possibly to suggest concrete wording when none is forthcoming from the group.
 
 Specification editors are [appointed by the Group Chair](../chair/role.html).
