@@ -199,8 +199,8 @@ If there are only very minor changes to a charter resulting from the review, the
 
 If substantive changes are proposed in response to charter review, the Team Contact must send the charter with proposed changes, the [HTML diff](https://services.w3.org/htmldiff), and an explanation of the changes and their rationale to all who reviewed the charter, copying the [member-charters-review@w3.org](https://lists.w3.org/Archives/Member/member-charters-review/) member-archived mailing list, accompanied by a request for response (with a deadline of a minimum of one week for response time) if reviewers have concerns or if the changes would alter their reviews. If the work continues or derives from an existing group or community effort, the Team Contact should also send the [HTML diff](https://services.w3.org/htmldiff) and a public rationale to that group or community. These communications should note that W3C has not yet approved the charter.
 
-{% include quote.html content=" Suggested wording: Please let us know by \[date+1 week] if you have concerns or if this change would alter
-your review." %}
+> ***Suggested wording:*** *Please let us know by \[date+1 week] if you have concerns or if this change would alter
+your review*.
 
 If anyone expresses new concern in response to the re-review, the Team may attempt to resolve the concern (with re-review), formally open a new AC review, or the [W3C Council](https://www.w3.org/Guide/council/council.html) may treat it as an objection and overrule it.
 
@@ -208,7 +208,11 @@ If there are substantive changes, before any announcement, the Team Contact:
 
 1. Mints a new URI for the version of the charter that includes the changes. In the "Charter history" section of the charter, please link to the original (reviewed) charter.
 2. Modifies the original charter in place with the following status sentence at the top:
-   {% include quote.html content=" &lt;p class='todo'&gt;This charter has been replaced by &lt;a&gt;\[a newer version]&lt;/a&gt;.&lt;/p&gt;" %}
+
+  ```  
+      <p class='todo>This charter has been replaced by <a>[a newer version]</a>.</p>
+
+  ```
 
 ### 3.5. Announcement of W3C Decision, Call for Participation  {#announce-decision}
 
