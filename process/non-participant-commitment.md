@@ -1,14 +1,19 @@
+---
+title: Non participant commitment
+toc: no
+---
+
 This is Team guidance for implementation of [Process 6.2.6](/policies/process/#contributor-license). If you have any IPR questions, and for substantial contributions, please contact [team-legal](mailto:team-legal @ w3.org).
 
 When a non-member (or not-yet-identified member) makes a pull request contribution to a W3C Working Group repository, the repository manager tool flags it for review and sends them an email with [this text](https://github.com/w3c/ash-nazg/blob/master/templates/affiliation-mail.txt) to the contributor, chairs, and team contacts.
 
-1. If the contributor is a member participating in the WG, link the github account to the W3C member-affiliated account and re-validate.
+1\. If the contributor is a member participating in the WG, link the github account to the W3C member-affiliated account and re-validate.
 
-1.5 If the contributor is a member not participating in the WG, first encourage them to join the WG. If they won't, and this is a one-off contribution, follow the flow below. 
+1.5. If the contributor is a member not participating in the WG, first encourage them to join the WG. If they won't, and this is a one-off contribution, follow the flow below. 
 
 If the contribution is non-substantive, e.g. fixing a typo, mark it as non-substantive (which clears the IPR flag). 
 
-2. If the contributor is not an affiliate of a current W3C member, the team follows up with them to see:
+2\. If the contributor is not an affiliate of a current W3C member, the team follows up with them to see:
 
  a. Do they work for an organization who should be a member?
 

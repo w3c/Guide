@@ -1,4 +1,7 @@
-# Mockup agenda for a hybrid Working Group day during TPAC 2022
+---
+title: Mockup agenda for a hybrid Working Group day during TPAC 2022
+toc: no
+---
 
 This agenda was originally inspired from the [Immersive Web face-to-face meeting of April 202](https://www.google.com/url?q=https://github.com/immersive-web/administrivia/blob/main/F2F-April-2022/schedule.md&sa=D&source=editors&ust=1653395299507812&usg=AOvVaw2d-9jxnm1G3DrBnxWMmrH9). but it is a fictional agenda nevertheless.
 
