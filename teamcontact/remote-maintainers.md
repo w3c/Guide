@@ -1,6 +1,6 @@
 ---
 title: SmartList Remote Maintainers Guide
-toc: false
+toc: true
 ---
 
 W3C's mailing lists are managed using a customized version of SmartList.
