@@ -1,11 +1,7 @@
 ---
 title: Joint deliverables
-toc: yes
+toc: no
 ---
-
-This document provides details about joint deliverables between W3C Groups.
-
-## Joint deliverables between W3C Working Groups {#between-wgs}
 
 As a general principle, each Working Group must follow its charter, including in the case of joint deliverables.
 
