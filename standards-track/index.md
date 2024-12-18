@@ -3,7 +3,7 @@ title: W3C Recommendation Track Readiness Best Practices
 toc: true
 ---
 
-## Status
+## Status {#status}
 
 October 2023: Document updated to account for [changes in Process 2023](https://www.w3.org/2023/Process-20230612/#changes-2021), in particular the Director-free changes.
 
@@ -11,13 +11,13 @@ August 2016: This document was developed by a task force of the [W3C Advisory Bo
 
 This [document lives in Github](https://github.com/w3c/standards-track/blob/master/index.html), where changes can be tracked and pull requests are welcome. Feedback and comments are welcome. Please use [Github issues](https://github.com/w3c/standards-track/issues).
 
-## Problem Statement
+## Problem Statement {#problem}
 
 The practices proposed in this document are intended to address some specific problems:
 
 W3C wastes resources, and at worst tarnishes its credibility, when it invests in standardization efforts that end up going nowhere
 
-## Overview of the Proposed Solution
+## Overview of the Proposed Solution {#solution}
 
 W3C should more tightly focus its formal standardization effors on specifications that are most likely to get consensus within the consortium and be used on the real Web. This document proposes to do that by offering a short list of criteria to consider when evaluating proposals to move specification work to the Recommendation track. That includes drafting the Deliverables section of a WG charter, but especially when publishing a FPWD.
 
@@ -55,7 +55,7 @@ Arguments against focused on mandating using W3C Community Groups to incubate pr
 
 The readiness criteria below outline best practices for finding an appropriate balance among these perspectives. They encourage all involved in advancing work to the Recommendation track to gather more evidence to drive the decision and to think carefully about how to interpret it. They do not mandate any one mode of gathering that evidence or an algorithm to assess it.
 
-## Readiness Criteria
+## Readiness Criteria {#criteria}
 
 The criteria here are used to evaluate whether a technical specification development effort is ready for the W3C Recommendation Track. No single factor is decisive, and this document avoids [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) "MUST" and "SHOULD" terminology, and should not be a taken as a checklist of necessary or sufficient criteria. Nevertheless, some criteria are noted as "strongly recommended", and, if not met, an explanation of why they don't apply in a particular situation would facilitate the [W3C decision](https://www.w3.org/policies/process/#decision-types). Different cases will involve different combinations of these factors. In determining whether to approve moving work to the Recommendation track, the Team may consider other factors not listed in this document as well.
 
@@ -83,7 +83,7 @@ Is this spec serving a specialized community and only that community needs to im
 
 The language in the [Web Platform WG charter](http://w3c.github.io/charter-html/group-charter.html#deliverables) describes a one community's practice:
 
-> The Working Group will not adopt new proposals until they have matured through the Web Platform Incubator Community Group or another similar incubation phase.
+{% include quote.html content="The Working Group will not adopt new proposals until they have matured through the Web Platform Incubator Community Group or another similar incubation phase." %}
 
 If work is incubated in a CG, it is important to assess the degree of consensus behind a spec as well as its maturity. While CG's are not required to work by consensus, those proposing work for the Recommendation track should favor proposals that did get strong and broad consensus during the incubation phase, and make W3C staff aware of points of contention, rival proposals, etc. An optional [W3C Community Group Charter Template](https://github.com/w3c/cg-charter/blob/gh-pages/CGCharter.html) contains provisions designed to promote fairness in CGs. CGs are encouraged to consider using the template as a starting point.
 
@@ -128,7 +128,7 @@ It is advisable for groups considering Recommendation Track work to consult with
 
 Working Groups and Interest Groups have Team Contacts they can use for this purpose. Community Groups generally do not (see [Team support for CGs](https://www.w3.org/2016/04/cg-support/)), but CG participants are encouraged to reach out to the [W3C staff](http://www.w3.org/People/) well in advance of proposing a transition to the Recommendation Track.
 
-## Process Considerations
+## Process Considerations {#process}
 
 Discussion about these guidelines has generated a number of questions about how they relate to the W3C process and the Team's existing practices.  
 They are out of scope for this document, but they are listed for reference:
@@ -156,7 +156,7 @@ Should the Process Document describe a role for CGs in getting specifications re
 Raised in the [AC discussions](https://lists.w3.org/Archives/Member/w3c-ac-forum/2016JanMar/0013.html).  
 Should the Process Document do more to describe a role for Interest Groups in developing use cases for new Recommendations, and perhaps working in tandem with one or more Community Groups to develop credible technical proposals to address those use cases?
 
-## Conclusion
+## Conclusion {#conclusion}
 
 The criteria above suggest that Recommendation Track work begin when there are satisfactory answers to 3 basic questions:
 
