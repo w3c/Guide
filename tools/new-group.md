@@ -16,7 +16,7 @@ Having an administrivia repository allows to track and maintain potential non-te
 - homepage
 - etc.
 
-For this repository, you may use the naming convention *`w3c/{shortname}{type}`*, such as *`w3c/privacywg`*. Don't forget to set the [`w3c.json` file](https://w3c.github.io/w3c.json.html) appropriately (*`repo-type: "project"`*).
+For this repository, you may use the naming convention ***`w3c/{shortname}{type}`***, such as ***`w3c/privacywg`***. Don't forget to set the [`w3c.json` file](https://w3c.github.io/w3c.json.html) appropriately (***`repo-type: "project"`***).
 
 ## 2. Group homepage {#homepage}
 
@@ -27,8 +27,8 @@ homepage, place it in your group administrivia repository and ask to
 expose it through w3.org as a proxy (Team should look at [W3C Web
 rewrites system](https://www.w3.org/2019/03/rewrites-doc.html)). Don't
 forget to set the [`w3c.json`
-file](https://w3c.github.io/w3c.json.html) appropriately (*`repo-type:
-"homepage"`*).
+file](https://w3c.github.io/w3c.json.html) appropriately (***`repo-type:
+"homepage"`***).
 
 ## 3. Github repositories {#repositories}
 
@@ -42,7 +42,7 @@ All group repositories will appear on the 'Tools' page.
 
 ## 4. GitHub Teams {#github}
 
-The W3C system can generate and maintain 2 GitHub teams: Chairs/Team Contacts (*`group-[id]-chairs`*), and all participants (*`group-[id]-members`*). You may give admin access to chairs for the group repositories, and write access for all participants.
+The W3C system can generate and maintain 2 GitHub teams: Chairs/Team Contacts (***`group-[id]-chairs`***), and all participants (***`group-[id]-members`***). You may give admin access to chairs for the group repositories, and write access for all participants.
 
 ## 5. Calendar {#calendar}
 
@@ -60,29 +60,29 @@ Your calendar entry should point to the appropriate GitHub issue (or a search li
 
 Chairs are reminded of the [Meeting Scheduling and Announcements](https://www.w3.org/policies/process/#meeting-schedules) expectations.
 
-In `.github/ISSUE_TEMPLATE/agenda.md`:
+In ***`.github/ISSUE_TEMPLATE/agenda.md`***:
 
 ```
----
-name: Meeting agenda
-about: Agenda discussion for a given group meeting
-title: '[agenda] 2025-xx-xx'
-labels: 'agenda'
-assignees: 'chairgithubhandle[,chairgithubhandle]*'
+   ---
+   name: Meeting agenda
+   about: Agenda discussion for a given group meeting
+   title: '[agenda] 2025-xx-xx'
+   labels: 'agenda'
+   assignees: 'chairgithubhandle[,chairgithubhandle]*'
 
----
+   ---
 
-## Proposed Agenda
+   ## Proposed Agenda
 
-1. Introductions, Code of Conduct
-1. agenda item 2
-1. agenda item 3
-1. agenda item 4
-1. AOB
+   1. Introductions, Code of Conduct
+   1. agenda item 2
+   1. agenda item 3
+   1. agenda item 4
+   1. AOB
 
----
+   ---
 
-Please add comments to this issue if you have suggestions for agenda items.
+   Please add comments to this issue if you have suggestions for agenda items.
   
 ```
 
@@ -101,11 +101,11 @@ See also:
 
 Invited expert approvals may include a paragraph or two to clarify the expectations to maintain the status, such as:
 
-In `invited-experts.md`:
+In ***`invited-experts.md`***:
 
-We generally welcome anyone interested in working on and improving \[topic] on the Web. However, we expect \[group] participants to contribute, which can take the form of participating in editing specifications, scribing calls, participating in discussions, among other things. Inactive or non-contributing invited experts may not be renewed.
+  > We generally welcome anyone interested in working on and improving \[topic] on the Web. However, we expect \[group] participants to contribute, which can take the form of participating in editing specifications, scribing calls, participating in discussions, among other things. Inactive or non-contributing invited experts may not be renewed.
 
-(Team include the paragraph in the `Message` box to be included when editing the invited application for approval)
+(Team include the paragraph in the ***`Message`*** box to be included when editing the invited application for approval)
 
 To help with consistency, you should maintain those invited expert expectations in your group administrivia repository so that it can be easily revised or pointed to.
 
@@ -115,5 +115,5 @@ Chairs and Team Contacts should keep track of invited applications (accessible f
 
 Particpants will receive 2 messages when joining:
 
-1. `W3C Group Management` messages: record the commitments from an organizaton and participants
-2. `W3C onboarding` messages: a welcoming message that may be modified at-will for your group. See also [w3c/onboarding](https://github.com/w3c/onboarding).
+1. ***`W3C Group Management`*** messages: record the commitments from an organizaton and participants
+2. ***`W3C onboarding`*** messages: a welcoming message that may be modified at-will for your group. See also [w3c/onboarding](https://github.com/w3c/onboarding).
