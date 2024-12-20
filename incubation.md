@@ -1,231 +1,81 @@
-<!DOCTYPE html>
-<html>
+---
+title: Incubation
+toc: yes
+---
 
-<head>
-      <meta charset=utf-8">
-      <title>Incubation</title>
-      <link rel="stylesheet" href="/StyleSheets/generic-base-1.css" type="text/css">
-      <link rel="stylesheet" type="text/css" href="assets/main.css">
-      <link rel="shortcut icon" href="/Icons/WWW/Literature.gif">
-      <style type="text/css">
-	.issue {
-	outline: solid red;
-	margin-left: 2em;
-	margin-right: 4em;
-	}
-	.issue::before {
-	font-weight: bold;
-	content: "Issue:";
-	}
+## Purpose
 
-	.subtopic {
-	font-weight: bold;
-	}
-	.subtopic::after {
-	content: " - ";
-	}
-    button {
-        padding: 5px;
-        border-radius: 3px;
-    }
-      </style>
-</head>
+Incubation is a way of exploring some new aspect of the Open Web Platform when the best way forward is unclear, when feasibility, compatibility, or developer interest is not yet established, or when early development would benefit from a wide variety of informed points of view before Standards-track work commences.
 
-<body>
-      <div id="header">
-            <span class="logo"><a href="/"><img src="/Icons/WWW/w3c_home_nb" alt="W3C" height="48"
-                              width="72" /></a></span>
-            <div class="breadcrumb">
-                  <!-- <a href="/Member/">Member</a> &rarr;&nbsp;<a href="/Guide/">The Art of Consensus</a> &rarr;&nbsp; -->
-                  <h1>Incubation</h1>
-            </div>
-            <p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and
-                  other collaborators.</p>
-      </div>
-      <div class="toc">
-            <h4>On This Page&nbsp;&rarr;&nbsp;</h4>
-            <ul>
-                  <!-- <li style="display: none"><a href="#purpose">Purpose</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#proposing">Proposing</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#planning">Planning</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#attendance">Attendance</a>&nbsp;&bull;&nbsp;</li>
-                  <li><a href="#"></a>&nbsp;&bull;&nbsp;</li> -->
-            </ul>
-      </div>
+It enables exploration of novel work, without overly diffusing the effort of a Working Group or expending a lot of resources on work that is ultimately abandoned.
 
-<article>
-    <section>
-        <h1 id="purpose">Purpose</h1>
-        <p>Incubation is a way of exploring
-            some new aspect of the Open Web Platform
-            when the best way forward is unclear,
-            when feasibility, compatibility, or developer interest is not yet established,
-            or when early development would benefit from a wide variety of informed points of view
-            before Standards-track work commences.
-        </p>
-        <p>It enables exploration of novel work,
-            without overly diffusing the effort of a Working Group
-            or expending a lot of resources on work that is ultimately abandoned.
-        </p>
-        <p>
-            One possible result of incubation is the <a href="process/cg-transition.html">transfer of work
-            to a Working Group, for Standards-track development</a>. Work might also be forwarded to another group in liaison with W3C.
-			            Another possible result is the conclusion
-            that this is a promising area of work, but that a number of prerequisites exist
-            which should be solved first.
-		Finally, incubators might conclude that
-            no Standards-track work should be done in the area.
-            This is still a valuable result,
-            as it can reduce the effort expended on unfruitful options.
-        </p>
-    </section>
-    <section>
-        <h1 id="venues">Venues for incubation</h1>
-        <p>Incubation can be done in several places;
-            the correct choice depends very much on such factors as:</p>
-            <ul>
-                <li>the specific work area</li>
-                <li>the existence of already established communities, at W3C or elsewhere</li>
-                <li>the estimated likelihood of success</li>
-                <li>developer interest</li>
-                <li>desirability of early IP protection </li>
-            </ul>
-            <section>
-                <h1 id="wicg">Web Platform Incubator Community Group (<a href="https://www.w3.org/community/wicg/">WICG</a>)</h1>
-                <p>Established specifically to incubate potential new work
-                    for the Open Web Platform,
-                    this venue has the merit of a large critical mass of knowledgeable developers.
-                    A huge number of proposals pass through WICG.
-                    This has the benefit that it is very easy to suggest a new one,
-                    and the drawback that a particular proposal may easily be overlooked
-                    unless effort is made to socialize the benefits and encourage review and comment.
-                </p>
-                <p>Mature proposals are made and tracked on the
-                    <a href="https://github.com/WICG/proposals">WICG Proposals Repo</a>,
-                    while early explorations and less formed ideas should start on
-                    <a href="https://discourse.wicg.io/">Discourse</a>.
-                </p>
-                <p><button><a href="https://www.w3.org/community/wicg/join">Join WICG</a></button></p>
-            </section>
-            <section>
-                <h1 id="cg">A Community Group</h1>
-                <p>Starting a new, topic-specific Community Group
-                    is a little more effort than proposing an idea to WICG
-                    but can have the advantage of review by
-                    a more focused group of people with shared interests
-                    or topic-specific knowledge.
-                    It is a good option when one or more external communities already exist,
-                    but are not necessarily made up of W3C Members.
+One possible result of incubation is the [transfer of work to a Working Group, for Standards-track development](process/cg-transition.html). Work might also be forwarded to another group in liaison with W3C. Another possible result is the conclusion that this is a promising area of work, but that a number of prerequisites exist which should be solved first. Finally, incubators might conclude that no Standards-track work should be done in the area. This is still a valuable result, as it can reduce the effort expended on unfruitful options.
 
-                </p>
-                <p>There is a <a href="https://www.w3.org/community/groups/">list of existing CGs</a>.
-                Check whether a suitable one already exists before creating a new one. </p>
-                <p>An emerging pattern is, when chartering a Working Group,
-                    to use a CG to handle incubation for topics related tothe Working Group.
-                    Regular joint meetings between WG and the associated CG
-                    provide opportunities for progress reports
-                    demonstrations,
-                    and discussions on moving particular items to the WG.
-                    <em>Note:</em> depending on the chartered scope of the WG,
-                    adding a new Standards-track work item may require rechartering the WG.
-                </p>
-                <p><button><a href="https://www.w3.org/community/groups/propose_cg/">Propose a new CG</a></button></p>
-            </section>
-            <section>
-                <h1 id="submission">Member Submission</h1>
-                <p>If work has already been explored by one or more W3C Members,
-                    a Member Submission can be an effective way to bring the work to wider review.
-                    Like other incubation methods, a Submission is not a guarantee that
-                    Standards-track work will take place in the area.
-                    The likelihood of success is increased if there is already developer interest,
-                    and if royalty-free commitments to known patents are made along with the submission.
+## Venues for incubation
 
-                </p>
-                <p><button><a href="/policies/process/#Submission">Member Submission Process</a></button></p>
-            </section>
-            <section>
-                <h1 id="workshop">W3C Workshop</h1>
-                <p>A <a href="meetings/workshops.html">W3C Workshop</a> can be a good way
-                    to bring a new community together and,
-                    if consensus is reached on some new area,
-                    the workshop report may suggest next steps
-                    including creation of a CG, or even
-                    passing the work to a new or existing Working Group.
-                </p>
-            </section>
-            <section>
-                <h1>A Working Group</h1>
-                <p>In some cases, incubation
-                    can be done directly in a Working Group.
-                    For best results,
-                    the chartered scope should be broad enough to permit this,
-                    the proposed work should be closely related to existing work items,
-                    and the chairs should ensure that discussion on incubated work
-                    does not interfere with progress on Standards-track items.
-                    For example, a separate call or a separate GitHub repo,
-                    or use of GitHub issues and labels,
-                    can keep the incubation and Standards-track items somewhat separate.
-                </p>
-                <p>
-                    If the community of interest is wider than the existing WG,
-                    a tandem CG is probably a better choice.
-                </p>
-            </section>
-    </section>
-    <section>
-        <h1 id="review">Getting Review</h1>
-        <p>
-            Early review of a new proposal is crucial to success
-            (whether success means further development,
-            or early identification of unsuitable areas of work which should be dropped).
-        </p>
-        <section>
-            <h1 id="explainer">Create an Explainer</h1>
-            <p>
-                Since the incubated work is by definition novel,
-                it is important to explain what it is,
-                what benefits it would bring,
-                and how it would fit in with the rest of the Open Web Platform.
-                This is the job of an <a href="https://tag.w3.org/explainers/">explainer</a> document.
-                A good explainer balances conciseness with detail,
-                has many examples,
-                and ideally links to a prototype of the proposed work.
+Incubation can be done in several places; the correct choice depends very much on such factors as:
 
-            </p>
-        </section>
-        <section>
-            <h1 id="tag">TAG review</h1>
-            <p>Once some discussion has taken place,
-                and an explainer exists,
-                and the proposed work is agreed to be promising,
-                then before moving the work to a Working Group,
-                it is good practice to <a href="https://github.com/w3ctag/design-reviews">request review by the Technical Architecture Group (TAG)</a>.
+- the specific work area
+- the existence of already established communities, at W3C or elsewhere
+- the estimated likelihood of success
+- developer interest
+- desirability of early IP protection
 
-            </p>
-        </section>
-    </section>
+### Web Platform Incubator Community Group ([WICG](https://www.w3.org/community/wicg/))
 
-    <section>
-        <h1 id="next-steps">Next Steps</h1>
-        <p>
-            If it is concluded that work should <em>not</em> be further developed,
-            update the explainer to document that fact
-            and list the reasons that development ceased.
-            This will help people in the future who may have the same or similar ideas;
-            perhaps some of the factors (such as developer interest) change in the future.
-        </p>
-        <p>TODO </p>
-        <ul>
-            <li>IPR commitments</li>
-            <li>deciding to stop work</li>
-            <li>liaison with external groups</li>
-            <li>when to do early horizontal review</li>
-            <li>prototyping, extensibility points</li>
-            <li>splitting work into current and future versions</li>
-        </ul>
-    </section>
+Established specifically to incubate potential new work for the Open Web Platform, this venue has the merit of a large critical mass of knowledgeable developers. A huge number of proposals pass through WICG. This has the benefit that it is very easy to suggest a new one, and the drawback that a particular proposal may easily be overlooked unless effort is made to socialize the benefits and encourage review and comment.
 
-</article>
-<hr>
-<p>Feedback is to <a href="https://github.com/orgs/w3c/teams/guidebook">@w3c/guidebook</a>
- and is welcome on <a href="https://github.com/w3c/Guide/issues">GitHub</a></p>
+Mature proposals are made and tracked on the [WICG Proposals Repo](https://github.com/WICG/proposals), while early explorations and less formed ideas should start on [Discourse](https://discourse.wicg.io/).
+
+[Join WICG](https://www.w3.org/community/wicg/join)
+
+### A Community Group
+
+Starting a new, topic-specific Community Group is a little more effort than proposing an idea to WICG but can have the advantage of review by a more focused group of people with shared interests or topic-specific knowledge. It is a good option when one or more external communities already exist, but are not necessarily made up of W3C Members.
+
+There is a [list of existing CGs](https://www.w3.org/community/groups/). Check whether a suitable one already exists before creating a new one.
+
+An emerging pattern is, when chartering a Working Group, to use a CG to handle incubation for topics related tothe Working Group. Regular joint meetings between WG and the associated CG provide opportunities for progress reports demonstrations, and discussions on moving particular items to the WG. *Note:* depending on the chartered scope of the WG, adding a new Standards-track work item may require rechartering the WG.
+
+[Propose a new CG](https://www.w3.org/community/groups/propose_cg/)
+
+### Member Submission
+
+If work has already been explored by one or more W3C Members, a Member Submission can be an effective way to bring the work to wider review. Like other incubation methods, a Submission is not a guarantee that Standards-track work will take place in the area. The likelihood of success is increased if there is already developer interest, and if royalty-free commitments to known patents are made along with the submission.
+
+[Member Submission Process](/policies/process/#Submission)
+
+### W3C Workshop
+
+A [W3C Workshop](meetings/workshops.html) can be a good way to bring a new community together and, if consensus is reached on some new area, the workshop report may suggest next steps including creation of a CG, or even passing the work to a new or existing Working Group.
+
+### A Working Group
+
+In some cases, incubation can be done directly in a Working Group. For best results, the chartered scope should be broad enough to permit this, the proposed work should be closely related to existing work items, and the chairs should ensure that discussion on incubated work does not interfere with progress on Standards-track items. For example, a separate call or a separate GitHub repo, or use of GitHub issues and labels, can keep the incubation and Standards-track items somewhat separate.
+
+If the community of interest is wider than the existing WG, a tandem CG is probably a better choice.
+
+## Getting Review
+
+Early review of a new proposal is crucial to success (whether success means further development, or early identification of unsuitable areas of work which should be dropped).
+
+### Create an Explainer
+
+Since the incubated work is by definition novel, it is important to explain what it is, what benefits it would bring, and how it would fit in with the rest of the Open Web Platform. This is the job of an [explainer](https://tag.w3.org/explainers/) document. A good explainer balances conciseness with detail, has many examples, and ideally links to a prototype of the proposed work.
+
+### TAG review
+
+Once some discussion has taken place, and an explainer exists, and the proposed work is agreed to be promising, then before moving the work to a Working Group, it is good practice to [request review by the Technical Architecture Group (TAG)](https://github.com/w3ctag/design-reviews).
+
+## Next Steps
+
+If it is concluded that work should *not* be further developed, update the explainer to document that fact and list the reasons that development ceased. This will help people in the future who may have the same or similar ideas; perhaps some of the factors (such as developer interest) change in the future.
+
+TODO
+
+- IPR commitments
+- deciding to stop work
+- liaison with external groups
+- when to do early horizontal review
+- prototyping, extensibility points
+- splitting work into current and future versions
