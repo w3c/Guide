@@ -7,8 +7,6 @@ toc: true
 
 ### Aims and Scope  {#aims}
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
-
 This document is intended to help in predicting milestones for work on the W3C Standards track. Realistic milestones are important for resource allocation at the start of new work, and to monitor progress when rechartering or extending existing work. At the same time, the very nature of the work means that progress is somewhat unpredictable; *delays can and will occur* relative to the predicted schedule.
 
 Delays are not necessarily a bad thing. For example, delays due to an unexpectedly large volume of last call comments may improve the specification or may indicate that what was previously considered a simple problem is actually more complex. Delays due to incomplete implementations may indicate that implementers disagree on the meaning of the specification, or that priorities have shifted away to other work. So these delays may indicate where the work needs to be improved. Delay, and a better specification, is usually preferable to a rapidly produced but poor quality specification that needs to be revised, substantially reworked, or abandoned and replaced because it was unsuitable.
@@ -310,7 +308,7 @@ blockquote.time dl > dt:before {
 	content: "Time: "}
 blockquote.time::before {
     background-color: #EE9 !important;
-   width: 0.3rem !important;
+    width: 0.3rem !important;
 	height: 90% !important; 
 	left: -0.5rem !important; }
 
