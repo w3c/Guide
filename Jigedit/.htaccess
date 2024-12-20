@@ -1,7 +1,0 @@
-#
-# $Id: .htaccess,v 1.1 2005/01/12 17:50:03 ylafon Exp $
-#
-<Files "Webdav.html">
-ForceType 'text/html; charset=UTF-8'
-</Files>
-
