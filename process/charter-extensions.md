@@ -15,6 +15,6 @@ From time to time a Working Group or Interest Group will not have completed its 
    - one month prior to the charter expiration if an AC review of the change to the charter is not expected or
    - three months prior to the charter expiration if an AC review of the proposed change to the charter might be conducted.
    
-   Whether or not an AC review is conducted, a decision on the current charter of the Group must be announced to the Membership, with rationale, prior to the charter expiration.  TiLT may grant short charter extensions if AC review has not completed prior to the current charter end date.
+   Whether or not an AC review is conducted, a decision on the current charter of the Group must be announced to the Membership, with rationale, prior to the charter expiration.  [TiLT](tilt/) may grant short charter extensions if AC review has not completed prior to the current charter end date.
 5. Publication Requests on behalf of a Group whose charter has expired more than five business days prior to the date of publication will be denied.  This five business day allowance is meant only to accommodate unforeseen circumstances out of the Group's control.
 6. Any Group whose charter has expired should not request nor should it expect W3C Staff support. Strategy may choose to continue some level of Staff support. Changes in Staff support decided by Function Leads will be communicated to the chair(s) of the Group.
