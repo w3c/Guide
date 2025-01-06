@@ -3,7 +3,10 @@ title: Host Guidelines for W3C face to face
 toc: true
 ---
 
-This page is targeted for W3C Working/Interest Group face to face meetings, Workshops, and Symposiums. Sped
+[Policy Regarding Non-Disclosure Agreements and W3C Meetings](https://www.w3.org/policies/no-nda/)
+
+This page is targeted for W3C Working/Interest Group face to face
+meetings, Workshops, and Symposiums.
 
 ## General Considerations {#general}
 
