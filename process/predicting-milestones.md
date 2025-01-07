@@ -260,7 +260,7 @@ Following a successful transition call where the CR exit criteria were demonstra
 {:.time}
 
 > Tips: Minimising delay during PR
-: Personally contact the AC representative for each organization on the group (cc'ing the Group member) to remind them of the review.
+: Personally contact the AC representative for each organization on the group (CCing the Group member) to remind them of the review.
 >
   Prepare an Editors Draft Recommendation, taking a copy of the PR document, and incorporate any changes (assumed editorial, such as out-of-date references, grammatical errors, and rewording of ambiguous paragraphs) that happen as a result of AC review.
 >
