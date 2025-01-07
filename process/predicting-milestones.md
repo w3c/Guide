@@ -86,7 +86,7 @@ Once review comments from W3M have been incorporated into the charter, it is [se
 
 ## Starting the Group  {#wg-startup}
 
-Once the decision to start the Working Group has been communicated to the AC, participants can join. This may take some time, particularly if participants need to perform a legal review of the work items (for example, to review their patent portfolio in light of the [W3C Royalty-Free commitment](/policies/patent-policy/#sec-Requirements)). In the case of a new group, some or all of the participants may be unfamiliar with W3C processes, tools (such as IRC, phone conferencing, issue tracking, version control). The Chair and Staff Contact take a lead role in getting a new group up to productive speed.
+Once the decision to start the Working Group has been communicated to the AC, participants can join. This may take some time, particularly if participants need to perform a legal review of the work items (for example, to review their patent portfolio in light of the [W3C Royalty-Free commitment](/policies/patent-policy/#sec-Requirements)). In the case of a new group, some or all of the participants may be unfamiliar with W3C processes and tools (such as IRC, phone conferencing, issue tracking, version control). The Chair and Staff Contact take a lead role in getting a new group up to productive speed.
 
 > Time: WG startup
 :  There is no set period until a Group starts to become productive. Experienced participants with a capable Chair and Team Contact, working on a new version of an existing specification can be productive immediately. A new group with participants new to W3C, working in a new area which is rife with Intellectual property concerns, may take several months to become productive.
