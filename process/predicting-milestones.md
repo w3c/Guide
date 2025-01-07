@@ -51,7 +51,7 @@ The first set of milestones are drawn up before work starts, and put in an initi
 The results from Advance Notice may indicate broad consensus on the proposed direction (if so, proceed rapidly to a formal charter review). Or they may indicate disagreement on the best direction forward (in which case, iterate). Some commentors may want a fast development of an initial version, while others may want a fully fledged solution.
 
 > Tip: Advance Notice Feedback
-: If feedback indicates disagreement on scope, consider proposing both a fast initial version *and* a requirements gathering and drafting item for a full-featured second version. This will help avoid delays due to disagreements on scope.
+: If feedback indicates disagreement on scope, consider proposing both a fast initial version *and* a requirements gathering and drafting item for a full-featured second version. This can help avoid delays due to disagreements on scope.
 {:.tip}
 
 Once broad agreement is reached, a draft charter is created (or updated, if one was sent with the Advance Notice) and reviewed by W3M before being sent to the AC.
