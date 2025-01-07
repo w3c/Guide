@@ -79,7 +79,7 @@ Once review comments from W3M have been incorporated into the charter, it is [se
 >Tips: AC review
 : Respond to each review comment as it arrives, rather than waiting for the review period to end. Others may have similar concerns, so addressing them early avoids needless repeat comments.
 >
-  Keep the proposed charter unchanged (so the AC has a stable document to review) but make a copy at a different location and incorporate comments (so commentors can see the resolution of their issues in-place).
+  Keep the proposed charter unchanged (so the AC has a stable document to review) but make a copy at a different location and incorporate comments (so commenters can see the resolution of their issues in-place).
 >
   Talk to likely implementers during AC review and try to gauge the level of interest.
 {:.tip}
