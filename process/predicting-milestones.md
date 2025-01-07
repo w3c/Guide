@@ -256,7 +256,7 @@ Exiting the Candidate Recommendation phase can be triggered by:
 Following a successful transition call where the CR exit criteria were demonstrated to have been met, the next stage is Proposed Recommendation. This review period is not expected to raise substantive technical issues.
 
 > Time: PR Duration
-: The minimum duration for the PR review period is [four weeks](/policies/process/#rec-pr), followed by two weeks for a W3C's decision. If the review period spans the July/August or December holiday periods, more time is typically added.
+: The minimum duration for the PR review period is [four weeks](/policies/process/#rec-pr), followed by two weeks for a W3C decision. If the review period spans the July/August or December holiday periods, more time is typically added.
 {:.time}
 
 > Tips: Minimising delay during PR
