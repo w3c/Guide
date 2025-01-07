@@ -244,7 +244,7 @@ Exiting the Candidate Recommendation phase can be triggered by:
 > Tips: Avoiding or minimizing repeating CR publications
 : Identify likely 'at risk' features by looking at implementation reports before entering CR.
 >
-  If in doubt, leave a feature in the spec and mark it 'at risk'. You can drop it without having another LC. Adding it back in afterwards, however, or dropping it without having identified it as 'at risk', triggers another Candidate Recommendation.
+  If in doubt, leave a feature in the spec and mark it 'at risk'. You can drop it without having another CR. Adding it back in afterwards, however, or dropping it without having identified it as 'at risk', triggers another Candidate Recommendation.
 >
   If a new CR is needed, limit the scope of comments to the removed or added features. State that, due to the maturity of existing implementations, all new feature requests will be deferred to the next version.
 >
