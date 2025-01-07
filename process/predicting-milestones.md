@@ -218,7 +218,7 @@ This section assumes that the earlier tips were followed and you have a test sui
   If there is no test suite when entering CR, the likely duration cannot be accurately estimated.
 {:.tip}
 
-Publication of a Candidate Recommendation triggers an Exclusion period on all features which were not in the previous First Public Working Draft (or previous Candidate Recommendation, if there was one).
+Publication of a Candidate Recommendation triggers an Exclusion period on all features which were not in the preceding First Public Working Draft (or previous Candidate Recommendation, if there was one).
 
 > Time: Exclusion period for Candidate Recommendation
 : Announcement of an open exclusion period, immediately after publication of Candidate Recommendation, triggers an exclusion period of [60 days](/policies/patent-policy/#sec-exclusion-with).
