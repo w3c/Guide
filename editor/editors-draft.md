@@ -1,6 +1,7 @@
 ---
 title: Style for Group-internal Drafts
-toc: yes
+submenu: [publication-policies]
+toc: no
 ---
 
 ## Status of this Document {#sotd}
