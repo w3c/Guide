@@ -4,31 +4,22 @@ pages:
 
 - title: Technical Report Publication Policy
   url: https://www.w3.org/pubrules/
-  html: https://www.w3.org/pubrules/
 
 - title: About pubrules
   url: https://www.w3.org/pubrules/doct
-  html: https://www.w3.org/pubrules/doct
 
 - title: Version Management in W3C Technical Reports
   url: https://www.w3.org/2005/05/tr-versions
-  html: https://www.w3.org/2005/05/tr-versions
 
 - title: Guidelines for linking to disclosure pages
   url: https://www.w3.org/2005/07/13-pubrules-disclosure
-  html: https://www.w3.org/2005/07/13-pubrules-disclosure
 
 - title: URIs for W3C Namespaces
   url: https://www.w3.org/2005/07/13-nsuri
-  html: https://www.w3.org/2005/07/13-nsuri
 
 - title: How to Register a Media Type for a W3C Specification
   url: https://www.w3.org/2020/01/registering-mediatypes
-  html: https://www.w3.org/2020/01/registering-mediatypes
-
 
 - title: XPointer Scheme Name Registry Policy
   url: https://www.w3.org/2005/04/xpointer-policy
-  html: https://www.w3.org/2005/04/xpointer-policy
-
 
