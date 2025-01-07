@@ -12,7 +12,5 @@ defaults:
     values:
       layout: "default"
 exclude: ["README.md", "**/README.md"]
-optional_front_matter:
-  remove_originals: true
 toc:
   max_level: 3
