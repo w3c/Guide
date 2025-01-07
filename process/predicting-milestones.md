@@ -233,7 +233,7 @@ Publication of a Candidate Recommendation triggers an Exclusion period on all fe
 Exiting the Candidate Recommendation phase can be triggered by:
 
 1. meeting the CR exit criteria (which leads to Proposed Recommendation), or
-2. dropping features which were not marked as 'at risk', or adding new features as a result of implementer feedback (which leads to another Candidate Recommendation).
+2. dropping features which were not marked as 'at risk', or adding new features as a result of implementer feedback (either of which leads to another Candidate Recommendation).
 
 > Time: Post-CR Candidate Recommendation Duration
 : The minimum duration for the Candidate Recommendation comment period is 28 days.
