@@ -43,7 +43,7 @@ The first set of milestones are drawn up before work starts, and put in an initi
 {:.time}
 
 >Tips: Advance Notice
-: When developing materials for and advance notice, try to strike a balance between fast (but overly sketchy and vague) and thorough (but slow, maybe over-detailed or over-constraining).
+: When developing materials for an advance notice, try to strike a balance between fast (but overly sketchy and vague) and thorough (but slow, maybe over-detailed or over-constraining).
 >
   If work has been prepared beforehand in a Community group, or formalizes existing, industry standard practices, then an Advance Notice might be skipped.
  {:.tip}
