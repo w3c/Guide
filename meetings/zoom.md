@@ -24,14 +24,14 @@ W3C Team account owners should set [account default settings](https://w3c.zoom.u
 - Whiteboard \[on]
 - Show a "Join from your browser" link \[on]
 - When attendees join meeting before host \[off]
-- [Save Captions](transcipts.md) \[off].
+- [Save Captions](transcripts.md) \[off].
 - Attention tracking \[off] ([Zoom says they have removed attention tracking as of 1 April 2020](https://blog.zoom.us/wordpress/2020/04/01/a-message-to-our-users/))
 
 These settings will allow the group to meet even if the Team Host is not present. If an actual Host is required, the Team Host can join the call momentarily and assign co-Host privileges to one or more of the other attendees.
 
 ## Testing Your Connection {#testing}
 
-Zoom offers a [test meeting service](https://zoom.us/test) for anyone to use to test their connection. You should use it to hear how your own audio is working. This service may only work for Internet (not phone) connections. See also [Zoom's article on testing](https://support.zoom.us/hc/en-us/articles/115002262083-Joining-a-test-meeting).
+Zoom offers a [test meeting service](https://zoom.us/test) for anyone to use to test their connection. You should use it to hear how your own audio is working. This service may only work for Internet (not phone) connections. See also [Zoom's article on Joining a Zoom test meeting](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063307).
 
 ## Recordings {#recordings}
 
@@ -56,7 +56,7 @@ Besides the [suggested settings for the W3C team accounts](#settings), we unders
 This section provides links to the Zoom documentation.
 
 - ability for a participant to turn off incoming video (see network bandwidth)
-- [accessibility](https://zoom.us/accessibility) ([FAQ](https://zoom.us/accessibility/faq))
+- [accessibility](https://www.zoom.com/en/accessibility/) ([FAQ](https://www.zoom.com/en/accessibility/faq/))
 - audio quality and settings
 - cost
 - [dial-in capability](https://zoom.us/zoomconference)
@@ -68,6 +68,6 @@ This section provides links to the Zoom documentation.
 - queue management
 - reliability
 - scalability
-- [screen and application sharing](https://support.zoom.us/hc/en-us/categories/201137166) (share only one app, not only entire screen)
+- [screen and application sharing](https://support.zoom.com/hc/en/category?id=kb_category&kb_category=2b493e9a8720391089a37408dabb35bb) (share only one app, not only entire screen)
 - [security](https://zoom.us/security)
 - video quality and settings
