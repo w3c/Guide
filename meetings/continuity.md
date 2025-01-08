@@ -5,27 +5,27 @@ toc: true
 
 ## Status {#status}
 
-This is an evolving document, started in February 2020. Comments may be made in the [GitHub repo](https://github.com/w3c/Guide/issues).
+This is an evolving document, started in February 2020. Comments may be made in the [GitHub repo](https://github.com/w3c/guide/issues).
 
 ## Purpose {#purpose}
 
 With travel restrictions, the world relies even more on online communication/interaction and the World Wide Web is a crucial part of society.
 
-This document outlines plans to continue W3C activities while travel restrictions and isolation protocols limit the ability of W3C community members to participate in-person in W3C meetings, [including the W3C Staff](https://www.w3.org/blog/news/archives/8376).
+This document outlines plans to continue W3C activities while travel restrictions and isolation protocols limit the ability of W3C community members to participate in-person in W3C meetings, [including the W3C Staff](https://www.w3.org/news/2020/w3c-team-interim-travel-restrictions-and-guidance-for-continuity-of-operations/).
 
 ## Addressing the needs of your participants first {#people}
 
 First and foremost, group chairs should make room for people to acknowledge new challenges. Everyone is coping with the crisis differently and with different work, living or family conditions. It's important in those times to give individuals time and space and to ensure that their care and safety come first.
 
-The W3C [Code of Conduct](/policies/code-of-conduct/) applies to all W3C meetings, whether they are in-person, virtual, or hybrid.
+The W3C [Code of Conduct](https://www.w3.org/policies/code-of-conduct/) applies to all W3C meetings, whether they are in-person, virtual, or hybrid.
 
 ## General policy for meetings {#policy}
 
 Meeting face-to-face is an important component of the work for some of our groups. Meetings enable group chairs to:
 
-1. Set an alternative dynamic compared to interactions by email/Github or during teleconferences;
-2. Focus synchronously on a set of issues and goals and reduce distractions;
-3. Bring to closure hard issues in case they languish due to lack of consensus.
+1. Set an alternative dynamic compared to interactions by email/GitHub or during teleconferences;
+1. Focus synchronously on a set of issues and goals and reduce distractions;
+1. Bring to closure hard issues in case they languish due to lack of consensus.
 
 We recommend that all groups that consider holding physical face-to-face meetings take into account the needs of all group participants, by seeking for **everyone to interact on an equal basis with other participants in remote locations**. Group Chairs should not have or set the expectation that group participants will travel. This includes complementing in-person meetings with virtual accommodations, rather than simply canceling in-person meetings, to the extent that these are respectful of the individual needs.
 
@@ -33,11 +33,10 @@ We recommend that all groups that consider holding physical face-to-face meeting
 
 We encounter several types of in-person meetings at W3C:
 
-1. Group face-to-face meetings;
-2. Workshops;
-3. Plenary meetings;
-4. Steering Committee meetings;
-5. Advisory Committee meetings.
+- Group face-to-face meetings;
+- Workshops;
+- Plenary meetings;
+- Advisory Committee meetings.
 
 Virtual presence meetings can take several forms, some better suited to the meeting purpose than others. Refer to the section [Meeting Formats](#sessions) below for examples.
 
@@ -88,7 +87,7 @@ must be made [accessible](https://www.w3.org/WAI/WCAG21/quickref/) by
 some means to those who cannot -- or choose not to -- use the video
 feed. As always, do not make video recordings or screen captures
 without the [explicit consent of the
-participants](/policies/code-of-conduct/).
+participants](https://www.w3.org/policies/code-of-conduct/).
 {:#video}
 
 **Screen sharing** - While screen sharing can be an effective way to
@@ -143,11 +142,11 @@ The considerations for a video conferencing service include:
 - security
 - video quality and settings
 
-W3C uses Zoom services and groups may use those with assistance from the W3C Team. See also our [zoom page](zoom.html) for additional information.
+W3C uses Zoom services and groups may use those with assistance from the W3C Team. See also our [zoom page](zoom.md) for additional information.
 
 ## W3C Workshops {#workshops}
 
-We continue to conduct fully distributed [workshops](/policies/process/#GAEvents) with virtual presence sessions. We are adapting the existing model (program committee issues call for participation and invites presentations based on submitted position statements) and experiment with new models. In any format, materials should be posted and archived accessibly. Participants should be notified of plans for audio/video recording and confidentiality level.
+We continue to conduct fully distributed [workshops](https://www.w3.org/policies/process/#GAEvents) with virtual presence sessions. We are adapting the existing model (program committee issues call for participation and invites presentations based on submitted position statements) and experiment with new models. In any format, materials should be posted and archived accessibly. Participants should be notified of plans for audio/video recording and confidentiality level.
 
 Workshops are often key gathering spots for consideration of new ideas, with a mix of prepared presentation, pre-determined or self-organizing breakout sessions, and the all-important "hallway track" opportunity for side conversations. Organizers are encouraged to replicate this mix in virtual meetings. Some proposals include:
 

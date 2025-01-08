@@ -32,7 +32,7 @@ Hi-speed Wireless Internet for 100% of estimated meeting attendance. Consult the
 
 #### AC/TP Meetings
 
-For all large (AC, TP) meetings, the global Systems Team will take responsibility for the details of the Internet service provision at the meeting.
+For all large (AC, TP) meetings, the Systems Team will take responsibility for the details of the Internet service provision at the meeting.
 
 In order to accomplish that goal:
 
@@ -106,7 +106,7 @@ Please add to this list if you notice omissions.
 
 - Provide network connection during meetings? (check with Chair)
 - U-shaped arrangement of tables
-- Data projector &amp; screen
+- Data projector & screen
 - Long projector cable (to reach all participants)
 - White board or flip chart
 - Amenities during meetings and breaks: water, beverages, snacks
