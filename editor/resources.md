@@ -4,6 +4,7 @@ toc: true
 ---
 
 ## Group Specific Information
+
 * Your group's Email list and its archive
 * Your group's WebEx coordinate for group calls
 * Your group's IRC channel
@@ -17,17 +18,20 @@ toc: true
 ## General Information
 
 ### List of the W3C groups
+
 * [Working Groups](https://www.w3.org/groups/wg/)
 * [Interest Groups](https://www.w3.org/groups/ig/)
 * [Business Groups/Community Groups](https://www.w3.org/community/groups/)
 
 ### How to join/leave the group
+
 * [Create your W3C account first](https://www.w3.org/account/request/)
 * Ask your AC Rep to join W3C groups and nominate you as a group participant:
   * Use the 'Join' button in [Working Groups/Interest Groups](https://www.w3.org/groups/) pages
   * [Business Groups/Community Groups](https://www.w3.org/community/groups/)
 
 ### Emails
+
 * Email archives:
   * [Public lists](https://lists.w3.org/)
   * [Member lists](https://lists.w3.org/Archives/Member/)
@@ -35,6 +39,7 @@ toc: true
   * [Mailing lists guide](https://www.w3.org/email/)
 
 ### Teleconfs
+
 * Zoom:
   * [Zoom](https://www.w3.org/Guide/meetings/zoom)
 * Minutes taking by IRC:
@@ -43,15 +48,18 @@ toc: true
   * [RRSAGent HOWTO](https://www.w3.org/2002/03/RRSAgent)
 
 ### Meetings
+
 * [W3C Member meetings](https://www.w3.org/events/)
 * [TPAC (Technical Plenary and Advisory Committee Meetings)](https://www.w3.org/events/tpac/)
 * [AC Meeting (Advisory Committee meeting)](https://www.w3.org/events/ac/)
 
 ### GitHub
+
 * Initial instructions for GitHub beginners:
   * [W3C on GitHub](https://w3c.github.io/)
 
 ### For Editor's role
+
 * Tools for spec editing:
   * [Markdown](https://github.github.com/gfm/)
   * [Respec](https://github.com/speced/respec/wiki/format)
@@ -62,6 +70,7 @@ toc: true
   * [Automatic publication tool (Echidna)](https://labs.w3.org/echidna/)
 
 ### Patent Policy (especially for WGs)
+
 * [W3C Patent Policy](https://www.w3.org/policies/patent-policy/)
 * [Patent Policy FAQ](https://www.w3.org/2003/12/22-pp-faq.html)
 
