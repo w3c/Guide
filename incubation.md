@@ -9,7 +9,7 @@ Incubation is a way of exploring some new aspect of the Open Web Platform when t
 
 It enables exploration of novel work, without overly diffusing the effort of a Working Group or expending a lot of resources on work that is ultimately abandoned.
 
-One possible result of incubation is the [transfer of work to a Working Group, for Standards-track development](process/cg-transition.html). Work might also be forwarded to another group in liaison with W3C. Another possible result is the conclusion that this is a promising area of work, but that a number of prerequisites exist which should be solved first. Finally, incubators might conclude that no Standards-track work should be done in the area. This is still a valuable result, as it can reduce the effort expended on unfruitful options.
+One possible result of incubation is the [transfer of work to a Working Group, for Standards-track development](process/cg-transition.md). Work might also be forwarded to another group in liaison with W3C. Another possible result is the conclusion that this is a promising area of work, but that a number of prerequisites exist which should be solved first. Finally, incubators might conclude that no Standards-track work should be done in the area. This is still a valuable result, as it can reduce the effort expended on unfruitful options.
 
 ## Venues for incubation
 
@@ -43,11 +43,11 @@ An emerging pattern is, when chartering a Working Group, to use a CG to handle i
 
 If work has already been explored by one or more W3C Members, a Member Submission can be an effective way to bring the work to wider review. Like other incubation methods, a Submission is not a guarantee that Standards-track work will take place in the area. The likelihood of success is increased if there is already developer interest, and if royalty-free commitments to known patents are made along with the submission.
 
-[Member Submission Process](/policies/process/#Submission)
+[Member Submission Process](https://www.w3.org/policies/process/#Submission)
 
 ### W3C Workshop
 
-A [W3C Workshop](meetings/workshops.html) can be a good way to bring a new community together and, if consensus is reached on some new area, the workshop report may suggest next steps including creation of a CG, or even passing the work to a new or existing Working Group.
+A [W3C Workshop](meetings/workshops.md) can be a good way to bring a new community together and, if consensus is reached on some new area, the workshop report may suggest next steps including creation of a CG, or even passing the work to a new or existing Working Group.
 
 ### A Working Group
 
