@@ -8,11 +8,11 @@ The following resources are included in this Guide:
 - Running a Meeting with [IRC](https://www.w3.org/Project/IRC/)
   - [Scribe 101](https://www.w3.org/2008/04/scribe.html): Taking meeting minutes using W3C IRC tools
   - [Quick start guide](https://w3c.github.io/scribe2/scribedoc.html) more details on setting up tools for managing an agenda, generating minutes, and updating issues lists
-  - [Holidays wiki](https://www.w3.org/wiki/Holidays) to help planning WG work around recurring holidays
   - Individual IRC tools ("bots"):    
     - [Zakim](https://www.w3.org/2001/12/zakim-irc-bot.html) for queue management, start and end meeting
     - [RRSAgent](https://www.w3.org/2002/03/RRSAgent) for minutes management
 - [Dealing with timezones](organize.md)
+- [Holidays wiki](https://www.w3.org/wiki/Holidays) to help planning WG work around recurring holidays
 - [Automated Transcripts](transcripts.md)
 - [Hybrid meeting](hybrid-meeting.md)
 - [Continuity of Operations under Travel Restrictions](continuity.md)
