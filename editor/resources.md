@@ -22,8 +22,8 @@ toc: true
 * [Business Groups/Community Groups](https://www.w3.org/community/groups/)
 
 ### How to join/leave the group
-* [Create your W3C account first](https://www.w3.org/accounts/request)
-* Ask your AC to join W3C groups and nominate you as a group participant:
+* [Create your W3C account first](https://www.w3.org/account/request/)
+* Ask your AC Rep to join W3C groups and nominate you as a group participant:
   * Use the 'Join' button in [Working Groups/Interest Groups](https://www.w3.org/groups/) pages
   * [Business Groups/Community Groups](https://www.w3.org/community/groups/)
 
@@ -32,8 +32,7 @@ toc: true
   * [Public lists](https://lists.w3.org/)
   * [Member lists](https://lists.w3.org/Archives/Member/)
 * How to use W3C mailinglists:
-  * [Mailing list guide](https://www.w3.org/Mail/)
-  * [Mailinglist subscription](https://www.w3.org/Mail/Request)
+  * [Mailing lists guide](https://www.w3.org/email/)
 
 ### Teleconfs
 * Zoom:
@@ -50,8 +49,7 @@ toc: true
 
 ### GitHub
 * Initial instructions for GitHub beginners:
-  * [W3C Specs on GitHub](https://w3c.github.io/specs.html)
-  * [W3C Tools Support Wiki](https://www.w3.org/2006/tools/wiki/Github)
+  * [W3C on GitHub](https://w3c.github.io/)
 
 ### For Editor's role
 * Tools for spec editing:
@@ -66,7 +64,4 @@ toc: true
 ### Patent Policy (especially for WGs)
 * [W3C Patent Policy](https://www.w3.org/policies/patent-policy/)
 * [Patent Policy FAQ](https://www.w3.org/2003/12/22-pp-faq.html)
-
-## Learn more
-* [/Guide](https://www.w3.org/Guide/)
 
