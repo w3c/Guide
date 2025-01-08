@@ -18,7 +18,7 @@ Wide review should or must be requested:
   Working Groups are often reluctant to make substantive changes to a mature
   document, so reviewers should get a chance to send substantive technical
   reviews as early as possible. This is especially important for [horizontal reviews](#how-to-get-horizontal-review).
-* Before a document gets advanced to [Candidate Recommendation](https://www.w3.org/policies/process/#transition-cr), gets updated as a [Candidate Recommendation Snapshot](https://www.w3.org/policies/process/#update-requests) or gets updated as a [Recommendation](https://www.w3.org/policies/process/20231103/#change-review).
+* Before a document gets advanced to [Candidate Recommendation](https://www.w3.org/policies/process/#transition-cr), gets updated as a [Candidate Recommendation Snapshot](https://www.w3.org/policies/process/#update-requests) or gets updated as a [Recommendation](https://www.w3.org/policies/process/#change-review).
   
   For those, the [W3C Process](https://www.w3.org/policies/process/) requires a Group to show that the specification has received wide review.
 * When a document is both reasonably stable and still flexible enough to allow changes where issues are identified.
@@ -26,7 +26,7 @@ Wide review should or must be requested:
 
 ## Who to ask for wide review?
 
-The objective is to ensure that the entire set of stakeholders of the Web community, including the general public, have  adequate notice of the progress of the Working Group and are genuinely able to perform reviews of and provide comments on the specification. When considering [requests to advance the maturity level of the document](https://www.w3.org/Guide/transitions), the Team will consider who has been explicitly offered a reasonable opportunity to review the document.
+The objective is to ensure that the entire set of stakeholders of the Web community, including the general public, have  adequate notice of the progress of the Working Group and are genuinely able to perform reviews of and provide comments on the specification. When considering [requests to advance the maturity level of the document](../transitions/), the Team will consider who has been explicitly offered a reasonable opportunity to review the document.
 
 You **must** publish an updated technical report, with the Status of the Document indicating clearly that you're looking for *wide review*, before inviting review from other stakeholders. Our [tooling](https://github.com/w3c/transition-notifier/blob/main/notify.js) monitors publications and propagates notifications to [public-review-announce@w3.org](mailto:public-review-announce@w3.org) automatically (for example, [Candidate Recommendation Snapshot: Payment Request API (Call for Wide Review)](https://lists.w3.org/Archives/Public/public-review-announce/2021Jun/0008.html)).
 
@@ -35,12 +35,11 @@ You should then inform, and request reviews from:
 * the groups listed in the WG's charter, especially those who manage
 dependencies.
 * the groups jointly responsible for a particular document (if any).
-* the [horizontal groups](/Guide/process/horizontal-groups.html) using the [method described below](#how_to_get_horizontal_review). *Note that sending an email to the public-review-announce list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described below*
+* the [horizontal groups](../process/horizontal-groups.md) using the [method described below](#how_to_get_horizontal_review). *Note that sending an email to the public-review-announce list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described below*
 * the general public,  including Web developers, technology providers and implementers, application developers, etc. Consider:
   * sending a dedicated announcement to [public-review-announce@w3.org](mailto:public-review-announce@w3.org) if needed (in case the default notice sent to that list is not enough).
   * using blog posts, social media, or other ways of alerting the public to your document and requesting feedback.
 * other groups, at your discretion, even if not in the WG charter, such as other W3C groups, external organizations and SSOs  working on related areas, etc.
-
 
 **Tip:** consider tracking your wide review progress using a GitHub issue, such as [issue #299 of the Sensors API](https://github.com/w3c/sensors/issues/299). You can then simply point the Team to the issue.
 
@@ -62,7 +61,7 @@ dependencies.
   <p><em>Note: You will be able to edit the issue's title and body before it gets created.</em></p>
 </details>
 
-The reviews provided by the [horizontal groups](/Guide/process/horizontal-groups.html), a subset of a full wide review, do receive special attention and much of the rest of this document focuses on how and when to conduct horizontal reviews.
+The reviews provided by the [horizontal groups](../process/horizontal-groups.md), a subset of a full wide review, do receive special attention and much of the rest of this document focuses on how and when to conduct horizontal reviews.
 
 ## How to get horizontal review
 When you have published a First Public Working Draft, you should work through available "self-review" materials and request review of your results in at least the following areas.
@@ -92,14 +91,14 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
   <span class="step">If you are developing javascript APIs you may also want to ask <a rel="nofollow" class="external text" href="mailto:public-script-coord@w3.org">public-script-coord@w3.org</a>, a technical discussion list shared by W3C and ECMA's TC 39</span>.
 <details>
 <summary>Show useful links</summary>
-<ul><li> groups
-<ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/2001/tag/">Technical Architecture Group (TAG)</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/www-tag/">www-tag</a></li></ul></li>
-<li> links
-<ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/2001/tag/doc/webcomponents-design-guidelines/">Guidelines for creating web platform compatible components</a></li>
-<li> <a rel="nofollow" class="external text" href="https://www.w3.org/2001/tag/doc/promises-guide">Writing Promise-Using Specifications</a></li>
-<li> <a rel="nofollow" class="external text" href="https://www.w3.org/TR/design-principles/">Client-side API Design Principles</a></li>
-<li> <a rel="nofollow" class="external text" href="https://www.w3.org/2001/tag/doc/capability-urls/">Good Practices for Capability URLs</a></li>
-<li> <a rel="nofollow" class="external text" href="https://github.com/w3ctag/design-reviews">TAG Repository for reviews</a></li></ul></li></ul>
+<ul><li>groups
+<ul><li><a rel="nofollow" class="external text" href="https://www.w3.org/2001/tag/">Technical Architecture Group (TAG)</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/www-tag/">www-tag</a></li></ul></li>
+<li>links
+<ul><li><a rel="nofollow" class="external text" href="https://www.w3.org/2001/tag/doc/webcomponents-design-guidelines/">Guidelines for creating web platform compatible components</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.w3.org/2001/tag/doc/promises-guide">Writing Promise-Using Specifications</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.w3.org/TR/design-principles/">Client-side API Design Principles</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.w3.org/2001/tag/doc/capability-urls/">Good Practices for Capability URLs</a></li>
+<li><a rel="nofollow" class="external text" href="https://github.com/w3ctag/design-reviews">TAG Repository for reviews</a></li></ul></li></ul>
 </details>
 </dd>
 
@@ -110,14 +109,14 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
   <span class="step"><a rel="nofollow" class="external text" href="https://github.com/w3c/i18n-request/issues/new/choose">request a review via GitHub</a></span>.
 <details>
 <summary>Show useful links</summary>
-<ul><li> groups
+<ul><li>groups
 <ul><li><a rel="nofollow" class="external text" href="https://www.w3.org/International/">Internationalization Working Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/www-international/">www-international</a> Reviews by Internationalization generally also involve the <a rel="nofollow" class="external text" href="https://www.w3.org/International/ig/">Interest Group</a>, but are arranged through the WG.</li></ul></li>
-<li> links
+<li>links
 <ul><li><a rel="nofollow" class="external text" href="https://www.w3.org/International/review-request">Request a review</a></li>
 <li><a rel="nofollow" class="external text" href="https://www.w3.org/International/i18n-drafts/techniques/shortchecklist">Self-Review Questionnaire</a>.</li>
 <li><a rel="nofollow" class="external text" href="https://www.w3.org/TR/international-specs/">Internationalization Best Practices for Spec Developers</a></li>
-<li> <a rel="nofollow" class="external text" href="https://www.w3.org/International/reviews/projReview.html">A brief overview of the review process</a> (with pictures)</li>
-<li> The <a rel="nofollow" class="external text" href="https://github.com/w3c/i18n-request/projects/1">Review Radar</a> shows the status of open reviews.</li></ul></li></ul>
+<li><a rel="nofollow" class="external text" href="https://www.w3.org/International/reviews/projReview.html">A brief overview of the review process</a> (with pictures)</li>
+<li>The <a rel="nofollow" class="external text" href="https://github.com/w3c/i18n-request/projects/1">Review Radar</a> shows the status of open reviews.</li></ul></li></ul>
 </details>
 </dd>
 
@@ -127,14 +126,15 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
   <span class="step"><a rel="nofollow" class="external text" href="https://github.com/w3cping/privacy-request/issues/new/choose">request a review via GitHub</a> from the <a rel="nofollow" class="external text" href="https://www.w3.org/Privacy/">Privacy Interest Group</a></span>.
 <details>
 <summary>Show useful links</summary>
-<ul><li>groups
+<ul>
+<li>groups
 <ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/Privacy/">Privacy Interest Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/public-privacy/">public-privacy</a></li></ul></li>
-<li> links
-<ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/TR/security-privacy-questionnaire/"><cite>Self-Review Questionnaire: Security and Privacy</cite>, published by the TAG and PING</a></li>
-<li> <a rel="nofollow" class="external text" href="https://www.w3.org/TR/fingerprinting-guidance/">Mitigating Browser Fingerprinting in Web Specifications</a></li>
-  <li> <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6973.html">Privacy Considerations for Internet Protocols (RFC6973)</a>, particularly <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6973.html#section-7">Section 7</a></li>
-<li> <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc3552.html">Guidelines for Writing RFC Text on Security Considerations (RFC3552)</a>, particularly <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc3552.html#section-5">Section 5</a></li>
-
+<li>links
+<ul>
+<li><a rel="nofollow" class="external text" href="https://www.w3.org/TR/security-privacy-questionnaire/"><cite>Self-Review Questionnaire: Security and Privacy</cite>, published by the TAG and PING</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.w3.org/TR/fingerprinting-guidance/">Mitigating Browser Fingerprinting in Web Specifications</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6973.html">Privacy Considerations for Internet Protocols (RFC6973)</a>, particularly <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6973.html#section-7">Section 7</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc3552.html">Guidelines for Writing RFC Text on Security Considerations (RFC3552)</a>, particularly <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc3552.html#section-5">Section 5</a></li>
 </ul></li></ul>
 </details>
 </dd>
@@ -143,15 +143,14 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
 <dd>
   <span class="step">Write a "Security Considerations" section for your document, taking into account the <a rel="nofollow" class="external text" href="https://www.w3.org/TR/security-privacy-questionnaire/">Self-Review Questionnaire: Security and Privacy</a></span>, then
   <span class="step"><a rel="nofollow" class="external text" href="https://github.com/w3c/security-request/issues/new/choose">request a review via GitHub</a></span>
-
 <details>
 <summary>Show useful links</summary>
-<ul><li> groups
-<ul><li> None</li></ul></li>
-<li> links
+<ul><li>groups
+<ul><li>None</li></ul></li>
+<li>links
 <ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/TR/security-privacy-questionnaire/"><cite>Self-Review Questionnaire: Security and Privacy</cite>, published by the TAG and PING</a></li>
-<li> <a rel="nofollow" class="external text" href="https://www.w3.org/TR/fingerprinting-guidance/">Mitigating Browser Fingerprinting in Web Specifications</a></li>
-<li> <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc3552.html">Guidelines for Writing RFC Text on Security Considerations (RFC3552)</a>, particularly <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc3552.html#section-5">Section 5</a></li></ul></li></ul>
+<li><a rel="nofollow" class="external text" href="https://www.w3.org/TR/fingerprinting-guidance/">Mitigating Browser Fingerprinting in Web Specifications</a></li>
+<li><a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc3552.html">Guidelines for Writing RFC Text on Security Considerations (RFC3552)</a>, particularly <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc3552.html#section-5">Section 5</a></li></ul></li></ul>
 </details>
 </dd>
 </dl>
@@ -172,7 +171,7 @@ If you want some specific advice from the horizontal group, describe that reques
 
 Horizontal review groups may apply the <span class="tag">\*-needs-resolution</span> label to issues they expect to be resolved before the specification moves to a new maturity level. Working Groups must not remove or add this label (not even when you close your issue).
 
-If the [horizontal group](/Guide/process/horizontal-groups.html) believes that an issue with a <span class="githublabel">\*-tracker</span> label needs to be resolved before a transition, they may apply a <span class="githublabel">\*-needs-resolution</span> label to the issue. Automatic tooling will later remove the <span class="githublabel">\*-tracker</span> label.
+If the [horizontal group](../process/horizontal-groups.md) believes that an issue with a <span class="githublabel">\*-tracker</span> label needs to be resolved before a transition, they may apply a <span class="githublabel">\*-needs-resolution</span> label to the issue. Automatic tooling will later remove the <span class="githublabel">\*-tracker</span> label.
  
 If you close an issue with a <span class="tag">\*-tracker</span> or <span class="tag">\*-needs-resolution</span> label attached, do not remove the label.  Keeping the label maintains the tracking if the issue is reopened, but also provides potentially useful information about what was tracked. (Closed issues in your repository have no effect on tools that check for unresolved issues.)
  
@@ -221,15 +220,15 @@ Is it possible to make too many requests for review?
 
 ## Common mistakes when making a transition request
 
-1. If you make substantive changes, you'll need to do a wide review for those  before you move forward to the [next maturity stage](https://www.w3.org/Guide/documentreview/#who_to_ask_for_review).
-1. Never ever exclude some [horizontal groups](/Guide/process/horizontal-groups.html) from your review requests because you concluded it was irrelevant for them or they haven't responded to your last request.
+1. If you make substantive changes, you'll need to do a wide review for those  before you move forward to the [next maturity stage](../documentreview/#who_to_ask_for_review).
+1. Never ever exclude some [horizontal groups](../process/horizontal-groups.md) from your review requests because you concluded it was irrelevant for them or they haven't responded to your last request.
    
    Let them make the decision that something is irrelevant to their field of expertise instead. You're welcome to time out if you don't hear back, and request to move forward anyway.
 1. Publish a Working Draft or a Candidate Recommendation Draft when asking for reviews.
    It's better for a Group to miss the fact that you fixed an issue in your editor's draft than the Team missing the fact you made an unreviewed substantive change in your editor's draft.
 1. Don't flag your issues with one of those <span class="tag">\*-needs-resolution</span> labels, and don't remove one which has been applied (you *can* close the issue though, if it is resolved).
 
-   Those are intended solely to be used by [horizontal groups](/Guide/process/horizontal-groups.html) to [bring special attention](https://www.w3.org/Guide/documentreview/#What_happens_to_unresolved_issues_marked_needs-resolution).
+   Those are intended solely to be used by [horizontal groups](../process/horizontal-groups.md) to [bring special attention](../documentreview/#What_happens_to_unresolved_issues_marked_needs-resolution).
 1. Don't assume that the horizontal group will be able to schedule and complete a review within 2 weeks so that you can proceed to CR.
    
    They may not even be able to find someone with availability to do the review in that time, and then they need a week or two to discuss their response after the review, and then they'll send you comments that may require you to make substantive changes.
