@@ -1,204 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+title: Organize a Technical Report Transition (2023 Process)
+toc: false
+---
 
-<head>
-	<meta charset="utf-8">
-	<title>What's your next step? (2023 Process)</title>
-	<link rel="stylesheet" href="https://www.w3.org/StyleSheets/generic-base-1.css" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="https://www.w3.org/Guide/assets/main.css" />
-	<link rel="shortcut icon" href="https://www.w3.org/Icons/WWW/Literature.gif" />
-
-	<!-- Go to the bottom of this document for help in editing it -->
-
-
-	<style type="text/css">
-		form {
-			border: thin black solid;
-			padding: .5em
-		}
-
-		/******************************************************************************/
-		/*														 Colored Boxes																	*/
-		/******************************************************************************/
-
-		.issue,
-		.note,
-		.example,
-		.advisement,
-		blockquote {
-			padding: .5em;
-			border: .5em;
-			border-left-style: solid;
-			break-inside: avoid;
-		}
-
-		span.issue,
-		span.note {
-			padding: .1em .5em .15em;
-			border-right-style: solid;
-		}
-
-		.issue,
-		.note,
-		.example,
-		.advisement,
-		blockquote {
-			margin: 1em auto;
-		}
-
-		.note>p:first-child,
-		.issue>p:first-child,
-		blockquote> :first-child {
-			margin-top: 0;
-		}
-
-		blockquote> :last-child {
-			margin-bottom: 0;
-		}
-
-		/** Blockquotes ***************************************************************/
-
-		blockquote {
-			border-color: silver;
-		}
-
-		/** Open issue ****************************************************************/
-
-		.issue {
-			border-color: #E05252;
-			background: #FBE9E9;
-			counter-increment: issue;
-			overflow: auto;
-		}
-
-		.issue::before,
-		.issue>.marker {
-			color: #AE1E1E;
-			padding-right: 1em;
-			text-transform: uppercase;
-		}
-
-		/* Add .issue::before { content: "Issue " counter(issue) " "; } for autogen numbers,
-	or use class="marker" to mark up the issue number in source. */
-
-		/** Example *******************************************************************/
-
-		.example {
-			border-color: #E0CB52;
-			background: #FCFAEE;
-			counter-increment: example;
-			overflow: auto;
-			clear: both;
-		}
-
-		.example::before,
-		.example>.marker {
-			text-transform: uppercase;
-			color: #827017;
-			min-width: 7.5em;
-			display: block;
-		}
-
-		/* Add .example::before { content: "Example " counter(example) " "; } for autogen numbers,
-	or use class="marker" to mark up the example number in source. */
-
-		/** Non-normative Note ********************************************************/
-
-		.note {
-			border-color: #52E052;
-			background: #E9FBE9;
-			overflow: auto;
-		}
-
-		.note::before,
-		.note>.marker,
-		details.note>summary::before,
-		details.note>summary>.marker {
-			text-transform: uppercase;
-			display: block;
-			color: hsl(120, 70%, 30%);
-		}
-
-		/* Add .note::before { content: "Note "; } for autogen label,
-	or use class="marker" to mark up the label in source. */
-
-		details.note>summary {
-			display: block;
-			color: hsl(120, 70%, 30%);
-		}
-
-		details.note[open]>summary {
-			border-bottom: 1px silver solid;
-		}
-	</style>
-	<style>
-		/*for the SVG - navigation highlighting */
-
-		:focus path,
-		:focus polygon,
-		:focus ellipse {
-			stroke-width: 4
-		}
-
-		g g:hover path,
-		g g:hover polygon,
-		g g:hover ellipse {
-			stroke-width: 4
-		}
-
-		:focus text,
-		g g:hover text {
-			stroke: black;
-			stroke-width: .5
-		}
-	</style>
-</head>
-
-<body>
-	<div id="header">
-		<span class="logo"><a href="https://www.w3.org/"><img src="https://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C"
-					height="48" width="72" /></a></span>
-		<div class="breadcrumb">
-			<a href="https://www.w3.org/Member/">Member</a> &#x2192; <a href="https://www.w3.org/Guide/">The Art of
-				Consensus</a> &#x2192;
-			<h1>Organize a Technical Report Transition (2023 Process)</h1>
-		</div>
-		<p class="baseline">This <strong>Guidebook</strong> is the collected
-			wisdom of the W3C Group Chairs and other collaborators.</p>
-	</div>
-
-	<div class="toolbox box" style="margin-bottom: 1em">
-		<h4>Resources</h4>
-		<ul>
-			<li><a href="https://www.w3.org/Guide/transitions">Organize a Technical Report Transition</a></li>
-			<li><a href="https://w3c.github.io/spec-releases/milestones/">Milestones planning</a></li>
-			<li><a href="https://w3c.github.io/spec-releases/timeline.svg">174 days to W3C Recommendation</a></li>
-			<li><a href="https://www.w3.org/2023/Process-20231103/#Reports">Recommendation
-					Track Process</a></li>
-		</ul>
-	</div>
 
 	<h2 id="sotd">About This Document</h2>
 
 	<p>This resource assists in finding the internal W3C Technical Report
 		publication processes.</p>
 
-	<h2 id="snext">Next Steps</h2>
-	<div>
-		<p>
-			You may use a TR <label id="shortnameLabel">shortname</label> to find out your next step:<br>
-		</p>
-		<input type=text aria-labelledby="shortnameLabel" placeholder="shortname" id="shortname" size="30" minlength="3"
-			maxlength="40" pattern="[-a-zA-Z0-9]{3,40}" list="w3ctr">
-		<datalist id='w3ctr'>
-		</datalist>
+
+        <h2 id="snext">Next Steps</h2>
+        <div class="field">
+		<label for="shortname" id="shortnameLabel">
+			<span class="field-label">Shortname</span>
+		</label>
+		<div class="field-hint" id="hint-shortname">You may use a TR shortname to find out your next step</div>
+		<input type="text" id="shortname" name="shortname"
+                minlength="3" maxlength="40" pattern="[-a-zA-Z0-9]{3,40}" list="w3ctr">
+
+	<datalist id='w3ctr'>
+	</datalist>
 	</div>
+
 	<div aria-live="assertive" aria-atomic="true" id='next'>
 
 		<p>Your possible next steps are:</p>
 		<ul id='step_list'>
 		</ul>
-
 
 		<div id='spec'>
 			<p>We found the following information:</p>
@@ -214,11 +43,23 @@
 		</div>
 
 	</div>
-	<hr>
-	<p>Feedback is to <a href="https://github.com/orgs/w3c/teams/transitions">@w3c/transitions</a>
-	  and is welcome on <a href="https://github.com/w3c/transitions/issues">GitHub</a></p>
 
-	<script type="module">
+	<h2 id='resources'>Other resources</h2>
+        <p><ul>
+	<li><a href="https://www.w3.org/Guide/transitions">Organize a Technical Report Transition</a></li>
+	<li><a href="https://w3c.github.io/spec-releases/milestones/">Milestones planning</a></li>
+	<li><a href="https://w3c.github.io/spec-releases/timeline.svg">174 days to W3C Recommendation</a></li>
+	<li><a href="https://www.w3.org/2023/Process-20231103/#Reports">Recommendation
+        Track Process</a></li>
+       </ul></p>
+
+	<style>
+		div.field {
+			margin-bottom: 2em;
+		}
+	</style>
+
+        <script type="module">
 		import { fetchW3C } from 'https://w3c.github.io/gargantua/fetch-utils.js';
 
 		function getLatestSpec(shortname) {
@@ -497,8 +338,5 @@
 				nodes[i].oninput = shortname;
 			}
 		}
-		trace("restored " + window.location.href);
-	</script>
-</body>
-
-</html>
+                trace("restored " + window.location.href);
+</script>
