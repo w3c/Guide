@@ -49,7 +49,6 @@ W3C editors have developed several types of HTML and XML based grammars to make 
 Here are tools that can prove to be useful when developing your specification.
 
 - The [Pubrules Checker](https://www.w3.org/pubrules/) provides a convenient interface to check the conformance of a document to pubrules (see [pubrules issues and tracking](https://github.com/w3c/specberus/issues))
-- The [Technical Reports shopping list](https://www.w3.org/2000/06/webdata/xslt?xslfile=http%3A%2F%2Fwww.w3.org%2F2005%2F06%2Ftr-shopping.xsl&xmlfile=http%3A%2F%2Fwww.w3.org%2F2002%2F01%2Ftr-automation%2Ftr.rdf) and the [Bibliography Extractor](https://www.w3.org/2002/01/tr-automation/tr-biblio-ui) help building bibliographies based on other W3C Technical Reports; there is a [similar mechansim](https://lists.w3.org/Archives/Public/spec-prod/2003OctDec/0002.html) for XMLSpec
 - The [TR references checker](https://www.w3.org/2004/07/references-checker-ui) may help maintain your references list up to date. See also the [IETF references checker](https://www.w3.org/2007/05/ietf-references-checker).
 - The [W3C Glossary](https://www.w3.org/2003/glossary/) is a repository of all the terms defined in W3C specifications (and more); a good source to find which terms have already been defined and where
 - The [on-line Spell Checker](https://www.w3.org/2002/01/spellchecker) helps spot misspellings and typos
@@ -63,7 +62,7 @@ Most of these tools can be quickly accessed using the so called  **[`,tools`](./
 
 ## Central JavaScript repository {#javascript}
 
-Specifications should, of course, be device-independent. But, with care, you can still include certain kinds of scripts. If the script you want is in W3C's [repository of common JavaScript libraries,](https://www.w3.org/scripts/) you're recommended to link to that repository, rather than make a copy of the script. (Note that, together with the common style sheets, these scripts are the *only* resources that may be outside the specification's own directory.)
+Specifications should, of course, be device-independent. But, with care, you can still include certain kinds of scripts. If the script you want is in W3C's [repository of common JavaScript libraries](https://www.w3.org/scripts/), you're recommended to link to that repository, rather than make a copy of the script. (Note that, together with the common style sheets, these scripts are the *only* resources that may be outside the specification's own directory.)
 
 There is no documentation for now (except for [MathJax](https://www.w3.org/scripts/MathJax/)).
 
