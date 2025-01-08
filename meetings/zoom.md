@@ -24,7 +24,7 @@ W3C Team account owners should set [account default settings](https://w3c.zoom.u
 - Whiteboard \[on]
 - Show a "Join from your browser" link \[on]
 - When attendees join meeting before host \[off]
-- [Save Captions](transcipts.html) \[off].
+- [Save Captions](transcipts.md) \[off].
 - Attention tracking \[off] ([Zoom says they have removed attention tracking as of 1 April 2020](https://blog.zoom.us/wordpress/2020/04/01/a-message-to-our-users/))
 
 These settings will allow the group to meet even if the Team Host is not present. If an actual Host is required, the Team Host can join the call momentarily and assign co-Host privileges to one or more of the other attendees.
@@ -37,7 +37,7 @@ Zoom offers a [test meeting service](https://zoom.us/test) for anyone to use to 
 
 Zoom provides the ability to make recordings. If this feature is used, it must be with the consent of the meeting participants. Chairs have the responsibility to ensure that participants are aware that they are being recorded whenever this feature is used. Recordings are made available after the end (could take a few hours) using an email notification to the meeting host, and can only be shared by default to individuals with a W3C Zoom account. We're looking into providing additional recommendations to make those videos available through other means.
 
-Check also the special guidance on [automated meeting transcripts](transcripts.html).
+Check also the special guidance on [automated meeting transcripts](transcripts.md).
 
 ## Ending a Meeting {#ending}
 
@@ -49,7 +49,7 @@ Participants sometimes wander off and forget to disconnect at the end of a meeti
 
 The standard precautions apply for meeting participants to mute your audio except when you mean to talk to the meeting to avoid interference and accidentally sharing private communications (e.g. yelling at your pets), and also to pay attention to what is visible in your video feed.
 
-Besides the [suggested settings for the W3C team accounts](#suggested-settings), we understand that concerns have been raised regarding the security/privacy of the Zoom clients. Several of the issues reported were based on native application hacks with computers already infected (such as modifying the installation script). The best and most cost-effective way to prevent those issues is to use the Web application for Zoom but it is more CPU intensive. Using an alternative device helps in isolating the native applications or the impact on CPU usage from the Web application. It's the perfect opportunity to repurpose an old device.
+Besides the [suggested settings for the W3C team accounts](#settings), we understand that concerns have been raised regarding the security/privacy of the Zoom clients. Several of the issues reported were based on native application hacks with computers already infected (such as modifying the installation script). The best and most cost-effective way to prevent those issues is to use the Web application for Zoom but it is more CPU intensive. Using an alternative device helps in isolating the native applications or the impact on CPU usage from the Web application. It's the perfect opportunity to repurpose an old device.
 
 ### Zoom documentation {#zoomdoc}
 
@@ -64,7 +64,7 @@ This section provides links to the Zoom documentation.
 - interoperable browser support
 - network bandwidth
 - Native platform independence (a native app that works on Linux, Mac, Windows, …)
-- [privacy](https://zoom.us/privacy?zcid=1231&_ga=2.98581528.769047269.1585831637-830468457.1584135532)
+- [privacy statement](https://www.zoom.com/en/trust/privacy/)
 - queue management
 - reliability
 - scalability

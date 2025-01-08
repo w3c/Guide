@@ -13,7 +13,7 @@ To date, most W3C Workshops have been face-to-face meetings. Going forward, more
 
 ## Proposing a Workshop {#Proposing}
 
-Most workshops to date have been proposed by the W3C Technical Staff, in particular, members of the W3C Strategy Team. Workshops being planned are publicly visible on the [W3C Strategy Funnel](https://github.com/w3c/strategy/projects/2).
+Most workshops to date have been proposed by the W3C Technical Staff, in particular, members of the W3C Strategy Team. Workshops being planned are publicly visible on the [W3C Strategy Team's Incubation Pipeline (Funnel)](https://github.com/orgs/w3c/projects/97).
 
 In the planning phase, each workshop is maintained as an issue on GitHub. For example, here is the issue for the [Inclusive XR workshop](https://github.com/w3c/strategy/issues/175).
 

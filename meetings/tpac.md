@@ -1,5 +1,5 @@
 ---
-title: On TPAC Group and Joint-Group Meetings
+title: TPAC Group and Joint-Group Meetings
 toc: true
 ---
 
@@ -16,22 +16,21 @@ In TPAC 2021, since we are still virtual, it will still be challenging to achiev
 Since we'll be virtual, a few reminders:
 
 1. Make sure it's easy for outsiders to discover your meeting. Add your meeting to:
-   
    1. the [TPAC 2021 page](https://www.w3.org/wiki/TPAC/2021/GroupMeetings).
-   2. the [W3C Calendar of the Group](https://www.w3.org/blog/2021/03/group-calendaring-service-enters-beta-test/).
-2. A distributed meeting is one where most of the attendees are expected to participate from remote locations (see [dealing with timezones](organize.html)).
-3. See our [considerations regarding zoom](zoom.html), including recordings and automated meeting transcripts.
-4. If you plan to make a presentation, we recommend you to record them in advance. Ask the events team for assistance if needed but they require 2 weeks lead time (deadline is October 11). See also our [recording tips](https://www.w3.org/wiki/Virtual_Presentations).
-5. Consider if a breakout session might be useful.
+   1. the [W3C Calendar of the Group](https://www.w3.org/blog/2021/group-calendaring-service-enters-beta-test/).
+1. A distributed meeting is one where most of the attendees are expected to participate from remote locations (see [dealing with timezones](organize.md)).
+1. See our [considerations regarding Zoom](zoom.md), including recordings and automated meeting transcripts.
+1. If you plan to make a presentation, we recommend you to record them in advance. Ask the events team for assistance if needed but they require 2 weeks lead time (deadline is October 11). See also our [recording tips](https://www.w3.org/wiki/Virtual_Presentations).
+1. Consider if a breakout session might be useful.
 
-## TPAC Group meeting {#group}
+## TPAC Group Meetings {#group}
 
 TPAC meeting is an opportunity for a Working or Interest Group :
 
 1. look on the progress and goals of the Group as well as the deliverables;
-2. look at related work (e.g in Community Groups) and what's new out there within the scope or related to the Group's mission;
-3. welcome new participants, understand their interests, get their questions/feedback on the Group, and potentially mentor them on how to contribute;
-4. welcome observers, understand their interests in the Group, and get them interested in joining the Group and helping;
+1. look at related work (e.g in Community Groups) and what's new out there within the scope or related to the Group's mission;
+1. welcome new participants, understand their interests, get their questions/feedback on the Group, and potentially mentor them on how to contribute;
+1. welcome observers, understand their interests in the Group, and get them interested in joining the Group and helping;
 
 On the deliverables:
 
@@ -56,11 +55,11 @@ On the deliverables:
 
 ## TPAC Joint Meetings {#joint}
 
-- TPAC is an opportunity for joint meetings between Groups:
+TPAC is an opportunity for joint meetings between Groups:
   
-  1. issues (blocking or otherwise) that you'd be able to advance if you can schedule a joint meeting with another Group, or with representatives from that Group
-  2. horizontal issues raised during wide reviews that have been queued
-  3. requests sent to other Groups that did not progress in there
+1. issues (blocking or otherwise) that you'd be able to advance if you can schedule a joint meeting with another Group, or with representatives from that Group
+1. horizontal issues raised during wide reviews that have been queued
+1. requests sent to other Groups that did not progress in there
 
 ## TPAC Breakouts {#breakout}
 
