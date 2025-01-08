@@ -52,12 +52,11 @@ Here are tools that can prove to be useful when developing your specification.
 - The [Technical Reports shopping list](https://www.w3.org/2000/06/webdata/xslt?xslfile=http%3A%2F%2Fwww.w3.org%2F2005%2F06%2Ftr-shopping.xsl&xmlfile=http%3A%2F%2Fwww.w3.org%2F2002%2F01%2Ftr-automation%2Ftr.rdf) and the [Bibliography Extractor](https://www.w3.org/2002/01/tr-automation/tr-biblio-ui) help building bibliographies based on other W3C Technical Reports; there is a [similar mechansim](https://lists.w3.org/Archives/Public/spec-prod/2003OctDec/0002.html) for XMLSpec
 - The [TR references checker](https://www.w3.org/2004/07/references-checker-ui) may help maintain your references list up to date. See also the [IETF references checker](https://www.w3.org/2007/05/ietf-references-checker).
 - The [W3C Glossary](https://www.w3.org/2003/glossary/) is a repository of all the terms defined in W3C specifications (and more); a good source to find which terms have already been defined and where
-- The [on-line Spell Checker](https://www.w3.org/2002/01/spellchecker) helps spot misspellings and typos; the [W3C on-line Stylistic Checker](https://www.w3.org/2002/08/diction) helps find the most usual errors identified by the [W3C Manual of Style](../manual-of-style/)
-- [different tools](https://esw.w3.org/topic/HtmlDiff) are available to produce a `diff` between 2 HTML versions of a document; W3C offers an [on-line HTMLDiff service](https://www.w3.org/2007/10/htmldiff)
+- The [on-line Spell Checker](https://www.w3.org/2002/01/spellchecker) helps spot misspellings and typos
+- [different tools](https://www.w3.org/wiki/HtmlDiff) are available to produce a `diff` between 2 HTML versions of a document; W3C offers an [on-line HTMLDiff service](https://services.w3.org/htmldiff)
 - The [MarkUp Validator](https://validator.w3.org/) can help you assess whether your documents are valid HTML, MathML or SVG.
 - The [CSS Validator](https://jigsaw.w3.org/css-validator/) tells you if your use of CSS is correct.
 - The [Link Checker](https://validator.w3.org/checklink) catches all the broken links that may have popped up in your document.
-- The [Namespace checker](https://www.w3.org/2003/09/nschecker) finds potential namespaces URIs in the documents, and makes a few checks on them
 - [HTML Tidy](https://www.html-tidy.org/), originally by Dave Raggett and now maintained at SourceForge.net, is a lint that cleans up but does not validate HTML and XHTML. With indent off, Tidy can sometimes shave 10% or more off file size.
 
 Most of these tools can be quickly accessed using the so called  **[`,tools`](./,tools)** interface: appending **`,keyword`** to a www.w3.org URI triggers a certain tool on this URI; for instance, appending **[`,validate`](,validate)** to this page's URI will send it to the HTML validator.
