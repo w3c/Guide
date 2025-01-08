@@ -85,15 +85,15 @@ If resolution is not possible in the allocated time frame, the assignee must ref
   - The assignee should indicate an explicit team contact (which can be the assignee) for comments on the draft document.
 - The W3C Council determines who will rule on this objection and who will chair the Council.
   
-  - See [Council Participation, Dismissal, and Renunciation](https://www.w3.org//policies/process/#council-participation) and [Council Chairing](https://www.w3.org//policies/process/#council-chairing).
+  - See [Council Participation, Dismissal, and Renunciation](https://www.w3.org/policies/process/#council-participation) and [Council Chairing](https://www.w3.org/policies/process/#council-chairing).
   - Every person serving on the W3C Council is expected to be sufficiently knowledgeable that they feel comfortable with the decision of the W3C Council. The breadth of the W3C Council membership, and therefore the participation of each of its members, is key to the Council’s ability to provide an appropriate balance of viewpoints.
-- In extraordinary circumstances, the W3C Council may vote to [delegate](https://www.w3.org//policies/process/#council-delegation) or [short-circuit](https://www.w3.org//policies/process/#council-short-circuit) its decision.
-- The W3C Council [deliberates and reaches a decision](https://www.w3.org//policies/process/#council-deliberations) to sustain or overrule the original decision.
+- In extraordinary circumstances, the W3C Council may vote to [delegate](https://www.w3.org/policies/process/#council-delegation) or [short-circuit](https://www.w3.org/policies/process/#council-short-circuit) its decision.
+- The W3C Council [deliberates and reaches a decision](https://www.w3.org/policies/process/#council-deliberations) to sustain or overrule the original decision.
   
   - If the W3C Council members deem that the written summaries are sufficient, they are not required to discuss with participants further, although they may do so if they wish. They may consult with deciders and objectors if they wish. See thoroughness and fairness below.
   - Once consultations are completed, the Chair of the W3C Council assesses the consensus of the Council, or if consensus cannot be found, calls for a vote of the W3C Council to sustain or overrule the Formal Objection.
   - If there is disagreement within the Council about the meaning of those sections of the Process that govern the Council itself, in a way that interferes with its ability to discuss the substance of the case, the Chair should try to resolve this by consensus, and should seek advice from the Team contact on how to interpret the Process. If consensus cannot be found, the chair should make a determination, possibly through a vote, to allow the deliberations to move on. Any such point of procedural contention should be covered in the Council Report.
-  - The W3C Council [publishes its decision and its rationale](https://www.w3.org//policies/process/#council-decision).
+  - The W3C Council [publishes its decision and its rationale](https://www.w3.org/policies/process/#council-decision).
   - Whether the decision is to sustain or overrule, the W3C Council may include additional guidance for any of the participants involved.
   - If the objection is sustained, the relevant group (i.e., Working Group, or Team developing a charter) may resume work to develop a different proposal for their document.
 
