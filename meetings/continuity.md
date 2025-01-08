@@ -71,9 +71,8 @@ Meeting duration should be limited to 4 hours per day; consider two 90-minute se
 distribute (post to the web) presentation materials in advance of the
 meeting to avoid participants using extra download bandwidth during
 the meeting. Presentation materials must be available in accessible
-formats that meet [WCAG 2.1
-AA](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa). If
-it is not possible to provide a structured document within a
+formats that meet [WCAG 2.2 AA](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&levels=aaa).
+If it is not possible to provide a structured document within a
 videoconference presentation window, provide an accessible source file
 on the web.
 {:#materials}
@@ -83,7 +82,7 @@ the sense of being together.  Groups may prefer to use
 teleconferencing services that allow each participant to choose not to
 receive video streams if their network becomes saturated. However, any
 discussion content that is shared via video, including screen sharing,
-must be made [accessible](https://www.w3.org/WAI/WCAG21/quickref/) by
+must be made [accessible](https://www.w3.org/WAI/WCAG22/quickref/) by
 some means to those who cannot -- or choose not to -- use the video
 feed. As always, do not make video recordings or screen captures
 without the [explicit consent of the
@@ -106,7 +105,7 @@ videoconferencing platform and individuals' assistive technologies?
 Ensure that virtual meetings are accessible for all participants using
 resources including [making audio and video media
 accessible](https://www.w3.org/WAI/media/av/) and [how to meet WCAG 2,
-a quick reference](https://www.w3.org/WAI/WCAG21/quickref/).
+a quick reference](https://www.w3.org/WAI/WCAG22/quickref/).
 {:#accessibility}
 
 **Testing** - Participants should be offered testing opportunities to
