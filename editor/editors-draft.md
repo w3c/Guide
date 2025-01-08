@@ -21,17 +21,14 @@ The guidelines below are intended to reduce confusion between group-internal dra
 ## Guidelines for Group-Internal Drafts {#guidelines}
 
 1. Use this style sheet: ***`https://www.w3.org/StyleSheets/TR/2021/W3C-ED.css`***
-2. Use an appropriate label for the document, as in:
-   
+1. Use an appropriate label for the document, as in: 
+   ```html
+   <h1>Architecture of the World Wide Web, Volume One</h1>
+   <h2>Editor's Draft 15 December 2004</h2>
    ```
-      <h1>Architecture of the World Wide Web, 
-             Volume One</h1>
-      <h2>Editor's Draft 15 December 2004</h2>
-   ```
-3. When the document is "Member-confidential", indicate this in an obvious place at the top of the document. Please also include a reminder in the status section.
-4. Set expectations about the stability and level of confidentiality of the document in the status section, for example:
-   
-   > We welcome feedback on this informal collection of resources, which is subject to change without notice.
+1. When the document is "Member-confidential", indicate this in an obvious place at the top of the document. Please also include a reminder in the status section.
+1. Set expectations about the stability and level of confidentiality of the document in the status section, for example:
+  > We welcome feedback on this informal collection of resources, which is subject to change without notice.
 
 ## Frequently Asked Questions (FAQs) {#faq}
 
