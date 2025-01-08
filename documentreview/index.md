@@ -35,7 +35,7 @@ You should then inform, and request reviews from:
 * the groups listed in the WG's charter, especially those who manage
 dependencies.
 * the groups jointly responsible for a particular document (if any).
-* the [horizontal groups](../process/horizontal-groups.md) using the [method described below](#how_to_get_horizontal_review). *Note that sending an email to the public-review-announce list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described below*
+* the [horizontal groups](../process/horizontal-groups.md) using the [method described below](#how-to-get-horizontal-review). *Note that sending an email to the public-review-announce list alone is not sufficient to trigger horizontal reviews. You will still need to formally request review from the Horizontal Groups, as described below*
 * the general public,  including Web developers, technology providers and implementers, application developers, etc. Consider:
   * sending a dedicated announcement to [public-review-announce@w3.org](mailto:public-review-announce@w3.org) if needed (in case the default notice sent to that list is not enough).
   * using blog posts, social media, or other ways of alerting the public to your document and requesting feedback.
@@ -74,11 +74,11 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
 <dt>Accessibility</dt>
 <dd>
   <span class="step">Work through <a rel="nofollow" class="external text" href="https://w3c.github.io/apa/fast/checklist.html">this questionnaire</a></span> then
-  <span class="step"><a rel="nofollow" class="external text" href="https://github.com/w3c/a11y-request/issues/new/choose">request a review via GitHub</a> from <a rel="nofollow" class="external text" href="https://www.w3.org/WAI/APA/">APA</a></span>
+  <span class="step"><a rel="nofollow" class="external text" href="https://github.com/w3c/a11y-request/issues/new/choose">request a review via GitHub</a> from <a rel="nofollow" class="external text" href="https://www.w3.org/WAI/about/groups/apawg/">APA</a></span>
 <details>
 <summary>Show useful links</summary>
 <ul><li> groups
-<ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/WAI/APA/">Accessible Platform Architectures Working Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/public-apa/">public-apa</a>; <a rel="nofollow" class="external text" href="https://www.w3.org/WAI/APA/wiki/Spec_Review">APA Spec Review tracking</a></li>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/WAI/about/groups/apawg/">Accessible Platform Architectures Working Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/public-apa/">public-apa</a>; <a rel="nofollow" class="external text" href="https://www.w3.org/WAI/APA/wiki/Spec_Review">APA Spec Review tracking</a></li>
 <li> <a rel="nofollow" class="external text" href="https://www.w3.org/WAI/about/groups/waiig/">Web Accessibility Interest Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/w3c-wai-ig/">w3c-wai-ig</a></li></ul></li>
 <li> links
 <ul><li> <a rel="nofollow" class="external text" href="https://w3c.github.io/apa/fast/checklist.html">Framework for Accessibility in the Specification of Technologies Checklist; APA WG</a></li>
@@ -110,7 +110,7 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
 <details>
 <summary>Show useful links</summary>
 <ul><li>groups
-<ul><li><a rel="nofollow" class="external text" href="https://www.w3.org/International/">Internationalization Working Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/www-international/">www-international</a> Reviews by Internationalization generally also involve the <a rel="nofollow" class="external text" href="https://www.w3.org/International/ig/">Interest Group</a>, but are arranged through the WG.</li></ul></li>
+<ul><li><a rel="nofollow" class="external text" href="https://www.w3.org/International/">Internationalization Working Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/www-international/">www-international</a> Reviews by Internationalization generally also involve the <a rel="nofollow" class="external text" href="https://www.w3.org/International/i18n-activity/i18n-ig/">Interest Group</a>, but are arranged through the WG.</li></ul></li>
 <li>links
 <ul><li><a rel="nofollow" class="external text" href="https://www.w3.org/International/review-request">Request a review</a></li>
 <li><a rel="nofollow" class="external text" href="https://www.w3.org/International/i18n-drafts/techniques/shortchecklist">Self-Review Questionnaire</a>.</li>
@@ -123,12 +123,12 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
 <dt>Privacy</dt>
 <dd>
   <span class="step">Write a "Privacy Considerations" section for your document, taking into account the <a rel="nofollow" class="external text" href="https://www.w3.org/TR/security-privacy-questionnaire/">Self-Review Questionnaire: Security and Privacy</a>, <a rel="nofollow" class="external text" href="https://www.w3.org/TR/fingerprinting-guidance/">Mitigating Browser Fingerprinting in Web Specifications</a>, and <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6973.html">RFC6973</a></span> then
-  <span class="step"><a rel="nofollow" class="external text" href="https://github.com/w3cping/privacy-request/issues/new/choose">request a review via GitHub</a> from the <a rel="nofollow" class="external text" href="https://www.w3.org/Privacy/">Privacy Interest Group</a></span>.
+  <span class="step"><a rel="nofollow" class="external text" href="https://github.com/w3cping/privacy-request/issues/new/choose">request a review via GitHub</a> from the <a rel="nofollow" class="external text" href="https://www.w3.org/groups/ig/privacy/">Privacy Interest Group</a></span>.
 <details>
 <summary>Show useful links</summary>
 <ul>
 <li>groups
-<ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/Privacy/">Privacy Interest Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/public-privacy/">public-privacy</a></li></ul></li>
+<ul><li> <a rel="nofollow" class="external text" href="https://www.w3.org/groups/ig/privacy/">Privacy Interest Group</a>; <a rel="nofollow" class="external text" href="https://lists.w3.org/Archives/Public/public-privacy/">public-privacy</a></li></ul></li>
 <li>links
 <ul>
 <li><a rel="nofollow" class="external text" href="https://www.w3.org/TR/security-privacy-questionnaire/"><cite>Self-Review Questionnaire: Security and Privacy</cite>, published by the TAG and PING</a></li>
@@ -220,7 +220,7 @@ Is it possible to make too many requests for review?
 
 ## Common mistakes when making a transition request
 
-1. If you make substantive changes, you'll need to do a wide review for those  before you move forward to the [next maturity stage](../documentreview/#who_to_ask_for_review).
+1. If you make substantive changes, you'll need to do a wide review for those  before you move forward to the [next maturity stage](../documentreview/#who-to-ask-for-wide-review).
 1. Never ever exclude some [horizontal groups](../process/horizontal-groups.md) from your review requests because you concluded it was irrelevant for them or they haven't responded to your last request.
    
    Let them make the decision that something is irrelevant to their field of expertise instead. You're welcome to time out if you don't hear back, and request to move forward anyway.
@@ -228,7 +228,7 @@ Is it possible to make too many requests for review?
    It's better for a Group to miss the fact that you fixed an issue in your editor's draft than the Team missing the fact you made an unreviewed substantive change in your editor's draft.
 1. Don't flag your issues with one of those <span class="tag">\*-needs-resolution</span> labels, and don't remove one which has been applied (you *can* close the issue though, if it is resolved).
 
-   Those are intended solely to be used by [horizontal groups](../process/horizontal-groups.md) to [bring special attention](../documentreview/#What_happens_to_unresolved_issues_marked_needs-resolution).
+   Those are intended solely to be used by [horizontal groups](../process/horizontal-groups.md) to [bring special attention](../documentreview/#what-happens-to-unresolved-issues-marked--needs-resolution).
 1. Don't assume that the horizontal group will be able to schedule and complete a review within 2 weeks so that you can proceed to CR.
    
    They may not even be able to find someone with availability to do the review in that time, and then they need a week or two to discuss their response after the review, and then they'll send you comments that may require you to make substantive changes.
