@@ -15,11 +15,11 @@ In consideration of the real-time value to meeting participants of automated cap
 
 ## Zoom-specific instructions
 
-In the Host’s account, the ‘Save Captions’ setting must be turned off. This setting is in the “In Meeting (Advanced)” section of the Settings &gt; Meeting tab. See the [Zoom Help Center article](https://support.zoom.us/hc/en-us/articles/360034675592-Changing-your-meeting-recording-and-telephone-settings).
+In the Host’s account, the ‘Save Captions’ setting must be turned off. This setting is in the “In Meeting (Advanced)” section of the Settings &gt; Meeting tab. See the [Zoom Help Center article](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0061300).
 
 ## Webex-specific instructions
 
-The Webex Host should make sure Webex Assistant is turned off at the start of a meeting. See [Webex Assistant for Meetings Considerations](https://help.webex.com/en-us/q1y8ig/Webex-Assistant-for-Meetings-Considerations).
+The Webex Host should make sure Webex Assistant is turned off at the start of a meeting. See [Webex Assistant for Meetings Considerations](https://help.webex.com/en-us/article/q1y8ig/Webex-Assistant-for-meetings-considerations).
 
 ## Changelog {#status}
 
