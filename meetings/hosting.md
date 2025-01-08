@@ -28,7 +28,7 @@ Note from Susan: Communicating w/ potential hosts may need to be a separate Team
 
 Please consult the link, for further guidance.
 
-Hi-speed Wireless Internet for 100% of estimated meeting attendance. Consult the [Meeting Network Requirements](/2006/03/hostnetworkrequirements.html) document for further guidance.
+Hi-speed Wireless Internet for 100% of estimated meeting attendance. Consult the [Meeting Network Requirements](https://www.w3.org/2006/03/hostnetworkrequirements.html) document for further guidance.
 
 #### AC/TP Meetings
 
@@ -38,7 +38,7 @@ In order to accomplish that goal:
 
 1. The Meeting Planner in charge of selecting the venue shall request systems support from the Systeam leader PRIOR to the selection of the venue.
 2. The Systeam leader will assign a Project Leader based on locality and qualifications
-3. The Project Leader and Meeting Planner will prepare a requirements statement, and include the then-current version of the standard [Meeting Network Requirements](/2006/03/hostnetworkrequirements.html) document and present same to the venue's service provider (whether internal or external).
+3. The Project Leader and Meeting Planner will prepare a requirements statement, and include the then-current version of the standard [Meeting Network Requirements](https://www.w3.org/2006/03/hostnetworkrequirements.html) document and present same to the venue's service provider (whether internal or external).
 4. The Project Leader and Meeting Planner **SHOULD** meet with the network provider in order to evaluate the vendor's capability to meet the requirements.
 5. The Project Leader will work with the Meeting Planner to select a vendor that can most successfully meet the requirements. Should a technically unacceptable vendor be chosen nonetheless, the Systems Team cannot be expected to compensate or be held accountable for the result.
 6. Assuming an acceptable vendor is chosen, the Meeting Planner will facilitate technical contact between the Project Leader and network vendor, applying pressure on the venue as needed to ensure adequate continuing communication.
