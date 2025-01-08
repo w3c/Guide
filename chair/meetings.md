@@ -13,7 +13,7 @@ See also the [technical plenary history](https://www.w3.org/events/tpac/)
 : [1st Working Group Chairs Meeting](https://www.w3.org/Member/9711/wg-chairs.html)
 - [Press and Communications](https://www.w3.org/Member/Talks/971120Press) -- Sally's presentation
 - [Organizing a W3C Meeting](../meetings/hosting.md) -- Susan's presentation
-- [Tim Berners-Lee's Perspective](/Member/9711/wg-chairs-intro.html)
+- [Tim Berners-Lee's Perspective](https://www.w3.org/Member/9711/wg-chairs-intro.html)
 - [The Web: Sharing, Group Memory, and Communication](https://www.w3.org/OldGuide/WebSharing.html) -- Dan's presentation
 
 13 Jul 1998
