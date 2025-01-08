@@ -116,7 +116,7 @@ The meaning of "Long enough" depends on how many changes there are, how clearly 
 <li><a rel="nofollow" class="external text" href="https://www.w3.org/International/i18n-drafts/techniques/shortchecklist">Self-Review Questionnaire</a>.</li>
 <li><a rel="nofollow" class="external text" href="https://www.w3.org/TR/international-specs/">Internationalization Best Practices for Spec Developers</a></li>
 <li><a rel="nofollow" class="external text" href="https://www.w3.org/International/reviews/projReview.html">A brief overview of the review process</a> (with pictures)</li>
-<li>The <a rel="nofollow" class="external text" href="https://github.com/w3c/i18n-request/projects/1">Review Radar</a> shows the status of open reviews.</li></ul></li></ul>
+<li>The <a rel="nofollow" class="external text" href="https://github.com/orgs/w3c/projects/91">I18N Horizontal Review Radar</a> shows the status of open reviews.</li></ul></li></ul>
 </details>
 </dd>
 
