@@ -3,340 +3,333 @@ title: Organize a Technical Report Transition (2023 Process)
 toc: false
 ---
 
+<h2 id="sotd">About This Document</h2>
 
-	<h2 id="sotd">About This Document</h2>
+<p>This resource assists in finding the internal W3C Technical Report publication processes.</p>
 
-	<p>This resource assists in finding the internal W3C Technical Report
-		publication processes.</p>
-
-
-        <h2 id="snext">Next Steps</h2>
-        <div class="field">
-		<label for="shortname" id="shortnameLabel">
-			<span class="field-label">Shortname</span>
-		</label>
-		<div class="field-hint" id="hint-shortname">You may use a TR shortname to find out your next step</div>
-		<input type="text" id="shortname" name="shortname"
-                minlength="3" maxlength="40" pattern="[-a-zA-Z0-9]{3,40}" list="w3ctr">
+<h2 id="snext">Next Steps</h2>
+<div class="field">
+	<label for="shortname" id="shortnameLabel">
+		<span class="field-label">Shortname</span>
+	</label>
+	<div class="field-hint" id="hint-shortname">You may use a TR shortname to find out your next step</div>
+	<input type="text" id="shortname" name="shortname"
+            minlength="3" maxlength="40" pattern="[-a-zA-Z0-9]{3,40}" list="w3ctr">
 
 	<datalist id='w3ctr'>
 	</datalist>
-	</div>
+</div>
 
-	<div aria-live="assertive" aria-atomic="true" id='next'>
+<div aria-live="assertive" aria-atomic="true" id='next'>
+	<p>Your possible next steps are:</p>
+	<ul id='step_list'>
+	</ul>
 
-		<p>Your possible next steps are:</p>
-		<ul id='step_list'>
+	<div id='spec'>
+		<p>We found the following information:</p>
+		<ul>
+			<li>Title: <span id='spec_title'></span></li>
+			<li>Date: <span id='spec_date'></span></li>
+			<li>Shortname: <span id='spec_shortname'></span></li>
+			<li>Shortlink: <span id='spec_shortlink'></span></li>
+			<li>URL: <span id='spec_uri'></span></li>
+			<li>Status: <span id='spec_status'></span></li>
+			<li>Published by: <span id='spec_deliverers'></span></li>
 		</ul>
-
-		<div id='spec'>
-			<p>We found the following information:</p>
-			<ul>
-				<li>Title: <span id='spec_title'></span></li>
-				<li>Date: <span id='spec_date'></span></li>
-				<li>Shortname: <span id='spec_shortname'></span></li>
-				<li>Shortlink: <span id='spec_shortlink'></span></li>
-				<li>URL: <span id='spec_uri'></span></li>
-				<li>Status: <span id='spec_status'></span></li>
-				<li>Published by: <span id='spec_deliverers'></span></li>
-			</ul>
-		</div>
-
 	</div>
+</div>
 
-	<h2 id='resources'>Other resources</h2>
-        <p><ul>
+<h2 id='resources'>Other resources</h2>
+<p><ul>
 	<li><a href=".">Organize a Technical Report Transition</a></li>
 	<li><a href="https://w3c.github.io/spec-releases/milestones/">Milestones planning</a></li>
 	<li><a href="https://w3c.github.io/spec-releases/timeline.svg">174 days to W3C Recommendation</a></li>
-	<li><a href="https://www.w3.org/2023/Process-20231103/#Reports">Recommendation
-        Track Process</a></li>
-       </ul></p>
+	<li><a href="https://www.w3.org/policies/process/#Reports">Recommendation Track Process</a></li>
+</ul></p>
 
-	<style>
-		div.field {
-			margin-bottom: 2em;
+<style>
+	div.field {
+		margin-bottom: 2em;
+	}
+</style>
+
+<script type="module">
+import { fetchW3C } from 'https://w3c.github.io/gargantua/fetch-utils.js';
+
+function getLatestSpec(shortname) {
+	return fetchW3C("https://api.w3.org/specifications/" + shortname).then(spec => {
+		let shortname = spec.shortname;
+		return spec["latest-version"].then(latest => {
+			latest.shortname = shortname;
+			return latest;
+		});
+	});
+}
+
+function findSpecOptions(shortname) {
+	return fetchW3C("https://api.w3.org/specifications-by-shortname/" + shortname)
+		.then(data => {
+			return (data.length > 0) ?
+				data.map(s => s.shortname)
+				: [];
+		});
+}
+
+// For debugging
+var trace = function () { };
+if (window.location.href.includes("file:") || true) {
+	trace = function trace(msg) {
+		console.log(msg);
+	};
+}
+
+// each one of those config parameters are matching the ones in the option/input elements
+var config = {
+};
+
+// State and browser history handling
+// browser history status push
+function onpushstate() {
+	var query = "";
+	// this query setup is more cumbersome but it favors clean/reduced url query
+	if (config.shortname !== undefined) {
+		query = "?shortname=" + config.shortname;
+	}
+	window.history.pushState(config, config.shortname, query);
+	trace("pushed " + window.location.href);
+}
+
+// browser back and forward buttons
+window.onpopstate = function (e) {
+	config = e.state;
+	adjustForms();
+	trace("popped " + window.location.href);
+}
+
+function findShortname(s) {
+	let w3ctr = document.getElementById("w3ctr");
+	if (s.length > 2) {
+		while (w3ctr.firstChild) {
+			w3ctr.removeChild(w3ctr.firstChild);
 		}
-	</style>
-
-        <script type="module">
-		import { fetchW3C } from 'https://w3c.github.io/gargantua/fetch-utils.js';
-
-		function getLatestSpec(shortname) {
-			return fetchW3C("https://api.w3.org/specifications/" + shortname).then(spec => {
-				let shortname = spec.shortname;
-				return spec["latest-version"].then(latest => {
-					latest.shortname = shortname;
-					return latest;
-				});
+		findSpecOptions(s).then(options => {
+			// dynamic autocompletion
+			options.forEach(option => {
+				let elt = document.createElement('option');
+				elt.value = option;
+				w3ctr.appendChild(elt);
 			});
-		}
-
-		function findSpecOptions(shortname) {
-			return fetchW3C("https://api.w3.org/specifications-by-shortname/" + shortname)
-				.then(data => {
-					return (data.length > 0) ?
-						data.map(s => s.shortname)
-						: [];
-				});
-		}
-
-		// For debugging
-		var trace = function () { };
-		if (window.location.href.includes("file:") || true) {
-			trace = function trace(msg) {
-				console.log(msg);
-			};
-		}
-		// each one of those config parameters are matching the ones in the option/input elements
-		var config = {
-		};
-
-		// State and browser history handling
-		// browser history status push
-		function onpushstate() {
-			var query = "";
-			// this query setup is more cumbersome but it favors clean/reduced url query
-			if (config.shortname !== undefined) {
-				query = "?shortname=" + config.shortname;
-			}
-			window.history.pushState(config, config.shortname, query);
-			trace("pushed " + window.location.href);
-		}
-		// browser back and forward buttons
-		window.onpopstate = function (e) {
-			config = e.state;
-			adjustForms();
-			trace("popped " + window.location.href);
-		}
-
-		function findShortname(s) {
-			let w3ctr = document.getElementById("w3ctr");
-			if (s.length > 2) {
-				while (w3ctr.firstChild) {
-					w3ctr.removeChild(w3ctr.firstChild);
-				}
-				findSpecOptions(s).then(options => {
-					// dynamic autocompletion
-					options.forEach(option => {
-						let elt = document.createElement('option');
-						elt.value = option;
-						w3ctr.appendChild(elt);
+			// display a spec if we find one
+			getLatestSpec(s)
+				.then(spec => {
+					return spec.deliverers.then(deliverers => {
+						spec.isGroupClosed = deliverers.reduce((a, c) => a && c["is_closed"], true);
+						return spec;
 					});
-					// display a spec if we find one
-					getLatestSpec(s)
-						.then(spec => {
-							return spec.deliverers.then(deliverers => {
-								spec.isGroupClosed = deliverers.reduce((a, c) => a && c["is_closed"], true);
-								return spec;
-							});
-						}).then(spec => {
-							config.shortname = s;
-							updateSpec(spec);
-							onpushstate();
-							trace(spec);
-						}).catch(err => {
-							// console.error(err);
-							updateSpec();
-						});
+				}).then(spec => {
+					config.shortname = s;
+					updateSpec(spec);
+					onpushstate();
+					trace(spec);
+				}).catch(err => {
+					// console.error(err);
+					updateSpec();
 				});
+		});
+	}
+}
+
+let BASE = "https://www.w3.org/guide/transitions/?";
+let INPLACE = "<li><a href='https://www.w3.org/2003/01/republishing/'>In-place modification of W3C Technical Reports</a></li>";
+function listItem(text, query) {
+	return "<li><a href='" + BASE + query + "'>" + text + "</a></li>";
+}
+
+function nextSteps(spec) {
+	let base = "https://www.w3.org/guide/transitions/?";
+	let next = document.getElementById("next");
+	let list = document.getElementById("step_list");
+
+	if (spec.isGroupClosed) {
+		if (spec.status === "Recommendation") {
+			list.innerHTML = INPLACE + listItem("Publish an Amended Recommendation with only editorial changes", "profile=REC&rec=editorial")
+				+ listItem("Publish a Candidate Recommendation with substantive changes (but no new features)", "profile=CR&cr=rec-amended")
+				+ listItem("Propose to obsolete or supersede the Recommendation", "profile=PR-OBSL");
+		} else if (spec.status === "Group Note") {
+			list.innerHTML = INPLACE + listItem("contact webreq@w3.org", "profile=WG-NOTE");
+		} else if (spec.status === "Retired") {
+			list.innerHTML = listItem("Propose to restore the Recommendation", "");
+		} else {
+			list.innerHTML = listItem("Publish as Working Group Note (oops, this should have been done already)", "profile=WG-NOTE");
+		}
+	} else if (spec.status === "Working Draft" || spec.status === "First Public Working Draft") { // !isGroupClosed(spec)
+		let WD = "";
+		if (!spec["_links"]["predecessor-version"]) {
+			function formatNumber(n) {
+				return (n < 10) ? "0" + n : n;
 			}
+			let today = new Date();
+			let sToday = today.getUTCFullYear() + "-" + formatNumber(today.getUTCMonth()) + "-" + formatNumber(today.getUTCDate());
+			if (sToday === spec.date) WD = INPLACE; // same day only
 		}
+		list.innerHTML = WD + listItem("Update the Working Draft", "profile=WD")
+			+ listItem("Advance to Candidate Recommendation", "profile=CR&cr=new")
+			+ listItem("Publish as a Discontinued Draft", "profile=DISC");
+	} else if (spec.status === "Candidate Recommendation") {
+		list.innerHTML = listItem("Update the Candidate Recommendation Draft", "profile=CR&cr=draft")
+			+ listItem("Update as a Candidate Recommendation Snapshot", "profile=CR&cr=snapshot")
+			+ listItem("Advance to Proposed Recommendation", "profile=PR")
+			+ listItem("Return to Working Draft", "profile=WD&returning=true")
+			+ listItem("Publish as a Discontinued Draft", "profile=DISC");
+	} else if (spec.status === "Candidate Recommendation Draft" || spec.status === "Candidate Recommendation Snapshot") {
+		list.innerHTML = listItem("Update the Candidate Recommendation Draft", "profile=CR&cr=draft")
+			+ listItem("Update as a Candidate Recommendation Snapshot", "profile=CR&cr=snapshot")
+			+ listItem("Advance to Proposed Recommendation", "profile=PR")
+			+ listItem("Return to Working Draft", "profile=WD&returning=true")
+			+ listItem("Publish as a Discontinued Draft", "profile=DISC");
+	} else if (spec.status === "Proposed Recommendation") {
+		list.innerHTML = listItem("Advance to Recommendation", "profile=REC&rec=new")
+			+ listItem("Return to Working Draft", "profile=WD&returning=true")
+			+ listItem("Publish as a Discontinued Draft", "profile=DISC");
+	} else if (spec.status === "Recommendation") {
+		list.innerHTML = INPLACE + listItem("Update the Recommendation with only editorial changes", "profile=REC&rec=editorial")
+			+ listItem("Publish as a Recommendation with candidate corrections (substantive changes)", "profile=REC&cr=candidate-corrections")
+			+ listItem("Publish as a Recommendation with candidate additions (new features)", "profile=REC&cr=candidate-additions")
+			+ listItem("Incorporate candidate corrections (substantive changes)", "profile=REC&cr=substantive")
+			+ listItem("Incorporate candidate additions (new features)", "profile=REC&cr=features")
+			+ listItem("Publish as a First Public Working Draft with new features (if your current Recommendation doesn't allow those)", "profile=FPWD")
+			+ listItem("Propose to rescind the Recommendation", "profile=PR-RSCND")
+			+ listItem("Propose to obsolete or supersede the Recommendation", "profile=PR-OBSL");
+	} else if (spec.status === "Draft Registry") {
+		list.innerHTML = listItem("Update the Draft Registry", "profile=DRAFT-REGISTRY")
+		 + listItem("Advance to Candidate Registry", "profile=CRY&cr=new")
+		 + listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
+	} else if (spec.status === "Candidate Registry") {
+		list.innerHTML = listItem("Update the Candidate Registry Draft", "profile=CRY&cr=draft")
+			+ listItem("Update as a Candidate Registry Snapshot", "profile=CRY&cr=snapshot")
+			+ listItem("Advance to Registry", "profile=RY&rec=new")
+			+ listItem("Return to Draft Registry", "profile=DRAFT-REGISTRY&returning=true")
+			+ listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
+	} else if (spec.status === "Candidate Registry Draft" || spec.status === "Candidate Registry Snapshot") {
+		list.innerHTML = listItem("Update the Candidate Registry Draft", "profile=CRY&cr=draft")
+			+ listItem("Update as a Candidate Registry Snapshot", "profile=CRY&cr=snapshot")
+			+ listItem("Advance to Registry", "profile=RY&rec=new")
+			+ listItem("Return to Draft Registry", "profile=DRAFT-REGISTRY&returning=true")
+			+ listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
+	} else if (spec.status === "Proposed Registry") {
+		list.innerHTML = listItem("Advance to Registry", "profile=RY&rec=new")
+			+ listItem("Return to Draft Registry", "profile=DRAFT-REGISTRY&returning=true")
+			+ listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
+	} else if (spec.status === "Registry") {
+		list.innerHTML = INPLACE + listItem("Update the Registry", "profile=RY&rec=update")
+			+ listItem("Propose to obsolete or supersede the Registry", "profile=PRY-OBSL");
+	} else if (spec.status === "Draft Note") {
+		list.innerHTML = listItem("Update the Draft Note", "profile=DRAFT-NOTE")
+			+ listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
+	} else if (spec.status === "Group Note" || spec.status === "Note") {
+		list.innerHTML = INPLACE
+			+ listItem("Return to Draft Note", "profile=DRAFT-NOTE")
+			+ listItem("Advance to W3C Statement", "profile=STMT")
+			+ listItem("Update the Note (which you may mark as retired)", "profile=WG-NOTE");
+	} else if (spec.status === "Retired") {
+		list.innerHTML = listItem("Propose to restore the Recommendation", "");
+	} else {
+		list.innerHTML = listItem("... Not sure yet. See the transition requirements", "");
+	}
+	next.style.display = "block";
+}
 
-		let BASE = "https://www.w3.org/Guide/transitions?";
-		let INPLACE = "<li><a href='https://www.w3.org/2003/01/republishing/'>In-place modification of W3C Technical Reports</a></li>";
-		function listItem(text, query) {
-			return "<li><a href='" + BASE + query + "'>" + text + "</a></li>";
-		}
+function defaultStep() {
+	let base = "https://www.w3.org/guide/transitions/?";
+	let next = document.getElementById("next");
+	let list = document.getElementById("step_list");
+	list.innerHTML = listItem("Publish as a First Public Working Draft", "profile=FPWD")
+		+ listItem("Publish as a Working Group Note", "profile=WG-NOTE");
+	next.style.display = "block";
+}
 
-		function nextSteps(spec) {
-			let base = "https://www.w3.org/Guide/transitions?";
-			let next = document.getElementById("next");
-			let list = document.getElementById("step_list");
-
-			if (spec.isGroupClosed) {
-				if (spec.status === "Recommendation") {
-					list.innerHTML = INPLACE + listItem("Publish an Amended Recommendation with only editorial changes", "profile=REC&rec=editorial")
-						+ listItem("Publish a Candidate Recommendation with substantive changes (but no new features)", "profile=CR&cr=rec-amended")
-						+ listItem("Propose to obsolete or supersede the Recommendation", "profile=PR-OBSL");
-				} else if (spec.status === "Group Note") {
-					list.innerHTML = INPLACE + listItem("contact webreq@w3.org", "profile=WG-NOTE");
-				} else if (spec.status === "Retired") {
-					list.innerHTML = listItem("Propose to restore the Recommendation", "");
-				} else {
-					list.innerHTML = listItem("Publish as Working Group Note (oops, this should have been done already)", "profile=WG-NOTE");
-				}
-			} else if (spec.status === "Working Draft" || spec.status === "First Public Working Draft") { // !isGroupClosed(spec)
-				let WD = "";
-				if (!spec["_links"]["predecessor-version"]) {
-					function formatNumber(n) {
-						return (n < 10) ? "0" + n : n;
-					}
-					let today = new Date();
-					let sToday = today.getUTCFullYear() + "-" + formatNumber(today.getUTCMonth()) + "-" + formatNumber(today.getUTCDate());
-					if (sToday === spec.date) WD = INPLACE; // same day only
-				}
-				list.innerHTML = WD + listItem("Update the Working Draft", "profile=WD")
-					+ listItem("Advance to Candidate Recommendation", "profile=CR&cr=new")
-					+ listItem("Publish as a Discontinued Draft", "profile=DISC");
-			} else if (spec.status === "Candidate Recommendation") {
-				list.innerHTML = listItem("Update the Candidate Recommendation Draft", "profile=CR&cr=draft")
-					+ listItem("Update as a Candidate Recommendation Snapshot", "profile=CR&cr=snapshot")
-					+ listItem("Advance to Proposed Recommendation", "profile=PR")
-					+ listItem("Return to Working Draft", "profile=WD&returning=true")
-					+ listItem("Publish as a Discontinued Draft", "profile=DISC");
-			} else if (spec.status === "Candidate Recommendation Draft"
-				|| spec.status === "Candidate Recommendation Snapshot") {
-				list.innerHTML = listItem("Update the Candidate Recommendation Draft", "profile=CR&cr=draft")
-					+ listItem("Update as a Candidate Recommendation Snapshot", "profile=CR&cr=snapshot")
-					+ listItem("Advance to Proposed Recommendation", "profile=PR")
-					+ listItem("Return to Working Draft", "profile=WD&returning=true")
-					+ listItem("Publish as a Discontinued Draft", "profile=DISC");
-			} else if (spec.status === "Proposed Recommendation") {
-				list.innerHTML = listItem("Advance to Recommendation", "profile=REC&rec=new")
-					+ listItem("Return to Working Draft", "profile=WD&returning=true")
-					+ listItem("Publish as a Discontinued Draft", "profile=DISC");
-			} else if (spec.status === "Recommendation") {
-				list.innerHTML = INPLACE + listItem("Update the Recommendation with only editorial changes", "profile=REC&rec=editorial")
-					+ listItem("Publish as a Recommendation with candidate corrections (substantive changes)", "profile=REC&cr=candidate-corrections")
-					+ listItem("Publish as a Recommendation with candidate additions (new features)", "profile=REC&cr=candidate-additions")
-					+ listItem("Incorporate candidate corrections (substantive changes)", "profile=REC&cr=substantive")
-					+ listItem("Incorporate candidate additions (new features)", "profile=REC&cr=features")
-					+ listItem("Publish as a First Public Working Draft with new features (if your current Recommendation doesn't allow those)", "profile=FPWD")
-					+ listItem("Propose to rescind the Recommendation", "profile=PR-RSCND")
-					+ listItem("Propose to obsolete or supersede the Recommendation", "profile=PR-OBSL");
-			} else if (spec.status === "Draft Registry") {
-				list.innerHTML = listItem("Update the Draft Registry", "profile=DRAFT-REGISTRY")
-				 + listItem("Advance to Candidate Registry", "profile=CRY&cr=new")
-				 + listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
-			} else if (spec.status === "Candidate Registry") {
-				list.innerHTML = listItem("Update the Candidate Registry Draft", "profile=CRY&cr=draft")
-					+ listItem("Update as a Candidate Registry Snapshot", "profile=CRY&cr=snapshot")
-					+ listItem("Advance to Registry", "profile=RY&rec=new")
-					+ listItem("Return to Draft Registry", "profile=DRAFT-REGISTRY&returning=true")
-					+ listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
-			} else if (spec.status === "Candidate Registry Draft"
-				|| spec.status === "Candidate Registry Snapshot") {
-				list.innerHTML = listItem("Update the Candidate Registry Draft", "profile=CRY&cr=draft")
-					+ listItem("Update as a Candidate Registry Snapshot", "profile=CRY&cr=snapshot")
-					+ listItem("Advance to Registry", "profile=RY&rec=new")
-					+ listItem("Return to Draft Registry", "profile=DRAFT-REGISTRY&returning=true")
-					+ listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
-			} else if (spec.status === "Proposed Registry") {
-				list.innerHTML = listItem("Advance to Registry", "profile=RY&rec=new")
-				+ listItem("Return to Draft Registry", "profile=DRAFT-REGISTRY&returning=true")
-					+ listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
-			} else if (spec.status === "Registry") {
-				list.innerHTML = INPLACE + listItem("Update the Registry", "profile=RY&rec=update")
-					+ listItem("Propose to obsolete or supersede the Registry", "profile=PRY-OBSL");
-			} else if (spec.status === "Draft Note") {
-				list.innerHTML = listItem("Update the Draft Note", "profile=DRAFT-NOTE")
-				 + listItem("Publish as a Note (which you may mark as retired)", "profile=WG-NOTE");
-     		} else if (spec.status === "Group Note"
-			     || spec.status === "Note") {
-				list.innerHTML = INPLACE
-				 + listItem("Return to Draft Note", "profile=DRAFT-NOTE")
-				 + listItem("Advance to W3C Statement", "profile=STMT")
-				 + listItem("Update the Note (which you may mark as retired)", "profile=WG-NOTE");
-			} else if (spec.status === "Retired") {
-				list.innerHTML = listItem("Propose to restore the Recommendation", "");
-			} else {
-				list.innerHTML = listItem("... Not sure yet. See the transition requirements", "");
-			}
-			next.style.display = "block";
-		}
-
-		function defaultStep() {
-			let base = "https://www.w3.org/Guide/transitions?";
-			let next = document.getElementById("next");
-			let list = document.getElementById("step_list");
-			list.innerHTML = listItem("Publish as a First Public Working Draft", "profile=FPWD")
-				+ listItem("Publish as a Working Group Note", "profile=WG-NOTE");
-			next.style.display = "block";
-		}
-
-		function updateSpec(spec) {
-			let div = document.getElementById("spec");
-			if (spec === undefined) {
-				div.style.display = "none";
-				document.getElementById("next").style.display = "none";
-				defaultStep();
-			} else {
-				for (let key in spec) {
-					let elt = document.getElementById("spec_" + key);
-					if (elt !== null) {
-						let obj = spec[key];
-						if (key === "deliverers") {
-							elt.innerHTML = "";
-							spec.deliverers.then(groups => {
-								for (let index = 0; index < groups.length; index++) {
-									let group = groups[index];
-									let a = document.createElement("a");
-									a.href = group._links.homepage.href;
-									a.textContent = group.name;
-									elt.appendChild(a);
-									if (group["is_closed"]) {
-										elt.appendChild(document.createTextNode(" (closed) "));
-									}
-									elt.appendChild(document.createTextNode(", "));
-								}
-							});
-						} else if (obj instanceof Promise) {
-							console.log("[Promise] " + key)
-						} else if ((obj.indexOf("https://") !== -1) || (obj.indexOf("http://") !== -1)) {
-							elt.innerHTML = "<a href='" + obj + "'>" + obj + "</a>";
-						} else {
-							elt.textContent = obj;
-						}
-					}
-				}
-				div.style.display = "block";
-				nextSteps(spec);
-			}
-		}
-
-		function adjustForms() {
-			// adjust the HTML forms according to the config
-			trace("adjustForms for " + JSON.stringify(config));
-			for (let key in config) {
-				let input = null;
-				if (key === "shortname") {
-					input = document.getElementById("shortname");
-					input.value = config.shortname;
-				}
-			}
-		}
-
-		// initialization
-
-		document.getElementById("spec").style.display = "none";
+function updateSpec(spec) {
+	let div = document.getElementById("spec");
+	if (spec === undefined) {
+		div.style.display = "none";
 		document.getElementById("next").style.display = "none";
+		defaultStep();
+	} else {
+		for (let key in spec) {
+			let elt = document.getElementById("spec_" + key);
+			if (elt !== null) {
+				let obj = spec[key];
+				if (key === "deliverers") {
+					elt.innerHTML = "";
+					spec.deliverers.then(groups => {
+						for (let index = 0; index < groups.length; index++) {
+							let group = groups[index];
+							let a = document.createElement("a");
+							a.href = group._links.homepage.href;
+							a.textContent = group.name;
+							elt.appendChild(a);
+							if (group["is_closed"]) {
+								elt.appendChild(document.createTextNode(" (closed) "));
+							}
+							elt.appendChild(document.createTextNode(", "));
+						}
+					});
+				} else if (obj instanceof Promise) {
+					console.log("[Promise] " + key)
+				} else if ((obj.indexOf("https://") !== -1) || (obj.indexOf("http://") !== -1)) {
+					elt.innerHTML = "<a href='" + obj + "'>" + obj + "</a>";
+				} else {
+					elt.textContent = obj;
+				}
+			}
+		}
+		div.style.display = "block";
+		nextSteps(spec);
+	}
+}
 
-		for (const [key, value] of (new URL(location)).searchParams) {
-			let input;
-			if (key === "shortname") {
-				input = document.getElementById("shortname");
-			}
-			if (input !== undefined) {
-				config[key] = value;
-			}
+function adjustForms() {
+	// adjust the HTML forms according to the config
+	trace("adjustForms for " + JSON.stringify(config));
+	for (let key in config) {
+		let input = null;
+		if (key === "shortname") {
+			input = document.getElementById("shortname");
+			input.value = config.shortname;
 		}
-		if (config.shortname !== undefined) {
-			findShortname(config.shortname);
-		}
-		adjustForms();
+	}
+}
 
-		function shortname(e) {
-			let s = e.target.value;
-			if (s.length > 2) {
-				findShortname(s);
-			}
-		}
-		var nodes = document.querySelectorAll("input");
-		for (let i = 0; i < nodes.length; i++) {
-			if (nodes[i].type === "text") {
-				nodes[i].oninput = shortname;
-			}
-		}
-                trace("restored " + window.location.href);
+// initialization
+
+document.getElementById("spec").style.display = "none";
+document.getElementById("next").style.display = "none";
+
+for (const [key, value] of (new URL(location)).searchParams) {
+	let input;
+	if (key === "shortname") {
+		input = document.getElementById("shortname");
+	}
+	if (input !== undefined) {
+		config[key] = value;
+	}
+}
+if (config.shortname !== undefined) {
+	findShortname(config.shortname);
+}
+adjustForms();
+
+function shortname(e) {
+	let s = e.target.value;
+	if (s.length > 2) {
+		findShortname(s);
+	}
+}
+var nodes = document.querySelectorAll("input");
+for (let i = 0; i < nodes.length; i++) {
+	if (nodes[i].type === "text") {
+		nodes[i].oninput = shortname;
+	}
+}
+trace("restored " + window.location.href);
 </script>
