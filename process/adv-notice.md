@@ -66,7 +66,7 @@ The [Process Document requirements](https://www.w3.org/policies/process/#WGChart
 Hence the sentence in the Process Document:
 > Advisory Committee representatives MAY provide feedback on the Advisory Committee discussion list or via other designated channels.
 
-These ideas are further discussed in [Tips for Getting to Recommendation Faster](http://www.w3.org/2002/05/rec-tips),
+These ideas are further discussed in [Tips for Getting to Recommendation Faster](https://www.w3.org/2002/05/rec-tips),
 in particular:
 
 > When a Charter is proposed to the Advisory Committee, garner support from fellow W3C Members on w3c-ac-forum. When there is substantial support for new work among the Members, the Team may create a special mailing list for discussion among Members and Team about Group charter development. Start discussions with proposals, calendars, statements of expected resource commitments, and other such signals.
