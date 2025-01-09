@@ -5,17 +5,17 @@ toc: false
 
 HTML elements are displayed (or not) based on the user selection.
 
-When an option is selected, it updates the URL of the document with a new set of parameters. Those parameters are reflected within the HTML document using the @data attributes.
+When an option is selected, it updates the URL of the document with a new set of parameters. Those parameters are reflected within the HTML document using the data attributes.
 
 So far, we have the following data attributes (each matching a URL parameter):
 
 1. `data-profile` for a |-separated list of profile
-2. `data-rec` for a |-separated list of REC paths
-3. `data-cr` for a |-separated list of CR paths
-3. `data-informativeOnly` for a |-separated list of FPWD and WD paths
-4. `data-returning` for a |-separated list of FPWD and WD paths
-5. `data-notehistory` for a |-separated list of first [working|interest] group note paths
-7. `data-echidna` for automatic publishing
+1. `data-rec` for a |-separated list of REC paths
+1. `data-cr` for a |-separated list of CR paths
+1. `data-informativeOnly` for a |-separated list of FPWD and WD paths
+1. `data-returning` for a |-separated list of FPWD and WD paths
+1. `data-notehistory` for a |-separated list of first [working|interest] group note paths
+1. `data-echidna` for automatic publishing
 
 If no data attributes are present, the element will get displayed for all possible states *within the scope of the parent element*. For example, to display an element for all types of Recommendations, use `data-profile="REC"` and don't use the `data-rec` attribute on that element.
 
@@ -24,7 +24,7 @@ The data attributes may be combined but, if data attributes are used, one of the
 You may use multiple values for each attribute, separated by `|`. For example, to display an element for all types of Recommendations and Candidate Recommendations, use `data-profile="REC|CR"`.
 
 e.g.
-```
+```html
 <div id='d1' data-profile="CR">
   <p id='e1'>This is a new publication.</p>
   <p id='e2' data-profile="CR" data-cr="new|snapshot">It will a snapshot (which might be the first snapshot).</p>
@@ -44,15 +44,15 @@ If the user selected an updated Candidate Recommendation Snapshot (the URL conta
 * `e4` will never get displayed since the scope of its parent element `d1` is `data-profile="CR"` (and a document can't be a CR and a REC at the same time).
 * `e5` will get displayed because, since there is no `data-profile` on that element, `data-rec` gets ignored. So `e5` is similar to `e1`.
 
-To find the possible values for each data attribute, look at the HTML option and input HTML elements in [the document](https://github.com/w3c/transitions/blob/main/index.html#L269). Or, if you're looking for a particular document transition, use the form to select and see the values of the URL parameters.
+To find the possible values for each data attribute, look at the HTML option and input HTML elements in [the document](https://github.com/w3c/guide/blob/main/transitions/index.md#L269). Or, if you're looking for a particular document transition, use the form to select and see the values of the URL parameters.
 
 ## New W3C Process
 
 To add or remove a document status, one must:
 
-1. remove or add the status in the HTML option elements (id="profile")
+1. remove or add the status in the HTML option elements (`id="profile"`)
 2. add or remove HTML input elements if applicable
-3. Update the data-profile attributes
+3. Update the `data-profile` attributes
 
 If HTML input elements were added or removed:
 1. update the corresponding data- attributes
@@ -62,11 +62,11 @@ If HTML input elements were added or removed:
 ## New Echidna updates
 
 For echidna updates:
-1. Update data-profile on the ul element with id='echidna-selection"
-2. Update the data-echidna as needed (you're likely to add data-echidna="false"')
-3. Update the JS function hasEchidna()
+1. Update data-profile on the `ul` element with `id="echidna-selection"`
+2. Update the `data-echidna` as needed (you're likely to add `data-echidna="false"`)
+3. Update the JS function `hasEchidna()`
 
 ## History
 
 The transition requirements document is originally based on
- https://services.w3.org/xslt?xmlfile=https://www.w3.org/2005/08/01-transitions2017.html&xslfile=https://www.w3.org/2005/08/transitions2017.xsl
+https://services.w3.org/xslt?xmlfile=https://www.w3.org/2005/08/01-transitions2017.html&xslfile=https://www.w3.org/2005/08/transitions2017.xsl
