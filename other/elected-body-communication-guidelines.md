@@ -7,15 +7,15 @@ This document provides guidance for members of the W3C elected bodies: the Advis
 
 ## W3C elected bodies {#intro}
 
-The [AB](/policies/process/#AB) and the [TAG](/policies/process/#TAG) are defined in the W3C Process, as are the [rules of participation](/policies/process/#AB-TAG-participation) for both groups.
+The [AB](https://www.w3.org/policies/process/#AB) and the [TAG](https://www.w3.org/policies/process/#TAG) are defined in the W3C Process, as are the [rules of participation](https://www.w3.org/policies/process/#AB-TAG-participation) for both groups.
 
 ## W3C values and behaviours {#values}
 
-Like all W3C participants, members of elected bodies are required to follow the [W3C Code of Conduct](/policies/code-of-conduct/). As leaders, members of elected bodies should also consider the ways in which they can demonstrate the Code of Conduct's [expected behavior](/policies/code-of-conduct/#expected-behavior), and proactively respond to instances of [unacceptable behavior](/policies/code-of-conduct/#unacceptablebehavior).
+Like all W3C participants, members of elected bodies are required to follow the [W3C Code of Conduct](https://www.w3.org/policies/code-of-conduct/). As leaders, members of elected bodies should also consider the ways in which they can demonstrate the Code of Conduct's [expected behavior](https://www.w3.org/policies/code-of-conduct/#expected-behavior), and proactively respond to instances of [unacceptable behavior](https://www.w3.org/policies/code-of-conduct/#unacceptablebehavior).
 
 ## Communication guidelines {#guidelines}
 
-{% include quote.html content="Advisory Board and TAG participants have a special role within W3C. They are elected by the membership and [appointed by the Team](/policies/process/#TAG-appointments) with the expectation that they will use their best judgement to find the best solutions for the web, not just for any network, technology, vendor, or user."  footer=" W3C process " %}
+{% include quote.html content="Advisory Board and TAG participants have a special role within W3C. They are elected by the membership and [appointed by the Team](https://www.w3.org/policies/process/#TAG-appointments) with the expectation that they will use their best judgement to find the best solutions for the web, not just for any network, technology, vendor, or user." footer=" W3C process " %}
 
 As leaders within the W3C community, the opinions of members of elected bodies carry particular weight, whether they are expressed within our community or elsewhere.
 
