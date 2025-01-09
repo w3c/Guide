@@ -5,187 +5,149 @@ toc: false
 ---
 
 <div class="l-box">
-  <form>
-  <div class="l-cluster l-cluster--vertical-align">
-  <div>
-    <label>Select your <a href="https://www.w3.org/policies/process/#maturity-stages">Transition steps</a> to</label>
-    <select id="profile" name="profile" class="input-width-20" >
-	<!-- @@ Mozilla Firefox  doesn't understand the label attribute ?!? so keeping the option element text content :( -->
-	<optgroup label="Recommendations">
-		<option value="FPWD" label="First Public Working Draft" data-status="Working Draft">First Public Working Draft</option>
-		<option selected="selected" value="WD" label="Working Draft">Working Draft</option>
-		<option value="CR" label="Candidate Recommendation">Candidate Recommendation</option>
-		<option value="PR" label="Proposed Recommendation">Proposed Recommendation</option>
-		<option value="REC" label="Recommendation">Recommendation</option>
-		<option value="PR-RSCND" label="Proposed Rescinded Recommendation">Proposed Rescinded Recommendation</option>
-		<option value="PR-OBSL" label="Proposed Obsolete or Superseded Recommendation">Proposed Obsolete or Superseded Recommendation</option>
-		<option value="RSCND" label="Rescinded Recommendation">Rescinded Recommendation</option>
-		<option value="OBSL" label="Obsolete or Superseded Recommendation">Obsolete or Superseded Recommendation</option>
-		<option value="DISC" label="Discontinued Draft">Discontinued Draft</option>
-	</optgroup>
-	<optgroup label="Notes">
-		<option value="FPIG-NOTE" label="First Public Interest Group Note" data-status="Interest Group Note">First Public Interest Group Note</option>
-		<option value="IG-NOTE" label="Interest Group Note">Interest Group Note</option>
-		<option value="FPWG-NOTE" label="First Public Working Group Note" data-status="Working Group Note">First Public Working Group Note</option>
-		<option value="WG-NOTE" label="Working Group Note">Working Group Note</option>
-	</optgroup>
-    </select>
-  </div>
-  </div>
-  <!-- Disabled publication of REC with echidna for now -->
-	<fieldset>
-		<ul id="echidna-selection" style="margin-left: 1em" data-profile="WD|WG-NOTE|IG-NOTE|CR" data-cr="draft|snapshot" data-rec="editorial|candidate-corrections|candidate-additions">
-		  <li style="list-style: none">
-		  <div class="checkbox-item">
-		      <input type="checkbox" id="echidna-checkbox" name="echidna-checkbox">
-	   	      <label for="echidna-checkbox">With the
-		      <a href="https://github.com/w3c/echidna/wiki">W3C automatic publishing system</a></label>
-		  </div>
-		  </li>
-		</ul>
-		<ul id="draft-options" style="margin-left: 1em" data-profile="FPWD|WD">
-			<li style="list-style: none" data-profile="WD">
-		        <div class="checkbox-item">
-				<input type="checkbox" id="returning-checkbox" name="returning-checkbox">
-				<label for="returning-checkbox">Returning to a Working Draft <a href="https://www.w3.org/policies/process/20231103/#revising-wd">for further work</a>
-				</label>
-			</div>
-			</li>
-			<li style="list-style: none">
-		          <div class="checkbox-item">
-				<input type="checkbox" id="informativeOnly-checkbox" name="informativeOnly-checkbox">
-				<label for="informativeOnly-checkbox">Not intended to become a normative Recommendation
-				</label>
-			  </div>
-			</li>
-		</ul>
+<form>
+	<div class="l-cluster l-cluster--vertical-align">
+		<div class="field">
+			<label for="profile"><span class="field-label">Select your <a href="https://www.w3.org/policies/process/#maturity-stages">Transition steps</a> to</span></label>
+			<select id="profile" name="profile" class="input-width-20" >
+			<!-- @@ Mozilla Firefox  doesn't understand the label attribute ?!? so keeping the option element text content :( -->
+			<optgroup label="Recommendation Track">
+				<option value="FPWD" label="First Public Working Draft" data-status="Working Draft">First Public Working Draft</option>
+				<option selected="selected" value="WD" label="Working Draft">Working Draft</option>
+				<option value="CR" label="Candidate Recommendation">Candidate Recommendation</option>
+				<option value="PR" label="Proposed Recommendation">Proposed Recommendation</option>
+				<option value="REC" label="Recommendation">Recommendation</option>
+				<option value="PR-RSCND" label="Proposed Rescinded Recommendation">Proposed Rescinded Recommendation</option>
+				<option value="PR-OBSL" label="Proposed Obsolete or Superseded Recommendation">Proposed Obsolete or Superseded Recommendation</option>
+				<option value="RSCND" label="Rescinded Recommendation">Rescinded Recommendation</option>
+				<option value="OBSL" label="Obsolete or Superseded Recommendation">Obsolete or Superseded Recommendation</option>
+				<option value="DISC" label="Discontinued Draft">Discontinued Draft</option>
+			</optgroup>
+			<optgroup label="Note Track">
+				<option value="FPIG-NOTE" label="First Public Interest Group Note" data-status="Interest Group Note">First Public Interest Group Note</option>
+				<option value="IG-NOTE" label="Interest Group Note">Interest Group Note</option>
+				<option value="FPWG-NOTE" label="First Public Working Group Note" data-status="Working Group Note">First Public Working Group Note</option>
+				<option value="WG-NOTE" label="Working Group Note">Working Group Note</option>
+			</optgroup>
+			</select>
+		</div>
+	</div>
 
-		<ul id="cr-options" style="margin-left: 3em" data-profile="CR">
-			<li style="list-style: none">
-		        <div class="radio-item">
-			<input type="radio" id="cr-new" name="cr" value="new" checked="checked">
-			<label for="cr-new">Previously published as a Working Draft or returning from Proposed Recommendation</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
+	<!-- Disabled publication of REC with echidna for now -->
+	<div class="field">
+		<fieldset id="echidna-selection" data-profile="WD|WG-NOTE|IG-NOTE|CR" data-cr="draft|snapshot" data-rec="editorial|candidate-corrections|candidate-additions">
+			<div class="checkbox-item">
+				<input type="checkbox" id="echidna-checkbox" name="echidna-checkbox">
+				<label for="echidna-checkbox">With the <a href="https://github.com/w3c/echidna/wiki">W3C automatic publishing system</a></label>
+			</div>
+		</fieldset>
+	</div>
+
+	<div class="field">
+		<fieldset id="draft-options" data-profile="FPWD|WD">
+			<div class="checkbox-item" data-profile="WD">
+				<input type="checkbox" id="returning-checkbox" name="returning-checkbox">
+				<label for="returning-checkbox">Returning to a Working Draft <a href="https://www.w3.org/policies/process/20231103/#revising-wd">for further work</a></label>
+			</div>
+			<div class="checkbox-item">
+				<input type="checkbox" id="informativeOnly-checkbox" name="informativeOnly-checkbox">
+				<label for="informativeOnly-checkbox">Not intended to become a normative Recommendation</label>
+			</div>
+		</fieldset>
+	</div>
+
+	<div class="field">
+		<fieldset id="cr-options" data-profile="CR">
+			<div class="radio-item">
+				<input type="radio" id="cr-new" name="cr" value="new" checked="checked">
+				<label for="cr-new">Previously published as a Working Draft or returning from Proposed Recommendation</label>
+			</div>
 		        <div class="radio-item">
 				<input type="radio" id="cr-draft" name="cr" value="draft">
 				<label for="cr-draft">Updating as a Candidate Recommendation Draft</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
+			</div>
 		        <div class="radio-item">
 				<input type="radio" id="cr-snapshot" name="cr" value="snapshot">
 				<label for="cr-snapshot">Updating as a Candidate Recommendation Snapshot</label>
-			 </div>
-			</li>
-		</ul>
-		<p style="margin-left: 2em; clear:left" data-profile="CR" data-cr="new"><br><strong>Note:</strong> The first Candidate
-			Recommendation publication after verification of a transition request is also considered a Candidate Recommendation
-			Snapshot.</p>
+			</div>
+		</fieldset>
 
-		<ul id="pr-options" style="margin-left: 3em" data-profile="PR">
-			<li style="list-style: none;display: none">
-		        <div class="radio-item">
+		<p data-profile="CR" data-cr="new"><strong>Note:</strong> The first Candidate Recommendation publication after verification of a transition request is also considered a Candidate Recommendation Snapshot.</p>
+	</div>
+
+	<div class="field">
+		<fieldset id="pr-options" data-profile="PR">
+			<div class="radio-item">
 				<input type="radio" id="pr-new" name="pr" value="new" checked="checked">
 				<label for="pr-new">Proposed by an active Working Group</label>
-			 </div>
-			</li>
-		</ul>
-		<ul id="rec-options" style="margin-left: 3em" data-profile="REC">
-			<li style="list-style: none">
-		        <div class="radio-item">
+			</div>
+		</fieldset>
+	</div>
+
+	<div class="field" data-profile="REC">
+		<fieldset id="rec-options">
+			<div class="radio-item">
 				<input type="radio" id="rec-new" name="rec" value="new" checked="checked">
 				<label for="rec-new">Previously published as a Proposed Recommendation</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="rec-editorial" name="rec" value="editorial">
 				<label for="rec-editorial">Publishing an existing Recommendation with editorial changes</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="rec-candidate-corrections" name="rec" value="candidate-corrections">
-				<label for="rec-candidate-corrections">Publishing a Recommendation with candidate corrections (substantive
-					changes)</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+				<label for="rec-candidate-corrections">Publishing a Recommendation with candidate corrections (substantive changes)</label>
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="rec-candidate-additions" name="rec" value="candidate-additions">
 				<label for="rec-candidate-additions">Publishing a Recommendation with candidate additions (new features)</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="rec-proposed-corrections" name="rec" value="proposed-corrections">
-				<label for="rec-proposed-corrections">Publishing a Recommendation with proposed corrections (substantive
-					changes)</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+				<label for="rec-proposed-corrections">Publishing a Recommendation with proposed corrections (substantive changes)</label>
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="rec-proposed-additions" name="rec" value="proposed-additions">
 				<label for="rec-proposed-additions">Publishing a Recommendation with proposed additions (new features)</label>
-
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="rec-substantive" name="rec" value="substantive">
-				<label for="rec-substantive">Incorporating proposed corrections (substantive changes) into an existing
-					Recommendation</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+				<label for="rec-substantive">Incorporating proposed corrections (substantive changes) into an existing Recommendation</label>
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="rec-features" name="rec" value="features">
-				<label for="rec-features">Incorporating proposed additions (new features) into an existing
-					Recommendation</label>
-			 </div>
-			</li>
-			<li style="list-style: none; clear: left">
-			  <p>You <em class="rfc2119">may</em> also follow <a href="?profile=CR&amp;cr=rec-update">Candidate
-						Recommendation</a> for substantive corrections</p>
-			</li>
-			<li style="list-style: none; clear: left">
-				<p>We allow some <strong>in place modifications</strong> of Recommendations, including markup changes. See <a href="https://www.w3.org/2003/01/republishing/">In-place modification of W3C Technical Reports</a>.</p>
-			</li>
-		</ul>
+				<label for="rec-features">Incorporating proposed additions (new features) into an existing Recommendation</label>
+			</div>
+		</fieldset>
 
-		<ul id="fp-note-options" style="margin-left: 3em" data-profile="FPWG-NOTE|FPIG-NOTE">
-			<li style="list-style: none">
-		        <div class="radio-item">
+		<p>You <em class="rfc2119">may</em> also follow <a href="?profile=CR&amp;cr=rec-update">Candidate Recommendation</a> for substantive corrections</p>
+
+		<p>We allow some <strong>in place modifications</strong> of Recommendations, including markup changes. See <a href="https://www.w3.org/2003/01/republishing/">In-place modification of W3C Technical Reports</a>.</p>
+	</div>
+
+	<div class="field">
+		<fieldset id="fp-note-options" data-profile="FPWG-NOTE|FPIG-NOTE">
+			<div class="radio-item">
 				<input type="radio" id="notehistory-first" name="notehistory" value="first" checked="checked">
 				<label for="notehistory-first">Chartered to be a group Note, never before published, group not closing</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="notehistory-none" name="notehistory" value="none">
-				<label for="notehistory-none">Chartered to be a group Note and previously published as a Working Draft, group
-					not closing</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+				<label for="notehistory-none">Chartered to be a group Note and previously published as a Working Draft, group not closing</label>
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="notehistory-notchartered" name="notehistory" value="notchartered">
 				<label for="notehistory-notchartered">Not chartered to be a group Note, group not closing</label>
-			 </div>
-			</li>
-			<li style="list-style: none">
-		        <div class="radio-item">
+			</div>
+			<div class="radio-item">
 				<input type="radio" id="notehistory-closure" name="notehistory" value="closure">
 				<label for="notehistory-closure">Publication as a group Note since group closing</label>
-			 </div>
-			</li>
-		</ul>
-	</fieldset>
+			</div>
+		</fieldset>
+	</div>
 
-	<p>Not sure what's your next step? Try our <a href="nextstep">step finder</a>
-	and look at <a href="https://w3c.github.io/spec-releases/milestones/">milestones calculator</a>.</p>
+	<p><em>Not sure what's your next step? Try our <a href="nextstep">step finder</a>
+	and look at <a href="https://w3c.github.io/spec-releases/milestones/">milestones calculator</a>.</em></p>
 </form>
 </div>
 
@@ -292,7 +254,7 @@ interactions with the W3C Communications Team.</p>
 				Registry</a>.
 		</p>
 
-		<dl style="margin-left: 0">
+		<dl>
 			<dt data-profile="CR" data-cr="new|snapshot">Negotiation of Review Schedule</dt>
 			<dd class="negotiatereview" data-profile="CR" data-cr="new|snapshot">
 				<ul>
@@ -1577,10 +1539,8 @@ interactions with the W3C Communications Team.</p>
 			document.</p>
 
 		<p> A publication request <span class="rfc2119">MUST</span> include the following information: <br>
-			<span class="gray-notes"> ⟶ You <span class="rfc2119">may</span> copy the list below and paste into the email sent
-				to webreq@w3.org</span>
-		</p><p>
-		</p><ol>
+		⟶ You <span class="rfc2119">may</span> copy the list below and paste into the email sent to webreq@w3.org</p>
+		<ol>
 			<li>Information:
 				<ul>
 					<li>Document Title: xxx xxx</li>
@@ -1606,9 +1566,7 @@ interactions with the W3C Communications Team.</p>
 							here</a>)
 					</li>
 					<li id="retired" data-profile="WG-NOTE|IG-NOTE">*Retired: (only needed when 'yes')<br>
-						<span class="gray-notes"> ⟶ Indicate if the publication is the result of stopping work on a specification
-							(aka "retired").</span>
-					</li>
+					 ⟶ Indicate if the publication is the result of stopping work on a specification (aka "retired").</li>
 					<li>*Requirements for shortlinks redirection: (may apply if there are multi levels)</li>
 				</ul>
 			</li>
@@ -1631,35 +1589,32 @@ interactions with the W3C Communications Team.</p>
 			</li>
 			<li class="onlydeleted" data-profile="CR" data-cr="new|snapshot">*Skip CfE for CR text
 				delete: (only needed when 'yes')<br>
-				<span class="gray-notes"> ⟶ If there has been a previous Candidate Recommendation, whether the only change is
-					that <em>text has been deleted</em>; If so, W3C can skip the Patent Policy Exclusion (see the <a href="https://www.w3.org/2003/12/22-pp-faq.html#nonewtext">Patent Policy FAQ</a>).</span>
+				⟶ If there has been a previous Candidate Recommendation, whether the only change is
+					that <em>text has been deleted</em>; If so, W3C can skip the Patent Policy Exclusion (see the <a href="https://www.w3.org/2003/12/22-pp-faq.html#nonewtext">Patent Policy FAQ</a>).
 			</li>
 			<li>Checks:
 				<ul>
-					<li>Pass Pubrules' check: (yes / need Team's exception)
-						<br><span class="gray-notes"> ⟶ Check the document using <a href="https://www.w3.org/pubrules/">Pubrules
-								UI</a></span>.
-						<br><span class="gray-notes"> ⟶ How to deal with Pubrules' result:</span>.
-							<ul>
-								<li><span class="gray-notes"><strong>error</strong>: <em class="rfc2119">should not</em> contain any `error`, unless it's an
-									exception approved by the Team. <strong>This could likely block publication</strong></span></li>
-								<li><span class="gray-notes"><strong>warning</strong>: Please read through each warning and try to reduce the number of them.
-								</span></li>
-							</ul>
+					<li>Pass Pubrules' check: (yes / need Team's exception)<br>
+					⟶ Check the document using <a href="https://www.w3.org/pubrules/">Pubrules UI</a>.<br>
+					⟶ How to deal with Pubrules' result:
+						<ul>
+							<li><strong>error</strong>: <em class="rfc2119">should not</em> contain any `error`, unless it's an
+									exception approved by the Team. <strong>This could likely block publication</strong></li>
+							<li><strong>warning</strong>: Please read through each warning and try to reduce the number of them.</li>
+						</ul>
 					</li>
 					<li>*Comment on Pubrules: (describe the help you need if there's any error)</li>
 
-					<li>Pass Link Checker's check: (yes)
-						<br><span class="gray-notes"> ⟶ Check the document using <a href="https://validator.w3.org/checklink">W3C
-								Link Checker</a></span>.
-						<br><span class="gray-notes"> ⟶ How to deal with result of Link Checker: </span>
-							<ul>
-								<li><span class="gray-notes"><strong>404 Not Found</strong>: <em class="rfc2119">should not</em> contain any `404` link.
-									<strong>This could likely block publication</strong>. </span></li>
-								<li><span class="gray-notes"><strong>403 Forbidden</strong>: Please check manually. </span></li>
-								<li><span class="gray-notes"><strong>Broken Fragments</strong>: These kind of error could be false alarm, please check manually.</span></li>
-								<li><span class="gray-notes"><strong>Status: 301</strong>: Please consider using the new link. </span></li>
-							</ul>
+					<li>Pass Link Checker's check: (yes)<br>
+					⟶ Check the document using <a href="https://validator.w3.org/checklink">W3C Link Checker</a>.<br>
+					⟶ How to deal with result of Link Checker:
+						<ul>
+							<li><strong>404 Not Found</strong>: <em class="rfc2119">should not</em> contain any `404` link.
+								<strong>This could likely block publication</strong>.</li>
+							<li><strong>403 Forbidden</strong>: Please check manually.</li>
+							<li><strong>Broken Fragments</strong>: These kind of error could be false alarm, please check manually.</li>
+							<li><strong>Status: 301</strong>: Please consider using the new link.</li>
+						</ul>
 					</li>
 				</ul>
 			</li>
@@ -2219,86 +2174,27 @@ Note: Info about features at risk is required in status section per pubrules
 		/*                             Colored Boxes                                  */
 		/******************************************************************************/
 
-		.issue,
 		.note,
-		.example,
-		.advisement,
-		blockquote {
+		.advisement {
 			padding: .5em;
 			border: .5em;
 			border-left-style: solid;
 			page-break-inside: avoid;
 		}
 
-		span.issue,
 		span.note {
 			padding: .1em .5em .15em;
 			border-right-style: solid;
 		}
 
-		.issue,
 		.note,
-		.example,
-		.advisement,
-		blockquote {
+		.advisement {
 			margin: 1em auto;
 		}
 
-		.note>p:first-child,
-		.issue>p:first-child,
-		blockquote> :first-child {
+		.note>p:first-child {
 			margin-top: 0;
 		}
-
-		blockquote> :last-child {
-			margin-bottom: 0;
-		}
-
-		/** Blockquotes ***************************************************************/
-
-		blockquote {
-			border-color: silver;
-		}
-
-		/** Open issue ****************************************************************/
-
-		.issue {
-			border-color: #E05252;
-			background: #FBE9E9;
-			counter-increment: issue;
-			overflow: auto;
-		}
-
-		.issue::before,
-		.issue>.marker {
-			color: #AE1E1E;
-			padding-right: 1em;
-			text-transform: uppercase;
-		}
-
-		/* Add .issue::before { content: "Issue " counter(issue) " "; } for autogen numbers,
-	   or use class="marker" to mark up the issue number in source. */
-
-		/** Example *******************************************************************/
-
-		.example {
-			border-color: #E0CB52;
-			background: #FCFAEE;
-			counter-increment: example;
-			overflow: auto;
-			clear: both;
-		}
-
-		.example::before,
-		.example>.marker {
-			text-transform: uppercase;
-			color: #827017;
-			min-width: 7.5em;
-			display: block;
-		}
-
-		/* Add .example::before { content: "Example " counter(example) " "; } for autogen numbers,
-	   or use class="marker" to mark up the example number in source. */
 
 		/** Non-normative Note ********************************************************/
 
@@ -2329,22 +2225,6 @@ Note: Info about features at risk is required in status section per pubrules
 			border-bottom: 1px silver solid;
 		}
 
-		a.gh-label {
-			font-weight: 600;
-			line-height: 1.25 !important;
-			text-decoration: none;
-			padding: 4px 8px;
-			font-size: 14px;
-			border-radius: 3px;
-			box-sizing: border-box;
-			margin-top: -1px;
-		}
-
-		a.gh-label-state {
-			background: #d93f0b;
-			color: white;
-		}
-
 		li[data-streamline="true"]:before {
 			content: "📈";
 		}
@@ -2371,29 +2251,4 @@ Note: Info about features at risk is required in status section per pubrules
 			font-weight: normal;
 			color: chocolate;
 		}
-
-		.gray-notes {
-			color: #999
-		}
 	</style>
-	<style>
-		/*for the SVG - navigation highlighting */
-
-		:focus path,
-		:focus polygon,
-		:focus ellipse {
-			stroke-width: 4
-		}
-
-		g g:hover path,
-		g g:hover polygon,
-		g g:hover ellipse {
-			stroke-width: 4
-		}
-
-		:focus text,
-		g g:hover text {
-			stroke: black;
-			stroke-width: .5
-		}
-</style>
