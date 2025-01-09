@@ -71,5 +71,5 @@ The Team Contact is also charged with representing the views of the Team to the 
   2. Spell-checked
   3. HTML validated (see, for example, the [HTML validator service](https://validator.w3.org/)).
   4. CSS validated (see, for example, the [CSS validator](https://jigsaw.w3.org/css-validator/)).
-  5. Accessible (see [Accessibility evaluation resources](https://www.w3.org/WAI/eval/))
+  5. Accessible (see [Accessibility evaluation resources](https://www.w3.org/WAI/test-evaluate/))
   6. Published in the appropriate places, using Team conventions for document status information, naming schemes, etc.
