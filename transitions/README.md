@@ -1,7 +1,6 @@
----
-title: The Fu to edit the transition requirements 
-toc: false
----
+# How to edit the transition requirements
+
+This document explains how to maintain the code behind https://www.w3.org/guide/transitions/
 
 HTML elements are displayed (or not) based on the user selection.
 
