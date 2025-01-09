@@ -3,7 +3,7 @@ title: Appealing a W3C Decision
 toc: no
 ---
 
-The W3C process document allows Advisory Committee representatives to initiate an [Advisory Committee Appeal](/policies/process/#advisory-committee-appeal). This document provides an [email template](@@) to start the appeal.
+The W3C process document allows Advisory Committee representatives to initiate an [Advisory Committee Appeal](https://www.w3.org/policies/process/#advisory-committee-appeal). This document provides an [email template](@@) to start the appeal.
 
 ```
     To: w3t@w3.org
@@ -11,7 +11,7 @@ The W3C process document allows Advisory Committee representatives to initiate a
     Subject: Appeal of a W3C Decision
 
     On behalf of [W3C Member], I appeal the decision issued at
-       [link to the record of the decision]
+      [link to the record of the decision]
 
     I am formally requesting that the W3C Team starts the appeal process
     with the Advisory Committee.
