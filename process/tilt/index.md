@@ -4,33 +4,35 @@ toc: yes
 ---
 The mission of the TiLT is to make technical team decisions described in the W3C Process.
 
-TiLT authority comes from [delegation by the CEO](https://www.w3.org/Consortium/Process/#Team).
+TiLT authority comes from [delegation by the CEO](https://www.w3.org/policies/process/#Team).
 
 ## Scope {#scope}
 
 The Technical issues Lead Team is meant to handle all verifications requests for:
 
-1. Group charters approvals, before and after AC review
-2. Chairs appointments
-3. Group extensions
-4. Member submissions
-5. Workshops([1](#note1))
-6. Patent Advisory Groups (PAGs)
-7. Start of Councils
-8. Transition requests([2](#note2))
-9. Anything related to the operational management of developing W3C specs
+- Group charters approvals, before and after AC review
+- Chairs appointments
+- Group extensions
+- Member submissions
+- Workshops ([1](#note1))
+- Patent Advisory Groups (PAGs)
+- Start of Councils
+- Transition requests ([2](#note2))
+- Anything related to the operational management of developing W3C specs
 
-(1) Those requests still need W3C Management approval in parallel.
+*(1) Those requests still need W3C Management approval in parallel.*
 {:#note1}
 
-(2) TiLT delegates its authority for transition requests
+*(2) TiLT delegates its authority for transition requests.*
 {:#note2}
 
 ### Out of Scope {#out}
 
-1. The TiLT is “internal to the Team”; it does not have Membership- or community-facing activities. Generally speaking, project management and strategy roles carry out these Membership-and community-facing activities. However, asking approval from TiLT is a signal that can be exposed to the outside.
-2. TiLT does not replace the Strategy Function (e.g., what Workshops W3C should organize). Note, however, that the TiLT does play a role for related decisions (e.g., Workshop approval).
-3. TiLT does not replace Board of Directors nor W3C Management functions. For example, the TiLT does not establish a budget, but through its decisions (e.g., Workshop approval), there are likely to be budgetary impacts (e.g., Workshop costs, human resources for Team Contacts, etc.). Thus, TiLT may be asked to provide input to budget discussions.
+The TiLT is “internal to the Team”; it does not have Membership- or community-facing activities. Generally speaking, project management and strategy roles carry out these Membership-and community-facing activities. However, asking approval from TiLT is a signal that can be exposed to the outside.
+
+TiLT does not replace the Strategy Function (e.g., what Workshops W3C should organize). Note, however, that the TiLT does play a role for related decisions (e.g., Workshop approval).
+
+TiLT does not replace Board of Directors nor W3C Management functions. For example, the TiLT does not establish a budget, but through its decisions (e.g., Workshop approval), there are likely to be budgetary impacts (e.g., Workshop costs, human resources for Team Contacts, etc.). Thus, TiLT may be asked to provide input to budget discussions.
 
 ## Composition {#composition}
 
@@ -63,13 +65,13 @@ This composition is reflected in the Github team [@w3c/tilt](https://github.com/
 
 ## Meetings {#meetings}
 
-The W3C Technical Lead Team (TiLT) decides whether to meet synchronously. Currently, TiLT meets every Monday, at 9am Boston time (IRC: &amp;tilt).
+The W3C Technical Lead Team (TiLT) decides whether to meet synchronously. Currently, TiLT meets every Monday, at 9am Boston time (IRC: &tilt).
 
 The entire W3C team has an open invitation to observe the discussion, including attending calls. (contact plh for that)
 
 ## Requesting approval from TiLT {#request}
 
-For transition requests, TiLT delegates its authority to [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions). Follow [Organize a Technical Report Transition](https://www.w3.org/Guide/transitions).
+For transition requests, TiLT delegates its authority to [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions). Follow [Organize a Technical Report Transition](../../transitions/).
 
 Other requests for approvals MUST be sent as an [open issue](https://github.com/w3c/tilt-private/issues/new/choose) to tilt-private. There are templates for each type of decision request. Each request receives the label “agenda” and remains open until a decision has been reached.
 

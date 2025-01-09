@@ -3,7 +3,7 @@ title: TilT Evaluation of the AC Review Results
 toc: no
 ---
 
-How [TiLT](/Guide/process/tilt/) manages AC review results depends on
+How [TiLT](./) manages AC review results depends on
 the results themselves. The first three cases below require TilT
 discussion; the fourth only requires notification to TiLT.
 {:#TiLT-report}
@@ -19,7 +19,7 @@ If there are no unresolved Formal Objections but there are changes to the charte
 - The charter shepherd changes the charter and notifies all of the AC Reps who replied to the call for review. These AC Reps have 7-10 days to express dissent.
 - In parallel or subsequently, the charter shepherd also [reports](#TiLT-report) the review results to TiLT. That message should highlight the same (7-10 day) window for TiLT to request discussion of the changes.
 
-If the time period elapses without dissent by AC Reps and TiLT gave its [approval](./#timing), the charter shepherd proceeds directly to [requesting announcement of the charter](../charter.html#director-decision). Otherwise, TiLT discussion takes place. Upon subsequent approval, the charter shepherd [requests announcement](../charter.html#director-decision).
+If the time period elapses without dissent by AC Reps and TiLT gave its [approval](./#timing), the charter shepherd proceeds directly to [requesting announcement of the charter](../charter.md#announce-decision). Otherwise, TiLT discussion takes place. Upon subsequent approval, the charter shepherd [requests announcement](../charter.md#announce-decision).
 
 ## Case 3: Uncontroversial Review but TiLT Approval Required
 
@@ -28,13 +28,13 @@ If there are no Formal Objections and no changes, then there are still two scena
 - In the TiLT decision to request AC review, there was a requirement to discuss the AC review results whatever the outcome (e.g., to assign FTE based on the level Member support).
 - The review did not reach the 5% threshold and TiLT did not relax that requirement in the decision to seek AC review.
 
-In either case, the charter shepherd [reports](#TiLT-report) the review results. That message should highlight that the review was uncontroversial and point out which topics now require TiLT approval. Upon subsequent approval, the charter shepherd [requests announcement of the charter](../charter.html#director-decision).
+In either case, the charter shepherd [reports](#TiLT-report) the review results. That message should highlight that the review was uncontroversial and point out which topics now require TiLT approval. Upon subsequent approval, the charter shepherd [requests announcement of the charter](../charter.md#announce-decision).
 
 ## Case 4: Uncontroversial Review and No TiLT Approval Required
 
 The charter shepherd [reports](#TiLT-report) the review results to TiLT and indicates that the charter is deemed approved and no further TiLT approval is required.
 
-The charter shepherd then [requests announcement of the charter](../charter.html#director-decision).
+The charter shepherd then [requests announcement of the charter](../charter.md#announce-decision).
 
 ## Reporting AC Review Results to TiLT {#TiLT-report}
 
@@ -48,4 +48,4 @@ In all of the above cases, the charter shepherd reports the review outcomes to [
   - It has been resolved. In this case indicate the resolution and whether that involved changes to the charter.
   - It has been overridden by a Council (e.g, deemed out of scope or overruled for any other reason).
 - A list of proposed changes to the charter (such as a link to one or more pull requests), and whether those changes were requested during the review or as a result of resolving a Formal Objection.
-- Pertinent IPR statements, if any
+- Pertinent IPR statements, if any.
