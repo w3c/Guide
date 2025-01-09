@@ -25,8 +25,8 @@ These are offered as guidelines, not a checklist of required items in every prop
 
 The target audience for this document includes:
 
-- the Team and Advisory Committee, when evaluating proposals to create new Working Groups or rechartering existing Working Groups to put new work in scope (e.g. how specs reach maturation before FPWD), and in reviewing Proposed Recommendations;
-- working group Chairs, when determining whether to publish First Public Working Drafts of specs that are in a group's chartered scope,
+- The Team and Advisory Committee, when evaluating proposals to create new Working Groups or rechartering existing Working Groups to put new work in scope (e.g. how specs reach maturation before FPWD), and in reviewing Proposed Recommendations;
+- Working Group Chairs, when determining whether to publish First Public Working Drafts of specs that are in a group's chartered scope,
 
 This document attempts to strike a balance between two classes of criteria:
 
@@ -59,7 +59,7 @@ The readiness criteria below outline best practices for finding an appropriate b
 
 The criteria here are used to evaluate whether a technical specification development effort is ready for the W3C Recommendation Track. No single factor is decisive, and this document avoids [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) "MUST" and "SHOULD" terminology, and should not be a taken as a checklist of necessary or sufficient criteria. Nevertheless, some criteria are noted as "strongly recommended", and, if not met, an explanation of why they don't apply in a particular situation would facilitate the [W3C decision](https://www.w3.org/policies/process/#decision-types). Different cases will involve different combinations of these factors. In determining whether to approve moving work to the Recommendation track, the Team may consider other factors not listed in this document as well.
 
-Assessing whether proposed work is likely to fulfull the W3C mission to [lead the web to its full potential](http://www.w3.org/Consortium/mission) is the traditional criterion the Team and Advisory Committee use to evaluate whether to start a working group or advance a specification. While this is "aspirational", it requires judgment that balances the future potential of the Web alongside the need for real developers to make the Web work in practice. This document seeks to make the factors that go into this judgment more explicit and generally applicable.
+Assessing whether proposed work is likely to fulfull the W3C mission to [lead the web to its full potential](https://www.w3.org/mission/) is the traditional criterion the Team and Advisory Committee use to evaluate whether to start a working group or advance a specification. While this is "aspirational", it requires judgment that balances the future potential of the Web alongside the need for real developers to make the Web work in practice. This document seeks to make the factors that go into this judgment more explicit and generally applicable.
 
 The "empirical" criteria are inspired largely by the experience of some open source browser projects that use an [intent to implement](https://docs.google.com/document/d/1vlTlsQKThwaX0-lj_iZbVTzyqY7LioqERU8DK3u3XjI/edit) process to build the case for shipping a new feature. This document refines this approach to apply to Recommendation Track transition decisions. The [Web Platform Incubator Community Group](https://www.w3.org/community/wicg/) has adopted something similar to [determine when a spec under incubation is ready to propose to a Working Group](https://wicg.github.io/admin/intent-to-migrate.html).
 
@@ -81,7 +81,7 @@ Is this spec serving a specialized community and only that community needs to im
 
 *Strongly Recommended*: Charters do not list specs as deliverables, and WGs do not publish FWPDs, until there is rough consensus across stakeholders that the spec solves a real problem, is likely to be implemented, and is likely to be used on the Web. This consensus could emerge from an incubation phase in WICG or another CG, or in a WG that has an established culture of taking and vetting suggestions from its public mailing list.
 
-The language in the [Web Platform WG charter](http://w3c.github.io/charter-html/group-charter.html#deliverables) describes a one community's practice:
+The language in the [Web Platform WG charter](https://w3c.github.io/charter-html/group-charter.html#deliverables) describes a one community's practice:
 
 {% include quote.html content="The Working Group will not adopt new proposals until they have matured through the Web Platform Incubator Community Group or another similar incubation phase." %}
 
@@ -116,9 +116,9 @@ If the answer “the ship has sailed”, proposers should explain how they propo
 
 ### Clear RF licensing commitments?
 
-W3C seeks to issue Recommendations that can be implemented and used on a [Royalty-Free](http://www.w3.org/policies/patent-policy/#sec-Requirements) basis.
+W3C seeks to issue Recommendations that can be implemented and used on a [Royalty-Free](https://www.w3.org/policies/patent-policy/#sec-Requirements) basis.
 
-1. Are the technologies in the initial available under terms that are compatible with the [W3C Royalty-Free licensing requirements](http://www.w3.org/policies/patent-policy/#sec-Requirements)?
+1. Are the technologies in the initial available under terms that are compatible with the [W3C Royalty-Free licensing requirements](https://www.w3.org/policies/patent-policy/#sec-Requirements)?
 2. Have those who seem most likely to have relevant patents made commitments to license them on royalty-free terms?
 3. Is the provenance of substantive contributions to the draft reasonably clear?
 
@@ -126,7 +126,7 @@ W3C seeks to issue Recommendations that can be implemented and used on a [Royalt
 
 It is advisable for groups considering Recommendation Track work to consult with the W3C Team early enough in the process for them to advise about potential problems and workarounds, and help draft a formal proposal.
 
-Working Groups and Interest Groups have Team Contacts they can use for this purpose. Community Groups generally do not (see [Team support for CGs](https://www.w3.org/2016/04/cg-support/)), but CG participants are encouraged to reach out to the [W3C staff](http://www.w3.org/People/) well in advance of proposing a transition to the Recommendation Track.
+Working Groups and Interest Groups have Team Contacts they can use for this purpose. Community Groups generally do not (see [Team support for CGs](https://www.w3.org/2016/04/cg-support/)), but CG participants are encouraged to reach out to the [W3C staff](https://www.w3.org/staff/) well in advance of proposing a transition to the Recommendation Track.
 
 ## Process Considerations {#process}
 
