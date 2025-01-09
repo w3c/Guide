@@ -13,7 +13,7 @@ toc: false
 		<span class="field-label">Shortname</span>
 	</label>
 	<div class="field-hint" id="hint-shortname">You may use a TR shortname to find out your next step</div>
-	<input type="text" id="shortname" name="shortname"
+	<input type="text" id="shortname" name="shortname" aria-describedby="hint-shortname" class="input-width-40"
             minlength="3" maxlength="40" pattern="[-a-zA-Z0-9]{3,40}" list="w3ctr">
 
 	<datalist id='w3ctr'>
@@ -21,31 +21,32 @@ toc: false
 </div>
 
 <div aria-live="assertive" aria-atomic="true" id='next'>
-	<p>Your possible next steps are:</p>
-	<ul id='step_list'>
-	</ul>
-
 	<div id='spec'>
-		<p>We found the following information:</p>
+		<p><strong>We found the following information:</strong></p>
 		<ul>
 			<li>Title: <span id='spec_title'></span></li>
-			<li>Date: <span id='spec_date'></span></li>
 			<li>Shortname: <span id='spec_shortname'></span></li>
+			<li>Date: <span id='spec_date'></span></li>
 			<li>Shortlink: <span id='spec_shortlink'></span></li>
 			<li>URL: <span id='spec_uri'></span></li>
 			<li>Status: <span id='spec_status'></span></li>
 			<li>Published by: <span id='spec_deliverers'></span></li>
 		</ul>
 	</div>
+
+	<p><strong>Your possible next steps are:</strong></p>
+
+	<ul id='step_list'>
+	</ul>
 </div>
 
 <h2 id='resources'>Other resources</h2>
-<p><ul>
+<ul>
 	<li><a href=".">Organize a Technical Report Transition</a></li>
 	<li><a href="https://w3c.github.io/spec-releases/milestones/">Milestones planning</a></li>
 	<li><a href="https://w3c.github.io/spec-releases/timeline.svg">174 days to W3C Recommendation</a></li>
 	<li><a href="https://www.w3.org/policies/process/#Reports">Recommendation Track Process</a></li>
-</ul></p>
+</ul>
 
 <style>
 	div.field {
@@ -139,14 +140,13 @@ function findShortname(s) {
 	}
 }
 
-let BASE = "https://www.w3.org/guide/transitions/?";
+let BASE = "https://www.w3.org/guide/transitions/";
 let INPLACE = "<li><a href='https://www.w3.org/2003/01/republishing/'>In-place modification of W3C Technical Reports</a></li>";
 function listItem(text, query) {
-	return "<li><a href='" + BASE + query + "'>" + text + "</a></li>";
+	return "<li><a href='" + BASE + '?' + query + "'>" + text + "</a></li>";
 }
 
 function nextSteps(spec) {
-	let base = "https://www.w3.org/guide/transitions/?";
 	let next = document.getElementById("next");
 	let list = document.getElementById("step_list");
 
@@ -240,7 +240,6 @@ function nextSteps(spec) {
 }
 
 function defaultStep() {
-	let base = "https://www.w3.org/guide/transitions/?";
 	let next = document.getElementById("next");
 	let list = document.getElementById("step_list");
 	list.innerHTML = listItem("Publish as a First Public Working Draft", "profile=FPWD")
