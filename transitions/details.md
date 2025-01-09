@@ -15,26 +15,31 @@ Exceptions to these processes MAY be authorized by [@w3c/transitions](https://gi
 
 The key words **MUST**, **MUST NOT**, **REQUIRED**, **SHALL**, **SHALL NOT**, **SHOULD**, **SHOULD NOT**, **RECOMMENDED**, **MAY**, and **OPTIONAL** are to be interpreted as described in [RFC 2119](https://www.rfc-editor.org/rfc/rfc2119.txt).
 
-## Roles
+## Roles  {#roles}
 
 Webmaster
 : The _Webmaster_ publishes documents.
+{:#Webmaster}
 
 @w3c/transitions
 : Transition approvals are given by [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions), under the delegation from [Technical issues Lead Team](../tilt/).
+{:#teamVerification}
 
 Chair
 : Group Chair responsibilities may be carried out by either the Chair or Team Contact.
+{:#Chair}
 
 Document Contact
 : The _Document Contact_ is either the Team Contact, the Chair, or the document editor of the Working Group or Interest Group requesting publication. If there is no Working Group nor Interest Group, the [Maintainer Contact](#MaintainerContact) becomes the _Document Contact_. Consult the [W3C Project Management Lead](mailto:team-project@w3.org) if you're not sure who is the relevant Document Contact.
+{:#DocContact}
 
 Maintainer Contact
 : The _Maintainer Contact_ is a designated individual tasked with requesting Team's approval in order to publish a Recommendation without a Working Group. Consult the [W3C Project Management Lead](mailto:team-project@w3.org) if you're not sure who is the relevant Maintainer Contact. (Note: as of January 2018, the maintainer contact is [plh](mailto:plh@w3.org))
+{:#MaintainerContact}
 
 See also the [W3C Editor's Home Page](../editor/) and the Guidebook documentation of the [Chair's role](../chair/role.md) and [Team Contact's role](../teamcontact/role.md).
 
-## Interactions with the W3C Communications Team
+## Interactions with the W3C Communications Team  {#commteam}
 
 At various stages during the Recommendation Track process, the W3C Communications Team assists Working Groups as follows:
 
@@ -48,7 +53,7 @@ At various stages during the Recommendation Track process, the W3C Communication
 
 Please contact the Communications Team at w3t-comm@w3.org (cc'ing the group's Team Contact) if you have any general questions regarding the publications process.
 
-## History of "How to Organize a Transition"
+## History  {#history}
 
 20240112: Moved to Github. For future history, see the [github log](https://github.com/w3c/guide/commits/main/transitions/details.md).
 
