@@ -3,7 +3,7 @@ title: How to setup a new Working Group or Interest Group
 toc: true
 ---
 
-Once the [decision of creating a new group](../process/charter.md#join-form) has been announced and the group effectively exists, there are considerations for the setup. This document suggests a Group setup for the various W3C tools.
+Once the [decision of creating a new group](../process/charter.md#announce-decision) has been announced and the group effectively exists, there are considerations for the setup. This document suggests a Group setup for the various W3C tools.
 
 ## 1. Administrivia repository {#administrivia}
 
