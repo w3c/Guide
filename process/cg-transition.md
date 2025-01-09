@@ -39,7 +39,7 @@ If significant contributors (see [tool](#contributor-list)) below) have not join
 
 1. They can join the Working Group(if they haven't already).
 1. They can sign the non-participant licensing agreement for the Working Group.
-1. They can make a commitment (via [tools](https://www.w3.org/community/about/faq/#fsa-mechanics)) to the Community Group specification under the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/community/about/agreements/final/). Note that the main difference between the FSA and the [W3C Community Contributor Licensing Agreement (CLA)](https://www.w3.org/community/about/process/cla/) is that patent licensing commitments under the CLA are for one's own contributions, while commitments under the FSA are for the full text of the specification.
+1. They can make a commitment (via [tools](https://www.w3.org/community/about/faq/#fsa-mechanics)) to the Community Group specification under the [W3C Community Final Specification Agreement (FSA)](https://www.w3.org/community/about/process/final/). Note that the main difference between the FSA and the [W3C Community Contributor Licensing Agreement (CLA)](https://www.w3.org/community/about/process/cla/) is that patent licensing commitments under the CLA are for one's own contributions, while commitments under the FSA are for the full text of the specification.
 
 Once the work transitions to a Working Group, that Working Group's patent policy becomes the "primary" patent policy. Contributions to the work are henceforth made under the W3C Patent Policy. When a contributor cannot join the Working Group, W3C will provide tools so that Working Groups can ensure that substantive contributions from non-participants are made under the terms of the W3C Patent Policy.
 
@@ -77,7 +77,7 @@ Other repository admin for W3C staff.
 
 - Request that the systems team back up the org repositories.
 - Update or add `LICENSE.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` to reflect the new contribution framework.
-- Configure the repository with the [labels used for tracking horizontal reviews](../documentreview/#working_with_horizontal_review_labels).
+- Configure the repository with the [labels used for tracking horizontal reviews](../documentreview/#working-with-horizontal-review-labels).
 - If not already set up, make sure members of the `horizontal-admin` team have triage access to the repo.
 - Make w3cbot a co-owner of the org (useful for integrating the IPR manager among other things).
 - Update [validate-repo to monitor the repos of that org](https://github.com/w3c/validate-repos/blob/main/validate.js#L9).
