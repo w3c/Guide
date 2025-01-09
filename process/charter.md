@@ -41,6 +41,7 @@ Inform Strategy Team
 ### 1.2. Strategy Team role  {#strategy-team-role}
 
 When a new charter issue has been raised, the Strategy Team Lead assigns a staff member to shepherd the charter through the remainder of the process, the charter shepherd is the “assignee” of the issue in the pipeline. The Strategy Team typically discusses proposed charters at its regular meeting or on its mailing list. **Note:** If the Strategy Team Lead cannot identify a staff member, there may be delays in advancing the charter through subsequent reviews.
+{:#charter-shepherd}
 
 The [charter shepherd](#charter-shepherd) (on behalf of the Strategy Team) roles include:
 
@@ -49,15 +50,13 @@ Evaluate readiness
 
 Request advance notice to AC
 : If and when satisfied with the charter, raise awareness by
-requesting that the W3C Communications Team send an [advance notice to
-the W3C Advisory Committee](https://www.w3.org/policies/process/#WGCharterDevelopment);
-for details see [how to send advance notice of work to the Advisory
-Committee](adv-notice.md). Record in the [pipeline](#pipeline) issue
+requesting that the W3C Communications Team send an [advance notice to the W3C Advisory Committee](https://www.w3.org/policies/process/#WGCharterDevelopment);
+for details see [how to send advance notice of work to the Advisory Committee](adv-notice.md). Record in the [pipeline](#pipeline) issue
 that advance notice has been sent.  
 *Timing:* The exact timing of the advance notice may vary from charter to charter. In practice, if the advance notice would precede the formal call for review by only a short delay, we skip the advance notice.
 
 Request horizontal review
-: Soon after, or in parallel, initiate [horizontal review](../documentreview/#how_to_get_horizontal_review). This is done by adding the "[Horizontal review requested](https://github.com/w3c/strategy/labels/Horizontal%20review%20requested)" label to the issue in the [pipeline](#pipeline).  
+: Soon after, or in parallel, initiate [horizontal review](../documentreview/#how-to-get-horizontal-review). This is done by adding the "[Horizontal review requested](https://github.com/w3c/strategy/labels/Horizontal%20review%20requested)" label to the issue in the [pipeline](#pipeline).  
 *Timing:* Horizontal reviewers will usually respond within two weeks, though it is wise to allow for additional time. The charter shepherd may use the team-horizontal list to reach all the horizontal reviewers.  
 Horizontal reviews are not required for Groups that do not hold technical discussions, such as the Patents and Standards Interest Group.
 
@@ -67,8 +66,8 @@ Prepare for TiLT Review
 - *Chairs:* Per the [W3C Process](https://www.w3.org/policies/process/#ReqsAllGroups) the W3C Team appoints Working and Interest Group Chairs. It is the responsibility of the charter shepherd to propose one or more Chairs in the request for TiLT approval.
 
 Request approval from TiLT
-: When the charter shepherd is satisfied that as much progress as possible has been made, they [request approval from TiLT](./tilt/#request). Record in the [pipeline](#pipeline) issue that a TiLT decision has been requested. TiLT informs the charter shepherd of their decision in the [pipeline](#pipeline) issue.  
-*Timing:* Allow approximately 2 weeks, but see [Timing of responses from TiLT](./tilt/#timing) for details.
+: When the charter shepherd is satisfied that as much progress as possible has been made, they [request approval from TiLT](tilt/#request). Record in the [pipeline](#pipeline) issue that a TiLT decision has been requested. TiLT informs the charter shepherd of their decision in the [pipeline](#pipeline) issue.  
+*Timing:* Allow approximately 2 weeks, but see [Timing of responses from TiLT](tilt/#timing) for details.
 
 If approved, the charter shepherd works towards Advisory Committee Review.
 
@@ -80,7 +79,7 @@ Prepare for AC Review
 : Work with the W3C Communications Team to organize Advisory Committee review of a charter (see [implementation details for the review](#organize-cfr)).
 
 Monitor AC Review
-: Once the AC Review is underway, monitor responses and [manage any Formal Objections](../council/council). Ensure that the charter receives [sufficient support from the Membership](#baseline-support).  
+: Once the AC Review is underway, monitor responses and [manage any Formal Objections](../council/council.md). Ensure that the charter receives [sufficient support from the Membership](#baseline-support).  
 *Timing:*
    
   - [Per the W3C Process](https://www.w3.org/policies/process/#CharterReview), the review period is at least 28 days.
@@ -91,8 +90,8 @@ Manage changes resulting from review
 : As a result of review, make any requested very minor changes (in place) to the charter. If substantive changes are proposed, then initiate review of those proposed changes. In either case, the Team follows a process for [managing changes to charters after review](#manage-changes).
 
 Request approval from TiLT
-: Once the review has ended and [Formal Objections are addressed](../council/council), the charter shepherd [requests approval from TiLT](./tilt/#request). Record in the [pipeline](#pipeline) issue that a TiLT decision has been requested. TiLT informs the charter shepherd of their decision.  
-*Timing:* Allow approximately 2 weeks, but see [Timing of responses from TiLT](./tilt/#timing) for details.
+: Once the review has ended and [Formal Objections are addressed](../council/council.md), the charter shepherd [requests approval from TiLT](tilt/#request). Record in the [pipeline](#pipeline) issue that a TiLT decision has been requested. TiLT informs the charter shepherd of their decision.  
+*Timing:* Allow approximately 2 weeks, but see [Timing of responses from TiLT](tilt/#timing) for details.
 
 If approved, the charter shepherd then works with the W3C Communications Team to [announce the decision](#announce-decision).
 
@@ -104,13 +103,13 @@ In these processes, a group's [Team Contact](../teamcontact/role.md) typically p
 
 ### 2.1. Request for short-term extension  {#extension-request}
 
-The W3C Process describes the [charter extensions](https://www.w3.org/policies/process/#charter-extension) and when they may occur. No Advisory Committee review is required for short-term extensions. Since 2015, the Team has adopted a [policy on group charter end dates](charter-extensions): a charter may only be extended without AC review for six months or less, otherwise it must recharter.
+The W3C Process describes the [charter extensions](https://www.w3.org/policies/process/#charter-extension) and when they may occur. No Advisory Committee review is required for short-term extensions. Since 2015, the Team has adopted a [policy on group charter end dates](charter-extensions.md): a charter may only be extended without AC review for six months or less, otherwise it must recharter.
 
 For a short-term extension, the charter shepherd roles are:
 
 Request approval from TiLT
-: The charter shepherd [requests approval of the short extension by TiLT](./tilt/#request).  
-*Timing:* Allow approximately 2 weeks, but see [Timing of responses from TiLT](./tilt/#timing) for details.
+: The charter shepherd [requests approval of the short extension by TiLT](tilt/#request).  
+*Timing:* Allow approximately 2 weeks, but see [Timing of responses from TiLT](tilt/#timing) for details.
 
 Request extension notice
 : If the decision is positive, request that the W3C Communications Team [announce an extension](#announce-extension).
