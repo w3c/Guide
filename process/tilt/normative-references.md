@@ -21,7 +21,7 @@ There are several factors that the Team needs to consider as part of a stability
 
 Who produced the document?
 
-1. Is it produced by a group that the Team believes follows the [OpenStand principles](http://open-stand.org/principles/)?
+1. Is it produced by a group that the Team believes follows the [OpenStand principles](https://open-stand.org/about-us/principles/)?
 1. Is the normative version of the referenced document available in English? If not, is there an English translation?
 1. Is the referenced document available on the Web at no cost and without limitation?
 
