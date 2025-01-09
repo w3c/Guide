@@ -44,7 +44,7 @@ If the user selected an updated Candidate Recommendation Snapshot (the URL conta
 * `e4` will never get displayed since the scope of its parent element `d1` is `data-profile="CR"` (and a document can't be a CR and a REC at the same time).
 * `e5` will get displayed because, since there is no `data-profile` on that element, `data-rec` gets ignored. So `e5` is similar to `e1`.
 
-To find the possible values for each data attribute, look at the HTML option and input HTML elements in [the document](https://github.com/w3c/guide/blob/main/transitions/index.md#L12). Or, if you're looking for a particular document transition, use the form to select and see the values of the URL parameters.
+To find the possible values for each data attribute, look at the HTML option and input HTML elements in [the document](https://github.com/w3c/guide/blob/main/transitions/index.html#L12). Or, if you're looking for a particular document transition, use the form to select and see the values of the URL parameters.
 
 ## New W3C Process
 
