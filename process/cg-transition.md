@@ -3,7 +3,7 @@ title: How to transition work from a Community Group to a Working Group
 toc: yes
 ---
 
-From time to time a Community Group that has been [incubating a technology](../incubation.html) seeks to advance it to the W3C Recommendation track in a Working Group. Our goal through this document is to ease that transition.
+From time to time a Community Group that has been [incubating a technology](../incubation.md) seeks to advance it to the W3C Recommendation track in a Working Group. Our goal through this document is to ease that transition.
 
 ## Preparation
 
@@ -11,11 +11,11 @@ The following questions can help a Community Group to prepare for the transition
 
 ### Is the work ready for standardization?
 
-Please see elsewhere in the Guide: [W3C Recommendation Track Readiness Best Practices](https://www.w3.org/Guide/standards-track/).
+Please see elsewhere in the Guide: [W3C Recommendation Track Readiness Best Practices](../standards-track/).
 
 ### What is the target Working Group and the relation to the CG?
 
-If the Working Group does not yet exist, the Community Group can prepare by [drafting a Working Group charter](https://www.w3.org/Guide/process/charter.html). Otherwise, if the group exists but the new work is not within its scope W3C needs to [recharter the group](https://www.w3.org/Guide/process/charter.html) to accommodate the new work.
+If the Working Group does not yet exist, the Community Group can prepare by [drafting a Working Group charter](charter.md). Otherwise, if the group exists but the new work is not within its scope W3C needs to [recharter the group](charter.md) to accommodate the new work.
 
 The charter of the target Working Group should address two topics:
 
@@ -47,8 +47,8 @@ Once the work transitions to a Working Group, that Working Group's patent policy
 
 In many cases, Community Group participants will want to continue their involvement in discussions about a work after it has been transferred to a Working Group.
 
-- If a Community Group participant works for a [W3C Member](https://www.w3.org/Consortium/Member/list), the participant can ask their Advisory Committee Representative to join the Working Group.
-- Otherwise, please contact [Member Relations](mailto:membership@w3.org) to explore [W3C Membership](https://www.w3.org/Consortium/membership). During that exploration, [Community Group participants may continue participating in the Working Group as Invited Experts](https://www.w3.org/community/about/faq/#how-do-community-groups-make-it-easier-to-move-to-the-standards-track).
+- If a Community Group participant works for a [W3C Member](https://www.w3.org/membership/list/), the participant can ask their Advisory Committee Representative to join the Working Group.
+- Otherwise, please contact [Member Relations](mailto:membership@w3.org) to explore [W3C Membership](https://www.w3.org/membership/). During that exploration, [Community Group participants may continue participating in the Working Group as Invited Experts](https://www.w3.org/community/about/faq/#how-do-community-groups-make-it-easier-to-move-to-the-standards-track).
 
 ## Operations
 
@@ -76,8 +76,8 @@ Other repository admin for the target Working Group:
 Other repository admin for W3C staff.
 
 - Request that the systems team back up the org repositories.
-- Update or add LICENSE.md, CONTRIBUTING.md, CODE\_OF\_CONDUCT.md to reflect the new contribution framework.
-- Configure the repository with the [labels used for tracking horizontal reviews](https://www.w3.org/Guide/documentreview/#working_with_horizontal_review_labels)
+- Update or add `LICENSE.md`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` to reflect the new contribution framework.
+- Configure the repository with the [labels used for tracking horizontal reviews](../documentreview/#working_with_horizontal_review_labels).
 - If not already set up, make sure members of the `horizontal-admin` team have triage access to the repo.
 - Make w3cbot a co-owner of the org (useful for integrating the IPR manager among other things).
 - Update [validate-repo to monitor the repos of that org](https://github.com/w3c/validate-repos/blob/main/validate.js#L9).
