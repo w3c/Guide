@@ -15,7 +15,7 @@ If eventual timescales to Recommendation are unpredictable, should milestones be
 
 ### Reading this document  {#this}
 
-While the technical work undertaken by W3C is very diverse and hard to generalize, non-technical aspects such as required review periods mandated by the Process Document \[[PROCESS](/policies/process/)] or the W3C Patent Policy \[[W3CPP](/policies/patent-policy/)] are common to all work. The main focus of this document is therefore on the required periods of time needed for the non-technical work. Understanding these avoids producing initial milestones which are unreasonably short and thus, inevitably destined to 'fail'. Alongside each of these time periods, tips are given on how to minimize delays.
+While the technical work undertaken by W3C is very diverse and hard to generalize, non-technical aspects such as required review periods mandated by the Process Document \[[PROCESS](https://www.w3.org/policies/process/)] or the W3C Patent Policy \[[W3CPP](https://www.w3.org/policies/patent-policy/)] are common to all work. The main focus of this document is therefore on the required periods of time needed for the non-technical work. Understanding these avoids producing initial milestones which are unreasonably short and thus, inevitably destined to 'fail'. Alongside each of these time periods, tips are given on how to minimize delays.
 
 This document aims to collect together some of that experience so that new Chairs, Team Contacts, and Advisory Committee representatives can:
 
@@ -36,21 +36,21 @@ This document is an informal guide to predicting the likely duration of Recommen
 
 ## Preparatory work  {#prep}
 
-The first set of milestones are drawn up before work starts, and put in an initial charter. In this phase, an idea is firmed up from "hey we could do this" to a fully fledged, chartered Working Group. If the work is entirely new, or would take an existing group in a radical new direction, the Process Document [requires](/policies/process/#WGCharterDevelopment) that Advance Notice be sent to the AC. Often, an initial draft charter is sent along with this notice (but this is not required). The aim here is to avoid surprises, to quickly gather brainstorming-type feedback, and to get buy-in on the proposed direction from likely members of the eventual Working Group.
+The first set of milestones are drawn up before work starts, and put in an initial charter. In this phase, an idea is firmed up from "hey we could do this" to a fully fledged, chartered Working Group. If the work is entirely new, or would take an existing group in a radical new direction, the Process Document [requires](https://www.w3.org/policies/process/#WGCharterDevelopment) that Advance Notice be sent to the AC. Often, an initial draft charter is sent along with this notice (but this is not required). The aim here is to avoid surprises, to quickly gather brainstorming-type feedback, and to get buy-in on the proposed direction from likely members of the eventual Working Group.
 
 > Time: Advance Notice
 : There is no set period for Advance Notice, but four weeks is a typical minimum period.
 {:.time}
 
->Tips: Advance Notice
+> Tips: Advance Notice
 : When developing materials for an advance notice, try to strike a balance between fast (but overly sketchy and vague) and thorough (but slow, maybe over-detailed or over-constraining).
 >
   If work has been prepared beforehand in a Community group, or formalizes existing, industry standard practices, then an Advance Notice might be skipped.
- {:.tip}
+{:.tip}
 
 The results from Advance Notice may indicate broad consensus on the proposed direction (if so, proceed rapidly to a formal charter review). Or they may indicate disagreement on the best direction forward (in which case, iterate). Some commentors may want a fast development of an initial version, while others may want a fully fledged solution.
 
-> Tip: Advance Notice Feedback
+> Tips: Advance Notice Feedback
 : If feedback indicates disagreement on scope, consider proposing both a fast initial version *and* a requirements gathering and drafting item for a full-featured second version. This can help avoid delays due to disagreements on scope.
 {:.tip}
 
@@ -60,7 +60,7 @@ Once broad agreement is reached, a draft charter is created (or updated, if one 
 : There is no set period for W3M review, but two reviewers are needed and two weeks is a typical minimum period.
 {:.time}
 
->Tips: W3M review
+> Tips: W3M review
 : One of the reviewers can be the Domain leader, who should already be familiar with the proposed work from Team discussions. This can lead to faster and more thorough review.
 >
   The draft charter must indicate a proposed chair. Save time by identifying likely chairs during the Advance Notice period.
@@ -70,7 +70,7 @@ Once broad agreement is reached, a draft charter is created (or updated, if one 
   Clearly distinguish in the charter between Groups with a formal dependency, and other related groups. This distinction will be important during Candidate Recommendation.
 {:.tip}
 
-Once review comments from W3M have been incorporated into the charter, it is [sent to the AC for review](/policies/process/#CharterReview).
+Once review comments from W3M have been incorporated into the charter, it is [sent to the AC for review](https://www.w3.org/policies/process/#CharterReview).
 
 > Time: AC review
 : There is no set period for AC review, but four weeks is a typical minimum period followed by two to four weeks to incorporate feedback and to make the decision to charter the proposed Working Group.
@@ -86,7 +86,7 @@ Once review comments from W3M have been incorporated into the charter, it is [se
 
 ## Starting the Group  {#wg-startup}
 
-Once the decision to start the Working Group has been communicated to the AC, participants can join. This may take some time, particularly if participants need to perform a legal review of the work items (for example, to review their patent portfolio in light of the [W3C Royalty-Free commitment](/policies/patent-policy/#sec-Requirements)). In the case of a new group, some or all of the participants may be unfamiliar with W3C processes and tools (such as IRC, phone conferencing, issue tracking, version control). The Chair and Staff Contact take a lead role in getting a new group up to productive speed.
+Once the decision to start the Working Group has been communicated to the AC, participants can join. This may take some time, particularly if participants need to perform a legal review of the work items (for example, to review their patent portfolio in light of the [W3C Royalty-Free commitment](https://www.w3.org/policies/patent-policy/#sec-Requirements)). In the case of a new group, some or all of the participants may be unfamiliar with W3C processes and tools (such as IRC, phone conferencing, issue tracking, version control). The Chair and Staff Contact take a lead role in getting a new group up to productive speed.
 
 > Time: WG startup
 :  There is no set period after which a Group becomes productive. Experienced participants with a capable Chair and Team Contact, working on a new version of an existing specification, can be productive immediately. A new group with participants new to W3C, working in a new area which is rife with intellectual property concerns, may take several months to become productive.
@@ -115,7 +115,7 @@ Once the decision to start the Working Group has been communicated to the AC, pa
 A face to face meeting can be a helpful way to build social bonds and to start off new work. For a newly chartered group, there is a minimum notice period for a first meeting.
 
 > Time: First f2f meeting
-: There is a set minimum period of [eight weeks](/policies/process/#GeneralMeetings) for announcement of a face to face meeting.
+: There is a set minimum period of [eight weeks](https://www.w3.org/policies/process/#GeneralMeetings) for announcement of a face to face meeting.
 {:.time}
 
 > Tips: First f2f meeting
@@ -129,7 +129,7 @@ A face to face meeting can be a helpful way to build social bonds and to start o
 The First Public Working Draft is an important milestone. It makes concrete the proposed work. It is an opportunity to publicize the work of the Group. This is also a legal milestone; FPWD triggers a patent exclusion period for all features that are in that document. Features *added afterwards* are not covered until the work progresses to a Last Call. There is therefore a balance to be struck between speed and feature completeness (at least an outline of the features; details of syntax and specification for a given feature can be altered later).
 
 > Time: Exclusion period for FPWD
-: Announcement of an open exclusion period, immediately after publication of FPWD, triggers an [exlusion period of 150 days](/policies/patent-policy/#sec-exclusion-with).
+: Announcement of an open exclusion period, immediately after publication of FPWD, triggers an [exlusion period of 150 days](https://www.w3.org/policies/patent-policy/#sec-exclusion-with).
 {:.time}
 
 > Tips: Exclusion period for FPWD
@@ -200,7 +200,7 @@ Each Candidate Recommendation review comment must be documented, the changes mad
 
 ## Transition to CR  {#transition-cr}
 
-Once the Disposition of Comments shows that all wide review comments have been handled, your Group can request a transition to Candidate Recommendation. At that meeting, besides checking the responses and looking for outstanding disagreement, you will be asked which [features are at risk](/policies/process/#candidate-rec), what the CR exit criteria are, and to give a [mimimum time for CR](/policies/process/#candidate-rec). The purpose of that minimum time is to allow other implementers, perhaps unknown to the group, to contribute their implementation feedback.
+Once the Disposition of Comments shows that all wide review comments have been handled, your Group can request a transition to Candidate Recommendation. At that meeting, besides checking the responses and looking for outstanding disagreement, you will be asked which [features are at risk](https://www.w3.org/policies/process/#candidate-rec), what the CR exit criteria are, and to give a [mimimum time for CR](https://www.w3.org/policies/process/#candidate-rec). The purpose of that minimum time is to allow other implementers, perhaps unknown to the group, to contribute their implementation feedback.
 
 Although having a Test Suite and an Implementation report at this stage is not required, it is highly recommended. Firstly, if the report shows implementation of each feature by at least two independent implementations, it is possible to exit CR quickly (a Call for Exclusion might delay a bit). Secondly, an early Implementation report helps to identify features which are currently not well implemented so that the Group can discuss whether these features need to be marked as 'at risk'.
 
@@ -221,7 +221,7 @@ This section assumes that the earlier tips were followed and you have a test sui
 Publication of a Candidate Recommendation triggers an Exclusion period on all features which were not in the preceding First Public Working Draft (or previous Candidate Recommendation, if there was one).
 
 > Time: Exclusion period for Candidate Recommendation
-: Announcement of an open exclusion period, immediately after publication of Candidate Recommendation, triggers an exclusion period of [60 days](/policies/patent-policy/#sec-exclusion-with).
+: Announcement of an open exclusion period, immediately after publication of Candidate Recommendation, triggers an exclusion period of [60 days](https://www.w3.org/policies/patent-policy/#sec-exclusion-with).
 {:.time}
 
 > Tips: Exclusion period for Candidate Recommendation
@@ -256,7 +256,7 @@ Exiting the Candidate Recommendation phase can be triggered by:
 Following a successful transition call where the CR exit criteria were demonstrated to have been met, the next stage is Proposed Recommendation. This review period is not expected to raise substantive technical issues.
 
 > Time: PR Duration
-: The minimum duration for the PR review period is [four weeks](/policies/process/#rec-pr), followed by two weeks for a W3C decision. If the review period spans the July/August or December holiday periods, more time is typically added.
+: The minimum duration for the PR review period is [four weeks](https://www.w3.org/policies/process/#rec-pr), followed by two weeks for a W3C decision. If the review period spans the July/August or December holiday periods, more time is typically added.
 {:.time}
 
 > Tips: Minimising delay during PR
@@ -271,7 +271,7 @@ Following a successful transition call where the CR exit criteria were demonstra
 
 ## Recommendation  {#rec}
 
-Congratulations. Now start collecting [errata](/policies/process/#errata) for the Recommendation, and working on v.next.
+Congratulations. Now start collecting [errata](https://www.w3.org/policies/process/#errata) for the Recommendation, and working on v.next.
 
 ## Dealing with the calendar  {#calendar}
 

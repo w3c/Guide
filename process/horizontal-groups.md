@@ -3,7 +3,7 @@ title: Horizontal Groups
 toc: true
 ---
 
-The W3C Process mentions the [W3C horizontal Groups](/policies/process/#wide-review), described in this document.
+The W3C Process mentions the [W3C horizontal Groups](https://www.w3.org/policies/process/#wide-review), described in this document.
 
 ## 1. What is an horizontal group ? {#definition}
 
@@ -25,5 +25,5 @@ Some expert groups outside of W3C may also provide an horizontal review. Charter
 
 ## 4. Horizontal Reviews {#horizontal-review}
 
-Horizontal reviews are documented and part of the [wide review](/Guide/documentreview/).
+Horizontal reviews are documented and part of the [wide review](../documentreview/).
   
