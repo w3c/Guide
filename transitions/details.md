@@ -1,5 +1,6 @@
 ---
 title: Organize a Recommendation Track Transition (Details)
+submenu: [publication-policies]
 toc: false
 ---
 This document explains the processes W3C uses internally to prepare and carry out a transition of a document on the Recommendation Track. This document complements the "[Organize a Technical Report Transition](./)". Please refer to the latest version of "Organize a Technical Report Transition" with this URI: `https://www.w3.org/guide/transitions/`.
