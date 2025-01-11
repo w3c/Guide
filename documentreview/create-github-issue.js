@@ -43,7 +43,7 @@ function generateGitHubIssueBody() {
   });
 
   return `This is a meta issue to track wide review steps for the specification.
-See [How to do wide review](https://www.w3.org/Guide/documentreview/#who-to-ask-for-wide-review) for details.
+See [How to do wide review](https://www.w3.org/guide/documentreview/#who-to-ask-for-wide-review) for details.
 
 - [ ] the groups listed in the WG's charter, especially those who manage dependencies
 - [ ] the groups jointly responsible for a particular document (if any).

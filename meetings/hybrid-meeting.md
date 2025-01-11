@@ -185,7 +185,7 @@ Essential to have a fall-back video conference option that can be activitied.
 
 ## Tooling & Support
 
-@@@provide some tooling recommendation. See also https://github.com/w3c/w3process/issues/435 for ongoing Process CG discussion, https://github.com/w3c/Guide/issues/78 in the Continuity conversation, and https://github.com/w3c/AB-memberonly/issues/30 in the AB rules/best-practices for tools discussion.
+@@@provide some tooling recommendation. See also https://github.com/w3c/w3process/issues/435 for ongoing Process CG discussion, https://github.com/w3c/guide/issues/78 in the Continuity conversation, and https://github.com/w3c/AB-memberonly/issues/30 in the AB rules/best-practices for tools discussion.
 
 ?Are there any unique requirements or desiderata for the new group calendar system to support hybrid meetings?
 

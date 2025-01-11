@@ -23,5 +23,5 @@ The Webex Host should make sure Webex Assistant is turned off at the start of a 
 
 ## Changelog {#status}
 
-- See [commits history](https://github.com/w3c/Guide/commits/main/meetings/transcripts.md)
+- See [commits history](https://github.com/w3c/guide/commits/main/meetings/transcripts.md)
 - See also [w3process #334](https://github.com/w3c/process/issues/334)
