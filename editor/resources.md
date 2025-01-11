@@ -41,7 +41,7 @@ toc: true
 ### Teleconfs
 
 * Zoom:
-  * [Zoom](https://www.w3.org/Guide/meetings/zoom)
+  * [Zoom](../meetings/zoom.md)
 * Minutes taking by IRC:
   * [IRC HOWTO](https://www.w3.org/Project/IRC/)
   * [Zakim HOWTO](https://www.w3.org/2001/12/zakim-irc-bot.html)
