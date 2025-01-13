@@ -1,10 +1,6 @@
 title: W3C Guidebook
 baseurl: /guide
 remote_theme: w3c/w3c-jekyll-theme
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: false
 defaults:
   -
     scope:
