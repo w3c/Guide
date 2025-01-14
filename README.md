@@ -50,4 +50,4 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
   * How to use Git and GitHub at W3C.
   * This repository is not exposed through [the Guidebook](https://www.w3.org/guide/).
 
-Note: now that we have a repository for the guidebook, simply add your documentation into it rather than creating new repositories.
+Note: now that we have a repository for the guidebook, simply add your documentation to it, rather than creating new repositories.
