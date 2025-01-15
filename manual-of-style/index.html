@@ -3,32 +3,34 @@
 <head>
   <meta charset="utf-8">
   <title>W3C Manual of Style</title>
-  <script src='https://www.w3.org/Tools/respec/respec-w3c' async class='remove'>
+  <script src='https://www.w3.org/Tools/respec/respec-w3c.js' async class='remove'>
   </script>
-    <script class='remove'>
-  var respecConfig = {
-        specStatus: "base",
-        editors: [{
+  <script class='remove'>
+    var respecConfig = {
+      specStatus: "base",
+      editors: [
+        {
           name: "Philippe Le Hegaret",
           url: "https://www.w3.org/People/LeHegaret",
-        },{
+        },
+        {
           name: "Coralie Mercier",
           url: "https://www.w3.org/People/Coralie",
-        }],
-        edDraftURI: "https://w3c.github.io/manual-of-style/",
-         license: 'w3c-software-doc',
-         github: "https://github.com/w3c/manual-of-style/",
-    otherLinks: [{
-      key: 'Mailing list',
-      data: [{
-        value: 'spec-prod@w3.org',
-        href: 'https://lists.w3.org/Archives/Public/spec-prod/'
-      }]
-    }],
-    xref: [ "i18n-glossary" ]
-  };
+        }
+      ],
+      edDraftURI: "https://www.w3.org/guide/manual-of-style/",
+      license: 'w3c-software-doc',
+      github: "w3c/guide",
+      otherLinks: [{
+        key: 'Mailing list',
+        data: [{
+          value: 'spec-prod@w3.org',
+          href: 'https://lists.w3.org/Archives/Public/spec-prod/'
+        }]
+      }],
+      xref: [ "i18n-glossary" ]
+    };
   </script>
-
 </head>
 
 <body>
@@ -43,7 +45,7 @@ Publication Rules</a>.</p>
 <section id="sotd">
 
 </section>
-<section  id="Introduction">
+<section id="Introduction">
 <h2>Introduction</h2>
 
 <p>Written for editors and authors of W3C technical reports, this
@@ -123,11 +125,11 @@ that documents are valid before requesting publication.</p>
 <h2>Accessibility</h2>
 
 <ul>
-<li>Follow the <cite><a href="https://www.w3.org/WAI/intro/wcag.php">Web Content Accessibility Guidelines</a></cite>
+<li>Follow the <cite><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines</a></cite>
 (<abbr>WCAG</abbr>). Can
 simpler words express your ideas? Is your text marked up with
 structural elements? Are alternatives provided for auditory and visual
-content? See also <a href="https://www.w3.org/WAI/eval/Overview.html">evaluation tools</a>.</li>
+content? See also <a href="https://www.w3.org/WAI/test-evaluate/">evaluation tools</a>.</li>
 </ul>
 </section>
 <section id="I18n">
@@ -146,7 +148,7 @@ content? See also <a href="https://www.w3.org/WAI/eval/Overview.html">evaluation
 		<li>Avoid idioms that are U.S.- or English-specific in favor of more neutral language.</li>
 		<li>Choose examples that reflect a global audience. For example:
 		<ul>
-			<li>When creating user stories or other examples that feature people, choose example names that come from different cultures and regions. You can find suggestions <a href="https://www.w3.org/TR/international-specs#personal_name_examples">here</a> in [[INTERNATIONAL-SPECS]].</li>
+			<li>When creating user stories or other examples that feature people, choose example names that come from different cultures and regions. You can find suggestions <a href="https://www.w3.org/TR/international-specs/#personal_name_examples">here</a> in [[INTERNATIONAL-SPECS]].</li>
 			<li>Choose more generic terms for field names, such as "postal code" instead of (U.S.-specific) "ZIP code" or "given name" instead of "first name".</li>
 		</ul>
 		<li>In general, use [=locale-neutral=] representations of data values, such as dates, numbers, currency values, and so forth.</li>
@@ -156,7 +158,7 @@ content? See also <a href="https://www.w3.org/WAI/eval/Overview.html">evaluation
 		<li id="Dates">For time and date values, choose an unambiguous representation:
 		<ul>
 			<li>For date values that appear in prose, spell out the month (for example, <kbd>6 May 2003</kbd> or <kbd>September 23, 2016</kbd>). All numeric dates such as <kbd translate="no">5/6/03</kbd> or <kbd translate="no">6/5/03</kbd> are ambiguous. Some cultures will read the first example as "June 5" while other cultures will read the second example as that date.</li>
-			<li>For date values that appear in data, use a format derived from ISO8601, such as those found in [[RFC3339]] or those found in <cite><a href="http://www.w3.org/TR/2001/REC-xmlschema-2-20010502/#date" title="Section 3.2.9 of the XML Schema Datatypes">XML Schema Part 2: Datatypes</a></cite> ([[XMLSchema-2]].</li>
+			<li>For date values that appear in data, use a format derived from ISO8601, such as those found in [[RFC3339]] or those found in <cite><a href="https://www.w3.org/TR/2004/REC-xmlschema-2-20041028/#date" title="Section 3.2.9 of the XML Schema Datatypes">XML Schema Part 2: Datatypes</a></cite> ([[XMLSchema-2]].</li>
 		</ul></li>
 	</ul>
 </section>
@@ -294,7 +296,7 @@ markup instead.</p>
 <h2>The Parts of a Technical Report</h2>
 
 <p id="Template">As of November 2005, <a href=
-"/Guide/pubrules">pubrules</a> [<cite><a href=
+"/pubrules/doc">pubrules</a> [<cite><a href=
 "#ref-PUBRULES">PUBRULES</a></cite>] includes a technical report
 template.</p>
 
@@ -480,7 +482,7 @@ Recommendation is affected.</li>
 conformance of documents or software</li>
 
 <li>Any normative corrections; see the section on <a href=
-"https://www.w3.org/2023/Process-20231103/#errata">Errata
+"https://www.w3.org/policies/process/20231103/#errata">Errata
 Management</a> in the <cite>W3C Process Document</cite>
 ([<cite><a href="#ref-PROCESS">PROCESS</a></cite>] section 6.2.4) for
 more information about normative corrections</li>
@@ -496,7 +498,7 @@ to be incorrect, just add another entry (with a cross reference).</p>
 <section id="extractor">
   <h3>Bibliography Extractor</h3>
 
-<p>The <a href="http://www.specref.org/">SpecRef</a> tool, an Open-Source, Community-Maintained Database of
+<p>The <a href="https://www.specref.org/">SpecRef</a> tool, an Open-Source, Community-Maintained Database of
 Web Standards &amp; Related References, contains an exhaustive of references.</p>
 
 <p>The <cite><a href=
@@ -644,7 +646,7 @@ href="https://www.w3.org/TR/2016/REC-html51-20161101/"&gt;http://www.w3.org/TR/1
   <h3>Normative and Informative
 References</h3>
 
-<p>See <a href="https://www.w3.org/Guide/process/tilt/normative-references.html">Normative References</a> and considerations by the Team.</p>
+<p>See <a href="https://www.w3.org/guide/process/tilt/normative-references.html">Normative References</a> and considerations by the Team.</p>
 
 </section>
 </section>
@@ -652,7 +654,7 @@ References</h3>
   <h2>Revisions</h2>
 
 <p>See the <cite><a href=
-"https://www.w3.org/2023/Process-20231103/#rec-modify">W3C Process
+"https://www.w3.org/policies/process/20231103/#rec-modify">W3C Process
 Document</a></cite> ([<cite><a href="#ref-PROCESS">PROCESS</a></cite>]
 section 6.3.11) for instructions on modifying a W3C Recommendation.</p>
 
@@ -775,8 +777,8 @@ W3C <abbr title="Uniform Resource Identifier">URI</abbr> to invoke
 W3C's spell checker.</li>
 
 <li>Free dictionaries are also available on the <a title=
-"Ispell home page at UCLA" href=
-"http://fmg-www.cs.ucla.edu/fmg-members/geoff/ispell.html">Ispell home
+"Ispell home page" href=
+"https://www.cs.hmc.edu/~geoff/ispell-dictionaries.html">Ispell home
 page</a> [<cite><a href="#ref-ISPELL">ISPELL</a></cite>] for UNIX and
 the <a title="Excalibur home page at Bucknell" href=
 "http://www.eg.bucknell.edu/~excalibr/excalibur.html">Excalibur home
@@ -910,7 +912,7 @@ copyrighted materials, it should contact the Team legal staff (team-legal@w3.org
 <li>
 <p>Use <abbr title="Cascading Style Sheets">CSS</abbr> with
 <code>div</code> elements to mark up examples, as is done in the
-<a href="https://www.w3.org/TR/html51/document-metadata.html#example-2ced58ee"
+<a href="https://html.spec.whatwg.org/multipage/semantics.html#document-metadata"
 title="Section 4.2. Document metadata">HTML 5.1</a>
 ([<cite><a href="#ref-HTML">HTML</a></cite>], section
 4.2):</p>
@@ -933,7 +935,7 @@ sheets, or a user style sheet that specifies a dark background).</li>
 <li>Match image size to markup <code>width</code> and
 <code>height</code> (or images will be distorted).</li>
 
-<li>See the <a href="https://www.w3.org/TR/WCAG20-GENERAL/">Web Content Accessibility
+<li>See the <a href="https://www.w3.org/TR/WCAG20-TECHS/">Web Content Accessibility
 Guidelines Techniques</a> for information about providing alternative
 text (<code>alt</code>) and long descriptions (<code>longdesc</code>)
 for images. Also, don't forget to spell-check your alternative
@@ -1396,9 +1398,9 @@ is available at https://www.ietf.org/rfc/rfc2606.txt.</dd>
 
 <dt id="ref-EDITORS">[EDITORS]</dt>
 
-<dd><a href="https://www.w3.org/Guide/editor/">W3C Editors Home
+<dd><a href="https://www.w3.org/guide/editor/">W3C Editors Home
 Page</a>, 2024. This list of resources for editors is on-line at
-https://www.w3.org/Guide/editor/.</dd>
+https://www.w3.org/guide/editor/.</dd>
 
 <dt id="ref-GRM">[GRM]</dt>
 
@@ -1424,9 +1426,9 @@ https://www.ietf.org/rfc/rfc2119.txt.</dd>
 
 <dt id="ref-M-W">[M-W]</dt>
 
-<dd><cite><a href="http://www.m-w.com/">Merriam-Webster OnLine:
+<dd><cite><a href="https://www.merriam-webster.com/">Merriam-Webster OnLine:
 Collegiate Dictionary</a></cite>, 10th Edition. Merriam-Webster,
-Incorporated, 2000. This book is on-line at http://www.m-w.com.</dd>
+Incorporated, 2000. This book is on-line at https://www.merriam-webster.com/.</dd>
 
 <dt id="ref-MANAGE">[MANAGE]</dt>
 
@@ -1452,7 +1454,7 @@ http://xml.coverpages.org/properSpellingForPluralOfDTD.html.</dd>
 
 <dt id="ref-PROCESS">[PROCESS]</dt>
 
-<dd><cite><a href="https://www.w3.org/2023/Process-20231103/">World
+<dd><cite><a href="https://www.w3.org/policies/process/20231103/">World
 Wide Web Consortium Process Document</a></cite>, Elika J. Etemad / fantasai,
 Florian Rivoal, Editors.
 W3C, 3 November 2023. The latest version of this document is
@@ -1468,10 +1470,10 @@ https://lists.w3.org/Archives/Public/www-international/2000AprJun/0058.</dd>
 
 <dt id="ref-PUBRULES">[PUBRULES]</dt>
 
-<dd><cite><a href="https://www.w3.org/Guide/pubrules">Technical Report
+<dd><cite><a href="https://www.w3.org/pubrules/doc">Technical Report
 Publication Policy</a></cite>, the W3C Team. W3C,
-2000-2017. This document is on-line at
-https://www.w3.org/Guide/pubrules.</dd>
+2000-2025. This document is on-line at
+https://www.w3.org/pubrules/doc.</dd>
 
 <dt id="ref-REF-TITLES">[REF-TITLES]</dt>
 
@@ -1496,10 +1498,10 @@ https://lists.w3.org/Archives/Public/www-tag/2006Aug/0012.</dd>
 <dt id="ref-SPEC-PROD">[SPEC-PROD]</dt>
 
 <dd>spec-prod@w3.org. W3C, 1998-2001. <a href=
-"https://www.w3.org/Mail/Lists">Subscribe</a> to this public mailing
-list at http://www.w3.org/Mail/Lists and view its <a href=
+"https://lists.w3.org/Archives/Public/">Subscribe</a> to this public mailing
+list at https://lists.w3.org/Archives/Public/ and view its <a href=
 "https://lists.w3.org/Archives/Public/spec-prod/">archive</a> at
-https://lists.w3.org/Archives/Public/spec-prod.</dd>
+https://lists.w3.org/Archives/Public/spec-prod/.</dd>
 
 <dt id="ref-STYLE-GUIDE">[STYLE-GUIDE]</dt>
 
