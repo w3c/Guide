@@ -1,0 +1,12 @@
+title: W3C Guidebook
+baseurl: /guide
+remote_theme: w3c/w3c-jekyll-theme
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+exclude: ["README.md", "**/README.md"]
+toc:
+  max_level: 3
