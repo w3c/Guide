@@ -17,32 +17,32 @@ The general edition of the Guidebook is managed by [@w3c/guidebook](https://gith
 
 ## In this repository
 
-* [/chair/](tree/main/chair)
+* [/chair/](chair)
   * Instructions on how to chair WGs and IGs including managing meetings, setting up the homepage, maintaining the calendar.
-* [/council/](tree/main/council)
+* [/council/](council)
   * Anything related to councils.
-* [/documentreview/](tree/main/documentreview)
+* [/documentreview/](documentreview)
   * How to do wide review.
-* [/editor/](tree/main/editor)
+* [/editor/](editor)
   * How to author a specification, including ReSpec or other spec making programs.
-* [/manual-of-style/](tree/main/manual-of-style)
+* [/manual-of-style/](manual-of-style)
   * The W3C Manual of Style for editors.
-* [/meetings/](tree/main/meetings)
+* [/meetings/](meetings)
   * Anything related to organizing meetings, including events.
-* [/process/](tree/main/process)
+* [/process/](process)
   * Anything related to additional guidelines when following the process.
   * You may involve [@w3c/w3process-editors](https://github.com/orgs/w3c/teams/w3process-editors).
-* [/process/tilt/](tree/main/process/tilt)
+* [/process/tilt/](process/tilt)
   * Anything related to technical Team decision and verification, except for transitions.
   * Managed by [@w3c/tilt](https://github.com/orgs/w3c/teams/tilt)
-* [/standards-track/](tree/main/standards-track).
+* [/standards-track/](standards-track).
   * Best Practices for Bringing Work to the W3C Recommendation Track.
-* [/teamcontact/](tree/main/teamcontact)
+* [/teamcontact/](teamcontact)
   * Guidance on the role of the team contact, and what to expect from them.
-* [/transitions/](tree/main/transitions)
+* [/transitions/](transitions)
   * Organize a Technical Report Transition.
   * Managed by [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions).
-* [/other/](tree/main/other)
+* [/other/](other)
   * Related to [permanent groups](https://www.w3.org/groups/).
 
 # Related repositories
