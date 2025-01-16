@@ -64,7 +64,7 @@ The Team Contact is also charged with representing the views of the Team to the 
 - *Assist* Chair in coordinating with other W3C groups as needed.
 - *Ensure* liaisons between Group and other W3C groups are assigned as needed.
 - \[*Active Role*] Coordinate with the Systems Team to ensure that Chair and group Editors have appropriate access to the W3C site, and that their access works, e.g. GitHub.
-- *Ensure* that Group editors understand how to use [GitHub at W3C](https://w3c.github.io/).
+- *Ensure* that Group editors understand how to use [GitHub at W3C](../github/).
 - *Ensure*, before publishing any Group document in W3C/TR space, that it is:
   
   1. Being published properly (see [Pubrules](https://www.w3.org/pubrules/)).

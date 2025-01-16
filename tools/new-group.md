@@ -16,17 +16,17 @@ Having an administrivia repository allows to track and maintain potential non-te
 - homepage
 - etc.
 
-For this repository, you may use the naming convention ***`w3c/{shortname}{type}`***, such as ***`w3c/privacywg`***. Don't forget to set the [`w3c.json` file](https://w3c.github.io/w3c.json.html) appropriately (***`repo-type: "project"`***).
+For this repository, you may use the naming convention ***`w3c/{shortname}{type}`***, such as ***`w3c/privacywg`***. Don't forget to set the [`w3c.json` file](../github/w3c.json.md) appropriately (***`repo-type: "project"`***).
 
 ## 2. Group homepage {#homepage}
 
 By default, the W3C website will have a homepage for the Group, maintained by various W3C systems and accessible through the [Group pages](https://www.w3.org/groups/). For simplicity and ease of maintenance, we recommend that you point your participants to that group page. Additional links can be added by the Team in the "Tools" page of the Group if needed.
 
-However, if your group do feel the need to maintain a dedicated homepage, place it in your group administrivia repository and ask to expose it through w3.org as a proxy (Team should look at [W3C Web rewrites system](https://www.w3.org/2019/03/rewrites-doc.html)). Don't forget to set the [`w3c.json` file](https://w3c.github.io/w3c.json.html) appropriately (***`repo-type: "homepage"`***).
+However, if your group do feel the need to maintain a dedicated homepage, place it in your group administrivia repository and ask to expose it through w3.org as a proxy (Team should look at [W3C Web rewrites system](https://www.w3.org/2019/03/rewrites-doc.html)). Don't forget to set the [`w3c.json` file](../github/w3c.json.md) appropriately (***`repo-type: "homepage"`***).
 
 ## 3. Github repositories {#repositories}
 
-All GitHub repositories used by the group must indicate so, using the [`w3c.json` file](https://w3c.github.io/w3c.json.html) in those repositories. If you do not use the GitHub 'w3c' organization, make sure the Team associates your GitHub organization in the 'Version Control' entry of the Tools page (Team may modify those entries using the [admin](https://w3.org/admin) interface) and the tooling will associate *by default* all of the repositories in your GitHub organization to your group.
+All GitHub repositories used by the group must indicate so, using the [`w3c.json` file](../github/w3c.json.md) in those repositories. If you do not use the GitHub 'w3c' organization, make sure the Team associates your GitHub organization in the 'Version Control' entry of the Tools page (Team may modify those entries using the [admin](https://www.w3.org/admin) interface) and the tooling will associate *by default* all of the repositories in your GitHub organization to your group.
 
 Make sure the license and code of conduct files are there (Team, you may use the [repository manager](https://labs.w3.org/repo-manager/) to create those).
 
