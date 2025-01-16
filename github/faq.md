@@ -63,9 +63,8 @@ It is best to avoid these services and to either keep all documents that need to
 
 In the past, some groups used [RawGit](https://rawgit.com/) to serve their HTML documents with the appropriate MIME type, and from more than one branch (because of [these limitations of GitHub Pages](#drafts)). That service (RawGit) is now defunct.
 
-Nowadays, if you absolutely need such a service, we would probably suggest the following two options  — with the caveat that *it is just a recommendation that comes with no support nor guarantee*, since we do *not* control these services:
+Nowadays, if you absolutely need such a service, we would probably suggest the following options  — with the caveat that *it is just a recommendation that comes with no support nor guarantee*, since we do *not* control these services:
 
-- [Staticaly](https://www.staticaly.com/). By default, staticaly's cache is set for *1 year*, except for the files under the `main` branch. If you need the latest changes, you may append the following query string `?env=dev` to the URL.
 - [raw.githack.com](https://raw.githack.com/). The UI of this service gives you URLs for production (1 year cache, no traffic limit) and development (changes reflected within minutes, low-traffic only) you can use depending on your needs. **Note**: this service does warn that excessive traffic to development URLs will be throttled, so use it with caution.
 
 The reason to opt for the services above is that others, like [HTMLPreview](https://htmlpreview.github.io/), either rely on client-side JavaScript to generate the page dynamically, are limited to GH repositories only, or alter the pages or the links within them in some way.
