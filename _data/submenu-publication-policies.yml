@@ -11,9 +11,6 @@ pages:
 - title: Version Management in W3C Technical Reports
   url: https://www.w3.org/2005/05/tr-versions
 
-- title: Guidelines for linking to disclosure pages
-  url: https://www.w3.org/2005/07/13-pubrules-disclosure
-
 - title: URIs for W3C Namespaces
   url: https://www.w3.org/2005/07/13-nsuri
 
