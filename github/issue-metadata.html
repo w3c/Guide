@@ -203,7 +203,7 @@ function luminance(r, g, b) {
 // Populate label descriptions.
 (async function() {
   /** @type {Array} */
-  const labels = await (await fetch("common-labels.json")).json();
+  const labels = await (await fetch("https://w3c.github.io/common-labels.json")).json();
 
   // Populate simple labels.
   for (const dt of document.querySelectorAll("[data-label]")) {
