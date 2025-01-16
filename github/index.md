@@ -41,7 +41,7 @@ Repositories under the W3C organization may represent the work of Working Groups
 : Because work that happens on GitHub is spread out across many repositories, it can be challenging to remain informed about what's going on. Midgard helps there by filtering the data into mailboxes so that you can for instance get all the events for WebRTC repositories. Log in there with your W3C credentials, and just start using it. Note: it does not at this time have many filters and it is likely that your area of interest may not yet have one. If you wish to add one (which is easy) you should read [the documentation on Pheme filters](https://github.com/w3c/midgard/blob/master/DEVELOPMENT.md#libfilterseventsjs).
 
 [The `w3c.json` file](w3c.json.md)
-: This is a small metadata file that is recommended for GitHub repositories under the `w3c` organisation.
+: This is a small metadata file that is recommended for GitHub repositories under the `w3c` organization.
 
 [Backup of GitHub organizations](backup.md)
-: How W3C keeps a backup of the different GitHub organizations
+: How W3C keeps a backup of the different GitHub organizations.
