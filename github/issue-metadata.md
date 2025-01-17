@@ -19,7 +19,7 @@ Those labels are there to facilitate horizontal reviews.
     <dt class='privacy'>Privacy</dt>
     <dd>
       <p>
-        Affects the collection, <a href='https://w3c.github.io/fingerprinting-guidance/'>processing</a> and  <a href='https://www.w3.org/TR/security-privacy-questionnaire/'>publication of personal data</a> in Web technologies.
+        Affects the collection, <a href='https://www.w3.org/TR/fingerprinting-guidance/'>processing</a> and  <a href='https://www.w3.org/TR/security-privacy-questionnaire/'>publication of personal data</a> in Web technologies.
       </p>
     </dd>
     <dt class='a11y'>Accessibility</dt>
@@ -31,7 +31,7 @@ Those labels are there to facilitate horizontal reviews.
       <p>Affects the <a href='https://www.w3.org/International/review-request'>adaptation of Web technologies to different languages or regional differences</a>.</p>
     </dd>
     <dt class='tag'>Architecture</dt>
-    <dd>Affects the <a href='https://w3ctag.github.io/design-principles/'>underlying principles</a> that should be adhered to by all Web technologies.</dd>
+    <dd>Affects the <a href='https://www.w3.org/TR/design-principles/'>underlying principles</a> that should be adhered to by all Web technologies.</dd>
     <dt>performance</dt>
     <dd>Affects the download and display speed of Web technologies.</dd>
     <dt>device independence</dt>
