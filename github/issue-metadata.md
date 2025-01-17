@@ -14,29 +14,29 @@ This page describes how to use GitHub [labels](#labels), [milestones](#milestone
 Those labels are there to facilitate horizontal reviews.
 
   <dl id="hr-labels">
-    <dt class='security'>Security</dt>
+    <dt data-label-group='security'>Security</dt>
     <dd>
       <p>
         Affects the <a href='https://www.w3.org/TR/security-privacy-questionnaire/'>degree of resistance</a> to, or protection from, harm of Web technologies.
       </p>
     </dd>
-    <dt class='privacy'>Privacy</dt>
+    <dt data-label-group='privacy'>Privacy</dt>
     <dd>
       <p>
         Affects the collection, <a href='https://www.w3.org/TR/fingerprinting-guidance/'>processing</a> and  <a href='https://www.w3.org/TR/security-privacy-questionnaire/'>publication of personal data</a> in Web technologies.
       </p>
     </dd>
-    <dt class='a11y'>Accessibility</dt>
+    <dt data-label-group='a11y'>Accessibility</dt>
     <dd>
       <p>Affects the design of Web technologies for people with disabilities.</p>
     </dd>
-    <dt class='i18n'>Internationalization</dt>
+    <dt data-label-group='i18n'>Internationalization</dt>
     <dd>
       <p>Affects the <a href='https://www.w3.org/International/review-request'>adaptation of Web technologies to different languages or regional differences</a>.</p>
     </dd>
-    <dt class='tag'>Architecture</dt>
+    <dt data-label-group='tag'>Architecture</dt>
     <dd>Affects the <a href='https://www.w3.org/TR/design-principles/'>underlying principles</a> that should be adhered to by all Web technologies.</dd>
-    <dt>performance</dt>
+    <dt>Performance</dt>
     <dd>Affects the download and display speed of Web technologies.</dd>
     <dt>device independence</dt>
     <dd>Affects the ability of Web technologies to function on a wide variety of devices.</dd>
@@ -46,7 +46,7 @@ Those labels are there to facilitate horizontal reviews.
 
 Those labels are meant to track testing and implementation status.
 
-  <dl class='labels'>
+  <dl id='testing-labels' class='labels'>
     <dt data-label="needs tests"></dt>
     <dt data-label="needs implementation"></dt>
     <dt data-label="test:missing-coverage"></dt>
@@ -54,7 +54,7 @@ Those labels are meant to track testing and implementation status.
 
 ### Specifications {#specifications}
 
-  <dl class='labels'>
+  <dl id='specifications-labels' class='labels'>
     <dt data-label="editorial"></dt>
     <dt data-label="substantive"></dt>
     <dt data-label="bug"></dt>
@@ -177,7 +177,7 @@ function luminance(r, g, b) {
   const labels = await (await fetch("https://w3c.github.io/common-labels.json")).json();
 
   // Populate simple labels.
-  for (const dt of document.querySelectorAll("[data-label]")) {
+  for (const dt of document.querySelectorAll("#testing-labels dt, #specifications-labels dt")) {
     const label = labels.find(l=>l.name === dt.dataset.label);
     if (!label) continue;
     dt.id = dt.dataset.label.replaceAll(/\W+/g, '-').toLowerCase();
@@ -195,15 +195,14 @@ function luminance(r, g, b) {
   }
 
   // Populate horizontal reviews.
-  const dts = document.querySelectorAll("#hr-labels dt");
-  for (const dt of dts) {
-    let className = dt.className;
-    if (className) {
+  for (const dt of document.querySelectorAll("#hr-labels dt")) {
+    let labelGroup = dt.dataset.labelGroup;
+    if (labelGroup) {
       let dd = dt.nextElementSibling;
       let entries = "<dl class='labels'>";
       labels.forEach(label => {
-        if (label.name.indexOf(className) === 0) {
-          let sublabel = label.name.substring(className.length+1);
+        if (label.name.indexOf(labelGroup) === 0) {
+          let sublabel = label.name.substring(labelGroup.length+1);
           entries+= `<dt id='${label.name}' class='tag' style='background-color: #${label.color}'>
             <a href='https://github.com/${label.repo}/issues/?q=label%3A${sublabel}'>${label.name}</a></dt>
            <dd><p>${label.longdesc}</p><p>Color: #${label.color}</p></dd>`;
