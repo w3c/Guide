@@ -48,7 +48,7 @@ toc: true
   - [W3C Travel Policy affecting Staff Contacts](https://lists.w3.org/Archives/Member/chairs/2017JanMar/0141.html)
 - Issue tracking:
   
-  - Use [GitHub](https://github.com/w3c/) to track issues through mail and the Web
+  - Use [GitHub](github/) to track issues through mail and the Web
 - [WBS](https://www.w3.org/2002/09/wbs/) for questionnaires
 - People management
   
@@ -184,10 +184,9 @@ toc: true
 
 ### GitHub {#GitHub}
 
-- [W3C on GitHub](https://w3c.github.io/)
+- [W3C on GitHub](github/)
 - [Using GitHub for W3C specifications (slides)](https://www.w3.org/2015/Talks/1217-github-w3c/)
-- [Using GitHub for Spec Work (documentation)](https://tobie.github.io/specs-on-github/)
-- [GitHub Repository Manager](https://labs.w3.org/hatchery/repo-manager/): One interface to find all group GitHub contributors and the IPR status
+- [GitHub Repository Manager](https://labs.w3.org/repo-manager/): One interface to find all group GitHub contributors and the IPR status
 - [PR Preview - Adds preview and diff links to pull requests](https://lists.w3.org/Archives/Public/spec-prod/2017JanMar/0047.html) ([Config Helper](https://tobie.github.io/pr-preview/config.html))
 
 ### Historical {#historical}
