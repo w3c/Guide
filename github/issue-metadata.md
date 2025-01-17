@@ -15,7 +15,11 @@ Those labels are there to facilitate horizontal reviews.
 
   <dl id="hr-labels">
     <dt class='security'>Security</dt>
-    <dd>Affects the <a href='https://www.w3.org/TR/security-privacy-questionnaire/'>degree of resistance</a> to, or protection from, harm of Web technologies.</dd>
+    <dd>
+      <p>
+        Affects the <a href='https://www.w3.org/TR/security-privacy-questionnaire/'>degree of resistance</a> to, or protection from, harm of Web technologies.
+      </p>
+    </dd>
     <dt class='privacy'>Privacy</dt>
     <dd>
       <p>
