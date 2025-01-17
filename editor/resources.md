@@ -56,7 +56,7 @@ toc: true
 ### GitHub
 
 * Initial instructions for GitHub beginners:
-  * [W3C on GitHub](https://w3c.github.io/)
+  * [W3C on GitHub](../github/)
 
 ### For Editor's role
 
