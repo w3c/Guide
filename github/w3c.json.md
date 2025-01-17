@@ -31,13 +31,13 @@ The fields that are understood at this point are:
 : String to identify the type and purpose of the repository, or an array of such strings if the repository holds more than one type of content. The possible values for this field are:  
   
    `rec-track`
-   : W3C Recommendation Track Documents including First Public Working Draft, Working Draft, Candidate Recommendation,    Proposed Recommendation and W3C Recommendation
+   : [W3C Recommendation Track](https://www.w3.org/policies/process/#rec-track) documents including First Public Working Draft, Working Draft, Candidate Recommendation, Proposed Recommendation and W3C Recommendation
 
    `note`
-   : W3C Note Track including Group Draft Note, Group Note and Statement
+   : [W3C Note Track](https://www.w3.org/policies/process/#note-track) documents including Group Draft Note, Group Note and Statement
 
    `registry`
-   : W3C Registry Track including Draft Registry, Candidate Registry, Candidate Registry Draft, and Registry
+   : [W3C Registry Track](https://www.w3.org/policies/process/#registries) documents including Draft Registry, Candidate Registry, Candidate Registry Draft, and Registry
 
    `cg-report`
    : W3C Community Group Report
@@ -49,13 +49,13 @@ The fields that are understood at this point are:
    : Work around W3C Process document, charters, policies
 
    `workshop`
-   : Repo to manage W3C workshops
+   : Management of W3C workshops
 
    `homepage`
    : Groups' homepages
 
    `translation`
-   : Repo hosting translation of a spec or other documents
+   : Translation of a spec or other documents
 
    `article`
    : Non-spec documents
