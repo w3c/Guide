@@ -205,7 +205,7 @@ function luminance(r, g, b) {
           let sublabel = label.name.substring(labelGroup.length+1);
           entries+= `<dt id='${label.name}' class='tag' style='background-color: #${label.color}'>
             <a href='https://github.com/${label.repo}/issues/?q=label%3A${sublabel}'>${label.name}</a></dt>
-           <dd><p>${label.longdesc}</p><p>Color: #${label.color}</p></dd>`;
+           <dd><p>${label.longdesc}</p><p>Color: <code>#${label.color}</code></p></dd>`;
         }
       })
       let div = document.createElement("div");
