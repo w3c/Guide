@@ -20,8 +20,8 @@ You can just publish HTML as you normally would simply by setting up [GitHub Pag
 W3C projects include W3C staff selected projects as well as W3C Working (Interest) Group projects. It is possible that we decide to assess other group's requests to host a given repository. In any case, a prerequisite would be identifying the owner(s) either by name or by e-mail address. Refer to [the Guidebook for Community Groups](https://www.w3.org/2016/04/cg-support/#what) for more information.
 
 1. Your Team Contact should become (if they're not already) a part of the [Owners Team](https://github.com/organizations/w3c/settings/owners) of the W3C organization. (Ask any of the current owners directly, or ask on &sysreq. This is only for W3C Staff.)
-2. If there is no GitHub team roughly matching the group that will be pushing to that repository, the Team Contact should create a new team for the editors who will be contributing to the document, and give that team push and pull access.
-3. W3C staff (or Team Contacts of the group) create a new repository for each document (each deliverable, it can of course contain multiple resources). Add each such repository to the GitHub team so that the contributors all have push access. Other people can suggest changes by submitting pull requests (in fact, editors can do that too to enable reviewing before commits, if desired), but not every contributor will be given direct commit access.
+1. If there is no GitHub team roughly matching the group that will be pushing to that repository, the Team Contact should create a new team for the editors who will be contributing to the document, and give that team push and pull access.
+1. W3C staff (or Team Contacts of the group) create a new repository for each document (each deliverable, it can of course contain multiple resources). Add each such repository to the GitHub team so that the contributors all have push access. Other people can suggest changes by submitting pull requests (in fact, editors can do that too to enable reviewing before commits, if desired), but not every contributor will be given direct commit access.
 
 ### Detailed steps for staff contacts to create a repo {#steps}
 
@@ -30,8 +30,8 @@ W3C projects include W3C staff selected projects as well as W3C Working (Interes
 Follow the instructions below only if for some reason you can't use the W3C Repository Manager for this.
 
 1. Let's say you're working on the unicorn spec. You head to [https://github.com/new](https://github.com/new) (which is linked as "New repository" from the home page). Under Owner you pick "w3c" (which you should have access to, if not ask someone on IRC) and under repo name you pick "unicorn". Enter a description, keep it public, initialise with a README, don't pick a .gitignore or a license.
-2. If you need to create a new team, go to [https://github.com/organizations/w3c/teams/new](https://github.com/organizations/w3c/teams/new). Give the team a name ("Unicorn Editors") and grant them "Push & Pull" (no need for admin). Save the team. Under "Members", just start typing the user names for the editors, you'll get a drop down suggesting people. Once you've added them all, under repository start typing "unicorn" and you should see w3c/unicorn listed. Pick that.
-3. That will give you a `https://github.com/w3c/unicorn` with fully configured access.
+1. If you need to create a new team, go to [https://github.com/organizations/w3c/teams/new](https://github.com/organizations/w3c/teams/new). Give the team a name ("Unicorn Editors") and grant them "Push & Pull" (no need for admin). Save the team. Under "Members", just start typing the user names for the editors, you'll get a drop down suggesting people. Once you've added them all, under repository start typing "unicorn" and you should see w3c/unicorn listed. Pick that.
+1. That will give you a `https://github.com/w3c/unicorn` with fully configured access.
 
 ## W3C integration {#integration}
 
