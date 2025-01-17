@@ -75,16 +75,16 @@ migrate
 : Resolve before [migrating](https://wicg.github.io/admin/intent-to-migrate.html) the spec from the [WICG](https://www.w3.org/community/wicg/) to a Working Group.
 
 FPWD
-: Resolve before creating a [First Public Working Draft](https://www.w3.org/2017/Process-20170301/#first-wd).
+: Resolve before creating a [First Public Working Draft](https://www.w3.org/policies/process/#first-wd).
 
 CR
-: Resolve before advancing the spec to [Candidate Recommendation](https://www.w3.org/2017/Process-20170301/#candidate-rec).
+: Resolve before advancing the spec to [Candidate Recommendation](https://www.w3.org/policies/process/#candidate-rec).
 
 PR
-: Resolve before advancing the spec to [Proposed Recommendation](https://www.w3.org/2017/Process-20170301/#rec-pr).
+: Resolve before advancing the spec to [Proposed Recommendation](https://www.w3.org/policies/process/#rec-pr).
 
 REC
-: Resolve before advancing the spec to [Recommendation](https://www.w3.org/2017/Process-20170301/#rec-publication).
+: Resolve before advancing the spec to [Recommendation](https://www.w3.org/policies/process/#rec-publication).
 
 level-2
 : Work on these issues after the level-1 spec is complete.
@@ -145,7 +145,7 @@ Note that groups may work on a level-2 spec concurrently with pushing the level-
 
 ## Projects {#projects}
 
-[Projects](https://help.github.com/articles/tracking-the-progress-of-your-work-with-project-boards/) describe separate features within a larger specification. Usually, prefer to create a new repository to track greenfield feature development, and take it through the [incubation process](https://www.w3.org/blog/2015/07/wicg/) instead of using a project within an existing spec repository. Even when used, project names are generally not shared between specifications, so we don't list samples here.
+[Projects](https://help.github.com/articles/tracking-the-progress-of-your-work-with-project-boards/) describe separate features within a larger specification. Usually, prefer to create a new repository to track greenfield feature development, and take it through the [incubation process](https://www.w3.org/blog/2015/wicg/) instead of using a project within an existing spec repository. Even when used, project names are generally not shared between specifications, so we don't list samples here.
 
 <script>
 // Expects an RRGGBB hex color without the '#'.
