@@ -41,7 +41,7 @@ For example, if you're using Bash: press `Ctrl`+`r`, then start typing a distinc
 
 ## An alias to view the history of the repo {#lg}
 
-```bash
+```shell
 alias.lg=log --graph --abbrev-commit --decorate --date=relative \
 --format=format:'%C(bold blue)%h%C(reset)          \
 - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) \
