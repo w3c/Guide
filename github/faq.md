@@ -49,9 +49,9 @@ If you wish to accept pull requests from potentially arbitrary contributors but 
 
 As usual, publication of Working Drafts and Recommendations into w3.org/TR/ will be done by your Group by copying snapshots which satisfy pubrules into the appropriate space, with W3C-guaranteed archiving.
 
-Because Git itself decentralises archiving of every change (every user clones all history), backups of version history of Git repositories are straightforward (since in fact every user of the repository has a backup). A specific tool to maintain a full backup of the W3C organization is being developed, called [gh-backup](https://github.com/w3c/gh-backup).
+Because Git itself decentralises archiving of every change (every user clones all history), backups of version history of Git repositories are straightforward (since in fact every user of the repository has a backup). W3C also provides a way to fully backup a GitHub organization and all its repositories (see the [GitHub backups section](backup.md)).
 
-Content that is not part of the repositories themselves (issues, wikis, pull requests, etc.) are backed up as events to the [Pheme](https://github.com/w3c/pheme) system (for the whole organization). A Pheme instance is currently [running in beta](https://labs.w3.org/pheme/); and some of the recent events can be viewed in the [Midgard instance](https://labs.w3.org/midgard/). The full data can be made exploitable as it is all sorted and indexable.
+Also, the [Pheme](https://github.com/w3c/pheme) system gathers events (issues, wikis, pull requests, etc.) from the W3C repositories. A Pheme instance is currently [running in beta](https://labs.w3.org/pheme/); and some of the recent events can be viewed in the [Midgard instance](https://labs.w3.org/midgard/). The full data can be made exploitable as it is all sorted and indexable.
 
 ### May I use w3.org-hosted CVS or Mercurial instead? {#alternatives}
 
