@@ -1,57 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Labels and Other Metadata for Issues and Pull Requests</title>
-    <link rel="stylesheet" href="css/wgio.css">
-    <link rel="icon" type="image/x-icon" href="//labs.w3.org/favicon.ico">
-    <style>
-      .darkBg { color: white; }
-      dl.labels dt {
-        width: fit-content;
-        padding: 0 .5lh;
-        border-radius: .5lh;
-      }
-      dl.labels dd {
-        margin-top: 1em;
-      }
-      dl.labels dt a {
-        text-decoration: none;
-        color: black;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <h1>Labels and Other Metadata for Issues and Pull Requests</h1>
-    </header>
-<nav>
-  <a href="/">Home</a>
-  •
-  <a href="https://github.com/w3c/">Repositories</a>
-  •
-  <a href="https://help.github.com/">GitHub Help</a>
-</nav>
+---
+title: Labels and Other Metadata for Issues and Pull Requests
+toc: true
+---
 
-<main>
-  <p>
-  This page describes how to use GitHub <a href="#labels">labels</a>, <a href="#milestones">milestones</a>, and <a href="#projects">projects</a> in a uniform way across W3C specifications.
-  </p>
+This page describes how to use GitHub [labels](#labels), [milestones](#milestones), and [projects](#projects) in a uniform way across W3C specifications.
 
-<section id='labels'>
-  <h2>Labels</h2>
-  <a href="https://help.github.com/articles/creating-and-editing-labels-for-issues-and-pull-requests/">Labels</a> describe the kind of issue or specific work that's needed to advance an issue.
+## Labels {#labels}
 
-<section id='horizontal-reviews'>
-  <h3>Horizontal labels</h3>
-  <p>
-    Those labels are there to facilitate horizontal reviews.
-  </p>
-  <dl>
-    <dt class='security'>security</span></dt>
+[Labels](https://help.github.com/articles/creating-and-editing-labels-for-issues-and-pull-requests/) describe the kind of issue or specific work that's needed to advance an issue.
+
+### Horizontal Reviews {#horizontal-reviews}
+
+Those labels are there to facilitate horizontal reviews.
+
+  <dl id="hr-labels">
+    <dt class='security'>Security</dt>
     <dd>Affects the <a href='https://www.w3.org/TR/security-privacy-questionnaire/'>degree of resistance</a> to, or protection from, harm of Web technologies.</dd>
-    <dt class='privacy'>privacy</dt>
+    <dt class='privacy'>Privacy</dt>
     <dd>
       <p>
         Affects the collection, <a href='https://w3c.github.io/fingerprinting-guidance/'>processing</a> and  <a href='https://www.w3.org/TR/security-privacy-questionnaire/'>publication of personal data</a> in Web technologies.
@@ -65,25 +30,26 @@
     <dd>
       <p>Affects the <a href='https://www.w3.org/International/review-request'>adaptation of Web technologies to different languages or regional differences</a>.</p>
     </dd>
-    <dt class='tag'>architecture</dt>
+    <dt class='tag'>Architecture</dt>
     <dd>Affects the <a href='https://w3ctag.github.io/design-principles/'>underlying principles</a> that should be adhered to by all Web technologies.</dd>
     <dt>performance</dt>
     <dd>Affects the download and display speed of Web technologies.</dd>
     <dt>device independence</dt>
     <dd>Affects the ability of Web technologies to function on a wide variety of devices.</dd>
   </dl>
-</section>
-<section id='testing'>
-<h3>Testing and Implementations</h3>
-  <p>Those labels are meant to track testing and implementation status.</p>
+
+### Testing and Implementations {#testing}
+
+Those labels are meant to track testing and implementation status.
+
   <dl class='labels'>
     <dt data-label="needs tests"></dt>
     <dt data-label="needs implementation"></dt>
     <dt data-label="test:missing-coverage"></dt>
   </dl>
-</section>
-<section id='specifications'>
-  <h3>Specifications</h3>
+
+### Specifications {#specifications}
+
   <dl class='labels'>
     <dt data-label="editorial"></dt>
     <dt data-label="substantive"></dt>
@@ -97,89 +63,90 @@
     <dt data-label="Errata"></dt>
     <dt data-label="ErratumRaised"></dt>
   </dl>
-</section>
-</section>
-<section id='milestones'>
-  <h2>Milestones</h2>
-  <a href="https://help.github.com/articles/tracking-the-progress-of-your-work-with-milestones/">Milestones</a> describe the scheduling of bug fixes and changes.
-  Often an issue is labeled with a particular milestone as a way to postpone work on it until after work needed for an earlier milestone.
 
-  <dl>
-    <dt>experiment</dt>
-    <dd>Resolve before experimenting with the new feature on general users.</dd>
-    <dt>migrate</dt>
-    <dd>Resolve before <a href="https://wicg.github.io/admin/intent-to-migrate.html">migrating</a> the spec from the <a href="https://www.w3.org/community/wicg/">WICG</a> to a Working Group.</dd>
-    <dt>FPWD</dt>
-    <dd>Resolve before creating a <a href="https://www.w3.org/2017/Process-20170301/#first-wd">First Public Working Draft</a>.</dd>
-    <dt>CR</dt>
-    <dd>Resolve before advancing the spec to <a href="https://www.w3.org/2017/Process-20170301/#candidate-rec">Candidate Recommendation</a>.</dd>
-    <dt>PR</dt>
-    <dd>Resolve before advancing the spec to <a href="https://www.w3.org/2017/Process-20170301/#rec-pr">Proposed Recommendation</a>.</dd>
-    <dt>REC</dt>
-    <dd>Resolve before advancing the spec to <a href="https://www.w3.org/2017/Process-20170301/#rec-publication">Recommendation</a>.</dd>
-    <dt>level-2</dt>
-    <dd>Work on these issues after the level-1 spec is complete.</dd>
-    <dt>future-work</dt>
-    <dd>Work on these issues at an unspecified time in the future.</dd>
-  </dl>
-</section>
-<section id='wide-review'>
-  <h2>Wide Review</h2>
-  <p>1-The WG processes the comment, and provides a resolution.</p>
+## Milestones {#milestones}
 
-  <dl>
-    <dt>WR-open</dt>
-    <dd> Comment received, not yet processed by the WG  </dd>
-    <dt>WR-pending</dt>
-    <dd>  Discussed but pending WG resolution         </dd>
-    <dt>WR-resolved</dt>
-    <dd>  WG resolution, (approved by WG)        </dd>
-    <dt>WR-spec-updated</dt>
-    <dd>WG resolution and spec updated         </dd>
-    <dt>WR-resolved-partial</dt>
-    <dd>Partial WG resolution (partially approved by WG)  </dd>
-    <dt>WR-spec-updated-partial</dt>
-    <dd>Partial WG  resolution and spec updated </dd>
-    <dt>WR-rejected</dt>
-    <dd>Comment Rejected by WG</dd>
-  </dl>
+[Milestones](https://help.github.com/articles/tracking-the-progress-of-your-work-with-milestones/) describe the scheduling of bug fixes and changes. Often an issue is labeled with a particular milestone as a way to postpone work on it until after work needed for an earlier milestone.
 
-  <p> For each comment, please fill a  "type" <a href="#type">with above labels</a></p>
+experiment
+: Resolve before experimenting with the new feature on general users.
 
-  <p>2-Once the WG has processed all comments, the next steps are to get approval from the commenter</p>
-    <dt>WR-response-drafted</dt>
-    <dd>Response to commenter drafted by WG</dd>
-    <dt>WR-response-sent</dt>
-    <dd>Response send to commenter</dd>
-    <dt>WR-commenter-rejected</dt>
-    <dd> Response rejected by commenter </dd>
-    <dt>WR-commenter-agreed</dt>
-    <dd>Response agreed by commenter</dd>
-    <dt>WR-commenter-agreed-partial</dt>
-    <dd>Response partially agreed by commenter (needs more discussion)</dd>
-    <dt>WR-commenter-no-response</dt>
-    <dd>No Response received from commenter within the stated period </dd>
-    </dl>
+migrate
+: Resolve before [migrating](https://wicg.github.io/admin/intent-to-migrate.html) the spec from the [WICG](https://www.w3.org/community/wicg/) to a Working Group.
 
-  <p>For more information please refer to the <a href="https://www.w3.org/wiki/TimedText/TTML2_Wide_Review"> TTWG wiki Wide Review page</a></p>.
+FPWD
+: Resolve before creating a [First Public Working Draft](https://www.w3.org/2017/Process-20170301/#first-wd).
 
-  <p>Note that groups may work on a level-2 spec concurrently with pushing the
-  level-1 spec through the Recommendation process, so repositories may need
-  milestones like "level-2-CR".</p>
-</section>
-<section id='projects'>
-  <h2 id="projects">Projects</h2>
-  <a href="https://help.github.com/articles/tracking-the-progress-of-your-work-with-project-boards/">Projects</a> describe separate features within a larger specification.
-  Usually, prefer to create a new repository to track greenfield feature development, and take it through the <a href="https://www.w3.org/blog/2015/07/wicg/">incubation process</a> instead of using a project within an existing spec repository.
-  Even when used, project names are generally not shared between specifications, so we don't list samples here.
-</section>
-</main>
-    <footer>
-      <address><a href="https://github.com/w3c/w3c.github.io/">We are on GitHub</a></address>
-      <p>
-        <a href="https://www.w3.org/"><img src="img/w3c.svg" width="65" height="45" alt="W3C Logo"></a>
-      </p>
-    </footer>
+CR
+: Resolve before advancing the spec to [Candidate Recommendation](https://www.w3.org/2017/Process-20170301/#candidate-rec).
+
+PR
+: Resolve before advancing the spec to [Proposed Recommendation](https://www.w3.org/2017/Process-20170301/#rec-pr).
+
+REC
+: Resolve before advancing the spec to [Recommendation](https://www.w3.org/2017/Process-20170301/#rec-publication).
+
+level-2
+: Work on these issues after the level-1 spec is complete.
+
+future-work
+: Work on these issues at an unspecified time in the future.
+
+## Wide Review {#wide-review}
+
+1- The WG processes the comment, and provides a resolution.
+
+WR-open
+: Comment received, not yet processed by the WG
+
+WR-pending
+: Discussed but pending WG resolution
+
+WR-resolved
+: WG resolution, (approved by WG)
+
+WR-spec-updated
+: WG resolution and spec updated
+
+WR-resolved-partial
+: Partial WG resolution (partially approved by WG)
+
+WR-spec-updated-partial
+: Partial WG resolution and spec updated
+
+WR-rejected
+: Comment Rejected by WG
+
+For each comment, please fill a "type" [with above labels](#type)
+
+2- Once the WG has processed all comments, the next steps are to get approval from the commenter
+
+WR-response-drafted
+: Response to commenter drafted by WG
+
+WR-response-sent
+: Response send to commenter
+
+WR-commenter-rejected
+: Response rejected by commenter
+
+WR-commenter-agreed
+: Response agreed by commenter
+
+WR-commenter-agreed-partial
+: Response partially agreed by commenter (needs more discussion)
+
+WR-commenter-no-response
+: No Response received from commenter within the stated period
+
+For more information please refer to the [TTWG wiki Wide Review page](https://www.w3.org/wiki/TimedText/TTML2_Wide_Review).
+
+Note that groups may work on a level-2 spec concurrently with pushing the level-1 spec through the Recommendation process, so repositories may need milestones like "level-2-CR".
+
+## Projects {#projects}
+
+[Projects](https://help.github.com/articles/tracking-the-progress-of-your-work-with-project-boards/) describe separate features within a larger specification. Usually, prefer to create a new repository to track greenfield feature development, and take it through the [incubation process](https://www.w3.org/blog/2015/07/wicg/) instead of using a project within an existing spec repository. Even when used, project names are generally not shared between specifications, so we don't list samples here.
+
 <script>
 // Expects an RRGGBB hex color without the '#'.
 function isDark(rgbColor) {
@@ -211,6 +178,7 @@ function luminance(r, g, b) {
     if (!label) continue;
     dt.id = dt.dataset.label.replaceAll(/\W+/g, '-').toLowerCase();
     dt.style.backgroundColor = `#${label.color}`;
+    dt.classList.add('tag');
     dt.classList.toggle('darkBg', isDark(label.color));
     dt.textContent = label.name;
     const dd = document.createElement('dd');
@@ -222,8 +190,8 @@ function luminance(r, g, b) {
     dt.insertAdjacentElement('afterend', dd);
   }
 
-  // populate horizontal reviews
-  const dts = document.querySelectorAll("#horizontal-reviews dl dt");
+  // Populate horizontal reviews.
+  const dts = document.querySelectorAll("#hr-labels dt");
   for (const dt of dts) {
     let className = dt.className;
     if (className) {
@@ -232,7 +200,7 @@ function luminance(r, g, b) {
       labels.forEach(label => {
         if (label.name.indexOf(className) === 0) {
           let sublabel = label.name.substring(className.length+1);
-          entries+= `<dt id='${label.name}' style='background-color: #${label.color}'>
+          entries+= `<dt id='${label.name}' class='tag' style='background-color: #${label.color}'>
             <a href='https://github.com/${label.repo}/issues/?q=label%3A${sublabel}'>${label.name}</a></dt>
            <dd><p>${label.longdesc}</p><p>Color: #${label.color}</p></dd>`;
         }
@@ -244,5 +212,11 @@ function luminance(r, g, b) {
   }
 })();
 </script>
-  </body>
-</html>
+
+<style>
+  .darkBg { color: white; }
+  dl.labels dt {
+    border-radius: 1.5rem;
+    padding: 0.15rem 0.8rem;
+  }
+</style>
