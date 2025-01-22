@@ -1,14 +1,17 @@
-# Hybrid Group Meetings
+---
+title: Hybrid Group Meetings
+toc: yes
+---
 
 ## Introduction
 
-This document describes approaches for W3C "hybrid" meetings. The term hybrid here refers to a meeting where some participants are together in a physical room, while others are located elsewhere; for instance in individual [home] workspaces or with another group of participants in another physical room.
+This document describes approaches for W3C "hybrid" meetings. The term hybrid here refers to a meeting where some participants are together in a physical room, while others are located elsewhere; for instance in individual (home) workspaces or with another group of participants in another physical room.
 
 Though the circumstances of the pandemic, which halted in-person meetings in 2020 and 2021, have been difficult for all, this global pandemic event has also forced us to adapt to new ways of gathering. It has also provided us the tools to broaden global participation in our work. Those with limited means to travel to meetings have benefitted from our increased ability to gather in virtual or remote modes.
 
 We now seek to establish effective hybrid meeting modes, where some participants may be co-located, yet interact on an equal basis with other participants in different locations; and where those who are located remotely can have equal access to participating as well.
 
-Lessons learned and suggestions for this document are welcome in [GitHub issues](https://github.com/w3c/Guide/issues).
+Lessons learned and suggestions for this document are welcome in [GitHub issues](https://github.com/w3c/guide/issues).
 
 ### Challenges of Hybrid meetings
 
@@ -27,63 +30,56 @@ Planning for effective hybrid meetings requires addressing challenges, including
 Following are recommendations for addressing these challenges and holding successful hybrid meetings.
 
 ## Planning the meeting
+
 ### Planning the in-person side of a hybrid meeting
 
-* Do all the [work necessary for any in-person W3C meeting](https://w3.org/Guide/meetings/hosting)
-  * Room capacities may be lower than pre-COVID to allow for necessary distancing
-  * Stable high-speed Internet access is essential
-  * Plan for fallbacks for every critical item, including a backup venue
-  * Supplies of <abbr title="personal protective equipment">PPE</abbr> must be available
-  * Buffet food may not be allowed because of health considerations
-  * Room layout must allow for placement of one or more cameras that enable remote participants
-  to see the face of each person in the room
-  * Make sure any tools you use, such as virtual whiteboards, are accessible to all participants. If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for remote participants to view
-  * Microphone placement must be planned and tested in advance.  If a sufficient quantity of fixed
-  microphones cannot be provided then two or more "pass-around" microphones can be used.  One pass-around microphone is not sufficient as there will be times when two discussants are engaged with each other and passing a mic back and forth consumes too much time
-  * Microphone placement must account for participants who cannot themselves speak loudly; having to
-  repeatedly ask someone to raise their volume is both wasteful of time and disrespectful to those
-  who may e unable to do so
-  * Screen(s) of sufficient size and placement must be provided to enable all in-room participants
-  to see the face of each remote person
-  * Provide two sets of screens: one displays the gallery view of as many participants as possible and the other displays only the current speaker
-  * Will there be more than one separate group of people in-person (multiple hubs)?  If so, all of the
-  above must be addressed for each
+Do all the [work necessary for any in-person W3C meeting](hosting.md):
+
+* Room capacities may be lower than pre-COVID to allow for necessary distancing
+* Stable high-speed Internet access is essential
+* Plan for fallbacks for every critical item, including a backup venue
+* Supplies of <abbr title="personal protective equipment">PPE</abbr> must be available
+* Buffet food may not be allowed because of health considerations
+* Room layout must allow for placement of one or more cameras that enable remote participants to see the face of each person in the room
+* Make sure any tools you use, such as virtual whiteboards, are accessible to all participants. If a physical non-electronic whiteboard or flipchart is used, there must be a camera facing it for remote participants to view
+* Microphone placement must be planned and tested in advance.  If a sufficient quantity of fixed microphones cannot be provided then two or more "pass-around" microphones can be used.  One pass-around microphone is not sufficient as there will be times when two discussants are engaged with each other and passing a mic back and forth consumes too much time
+* Microphone placement must account for participants who cannot themselves speak loudly; having to repeatedly ask someone to raise their volume is both wasteful of time and disrespectful to those who may e unable to do so
+* Screen(s) of sufficient size and placement must be provided to enable all in-room participants to see the face of each remote person
+* Provide two sets of screens: one displays the gallery view of as many participants as possible and the other displays only the current speaker
+* Will there be more than one separate group of people in-person (multiple hubs)?  If so, all of the above must be addressed for each
 
 Make sure you identify the local host (if it's not the Group Chair or Team Contact), responsible for the on-site part of the meeting.
 
 ### Planning the remote side of a hybrid meeting
-  * Choose a video conference system that all -- or a substantial majority of all -- group participants
-  have used in regular group virtual meetings
-  * Will there be multiple hubs that need to be interconnected?  If so, how -- and who -- will do
-  the "host" management at each hub and within the video conference system?
-  * Encourage and support remote users to use high-quality microphones and cameras
+
+* Choose a video conference system that all -- or a substantial majority of all -- group participants have used in regular group virtual meetings
+* Will there be multiple hubs that need to be interconnected?  If so, how -- and who -- will do the "host" management at each hub and within the video conference system?
+* Encourage and support remote users to use high-quality microphones and cameras
 
 ## Convening the meeting
 
- State the policies of engagement; Process, CEPC, PPE, venue precautions, emergency contacts
+State the policies of engagement; Process, Code of Conduct, PPE, venue precautions, emergency contacts
 
 * remind the participant of the rules of engagement at the start of each meeting
 * review for all participants any Covid-safety requirements and agreements
-* remind people of CEPC requirements including always bearing in mind that some different participants have different levels of high risk(?), and to respect people's requests for care on social distancing
+* remind people of Code of Conduct requirements including always bearing in mind that some different participants have different levels of high risk(?), and to respect people's requests for care on social distancing
 * remind people of requirements for COVID tests and related precautions
-
 * Patent policy?
 * if you are recording the meeting, you MUST get explicit consent from participants
 
 ### Facilitating the hybrid meeting
-  * Be explicit about how hand-raising (floor control) is to be done and be scrupulous about following it,
-  especially for those in the room
-  * Be explicit about how echo and background noise from remote participants will be identified and corrected (e.g. the Host muting a remote participant -- and informing them they have been muted)
-  * Consider how to accomodate socializing, by those who are not in the room as well as those who are
-  * Consider in advance whether some socializing can integrate in-person and remote
-  * Plan breaks and be explicit about how the video conferencing facilities will be handled during breaks;
-    * be clear that the in-room cameras, microphones, and screens for remote participants will remain live
-    * check in advance what the group wishes to do about group dinners
-    * be aware of the continued need for inclusive practices during socialization
+
+* Be explicit about how hand-raising (floor control) is to be done and be scrupulous about following it, especially for those in the room
+* Be explicit about how echo and background noise from remote participants will be identified and corrected (e.g. the Host muting a remote participant -- and informing them they have been muted)
+* Consider how to accomodate socializing, by those who are not in the room as well as those who are
+* Consider in advance whether some socializing can integrate in-person and remote
+* Plan breaks and be explicit about how the video conferencing facilities will be handled during breaks;
+  * be clear that the in-room cameras, microphones, and screens for remote participants will remain live
+  * check in advance what the group wishes to do about group dinners
+  * be aware of the continued need for inclusive practices during socialization
 * Technical
   * plan contingencies for equipment not working as promised and not having been tested in advance
   * bandwidth / latency insufficiencies for all the groups meeting simultaneously
-
 * Accessibility
   * presenters should read and follow “[How to Make Your Presentations Accessible to All](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)”
   * participants should read and follow "[Accessibility of Remote Meetings](https://www.w3.org/TR/remote-meetings/)"
@@ -94,7 +90,7 @@ Make sure you identify the local host (if it's not the Group Chair or Team Conta
 
 ## Meeting organizer and facilitator training
 
-See "[TPAC 2022 Chair Training](https://www.w3.org/2022/Talks/TPAC/hybrid-training/)"
+See [TPAC 2022 Chair Training](https://www.w3.org/2022/Talks/TPAC/hybrid-training/).
 
 In particular, the importance of managing the queue, controlling side conversations, managing the meeting software and equipment (such as microphones). The Chairs may delegate those
 roles to some of the participants, especially if they are involved in the topic.
@@ -128,11 +124,10 @@ Publish your detailed agenda with times and include both local (to the in-person
 
 ## Managing breaks/social activity
 
-   Allow for breaks by providing a variety of social environments for remote participants, relevant to the size of the group, and interest. Consider doing a social gatherings that are inclusive of remote participants
+Allow for breaks by providing a variety of social environments for remote participants, relevant to the size of the group, and interest. Consider doing a social gatherings that are inclusive of remote participants
 
-  * Consider having a central list of ideas of events that are easy to put together, easy to make inclusive/accessible, and easy to do in hybrid mode
-
-  * What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
+* Consider having a central list of ideas of events that are easy to put together, easy to make inclusive/accessible, and easy to do in hybrid mode
+* What suggestions can we offer for self-organized social rooms  (e.g. repurposing breakout tools (gather.town, wonder.me, ...)?
 
 Ensure that multiple people involved in convening the event are well-informed and experienced on using relevant features of video-conferencing platform, such as self-organizing break-out rooms, and that there is technical back-up readily available
 
@@ -144,14 +139,9 @@ how, especially if more than one tool is necessary simultaneously (e.g. irc and 
 hand-raising).
 
 * Pay careful attention to requiring the in-person participants to use and respect the queue.
-
-* Prevent queue interruptions. The conversation moves forward based on
-    the queue, not on the loudest participant in the room.
-
+* Prevent queue interruptions. The conversation moves forward based on the queue, not on the loudest participant in the room.
 * The chairs should use the queue themselves for comments that are not directly about the chair function.
-
 * Ask participants to mute unless they have the floor.
-
 * Split the queue into sub-topics if needed, to facilitate follow-ups on individual comments.
 
 ## Equipment
@@ -168,19 +158,17 @@ Sharing of accessible content via the web should be strongly preferred over scre
 
 Consider unfortunate contingencies like the tech doesn't work as expected or the physical meeting room(s) getting disconnected from the net or having a fire alarm -- and all of these things and more have indeed happened, so think carefully about contingency planning. Will (should?) those in the room continue to meet while they're disconnected from the net?  Will the (other) remote participants continue to meet while those in the meeting room are milling about in a parking lot waiting for the fire department? Will remote participants already have fall-back channel info?  How will the partitioned meeting know that it has been partitioned?
 
-> [JB:  ;) -- discuss emergency logistics more generally, and the fact that most of them will eventually happen.]
+{% include quote.html content="discuss emergency logistics more generally, and the fact that most of them will eventually happen." footer="JB:  ;)" %}
 
 Essential to have a fall-back video conference option that can be activitied.
 
 * Put your remote participants on a large display in the meeting room. Maybe one screen for spotlighting and another for gallery. The gallery images should be as close to life-size as feasible.
-* Give your remote participants a "gist" camera view of the whole room. Need at least two cameras in the room; one for gist of the room and one for the person speaking. the remote participants need to be able to see the room. [High value addition that Pluto arranged in Seattle IDIW Workshop]
+* Give your remote participants a "gist" camera view of the whole room. Need at least two cameras in the room; one for gist of the room and one for the person speaking. the remote participants need to be able to see the room. (High value addition that Pluto arranged in Seattle IDIW Workshop)
 * Make sure everyone can be heard clearly in the room and remotely
 * We need to recommend specific AV tech/requirements (specific enough for orders to be placed with an A/V contractor). Can W3C offer a travelling kit that team contacts can bring to their meetings? What kind of constraints can we put on the host?
 * Pay particular attention to positioning of cameras, screen, and microphones -- especially when communication accommodations including captioning and/or interpreting are in use. Note that the position of the microphone(s) is very likely to need to be separate from the camera view(s).
 * If your agenda includes parallel breakout sessions, make plans in advance for supporting those for remote participants.
-
-* Make sure everyone can be seen. Room participants should consider using their own laptop
-   video for remote participants to have a direct view of them. (note this will dramatically increase bandwidth consumption).  Encourage all participants to turn on their video, at a minimum when they are speaking, to allow for non-verbal queues
+* Make sure everyone can be seen. Room participants should consider using their own laptop video for remote participants to have a direct view of them. (note this will dramatically increase bandwidth consumption).  Encourage all participants to turn on their video, at a minimum when they are speaking, to allow for non-verbal queues
 * Remember that not all presenters or participants, regardless of whether in room or remote, can see who is in the room or what is being projected
 * Be cautious about adding tools that may not be familiar to all participants, especially if interoperability with key tools such as assistive technologies might be a problem.
 * Take your minutes online, for everyone to see in realtime
@@ -188,10 +176,7 @@ Essential to have a fall-back video conference option that can be activitied.
 * Make sure any tools you use, such as virtual whiteboards, are accessible to all participants. If a whiteboard is used, the view must not be blocked from any participant in the room, and must be available to all remote participants.
 * Consider training for your participants on to use the realtime collaboration tools (such as unmuting quickly)
 * When the platform supports it, pin key windows in place -- speaker, content, interpreter, captions -- etc....
-
-
-* Open your remote video room 30 minutes prior to the start of the meeting, to make
-    sure everyone is ready
+* Open your remote video room 30 minutes prior to the start of the meeting, to make sure everyone is ready
 * Request to test the video/audio room setting in advance to avoid bad surprises
 * Offer to test the participants settings in advance
 * do NOT make video recordings or screen captures without the explicit consent of the participants.
@@ -200,16 +185,16 @@ Essential to have a fall-back video conference option that can be activitied.
 
 ## Tooling & Support
 
-[provide some tooling recommendation. See also https://github.com/w3c/w3process/issues/435 for ongoing Process CG discussion, https://github.com/w3c/Guide/issues/78 in the Continuity conversation, and https://github.com/w3c/AB-memberonly/issues/30 in the AB rules/best-practices for tools discussion.
+@@@provide some tooling recommendation. See also https://github.com/w3c/w3process/issues/435 for ongoing Process CG discussion, https://github.com/w3c/guide/issues/78 in the Continuity conversation, and https://github.com/w3c/AB-memberonly/issues/30 in the AB rules/best-practices for tools discussion.
 
- ?Are there any unique requirements or desiderata for the new group calendar system to support hybrid meetings?
+?Are there any unique requirements or desiderata for the new group calendar system to support hybrid meetings?
 
 (for training) For subgroups, Chairs should create multiple events
 
 ## References
 
-W3C, [Tooling for Discussions and Publications](https://www.w3.org/2021/Process-20211102/#tooling), W3C Process Document, November 2, 2021
-https://www.w3.org/2021/Process-20211102/#tooling
+W3C, [Tooling and Archiving for Discussions and Publications](https://www.w3.org/policies/process/#tooling), W3C Process Document
+https://www.w3.org/policies/process/#tooling
 
 Frish & Greene, [What It Takes to Run a Great Hybrid Meeting](https://hbr.org/2021/06/what-it-takes-to-run-a-great-hybrid-meeting), Harvard Business Review, June 3, 2021
 https://hbr.org/2021/06/what-it-takes-to-run-a-great-hybrid-meeting
@@ -223,11 +208,8 @@ https://w3c.github.io/apa/remote-meetings/
 Hooijberg & Watkins, [When Does It Make Sense to Have Mixed-Mode Meetings?](https://sloanreview.mit.edu/article/when-does-it-make-sense-to-have-mixed-mode-meetings/), MIT Sloan Management Review, August 25, 2021<br>
 https://sloanreview.mit.edu/article/when-does-it-make-sense-to-have-mixed-mode-meetings/
 
-Rintel et al, [Hybrid meetings guide](https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles/hybrid-meetings-guide/), The New Future of Work, Microsoft Research, September 9, 2021<br>
-https://www.microsoft.com/en-us/research/project/the-new-future-of-work/articles/hybrid-meetings-guide/
+Rintel et al, [Hybrid meetings guide](https://www.microsoft.com/en-us/research/articles/hybrid-meetings-guide/), The New Future of Work, Microsoft Research, September 9, 2021<br>
+https://www.microsoft.com/en-us/research/articles/hybrid-meetings-guide/
 
 W3C (various), [Remote Meetings](https://www.w3.org/wiki/Remote_Meetings), W3C public wiki, 2013-2014<br>
 https://www.w3.org/wiki/Remote_Meetings
-
-----
-[maintained on GitHub](https://github.com/w3c/Guide); comment there in [issues](https://github.com/w3c/Guide/issues).
