@@ -1,0 +1,1363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Zakim IRC Teleconference Agent</title>
+	<link rel="stylesheet" href="https://www.w3.org/StyleSheets/generic-base-1.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="https://www.w3.org/Guide/guide2006.css">
+	<link rel="shortcut icon" href="https://www.w3.org/Icons/WWW/Literature.gif">
+</head>
+
+<body>
+	<div id="header">
+	<span class="logo"><a href="/"><img src="https://www.w3.org/Icons/WWW/w3c_home_nb" alt="W3C" height="48" width="72"></a></span>
+	   <div class="breadcrumb">
+	   <a href="/Member/">Member</a> &#x2192; <a href="/Guide/">The Art of Consensus</a> &#x2192; 
+	<h1>The Zakim IRC Teleconference Agent</h1>
+	</div>
+	<p class="baseline">This <strong>Guidebook</strong> is the collected wisdom of the W3C Group Chairs and other collaborators.</p>
+	</div>
+
+	<div class="toc">
+	    <h4>Also On This Page &#x2192; </h4>
+	    <ul>
+		<li style="display: none"><a href="#general">General Description</a> &bull; </li>
+		<li><a href="#invite">Bringing Zakim</a> &bull; </li>	
+		<li><a href="#addressing">Talking to Zakim</a> &bull; </li>
+		<li><a href="#identifying">Identify Teleconference</a> &bull; </li>
+		<li><a href="#attendance">Attendance Reports</a> &bull; </li>
+		<li><a href="#callers">Identify Participants</a> &bull; </li>
+<!--
+		<li><a href="#mute">Mute</a> &bull; </li>
+		<li><a href="#disconnect">Disconnect Participants</a> &bull; </l
+i>
+-->
+		<li><a href="#dismiss">Dismiss Zakim</a> &bull; </li>
+		<li><a href="#help">Help</a> &bull; </li>
+		<li><a href="#speakerqueue">Floor Control</a> &bull; </li>
+		<li><a href="#agenda">Agenda Tracking</a> &bull; </li>
+		<li><a href="#questions">Question Tracking</a> &bull; </li>
+		<li><a href="#pickscribe">Pick a Scribe</a> &bull; </li>
+		<li><a href="#changes">Changes</a> &bull; </li>
+		<li><a href="#acknowledgements">Acknowledgements</a></li>
+	     </ul>
+	</div>
+
+
+<h2 id="general">General Description</h2>
+
+<div class="toolbox box" style="margin-bottom: 1em"> 
+<h4>Nearby</h4>
+	<ul>
+<!--
+		<li><a
+		href="http://www.w3.org/1998/12/bridge/Zakim.html">Zakim Bridge Status
+		Monitor</a></li>
+		<li><a
+		href="http://www.w3.org/Guide/1998/08/teleconference-calendar">W3C
+		Teleconference Schedule</a></li>
+-->
+		<li><a
+		href="http://www.w3.org/2002/03/RRSAgent"
+		>RRSAgent record-keeping bot</a></li>
+		<li><a href="https://www.w3.org/2006/tools/wiki/WebExBestPractices">WebEx Best Practices</a></li>
+		<li><a href="https://www.w3.org/2006/tools/wiki/WebExFAQ">WebEx FAQ</a></li>
+		</ul>
+</div>
+
+<p>The Zakim IRC "bot" is a Semantic Web agent ("swagent") that helps
+facilitate meetings using IRC <del>in conjunction with the W3C's Zakim audio
+teleconference bridge</del>.</p>
+<!-- (See also the <a
+href="http://www.w3.org/1998/12/bridge/Zakim.html">Zakim Bridge Status
+Monitor</a> and the <a
+href="http://www.w3.org/Guide/1998/08/teleconference-calendar">W3C
+Teleconference Schedule</a>.)  -->
+
+<p>It is generally available on W3C's IRC server,
+under the "Zakim" nickname. <del>It gives information about teleconferences
+available on the bridge, such as the names of the conferences available at
+that time, the attendance list, and the possibility to associate telephone numbers with
+people. When someone joins a conference, she/he will be announced to the channel using the
++xxx convention, where xxx can be a name, an anonymized phone number or a
+generated ID for numbers that do not have callerID information. When someone
+leaves, -xxx will be used, following the same convention.</del></p>
+
+<p>In the following command descriptions, optional words in commands are indicated in square brackets.  "please" can
+be abbreviated to "pls" if you wish to be polite yet still save keystrokes. 
+("please" is also accepted at the end of all commands.)</p>
+
+
+<h2 id="invite">Bringing Zakim into your meeting channel</h2>
+
+<p>The command:</p>
+<p class="command"><kbd>/invite Zakim &lt;channel&gt;</kbd></p>
+<p>will bring Zakim on to your IRC channel.</p>
+
+<pre class="example"><samp>/invite zakim &amp;test
+[16:41] *** Zakim (~rrs-bridg@tux.w3.org) has joined &amp;test</samp></pre>
+
+<p>Some irc clients let you omit the channel name and will fill in the name
+of current channel.  This is a feature of the irc client, not of Zakim.</p>
+
+<p>You might also want
+<a href="http://www.w3.org/2002/03/RRSAgent">RRSAgent</a>
+in your meeting channel to keep a record of the meeting in W3C Web space.
+To start logging the channel, invite the RRSAgent bot as follows:</p>
+
+<p class="command"><kbd>/invite rrsagent &lt;channel&gt;</kbd></p>
+
+<p>You can find the URL for the log being written by RRSAgent by typing
+the command:</p>
+
+<p class="command"><kbd>rrsagent, bookmark</kbd></p>
+
+<h2 id="addressing">Talking to Zakim</h2>
+
+<p>Once Zakim is on your IRC channel, all commands to Zakim begin with</p>
+
+<p class="command"><kbd>Zakim,</kbd></p>
+
+<p>Zakim's commands are not case sensitive, but, in general, must be
+grammatically correct.</p>
+
+<p>Zakim will respond to normal irc lines and to <kbd>ACTION</kbd> lines
+(typically entered with the '/me' command in many irc clients).
+The '/me' form is especially recommended for avoiding clutter
+in <a href="http://www.w3.org/2002/03/RRSAgent">RRSAgent</a>
+logs; interactions that serve no useful purpose in the 
+permanent irc record can be prefixed with '/me'.  This typically
+includes 'q+'
+and 'ack' commands; e.g. 'q+' will be logged by RRSAgent whereas
+'/me q+' will not [see <a href="http://www.w3.org/2002/03/RRSAgent#stop"
+>RRSAgent log recording</a>].  Zakim will generally mimic the same usage
+in the reply.  For the commands such as 'agenda?' to which Zakim will
+respond without being directly addressed, Zakim responds directly
+if he is addressed and in third-person ('/me') form if he was not
+addressed.</p>
+
+<a id="identifying"></a>
+<h2 id="info">Identifying your particular teleconference</h2>
+
+
+<!--
+<h3>List all conferences presently active on the Zakim bridge</h3>
+
+<p>In order to have Zakim report relevant events, you must inform him which
+teleconference is yours. Helpful commands include:</p>
+
+
+<ul class="command">
+<li>  <kbd>[please] list [conferences]</kbd></li>
+<li>  <kbd>what conferences do you see?</kbd></li>
+<li>  <kbd>what conferences are active?</kbd></li>
+<li>  <kbd>what conferences?</kbd></li>
+</ul>
+
+<p class="def">
+    Conferences that are in the schedule for the present time but not
+    yet active are also listed.</p>
+
+<pre class="example">[16:42] &lt;Alan-MIT&gt; zakim, list conferences 
+[16:42] &lt;Zakim&gt; I see Longfellow II</pre>
+
+<h3>Associate the current IRC channel with &lt;conf name&gt;</h3>
+
+<ul class="command"><li>  <kbd>this [conference] is &lt;conf name&gt;</kbd></li>
+<li>  <kbd>move &lt;conf name&gt; to here</kbd></li>
+<li>  <kbd>move &lt;conf name&gt; to this channel</kbd></li>
+</ul>    
+
+<p> Once you
+      have identified your conference name, Zakim will announce new participants and departing participants.  The name you
+      enter must match the name or conference code of a conference
+      that is already in progress.
+      You need not enter the entire conference name; any part of the name
+      that uniquely identifies it is sufficient.  The first form works
+      only when the conference is not already associated with an IRC
+      channel.  The last two forms will move a conference away from
+      another IRC channel if necessary, informing the previous channel
+      of the move.
+</p>
+
+<pre class="example">[16:43] &lt;Alan-MIT&gt; zakim, this is longfello
+[16:43] &lt;Zakim&gt; ok, Alan-MIT</pre>
+
+<h3>Associate the current IRC channel with &lt;conf name&gt;</h3>
+
+<p class="command"><kbd>this [conference] will be &lt;conf name&gt;</kbd></p>
+
+
+<p>If your conference has not yet started use this command to inform
+      Zakim of a soon-to-start conference.  Zakim will announce the start of the conference
+      as well as the new participants.  The first conference, including any
+      already in progress, whose name contains the specified &lt;conf
+      name&gt; will be taken as the intended conference.  If &lt;conf
+      name&gt; does not match any named conference a match will be attempted
+      to the conference code of a scheduled conference.<p>
+-->
+
+<h3 id="startmeeting">Start a meeting</h3>
+
+<ul class="command">
+  <li>  <kbd>start [the | this] meeting</kbd></li>
+  <li>  <kbd>prepare [the | this] meeting</kbd></li>
+</ul>
+
+<p>Invite <a href="http://www.w3.org/2002/03/RRSAgent">RRSAgent</a> to the current channel, provide the expected access
+control (visibility) of RRSAgent's records and a title for the
+meeting.  Additional instructions may be pre-stored and entered into
+  the irc log.</p>
+
+<p>The two forms of this command do the same thing; some people set things up in the channel well before the meeting is scheduled to start and the 'prepare' synonym reduces confusion for others who are already on the channel.</p>
+
+<h3 id="endmeeting">End a meeting</h3>
+
+<ul class="command">
+  <li>  <kbd>end [the | this] meeting</kbd></li>
+</ul>
+
+<p>Displays a final list of those who were recognized as being present
+during the meeting, requests 
+<a href="http://www.w3.org/2002/03/RRSAgent">RRSAgent</a> to
+create the formatted meeting record, and then departs (see 'bye').</p>
+
+<h3 id="description">Provide a description for the teleconference on the current IRC channel</h3>
+
+<ul class="command">
+  <li>  <kbd>this [conference] is &lt;description&gt;</kbd></li>
+</ul>    
+
+<p class="def">
+  Stores &lt;description&gt; for later query.
+</p>
+
+<p>
+  Teleconference participants appreciate having a simple way to retrieve a
+  reminder of the teleconference coordinates; what number to dial or URL to
+  access, what conference code to use, etc.  This command saves such information
+  for later query.
+</p>
+
+<pre class="example">[16:43] &lt;Alan-MIT&gt; zakim, this is WebEx 640 999 321
+[16:43] &lt;Zakim&gt; ok, Alan-MIT</pre>
+
+
+<h3 id="describe">Request the full name of the conference that is associated with the current IRC channel.</h3>
+<ul class="command">
+  <li>  <kbd>what conference is this?</kbd></li>
+  <li>  <kbd>what is the conference code?</kbd></li>
+  <li>  <kbd>what is the passcode?</kbd></li>
+  <li>  <kbd>what's the conference code?</kbd></li>
+  <li>  <kbd>what's the code?</kbd></li>
+</ul>
+
+
+<p>Returns the conference description that was previously entered.</p>
+
+<h3 id="savedescription">Saving a conference description for future meetings</h3>
+
+<p class="command"><kbd>save this conference description</kbd></p>
+
+<p>If the conference description will apply to future teleconferences
+  on this channel you may wish that Zakim save the information more
+  permanently.  Zakim does not actually know when your teleconference
+  has started or ended, however.  Descriptions previously entered will
+  not be saved when Zakim restarts unless you use this command.</p>
+
+<a id="attendance"></a>
+<h2>Attendance reports</h2>
+
+<h3 id="present">Announcing your presence</h3>
+
+<p class="command"><kbd>present+ [&lt;name&gt;]</kbd></p>
+
+<p class="def">Informs Zakim and all others present on the irc channel
+  that you have joined the teleconference.  Recommended practice is to
+  enter this after you confirm you hear audio from teleconference or
+  when you enter the meeting room to which the conference is connected.</p>
+
+<p>Zakim previously was able to announce the arrival of new teleconference
+participants automatically.  This is no longer the case; you must now tell
+Zakim that you have joined the teleconference.</p>
+
+<p>If you omit &lt;name&gt; Zakim will use your irc nick.</p>
+
+<p class="command"><kbd>present- [&lt;name&gt;]</kbd></p>
+
+<p class="def">Informs Zakim and all others present on the irc channel
+  that you have left the teleconference.</p>
+
+<p>Good practice is to inform others when you leave or drop off the
+  teleconference or leave the meeting room.</p>
+
+<h3 id="whoshere">Produce a report of the current participants in your conference</h3>
+<ul class="command"><li><kbd>who is here?</kbd></li>
+<li>  <kbd>who's here?</kbd></li>
+<li>  <kbd>who is on the phone?</kbd></li>
+<li>  <kbd>who is on the call?</kbd></li>
+<li>  <kbd>who's on the phone?</kbd></li>
+<li>  <kbd>who's on the call?</kbd></li>
+
+</ul>    
+
+<pre class="example">[17:06] &lt;Alan-MIT&gt; zakim, who's here?
+[17:06] &lt;Zakim&gt; On the phone I see Dan, Alan
+[17:06] &lt;Zakim&gt; On IRC I see Alan-MIT, gerald</pre>
+
+<p>Note that Zakim reports both phone participants and irc participants.</p>
+
+<!--
+<h3>Produce a report of the current phone participants in your
+      conference</h3>
+
+<ul class="command">
+  <li>  <kbd>who is on the phone?</kbd></li>
+</ul>
+
+<p>Zakim will report only the phone participants.</p>
+
+<p>The word 'still' may also be included, as in 'who is still
+      on the phone?'</p>
+-->
+
+<h3 id="listparticipants">Produce a report of the names of all participants</h3>
+
+<ul class="command">
+<li><kbd>list attendees</kbd></li>
+<li><kbd>list participants</kbd></li>
+</ul>    
+
+<p>The report will show participants who are currently in your conference or who had been in the conference earlier and have since departed.</p>
+
+<!--
+<h3>Report whether &lt;name&gt; is present in some active
+    conference</h3>
+
+<ul class="command">
+	<li><kbd>is &lt;name&gt; here?</kbd></li>
+<li>  <kbd>is &lt;name&gt; on the call?</kbd></li>
+<li>  <kbd>[have you] seen &lt;name&gt;?</kbd></li>
+</ul>
+
+<h3>Identify Group of people</h3>
+
+<ul class="command"><li><kbd>&lt;name&gt; has &lt;n1&gt;[, &lt;n2&gt; ...]</kbd></li>
+<li>  <kbd>&lt;name&gt; holds &lt;n1&gt;[, &lt;n2&gt; ...]</kbd></li>
+<li>  <kbd>&lt;name&gt; contains &lt;n1&gt;[, &lt;n2&gt; ...]</kbd></li>
+</ul>    
+<p>Informs Zakim that the participant identified as &lt;name&gt; is a
+      group of people whose name(s) are &lt;n1&gt;, &lt;n2&gt;, etc.  This is
+      useful in the case of a conference room phone around which many people
+      might be sitting.  Zakim will include these names in the list of
+      attendees that he reports when the conference terminates and
+      in response to the 'list attendees' command.</p>
+
+<ul class="command">
+	<li><kbd>&lt;n1&gt; is with &lt;name&gt;</kbd></li>
+</ul>    
+
+<p>Like the commands above, this informs Zakim that the participant
+      identified as &lt;name&gt; is a group of people whose names are
+      &lt;name&gt; and &lt;n1&gt;.  This is normally used when a pair of
+      people are using a conference room.  Zakim will include both names
+      in the list of attendees that it reports when the conference
+      terminates.</p>
+
+<ul class="command"><li><kbd>&lt;name&gt; [has] [just] arrived in &lt;name2&gt;</kbd></li>
+<li>  <kbd>&lt;name&gt; [has] [just] entered &lt;name2&gt;</kbd></li>
+<li>  <kbd>&lt;name&gt; is in &lt;name2&gt;</kbd></li>
+<li>  <kbd>&lt;name2&gt; [now] also has &lt;name&gt;</kbd></li>
+<li>  <kbd>&lt;name2&gt; [now] also holds &lt;name&gt;</kbd></li>
+<li>  <kbd>&lt;name2&gt; [now] also contains &lt;name&gt;</kbd></li></ul>
+    
+<p>Informs Zakim that another participant should be added to the group
+      identified by &lt;name2&gt;.</p>
+
+
+<ul class="command">
+	<li><kbd>&lt;name&gt; [has] [just] left &lt;name2&gt;</kbd></li>
+<li>  <kbd>&lt;name&gt; [has] [just] departed &lt;name2&gt;</kbd></li>
+</ul>    
+
+<p>Informs Zakim that the group identified by &lt;name2&gt; no longer
+      contains the participant &lt;name&gt;.</p>
+
+<ul class="command"><li><kbd>&lt;name&gt; no longer has &lt;n1&gt;[, &lt;n2&gt; ...]</kbd></li>
+<li>  <kbd>&lt;name&gt; no longer holds &lt;n1&gt;[, &lt;n2&gt;  ...]</kbd></li>
+<li>  <kbd>&lt;name&gt; no longer contains &lt;n1&gt;[, &lt;n2&gt;  ...]</kbd></li>
+</ul>
+   
+<p>Informs Zakim that the group identified by &lt;name&gt; no longer
+      contains the participant(s) &lt;n1&gt;, etc.</p>
+
+<ul class="command">
+	<li><kbd>who is in &lt;name&gt;?</kbd></li>
+</ul>    
+
+<p>Reports the parties thought to be present in the group identified by
+      &lt;name&gt;.</p>
+
+<a id="callers"></a>
+<h2>Identifying participants</h2>
+
+<p>Once you have informed Zakim of your teleconference, he will report the
+comings and goings of participants. New arrivals are announced to the channel
+using the +xxx convention, and departures as -xxx. There are several ways
+in which conferees are identified:</p>
+<ol>
+  <li>The conferee was called by the Zakim bridge, (staff only). The caller
+    will be identified by name.</li>
+  <li>The conferee called in on a line which supplied the caller's telephone
+    number (CallerID) and that number was known to Zakim. The caller will be
+    identified by name. </li>
+  <li>The conferee called in on a line which supplied the caller's telephone
+    number (CallerID) and that number was NOT known to Zakim. The caller will
+    be identified by an anonymized version of the calling number.   Note
+    that you can <a
+    href="http://www.w3.org/1998/12/bridge/info/name.php3">supply your
+    information</a> to be added to the W3C bridge monitor database to
+    help Zakim recognize you in the future.</li>
+  <li>The conferee called in on a line which did NOT supply the caller's
+    telephone number. The caller will be identified as "??Pnn" where "nn" is
+    the port on the Zakim bridge used by the caller.</li>
+  <li><em>experimental feature</em>: The conferee entered an individual
+    identifier via the telephone keypad after joining the conference;
+    <strong>43<em>nnn</em>#</strong>.  ('43' corresponds to 'ID' on
+    the <a href="/Guide/1998/08/phone">keypad</a>.)</li>
+  <li>Zakim was unable to determine any information about the caller. In that
+    case the caller will be identifed by a generated 2 to 4 character
+    sequence, "??zzz".</li>
+</ol>
+
+<p>You can help Zakim identify callers by name using the following
+commands:</p>
+
+<ul class="command"><li><kbd>&lt;old identifier&gt; is perhaps &lt;name&gt;</kbd></li>
+<li>  <kbd>&lt;old identifier&gt; is possibly &lt;name&gt;</kbd></li>
+<li>  <kbd>&lt;old identifier&gt; is probably &lt;name&gt;</kbd></li>
+<li>  <kbd>&lt;old identifier&gt; may be &lt;name&gt;</kbd></li></ul>
+
+    <p>Supplants &lt;old identifier&gt; with &lt;name&gt;, adding the
+      <em>maybe</em> flag. This means that this association is not certain
+      and will not be saved for future references. Such callers are
+      identified in lists with a "?". Future rejoin from the same number will
+      show "+xxx is perhaps yyy".</p>
+
+<pre class="example">[17:07] &lt;Alan-MIT&gt; zakim, ??P1 may be Foo
+[17:07] &lt;Zakim&gt; +Foo?; got it
+[17:09] &lt;Alan-MIT&gt; zakim, who's here?
+[17:09] &lt;Zakim&gt; I see Foo?, Alan</pre>
+
+<ul class="command"><li><kbd>&lt;old identifier&gt; is &lt;name&gt;</kbd>
+</li></ul>    
+
+
+<p>Supplants &lt;old identifier&gt; with &lt;name&gt;.</p>
+
+<pre class="example">[17:13] &lt;Alan-MIT&gt; zakim, ??P0 is AlanK
+[17:13] &lt;Zakim&gt; +AlanK; got it</pre>
+
+<ul class="command"><li><kbd>&lt;old name&gt; is really &lt;name&gt;</kbd></li></ul>
+    
+<p>This command reassigns names, and removes any <em>maybe</em> flag if
+      one was present.</p>
+
+<pre class="example">[17:10] &lt;Alan-MIT&gt; zakim, foo is really Bob
+[17:10] &lt;Zakim&gt; +Bob; got it</pre>
+
+<ul class="command"><li><kbd>&lt;old identifier&gt; is temporarily &lt;name&gt;</kbd>
+</li></ul>    
+
+<p>Supplants &lt;old identifier&gt; with &lt;name&gt; for this call
+      only.  After the caller disconnects the name associated with the phone
+      number will revert to &lt;old identifier&gt;.</p>
+
+<ul class="command"><li><kbd>&lt;old identifier&gt; is [really] me</kbd></li>
+</ul>    
+
+<p>Supplants &lt;old identifier&gt; with your IRC nick.</p>
+
+<ul class="command"><li><kbd>I am &lt;old identifier&gt;</kbd>
+</li></ul>    
+
+<p>Supplants &lt;old identifier&gt; with your IRC nick if it was a
+      telephone number or other unknown party identifier, otherwise simply
+      associate your IRC nick with the named party.  In the latter case
+      (associating your IRC nick with the named party), you may then use "me"
+      instead of entering your full name in commands such as "mute me",
+      "unmute me", "disconnect me", and "queue+ me".</p>
+
+<ul class="command"><li><kbd>nick &lt;irc-nick&gt; is &lt;name&gt;</kbd>
+</li></ul>    
+
+<p>Associates an IRC nick with the named party, as in the case above.
+      This command is available for someone else to make the association
+      other than the person owning the nick.  When the association is
+      known, Zakim will more often recognize when to unmute the caller.</p>
+
+<p>When referring to a participant you need only use enough characters of the
+participant's name to be unambiguous; e.g. a participant named 'TimBL' can be
+referred to as just 'Tim'.  The anonymized version of the telephone number
+for a participant whose name is unknown ends in four characters.  If an
+abbreviated name does not match the left-most part of a known participant's
+name and does match the last four characters of an anonymized telephone
+number, Zakim will understand that the reference is to the participant at
+that telephone number.</p>
+
+<h3 id="mute">Muting</h3>
+
+<p>The Zakim bridge has the capability to mute conferees.  (Muting blocks
+sound on a conferee's line from being heard on the conference.)  Conferees
+can mute themselves by dialing 61#.  In that case, unmute is 60#.</p>
+
+<h3>Mute the named participant</h3>
+
+<ul class="command"><li><kbd>[please] mute &lt;name&gt;</kbd></li></ul>
+
+    <p>The participant can unmute using
+    60#.</p>
+
+<pre class="example">[17:14] &lt;Alan-MIT&gt; zakim, mute AlanK
+[17:14] &lt;Zakim&gt; AlanK should now be muted
+[17:15] &lt;Alan-MIT&gt; zakim, mute AlanK
+[17:15] &lt;Zakim&gt; AlanK was already muted, Alan-MIT</pre>
+
+
+<h3>Unmute the named participant</h3>
+
+<ul class="command"><li><kbd>[please] unmute &lt;name&gt;</kbd></li></ul>
+
+    <p>  This command will undo BOTH
+      <strong>mute</strong> commands and 61#.</p>
+
+<pre class="example">[17:17] &lt;Alan-MIT&gt; zakim, unmute AlanK
+[17:17] &lt;Zakim&gt; AlanK should no longer be muted
+[17:17] &lt;Alan-MIT&gt; zakim, unmute AlanK
+[17:17] &lt;Zakim&gt; AlanK was not muted, Alan-MIT</pre>
+
+<h3>Mute or unmute the named participant for 15 seconds</h3>
+
+<ul class="command">
+<li><kbd>[please] mute &lt;name&gt; temporarily</kbd></li>
+<li>  <kbd>[please] unmute &lt;name&gt; temporarily</kbd></li>
+<li>  <kbd>[please] temporarily mute &lt;name&gt;</kbd></li>
+<li>  <kbd>[please] temporarily unmute &lt;name&gt;</kbd></li>
+</ul>
+
+    <p> These
+      requests are intended to facilitate the identification of callers who
+      are causing noise or echos.</p>
+
+<h3>List all participants muted for any reason</h3>
+
+<ul class="command"><li><kbd>who is muted?</kbd></li>
+<li>  <kbd>who's muted?</kbd></li></ul>
+
+    <p>Zakim does not distinguish
+      how the particpant became muted.</p>
+
+<pre class="example">[17:18] &lt;Alan-MIT&gt; zakim, who's muted?
+[17:18] &lt;Zakim&gt; I see no one muted</pre>
+
+<h3>Noise, Voice detection</h3>
+
+<ul class="command">
+	<li><kbd>who is talking?</kbd></li>
+<li>  <kbd>who's talking?</kbd></li>
+</ul>
+
+    <p>Requests that Zakim-bot listen for 10 to 20 seconds then report the
+      names of any participants who were heard during that interval. This
+      request is intended to be an aid to determine which participants might
+      need to be muted. <em>If a line is generating sound at a very low
+      level, it may be reported here but not actually heard in the
+      conference; this is not uncommon for some phone lines that introduce
+      echo.  Occasionally a port that is generating continuous sound might
+      not be reported; this is a bug.</em>  In place of the word 'talking'
+      the words '<strong>speaking</strong>', '<strong>noisy</strong>' and
+      '<strong>making noise</strong>' may also be used.
+</p>
+
+<h3 id="disconnect">Disconnecting Participants</h3>
+
+<p>If a participant is unable to hangup, the line can be disconnected on
+request.</p>
+
+<ul class="command"><li><kbd>[please] disconnect &lt;name&gt;</kbd></li>
+<li>  <kbd>[please] drop &lt;name&gt;</kbd></li>
+<li>  <kbd>[please] hangup &lt;name&gt;</kbd></li></ul>
+    
+<p>Forceably disconnects the named participant.</p>
+-->
+
+<h3 id="dismiss">Dismissing Zakim</h3>
+
+<ul class="command">
+	<li><kbd>[please] excuse us</kbd></li>
+	<li>  <kbd>bye</kbd></li>
+	<li>  <kbd>[please] part</kbd></li>
+	<li>  <kbd>[please] leave</kbd></li>
+</ul>
+
+    <p>All disconnect the Zakim bot from your IRC channel.  This has no
+      effect on the conference bridge itself.</p>
+
+<pre class="example">[17:19] &lt;Alan-MIT&gt; zakim, excuse us
+[17:19] *** Zakim (~rrs-bridg@tux.w3.org) has left &amp;test (Zakim)</pre>
+
+<h3 id="help">Help</h3>
+<ul class="command"><li><kbd>[please] help</kbd></li>
+</ul>    <p>Displays an abbreviated list of some major commands.  Due to "flood control" in
+      IRC, this may be slow.</p>
+
+<ul class="command"><li><kbd>where is [+]&lt;dialing code&gt;?</kbd></li>
+</ul>    <p>Looks up a telephone number prefix in a North American area code
+      directory or in an international country code directory. The '+' may be
+      omitted only if the dialing code is exactly 3 digits; this will be
+      interpreted as a request to lookup a North American area code.  Hyphens
+      and periods may be used in the dialing code and will be ignored.</p>
+
+
+<h3 id="speakerqueue">Floor Control</h3>
+
+<p>Zakim will help track a queue of participants wishing to speak. The
+commands in this set need not be directly addressed to Zakim; they will be
+recognized when addressed to no one in particular and also when received as
+third person ('/me') messages.</p>
+
+<h3 id="handup">Add name(s) to the queue of individuals wishing to speak</h3>
+
+<ul class="command"><li><kbd>queue+ [&lt;name&gt; [, &lt;name&gt; ...]]</kbd></li>
+<li><kbd>q+ [&lt;name&gt;[, &lt;name&gt; ...]]</kbd></li>
+<li><kbd>[&lt;name&gt;] raises hand</kbd></li>
+<li><kbd>sees &lt;name&gt; [, &lt;name&gt;...] raise  hand[s]</kbd></li>
+<li><kbd>sees &lt;name&gt;'s [, &lt;name&gt;'s...] hand[s]  [up]</kbd></li>
+</ul>
+
+    <p>If
+      &lt;name&gt; is omitted or specified as 'me', the irc nick issuing the
+      request is used. The last three forms are intended particularly for /me
+      messages. <!--A phone participant who does not have irc access can dial
+      <strong>41#</strong> to raise his or her hand.  The mnemonic is
+      <strong>4</strong>=<strong>H</strong>and, <strong>1</strong>=up,
+      <strong>#</strong>='enter'.  It is not necessary that the participant
+      be unmuted to dial this request.  There is no audible feedback for a
+      dialed request so the chairperson is encouraged to verbally confirm the
+      queue request at an appropriate pause.--></p>
+
+
+<h3 id="qplus">Add name to the queue of individuals wishing to speak</h3>
+
+<ul class="command">
+	<li><kbd>queue+ [&lt;name&gt;] [also] to &lt;note&gt;</kbd></li>
+	<li><kbd>q+ [&lt;name&gt;] [also] to &lt;note&gt;</kbd></li>
+</ul>    
+
+<p>If
+      &lt;name&gt; is omitted or specified as 'me', the irc nick issuing the
+      request is used.  The &lt;note&gt; is a comment to indicate why that
+      person wishes to speak; the word 'to' may also be written as ':'.
+      If the same name is added to the queue multiple times there may be
+      multiple notes.  The word 'also' can be given in such cases however
+      it is not necessary.
+      </p>
+
+<h3 id="qqplus">Add name to the speaker queue to react to the current speaker</h3>
+
+<ul class="command">
+	<li><kbd>qq+ [&lt;name&gt;] [also] to &lt;note&gt;</kbd></li>
+</ul>    
+
+<p>The mnemonic is "quick queue+".  This
+  request adds to the front of the speaker queue to react to something
+  the current speaker just said.  This should be used with discretion
+  and is therefore considered an experimental feature.
+</p>
+
+<p>If
+      &lt;name&gt; is omitted or specified as 'me', the irc nick issuing the
+      request is used.  The &lt;note&gt; is a comment to indicate why that
+      person wishes to speak; the word 'to' may also be written as ':'.
+      If the same name is added to the queue multiple times there may be
+      multiple notes.  The word 'also' can be given in such cases however
+      it is not necessary.
+      </p>
+
+<h3 id="qminus">Remove name(s) from the queue of individuals wishing to speak</h3>
+
+<ul class="command"><li><kbd>queue- [&lt;name&gt;[, &lt;name&gt; ...]]</kbd></li>
+<li><kbd>q- [&lt;name&gt;[, &lt;name&gt; ...]]</kbd></li>
+<li><kbd>[&lt;name&gt;] lowers hand</kbd></li>
+<li><kbd>sees &lt;name&gt; [, &lt;name&gt;...] lower  hand[s]</kbd></li>
+<li><kbd>sees &lt;name&gt;'s [, &lt;name&gt;'s...] hand[s]  down</kbd></li>
+</ul>
+
+    <p>If
+      &lt;name&gt; is omitted or specified as 'me', the irc nick issuing the
+      request is used. If a &lt;name&gt; is given explicitly and if it
+      matches the start of exactly one entry in the queue then it is
+      interpreted as if that full entry were entered; that is, unambiguous
+      abbreviations are recognized.  Abbreviations are not recognized if the
+      name is omitted or 'me' is used; i.e. when the irc nick issuing the
+      request is assumed. The last three forms are intended particularly for
+      /me messages. <!--A phone participant who does not have irc access can dial
+      <strong>40#</strong> to lower his or her hand.  The mnemonic is
+      <strong>4</strong>=<strong>H</strong>and, <strong>0</strong>=down,
+      <strong>#</strong>='enter'.  It is not necessary that the participant
+      be unmuted to dial this request.--></p>
+
+<h3 id="qlater">Move the speaker to the end of the queue</h3>
+
+<ul class="command">
+	<li><kbd>q- later</kbd></li>
+</ul>
+  <p>Moves the irc nick issuing the request to the end of the speaker
+    queue.</p>
+
+<h3 id="qpluslater">Add the irc nick issuing the request to the end of the speaker
+	    queue as a separate instance</h3>
+
+<ul class="command"><li><kbd>q+ later [to &lt;note&gt;]</kbd></li>
+</ul>  
+
+<p>Use this command if you wish to speak
+    more than once rather than presenting all your comments at one time.</p>
+
+<h3 id="queueequals">Place name(s) on the queue of individuals wishing to speak</h3>
+
+<ul class="command">
+	<li><kbd>queue= [&lt;name&gt;[, &lt;name&gt; ...]]</kbd></li>
+	<li><kbd>q= &lt;name&gt;[, &lt;name&gt; ...]</kbd></li>
+</ul>    
+
+<p>or replacing any names already on the queue.  If "queue" is spelled out
+      and no names are specified then the queue is cleared.</p>
+
+<h3 id="q">Display the queue of individuals wishing to speak</h3>
+
+<ul class="command"><li><kbd>[who is on] queue?</kbd></li>
+<li><kbd>[who's on] queue?</kbd></li>
+<li><kbd>q?</kbd></li>
+</ul>
+
+<p>An ordered list of the names of those waiting to speak is shown.</p>
+
+<p>'queue' can also be abbreviated to just 'q' in the first two forms.</p>
+
+<h3 id="vq">Display the speaker queue with notes (verbose queue)</h3>
+
+<ul class="command"><li><kbd>[please show the] full queue</kbd></li>
+<li><kbd>[please show the] verbose queue</kbd></li>  
+<li><kbd>vqueue?</kbd></li>
+<li><kbd>vq?</kbd></li>
+<li><kbd>qv?</kbd></li>
+</ul>
+
+<p>'queue' can also be abbreviated to just 'q' in the first two forms.</p>
+
+<p>An ordered list of the names of those waiting to speak is shown along
+ with any notes they have entered about why they have asked to speak.</p>
+
+<h3 id="ack">Grant &lt;name&gt; permission to speak</h3>
+
+<ul class="command"><li><kbd>[chair] recognize[s] &lt;name&gt;</kbd></li>
+<li><kbd>[chair] ack[s] &lt;name&gt;</kbd></li>
+</ul>
+    <p><!--If &lt;name&gt; corresponds
+      to a known participant and that participant is muted, Zakim will unmute
+      the participant.--> If &lt;name&gt; matches the start of exactly one name
+      on the queue of individuals wishing to speak (see 'queue+' above) then
+      the corresponding name is removed from the queue.  However,
+      &lt;name&gt; need not be on the speaker queue, nor is the chair
+      obligated to acknowledge speakers in any particular order.</p>
+
+
+<h3 id="acknext">Grant the first person on the speaker queue permission to speak</h3>
+	
+<ul class="command"><li><kbd>[chair] recognize[s] next [speaker]</kbd></li>
+<li><kbd>[chair] ack[s] next [speaker]</kbd></li>
+</ul>    <p>  The name will be displayed along with the remaining
+      speaker queue.  <!--If the queued name corresponds to a known
+      participant and that participant is muted, Zakim will unmute the
+      participant.--></p>
+
+<h3 id="closequeue">Close the queue</h3>
+
+<ul class="command"><li><kbd>[please] close the queue</kbd></li>
+</ul>    <p>Causes subsequent queue+ and 41# requests to leave the speaker
+    queue unchanged.</p>
+
+
+<h3 id="openqueue">Reopen the queue</h3>
+<ul class="command"><li><kbd>[please] [re]open the queue</kbd></li>
+</ul>    
+
+<p>Causes subsequent queue+ and 41# requests to be added to the
+    speaker queue.  This is the default state when Zakim is invited to
+    a channel.  The speaker queue will also be reopened whenever a new
+    agendum is taken up.</p>
+
+<h3 id="lastword">Giving the Last Word</h3>
+
+<ul class="command"><li><kbd>[please] give &lt;name&gt; the last word</kbd></li>
+<li><kbd>[please] &lt;name&gt; has the last word</kbd></li>
+</ul>    <p>Grants &lt;name&gt; permission to speak, clears the remainder of
+    the speaker queue, and closes the speaker queue.  Subsequent queue+
+    and 41# requests will leave the speaker queue unchanged.</p>
+
+<h3 id="queuetimer">Timer for speakers</h3>
+
+<ul class="command">
+<li><kbd>[please] allow [each speaker] &lt;number&gt; minutes|seconds</kbd></li>
+<li><kbd>[please] allow [speakers] &lt;number&gt;   minutes|seconds</kbd></li>
+<li><kbd>[please] time [each speaker] [at] &lt;number&gt;   minutes|seconds</kbd></li>
+<li><kbd>[please] time [speakers] [at] &lt;number&gt;   minutes|seconds</kbd></li>
+</ul>
+    <p>Causes the <strong>ack</strong> command to start a timer.
+	 Zakim will
+      issue reminders as the speaker approaches the end of the alloted
+      speaking time.  The keywords 'minutes' and 'seconds' can be abbreviated
+      to 'min', 'm', 'sec', or 's' respectively.  'give' may be used as a
+      synonym for 'allow'.</p>
+
+<h3 id="stoptimer">Stop timer</h3>
+
+<ul class="command"><li><kbd>[please] stop timing [speakers]</kbd></li>
+</ul>    <p>Causes Zakim to cease issuing reminders as speaker are acknowledged
+      and approach the end of a previously established speaking time.</p>
+
+<h3 id="stopqueue">Stop tracking Queue</h3>
+
+<ul class="command"><li><kbd>[please] ignore [the] queue</kbd></li>
+</ul>    <p>Requests that the Zakim bot stop tracking speaker queue changes. This
+      request must be addressed specifically to Zakim.  This is not the same
+      as closing the queue; after Zakim has been told to ignore the queue,
+      it will give no feedback to queue+, queue-, and recognize requests.
+      If the queue is closed Zakim will continue to give feedback unless
+      it has also been told to ignore the queue.</p>
+
+<h3 id="startqueue">Start Tracking Queue</h3>
+
+<ul class="command"><li><kbd>[please] track [the] queue</kbd></li>
+</ul>    <p>Requests that the Zakim bot begin tracking speaker queue changes.
+      This is the default state when Zakim is invited to a channel. This
+      request must be addressed specifically to Zakim.  Note that the
+      speaker queue may be opened or closed independently of whether
+      Zakim is tracking the queue.</p>
+
+
+<p>The speaker queue will be cleared at the end of the conference assigned to
+the irc channel.</p>
+
+<h2 id="agenda">Agenda Tracking</h2>
+
+<p>Zakim will help track agenda items requested while a meeting is in
+progress.  Like floor control, the commands in this set need not be directly
+addressed to Zakim; they will be recognized when addressed to no one in
+particular and also when received as third person ('/me') messages.</p>
+
+
+<h3 id="agendaplus">Add an agenda item</h3>
+
+<ul class="command">
+	<li><kbd>agenda+ &lt;text&gt;</kbd></li>
+	<li><kbd>agenda+ &lt;text&gt; '['&lt;proposer&gt;']'</kbd></li>
+</ul>
+
+    <p>Adds an item described by &lt;text&gt; to the agenda, assigning it
+      the next sequential number.  The irc nick of the person who entered the
+      request is recorded.  In the second form, the brackets '[ ]' are part
+      of the command (the quotes are not) and indicate that the proposer is
+      someone other than the person who entered the request.  The word
+      'agenda' may also be entered as 'agendum'.</p>
+
+<pre class="example">[12:10] &lt;RalphS&gt; agenda+ minute-taker
+[12:10] * Zakim notes agendum 1 added
+[12:11] &lt;RalphS&gt; agenda+ chair for next meeting [Alan]
+[12:11] * Zakim notes agendum 2 added
+[12:11] &lt;RalphS&gt; zakim, agenda?
+[12:11] &lt;Zakim&gt; I see 2 items remaining on the agenda:
+[12:11] &lt;Zakim&gt; 1. minute-taker [from RalphS]
+[12:11] &lt;Zakim&gt; 2. chair for next meeting [from Alan via RalphS]</pre>
+
+<h3 id="displayagenda">Display the agenda</h3>
+
+<ul class="command">
+<li><kbd>what is [on] [the] agenda?</kbd></li>
+<li><kbd>what's [on] [the] agenda?</kbd></li>
+<li><kbd>list [the] agenda</kbd></li>
+<li><kbd>show [the] agenda</kbd></li>
+<li><kbd>agenda?</kbd></li>
+</ul>    <p>Displays the agenda.</p>
+
+<h3 id="modifyitem">Modify an agenda item</h3>
+
+<ul class="command"><li><kbd>agenda &lt;number&gt; = &lt;newtext&gt;</kbd></li>
+<li><kbd>agendum &lt;number&gt; = &lt;newtext&gt;</kbd></li>
+<li><kbd>item &lt;number&gt; = &lt;newtext&gt;</kbd></li>
+</ul>    <p>Replaces the text of item &lt;number&gt; with &lt;newtext&gt;.</p>
+
+<h3 id="dropitem">Drop an item from the agenda</h3>
+
+<ul class="command"><li><kbd>agenda- &lt;number&gt;</kbd></li>
+<li><kbd>item- &lt;number&gt;</kbd></li>
+<li><kbd>delete agendum &lt;number&gt;</kbd></li>
+<li><kbd>drop agendum &lt;number&gt;</kbd></li>
+<li><kbd>forget agendum &lt;number&gt;</kbd></li>
+<li><kbd>remove agendum &lt;number&gt;</kbd></li>
+<li><kbd>remove item &lt;number&gt;</kbd></li>
+</ul>
+
+    <p>Removes item &lt;number&gt; from the agenda. <em>Note the '-'
+      (hyphen) between the word 'agenda' and the number</em>.  In the second
+      form the word 'agendum' may also be mis-written as 'agenda'.</p>
+
+
+<h3 id="takeup">Open the discussion about an agenda item</h3>
+
+<ul class="command"><li><kbd>take up agendum &lt;number|pattern&gt;</kbd></li>
+<li><kbd>open agendum &lt;number|pattern&gt;</kbd></li>
+<li><kbd>move to agendum &lt;number|pattern&gt;</kbd></li>
+</ul>    <p>Indicates that agenda item &lt;number&gt; is open for discussion. 
+      This gives Zakim the information needed to respond to subsequent
+      commands.  The word 'agendum' may be mis-written as 'agenda' or
+      as 'item'.  A text pattern (regular expression) may be given
+      instead of a number if the pattern matches exactly one agendum.</p>
+
+<h3 id="nextitem">Move to the next agenda item</h3>
+
+<ul class="command"><li><kbd>[take up] next agendum</kbd></li>
+<li><kbd>[open] next agendum</kbd></li>
+<li><kbd>move to next agendum</kbd></li>
+</ul>    
+
+<p>Indicates that the next non-closed agenda item in the list specified
+      by 'agenda order' or the lowest-numbered non-closed agenda item is open
+      for discussion.  If an agendum is currently open it will be closed unless
+      it has been open for less than a minute.  (This reduces confusion if
+      several people simultaneously instruct Zakim-bot to move to the next
+      agendum.)  The word 'agendum' may be mis-written as 'agenda' or
+      as 'item'.  The third form, 'move to ...', causes Zakim bot to display
+      the next agendum for the record, whether or not you addressed the bot
+      directly.  If the current agendum has been open for less than a minute
+      use <strong>close this agendum</strong> explicitly to permit moving
+      to the next agendum.</p>
+
+<pre class="example">[15:57] &lt;RalphS&gt; zakim, what is on the agenda?
+[15:57] &lt;Zakim&gt; I see 3 items remaining on the agenda:
+[15:57] &lt;Zakim&gt; 1. pick scribe [from RalphS]
+[15:57] &lt;Zakim&gt; 2. review previous meeting minutes [from RalphS]
+[15:57] &lt;Zakim&gt; 3. schedule next meeting [from RalphS]
+[15:57] &lt;RalphS&gt; zakim, take up next agendum
+[15:57] &lt;Zakim&gt; agendum 1. "pick scribe" taken up [from RalphS]
+[15:57] &lt;RalphS&gt; next agendum
+[15:57] * <em>Zakim thinks agendum 1 was just opened</em>
+[15:57] &lt;RalphS&gt; close this agendum
+[15:57] * <em>Zakim notes agendum 1 closed</em>
+[15:57] * <em>Zakim sees 2 items remaining on the agenda; the next one is</em>
+[15:57] * <em>Zakim 2. review previous meeting minutes [from RalphS]</em>
+[15:57] &lt;RalphS&gt; next agendum
+[15:57] * <em>Zakim thinks agendum 2. "review previous meeting minutes" taken up [from RalphS]</em>
+[16:10] &lt;RalphS&gt; move to next agendum
+[16:10] &lt;Zakim&gt; agendum 3. "schedule next meeting" taken up [from RalphS]
+[16:11] &lt;RalphS&gt; zakim, what is on the agenda?
+[16:11] &lt;Zakim&gt; I see 1 item remaining on the agenda:
+[16:11] &lt;Zakim&gt; 3. schedule next meeting [from RalphS]</pre>
+
+<h3 id="timeitem">Create a reminder</h3>
+
+<ul class="command">
+	<li><kbd>give this [agenda] item &lt;n&gt; minutes</kbd></li>
+	<li><kbd>allow this [agenda] item &lt;n&gt; minutes</kbd></li>
+<li><kbd>allow this agendum &lt;n&gt; minutes</kbd></li>
+</ul>
+    <p>Schedules a reminder for <em>n</em> minutes in the future.  The
+    reminder will be canceled if the current agendum has been closed or
+    a new agendum has been taken up.</p>
+
+<h3 id="agendaorder">Reorder the agenda</h3>
+
+<ul class="command"><li><kbd>[the] agenda order [is] a [, b]... [, m-[n]]...</kbd></li>
+</ul>    <p>Indicates the expected order in which the agenda items will be taken
+      up for discussion.  Agenda items are specified by number.  A list of
+      numbers separated by spaces or commas indicates individual agenda
+      items.  Two numbers separated by hyphen indicates a range of items.  A
+      single number followed by a hyphen followed by a space or comma
+      indicates a range of items starting with the first number and running
+      through the end of the list.  Any items not included in the list will
+      be assumed to be added to the end of the list in numerical order. The
+      items need not actually be discussed in the indicated order.</p>
+
+<pre class="example">[23:19] &lt;RalphS&gt; agenda+ first item
+[23:19] * Zakim notes agendum 1 added
+[23:19] &lt;RalphS&gt; agenda+ second item
+[23:19] * Zakim notes agendum 2 added
+[23:19] &lt;RalphS&gt; agenda+ third item
+[23:19] * Zakim notes agendum 3 added
+[23:19] &lt;RalphS&gt; what's on the agenda?
+[23:19] * Zakim sees 3 items remaining on the agenda:
+[23:19] * Zakim 1. first item [from RalphS]
+[23:19] * Zakim 2. second item [from RalphS]
+[23:19] * Zakim 3. third item [from RalphS]
+[23:19] &lt;RalphS&gt; agenda order is 3,2
+[23:19] * Zakim notes agenda order
+[23:19] &lt;RalphS&gt; Zakim, agenda?
+[23:19] &lt;Zakim&gt; I see 3 items remaining on the agenda:
+[23:19] &lt;Zakim&gt; 3. third item [from RalphS]
+[23:19] &lt;Zakim&gt; 2. second item [from RalphS]
+[23:19] &lt;Zakim&gt; 1. first item [from RalphS]
+[23:20] &lt;RalphS&gt; zakim, next agendum
+[23:20] &lt;Zakim&gt; agendum 3. "third item" taken up [from RalphS]</pre>
+
+
+<h3 id="currentitem">What is the current agenda item?</h3>
+
+<ul class="command"><li><kbd>what agendum [is open]?</kbd></li>
+<li><kbd>what agendum is this?</kbd></li>
+<li><kbd>what agendum are we on?</kbd></li>
+<li><kbd>current agendum?</kbd></li>
+</ul>    <p>Requests feedback about the current open agenda item. The word
+      'agendum' may be mis-written as 'agenda' or as 'item'.  The word
+      'which' may be used in place of 'what'.</p>
+
+<h3 id="closeitem">Close an agenda item</h3>
+
+<ul class="command"><li><kbd>close agendum &lt;number&gt;</kbd></li>
+</ul>    <p>Marks item &lt;number&gt; as needing no further discussion. The next
+      remaining item (if any) will be displayed. The word 'agendum' may be
+      mis-written as 'agenda' or as 'item'.</p>
+
+<ul class="command"><li><kbd>close this agendum</kbd></li>
+</ul>    <p>Marks the current agenda item as needing no further discussion. The
+      next remaining item (if any) will be displayed. The word 'agendum' may
+      be mis-written as 'agenda' or as 'item'.</p>
+
+<pre class="example">[23:28] &lt;RalphS&gt; zakim, close this agendum
+[23:28] &lt;Zakim&gt; agendum 3 closed
+[23:28] &lt;Zakim&gt; I see 2 items remaining on the agenda; the next one is
+[23:28] &lt;Zakim&gt; 2. second item [from RalphS]</pre>
+
+    <p>If the specified agendum is currently open for discussion and the
+      speaker queue is not empty Zakim will report this fact and decline
+      to close the item.  If the meeting facilitator wishes to move on
+      despite this (e.g. perhaps knowing that a speaker is really
+      queued to speak to a later topic), prefix the request with the
+      word 'really':
+
+<ul class="command"><li><kbd>really close this agendum</kbd></li>
+<li><kbd>really close agendum &lt;number&gt;</kbd></li>
+</ul>
+
+<h3 id="skipitem">Defer an item on the agenda</h3>
+
+<ul class="command"><li><kbd>skip agendum &lt;number&gt;</kbd></li>
+<li><kbd>skip item &lt;number&gt;</kbd></li>
+<li><kbd>skip this agendum</kbd></li>
+<li><kbd>skip this item</kbd></li>
+</ul>
+
+    <p>Marks item &lt;number&gt; or the currently open item as "skipped" and lists it at the end of
+      the agenda after any non-closed items.  Items may be skipped even
+      after they have been taken up; e.g. by 'open next agendum'.</p>
+
+<h3 id="clearagenda">Clear the agenda</h3>
+
+<ul class="command"><li><kbd>[please] clear [the] agenda</kbd></li>
+</ul>    <p>Removes all items from the agenda.</p>
+
+<h3 id="readagenda">Read agenda from another source</h3>
+
+<ul class="command"><li><kbd>[please] read agenda from &lt;uri&gt;</kbd></li>
+</ul>
+    <p>Takes <em>uri</em> as a file of RDF/XML and queries it for
+     agenda items.  Any agenda items found will be added to the current
+     agenda. See <a href="/2004/02/agenda">description of agenda format</a>
+     for details on the RDF graph that is expected.  Paul Downey wrote
+     a <a href="http://blog.whatfettle.com/2006/07/04/rdf-agenda-scraper/"
+      >tool for extracting RDF/XML agendas from text messages</a>;
+     you can append the URI of your text message to Paul's
+     <a href="http://whatfettle.com/2006/07/RDFAgenda/">RDFAgenda</a>
+     URI to construct a URI for the RDF/XML form of a suitably-formatted
+     text agenda.</p>
+
+<h3 id="saveagenda">Save agenda to W3C Web site</h3>
+
+<ul class="command"><li><kbd>[please] save agenda [team-access|member-access|world-access]</kbd></li>
+</ul>  
+
+<p>Writes the current agenda to the Web in RDF/XML form as
+    http://www.w3.org/yyyy/mm/dd-&lt;channel&gt;-agenda where 'yyyy' is the
+    current year, 'mm' is the current month, and 'dd' is the current day.
+    If an access option is specified, the URI will be given the corresponding
+    visibility.  The suffix <em>-access</em> may also be written as
+    <em>-visible</em> or may be omitted entirely.</p>
+
+<h3 id="reminder">Program a reminder alarm</h3>
+
+<ul class="command">
+<li><kbd>[please] ping [me|us] in &lt;interval&gt;  [minutes|hours]</kbd></li>
+<li><kbd>[please] remind [me|us] in &lt;interval&gt; [minutes|hours] [about|to|that  &lt;text&gt;]</kbd></li>
+</ul>
+
+    <p>Schedules a notice for &lt;interval&gt; minutes or hours in the future.
+      &lt;text&gt; will be displayed at that time if it is specified.  This
+      request must be addressed specifically to Zakim. The word 'minutes' may
+      be abbreviated to 'minute', 'mins', 'min', 'm', or may be omitted.
+      The word 'hours' may be abbreviated to 'hour' or 'h'.
+      There is no significant difference between 'ping' and 'remind', between
+      'me' and 'us', or between 'about', 'to', and 'that'.</p>
+
+<h3 id="ignoreagenda">Stop tracking agenda changes</h3>
+
+<ul class="command"><li><kbd>[please] ignore [the] agenda</kbd></li>
+</ul>    <p>Requests that the Zakim bot stop tracking agenda changes. This
+      request must be addressed specifically to Zakim.</p>
+
+<h3 id="trackagenda">Start tracking agenda changes</h3>
+
+<ul class="command"><li><kbd>[please] track [the] agenda</kbd></li>
+</ul>    <p>Requests that the Zakim bot begin tracking agenda changes. This
+      request must be addressed specifically to Zakim. This is the default
+      state when Zakim is invited to a channel.</p>
+
+
+<p>The agenda will be cleared at the end of the conference assigned to the
+irc channel.</p>
+
+<a id="pickscribe"></a>
+<h3 id="pickvictim">Minute-Taking (Scribe)</h3>
+
+<p>Zakim will help choose a scribe (minute-taker) from the current
+participants in the meeting.</p>
+<ul class="command"><li><kbd>[please] propose a scribe</kbd></li>
+<li><kbd>[please] pick a scribe</kbd></li>
+<li><kbd>[please] nominate a scribe</kbd></li>
+<li><kbd>[please] choose a scribe</kbd></li>
+<li><kbd>[please] select a scribe</kbd></li>
+<li><kbd>... other than &lt;names&gt;</kbd></li>
+<li><kbd>... except &lt;names&gt;</kbd></li>
+</ul>    
+
+<p>Randomly selects a minute-taker from the current participants. 
+  The word 'victim' may also be used in place of 'scribe'.
+  You can exclude names from the random selection by adding 'other than'
+  or 'except' followed by one or more comma-separated names.
+  This is most useful when there is a short list of participants 
+  and repeated requests select an unavailable person.
+</p>
+
+<h2 id="questions">Question Tracking</h2>
+
+<p>Zakim will help track a list of questions requested during a
+  meeting. Like floor control and agenda management, the commands in
+  this set need not be directly addressed to Zakim; they will be
+  recognized when addressed to no one in particular and also when
+  received as third person ('/me') messages.</p>
+
+<h3 id="questionplus">Add a question</h3>
+
+<ul class="command">
+  <li><kbd>question+ &lt;text&gt;</kbd></li>
+</ul>
+
+<p>Adds a question described by &lt;text&gt; to a list of questions,
+  assigning it the next sequential number. Questions may be supported
+  by other participants. It is recommended that questions start with
+  one of who, what, when, where, why, or how. The keyword 'question'
+  may be abbreviated to 'quest' or 'ques'.</p>
+
+<pre class="example">[17:13] &lt;Ralph&gt; question+ When is this needed?
+[17:13] * Zakim notes question 1 added
+[17:13] &lt;Ralph&gt; question+ How will this work?
+[17:13] * Zakim notes question 2 added</pre>
+
+<h3 id="listquestions">Display the list of questions</h3>
+
+<ul class="command">
+  <li><kbd>list [the] questions</kbd></li>
+  <li><kbd>show [the] questions</kbd></li>
+  <li><kbd>questions?</kbd></li>
+  <li><kbd>list all [the] questions</kbd></li>
+  <li><kbd>show all [the] questions</kbd></li>
+</ul>
+
+<p>Displays the questions and the number of supporters of each
+  question.  The first three forms are equivalent and only display
+  questions that have not been dropped or closed.</p>
+
+<pre class="example">[17:13] &lt;Ralph&gt; list questions
+[17:13] * Zakim sees 2 questions remaining:
+[17:13] * Zakim Q1: When is this needed? (1 supporter)
+[17:13] * Zakim Q2: How will this work? (1 supporter)</pre>
+
+<h3 id="supportquestion">Support a question</h3>
+
+<ul class="command">
+  <li><kbd>question &lt;number&gt;++</kbd></li>
+  <li><kbd>question++ &lt;number&gt;</kbd></li>
+</ul>
+
+<p>Indicates that you are interested in the answer to a question.
+  Questions will be ordered by the number of supporters.  The keyword
+  'question' may be abbreviated to 'quest' or 'ques'. A single '+' is
+  recognized, though technically imprecise.</p>
+
+<pre class="example">[17:17] &lt;OtherPerson&gt; question 2++
+[17:17] * Zakim ok, OtherPerson
+[17:17] &lt;OtherPerson&gt; questions?
+[17:17] * Zakim sees 2 questions remaining:
+[17:17] * Zakim Q2: How will this work? (2 supporters)
+[17:17] * Zakim Q1: When is this needed? (1 supporter)</pre>
+
+<h3 id="cancelquestionsupport">Cancel support of a question</h3>
+	  
+<ul class="command">
+  <li><kbd>question &lt;number&gt;--</kbd></li>
+  <li><kbd>question-- &lt;number&gt;</kbd></li>
+</ul>
+
+<p>Indicates that you are no longer interested in the answer to a
+  question. The keyword 'question' may be abbreviated to 'quest' or
+  'ques'. A single '-' is recognized, though technically
+  imprecise.</p>
+
+<pre class="example">[17:18] &lt;OtherPerson&gt; question 2--
+[17:18] * Zakim ok, OtherPerson
+[17:18] &lt;OtherPerson&gt; questions?
+[17:18] * Zakim sees 2 questions remaining:
+[17:18] * Zakim Q1: When is this needed? (1 supporter)
+[17:18] * Zakim Q2: How will this work? (1 supporter)</pre>
+
+<h3 id="dropquestion">Drop or close a question</h3>
+
+<ul class="command">
+  <li><kbd>drop question &lt;number&gt;</kbd></li>
+  <li><kbd>close question &lt;number&gt;</kbd></li>
+</ul>
+
+<p>Drops (removes) a question from the list of questions.  The two
+  forms are equivalent. The keyword 'question' may be abbreviated to
+  'quest' or 'ques'.</p>
+
+<pre class="example">[17:19] &lt;Ralph&gt; drop question 1
+[17:19] * Zakim notes question 1, When is this needed?, dropped
+[17:19] &lt;Ralph&gt; questions?
+[17:19] * Zakim sees 1 question remaining:
+[17:19] * Zakim Q2: How will this work? (1 supporter)
+[17:20] &lt;Ralph&gt; list all questions
+[17:20] * Zakim sees 2 questions:
+[17:20] * Zakim Q1: When is this needed? (1 supporter) - dropped
+[17:20] * Zakim Q2: How will this work? (1 supporter)</pre>
+
+<h3 id="clearquestions">Clear the list of questions</h3>
+
+<ul class="command">
+  <li><kbd>[please] clear [the] questions</kbd></li>
+</ul>
+
+<p>Clears (erases) all questions from the list of questions.</p>
+
+<pre class="example">[17:50] &lt;Ralph&gt; clear the questions
+[17:50] * Zakim notes questions cleared
+[17:50] &lt;Ralph&gt; questions?
+[17:50] * Zakim sees no questions</pre>
+
+<h2 id="changes">Change History</h2>
+
+<h3>2021-01</h3>
+
+<p>Added question management.  Added 'other than' support for 'pick a scribe'.
+  Fixed the bug that clearing the agenda failed to reset all agenda state.</p>
+
+<h3>2020-04</h3>
+
+<p>'prepare meeting' synonym for 'start meeting', experimental 'qq+' added.</p>
+
+<h3>2019-12</h3>
+
+<p>'verbose queue?', 'start meeting', and 'end meeting' added.</p>
+
+<h3>2015-07</h3>
+
+<p>W3C decommissioned the bridge hardware that provided many additional
+  features of Zakim, including automatic announcement of caller arrival
+  and departure, muting and unmuting callers, and teleconference schedule
+  lookup.  Many commands associated with control of particants' phone
+  connections have been disabled.  There is no longer a direct connection
+  between Zakim and a particular teleconference system.</p>
+
+<h3>2006-12</h3>
+
+<p>'Skip agendum &lt;n&gt;' and 'skip this agendum'
+added.  'Delete' and 'forget' added as synonyms for
+'drop' in 'drop agendum &lt;n&gt;'.</p>
+
+<p>Decline to close an agendum unless the speaker queue is empty or
+'really' is part of the close request.</p>
+
+<p>'Take up item &lt;pattern&gt;' had been case sensitive
+and no longer is.</p>
+
+<p>Zakim bot leaves a channel after a long period of inactivity
+(nothing for Zakim to do).  Previously only a queued reminder
+would keep Zakim from departing.  Non-closed, non-skipped agenda
+items will now also keep Zakim on the channel indefinitely.</p>
+
+<p>Other improvements and bug fixes that may only be noticed by a few.<p>
+
+<a id="acknowledgements"></a>
+<h2>Acknowledgements</h2>
+
+<p>The first draft of this tutorial page was written in December 2001
+by Alan Kotok with help
+from Ralph Swick.
+Yves Lafon gave it a good start with a Unix-style <a
+href="http://www.w3.org/2001/11/zakim.html">man page</a>.  Karl Dubost
+restyled it to match the W3C participants
+<a href="http://www.w3.org/Guide/">Guidebook</a> style in July 2006.</p>
+
+<p>The Zakim IRC bot was written by Ralph Swick.</p>
+
+<p>The development of the Zakim IRC bot was supported in part by
+funding from US Defense Advanced Research Projects Agency (DARPA)
+and Air Force Research Laboratory, Air Force Materiel Command, USAF,
+under agreement number F30602-00-2-0593, "Semantic Web Development".</p>
+
+<p>The Zakim teleconference bridge <del>is</del>was a customized
+<a href="http://www.compunetix.com">Compunetix</a>
+Contex Conferencing system.  Thanks to Compunetix for providing
+technical details that enabled the original development of W3C's Zakim tools.</p>
+
+<p><a id="name"><em>Why is this called 'Zakim'?</em></a></p>
+
+<p>The World Wide Web Consortium (<a href="http://www.w3.org/">W3C</a>)
+conducts a lot of its technical design discussions using the Web, e-mail, and
+teleconferences.  We use so much teleconferencing that we have our own
+in-house teleconference bridges, housed at <a
+href="http://web.mit.edu/">MIT</a>.  When we were choosing names for the
+systems someone proposed that we adopt the names of the vehicle bridges
+across the nearby
+<a href="http://www.charlesriverconservancy.org/crb/crb.html"
+>Charles River</a>.  So in 1998 we had our own 'Longfellow' and 'Tobin'
+conference bridges.  When we made a major upgrade of our teleconference
+systems in 2001 to a new generation of all-digital bridge of course we were
+immediately attracted to the name 'Zakim', in honor both of human rights
+advocate <a href="https://en.wikipedia.org/wiki/Leonard_P._Zakim"
+>Lenny Zakim</a> who gave voice to the people and the <a
+href="http://www.leonardpzakimbunkerhillbridge.org/">Zakim
+bridge</a> across the Charles.  In 2015 when the W3C-owned bridge was
+decommissioned we retained the name of this bot to not forget the past.</p>
+
+<hr>
+<address>
+  <a href="http://validator.w3.org/check/referer"><img border="0"
+  src="http://validator.w3.org/images/vh40.gif" alt="Valid HTML 4.0!"
+  height="31" width="88" align="right">
+   </a> <a
+  href="mailto:swick@w3.org">Ralph Swick</a><br>
+  $Date: 2021/09/14 13:13:51 $
+</address>
+</body>
+</html>
