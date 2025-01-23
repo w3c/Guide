@@ -37,7 +37,7 @@ toc: true
   - Individual IRC tools ("bots"):
     
     - [Zakim](meetings/zakim.md) for queue management, start and end meeting
-    - [RRSAgent](hmeetings/rrsagent.md) for minutes management
+    - [RRSAgent](meetings/rrsagent.md) for minutes management
     - Hints for [rescuing minutes when RRSAgent is absent](https://w3c.github.io/scribe2/rescue.html)
 - [Predicting milestones](process/predicting-milestones.md), use our [milestones calculator](https://w3c.github.io/spec-releases/milestones/) to help with dates.
 - Face-to-face meetings
