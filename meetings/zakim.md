@@ -658,3 +658,12 @@ The Zakim teleconference bridge was a customized [Compunetix](https://www.compun
 ### Why is this called "Zakim"? {#name}
 
 The World Wide Web Consortium ([W3C](https://www.w3.org/)) conducts a lot of its technical design discussions using the Web, e-mail, and teleconferences. We use so much teleconferencing that we have our own in-house teleconference bridges, housed at [MIT](https://web.mit.edu/). When we were choosing names for the systems someone proposed that we adopt the names of the vehicle bridges across the nearby [Charles River](https://www.charlesriverconservancy.org/crb/crb.html). So in 1998 we had our own "Longfellow" and "Tobin" conference bridges. When we made a major upgrade of our teleconference systems in 2001 to a new generation of all-digital bridge of course we were immediately attracted to the name "Zakim", in honor both of human rights advocate [Lenny Zakim](https://en.wikipedia.org/wiki/Leonard_P._Zakim) who gave voice to the people and the [Zakim bridge](https://leonardpzakimbunkerhillbridge.org/) across the Charles. In 2015 when the W3C-owned bridge was decommissioned we retained the name of this bot to not forget the past.
+
+<style>
+/**
+ * Do not display TOC entries for secondary headings (headings lower than h2)
+ */
+ul#toc ul {
+  display: none;
+}
+</style>
