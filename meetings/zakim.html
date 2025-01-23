@@ -28,11 +28,6 @@
 		<li><a href="#identifying">Identify Teleconference</a> &bull; </li>
 		<li><a href="#attendance">Attendance Reports</a> &bull; </li>
 		<li><a href="#callers">Identify Participants</a> &bull; </li>
-<!--
-		<li><a href="#mute">Mute</a> &bull; </li>
-		<li><a href="#disconnect">Disconnect Participants</a> &bull; </l
-i>
--->
 		<li><a href="#dismiss">Dismiss Zakim</a> &bull; </li>
 		<li><a href="#help">Help</a> &bull; </li>
 		<li><a href="#speakerqueue">Floor Control</a> &bull; </li>
@@ -50,14 +45,6 @@ i>
 <div class="toolbox box" style="margin-bottom: 1em"> 
 <h4>Nearby</h4>
 	<ul>
-<!--
-		<li><a
-		href="http://www.w3.org/1998/12/bridge/Zakim.html">Zakim Bridge Status
-		Monitor</a></li>
-		<li><a
-		href="http://www.w3.org/Guide/1998/08/teleconference-calendar">W3C
-		Teleconference Schedule</a></li>
--->
 		<li><a
 		href="http://www.w3.org/2002/03/RRSAgent"
 		>RRSAgent record-keeping bot</a></li>
@@ -67,22 +54,10 @@ i>
 </div>
 
 <p>The Zakim IRC "bot" is a Semantic Web agent ("swagent") that helps
-facilitate meetings using IRC <del>in conjunction with the W3C's Zakim audio
-teleconference bridge</del>.</p>
-<!-- (See also the <a
-href="http://www.w3.org/1998/12/bridge/Zakim.html">Zakim Bridge Status
-Monitor</a> and the <a
-href="http://www.w3.org/Guide/1998/08/teleconference-calendar">W3C
-Teleconference Schedule</a>.)  -->
+facilitate meetings using IRC.</p>
 
 <p>It is generally available on W3C's IRC server,
-under the "Zakim" nickname. <del>It gives information about teleconferences
-available on the bridge, such as the names of the conferences available at
-that time, the attendance list, and the possibility to associate telephone numbers with
-people. When someone joins a conference, she/he will be announced to the channel using the
-+xxx convention, where xxx can be a name, an anonymized phone number or a
-generated ID for numbers that do not have callerID information. When someone
-leaves, -xxx will be used, following the same convention.</del></p>
+under the "Zakim" nickname.</p>
 
 <p>In the following command descriptions, optional words in commands are indicated in square brackets.  "please" can
 be abbreviated to "pls" if you wish to be polite yet still save keystrokes. 
@@ -140,64 +115,6 @@ addressed.</p>
 <a id="identifying"></a>
 <h2 id="info">Identifying your particular teleconference</h2>
 
-
-<!--
-<h3>List all conferences presently active on the Zakim bridge</h3>
-
-<p>In order to have Zakim report relevant events, you must inform him which
-teleconference is yours. Helpful commands include:</p>
-
-
-<ul class="command">
-<li>  <kbd>[please] list [conferences]</kbd></li>
-<li>  <kbd>what conferences do you see?</kbd></li>
-<li>  <kbd>what conferences are active?</kbd></li>
-<li>  <kbd>what conferences?</kbd></li>
-</ul>
-
-<p class="def">
-    Conferences that are in the schedule for the present time but not
-    yet active are also listed.</p>
-
-<pre class="example">[16:42] &lt;Alan-MIT&gt; zakim, list conferences 
-[16:42] &lt;Zakim&gt; I see Longfellow II</pre>
-
-<h3>Associate the current IRC channel with &lt;conf name&gt;</h3>
-
-<ul class="command"><li>  <kbd>this [conference] is &lt;conf name&gt;</kbd></li>
-<li>  <kbd>move &lt;conf name&gt; to here</kbd></li>
-<li>  <kbd>move &lt;conf name&gt; to this channel</kbd></li>
-</ul>    
-
-<p> Once you
-      have identified your conference name, Zakim will announce new participants and departing participants.  The name you
-      enter must match the name or conference code of a conference
-      that is already in progress.
-      You need not enter the entire conference name; any part of the name
-      that uniquely identifies it is sufficient.  The first form works
-      only when the conference is not already associated with an IRC
-      channel.  The last two forms will move a conference away from
-      another IRC channel if necessary, informing the previous channel
-      of the move.
-</p>
-
-<pre class="example">[16:43] &lt;Alan-MIT&gt; zakim, this is longfello
-[16:43] &lt;Zakim&gt; ok, Alan-MIT</pre>
-
-<h3>Associate the current IRC channel with &lt;conf name&gt;</h3>
-
-<p class="command"><kbd>this [conference] will be &lt;conf name&gt;</kbd></p>
-
-
-<p>If your conference has not yet started use this command to inform
-      Zakim of a soon-to-start conference.  Zakim will announce the start of the conference
-      as well as the new participants.  The first conference, including any
-      already in progress, whose name contains the specified &lt;conf
-      name&gt; will be taken as the intended conference.  If &lt;conf
-      name&gt; does not match any named conference a match will be attempted
-      to the conference code of a scheduled conference.<p>
--->
-
 <h3 id="startmeeting">Start a meeting</h3>
 
 <ul class="command">
@@ -240,8 +157,8 @@ create the formatted meeting record, and then departs (see 'bye').</p>
   for later query.
 </p>
 
-<pre class="example">[16:43] &lt;Alan-MIT&gt; zakim, this is WebEx 640 999 321
-[16:43] &lt;Zakim&gt; ok, Alan-MIT</pre>
+<pre class="example">[16:43] &lt;Alan&gt; zakim, this is WebEx 640 999 321
+[16:43] &lt;Zakim&gt; ok, Alan</pre>
 
 
 <h3 id="describe">Request the full name of the conference that is associated with the current IRC channel.</h3>
@@ -302,25 +219,8 @@ Zakim that you have joined the teleconference.</p>
 
 </ul>    
 
-<pre class="example">[17:06] &lt;Alan-MIT&gt; zakim, who's here?
-[17:06] &lt;Zakim&gt; On the phone I see Dan, Alan
-[17:06] &lt;Zakim&gt; On IRC I see Alan-MIT, gerald</pre>
-
-<p>Note that Zakim reports both phone participants and irc participants.</p>
-
-<!--
-<h3>Produce a report of the current phone participants in your
-      conference</h3>
-
-<ul class="command">
-  <li>  <kbd>who is on the phone?</kbd></li>
-</ul>
-
-<p>Zakim will report only the phone participants.</p>
-
-<p>The word 'still' may also be included, as in 'who is still
-      on the phone?'</p>
--->
+<pre class="example">[17:06] &lt;Alan&gt; zakim, who's here?
+[17:06] &lt;Zakim&gt; Present: Alan, Dan, gerald</pre>
 
 <h3 id="listparticipants">Produce a report of the names of all participants</h3>
 
@@ -330,267 +230,6 @@ Zakim that you have joined the teleconference.</p>
 </ul>    
 
 <p>The report will show participants who are currently in your conference or who had been in the conference earlier and have since departed.</p>
-
-<!--
-<h3>Report whether &lt;name&gt; is present in some active
-    conference</h3>
-
-<ul class="command">
-	<li><kbd>is &lt;name&gt; here?</kbd></li>
-<li>  <kbd>is &lt;name&gt; on the call?</kbd></li>
-<li>  <kbd>[have you] seen &lt;name&gt;?</kbd></li>
-</ul>
-
-<h3>Identify Group of people</h3>
-
-<ul class="command"><li><kbd>&lt;name&gt; has &lt;n1&gt;[, &lt;n2&gt; ...]</kbd></li>
-<li>  <kbd>&lt;name&gt; holds &lt;n1&gt;[, &lt;n2&gt; ...]</kbd></li>
-<li>  <kbd>&lt;name&gt; contains &lt;n1&gt;[, &lt;n2&gt; ...]</kbd></li>
-</ul>    
-<p>Informs Zakim that the participant identified as &lt;name&gt; is a
-      group of people whose name(s) are &lt;n1&gt;, &lt;n2&gt;, etc.  This is
-      useful in the case of a conference room phone around which many people
-      might be sitting.  Zakim will include these names in the list of
-      attendees that he reports when the conference terminates and
-      in response to the 'list attendees' command.</p>
-
-<ul class="command">
-	<li><kbd>&lt;n1&gt; is with &lt;name&gt;</kbd></li>
-</ul>    
-
-<p>Like the commands above, this informs Zakim that the participant
-      identified as &lt;name&gt; is a group of people whose names are
-      &lt;name&gt; and &lt;n1&gt;.  This is normally used when a pair of
-      people are using a conference room.  Zakim will include both names
-      in the list of attendees that it reports when the conference
-      terminates.</p>
-
-<ul class="command"><li><kbd>&lt;name&gt; [has] [just] arrived in &lt;name2&gt;</kbd></li>
-<li>  <kbd>&lt;name&gt; [has] [just] entered &lt;name2&gt;</kbd></li>
-<li>  <kbd>&lt;name&gt; is in &lt;name2&gt;</kbd></li>
-<li>  <kbd>&lt;name2&gt; [now] also has &lt;name&gt;</kbd></li>
-<li>  <kbd>&lt;name2&gt; [now] also holds &lt;name&gt;</kbd></li>
-<li>  <kbd>&lt;name2&gt; [now] also contains &lt;name&gt;</kbd></li></ul>
-    
-<p>Informs Zakim that another participant should be added to the group
-      identified by &lt;name2&gt;.</p>
-
-
-<ul class="command">
-	<li><kbd>&lt;name&gt; [has] [just] left &lt;name2&gt;</kbd></li>
-<li>  <kbd>&lt;name&gt; [has] [just] departed &lt;name2&gt;</kbd></li>
-</ul>    
-
-<p>Informs Zakim that the group identified by &lt;name2&gt; no longer
-      contains the participant &lt;name&gt;.</p>
-
-<ul class="command"><li><kbd>&lt;name&gt; no longer has &lt;n1&gt;[, &lt;n2&gt; ...]</kbd></li>
-<li>  <kbd>&lt;name&gt; no longer holds &lt;n1&gt;[, &lt;n2&gt;  ...]</kbd></li>
-<li>  <kbd>&lt;name&gt; no longer contains &lt;n1&gt;[, &lt;n2&gt;  ...]</kbd></li>
-</ul>
-   
-<p>Informs Zakim that the group identified by &lt;name&gt; no longer
-      contains the participant(s) &lt;n1&gt;, etc.</p>
-
-<ul class="command">
-	<li><kbd>who is in &lt;name&gt;?</kbd></li>
-</ul>    
-
-<p>Reports the parties thought to be present in the group identified by
-      &lt;name&gt;.</p>
-
-<a id="callers"></a>
-<h2>Identifying participants</h2>
-
-<p>Once you have informed Zakim of your teleconference, he will report the
-comings and goings of participants. New arrivals are announced to the channel
-using the +xxx convention, and departures as -xxx. There are several ways
-in which conferees are identified:</p>
-<ol>
-  <li>The conferee was called by the Zakim bridge, (staff only). The caller
-    will be identified by name.</li>
-  <li>The conferee called in on a line which supplied the caller's telephone
-    number (CallerID) and that number was known to Zakim. The caller will be
-    identified by name. </li>
-  <li>The conferee called in on a line which supplied the caller's telephone
-    number (CallerID) and that number was NOT known to Zakim. The caller will
-    be identified by an anonymized version of the calling number.   Note
-    that you can <a
-    href="http://www.w3.org/1998/12/bridge/info/name.php3">supply your
-    information</a> to be added to the W3C bridge monitor database to
-    help Zakim recognize you in the future.</li>
-  <li>The conferee called in on a line which did NOT supply the caller's
-    telephone number. The caller will be identified as "??Pnn" where "nn" is
-    the port on the Zakim bridge used by the caller.</li>
-  <li><em>experimental feature</em>: The conferee entered an individual
-    identifier via the telephone keypad after joining the conference;
-    <strong>43<em>nnn</em>#</strong>.  ('43' corresponds to 'ID' on
-    the <a href="/Guide/1998/08/phone">keypad</a>.)</li>
-  <li>Zakim was unable to determine any information about the caller. In that
-    case the caller will be identifed by a generated 2 to 4 character
-    sequence, "??zzz".</li>
-</ol>
-
-<p>You can help Zakim identify callers by name using the following
-commands:</p>
-
-<ul class="command"><li><kbd>&lt;old identifier&gt; is perhaps &lt;name&gt;</kbd></li>
-<li>  <kbd>&lt;old identifier&gt; is possibly &lt;name&gt;</kbd></li>
-<li>  <kbd>&lt;old identifier&gt; is probably &lt;name&gt;</kbd></li>
-<li>  <kbd>&lt;old identifier&gt; may be &lt;name&gt;</kbd></li></ul>
-
-    <p>Supplants &lt;old identifier&gt; with &lt;name&gt;, adding the
-      <em>maybe</em> flag. This means that this association is not certain
-      and will not be saved for future references. Such callers are
-      identified in lists with a "?". Future rejoin from the same number will
-      show "+xxx is perhaps yyy".</p>
-
-<pre class="example">[17:07] &lt;Alan-MIT&gt; zakim, ??P1 may be Foo
-[17:07] &lt;Zakim&gt; +Foo?; got it
-[17:09] &lt;Alan-MIT&gt; zakim, who's here?
-[17:09] &lt;Zakim&gt; I see Foo?, Alan</pre>
-
-<ul class="command"><li><kbd>&lt;old identifier&gt; is &lt;name&gt;</kbd>
-</li></ul>    
-
-
-<p>Supplants &lt;old identifier&gt; with &lt;name&gt;.</p>
-
-<pre class="example">[17:13] &lt;Alan-MIT&gt; zakim, ??P0 is AlanK
-[17:13] &lt;Zakim&gt; +AlanK; got it</pre>
-
-<ul class="command"><li><kbd>&lt;old name&gt; is really &lt;name&gt;</kbd></li></ul>
-    
-<p>This command reassigns names, and removes any <em>maybe</em> flag if
-      one was present.</p>
-
-<pre class="example">[17:10] &lt;Alan-MIT&gt; zakim, foo is really Bob
-[17:10] &lt;Zakim&gt; +Bob; got it</pre>
-
-<ul class="command"><li><kbd>&lt;old identifier&gt; is temporarily &lt;name&gt;</kbd>
-</li></ul>    
-
-<p>Supplants &lt;old identifier&gt; with &lt;name&gt; for this call
-      only.  After the caller disconnects the name associated with the phone
-      number will revert to &lt;old identifier&gt;.</p>
-
-<ul class="command"><li><kbd>&lt;old identifier&gt; is [really] me</kbd></li>
-</ul>    
-
-<p>Supplants &lt;old identifier&gt; with your IRC nick.</p>
-
-<ul class="command"><li><kbd>I am &lt;old identifier&gt;</kbd>
-</li></ul>    
-
-<p>Supplants &lt;old identifier&gt; with your IRC nick if it was a
-      telephone number or other unknown party identifier, otherwise simply
-      associate your IRC nick with the named party.  In the latter case
-      (associating your IRC nick with the named party), you may then use "me"
-      instead of entering your full name in commands such as "mute me",
-      "unmute me", "disconnect me", and "queue+ me".</p>
-
-<ul class="command"><li><kbd>nick &lt;irc-nick&gt; is &lt;name&gt;</kbd>
-</li></ul>    
-
-<p>Associates an IRC nick with the named party, as in the case above.
-      This command is available for someone else to make the association
-      other than the person owning the nick.  When the association is
-      known, Zakim will more often recognize when to unmute the caller.</p>
-
-<p>When referring to a participant you need only use enough characters of the
-participant's name to be unambiguous; e.g. a participant named 'TimBL' can be
-referred to as just 'Tim'.  The anonymized version of the telephone number
-for a participant whose name is unknown ends in four characters.  If an
-abbreviated name does not match the left-most part of a known participant's
-name and does match the last four characters of an anonymized telephone
-number, Zakim will understand that the reference is to the participant at
-that telephone number.</p>
-
-<h3 id="mute">Muting</h3>
-
-<p>The Zakim bridge has the capability to mute conferees.  (Muting blocks
-sound on a conferee's line from being heard on the conference.)  Conferees
-can mute themselves by dialing 61#.  In that case, unmute is 60#.</p>
-
-<h3>Mute the named participant</h3>
-
-<ul class="command"><li><kbd>[please] mute &lt;name&gt;</kbd></li></ul>
-
-    <p>The participant can unmute using
-    60#.</p>
-
-<pre class="example">[17:14] &lt;Alan-MIT&gt; zakim, mute AlanK
-[17:14] &lt;Zakim&gt; AlanK should now be muted
-[17:15] &lt;Alan-MIT&gt; zakim, mute AlanK
-[17:15] &lt;Zakim&gt; AlanK was already muted, Alan-MIT</pre>
-
-
-<h3>Unmute the named participant</h3>
-
-<ul class="command"><li><kbd>[please] unmute &lt;name&gt;</kbd></li></ul>
-
-    <p>  This command will undo BOTH
-      <strong>mute</strong> commands and 61#.</p>
-
-<pre class="example">[17:17] &lt;Alan-MIT&gt; zakim, unmute AlanK
-[17:17] &lt;Zakim&gt; AlanK should no longer be muted
-[17:17] &lt;Alan-MIT&gt; zakim, unmute AlanK
-[17:17] &lt;Zakim&gt; AlanK was not muted, Alan-MIT</pre>
-
-<h3>Mute or unmute the named participant for 15 seconds</h3>
-
-<ul class="command">
-<li><kbd>[please] mute &lt;name&gt; temporarily</kbd></li>
-<li>  <kbd>[please] unmute &lt;name&gt; temporarily</kbd></li>
-<li>  <kbd>[please] temporarily mute &lt;name&gt;</kbd></li>
-<li>  <kbd>[please] temporarily unmute &lt;name&gt;</kbd></li>
-</ul>
-
-    <p> These
-      requests are intended to facilitate the identification of callers who
-      are causing noise or echos.</p>
-
-<h3>List all participants muted for any reason</h3>
-
-<ul class="command"><li><kbd>who is muted?</kbd></li>
-<li>  <kbd>who's muted?</kbd></li></ul>
-
-    <p>Zakim does not distinguish
-      how the particpant became muted.</p>
-
-<pre class="example">[17:18] &lt;Alan-MIT&gt; zakim, who's muted?
-[17:18] &lt;Zakim&gt; I see no one muted</pre>
-
-<h3>Noise, Voice detection</h3>
-
-<ul class="command">
-	<li><kbd>who is talking?</kbd></li>
-<li>  <kbd>who's talking?</kbd></li>
-</ul>
-
-    <p>Requests that Zakim-bot listen for 10 to 20 seconds then report the
-      names of any participants who were heard during that interval. This
-      request is intended to be an aid to determine which participants might
-      need to be muted. <em>If a line is generating sound at a very low
-      level, it may be reported here but not actually heard in the
-      conference; this is not uncommon for some phone lines that introduce
-      echo.  Occasionally a port that is generating continuous sound might
-      not be reported; this is a bug.</em>  In place of the word 'talking'
-      the words '<strong>speaking</strong>', '<strong>noisy</strong>' and
-      '<strong>making noise</strong>' may also be used.
-</p>
-
-<h3 id="disconnect">Disconnecting Participants</h3>
-
-<p>If a participant is unable to hangup, the line can be disconnected on
-request.</p>
-
-<ul class="command"><li><kbd>[please] disconnect &lt;name&gt;</kbd></li>
-<li>  <kbd>[please] drop &lt;name&gt;</kbd></li>
-<li>  <kbd>[please] hangup &lt;name&gt;</kbd></li></ul>
-    
-<p>Forceably disconnects the named participant.</p>
--->
 
 <h3 id="dismiss">Dismissing Zakim</h3>
 
@@ -604,7 +243,7 @@ request.</p>
     <p>All disconnect the Zakim bot from your IRC channel.  This has no
       effect on the conference bridge itself.</p>
 
-<pre class="example">[17:19] &lt;Alan-MIT&gt; zakim, excuse us
+<pre class="example">[17:19] &lt;Alan&gt; zakim, excuse us
 [17:19] *** Zakim (~rrs-bridg@tux.w3.org) has left &amp;test (Zakim)</pre>
 
 <h3 id="help">Help</h3>
@@ -639,14 +278,7 @@ third person ('/me') messages.</p>
     <p>If
       &lt;name&gt; is omitted or specified as 'me', the irc nick issuing the
       request is used. The last three forms are intended particularly for /me
-      messages. <!--A phone participant who does not have irc access can dial
-      <strong>41#</strong> to raise his or her hand.  The mnemonic is
-      <strong>4</strong>=<strong>H</strong>and, <strong>1</strong>=up,
-      <strong>#</strong>='enter'.  It is not necessary that the participant
-      be unmuted to dial this request.  There is no audible feedback for a
-      dialed request so the chairperson is encouraged to verbally confirm the
-      queue request at an appropriate pause.--></p>
-
+      messages.</p>
 
 <h3 id="qplus">Add name to the queue of individuals wishing to speak</h3>
 
@@ -702,11 +334,7 @@ third person ('/me') messages.</p>
       abbreviations are recognized.  Abbreviations are not recognized if the
       name is omitted or 'me' is used; i.e. when the irc nick issuing the
       request is assumed. The last three forms are intended particularly for
-      /me messages. <!--A phone participant who does not have irc access can dial
-      <strong>40#</strong> to lower his or her hand.  The mnemonic is
-      <strong>4</strong>=<strong>H</strong>and, <strong>0</strong>=down,
-      <strong>#</strong>='enter'.  It is not necessary that the participant
-      be unmuted to dial this request.--></p>
+      /me messages.</p>
 
 <h3 id="qlater">Move the speaker to the end of the queue</h3>
 
@@ -765,9 +393,7 @@ third person ('/me') messages.</p>
 <ul class="command"><li><kbd>[chair] recognize[s] &lt;name&gt;</kbd></li>
 <li><kbd>[chair] ack[s] &lt;name&gt;</kbd></li>
 </ul>
-    <p><!--If &lt;name&gt; corresponds
-      to a known participant and that participant is muted, Zakim will unmute
-      the participant.--> If &lt;name&gt; matches the start of exactly one name
+    <p>If &lt;name&gt; matches the start of exactly one name
       on the queue of individuals wishing to speak (see 'queue+' above) then
       the corresponding name is removed from the queue.  However,
       &lt;name&gt; need not be on the speaker queue, nor is the chair
@@ -779,9 +405,7 @@ third person ('/me') messages.</p>
 <ul class="command"><li><kbd>[chair] recognize[s] next [speaker]</kbd></li>
 <li><kbd>[chair] ack[s] next [speaker]</kbd></li>
 </ul>    <p>  The name will be displayed along with the remaining
-      speaker queue.  <!--If the queued name corresponds to a known
-      participant and that participant is muted, Zakim will unmute the
-      participant.--></p>
+      speaker queue.</p>
 
 <h3 id="closequeue">Close the queue</h3>
 
@@ -1325,7 +949,7 @@ funding from US Defense Advanced Research Projects Agency (DARPA)
 and Air Force Research Laboratory, Air Force Materiel Command, USAF,
 under agreement number F30602-00-2-0593, "Semantic Web Development".</p>
 
-<p>The Zakim teleconference bridge <del>is</del>was a customized
+<p>The Zakim teleconference bridge was a customized
 <a href="http://www.compunetix.com">Compunetix</a>
 Contex Conferencing system.  Thanks to Compunetix for providing
 technical details that enabled the original development of W3C's Zakim tools.</p>
