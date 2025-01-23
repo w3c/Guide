@@ -136,7 +136,7 @@ The report will show participants who are currently in your conference or who ha
 - `[please] part`
 - `[please] leave`
 
-All disconnect the Zakim bot from your IRC channel. This has no effect on the conference bridge itself.
+All disconnect the Zakim bot from your IRC channel.
 
 ```irc
 [17:19] <Alan> zakim, excuse us
@@ -251,20 +251,20 @@ The name will be displayed along with the remaining speaker queue.
 
 - `[please] close the queue`
 
-Causes subsequent '`queue+`' and 41# requests to leave the speaker queue unchanged.
+Causes subsequent '`queue+`' requests to leave the speaker queue unchanged.
 
 ### Reopen the queue {#openqueue}
 
 - `[please] [re]open the queue`
 
-Causes subsequent '`queue+`' and 41# requests to be added to the speaker queue. This is the default state when Zakim is invited to a channel. The speaker queue will also be reopened whenever a new agendum is taken up.
+Causes subsequent '`queue+`' requests to be added to the speaker queue. This is the default state when Zakim is invited to a channel. The speaker queue will also be reopened whenever a new agendum is taken up.
 
 ### Giving the Last Word {#lastword}
 
 - `[please] give <name> the last word`
 - `[please] <name> has the last word`
 
-Grants `<name>` permission to speak, clears the remainder of the speaker queue, and closes the speaker queue. Subsequent '`queue+`' and 41# requests will leave the speaker queue unchanged.
+Grants `<name>` permission to speak, clears the remainder of the speaker queue, and closes the speaker queue. Subsequent '`queue+`' requests will leave the speaker queue unchanged.
 
 ### Timer for speakers {#queuetimer}
 
