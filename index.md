@@ -36,8 +36,8 @@ toc: true
   - [Holidays wiki](https://www.w3.org/wiki/Holidays) to help planning WG work around recurring holidays
   - Individual IRC tools ("bots"):
     
-    - [Zakim](https://www.w3.org/2001/12/zakim-irc-bot.html) for queue management, start and end meeting
-    - [RRSAgent](https://www.w3.org/2002/03/RRSAgent) for minutes management
+    - [Zakim](meetings/zakim.md) for queue management, start and end meeting
+    - [RRSAgent](hmeetings/rrsagent.md) for minutes management
     - Hints for [rescuing minutes when RRSAgent is absent](https://w3c.github.io/scribe2/rescue.html)
 - [Predicting milestones](process/predicting-milestones.md), use our [milestones calculator](https://w3c.github.io/spec-releases/milestones/) to help with dates.
 - Face-to-face meetings

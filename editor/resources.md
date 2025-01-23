@@ -44,8 +44,8 @@ toc: true
   * [Zoom](../meetings/zoom.md)
 * Minutes taking by IRC:
   * [IRC HOWTO](https://www.w3.org/Project/IRC/)
-  * [Zakim HOWTO](https://www.w3.org/2001/12/zakim-irc-bot.html)
-  * [RRSAGent HOWTO](https://www.w3.org/2002/03/RRSAgent)
+  * [Zakim HOWTO](../meetings/zakim.md)
+  * [RRSAgent HOWTO](../meetings/rrsagent.md)
 
 ### Meetings
 
