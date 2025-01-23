@@ -127,8 +127,8 @@ This restores the default behavior of RRSAgent when logging to a channel and mid
 
 ### Setting Log Access {#access}
 
-- `rrsagent, [please] set [these] logs member-visible|world-visible|offices-visible|ab-visible|team-visible`
-- `rrsagent, [please] make [these] logs member-visible|world-visible|team-visible|offices-visible|ab-visible`
+- `rrsagent, [please] set [these] logs member-visible|world-visible|ab-visible|team-visible`
+- `rrsagent, [please] make [these] logs member-visible|world-visible|team-visible|ab-visible`
 
 Sets the access control on the logs, recorded action items, and draft minutes (if any). The group '`world`' may also be written as '`public`'. The suffix '`-visible`' may also be written as '`-access`', '`-conf`', '`-confidential`', '`-only`', '`-read`', or '`-readable`' or may be omitted entirely. '`record`' is recognized as a synonym for '`log`'.
 
