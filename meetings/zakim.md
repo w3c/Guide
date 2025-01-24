@@ -42,7 +42,7 @@ Once Zakim is on your IRC channel, all commands to Zakim begin with
 
 Zakim's commands are not case sensitive, but, in general, must be grammatically correct.
 
-Zakim will respond to normal irc lines and to `ACTION` lines (typically entered with the '`/me`' command in many irc clients). The '`/me`' form is especially recommended for avoiding clutter in [RRSAgent](rrsagent.md) logs; interactions that serve no useful purpose in the permanent irc record can be prefixed with '`/me`'. This typically includes '`q+`' and '`ack`' commands; e.g. '`q+`' will be logged by RRSAgent whereas '`/me q+`' will not (see [RRSAgent log recording](rrsagent.md#logoff)). Zakim will generally mimic the same usage in the reply. For the commands such as '`agenda?`' to which Zakim will respond without being directly addressed, Zakim responds directly if he is addressed and in third-person ('`/me`') form if he was not addressed.
+Zakim will respond to normal irc lines and to `ACTION` lines (typically entered with the '`/me`' command in many irc clients). The '`/me`' form is especially recommended for avoiding clutter in [RRSAgent](rrsagent.md) logs; interactions that serve no useful purpose in the permanent irc record can be prefixed with '`/me`'. This typically includes '`q+`' and '`ack`' commands; e.g., '`q+`' will be logged by RRSAgent whereas '`/me q+`' will not (see [RRSAgent log recording](rrsagent.md#logoff)). Zakim will generally mimic the same usage in the reply. For the commands such as '`agenda?`' to which Zakim will respond without being directly addressed, Zakim responds directly if he is addressed and in third-person ('`/me`') form if he was not addressed.
 
 ## Identifying your particular teleconference {#info}
 
