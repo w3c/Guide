@@ -24,7 +24,7 @@ Note that at any step, the whole process might end by the originator by withdraw
 1.  The Council Team Contact creates a new [Mailing List](https://www.w3.org/Systems/Mail/Request/) (name should be _group-council-YYYY-MM-\<readable shortname>_)
 1.  The Council Team Contact tries to find a Chair for the Potential Council
 1.  The Council Team contact circulates the collected dismissal reasons to the Potential Council (1 week to amend or answer)
-1.  The Council Team contact circulates the Team Report while point above is discussed
+1.  The Council Team contact circulates the Team Report while point above is discussed, if available
 1.  The Council Team contact create a WBS for dismissal, with the option to self-recuse, and accept the Chair, if found; if not ask for chairs.
 1.  If the Team Report contains a Team Recommendation that can resolve the FO:
   *   The Council Team contact create a WBS for an [Unanimous Short Ciruit](https://www.w3.org/policies/process/#council-short-circuit)
@@ -34,7 +34,8 @@ Note that at any step, the whole process might end by the originator by withdraw
 1.  If the chair is found:
   *   The Council Team contact announce with Comm the composition of the Council to the AC
   *   The Council Team contact announce to the Council that the Council started
-  *   The Council Team contact update the FO Dashboard to indicate that the Council started
+  *   The Council Team contact update the FO Dashboard to indicate that the Council started and the date
+  *   The Council Team contact adds to the FO Dashboard the 45 days dealine for this Council
 1.  The Council chair\[s\] (and Council Team contact) may start an [Extraordinary Delegation](https://www.w3.org/policies/process/#council-delegation) WBS
 1.  The Council takes a decision
 1.  The Council writes a report
