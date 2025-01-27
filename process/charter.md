@@ -30,7 +30,7 @@ Within the Team, the *Strategy Team* manages the charter development process, in
 These are the recommended steps for any party preparing a charter for a new Working Group or Interest Group:
 
 Check readiness
-: For a Working Group charter, review: [W3C Recommendation Track Readiness Best Practices](../standards-track/), [Tips for Getting to Recommendation Faster](https://www.w3.org/2002/05/rec-tips), and [How to transition work from a Community Group to a Working Group](cg-transition.md).
+: For a Working Group charter, review: [W3C Recommendation Track Readiness Best Practices](../standards-track/), [Tips for Getting to Recommendation Faster](../standards-track/rec-tips.md), and [How to transition work from a Community Group to a Working Group](cg-transition.md).
 
 Draft charter
 : Use the [charter template](https://w3c.github.io/charter-drafts/charter-template.html) to create a draft charter, ideally on GitHub. This is where substantive discussion of the charter should take place, including issues and pull requests. **Note:** There are ongoing discussions about making it easier for people to find draft charters, e.g., by using a single GitHub repo for all draft charters.
