@@ -180,7 +180,7 @@ toc: true
 
 - Most popular editing tools: [Bikeshed](https://speced.github.io/bikeshed/), [respec](https://github.com/speced/respec/wiki)
 - [W3C Manual of Style](manual-of-style/)
-- [Tips for getting to Recommendation faster](https://www.w3.org/2002/05/rec-tips)
+- [Tips for getting to Recommendation faster](standards-track/rec-tips.md)
 
 ### GitHub {#GitHub}
 
