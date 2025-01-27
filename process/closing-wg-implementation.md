@@ -56,6 +56,7 @@ The Contact:
 
 The Comm team:
 
-- Closes the [group(s)](https://www.w3.org/admin/) by setting their \[2024-Jun change:] instead of a checkbox, the boolean is replaced by a date picker. The WG/IG closing dates are available as an API data point.
-- (The above automatic moves the group(s) from [the public list of groups](https://www.w3.org/groups/) to the list of closed groups.)
+- Closes the [group(s)](https://www.w3.org/admin/) by setting their `Closed Date`. The WG/IG closing dates are available as an API data point.
+
+   This automaticly moves the group(s) from [the public list of groups](https://www.w3.org/groups/) to the list of closed groups.
 
