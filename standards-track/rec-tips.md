@@ -24,7 +24,7 @@ Even when a specification is well-deployed, expect feedback and requests for cha
 1. Charter the Working Groups with public deliverables;
 1. Organize a [W3C Workshop](https://www.w3.org/events/workshops/);
 1. Organize joint meetings with other W3C groups or groups outside of W3C. Or just invite people to attend a few meetings to start dialog;
-1. Secure early attention from horizontal review groups within W3C (WAI, QA, I18N, TAG, Device Independence);
+1. Secure early attention from horizontal review groups within W3C (WAI, I18N, TAG, Security, Privacy);
 1. Publish primers and other outreach materials;
 1. Develop test suites and other supporting materials in parallel with the Recommendation track document
 1. Organize press releases with the Communications Team;
@@ -37,4 +37,4 @@ Members should expect that if they want to get work done faster within the W3C P
 1. Sponsor a technical writer with expertise to capture Working Group consensus and write terse, usable documents.
 1. Dedicate resources internally to developing software or test materials in parallel with the specification's development. Early implementation experience will shorten Candidate Recommendation time substantially.
 
-**Note**: W3C Fellows always contribute a lot, but may raise concerns among other Members that one Member's interests are over represented in a particular area.
+**Note**: [W3C Fellows](https://www.w3.org/careers/fellows/) always contribute a lot, but may raise concerns among other Members that one Member's interests are over represented in a particular area.
