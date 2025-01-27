@@ -31,4 +31,4 @@ A proposal to close a Group before the end of its chartered term must be explain
 
 Note that, if the Group has Recommendation-track specifications in development, and they have not yet reached W3C Recommendation status, closing the group [terminates Disclosure Obligations](https://www.w3.org/policies/patent-policy/#sec-disclosure-termination) for those specifications.
 
-_See the Team documentation of the [detailed steps for closing a group.](closing-group-implementation.md)_
+_See the Team documentation of the [detailed steps for closing a group.](closing-wg-implementation.md)_
