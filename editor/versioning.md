@@ -157,4 +157,4 @@ See the [Manual of Style](../manual-of-style/) and the considerations for [norma
 
 ## Namespace Management  {#nsmgt}
 
-It is important to specify clearly the relationship between a Namespace URL and the specification that defines it. Each group should explain that relationship in the defining specification and/or schema; see [URLs for W3C Namespaces](https://www.w3.org/2005/07/13-nsuri) for more information.
+It is important to specify clearly the relationship between a Namespace URL and the specification that defines it. Each group should explain that relationship in the defining specification and/or schema; see [URIs for W3C Namespaces](namespaces.md) for more information.
