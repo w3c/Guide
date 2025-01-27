@@ -3,15 +3,15 @@ title: How to close a work Group
 toc: yes
 ---
 
-## 1. Introduction {#intro}
+## Introduction {#intro}
 
 The W3C Process describes the [lifecycle of chartered groups](https://www.w3.org/policies/process/#group-lifecyle). At a high level, W3C closes a work Group once it has completed its work.
 
-## 2. Normal closure {#normal}
+## Normal closure {#normal}
 
 Sometimes, after successful completion, the Group is left open to perform **maintenance**; other times, it is closed and a Community Group performs this function.
 
-## 3. Early closure {#early}
+## Early closure {#early}
 
 Exceptionally, a group may be closed before it has completed its work:
 
@@ -31,4 +31,4 @@ A proposal to close a Group before the end of its chartered term must be explain
 
 Note that, if the Group has Recommendation-track specifications in development, and they have not yet reached W3C Recommendation status, closing the group [terminates Disclosure Obligations](https://www.w3.org/policies/patent-policy/#sec-disclosure-termination) for those specifications.
 
-There is *Team-only* documentation of the [detailed steps for closing a group.](https://www.w3.org/2003/04/closing-group.html)
+_See the Team documentation of the [detailed steps for closing a group.](closing-group-implementation.md)_
