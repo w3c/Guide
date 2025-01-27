@@ -1,5 +1,5 @@
 ---
-title: Register an Internet Media Type for a W3C Spec
+title: Register an Internet Media Type for a W3C Specification
 submenu: [publication-policies]
 toc: true
 ---
