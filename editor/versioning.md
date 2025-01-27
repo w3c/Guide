@@ -23,8 +23,6 @@ There are also numerous operational issues to consider:
 
 This document provides some rules and guidance on a few of these topics, based on experience with W3C publications. This document is far from an exhaustive treatise on version management; it is intended to help raise awareness about a handful of common W3C publication issues. Please also consult the list of [TAG findings](https://www.w3.org/2001/tag/findings) for discussion of versioning from a technical perspective.
 
-See the [standards FAQ](https://www.w3.org/standards/faq) for information about [this version and latest version URLs](https://www.w3.org/standards/faq#persistence).
-
 ## Version Numbers  {#versionnbs}
 
 W3C Working Groups have adopted several approaches to versioning, including:
