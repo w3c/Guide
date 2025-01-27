@@ -1,5 +1,6 @@
 ---
 title: Register an Internet Media Type for a W3C Spec
+submenu: [publication-policies]
 toc: true
 ---
 
