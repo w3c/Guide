@@ -9,13 +9,16 @@ pages:
   url: https://www.w3.org/pubrules/doc
 
 - title: Version Management in W3C Technical Reports
-  url: https://www.w3.org/2005/05/tr-versions
+  url: /guide/editor/versioning
+  html: /editor/versioning.html
 
 - title: URIs for W3C Namespaces
-  url: https://www.w3.org/2005/07/13-nsuri
+  url: /guide/editor/namespaces
+  html: /editor/namespaces.html
 
-- title: How to Register a Media Type for a W3C Specification
-  url: https://www.w3.org/2020/01/registering-mediatypes
+- title: Register a Media Type for a W3C Specification
+  url: /guide/editor/mediatypes
+  html: /editor/mediatypes.html
 
 - title: XPointer Scheme Name Registry Policy
   url: https://www.w3.org/2005/04/xpointer-policy
