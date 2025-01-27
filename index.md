@@ -72,7 +72,7 @@ toc: true
   - Considerations for [joint deliverables](process/joint-deliverables.md)
   - [Transition requirements](transitions/) for all W3C maturity levels (First Public Draft, CR, PR, REC, etc.). Try also our [step finder](transitions/nextstep.html) and look at [milestones calculator](https://w3c.github.io/spec-releases/milestones/).
   - [Request Wide Review](documentreview/) at least *2-3 months before CR*, to allow time for discussion and rework. This includes requesting [horizontal reviews](documentreview/#how-to-get-horizontal-review).
-  - [Pubrules](https://www.w3.org/pubrules/) ([publication requirements](https://www.w3.org/pubrules/doc)) and links to related policies (e.g., [namespaces](https://www.w3.org/2005/07/13-nsuri), [MIME type registration](https://www.w3.org/2020/01/registering-mediatypes), [version management](https://www.w3.org/2005/05/tr-versions), and [in-place modifications](standards-track/republishing.md))
+  - [Pubrules](https://www.w3.org/pubrules/) ([publication requirements](https://www.w3.org/pubrules/doc)) and links to related policies (e.g., [namespaces](editor/namespaces.md), [Media type registration](editor/mediatypes.md), [version management](editor/versioning.md), and [in-place modifications](standards-track/republishing.md))
     See also [Pubrules issue management](https://github.com/w3c/specberus/issues)
   - **March 2017**: [Obsoleting and Rescinding W3C Specifications](process/obsolete-rescinded-supserseded.md)
 - [Normative References](process/tilt/normative-references.md); considerations the Team takes into account when evaluating normative references
