@@ -10,7 +10,7 @@ This document does not address:
 - Requirements for documents themselves; see [Technical Report Publication Policy](https://www.w3.org/pubrules/doc) ("pubrules") for this information.
 - What required information must be public; this is covered in [section 7.2](https://www.w3.org/policies/process/#requirements-and-definitions) of the Process Document and in the governing patent policy.
 - Possible next steps after each transition; see the description of the [Recommendation Track Process](https://www.w3.org/policies/process/#Reports).
-- The Comm Team's policy regarding [in-place modification of W3C Technical Reports](https://www.w3.org/2003/01/republishing/).
+- The Comm Team's policy regarding [in-place modification of W3C Technical Reports](../standards-track/republishing.md).
 
 Exceptions to these processes MAY be authorized by [@w3c/transitions](https://github.com/orgs/w3c/teams/transitions).
 
