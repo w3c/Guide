@@ -14,7 +14,7 @@ Exceptions to this policy **MAY** be authorized by the Director.
 
 Groups **SHOULD** use namespace URIs that have the characteristics of uniqueness.
 
-Director approval is NOT REQUIRED when a namespace URI in a Technical Report has any of the following forms:
+Director approval is **NOT REQUIRED** when a namespace URI in a Technical Report has any of the following forms:
 
 - `http://www.w3.org/ns/ssss`
 - `http://www.w3.org/YYYY/MM/ssss`
@@ -30,7 +30,7 @@ A trailing "`/`" **MAY** be used and does not require Director approval.
 
 The W3C Webmaster allocates and authorizes namespace URIs having the forms listed above. W3C provides the service of allocating and maintaining persistent URIs so that those URIs remain stable during discussions. Allocation does **not** imply any endorsement by W3C of the related specifications. The [W3C URI persistence policy](https://www.w3.org/policies/uri-persistence/) only applies to URIs of the above forms, and does not apply to other URIs within w3.org (e.g., those for lists.w3.org).
 
-Director approval is REQUIRED for all other namespace URIs. In particular:
+Director approval is **REQUIRED** for all other namespace URIs. In particular:
 
 - The Director **MAY** authorize a group to use a namespace URI that does not begin with `http://www.w3.org/`. The Director expects the organization that allocates the URI to have a clear persistence policy associated with the URI, to make a commitment to longevity of service, and to provide information about how the URI will be maintained in the event of the demise of the host organization.
 
