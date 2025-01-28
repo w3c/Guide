@@ -7,7 +7,7 @@ toc: true
 
 In discussing this issue, the [W3C Advisory Board](https://www.w3.org/2002/ab/) has maintained that, while Working Groups should be able to move documents as quickly as possible through the [Recommendation track](https://www.w3.org/policies/process/#rec-track), speed was less important than technical quality, interoperability, and consensus and buy-in from the W3C Membership and Web community. Rather than create a special "expedited Recommendation track" which might undermine some of the quality assurance ensured by the current process, this document suggests steps for smoothing a document's way through the existing Recommendation track.
 
-## 1. Build consensus early within W3C
+## Build consensus early within W3C
 
 Build consensus early around the scope of work. Some mechanisms available to Members include:
 
@@ -17,7 +17,7 @@ Build consensus early around the scope of work. Some mechanisms available to Mem
 
 A newly formed Working Group that starts with an already-deployed specification may advance to Candidate Recommendation as quickly as they wish, provided there is agreement in the Working Group to do so. Plan for an early face-to-face meeting for this type of decision.
 
-## 2. Build consensus early in the Web Community
+## Build consensus early in the Web Community
 
 Even when a specification is well-deployed, expect feedback and requests for changes based on broader review than the initial authors. It may take some time to build awareness in other W3C groups, related standards organizations, and in the Web community generally. Some mechanisms that will help secure wide review include:
 
@@ -30,7 +30,7 @@ Even when a specification is well-deployed, expect feedback and requests for cha
 1. Organize press releases with the Communications Team;
 1. Plan for conference presence.
 
-## 3. Dedicate resources to the work
+## Dedicate resources to the work
 
 Members should expect that if they want to get work done faster within the W3C Process, they may need to expend extra resources to do so (e.g., on communications). Some suggested mechanisms:
 
