@@ -103,7 +103,11 @@ In these processes, a group's [Team Contact](../teamcontact/role.md) typically p
 
 ### 2.1. Request for short-term extension  {#extension-request}
 
-The W3C Process describes the [charter extensions](https://www.w3.org/policies/process/#charter-extension) and when they may occur. No Advisory Committee review is required for short-term extensions. Since 2015, the Team has adopted a [policy on group charter end dates](charter-extensions.md): a charter may only be extended without AC review for six months or less, otherwise it must recharter.
+The W3C Process describes the [charter extensions](https://www.w3.org/policies/process/#charter-extension) and when they may occur. No Advisory Committee review is required for short-term extensions.
+
+The Team expects a charter extension to be no more than 6 months. Otherwise the Group must [recharter](#recharter-request) or justification must be provided to explain the delay.
+
+Short-term extensions cannot exceed a total of one year from the original charter end date.
 
 For a short-term extension, the charter shepherd roles are:
 
@@ -119,7 +123,7 @@ Let the group know
 
 ### 2.2. Request for rechartering  {#recharter-request}
 
-A group recharters when it wishes to change its charter or extend it longer than six months.
+A group recharters when it wishes to change its charter or needs long-term extension.
 
 In these processes, the roles of the charter shepherd are:
 
