@@ -1,5 +1,5 @@
 ---
-title: The Zakim IRC Teleconference Agent
+title: Zakim IRC Bot
 toc: yes
 ---
 
