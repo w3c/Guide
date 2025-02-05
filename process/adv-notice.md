@@ -35,7 +35,7 @@ evaluating possible work, and seeks wider feedback.
 
 How/What
 : There is a [template](https://www.w3.org/new-doc-from-template?location=%2FTeam%2F&amp;template=%2Fafs%2Fw3.org%2Fpub%2FWWW%2FTeam%2FTemplates%2Fadv-charter.html&amp;submit=Continue...)
-for advance notice</a>. Please look for recent examples in the
+for advance notice. Please look for recent examples in the
 [w3c-ac-members archive](https://lists.w3.org/Archives/Member/w3c-ac-members/).
 
   The advance notice announcement to the Membership MUST include this
