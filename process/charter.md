@@ -76,7 +76,7 @@ If approved, the charter shepherd works towards Advisory Committee Review.
 In this part of the process, the charter shepherd (on behalf of the Strategy Team) roles are:
 
 Prepare for AC Review
-: Work with the W3C Communications Team to organize Advisory Committee review of a charter (see [implementation details for the review](#organize-cfr)).
+: Work with the W3C Communications Team to organize Advisory Committee review of a charter (see [implementation details for the review](#cfr)).
 
 Monitor AC Review
 : Once the AC Review is underway, monitor responses and [manage any Formal Objections](../council/council.md). Ensure that the charter receives [sufficient support from the Membership](#baseline-support).  
@@ -155,7 +155,7 @@ Parallelize where possible:
 - Start working on resolving Formal Objections to a charter as soon as those are received. Don't wait till the end of the AC review period.
 - Prepare a draft of the W3C Decision announcement before getting the approval from TiLT.
 
-### 3.3. Organizing the Call for Review  {#organize-cfr}
+### 3.3. Organizing the Call for Review  {#cfr}
 
 **Note:** Team Contacts should ensure that their work group participants are aware there is a review in progress.
 
