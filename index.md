@@ -86,7 +86,7 @@ toc: true
 ## Speaking About Your Work {#speaking}
 
 - Blogs, articles, Press interviews: Working Group participants, TAG Members, W3C Staff are among the world's experts in Web technologies and their impacts. Give heads-up, share relevant work, things you author, or press enquiries, by writing to the W3C Communications team <[w3t-pr@w3.org](mailto:w3t-pr@w3.org)> about how you may attribute your work (or not) to W3C.
-- Write on the [W3C Blog](https://www.w3.org/news-events/about-w3c-blog/) (open to W3C Group participants, members of the W3C Team); talks publicized on [W3C home page](https://www.w3.org/), [Public Weekly Newsletter](https://lists.w3.org/Archives/Public/w3c-announce/), W3C Social Media.
+- Write on the [W3C Blog](https://www.w3.org/news-events/about-w3c-blog/) (open to W3C Group participants, members of the W3C Team); talks publicized on [W3C home page](https://www.w3.org/), W3C Social Media.
 - [Press release testimonial guidelines](https://www.w3.org/2004/12/testimonial_pr-guidelines.html)
 - [Creating and delivering effective presentations](https://www.w3.org/wiki/Speaker_Resources)
 - [Making Events Accessible](https://www.w3.org/WAI/teach-advocate/accessible-presentations/)
